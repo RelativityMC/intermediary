@@ -21,7 +21,7 @@ import net.fabricmc.mappingio.format.MappingFormat
 import net.fabricmc.mappingio.adapter.MappingNsCompleter
 
 static List<String> getPublishedVersions() {
-	def xml = new URL("https://repo.codemc.io/repository/relativitymc/org/relativitymc/intermediary-experimental/maven-metadata.xml").text
+	def xml = new URL("https://repo.codemc.io/repository/relativitymc/org/relativitymc/intermediary/maven-metadata.xml").text
 	def metadata = new groovy.xml.XmlSlurper().parseText(xml)
 	def versions = metadata.versioning.versions.version*.text();
 	return versions
@@ -78,7 +78,7 @@ file('mappings').eachFile {
 		publications {
 			create("${mcVer.replace(" ", "")}_mavenJava", MavenPublication) {
 				groupId 'org.relativitymc'
-				artifactId "intermediary-experimental"
+				artifactId "intermediary"
 				version mcVer
 				artifact(makeV1Jar.get().archiveFile) {
 					builtBy makeV1Jar
@@ -115,8 +115,8 @@ publishing {
 			maven {
 				url ENV.MAVEN_URL
 				credentials {
-					username ENV.MAVEN_USERNAME
-					password ENV.MAVEN_PASSWORD
+					username ENV.MAVEN_CRED_USR
+					password ENV.MAVEN_CRED_PSW
 				}
 			}
 		}
