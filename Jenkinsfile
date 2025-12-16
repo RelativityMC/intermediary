@@ -16,12 +16,13 @@ pipeline {
             }
             environment {
                 MAVEN_URL = "https://repo.codemc.io/repository/relativitymc/"
-                MAVEN_CRED = credentials('nexus-repository')
             }
             steps {
                 sh 'git fetch --tags'
                 sh 'git reset --hard'
-                sh './gradlew build publish'
+                withCredentials([usernamePassword(credentialsId: 'nexus-repository', passwordVariable: 'MAVEN_CRED_PSW', usernameVariable: 'MAVEN_CRED_USR')]) {
+                    sh './gradlew build publish'
+                }
             }
             post {
                 failure {
