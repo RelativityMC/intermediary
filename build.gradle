@@ -1,0 +1,124 @@
+buildscript {
+	repositories {
+		maven {
+			name "Fabric Repository"
+			url 'https://maven.fabricmc.net'
+		}
+	}
+
+	dependencies {
+		classpath "net.fabricmc:mapping-io:0.3.0"
+	}
+}
+
+plugins {
+	id 'maven-publish'
+}
+
+import net.fabricmc.mappingio.MappingReader
+import net.fabricmc.mappingio.MappingWriter
+import net.fabricmc.mappingio.format.MappingFormat
+import net.fabricmc.mappingio.adapter.MappingNsCompleter
+
+static List<String> getPublishedVersions() {
+	def xml = new URL("https://repo.codemc.io/repository/relativitymc/org/relativitymc/intermediary-experimental/maven-metadata.xml").text
+	def metadata = new groovy.xml.XmlSlurper().parseText(xml)
+	def versions = metadata.versioning.versions.version*.text();
+	return versions
+}
+
+tasks.register("build")
+
+def publishedVersions = getPublishedVersions()
+
+def ENV = System.getenv()
+
+def published = false
+def localMappingsPath = "$buildDir/v2Mappings"
+new File(localMappingsPath).mkdirs()
+file('mappings').eachFile {
+	if (!it.name.endsWith(".tiny")) return
+
+	def mcVer = it.name.replace(".tiny", "")
+
+	File v1MappingFile = it
+	File v2MappingFile = new File("$localMappingsPath/${it.name}")
+
+	def conversionTask = tasks.register("convert${it.name}ToV2") {
+		group = "V2 Conversion"
+		inputs.file(v1MappingFile)
+		outputs.file(v2MappingFile)
+
+		doLast {
+			MappingWriter.create(v2MappingFile.toPath(), MappingFormat.TINY_2).withCloseable {
+				def visitor = new MappingNsCompleter(it, ["intermediary": "official"], true)
+				MappingReader.read(v1MappingFile.toPath(), visitor)
+			}
+		}
+	}
+
+	def makeV1Jar = makeJar(mcVer, v1MappingFile, false)
+	def makeV2Jar = makeJar(mcVer, v2MappingFile, true)
+	makeV2Jar.configure {
+		dependsOn conversionTask
+	}
+
+	if (publishedVersions.contains(mcVer) && !(ENV.FORCE_PUBLISH == mcVer)) {
+		project.logger.lifecycle("Skipping ${mcVer} as it has already been released")
+		return
+	}
+
+	project.logger.lifecycle("Publishing ${mcVer}")
+	published = true
+
+	build.dependsOn makeV1Jar
+	build.dependsOn makeV2Jar
+
+	publishing {
+		publications {
+			create("${mcVer.replace(" ", "")}_mavenJava", MavenPublication) {
+				groupId 'org.relativitymc'
+				artifactId "intermediary-experimental"
+				version mcVer
+				artifact(makeV1Jar.get().archiveFile) {
+					builtBy makeV1Jar
+				}
+				artifact(makeV2Jar.get().archiveFile) {
+					builtBy makeV2Jar
+					classifier = "v2"
+				}
+			}
+		}
+	}
+}
+
+if (!published) {
+	throw new RuntimeException("Nothing to publish, override with the FORCE_PUBLISH env")
+}
+
+def makeJar(String mcVersion, File mappings, boolean v2) {
+	def jarFilename = "intermediary-" + mcVersion + (v2 ? "-v2" : "") + ".jar"
+	return tasks.register("${mcVersion}_makeJar" + (v2 ? "v2" : ""), Jar) {
+		archiveFileName = jarFilename
+		group = "jar"
+		from(file(mappings)) {
+			into "mappings"
+			rename mappings.name, "mappings.tiny"
+		}
+		destinationDirectory = file("build/jars")
+	}
+}
+
+publishing {
+	repositories {
+		if (ENV.MAVEN_URL) {
+			maven {
+				url ENV.MAVEN_URL
+				credentials {
+					username ENV.MAVEN_USERNAME
+					password ENV.MAVEN_PASSWORD
+				}
+			}
+		}
+	}
+}
