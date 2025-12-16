@@ -29,7 +29,7 @@ static List<String> getPublishedVersions() {
 
 tasks.register("build")
 
-def publishedVersions = getPublishedVersions()
+//def publishedVersions = getPublishedVersions()
 
 def ENV = System.getenv()
 
@@ -63,10 +63,10 @@ file('mappings').eachFile {
 		dependsOn conversionTask
 	}
 
-	if (publishedVersions.contains(mcVer) && !(ENV.FORCE_PUBLISH == mcVer)) {
-		project.logger.lifecycle("Skipping ${mcVer} as it has already been released")
-		return
-	}
+	//if (publishedVersions.contains(mcVer) && !(ENV.FORCE_PUBLISH == mcVer)) {
+	//	project.logger.lifecycle("Skipping ${mcVer} as it has already been released")
+	//	return
+	//}
 
 	project.logger.lifecycle("Publishing ${mcVer}")
 	published = true
