@@ -27,7 +27,7 @@ pipeline {
             post {
                 always {
                     withCredentials([string(credentialsId: 'discord-github-webhook', variable: 'DISCORD_WEBHOOK_URL')]) {
-                        discordSend description: "Jenkins Pipeline Build", link: env.BUILD_URL, result: currentBuild.currentResult, title: env.JOB_NAME, webhookURL: env.DISCORD_WEBHOOK_URL
+                        discordSend description: "Jenkins Pipeline Build", link: env.BUILD_URL, result: currentBuild.currentResult, title: "${env.JOB_NAME} #${currentBuild.number}", webhookURL: env.DISCORD_WEBHOOK_URL
                     }
                 }
                 failure {
