@@ -1,0 +1,299 @@
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/criterion/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/criterion/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/commands/arguments/selector/SelectorPattern;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Read 10326 (6647) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 18946 MethodEntries (0 unique, 10560 classes).
+Collecting additional information...
+- Done. -
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/criterion/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/criterion/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/commands/arguments/selector/SelectorPattern;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Read 10342 (6662) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 18969 MethodEntries (0 unique, 10576 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+FIELD	net/minecraft/tags/ItemTags	Lnet/minecraft/tags/TagKey;	METAL_NUGGETS	field_1_824
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	CAT_AMBIENT_BABY	field_1_825
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	CAT_BEG_FOR_FOOD_BABY	field_1_826
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	CAT_DEATH_BABY	field_1_827
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	CAT_EAT_BABY	field_1_828
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	CAT_HISS_BABY	field_1_829
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	CAT_HURT_BABY	field_1_830
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	CAT_PURREOW_BABY	field_1_831
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	CAT_PURR_BABY	field_1_832
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	CAT_STRAY_AMBIENT_BABY	field_1_833
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	PIG_AMBIENT_BABY	field_1_834
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	PIG_DEATH_BABY	field_1_835
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	PIG_HURT_BABY	field_1_836
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	PIG_STEP_BABY	field_1_837
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/core/Holder$Reference;	WOLF_AMBIENT_BABY	field_1_838
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/core/Holder$Reference;	WOLF_DEATH_BABY	field_1_839
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/core/Holder$Reference;	WOLF_GROWL_BABY	field_1_840
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/core/Holder$Reference;	WOLF_HURT_BABY	field_1_841
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/core/Holder$Reference;	WOLF_PANT_BABY	field_1_842
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/core/Holder$Reference;	WOLF_STEP_BABY	field_1_843
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/core/Holder$Reference;	WOLF_WHINE_BABY	field_1_844
+field_9181 is now comp_1_44
+field_9180 is now comp_1_45
+METHOD	net/minecraft/world/level/ChunkPos	(Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/level/ChunkPos;	containing	method_1_778
+METHOD	net/minecraft/world/level/ChunkPos	(J)Lnet/minecraft/world/level/ChunkPos;	unpack	method_1_779
+FIELD	net/minecraft/world/entity/LivingEntity	I	CURRENT_IMPULSE_CONTEXT_RESET_GRACE_TIME_TICKS	field_1_845
+FIELD	net/minecraft/world/entity/LivingEntity	I	DEFAULT_CURRENT_IMPULSE_CONTEXT_RESET_GRACE_TIME	field_1_846
+FIELD	net/minecraft/world/entity/LivingEntity	Lnet/minecraft/world/entity/Entity;	currentExplosionCause	field_1_847
+FIELD	net/minecraft/world/entity/LivingEntity	I	currentImpulseContextResetGraceTime	field_1_848
+FIELD	net/minecraft/world/entity/LivingEntity	Lnet/minecraft/world/phys/Vec3;	currentImpulseImpactPos	field_1_849
+METHOD	net/minecraft/world/entity/LivingEntity	(I)V	applyPostImpulseGraceTime	method_1_780
+METHOD	net/minecraft/world/entity/LivingEntity	()Z	isIgnoringFallDamageFromCurrentImpulse	method_1_781
+METHOD	net/minecraft/world/entity/LivingEntity	()Z	isInPostImpulseGraceTime	method_1_782
+METHOD	net/minecraft/world/entity/LivingEntity	()V	resetCurrentImpulseContext	method_1_783
+METHOD	net/minecraft/world/entity/LivingEntity	(ZLnet/minecraft/world/phys/Vec3;)V	setIgnoreFallDamageFromCurrentImpulse	method_1_784
+METHOD	net/minecraft/world/entity/LivingEntity	()V	tryResetCurrentImpulseContext	method_1_785
+FIELD	net/minecraft/gametest/framework/TestData	I	padding	comp_1_46
+METHOD	net/minecraft/world/entity/animal/wolf/Wolf	()Lnet/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet;	getSoundSet	method_1_786
+METHOD	net/minecraft/gametest/framework/GameTestHelper	()Lnet/minecraft/world/phys/AABB;	getBoundsWithPadding	method_1_787
+FIELD	net/minecraft/world/entity/animal/rabbit/Rabbit	D	ADULT_JUMP_HEIGHT	field_1_850
+FIELD	net/minecraft/world/entity/animal/rabbit/Rabbit	Lnet/minecraft/world/entity/EntityDimensions;	BABY_DIMENSIONS	field_1_851
+FIELD	net/minecraft/world/entity/animal/rabbit/Rabbit	D	BABY_JUMP_HEIGHT	field_1_852
+FIELD	net/minecraft/world/entity/animal/rabbit/Rabbit	I	IDLE_MINIMAL_DURATION_TICKS	field_1_853
+FIELD	net/minecraft/world/entity/animal/rabbit/Rabbit	I	JUMP_DURATION_IN_TICKS	field_1_854
+FIELD	net/minecraft/world/entity/animal/rabbit/Rabbit	Lnet/minecraft/world/entity/AnimationState;	hopAnimationState	field_1_855
+FIELD	net/minecraft/world/entity/animal/rabbit/Rabbit	I	idleAnimationTimeout	field_1_856
+FIELD	net/minecraft/world/entity/animal/rabbit/Rabbit	Lnet/minecraft/world/entity/AnimationState;	idleHeadTiltAnimationState	field_1_857
+METHOD	net/minecraft/world/entity/animal/rabbit/Rabbit	()V	setupAnimationStates	method_1_788
+METHOD	net/minecraft/world/entity/animal/rabbit/Rabbit	()Z	shouldPlayIdleAnimation	method_1_789
+FIELD	net/minecraft/world/item/trading/VillagerTrades	Lnet/minecraft/resources/ResourceKey;	ARMORER_3_DIAMOND_EMERALD	field_1_858
+FIELD	net/minecraft/world/item/trading/VillagerTrades	Lnet/minecraft/resources/ResourceKey;	TOOLSMITH_4_DIAMOND_EMERALD	field_1_859
+FIELD	net/minecraft/world/item/trading/VillagerTrades	Lnet/minecraft/resources/ResourceKey;	WEAPONSMITH_4_DIAMOND_EMERALD	field_1_860
+CLASS	net/minecraft/client/model/animal/wolf/WolfModel	class_1_73
+FIELD	net/minecraft/client/model/animal/wolf/WolfModel	Lnet/minecraft/client/model/geom/ModelPart;	body	field_1_861
+FIELD	net/minecraft/client/model/animal/wolf/WolfModel	Lnet/minecraft/client/model/geom/ModelPart;	head	field_1_862
+FIELD	net/minecraft/client/model/animal/wolf/WolfModel	Lnet/minecraft/client/model/geom/ModelPart;	leftFrontLeg	field_1_863
+FIELD	net/minecraft/client/model/animal/wolf/WolfModel	Lnet/minecraft/client/model/geom/ModelPart;	leftHindLeg	field_1_864
+FIELD	net/minecraft/client/model/animal/wolf/WolfModel	Lnet/minecraft/client/model/geom/ModelPart;	rightFrontLeg	field_1_865
+FIELD	net/minecraft/client/model/animal/wolf/WolfModel	Lnet/minecraft/client/model/geom/ModelPart;	rightHindLeg	field_1_866
+FIELD	net/minecraft/client/model/animal/wolf/WolfModel	Lnet/minecraft/client/model/geom/ModelPart;	tail	field_1_867
+METHOD	net/minecraft/client/model/animal/wolf/WolfModel	(Lnet/minecraft/client/renderer/entity/state/WolfRenderState;)V	setSittingPose	method_1_790
+METHOD	net/minecraft/client/model/animal/wolf/WolfModel	(Lnet/minecraft/client/renderer/entity/state/WolfRenderState;)V	setupAnim	method_1_791
+METHOD	net/minecraft/client/model/animal/wolf/WolfModel	(Lnet/minecraft/client/renderer/entity/state/WolfRenderState;)V	shakeOffWater	method_1_792
+FIELD	net/minecraft/world/entity/animal/cow/CowVariant	Lnet/minecraft/core/ClientAsset$ResourceTexture;	babyTexture	comp_1_47
+FIELD	net/minecraft/world/entity/animal/pig/PigVariant	Lnet/minecraft/core/ClientAsset$ResourceTexture;	babyTexture	comp_1_48
+METHOD	net/minecraft/gametest/framework/GameTestInstance	()I	padding	method_1_793
+CLASS	net/minecraft/client/model/animal/cow/BabyCowModel	class_1_74
+METHOD	net/minecraft/client/model/animal/cow/BabyCowModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_794
+CLASS	net/minecraft/client/model/animal/pig/BabyPigModel	class_1_75
+METHOD	net/minecraft/client/model/animal/pig/BabyPigModel	(Lnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_795
+FIELD	net/minecraft/client/renderer/entity/SheepRenderer	Lnet/minecraft/resources/Identifier;	SHEEP_BABY_LOCATION	field_1_868
+FIELD	net/minecraft/world/entity/animal/wolf/WolfVariant	Lnet/minecraft/world/entity/animal/wolf/WolfVariant$AssetInfo;	babyInfo	comp_1_49
+FIELD	net/minecraft/client/renderer/entity/OcelotRenderer	Lnet/minecraft/resources/Identifier;	CAT_OCELOT_BABY_LOCATION	field_1_869
+FIELD	net/minecraft/client/renderer/entity/RabbitRenderer	Ljava/util/Map;	BABY_RABBIT_LOCATIONS	field_1_870
+FIELD	net/minecraft/client/renderer/entity/RabbitRenderer	Ljava/util/Map;	RABBIT_LOCATIONS	field_1_871
+FIELD	net/minecraft/client/renderer/entity/RabbitRenderer	Lnet/minecraft/resources/Identifier;	TOAST	field_1_872
+FIELD	net/minecraft/client/renderer/entity/RabbitRenderer	Lnet/minecraft/resources/Identifier;	TOAST_BABY	field_1_873
+FIELD	net/minecraft/world/entity/animal/feline/CatVariant	Lnet/minecraft/core/ClientAsset$ResourceTexture;	adultAssetInfo	comp_1_50
+FIELD	net/minecraft/world/entity/animal/feline/CatVariant	Lnet/minecraft/core/ClientAsset$ResourceTexture;	babyAssetInfo	comp_1_51
+METHOD	net/minecraft/world/entity/animal/feline/CatVariant	(Z)Lnet/minecraft/core/ClientAsset$ResourceTexture;	assetInfo	method_1_796
+METHOD	net/minecraft/world/entity/animal/feline/CatVariant	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$1	method_1_797
+CLASS	net/minecraft/client/model/animal/rabbit/RabbitModel	class_1_76
+FIELD	net/minecraft/client/model/animal/rabbit/RabbitModel	Ljava/lang/String;	BACK_LEGS	field_1_874
+FIELD	net/minecraft/client/model/animal/rabbit/RabbitModel	Ljava/lang/String;	FRONT_LEGS	field_1_875
+FIELD	net/minecraft/client/model/animal/rabbit/RabbitModel	Ljava/lang/String;	LEFT_HAUNCH	field_1_876
+FIELD	net/minecraft/client/model/animal/rabbit/RabbitModel	Ljava/lang/String;	RIGHT_HAUNCH	field_1_877
+FIELD	net/minecraft/client/model/animal/rabbit/RabbitModel	Lnet/minecraft/client/animation/KeyframeAnimation;	hopAnimation	field_1_878
+FIELD	net/minecraft/client/model/animal/rabbit/RabbitModel	Lnet/minecraft/client/animation/KeyframeAnimation;	idleHeadTiltAnimation	field_1_879
+METHOD	net/minecraft/client/model/animal/rabbit/RabbitModel	(Lnet/minecraft/client/renderer/entity/state/RabbitRenderState;)V	setupAnim	method_1_798
+CLASS	net/minecraft/client/model/animal/wolf/BabyWolfModel	class_1_77
+METHOD	net/minecraft/client/model/animal/wolf/BabyWolfModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_799
+FIELD	net/minecraft/client/renderer/state/LevelRenderState	I	lastEntityRenderStateCount	field_1_880
+CLASS	net/minecraft/client/model/animal/feline/BabyCatModel	class_1_78
+FIELD	net/minecraft/client/model/animal/feline/BabyCatModel	Lnet/minecraft/client/model/geom/builders/MeshTransformer;	COLLAR_TRANSFORMER	field_1_881
+CLASS	net/minecraft/client/model/animal/wolf/AdultWolfModel	class_1_79
+FIELD	net/minecraft/client/model/animal/wolf/AdultWolfModel	I	LEG_SIZE	field_1_882
+FIELD	net/minecraft/client/model/animal/wolf/AdultWolfModel	Ljava/lang/String;	REAL_HEAD	field_1_883
+FIELD	net/minecraft/client/model/animal/wolf/AdultWolfModel	Ljava/lang/String;	REAL_TAIL	field_1_884
+FIELD	net/minecraft/client/model/animal/wolf/AdultWolfModel	Ljava/lang/String;	UPPER_BODY	field_1_885
+FIELD	net/minecraft/client/model/animal/wolf/AdultWolfModel	Lnet/minecraft/client/model/geom/ModelPart;	realHead	field_1_886
+FIELD	net/minecraft/client/model/animal/wolf/AdultWolfModel	Lnet/minecraft/client/model/geom/ModelPart;	realTail	field_1_887
+FIELD	net/minecraft/client/model/animal/wolf/AdultWolfModel	Lnet/minecraft/client/model/geom/ModelPart;	upperBody	field_1_888
+METHOD	net/minecraft/client/model/animal/wolf/AdultWolfModel	(Lnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/model/geom/builders/MeshDefinition;	createBodyLayer	method_1_800
+CLASS	net/minecraft/client/model/animal/chicken/ChickenModel	class_1_80
+FIELD	net/minecraft/client/model/animal/chicken/ChickenModel	F	Y_OFFSET	field_1_889
+FIELD	net/minecraft/client/model/animal/chicken/ChickenModel	Lnet/minecraft/client/model/geom/ModelPart;	leftLeg	field_1_890
+FIELD	net/minecraft/client/model/animal/chicken/ChickenModel	Lnet/minecraft/client/model/geom/ModelPart;	leftWing	field_1_891
+FIELD	net/minecraft/client/model/animal/chicken/ChickenModel	Lnet/minecraft/client/model/geom/ModelPart;	rightLeg	field_1_892
+FIELD	net/minecraft/client/model/animal/chicken/ChickenModel	Lnet/minecraft/client/model/geom/ModelPart;	rightWing	field_1_893
+METHOD	net/minecraft/client/model/animal/chicken/ChickenModel	(Lnet/minecraft/client/renderer/entity/state/ChickenRenderState;)V	setupAnim	method_1_801
+FIELD	net/minecraft/client/model/animal/feline/AdultCatModel	Lnet/minecraft/client/model/geom/builders/CubeDeformation;	COLLAR_DEFORMATION	field_1_894
+CLASS	net/minecraft/client/model/animal/sheep/BabySheepModel	class_1_81
+METHOD	net/minecraft/client/model/animal/sheep/BabySheepModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_802
+FIELD	net/minecraft/world/entity/animal/wolf/WolfSoundVariant	Lnet/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet;	adultSounds	comp_1_52
+FIELD	net/minecraft/world/entity/animal/wolf/WolfSoundVariant	Lnet/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet;	babySounds	comp_1_53
+METHOD	net/minecraft/world/entity/animal/wolf/WolfSoundVariant	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$getWolfSoundVariantCodec$0	method_1_803
+CLASS	net/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet	class_1_82
+FIELD	net/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet	Lcom/mojang/serialization/Codec;	CODEC	field_1_895
+FIELD	net/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet	Lnet/minecraft/core/Holder;	ambientSound	comp_1_54
+FIELD	net/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet	Lnet/minecraft/core/Holder;	deathSound	comp_1_55
+FIELD	net/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet	Lnet/minecraft/core/Holder;	growlSound	comp_1_56
+FIELD	net/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet	Lnet/minecraft/core/Holder;	hurtSound	comp_1_57
+FIELD	net/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet	Lnet/minecraft/core/Holder;	pantSound	comp_1_58
+FIELD	net/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet	Lnet/minecraft/core/Holder;	stepSound	comp_1_59
+FIELD	net/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet	Lnet/minecraft/core/Holder;	whineSound	comp_1_60
+METHOD	net/minecraft/world/entity/animal/wolf/WolfSoundVariant$WolfSoundSet	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_804
+CLASS	net/minecraft/client/model/animal/feline/BabyFelineModel	class_1_83
+METHOD	net/minecraft/client/model/animal/feline/BabyFelineModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBabyLayer	method_1_805
+METHOD	net/minecraft/client/model/animal/feline/BabyFelineModel	(Lnet/minecraft/client/renderer/entity/state/FelineRenderState;)V	setupAnim	method_1_806
+CLASS	net/minecraft/client/model/animal/feline/BabyOcelotModel	class_1_84
+CLASS	net/minecraft/client/model/animal/rabbit/BabyRabbitModel	class_1_85
+METHOD	net/minecraft/client/model/animal/rabbit/BabyRabbitModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_807
+CLASS	net/minecraft/client/renderer/entity/MushroomCowRenderer$MushroomCowTexture	class_1_86
+FIELD	net/minecraft/client/renderer/entity/MushroomCowRenderer$MushroomCowTexture	Lnet/minecraft/resources/Identifier;	adult	comp_1_61
+FIELD	net/minecraft/client/renderer/entity/MushroomCowRenderer$MushroomCowTexture	Lnet/minecraft/resources/Identifier;	baby	comp_1_62
+FIELD	net/minecraft/world/entity/animal/chicken/ChickenVariant	Lnet/minecraft/core/ClientAsset$ResourceTexture;	babyTexture	comp_1_63
+CLASS	net/minecraft/client/model/animal/rabbit/AdultRabbitModel	class_1_87
+METHOD	net/minecraft/client/model/animal/rabbit/AdultRabbitModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_808
+CLASS	net/minecraft/client/animation/definitions/RabbitAnimation	class_1_88
+FIELD	net/minecraft/client/animation/definitions/RabbitAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	HOP	field_1_896
+FIELD	net/minecraft/client/animation/definitions/RabbitAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	IDLE_HEAD_TILT	field_1_897
+CLASS	net/minecraft/client/model/animal/chicken/BabyChickenModel	class_1_89
+METHOD	net/minecraft/client/model/animal/chicken/BabyChickenModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_809
+FIELD	net/minecraft/client/renderer/entity/layers/CatCollarLayer	Lnet/minecraft/resources/Identifier;	CAT_BABY_COLLAR_LOCATION	field_1_898
+FIELD	net/minecraft/client/renderer/entity/layers/SheepWoolLayer	Lnet/minecraft/resources/Identifier;	BABY_SHEEP_WOOL_LOCATION	field_1_899
+CLASS	net/minecraft/client/model/animal/chicken/AdultChickenModel	class_1_90
+FIELD	net/minecraft/client/model/animal/chicken/AdultChickenModel	Ljava/lang/String;	RED_THING	field_1_900
+FIELD	net/minecraft/client/model/animal/chicken/AdultChickenModel	Lnet/minecraft/client/model/geom/ModelPart;	head	field_1_901
+METHOD	net/minecraft/client/model/animal/chicken/AdultChickenModel	()Lnet/minecraft/client/model/geom/builders/MeshDefinition;	createBaseChickenModel	method_1_810
+METHOD	net/minecraft/client/model/animal/chicken/AdultChickenModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_811
+FIELD	net/minecraft/client/renderer/entity/layers/WolfCollarLayer	Lnet/minecraft/resources/Identifier;	WOLF_BABY_COLLAR_LOCATION	field_1_902
+CLASS	net/minecraft/client/model/animal/feline/AbstractFelineModel	class_1_91
+FIELD	net/minecraft/client/model/animal/feline/AbstractFelineModel	Ljava/lang/String;	TAIL_1	field_1_903
+FIELD	net/minecraft/client/model/animal/feline/AbstractFelineModel	Ljava/lang/String;	TAIL_2	field_1_904
+FIELD	net/minecraft/client/model/animal/feline/AbstractFelineModel	Lnet/minecraft/client/model/geom/ModelPart;	body	field_1_905
+FIELD	net/minecraft/client/model/animal/feline/AbstractFelineModel	Lnet/minecraft/client/model/geom/ModelPart;	head	field_1_906
+FIELD	net/minecraft/client/model/animal/feline/AbstractFelineModel	Lnet/minecraft/client/model/geom/ModelPart;	leftFrontLeg	field_1_907
+FIELD	net/minecraft/client/model/animal/feline/AbstractFelineModel	Lnet/minecraft/client/model/geom/ModelPart;	leftHindLeg	field_1_908
+FIELD	net/minecraft/client/model/animal/feline/AbstractFelineModel	Lnet/minecraft/client/model/geom/ModelPart;	rightFrontLeg	field_1_909
+FIELD	net/minecraft/client/model/animal/feline/AbstractFelineModel	Lnet/minecraft/client/model/geom/ModelPart;	rightHindLeg	field_1_910
+FIELD	net/minecraft/client/model/animal/feline/AbstractFelineModel	Lnet/minecraft/client/model/geom/ModelPart;	tail1	field_1_911
+FIELD	net/minecraft/client/model/animal/feline/AbstractFelineModel	Lnet/minecraft/client/model/geom/ModelPart;	tail2	field_1_912
+FIELD	net/minecraft/client/renderer/entity/state/RabbitRenderState	Lnet/minecraft/world/entity/AnimationState;	hopAnimationState	field_1_913
+FIELD	net/minecraft/client/renderer/entity/state/RabbitRenderState	Lnet/minecraft/world/entity/AnimationState;	idleHeadTiltAnimationState	field_1_914
+CLASS	net/minecraft/client/animation/definitions/BabyRabbitAnimation	class_1_92
+FIELD	net/minecraft/client/animation/definitions/BabyRabbitAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	HOP	field_1_915
+FIELD	net/minecraft/client/animation/definitions/BabyRabbitAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	IDLE_HEAD_TILT	field_1_916
+METHOD	net/minecraft/world/level/block/entity/TestInstanceBlockEntity	()I	getPadding	method_1_812
+METHOD	net/minecraft/world/level/block/entity/TestInstanceBlockEntity	()Lnet/minecraft/world/level/levelgen/structure/BoundingBox;	getTestBoundingBox	method_1_813
+METHOD	net/minecraft/world/level/block/entity/TestInstanceBlockEntity	()Lnet/minecraft/world/phys/AABB;	getTestBounds	method_1_814
+METHOD	net/minecraft/world/level/block/entity/TestInstanceBlockEntity	(Lnet/minecraft/core/Holder$Reference;)Ljava/lang/Integer;	lambda$getPadding$0	method_1_815
+FIELD	net/minecraft/client/renderer/entity/layers/SheepWoolUndercoatLayer	Lnet/minecraft/client/model/EntityModel;	model	field_1_917
+Done!
