@@ -1,0 +1,711 @@
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/criterion/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/criterion/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/commands/arguments/selector/SelectorPattern;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Read 10342 (6662) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 18969 MethodEntries (0 unique, 10576 classes).
+Collecting additional information...
+- Done. -
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/criterion/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/criterion/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/commands/arguments/selector/SelectorPattern;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Read 10370 (6688) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 19002 MethodEntries (0 unique, 10604 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+METHOD	net/minecraft/core/Holder	()Z	areComponentsBound	method_1_816
+METHOD	net/minecraft/core/Holder	()Lnet/minecraft/core/component/DataComponentMap;	components	comp_1_64
+METHOD	net/minecraft/core/Holder	(Ljava/lang/Object;Lnet/minecraft/core/component/DataComponentMap;)Lnet/minecraft/core/Holder;	direct	method_1_817
+FIELD	net/minecraft/core/Holder$Reference	Lnet/minecraft/core/component/DataComponentMap;	components	field_1_918
+METHOD	net/minecraft/core/Holder$Reference	(Lnet/minecraft/core/component/DataComponentMap;)V	bindComponents	method_1_818
+METHOD	net/minecraft/core/Registry	()Lnet/minecraft/core/component/DataComponentLookup;	componentLookup	method_1_819
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	CANNOT_SUPPORT_KELP	field_1_919
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	CANNOT_SUPPORT_SEAGRASS	field_1_920
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	ENABLES_BUBBLE_COLUMN_DRAG_DOWN	field_1_921
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	ENABLES_BUBBLE_COLUMN_PUSH_UP	field_1_922
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	GROWS_CROPS	field_1_923
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	OVERRIDES_MUSHROOM_LIGHT_REQUIREMENT	field_1_924
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_AZALEA	field_1_925
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_CACTUS	field_1_926
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_CHORUS_FLOWER	field_1_927
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_CHORUS_PLANT	field_1_928
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_COCOA	field_1_929
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_CRIMSON_FUNGUS	field_1_930
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_CRIMSON_ROOTS	field_1_931
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_CROPS	field_1_932
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_FROGSPAWN	field_1_933
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_HANGING_MANGROVE_PROPAGULE	field_1_934
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_LILY_PAD	field_1_935
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_MANGROVE_PROPAGULE	field_1_936
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_MELON_STEM	field_1_937
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_NETHER_SPROUTS	field_1_938
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_NETHER_WART	field_1_939
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_PUMPKIN_STEM	field_1_940
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_STEM_CROPS	field_1_941
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_SUGAR_CANE	field_1_942
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_SUGAR_CANE_ADJACENTLY	field_1_943
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_VEGETATION	field_1_944
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_WARPED_FUNGUS	field_1_945
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_WARPED_ROOTS	field_1_946
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_WITHER_ROSE	field_1_947
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUPPORT_OVERRIDE_CACTUS_FLOWER	field_1_948
+FIELD	net/minecraft/tags/FluidTags	Lnet/minecraft/tags/TagKey;	BUBBLE_COLUMN_CAN_OCCUPY	field_1_949
+FIELD	net/minecraft/tags/FluidTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_FROGSPAWN	field_1_950
+FIELD	net/minecraft/tags/FluidTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_LILY_PAD	field_1_951
+FIELD	net/minecraft/tags/FluidTags	Lnet/minecraft/tags/TagKey;	SUPPORTS_SUGAR_CANE_ADJACENTLY	field_1_952
+METHOD	net/minecraft/data/PackOutput	(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/data/PackOutput$PathProvider;	createRegistryComponentPathProvider	method_1_820
+FIELD	net/minecraft/world/item/Item	Lcom/mojang/serialization/Codec;	CODEC_WITH_BOUND_COMPONENTS	field_1_953
+METHOD	net/minecraft/world/item/Item	(Lnet/minecraft/core/Holder;)Lcom/mojang/serialization/DataResult;	lambda$static$2	method_1_821
+METHOD	net/minecraft/world/item/Item	(Lnet/minecraft/core/Holder;)Ljava/lang/String;	lambda$static$3	method_1_822
+FIELD	net/minecraft/world/item/Item$Properties	Lnet/minecraft/core/component/DataComponentInitializers$Initializer;	componentInitializer	field_1_954
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/core/component/DataComponentType;Ljava/lang/Object;)Lnet/minecraft/world/item/Item$Properties;	component	method_1_823
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/world/item/Item;)Lnet/minecraft/world/item/Item$Properties;	craftRemainder	method_1_824
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/world/item/ItemStackTemplate;)Lnet/minecraft/world/item/Item$Properties;	craftRemainder	method_1_825
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/core/component/DataComponentType;Lnet/minecraft/core/component/DataComponentInitializers$SingleComponentInitializer;)Lnet/minecraft/world/item/Item$Properties;	delayedComponent	method_1_826
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/core/component/DataComponentType;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/item/Item$Properties;	delayedHolderComponent	method_1_827
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/network/chat/Component;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/core/component/DataComponentInitializers$Initializer;	finalizeInitializer	method_1_828
+METHOD	net/minecraft/world/item/Item$Properties	()Lnet/minecraft/resources/ResourceKey;	itemIdOrThrow	method_1_829
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/core/component/DataComponentType;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/component/DataComponentMap$Builder;Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/resources/ResourceKey;)V	lambda$delayedHolderComponent$0	method_1_830
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/network/chat/Component;Lnet/minecraft/resources/Identifier;Lnet/minecraft/core/component/DataComponentMap$Builder;Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/resources/ResourceKey;)V	lambda$finalizeInitializer$0	method_1_831
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/core/component/DataComponentMap;)V	lambda$finalizeInitializer$1	method_1_832
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/JukeboxPlayable;	lambda$jukeboxPlayable$0	method_1_833
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/core/component/DataComponentMap$Builder;Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/resources/ResourceKey;)V	lambda$new$0	method_1_834
+FIELD	net/minecraft/world/phys/Vec3	Lnet/minecraft/network/codec/StreamCodec;	LP_STREAM_CODEC	field_1_955
+METHOD	net/minecraft/data/BlockFamily$Builder	(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;	bricks	method_1_835
+METHOD	net/minecraft/data/BlockFamily$Builder	(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily$Builder;	tiles	method_1_836
+FIELD	net/minecraft/data/BlockFamily$Variant	Lnet/minecraft/data/BlockFamily$Variant;	BRICKS	field_1_956
+FIELD	net/minecraft/data/BlockFamily$Variant	Lnet/minecraft/data/BlockFamily$Variant;	TILES	field_1_957
+METHOD	net/minecraft/world/entity/Mob	()Lnet/minecraft/world/entity/LivingEntity;	getTargetUnchecked	method_1_837
+METHOD	net/minecraft/world/item/Items	(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/component/InstrumentComponent;	lambda$static$179	method_1_838
+METHOD	net/minecraft/world/level/Level	()Lnet/minecraft/world/clock/ClockManager;	clockManager	method_1_839
+METHOD	net/minecraft/world/level/Level	()J	getOverworldClockTime	method_1_840
+METHOD	net/minecraft/world/level/Level	()Ljava/lang/String;	lambda$fillReportDetails$2	method_1_841
+FIELD	net/minecraft/core/MappedRegistry	Lnet/minecraft/core/component/DataComponentLookup;	componentLookup	field_1_958
+METHOD	net/minecraft/world/item/ItemStack	(Ljava/lang/Iterable;)Lcom/mojang/serialization/DataResult;	validateContainedItemSizes	method_1_842
+FIELD	net/minecraft/world/InteractionHand	Ljava/util/function/IntFunction;	BY_ID	field_1_959
+FIELD	net/minecraft/world/InteractionHand	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_960
+FIELD	net/minecraft/world/InteractionHand	I	id	field_1_961
+METHOD	net/minecraft/world/InteractionHand	(Lnet/minecraft/world/InteractionHand;)I	lambda$static$0	method_1_843
+METHOD	net/minecraft/world/InteractionHand	(Lnet/minecraft/world/InteractionHand;)I	lambda$static$1	method_1_844
+METHOD	net/minecraft/world/entity/ai/Brain	(Ljava/util/Collection;)Lnet/minecraft/world/entity/ai/Brain$Provider;	provider	method_1_845
+METHOD	net/minecraft/world/item/BundleItem	(Lnet/minecraft/world/item/component/BundleContents;)Lorg/apache/commons/lang3/math/Fraction;	getWeightSafe	method_1_846
+FIELD	net/minecraft/server/MinecraftServer	Lnet/minecraft/world/clock/ServerClockManager;	clockManager	field_1_962
+METHOD	net/minecraft/server/MinecraftServer	()Lnet/minecraft/world/clock/ServerClockManager;	clockManager	method_1_847
+METHOD	net/minecraft/server/MinecraftServer	()Lnet/minecraft/world/level/gamerules/GameRules;	getGlobalGameRules	method_1_848
+CLASS	net/minecraft/world/clock/ClockState	class_1_93
+FIELD	net/minecraft/world/clock/ClockState	Lcom/mojang/serialization/Codec;	CODEC	field_1_963
+FIELD	net/minecraft/world/clock/ClockState	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_964
+FIELD	net/minecraft/world/clock/ClockState	Z	paused	comp_1_65
+FIELD	net/minecraft/world/clock/ClockState	J	totalTicks	comp_1_66
+METHOD	net/minecraft/world/clock/ClockState	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_849
+CLASS	net/minecraft/world/clock/WorldClock	class_1_94
+FIELD	net/minecraft/world/clock/WorldClock	Lcom/mojang/serialization/Codec;	CODEC	field_1_965
+FIELD	net/minecraft/world/clock/WorldClock	Lcom/mojang/serialization/Codec;	DIRECT_CODEC	field_1_966
+FIELD	net/minecraft/world/clock/WorldClock	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_967
+METHOD	net/minecraft/world/entity/raid/Raid	(Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/core/component/DataComponentPatch;	getBannerComponentPatch	method_1_850
+METHOD	net/minecraft/world/entity/raid/Raid	(Lnet/minecraft/core/HolderGetter;)Lnet/minecraft/world/item/ItemStackTemplate;	getOminousBannerTemplate	method_1_851
+CLASS	net/minecraft/world/clock/WorldClocks	class_1_95
+FIELD	net/minecraft/world/clock/WorldClocks	Lnet/minecraft/resources/ResourceKey;	OVERWORLD	field_1_968
+METHOD	net/minecraft/world/clock/WorldClocks	(Lnet/minecraft/data/worldgen/BootstrapContext;)V	bootstrap	method_1_852
+METHOD	net/minecraft/world/clock/WorldClocks	(Ljava/lang/String;)Lnet/minecraft/resources/ResourceKey;	key	method_1_853
+METHOD	net/minecraft/world/entity/NeutralMob	()Lnet/minecraft/world/entity/LivingEntity;	getTargetUnchecked	method_1_837
+CLASS	net/minecraft/world/item/ItemInstance	class_1_96
+FIELD	net/minecraft/world/item/ItemInstance	Ljava/lang/String;	FIELD_COMPONENTS	field_1_969
+FIELD	net/minecraft/world/item/ItemInstance	Ljava/lang/String;	FIELD_COUNT	field_1_970
+FIELD	net/minecraft/world/item/ItemInstance	Ljava/lang/String;	FIELD_ID	field_1_971
+METHOD	net/minecraft/world/item/ItemInstance	()I	count	comp_1_67
+METHOD	net/minecraft/world/item/ItemInstance	()I	getMaxStackSize	method_1_854
+METHOD	net/minecraft/world/item/SpawnEggItem	(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/item/component/TypedEntityData;)Z	lambda$byId$0	method_1_855
+FIELD	net/minecraft/world/timeline/Timeline	Lnet/minecraft/core/Holder;	clock	field_1_972
+FIELD	net/minecraft/world/timeline/Timeline	Ljava/util/Map;	timeMarkers	field_1_973
+METHOD	net/minecraft/world/timeline/Timeline	()Lnet/minecraft/core/Holder;	clock	method_1_856
+METHOD	net/minecraft/world/timeline/Timeline	(Lnet/minecraft/world/clock/ClockManager;)I	getPeriodCount	method_1_857
+METHOD	net/minecraft/world/timeline/Timeline	(Lnet/minecraft/world/timeline/Timeline;)Lnet/minecraft/core/Holder;	lambda$static$1	method_1_858
+METHOD	net/minecraft/world/timeline/Timeline	(Lnet/minecraft/world/timeline/Timeline;)Ljava/util/Map;	lambda$static$4	method_1_859
+METHOD	net/minecraft/world/timeline/Timeline	(Ljava/util/Map$Entry;I)Ljava/lang/String;	lambda$validateInternal$0	method_1_860
+METHOD	net/minecraft/world/timeline/Timeline	(Lcom/google/common/collect/Multimap;Ljava/util/Map;Lnet/minecraft/core/Holder$Reference;)V	lambda$validateRegistry$0	method_1_861
+METHOD	net/minecraft/world/timeline/Timeline	(Ljava/util/function/BiConsumer;)V	registerTimeMarkers	method_1_862
+METHOD	net/minecraft/world/timeline/Timeline	(Lnet/minecraft/core/Registry;Ljava/util/Map;)V	validateRegistry	method_1_863
+FIELD	net/minecraft/world/timeline/Timeline$Builder	Lnet/minecraft/core/Holder;	clock	field_1_974
+FIELD	net/minecraft/world/timeline/Timeline$Builder	Lcom/google/common/collect/ImmutableMap$Builder;	timeMarkers	field_1_975
+METHOD	net/minecraft/world/timeline/Timeline$Builder	(Lnet/minecraft/resources/ResourceKey;I)Lnet/minecraft/world/timeline/Timeline$Builder;	addTimeMarker	method_1_864
+METHOD	net/minecraft/world/timeline/Timeline$Builder	(Lnet/minecraft/resources/ResourceKey;IZ)Lnet/minecraft/world/timeline/Timeline$Builder;	addTimeMarker	method_1_865
+CLASS	net/minecraft/world/timeline/Timeline$TimeMarkerInfo	class_1_97
+FIELD	net/minecraft/world/timeline/Timeline$TimeMarkerInfo	Lcom/mojang/serialization/Codec;	CODEC	field_1_976
+FIELD	net/minecraft/world/timeline/Timeline$TimeMarkerInfo	Lcom/mojang/serialization/Codec;	FULL_CODEC	field_1_977
+FIELD	net/minecraft/world/timeline/Timeline$TimeMarkerInfo	Z	showInCommands	comp_1_68
+FIELD	net/minecraft/world/timeline/Timeline$TimeMarkerInfo	I	ticks	comp_1_69
+METHOD	net/minecraft/world/timeline/Timeline$TimeMarkerInfo	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_866
+METHOD	net/minecraft/world/timeline/Timeline$TimeMarkerInfo	(Lcom/mojang/datafixers/util/Either;)Lnet/minecraft/world/timeline/Timeline$TimeMarkerInfo;	lambda$static$1	method_1_867
+METHOD	net/minecraft/world/timeline/Timeline$TimeMarkerInfo	(Ljava/lang/Integer;)Lnet/minecraft/world/timeline/Timeline$TimeMarkerInfo;	lambda$static$2	method_1_868
+METHOD	net/minecraft/world/timeline/Timeline$TimeMarkerInfo	(Lnet/minecraft/world/timeline/Timeline$TimeMarkerInfo;)Lnet/minecraft/world/timeline/Timeline$TimeMarkerInfo;	lambda$static$3	method_1_869
+METHOD	net/minecraft/world/timeline/Timeline$TimeMarkerInfo	(Lnet/minecraft/world/timeline/Timeline$TimeMarkerInfo;)Lcom/mojang/datafixers/util/Either;	lambda$static$4	method_1_870
+METHOD	net/minecraft/server/level/ServerLevel	()Lnet/minecraft/world/clock/ServerClockManager;	clockManager	method_1_871
+CLASS	net/minecraft/world/clock/ClockManager	class_1_98
+METHOD	net/minecraft/world/clock/ClockManager	(Lnet/minecraft/core/Holder;)J	getTotalTicks	method_1_872
+CLASS	net/minecraft/world/clock/package-info	class_1_99
+METHOD	net/minecraft/world/level/block/Blocks	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;	lambda$static$385	method_1_873
+METHOD	net/minecraft/world/level/block/Blocks	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;	lambda$static$388	method_1_874
+METHOD	net/minecraft/world/level/block/Blocks	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;	lambda$static$470	method_1_875
+METHOD	net/minecraft/world/level/block/Blocks	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;	lambda$static$471	method_1_876
+METHOD	net/minecraft/world/level/block/Blocks	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;	lambda$static$478	method_1_877
+METHOD	net/minecraft/world/level/block/Blocks	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;	lambda$static$479	method_1_878
+CLASS	net/minecraft/client/ClientClockManager	class_1_100
+FIELD	net/minecraft/client/ClientClockManager	Ljava/util/Map;	clocks	field_1_978
+FIELD	net/minecraft/client/ClientClockManager	J	lastTickGameTime	field_1_979
+METHOD	net/minecraft/client/ClientClockManager	(Lnet/minecraft/core/Holder;)Lnet/minecraft/client/ClientClockManager$ClockInstance;	getInstance	method_1_879
+METHOD	net/minecraft/client/ClientClockManager	(JLjava/util/Map;)V	handleUpdates	method_1_880
+METHOD	net/minecraft/client/ClientClockManager	(Lnet/minecraft/core/Holder;)Lnet/minecraft/client/ClientClockManager$ClockInstance;	lambda$getInstance$0	method_1_881
+METHOD	net/minecraft/client/ClientClockManager	(Lnet/minecraft/core/Holder;Lnet/minecraft/world/clock/ClockState;)V	lambda$handleUpdates$0	method_1_882
+METHOD	net/minecraft/client/ClientClockManager	(J)V	tick	method_1_883
+CLASS	net/minecraft/client/ClientClockManager$ClockInstance	class_1_101
+FIELD	net/minecraft/client/ClientClockManager$ClockInstance	Z	paused	field_1_980
+FIELD	net/minecraft/client/ClientClockManager$ClockInstance	J	totalTicks	field_1_981
+METHOD	net/minecraft/world/entity/LivingEntity	(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/component/AttackRange;	getAttackRangeWith	method_1_884
+FIELD	net/minecraft/core/registries/Registries	Lnet/minecraft/resources/ResourceKey;	WORLD_CLOCK	field_1_982
+METHOD	net/minecraft/core/registries/Registries	(Lnet/minecraft/resources/ResourceKey;)Ljava/lang/String;	componentsDirPath	method_1_885
+METHOD	net/minecraft/core/registries/Registries	(Lnet/minecraft/resources/ResourceKey;)Ljava/lang/String;	registryDirPath	method_1_886
+METHOD	net/minecraft/data/recipes/RecipeBuilder	()Lnet/minecraft/resources/ResourceKey;	defaultId	method_1_887
+CLASS	net/minecraft/resources/RegistryLoadTask	class_1_102
+FIELD	net/minecraft/resources/RegistryLoadTask	Lnet/minecraft/core/registries/ConcurrentHolderGetter;	concurrentRegistrationGetter	field_1_983
+FIELD	net/minecraft/resources/RegistryLoadTask	Lnet/minecraft/resources/RegistryDataLoader$RegistryData;	data	field_1_984
+FIELD	net/minecraft/resources/RegistryLoadTask	Z	elementsRegistered	field_1_985
+FIELD	net/minecraft/resources/RegistryLoadTask	Ljava/util/Map;	loadingErrors	field_1_986
+FIELD	net/minecraft/resources/RegistryLoadTask	Lnet/minecraft/core/WritableRegistry;	registry	field_1_987
+FIELD	net/minecraft/resources/RegistryLoadTask	Ljava/lang/Object;	registryWriteLock	field_1_988
+METHOD	net/minecraft/resources/RegistryLoadTask	()Lnet/minecraft/resources/RegistryOps$RegistryInfo;	createRegistryInfo	method_1_888
+METHOD	net/minecraft/resources/RegistryLoadTask	(Ljava/util/Map;)Z	freezeRegistry	method_1_889
+METHOD	net/minecraft/resources/RegistryLoadTask	(Lnet/minecraft/resources/RegistryLoadTask$PendingRegistration;)V	lambda$registerElements$0	method_1_890
+METHOD	net/minecraft/resources/RegistryLoadTask	(Lnet/minecraft/resources/RegistryLoadTask$PendingRegistration;Ljava/lang/Object;)V	lambda$registerElements$1	method_1_891
+METHOD	net/minecraft/resources/RegistryLoadTask	(Lnet/minecraft/resources/RegistryLoadTask$PendingRegistration;Ljava/lang/Exception;)V	lambda$registerElements$2	method_1_892
+METHOD	net/minecraft/resources/RegistryLoadTask	()Lnet/minecraft/core/Registry;	readOnlyRegistry	method_1_893
+METHOD	net/minecraft/resources/RegistryLoadTask	(Ljava/util/stream/Stream;)V	registerElements	method_1_894
+METHOD	net/minecraft/resources/RegistryLoadTask	(Ljava/util/Map;)V	registerTags	method_1_895
+METHOD	net/minecraft/resources/RegistryLoadTask	()Lnet/minecraft/resources/ResourceKey;	registryKey	method_1_896
+METHOD	net/minecraft/resources/RegistryLoadTask	(Ljava/util/Map;)Ljava/util/Optional;	validateRegistry	method_1_897
+FIELD	net/minecraft/world/item/JukeboxPlayable	Lnet/minecraft/core/Holder;	song	comp_1_70
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/item/crafting/Ingredient;)Lnet/minecraft/data/recipes/RecipeBuilder;	bricksBuilder	method_1_898
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/data/recipes/RecipeBuilder;	lambda$static$15	method_1_899
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/data/recipes/RecipeBuilder;	lambda$static$16	method_1_900
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Ljava/util/List;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/item/crafting/CookingBookCategory;Lnet/minecraft/world/level/ItemLike;FILjava/lang/String;)V	oreBlasting	method_1_901
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Ljava/util/List;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/item/crafting/CookingBookCategory;Lnet/minecraft/world/level/ItemLike;FILjava/lang/String;)V	oreSmelting	method_1_902
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/item/crafting/Ingredient;)Lnet/minecraft/data/recipes/RecipeBuilder;	tilesBuilder	method_1_903
+CLASS	net/minecraft/resources/RegistryValidator	class_1_103
+FIELD	net/minecraft/resources/RegistryValidator	Lnet/minecraft/resources/RegistryValidator;	NONE	field_1_989
+FIELD	net/minecraft/resources/RegistryValidator	Lnet/minecraft/resources/RegistryValidator;	NON_EMPTY	field_1_990
+METHOD	net/minecraft/resources/RegistryValidator	(Lnet/minecraft/core/Registry;Ljava/util/Map;)V	lambda$static$0	method_1_904
+METHOD	net/minecraft/resources/RegistryValidator	(Lnet/minecraft/core/Registry;Ljava/util/Map;)V	lambda$static$1	method_1_905
+METHOD	net/minecraft/resources/RegistryValidator	()Lnet/minecraft/resources/RegistryValidator;	nonEmpty	method_1_906
+METHOD	net/minecraft/resources/RegistryValidator	()Lnet/minecraft/resources/RegistryValidator;	none	method_1_907
+METHOD	net/minecraft/resources/RegistryValidator	(Lnet/minecraft/core/Registry;Ljava/util/Map;)V	validate	method_1_908
+FIELD	net/minecraft/server/commands/TimeCommand	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	ERROR_NO_DEFAULT_CLOCK	field_1_991
+FIELD	net/minecraft/server/commands/TimeCommand	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	ERROR_NO_TIME_MARKER_FOUND	field_1_992
+FIELD	net/minecraft/server/commands/TimeCommand	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	ERROR_WRONG_TIMELINE_FOR_CLOCK	field_1_993
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/commands/CommandBuildContext;Lcom/mojang/brigadier/builder/ArgumentBuilder;Lnet/minecraft/server/commands/TimeCommand$ClockGetter;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	addClockNodes	method_1_909
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder;I)I	addTime	method_1_910
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/commands/CommandSourceStack;)Lnet/minecraft/core/Holder;	getDefaultClock	method_1_911
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/server/commands/TimeCommand$ClockGetter;Lcom/mojang/brigadier/context/CommandContext;)I	lambda$addClockNodes$0	method_1_912
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/server/commands/TimeCommand$ClockGetter;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$addClockNodes$1	method_1_913
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/server/commands/TimeCommand$ClockGetter;Lcom/mojang/brigadier/context/CommandContext;)I	lambda$addClockNodes$2	method_1_914
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/server/commands/TimeCommand$ClockGetter;Lcom/mojang/brigadier/context/CommandContext;)I	lambda$addClockNodes$3	method_1_915
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/server/commands/TimeCommand$ClockGetter;Lcom/mojang/brigadier/context/CommandContext;)I	lambda$addClockNodes$4	method_1_916
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/server/commands/TimeCommand$ClockGetter;Lcom/mojang/brigadier/context/CommandContext;)I	lambda$addClockNodes$5	method_1_917
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/server/commands/TimeCommand$ClockGetter;Lcom/mojang/brigadier/context/CommandContext;)I	lambda$addClockNodes$6	method_1_918
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/server/commands/TimeCommand$ClockGetter;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$addClockNodes$7	method_1_919
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/server/commands/TimeCommand$ClockGetter;Lcom/mojang/brigadier/context/CommandContext;)I	lambda$addClockNodes$8	method_1_920
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/server/commands/TimeCommand$ClockGetter;Lcom/mojang/brigadier/context/CommandContext;)I	lambda$addClockNodes$9	method_1_921
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/core/Holder;J)Lnet/minecraft/network/chat/Component;	lambda$addTime$0	method_1_922
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/core/Holder;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	lambda$getDefaultClock$0	method_1_923
+METHOD	net/minecraft/server/commands/TimeCommand	(J)Lnet/minecraft/network/chat/Component;	lambda$queryGameTime$0	method_1_924
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/core/Holder;J)Lnet/minecraft/network/chat/Component;	lambda$queryTime$0	method_1_925
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/core/Holder;J)Lnet/minecraft/network/chat/Component;	lambda$queryTimelineRepetitions$0	method_1_926
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/core/Holder;J)Lnet/minecraft/network/chat/Component;	lambda$queryTimelineTicks$0	method_1_927
+METHOD	net/minecraft/server/commands/TimeCommand	(Lcom/mojang/brigadier/context/CommandContext;)Lnet/minecraft/core/Holder;	lambda$register$0	method_1_928
+METHOD	net/minecraft/server/commands/TimeCommand	(Lcom/mojang/brigadier/context/CommandContext;)Lnet/minecraft/core/Holder;	lambda$register$2	method_1_929
+METHOD	net/minecraft/server/commands/TimeCommand	(ZLnet/minecraft/core/Holder;)Lnet/minecraft/network/chat/Component;	lambda$setPaused$0	method_1_930
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/network/chat/Component;	lambda$setTimeToTimeMarker$0	method_1_931
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/core/Holder;I)Lnet/minecraft/network/chat/Component;	lambda$setTotalTicks$0	method_1_932
+METHOD	net/minecraft/server/commands/TimeCommand	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	lambda$static$0	method_1_933
+METHOD	net/minecraft/server/commands/TimeCommand	(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	lambda$static$1	method_1_934
+METHOD	net/minecraft/server/commands/TimeCommand	(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	lambda$static$2	method_1_935
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder$Reference;)Z	lambda$suggestTimelines$0	method_1_936
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder;)I	queryTime	method_1_937
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)I	queryTimelineRepetitions	method_1_938
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)I	queryTimelineTicks	method_1_939
+METHOD	net/minecraft/server/commands/TimeCommand	(Lcom/mojang/brigadier/CommandDispatcher;Lnet/minecraft/commands/CommandBuildContext;)V	register	method_1_940
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder;Z)I	setPaused	method_1_941
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder;Lnet/minecraft/resources/ResourceKey;)I	setTimeToTimeMarker	method_1_942
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder;I)I	setTotalTicks	method_1_943
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/commands/CommandSourceStack;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Lnet/minecraft/core/Holder;)Ljava/util/concurrent/CompletableFuture;	suggestTimeMarkers	method_1_944
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/commands/CommandSourceStack;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Lnet/minecraft/core/Holder;)Ljava/util/concurrent/CompletableFuture;	suggestTimelines	method_1_945
+METHOD	net/minecraft/server/commands/TimeCommand	(J)I	wrapTime	method_1_946
+CLASS	net/minecraft/server/commands/TimeCommand$ClockGetter	class_1_104
+METHOD	net/minecraft/server/commands/TimeCommand$ClockGetter	(Lcom/mojang/brigadier/context/CommandContext;)Lnet/minecraft/core/Holder;	getClock	method_1_947
+CLASS	net/minecraft/world/clock/ClockTimeMarker	class_1_105
+FIELD	net/minecraft/world/clock/ClockTimeMarker	Lcom/mojang/serialization/Codec;	KEY_CODEC	field_1_994
+FIELD	net/minecraft/world/clock/ClockTimeMarker	Lnet/minecraft/core/Holder;	clock	comp_1_71
+FIELD	net/minecraft/world/clock/ClockTimeMarker	Ljava/util/Optional;	periodTicks	comp_1_72
+FIELD	net/minecraft/world/clock/ClockTimeMarker	Z	showInCommands	comp_1_73
+FIELD	net/minecraft/world/clock/ClockTimeMarker	I	ticks	comp_1_74
+METHOD	net/minecraft/world/clock/ClockTimeMarker	(IJJ)J	durationToNext	method_1_948
+METHOD	net/minecraft/world/clock/ClockTimeMarker	(J)J	getNextOccurenceAfter	method_1_949
+METHOD	net/minecraft/world/clock/ClockTimeMarker	(J)J	getRepetitionCount	method_1_950
+METHOD	net/minecraft/world/clock/ClockTimeMarker	(J)Z	occursAt	method_1_951
+FIELD	net/minecraft/world/level/block/StemBlock	Lnet/minecraft/tags/TagKey;	supportBlocks	field_1_995
+METHOD	net/minecraft/world/level/block/StemBlock	(Lnet/minecraft/world/level/block/StemBlock;)Lnet/minecraft/tags/TagKey;	lambda$static$4	method_1_952
+METHOD	net/minecraft/resources/RegistryDataLoader	(Ljava/util/Map;Lnet/minecraft/resources/RegistryLoadTask;)Z	lambda$load$3	method_1_953
+METHOD	net/minecraft/resources/RegistryDataLoader	(Ljava/util/Map;Lnet/minecraft/resources/RegistryLoadTask;)Ljava/util/stream/Stream;	lambda$load$4	method_1_954
+FIELD	net/minecraft/resources/RegistryDataLoader$RegistryData	Lnet/minecraft/resources/RegistryValidator;	validator	comp_1_75
+METHOD	net/minecraft/server/commands/SwingCommand	(Lcom/mojang/brigadier/context/CommandContext;)I	lambda$register$0	method_1_955
+METHOD	net/minecraft/server/commands/SwingCommand	(Lcom/mojang/brigadier/context/CommandContext;)I	lambda$register$1	method_1_956
+CLASS	net/minecraft/world/clock/ClockTimeMarkers	class_1_106
+FIELD	net/minecraft/world/clock/ClockTimeMarkers	Lnet/minecraft/resources/ResourceKey;	DAY	field_1_996
+FIELD	net/minecraft/world/clock/ClockTimeMarkers	Lnet/minecraft/resources/ResourceKey;	MIDNIGHT	field_1_997
+FIELD	net/minecraft/world/clock/ClockTimeMarkers	Lnet/minecraft/resources/ResourceKey;	NIGHT	field_1_998
+FIELD	net/minecraft/world/clock/ClockTimeMarkers	Lnet/minecraft/resources/ResourceKey;	NOON	field_1_999
+FIELD	net/minecraft/world/clock/ClockTimeMarkers	Lnet/minecraft/resources/ResourceKey;	ROLL_VILLAGE_SIEGE	field_1_1000
+FIELD	net/minecraft/world/clock/ClockTimeMarkers	Lnet/minecraft/resources/ResourceKey;	ROOT_ID	field_1_1001
+FIELD	net/minecraft/world/clock/ClockTimeMarkers	Lnet/minecraft/resources/ResourceKey;	WAKE_UP_FROM_SLEEP	field_1_1002
+METHOD	net/minecraft/world/clock/ClockTimeMarkers	(Ljava/lang/String;)Lnet/minecraft/resources/ResourceKey;	createKey	method_1_957
+CLASS	net/minecraft/world/item/ItemStackTemplate	class_1_107
+FIELD	net/minecraft/world/item/ItemStackTemplate	Lcom/mojang/serialization/Codec;	CODEC	field_1_1003
+FIELD	net/minecraft/world/item/ItemStackTemplate	Lorg/slf4j/Logger;	LOGGER	field_1_1004
+FIELD	net/minecraft/world/item/ItemStackTemplate	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1005
+FIELD	net/minecraft/world/item/ItemStackTemplate	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1006
+FIELD	net/minecraft/world/item/ItemStackTemplate	Lnet/minecraft/core/component/DataComponentPatch;	components	comp_1_76
+FIELD	net/minecraft/world/item/ItemStackTemplate	Lnet/minecraft/core/Holder;	item	comp_1_77
+METHOD	net/minecraft/world/item/ItemStackTemplate	(Lnet/minecraft/core/component/DataComponentPatch;)Lnet/minecraft/world/item/ItemStack;	apply	method_1_958
+METHOD	net/minecraft/world/item/ItemStackTemplate	()Lnet/minecraft/world/item/ItemStack;	create	method_1_959
+METHOD	net/minecraft/world/item/ItemStackTemplate	(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStackTemplate;	fromNonEmptyStack	method_1_960
+METHOD	net/minecraft/world/item/ItemStackTemplate	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_961
+METHOD	net/minecraft/world/item/ItemStackTemplate	(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$1	method_1_962
+METHOD	net/minecraft/world/item/ItemStackTemplate	(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;	validate	method_1_963
+CLASS	net/minecraft/world/clock/PackedClockStates	class_1_108
+FIELD	net/minecraft/world/clock/PackedClockStates	Lcom/mojang/serialization/Codec;	CODEC	field_1_1007
+FIELD	net/minecraft/world/clock/PackedClockStates	Lnet/minecraft/world/clock/PackedClockStates;	EMPTY	field_1_1008
+FIELD	net/minecraft/world/clock/PackedClockStates	Ljava/util/Map;	clocks	comp_1_78
+FIELD	net/minecraft/world/level/block/LiquidBlock	I	BUBBLE_COLUMN_CHECK_DELAY	field_1_1009
+METHOD	net/minecraft/world/level/block/LiquidBlock	(Lnet/minecraft/world/level/block/state/BlockState;)Z	shouldBubbleColumnOccupy	method_1_964
+METHOD	net/minecraft/client/multiplayer/ClientLevel	()Lnet/minecraft/client/ClientClockManager;	clockManager	method_1_965
+CLASS	net/minecraft/world/clock/ServerClockManager	class_1_109
+FIELD	net/minecraft/world/clock/ServerClockManager	Ljava/util/Map;	clocks	field_1_1010
+FIELD	net/minecraft/world/clock/ServerClockManager	Lnet/minecraft/server/MinecraftServer;	server	field_1_1011
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/core/Holder;I)V	addTicks	method_1_966
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/core/Holder;)Ljava/util/stream/Stream;	commandTimeMarkersForClock	method_1_967
+METHOD	net/minecraft/world/clock/ServerClockManager	()Lnet/minecraft/network/protocol/game/ClientboundSetTimePacket;	createFullSyncPacket	method_1_968
+METHOD	net/minecraft/world/clock/ServerClockManager	()J	getGameTime	method_1_969
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/clock/ServerClockManager$ClockInstance;	getInstance	method_1_970
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/ResourceKey;)Z	isAtTimeMarker	method_1_971
+METHOD	net/minecraft/world/clock/ServerClockManager	(ILnet/minecraft/world/clock/ServerClockManager$ClockInstance;)V	lambda$addTicks$0	method_1_972
+METHOD	net/minecraft/world/clock/ServerClockManager	(Ljava/util/Map$Entry;)Z	lambda$commandTimeMarkersForClock$0	method_1_973
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/world/clock/ServerClockManager$ClockInstance;)Lnet/minecraft/world/clock/ClockState;	lambda$createFullSyncPacket$0	method_1_974
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/core/Holder;Lnet/minecraft/world/clock/ClockState;)V	lambda$loadFrom$0	method_1_975
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/core/Holder$Reference;)V	lambda$new$0	method_1_976
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/core/Holder$Reference;)V	lambda$new$1	method_1_977
+METHOD	net/minecraft/world/clock/ServerClockManager	(ZLnet/minecraft/world/clock/ServerClockManager$ClockInstance;)V	lambda$setPaused$0	method_1_978
+METHOD	net/minecraft/world/clock/ServerClockManager	(JLnet/minecraft/world/clock/ServerClockManager$ClockInstance;)V	lambda$setTotalTicks$0	method_1_979
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/resources/ResourceKey;Lorg/apache/commons/lang3/mutable/MutableBoolean;Lnet/minecraft/world/clock/ServerClockManager$ClockInstance;)V	lambda$skipToTimeMarker$0	method_1_980
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/world/clock/PackedClockStates;)V	loadFrom	method_1_981
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/core/Holder;Ljava/util/function/Consumer;)V	modifyClock	method_1_982
+METHOD	net/minecraft/world/clock/ServerClockManager	()Lnet/minecraft/world/clock/PackedClockStates;	packState	method_1_983
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/clock/ClockTimeMarker;)V	registerTimeMarker	method_1_984
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/core/Holder;Z)V	setPaused	method_1_985
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/core/Holder;J)V	setTotalTicks	method_1_986
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/core/Holder;Lnet/minecraft/resources/ResourceKey;)Z	skipToTimeMarker	method_1_987
+METHOD	net/minecraft/world/clock/ServerClockManager	()V	tick	method_1_988
+CLASS	net/minecraft/world/clock/ServerClockManager$ClockInstance	class_1_110
+FIELD	net/minecraft/world/clock/ServerClockManager$ClockInstance	Z	paused	field_1_1012
+FIELD	net/minecraft/world/clock/ServerClockManager$ClockInstance	Ljava/util/Map;	timeMarkers	field_1_1013
+FIELD	net/minecraft/world/clock/ServerClockManager$ClockInstance	J	totalTicks	field_1_1014
+METHOD	net/minecraft/world/clock/ServerClockManager$ClockInstance	(Lnet/minecraft/world/clock/ClockState;)V	loadFrom	method_1_989
+METHOD	net/minecraft/world/clock/ServerClockManager$ClockInstance	(Lnet/minecraft/server/MinecraftServer;)Lnet/minecraft/world/clock/ClockState;	packNetworkState	method_1_990
+METHOD	net/minecraft/world/clock/ServerClockManager$ClockInstance	()Lnet/minecraft/world/clock/ClockState;	packState	method_1_991
+METHOD	net/minecraft/world/clock/ServerClockManager$ClockInstance	()V	tick	method_1_992
+METHOD	net/minecraft/world/item/slot/SlotCollection$Filtered	(Ljava/util/function/Predicate;Lnet/minecraft/world/item/ItemStack;)Z	lambda$filter$0	method_1_993
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	LINES_DEPTH_BIAS	field_1_1015
+FIELD	net/minecraft/core/component/DataComponentMap$Builder	Ljava/util/function/Consumer;	validator	field_1_1016
+METHOD	net/minecraft/core/component/DataComponentMap$Builder	(Ljava/util/function/Consumer;)Lnet/minecraft/core/component/DataComponentMap$Builder;	addValidator	method_1_994
+METHOD	net/minecraft/core/component/DataComponentMap$Builder	(Lnet/minecraft/core/component/DataComponentMap;)V	lambda$new$0	method_1_995
+METHOD	net/minecraft/world/level/material/FluidState	()Z	isFull	method_1_996
+FIELD	net/minecraft/data/recipes/ShapedRecipeBuilder	Lnet/minecraft/world/item/ItemStackTemplate;	result	field_1_1017
+FIELD	net/minecraft/server/ReloadableServerResources	Ljava/util/List;	newComponents	field_1_1018
+METHOD	net/minecraft/server/ReloadableServerResources	(Ljava/util/concurrent/Executor;Lnet/minecraft/world/flag/FeatureFlagSet;Lnet/minecraft/commands/Commands$CommandSelection;Ljava/util/List;Lnet/minecraft/server/permissions/PermissionSet;Lnet/minecraft/server/packs/resources/ResourceManager;Ljava/util/concurrent/Executor;Lnet/minecraft/server/ReloadableServerRegistries$LoadResult;)Ljava/util/concurrent/CompletionStage;	lambda$loadResources$0	method_1_997
+METHOD	net/minecraft/server/ReloadableServerResources	(Lnet/minecraft/server/ReloadableServerRegistries$LoadResult;)Ljava/util/List;	lambda$loadResources$1	method_1_998
+METHOD	net/minecraft/core/component/DataComponentPatch	(Lnet/minecraft/core/component/DataComponentGetter;Lnet/minecraft/core/component/DataComponentType;)Ljava/lang/Object;	get	method_1_999
+METHOD	net/minecraft/core/component/DataComponentPatch	(Lit/unimi/dsi/fastutil/objects/Reference2ObjectMap;Lnet/minecraft/core/component/DataComponentGetter;Lnet/minecraft/core/component/DataComponentType;)Ljava/lang/Object;	getFromPatchAndPrototype	method_1_1000
+METHOD	net/minecraft/core/component/DataComponentPatch$Builder	(Ljava/lang/Iterable;)Lnet/minecraft/core/component/DataComponentPatch$Builder;	set	method_1_1001
+FIELD	net/minecraft/core/registries/BuiltInRegistries	Lnet/minecraft/core/component/DataComponentInitializers;	DATA_COMPONENT_INITIALIZERS	field_1_1019
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/world/item/Item;)Lnet/minecraft/network/chat/Component;	getItemName	method_1_1002
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Ljava/lang/Runnable;)V	runBeforeTestEnd	method_1_1003
+FIELD	net/minecraft/resources/NetworkRegistryLoadTask	Lnet/minecraft/core/RegistrationInfo;	NETWORK_REGISTRATION_INFO	field_1_1020
+METHOD	net/minecraft/world/entity/animal/allay/AllayAi	(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/server/level/ServerPlayer;)V	lambda$onItemThrown$0	method_1_1004
+METHOD	net/minecraft/world/entity/animal/allay/AllayAi	(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/animal/allay/Allay;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/BlockPos;)V	onItemThrown	method_1_1005
+CLASS	net/minecraft/core/component/DataComponentLookup	class_1_111
+FIELD	net/minecraft/core/component/DataComponentLookup	Ljava/util/Map;	cache	field_1_1021
+FIELD	net/minecraft/core/component/DataComponentLookup	Ljava/lang/Iterable;	elements	field_1_1022
+METHOD	net/minecraft/core/component/DataComponentLookup	(Lnet/minecraft/core/component/DataComponentType;)Ljava/util/Collection;	findAll	method_1_1006
+METHOD	net/minecraft/core/component/DataComponentLookup	(Lnet/minecraft/core/component/DataComponentType;Ljava/lang/Object;)Ljava/util/Collection;	findAll	method_1_1007
+METHOD	net/minecraft/core/component/DataComponentLookup	(Lnet/minecraft/core/component/DataComponentType;Ljava/util/function/Predicate;)Ljava/util/stream/Stream;	findMatching	method_1_1008
+METHOD	net/minecraft/core/component/DataComponentLookup	(Lnet/minecraft/core/component/DataComponentType;)Lnet/minecraft/core/component/DataComponentLookup$ComponentStorage;	getFromCache	method_1_1009
+METHOD	net/minecraft/core/component/DataComponentLookup	(Lnet/minecraft/core/component/DataComponentType;)Lnet/minecraft/core/component/DataComponentLookup$ComponentStorage;	getOrCreateStorage	method_1_1010
+METHOD	net/minecraft/core/component/DataComponentLookup	(Lnet/minecraft/core/component/DataComponentType;)Lnet/minecraft/core/component/DataComponentLookup$ComponentStorage;	scanForComponents	method_1_1011
+CLASS	net/minecraft/core/component/DataComponentLookup$ComponentStorage	class_1_112
+FIELD	net/minecraft/core/component/DataComponentLookup$ComponentStorage	Lcom/google/common/collect/Multimap;	valueToComponent	comp_1_79
+METHOD	net/minecraft/core/component/DataComponentLookup$ComponentStorage	(Ljava/lang/Object;)Ljava/util/Collection;	findAll	method_1_1012
+METHOD	net/minecraft/core/component/DataComponentLookup$ComponentStorage	(Ljava/util/function/Predicate;)Ljava/util/stream/Stream;	findMatching	method_1_1013
+METHOD	net/minecraft/core/component/DataComponentLookup$ComponentStorage	(Ljava/util/function/Predicate;Ljava/util/Map$Entry;)Z	lambda$findMatching$0	method_1_1014
+CLASS	net/minecraft/data/info/RegistryComponentsReport	class_1_113
+FIELD	net/minecraft/data/info/RegistryComponentsReport	Lnet/minecraft/data/PackOutput;	output	field_1_1023
+FIELD	net/minecraft/data/info/RegistryComponentsReport	Ljava/util/concurrent/CompletableFuture;	registries	field_1_1024
+METHOD	net/minecraft/data/info/RegistryComponentsReport	(Lnet/minecraft/data/CachedOutput;Lnet/minecraft/core/HolderLookup$Provider;)Ljava/util/concurrent/CompletionStage;	lambda$run$0	method_1_1015
+METHOD	net/minecraft/data/info/RegistryComponentsReport	(Lnet/minecraft/resources/RegistryOps;Ljava/util/List;Lnet/minecraft/data/CachedOutput;Lnet/minecraft/core/component/DataComponentInitializers$PendingComponents;)V	lambda$run$1	method_1_1016
+METHOD	net/minecraft/data/info/RegistryComponentsReport	(Lnet/minecraft/data/PackOutput$PathProvider;Lnet/minecraft/resources/RegistryOps;Ljava/util/List;Lnet/minecraft/data/CachedOutput;Lnet/minecraft/core/Holder$Reference;Lnet/minecraft/core/component/DataComponentMap;)V	lambda$run$2	method_1_1017
+METHOD	net/minecraft/data/info/RegistryComponentsReport	(Lnet/minecraft/resources/Identifier;Ljava/lang/String;)Ljava/lang/IllegalStateException;	lambda$run$3	method_1_1018
+METHOD	net/minecraft/data/info/RegistryComponentsReport	(I)[Ljava/util/concurrent/CompletableFuture;	lambda$run$4	method_1_1019
+METHOD	net/minecraft/world/entity/npc/villager/Villager	(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/Holder$Reference;)Ljava/lang/Integer;	lambda$shouldRestock$0	method_1_1020
+CLASS	net/minecraft/world/level/block/NetherRootsBlock	class_1_114
+FIELD	net/minecraft/world/level/block/NetherRootsBlock	Lcom/mojang/serialization/MapCodec;	CODEC	field_1_1025
+FIELD	net/minecraft/world/level/block/NetherRootsBlock	Lnet/minecraft/world/phys/shapes/VoxelShape;	SHAPE	field_1_1026
+FIELD	net/minecraft/world/level/block/NetherRootsBlock	Lnet/minecraft/tags/TagKey;	supportBlocks	field_1_1027
+METHOD	net/minecraft/world/level/block/NetherRootsBlock	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1021
+METHOD	net/minecraft/world/level/block/NetherRootsBlock	(Lnet/minecraft/world/level/block/NetherRootsBlock;)Lnet/minecraft/tags/TagKey;	lambda$static$1	method_1_1022
+METHOD	net/minecraft/commands/arguments/ResourceArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;	getClock	method_1_1023
+METHOD	net/minecraft/commands/arguments/ResourceArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;	getTimeline	method_1_1024
+1 is now class_1_115
+FIELD	net/minecraft/core/dispenser/SpawnEggItemBehavior	Lnet/minecraft/core/dispenser/SpawnEggItemBehavior;	INSTANCE	field_1_1028
+FIELD	net/minecraft/world/item/component/BundleContents	Lcom/mojang/serialization/DataResult;	BEEHIVE_WEIGHT	field_1_1029
+FIELD	net/minecraft/world/item/component/BundleContents	Ljava/util/function/Supplier;	weight	field_1_1030
+METHOD	net/minecraft/world/item/component/BundleContents	()Lnet/minecraft/world/item/ItemStackTemplate;	getSelectedItem	method_1_1025
+METHOD	net/minecraft/world/item/component/BundleContents	(Lorg/apache/commons/lang3/math/Fraction;)Lorg/apache/commons/lang3/math/Fraction;	lambda$getWeight$0	method_1_1026
+METHOD	net/minecraft/world/item/component/BundleContents	()Lcom/mojang/serialization/DataResult;	lambda$new$0	method_1_1027
+METHOD	net/minecraft/world/item/component/BundleContents	(Lnet/minecraft/world/item/component/BundleContents;)Ljava/util/List;	lambda$static$0	method_1_1028
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/ItemStackTemplate;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;	createWithOriginalComponents	method_1_1029
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/ItemStackTemplate;Lnet/minecraft/world/item/ItemStack;)Z	isResultUnchanged	method_1_1030
+FIELD	net/minecraft/world/level/block/AttachedStemBlock	Lnet/minecraft/tags/TagKey;	supportBlocks	field_1_1031
+METHOD	net/minecraft/world/level/block/AttachedStemBlock	(Lnet/minecraft/world/level/block/AttachedStemBlock;)Lnet/minecraft/tags/TagKey;	lambda$static$4	method_1_1031
+FIELD	net/minecraft/world/level/block/NetherFungusBlock	Lnet/minecraft/tags/TagKey;	supportBlocks	field_1_1032
+METHOD	net/minecraft/world/level/block/NetherFungusBlock	(Lnet/minecraft/world/level/block/NetherFungusBlock;)Lnet/minecraft/tags/TagKey;	lambda$static$3	method_1_1032
+FIELD	net/minecraft/world/level/dimension/DimensionType	Ljava/util/Optional;	defaultClock	comp_1_80
+METHOD	net/minecraft/world/level/storage/ServerLevelData	()Lnet/minecraft/world/clock/PackedClockStates;	clockStates	method_1_1033
+METHOD	net/minecraft/world/level/storage/ServerLevelData	(Lnet/minecraft/world/clock/PackedClockStates;)V	setClockStates	method_1_1034
+CLASS	net/minecraft/util/datafix/fixes/DayTimeToClockFix	class_1_116
+METHOD	net/minecraft/util/datafix/fixes/DayTimeToClockFix	(Lcom/mojang/serialization/Dynamic;J)Lcom/mojang/serialization/Dynamic;	createClock	method_1_1035
+METHOD	net/minecraft/util/datafix/fixes/DayTimeToClockFix	(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	lambda$makeRule$0	method_1_1036
+METHOD	net/minecraft/util/datafix/fixes/DayTimeToClockFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$makeRule$1	method_1_1037
+FIELD	net/minecraft/world/level/storage/PrimaryLevelData	Lnet/minecraft/world/clock/PackedClockStates;	clockStates	field_1_1033
+METHOD	net/minecraft/world/level/storage/PrimaryLevelData	(Ljava/lang/String;)V	lambda$parse$0	method_1_1038
+FIELD	net/minecraft/world/timeline/AttributeTrackSampler	Lnet/minecraft/core/Holder;	clock	field_1_1034
+FIELD	net/minecraft/client/renderer/WeatherEffectRenderer	I	INDICES_PER_COLUMN	field_1_1035
+METHOD	net/minecraft/client/renderer/WeatherEffectRenderer	()Ljava/lang/String;	lambda$render$0	method_1_1039
+METHOD	net/minecraft/client/renderer/WeatherEffectRenderer	(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/state/WeatherRenderState;)V	render	method_1_1040
+METHOD	net/minecraft/client/renderer/WeatherEffectRenderer	(Lcom/mojang/blaze3d/systems/RenderPass;Lnet/minecraft/client/renderer/texture/AbstractTexture;II)V	renderWeather	method_1_1041
+FIELD	net/minecraft/network/protocol/game/GamePacketTypes	Lnet/minecraft/network/protocol/PacketType;	CLIENTBOUND_GAME_RULE_VALUES	field_1_1036
+FIELD	net/minecraft/network/protocol/game/GamePacketTypes	Lnet/minecraft/network/protocol/PacketType;	SERVERBOUND_ATTACK	field_1_1037
+FIELD	net/minecraft/network/protocol/game/GamePacketTypes	Lnet/minecraft/network/protocol/PacketType;	SERVERBOUND_SET_GAME_RULE	field_1_1038
+FIELD	net/minecraft/network/protocol/game/GamePacketTypes	Lnet/minecraft/network/protocol/PacketType;	SERVERBOUND_SPECTATE_ENTITY	field_1_1039
+METHOD	net/minecraft/world/entity/ai/behavior/GateBehavior	(Lnet/minecraft/world/entity/ai/behavior/BehaviorControl;)Z	lambda$debugString$0	method_1_1042
+METHOD	net/minecraft/world/entity/ai/behavior/GateBehavior	(Lnet/minecraft/world/entity/ai/behavior/BehaviorControl;)Ljava/lang/String;	lambda$debugString$1	method_1_1043
+METHOD	net/minecraft/client/multiplayer/MultiPlayerGameMode	(Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/phys/EntityHitResult;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/InteractionResult;	interact	method_1_1044
+METHOD	net/minecraft/client/multiplayer/MultiPlayerGameMode	(Lnet/minecraft/world/entity/Entity;)V	spectate	method_1_1045
+METHOD	net/minecraft/client/data/models/BlockModelGenerators$BlockFamilyProvider	(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/data/BlockFamily;)Z	lambda$generateFor$1	method_1_1046
+FIELD	net/minecraft/client/multiplayer/ClientPacketListener	Lnet/minecraft/client/ClientClockManager;	clockManager	field_1_1040
+METHOD	net/minecraft/client/multiplayer/ClientPacketListener	()Lnet/minecraft/client/ClientClockManager;	clockManager	method_1_1047
+METHOD	net/minecraft/data/recipes/SimpleCookingRecipeBuilder	(Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/item/crafting/CookingBookCategory;Lnet/minecraft/world/level/ItemLike;FILnet/minecraft/world/item/crafting/AbstractCookingRecipe$Factory;)Lnet/minecraft/data/recipes/SimpleCookingRecipeBuilder;	generic	method_1_1048
+field_49301 is now comp_1_81
+FIELD	net/minecraft/client/gui/screens/options/OptionsScreen	Z	inWorld	field_1_1041
+METHOD	net/minecraft/client/gui/screens/options/OptionsScreen	()Lnet/minecraft/client/gui/layouts/LayoutElement;	createWorldOptionsButton	method_1_1049
+METHOD	net/minecraft/client/gui/screens/options/OptionsScreen	(Lnet/minecraft/client/gui/components/Button;)V	lambda$createWorldOptionsButton$0	method_1_1050
+METHOD	net/minecraft/client/multiplayer/RegistryDataCollector	(ZLnet/minecraft/core/component/DataComponentInitializers$PendingComponents;)V	lambda$updateComponents$0	method_1_1051
+METHOD	net/minecraft/client/multiplayer/RegistryDataCollector	(Lnet/minecraft/core/RegistryAccess$Frozen;Z)V	updateComponents	method_1_1052
+CLASS	net/minecraft/core/component/DataComponentInitializers	class_1_117
+FIELD	net/minecraft/core/component/DataComponentInitializers	Ljava/util/List;	initializers	field_1_1042
+METHOD	net/minecraft/core/component/DataComponentInitializers	(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/component/DataComponentInitializers$Initializer;)V	add	method_1_1053
+METHOD	net/minecraft/core/component/DataComponentInitializers	(Ljava/util/Map;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/component/DataComponentMap$Builder;)V	addBuilder	method_1_1054
+METHOD	net/minecraft/core/component/DataComponentInitializers	(Lnet/minecraft/core/HolderLookup$Provider;)Ljava/util/List;	build	method_1_1055
+METHOD	net/minecraft/core/component/DataComponentInitializers	(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/core/component/DataComponentInitializers$PendingComponentBuilders;)Lnet/minecraft/core/component/DataComponentInitializers$PendingComponents;	createInitializerForRegistry	method_1_1056
+METHOD	net/minecraft/core/component/DataComponentInitializers	(Ljava/util/Map;Lnet/minecraft/resources/ResourceKey;)V	lambda$build$0	method_1_1057
+METHOD	net/minecraft/core/component/DataComponentInitializers	(Ljava/util/Map;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/component/DataComponentMap$Builder;)V	lambda$build$1	method_1_1058
+METHOD	net/minecraft/core/component/DataComponentInitializers	(Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/core/component/DataComponentInitializers$PendingComponentBuilders;)Lnet/minecraft/core/component/DataComponentInitializers$PendingComponents;	lambda$build$2	method_1_1059
+METHOD	net/minecraft/core/component/DataComponentInitializers	(Lnet/minecraft/core/HolderLookup$RegistryLookup;Ljava/util/List;Ljava/util/Set;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/component/DataComponentMap$Builder;)V	lambda$createInitializerForRegistry$0	method_1_1060
+METHOD	net/minecraft/core/component/DataComponentInitializers	(Ljava/util/Set;Lnet/minecraft/core/Holder$Reference;)Z	lambda$createInitializerForRegistry$1	method_1_1061
+METHOD	net/minecraft/core/component/DataComponentInitializers	(Ljava/util/List;Lnet/minecraft/core/Holder$Reference;)V	lambda$createInitializerForRegistry$2	method_1_1062
+METHOD	net/minecraft/core/component/DataComponentInitializers	(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/core/component/DataComponentMap$Builder;	lambda$runInitializers$0	method_1_1063
+METHOD	net/minecraft/core/component/DataComponentInitializers	(Ljava/util/Map;Lnet/minecraft/resources/ResourceKey;)V	registryEmpty	method_1_1064
+METHOD	net/minecraft/core/component/DataComponentInitializers	(Lnet/minecraft/core/HolderLookup$Provider;)Ljava/util/Map;	runInitializers	method_1_1065
+FIELD	net/minecraft/core/component/DataComponentInitializers$1	Ljava/util/List;	val$entries	field_1_1043
+FIELD	net/minecraft/core/component/DataComponentInitializers$1	Lnet/minecraft/resources/ResourceKey;	val$registryKey	field_1_1044
+METHOD	net/minecraft/core/component/DataComponentInitializers$1	(Ljava/util/function/BiConsumer;Lnet/minecraft/core/component/DataComponentInitializers$BakedEntry;)V	lambda$forEach$0	method_1_1066
+CLASS	net/minecraft/core/component/DataComponentInitializers$BakedEntry	class_1_118
+FIELD	net/minecraft/core/component/DataComponentInitializers$BakedEntry	Lnet/minecraft/core/component/DataComponentMap;	components	comp_1_82
+FIELD	net/minecraft/core/component/DataComponentInitializers$BakedEntry	Lnet/minecraft/core/Holder$Reference;	element	comp_1_83
+METHOD	net/minecraft/core/component/DataComponentInitializers$BakedEntry	()V	apply	method_1_1067
+CLASS	net/minecraft/core/component/DataComponentInitializers$Initializer	class_1_119
+METHOD	net/minecraft/core/component/DataComponentInitializers$Initializer	(Lnet/minecraft/core/component/DataComponentType;Ljava/lang/Object;)Lnet/minecraft/core/component/DataComponentInitializers$Initializer;	add	method_1_1068
+METHOD	net/minecraft/core/component/DataComponentInitializers$Initializer	(Lnet/minecraft/core/component/DataComponentInitializers$Initializer;)Lnet/minecraft/core/component/DataComponentInitializers$Initializer;	andThen	method_1_1069
+METHOD	net/minecraft/core/component/DataComponentInitializers$Initializer	(Lnet/minecraft/core/component/DataComponentType;Ljava/lang/Object;Lnet/minecraft/core/component/DataComponentMap$Builder;Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/resources/ResourceKey;)V	lambda$add$0	method_1_1070
+METHOD	net/minecraft/core/component/DataComponentInitializers$Initializer	(Lnet/minecraft/core/component/DataComponentInitializers$Initializer;Lnet/minecraft/core/component/DataComponentMap$Builder;Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/resources/ResourceKey;)V	lambda$andThen$0	method_1_1071
+METHOD	net/minecraft/core/component/DataComponentInitializers$Initializer	(Lnet/minecraft/core/component/DataComponentMap$Builder;Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/resources/ResourceKey;)V	run	method_1_1072
+CLASS	net/minecraft/core/component/DataComponentInitializers$InitializerEntry	class_1_120
+FIELD	net/minecraft/core/component/DataComponentInitializers$InitializerEntry	Lnet/minecraft/core/component/DataComponentInitializers$Initializer;	initializer	comp_1_84
+FIELD	net/minecraft/core/component/DataComponentInitializers$InitializerEntry	Lnet/minecraft/resources/ResourceKey;	key	comp_1_85
+METHOD	net/minecraft/core/component/DataComponentInitializers$InitializerEntry	(Lnet/minecraft/core/component/DataComponentMap$Builder;Lnet/minecraft/core/HolderLookup$Provider;)V	run	method_1_1073
+CLASS	net/minecraft/core/component/DataComponentInitializers$PendingComponentBuilders	class_1_121
+FIELD	net/minecraft/core/component/DataComponentInitializers$PendingComponentBuilders	Ljava/util/Map;	builders	comp_1_86
+FIELD	net/minecraft/core/component/DataComponentInitializers$PendingComponentBuilders	Lnet/minecraft/resources/ResourceKey;	registryKey	comp_1_87
+CLASS	net/minecraft/core/component/DataComponentInitializers$PendingComponents	class_1_122
+METHOD	net/minecraft/core/component/DataComponentInitializers$PendingComponents	()V	apply	method_1_1074
+METHOD	net/minecraft/core/component/DataComponentInitializers$PendingComponents	(Ljava/util/function/BiConsumer;)V	forEach	method_1_1075
+METHOD	net/minecraft/core/component/DataComponentInitializers$PendingComponents	()Lnet/minecraft/resources/ResourceKey;	key	method_1_1076
+CLASS	net/minecraft/core/component/DataComponentInitializers$SingleComponentInitializer	class_1_123
+METHOD	net/minecraft/core/component/DataComponentInitializers$SingleComponentInitializer	(Lnet/minecraft/core/component/DataComponentType;)Lnet/minecraft/core/component/DataComponentInitializers$Initializer;	asInitializer	method_1_1077
+METHOD	net/minecraft/core/component/DataComponentInitializers$SingleComponentInitializer	(Lnet/minecraft/core/HolderLookup$Provider;)Ljava/lang/Object;	create	method_1_1078
+METHOD	net/minecraft/core/component/DataComponentInitializers$SingleComponentInitializer	(Lnet/minecraft/core/component/DataComponentType;Lnet/minecraft/core/component/DataComponentMap$Builder;Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/resources/ResourceKey;)V	lambda$asInitializer$0	method_1_1079
+METHOD	net/minecraft/world/entity/ai/behavior/BehaviorControl	()Ljava/util/Set;	getRequiredMemories	method_1_1080
+CLASS	net/minecraft/resources/ResourceManagerRegistryLoadTask	class_1_124
+FIELD	net/minecraft/resources/ResourceManagerRegistryLoadTask	Ljava/util/function/Function;	REGISTRATION_INFO_CACHE	field_1_1045
+FIELD	net/minecraft/resources/ResourceManagerRegistryLoadTask	Lnet/minecraft/server/packs/resources/ResourceManager;	resourceManager	field_1_1046
+METHOD	net/minecraft/resources/ResourceManagerRegistryLoadTask	(Lnet/minecraft/resources/FileToIdConverter;)Ljava/util/Map;	lambda$load$0	method_1_1081
+METHOD	net/minecraft/resources/ResourceManagerRegistryLoadTask	(Lnet/minecraft/resources/RegistryOps$RegistryInfoLookup;Lnet/minecraft/resources/FileToIdConverter;Ljava/util/concurrent/Executor;Ljava/util/Map;)Ljava/util/concurrent/CompletionStage;	lambda$load$1	method_1_1082
+METHOD	net/minecraft/resources/ResourceManagerRegistryLoadTask	(Lnet/minecraft/resources/FileToIdConverter;Lnet/minecraft/resources/RegistryOps;Lnet/minecraft/resources/Identifier;Lnet/minecraft/server/packs/resources/Resource;)Lnet/minecraft/resources/RegistryLoadTask$PendingRegistration;	lambda$load$2	method_1_1083
+METHOD	net/minecraft/resources/ResourceManagerRegistryLoadTask	(Ljava/util/Map;)V	lambda$load$3	method_1_1084
+METHOD	net/minecraft/resources/ResourceManagerRegistryLoadTask	(Ljava/util/Optional;)Lnet/minecraft/core/RegistrationInfo;	lambda$static$0	method_1_1085
+METHOD	net/minecraft/resources/ResourceManagerRegistryLoadTask	(Ljava/lang/Boolean;)Lcom/mojang/serialization/Lifecycle;	lambda$static$1	method_1_1086
+METHOD	net/minecraft/world/item/component/ItemContainerContents	(I)Lnet/minecraft/world/item/ItemStack;	createStackFromSlot	method_1_1087
+METHOD	net/minecraft/world/item/component/ItemContainerContents	(I)Ljava/util/List;	emptyContents	method_1_1088
+METHOD	net/minecraft/world/item/component/ItemContainerContents	(Ljava/util/Optional;)Lnet/minecraft/world/item/ItemStack;	lambda$allItemsCopyStream$0	method_1_1089
+METHOD	net/minecraft/world/item/component/ItemContainerContents	()Ljava/util/Iterator;	lambda$nonEmptyItems$0	method_1_1090
+METHOD	net/minecraft/world/item/component/ItemContainerContents	()Ljava/util/stream/Stream;	nonEmptyItemsStream	method_1_1091
+METHOD	net/minecraft/server/network/ServerGamePacketListenerImpl	(Lnet/minecraft/world/level/gamerules/GameRules;Ljava/util/Map;Lnet/minecraft/world/level/gamerules/GameRule;)V	addGameRuleValue	method_1_1092
+METHOD	net/minecraft/server/network/ServerGamePacketListenerImpl	(Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/Object;)V	broadcastGameRuleChangeToOperators	method_1_1093
+METHOD	net/minecraft/server/network/ServerGamePacketListenerImpl	(Ljava/util/Map;Lnet/minecraft/world/level/gamerules/GameRule;Lnet/minecraft/world/level/gamerules/GameRules;Lnet/minecraft/resources/ResourceKey;)V	lambda$addGameRuleValue$0	method_1_1094
+METHOD	net/minecraft/server/network/ServerGamePacketListenerImpl	(Lnet/minecraft/server/players/PlayerList;Lnet/minecraft/server/level/ServerPlayer;)Z	lambda$broadcastGameRuleChangeToOperators$0	method_1_1095
+METHOD	net/minecraft/server/network/ServerGamePacketListenerImpl	(Lnet/minecraft/network/chat/Component;Lnet/minecraft/server/level/ServerPlayer;)V	lambda$broadcastGameRuleChangeToOperators$1	method_1_1096
+METHOD	net/minecraft/server/network/ServerGamePacketListenerImpl	(Lnet/minecraft/world/level/gamerules/GameRules;Ljava/util/Map;Lnet/minecraft/world/level/gamerules/GameRule;)V	lambda$sendGameRuleValues$0	method_1_1097
+METHOD	net/minecraft/server/network/ServerGamePacketListenerImpl	(Lnet/minecraft/world/level/gamerules/GameRules;Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/Object;)V	lambda$setGameRuleValue$0	method_1_1098
+METHOD	net/minecraft/server/network/ServerGamePacketListenerImpl	()V	sendGameRuleValues	method_1_1099
+METHOD	net/minecraft/server/network/ServerGamePacketListenerImpl	(Lnet/minecraft/world/level/gamerules/GameRules;Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/String;)V	setGameRuleValue	method_1_1100
+FIELD	net/minecraft/gametest/framework/TestEnvironmentDefinition$ClockTime	Lnet/minecraft/core/Holder;	clock	comp_1_88
+FIELD	net/minecraft/client/gui/components/toasts/AdvancementToast	Lnet/minecraft/world/item/ItemStack;	iconItem	field_1_1047
+METHOD	net/minecraft/client/gui/components/toasts/AdvancementToast	(Lnet/minecraft/advancements/DisplayInfo;)Lnet/minecraft/world/item/ItemStack;	lambda$new$0	method_1_1101
+CLASS	net/minecraft/client/gui/screens/options/WorldOptionsScreen	class_1_125
+FIELD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	Lnet/minecraft/client/gui/components/Tooltip;	GAMERULES_DISABLED_TOOLTIP	field_1_1048
+FIELD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	Lnet/minecraft/network/chat/Component;	GAME_RULES	field_1_1049
+FIELD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	Lnet/minecraft/network/chat/Component;	TITLE	field_1_1050
+FIELD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	Lnet/minecraft/client/gui/components/CycleButton;	difficultyButton	field_1_1051
+FIELD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	Lnet/minecraft/client/gui/screens/Screen;	lastScreen	field_1_1052
+FIELD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	Lnet/minecraft/client/gui/layouts/HeaderAndFooterLayout;	layout	field_1_1053
+FIELD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	Lnet/minecraft/client/gui/components/LockIconButton;	lockButton	field_1_1054
+METHOD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	()Lnet/minecraft/client/gui/layouts/LayoutElement;	createDifficultyButtons	method_1_1102
+METHOD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	()Lnet/minecraft/client/gui/components/Button;	createGameRulesButton	method_1_1103
+METHOD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	(Lnet/minecraft/client/gui/components/CycleButton;Lnet/minecraft/world/Difficulty;)V	lambda$createDifficultyButtons$0	method_1_1104
+METHOD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	(Lnet/minecraft/client/gui/components/Button;)V	lambda$createDifficultyButtons$1	method_1_1105
+METHOD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	(Lnet/minecraft/client/gui/components/Button;)V	lambda$createGameRulesButton$0	method_1_1106
+METHOD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	(Ljava/util/Optional;)V	lambda$createGameRulesButton$1	method_1_1107
+METHOD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	(Lnet/minecraft/client/gui/components/Button;)V	lambda$init$0	method_1_1108
+METHOD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	(Lnet/minecraft/client/gui/screens/options/WorldOptionsScreen;Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$init$1	method_1_1109
+METHOD	net/minecraft/client/gui/screens/options/WorldOptionsScreen	(Z)V	lockCallback	method_1_1110
+CLASS	net/minecraft/network/protocol/game/ServerboundAttackPacket	class_1_126
+FIELD	net/minecraft/network/protocol/game/ServerboundAttackPacket	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1055
+FIELD	net/minecraft/network/protocol/game/ServerboundAttackPacket	I	entityId	comp_1_89
+METHOD	net/minecraft/network/protocol/game/ServerboundAttackPacket	(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V	handle	method_1_1111
+FIELD	net/minecraft/world/level/storage/loot/predicates/TimeCheck	Lnet/minecraft/core/Holder;	clock	comp_1_90
+FIELD	net/minecraft/world/level/storage/loot/predicates/TimeCheck$Builder	Lnet/minecraft/core/Holder;	clock	field_1_1056
+CLASS	net/minecraft/client/gui/components/debug/DebugEntryDayCount	class_1_127
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryDayCount	(Lnet/minecraft/client/gui/components/debug/DebugScreenDisplayer;Lnet/minecraft/world/clock/ClockManager;Lnet/minecraft/core/Holder$Reference;)V	lambda$display$0	method_1_1112
+FIELD	net/minecraft/client/gui/components/debug/DebugScreenEntries	Lnet/minecraft/resources/Identifier;	DAY_COUNT	field_1_1057
+METHOD	net/minecraft/network/protocol/game/ClientGamePacketListener	(Lnet/minecraft/network/protocol/game/ClientboundGameRuleValuesPacket;)V	handleGameRuleValues	method_1_1113
+FIELD	net/minecraft/network/protocol/game/ClientboundSetTimePacket	Ljava/util/Map;	clockUpdates	comp_1_91
+METHOD	net/minecraft/network/protocol/game/ServerGamePacketListener	(Lnet/minecraft/network/protocol/game/ServerboundAttackPacket;)V	handleAttack	method_1_1114
+METHOD	net/minecraft/network/protocol/game/ServerGamePacketListener	(Lnet/minecraft/network/protocol/game/ServerboundSetGameRulePacket;)V	handleSetGameRule	method_1_1115
+METHOD	net/minecraft/network/protocol/game/ServerGamePacketListener	(Lnet/minecraft/network/protocol/game/ServerboundSpectateEntityPacket;)V	handleSpectateEntity	method_1_1116
+field_12870 is now comp_1_92
+FIELD	net/minecraft/network/protocol/game/ServerboundInteractPacket	Lnet/minecraft/world/InteractionHand;	hand	comp_1_93
+FIELD	net/minecraft/network/protocol/game/ServerboundInteractPacket	Lnet/minecraft/world/phys/Vec3;	location	comp_1_94
+field_25660 is now comp_1_95
+FIELD	net/minecraft/world/entity/ai/behavior/GoAndGiveItemsToTarget	Lnet/minecraft/world/entity/ai/behavior/GoAndGiveItemsToTarget$ItemThrower;	itemThrower	field_1_1058
+FIELD	net/minecraft/world/entity/ai/behavior/GoAndGiveItemsToTarget	Lnet/minecraft/world/phys/Vec3;	throwVelocity	field_1_1059
+CLASS	net/minecraft/world/entity/ai/behavior/GoAndGiveItemsToTarget$ItemThrower	class_1_128
+METHOD	net/minecraft/world/entity/ai/behavior/GoAndGiveItemsToTarget$ItemThrower	(Lnet/minecraft/server/level/ServerLevel;Ljava/lang/Object;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/BlockPos;)V	onItemThrown	method_1_1117
+METHOD	net/minecraft/client/gui/components/debug/DebugScreenEntryList	(ZLnet/minecraft/resources/Identifier;Lnet/minecraft/client/gui/components/debug/DebugScreenEntryStatus;)V	lambda$rebuildCurrentList$0	method_1_1118
+METHOD	net/minecraft/client/gui/components/debug/DebugScreenEntryList	(Lnet/minecraft/client/gui/components/debug/DebugScreenProfile;)V	loadProfile	method_1_1119
+METHOD	net/minecraft/client/gui/components/debug/DebugScreenEntryList	(Ljava/util/Map;)V	resetStatuses	method_1_1120
+METHOD	net/minecraft/util/datafix/fixes/DebugProfileLookingAtSplitFix	(Ljava/lang/String;)Ljava/util/Optional;	lambda$renamedKey$0	method_1_1121
+METHOD	net/minecraft/util/datafix/fixes/DebugProfileLookingAtSplitFix	(Lcom/mojang/serialization/Dynamic;Ljava/util/Map;)Lcom/mojang/serialization/Dynamic;	lambda$updateOptions$0	method_1_1122
+METHOD	net/minecraft/util/datafix/fixes/DebugProfileLookingAtSplitFix	(Ljava/util/Map;Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;)V	lambda$updateOptions$1	method_1_1123
+METHOD	net/minecraft/util/datafix/fixes/DebugProfileLookingAtSplitFix	(Ljava/util/Map;Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;)V	lambda$updateOptions$2	method_1_1124
+METHOD	net/minecraft/util/datafix/fixes/DebugProfileLookingAtSplitFix	(Ljava/util/Map;Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;)V	lambda$updateOptions$3	method_1_1125
+METHOD	net/minecraft/util/datafix/fixes/DebugProfileLookingAtSplitFix	(Lcom/mojang/serialization/Dynamic;)Ljava/util/Optional;	renamedKey	method_1_1126
+METHOD	net/minecraft/util/datafix/fixes/DebugProfileLookingAtSplitFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	updateOptions	method_1_1127
+METHOD	net/minecraft/world/level/block/entity/DecoratedPotBlockEntity	(Lnet/minecraft/world/level/block/entity/PotDecorations;)Lnet/minecraft/world/item/ItemStack;	createDecoratedPotInstance	method_1_1128
+METHOD	net/minecraft/world/level/block/entity/DecoratedPotBlockEntity	(Lnet/minecraft/world/level/block/entity/PotDecorations;)Lnet/minecraft/world/item/ItemStackTemplate;	createDecoratedPotTemplate	method_1_1129
+FIELD	net/minecraft/client/gui/screens/advancements/AdvancementWidget	Lnet/minecraft/world/item/ItemStack;	icon	field_1_1060
+CLASS	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	class_1_129
+FIELD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	Lnet/minecraft/network/chat/Component;	PENDING_TEXT	field_1_1061
+FIELD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	Lnet/minecraft/client/multiplayer/ClientPacketListener;	connection	field_1_1062
+FIELD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	Ljava/util/Map;	initialValues	field_1_1063
+FIELD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	Lnet/minecraft/client/gui/components/LoadingDotsWidget;	loadingDotsWidget	field_1_1064
+FIELD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	Z	receivedServerValues	field_1_1065
+FIELD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	Ljava/util/List;	serverProvidedRules	field_1_1066
+METHOD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	(Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/Object;Ljava/util/List;)V	collectChangedGameRule	method_1_1130
+METHOD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	(Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/Object;Ljava/util/List;)V	collectChangedGameRuleWithCast	method_1_1131
+METHOD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	(Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/Object;)Z	hasGameRuleChanged	method_1_1132
+METHOD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	()Z	hasPendingChanges	method_1_1133
+METHOD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	(Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/String;)V	initializeGameRuleValue	method_1_1134
+METHOD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	(Ljava/util/List;Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/Object;Lnet/minecraft/resources/ResourceKey;)V	lambda$collectChangedGameRule$0	method_1_1135
+METHOD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	(Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/Object;)V	lambda$initializeGameRuleValue$0	method_1_1136
+METHOD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	(Z)V	lambda$onClose$0	method_1_1137
+METHOD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	(Ljava/util/List;Lnet/minecraft/world/level/gamerules/GameRule;Ljava/lang/Object;)V	lambda$onDone$0	method_1_1138
+METHOD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	(Lnet/minecraft/resources/ResourceKey;Ljava/lang/String;)V	lambda$onGameRuleValuesUpdated$0	method_1_1139
+METHOD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	(Ljava/util/Map;)V	onGameRuleValuesUpdated	method_1_1140
+CLASS	net/minecraft/network/protocol/game/ServerboundSetGameRulePacket	class_1_130
+FIELD	net/minecraft/network/protocol/game/ServerboundSetGameRulePacket	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1067
+FIELD	net/minecraft/network/protocol/game/ServerboundSetGameRulePacket	Ljava/util/List;	entries	comp_1_96
+METHOD	net/minecraft/network/protocol/game/ServerboundSetGameRulePacket	(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V	handle	method_1_1141
+CLASS	net/minecraft/network/protocol/game/ServerboundSetGameRulePacket$Entry	class_1_131
+FIELD	net/minecraft/network/protocol/game/ServerboundSetGameRulePacket$Entry	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1068
+FIELD	net/minecraft/network/protocol/game/ServerboundSetGameRulePacket$Entry	Lnet/minecraft/resources/ResourceKey;	gameRuleKey	comp_1_97
+FIELD	net/minecraft/network/protocol/game/ServerboundSetGameRulePacket$Entry	Ljava/lang/String;	value	comp_1_98
+FIELD	net/minecraft/client/renderer/entity/state/ArmedEntityRenderState	Lnet/minecraft/world/entity/HumanoidArm;	attackArm	field_1_1069
+METHOD	net/minecraft/world/entity/ai/memory/NearestVisibleLivingEntities	()Ljava/util/List;	nearbyEntities	method_1_1142
+FIELD	net/minecraft/network/protocol/game/ServerboundClientCommandPacket$Action	Lnet/minecraft/network/protocol/game/ServerboundClientCommandPacket$Action;	REQUEST_GAMERULE_VALUES	field_1_1070
+METHOD	net/minecraft/world/entity/ai/behavior/declarative/BehaviorBuilder$TriggerWithResult	()Ljava/util/Set;	memories	method_1_1143
+CLASS	net/minecraft/network/protocol/game/ClientboundGameRuleValuesPacket	class_1_132
+FIELD	net/minecraft/network/protocol/game/ClientboundGameRuleValuesPacket	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1071
+FIELD	net/minecraft/network/protocol/game/ClientboundGameRuleValuesPacket	Ljava/util/Map;	values	comp_1_99
+METHOD	net/minecraft/network/protocol/game/ClientboundGameRuleValuesPacket	(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V	handle	method_1_1144
+CLASS	net/minecraft/network/protocol/game/ServerboundSpectateEntityPacket	class_1_133
+FIELD	net/minecraft/network/protocol/game/ServerboundSpectateEntityPacket	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1072
+FIELD	net/minecraft/network/protocol/game/ServerboundSpectateEntityPacket	I	entityId	comp_1_100
+METHOD	net/minecraft/network/protocol/game/ServerboundSpectateEntityPacket	(Lnet/minecraft/network/protocol/game/ServerGamePacketListener;)V	handle	method_1_1145
+FIELD	net/minecraft/world/level/storage/loot/parameters/LootContextParams	Lnet/minecraft/util/context/ContextKey;	ADDITIONAL_COST_COMPONENT_ALLOWED	field_1_1073
+field_12564 is now comp_1_101
+field_61887 is now comp_1_102
+METHOD	net/minecraft/world/level/storage/loot/ContainerComponentManipulators$3	(Lnet/minecraft/world/item/ItemStack;)Z	lambda$setContents$0	method_1_1146
+FIELD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen	Lnet/minecraft/network/chat/Component;	SEARCH_HINT	field_1_1074
+FIELD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen	Lnet/minecraft/client/gui/components/EditBox;	searchBox	field_1_1075
+METHOD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen	()V	closeAndApplyChanges	method_1_1147
+METHOD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen	()V	closeAndDiscardChanges	method_1_1148
+METHOD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen	(Lnet/minecraft/client/gui/layouts/LinearLayout;)V	createAndConfigureSearchBox	method_1_1149
+METHOD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen	(Ljava/lang/String;)V	filterGameRules	method_1_1150
+METHOD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen	()V	initContent	method_1_1151
+METHOD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen	()V	onDone	method_1_1152
+FIELD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen$RuleList	Lnet/minecraft/world/level/gamerules/GameRules;	gameRules	field_1_1076
+METHOD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen$RuleList	(Ljava/util/Map$Entry;)V	lambda$populateChildren$0	method_1_1153
+METHOD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen$RuleList	(Ljava/util/Map$Entry;)V	lambda$populateChildren$1	method_1_1154
+METHOD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen$RuleList	(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Z	matchesFilter	method_1_1155
+METHOD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen$RuleList	(Ljava/lang/String;)V	populateChildren	method_1_1156
+FIELD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen$RuleList$1	Ljava/lang/String;	val$lowerCaseFilter	field_1_1077
+CLASS	net/minecraft/client/gui/screens/worldselection/WorldCreationGameRulesScreen	class_1_134
+Done!
