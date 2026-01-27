@@ -1,0 +1,850 @@
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/criterion/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/criterion/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/commands/arguments/selector/SelectorPattern;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Read 10377 (6690) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 18997 MethodEntries (0 unique, 10611 classes).
+Collecting additional information...
+- Done. -
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/criterion/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/criterion/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/commands/arguments/selector/SelectorPattern;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Read 10393 (6706) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 19001 MethodEntries (0 unique, 10627 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+FIELD	net/minecraft/tags/ItemTags	Lnet/minecraft/tags/TagKey;	CAT_COLLAR_DYES	field_1_1131
+FIELD	net/minecraft/tags/ItemTags	Lnet/minecraft/tags/TagKey;	CAULDRON_CAN_REMOVE_DYE	field_1_1132
+FIELD	net/minecraft/tags/ItemTags	Lnet/minecraft/tags/TagKey;	DYES	field_1_1133
+FIELD	net/minecraft/tags/ItemTags	Lnet/minecraft/tags/TagKey;	LOOM_DYES	field_1_1134
+FIELD	net/minecraft/tags/ItemTags	Lnet/minecraft/tags/TagKey;	LOOM_PATTERNS	field_1_1135
+FIELD	net/minecraft/tags/ItemTags	Lnet/minecraft/tags/TagKey;	WOLF_COLLAR_DYES	field_1_1136
+FIELD	net/minecraft/data/BlockFamily	Z	generateStonecutterRecipe	field_1_1137
+METHOD	net/minecraft/data/BlockFamily	()Z	shouldGenerateStonecutterRecipe	method_1_1231
+METHOD	net/minecraft/data/BlockFamily$Builder	()Lnet/minecraft/data/BlockFamily$Builder;	generateStonecutterRecipe	method_1_1232
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	GOLDEN_DANDELION	field_1_1138
+FIELD	net/minecraft/data/BlockFamilies	Lnet/minecraft/data/BlockFamily;	END_STONE	field_1_1139
+METHOD	net/minecraft/data/BlockFamilies	(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/data/BlockFamily;	getFamily	method_1_1233
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	CHICKEN_AMBIENT_BABY	field_1_1140
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	CHICKEN_DEATH_BABY	field_1_1141
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	CHICKEN_HURT_BABY	field_1_1142
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	GOLDEN_DANDELION_UNUSE	field_1_1143
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	GOLDEN_DANDELION_USE	field_1_1144
+METHOD	net/minecraft/world/item/DyeItem	(Lnet/minecraft/world/item/DyeColor;Lnet/minecraft/world/level/block/entity/SignText;)Lnet/minecraft/world/level/block/entity/SignText;	lambda$tryApplyToSign$0	method_1_1234
+FIELD	net/minecraft/tags/EntityTypeTags	Lnet/minecraft/tags/TagKey;	CANNOT_BE_AGE_LOCKED	field_1_1145
+METHOD	net/minecraft/world/item/DyeColor	(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/DyeColor;Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/world/item/DyeColor;	findColorMixInRecipes	method_1_1235
+METHOD	net/minecraft/world/entity/ai/Brain	(Ljava/util/Map$Entry;)Z	lambda$pack$0	method_1_1236
+METHOD	net/minecraft/world/entity/ai/Brain	(Ljava/util/Map$Entry;)Ljava/util/stream/Stream;	lambda$pack$1	method_1_1237
+METHOD	net/minecraft/world/entity/ai/Brain	(Ljava/util/Map$Entry;Lnet/minecraft/world/entity/ai/memory/ExpirableValue;)Lnet/minecraft/world/entity/ai/memory/MemoryMap$Value;	lambda$pack$2	method_1_1238
+METHOD	net/minecraft/world/entity/ai/Brain	(Lnet/minecraft/world/entity/LivingEntity;)Ljava/util/List;	lambda$provider$0	method_1_1239
+METHOD	net/minecraft/world/entity/ai/Brain	()Lnet/minecraft/world/entity/ai/Brain$Packed;	pack	method_1_1240
+METHOD	net/minecraft/world/entity/ai/Brain	(Ljava/util/Collection;Ljava/util/Collection;Lnet/minecraft/world/entity/ai/Brain$ActivitySupplier;)Lnet/minecraft/world/entity/ai/Brain$Provider;	provider	method_1_1241
+METHOD	net/minecraft/world/entity/ai/Brain	(Ljava/util/Collection;Lnet/minecraft/world/entity/ai/Brain$ActivitySupplier;)Lnet/minecraft/world/entity/ai/Brain$Provider;	provider	method_1_1242
+METHOD	net/minecraft/world/entity/ai/Brain	(Lnet/minecraft/world/entity/ai/memory/MemoryMap$Value;)V	setMemoryInternal	method_1_1243
+CLASS	net/minecraft/world/entity/ai/Brain$ActivitySupplier	class_1_141
+METHOD	net/minecraft/world/entity/ai/Brain$ActivitySupplier	(Lnet/minecraft/world/entity/LivingEntity;)Ljava/util/List;	createActivities	method_1_1244
+CLASS	net/minecraft/world/entity/ai/Brain$Packed	class_1_142
+FIELD	net/minecraft/world/entity/ai/Brain$Packed	Lcom/mojang/serialization/Codec;	CODEC	field_1_1146
+FIELD	net/minecraft/world/entity/ai/Brain$Packed	Lnet/minecraft/world/entity/ai/Brain$Packed;	EMPTY	field_1_1147
+FIELD	net/minecraft/world/entity/ai/Brain$Packed	Lnet/minecraft/world/entity/ai/memory/MemoryMap;	memories	comp_1_111
+METHOD	net/minecraft/world/entity/ai/Brain$Packed	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1245
+FIELD	net/minecraft/world/entity/AgeableMob	Lnet/minecraft/network/syncher/EntityDataAccessor;	AGE_LOCKED	field_1_1148
+FIELD	net/minecraft/world/entity/AgeableMob	I	AGE_LOCK_COOLDOWN_TICKS	field_1_1149
+FIELD	net/minecraft/world/entity/AgeableMob	I	ageLockParticleTimer	field_1_1150
+METHOD	net/minecraft/world/entity/AgeableMob	()Z	canAgeUp	method_1_1246
+METHOD	net/minecraft/world/entity/AgeableMob	()Z	isAgeLocked	method_1_1247
+METHOD	net/minecraft/world/entity/AgeableMob	(Z)V	setAgeLocked	method_1_1248
+FIELD	com/mojang/blaze3d/opengl/GlRenderPass	Lcom/mojang/blaze3d/opengl/GlDevice;	device	field_1_1151
+METHOD	net/minecraft/world/inventory/LoomMenu	(Lnet/minecraft/world/item/ItemStack;)Z	isDyeItem	method_1_1249
+METHOD	net/minecraft/world/inventory/LoomMenu	(Lnet/minecraft/world/item/ItemStack;)Z	isPatternItem	method_1_1250
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	GOLDEN_DANDELION	field_1_1152
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	POTTED_GOLDEN_DANDELION	field_1_1153
+METHOD	net/minecraft/world/level/block/Blocks	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;	lambda$static$193	method_1_1251
+METHOD	net/minecraft/world/level/block/Blocks	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;	lambda$static$42	method_1_1252
+METHOD	net/minecraft/world/level/block/Blocks	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;	lambda$static$472	method_1_1253
+METHOD	net/minecraft/world/level/block/Blocks	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;	lambda$static$473	method_1_1254
+METHOD	net/minecraft/world/level/block/Blocks	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;	lambda$static$480	method_1_1255
+METHOD	net/minecraft/world/level/block/Blocks	(Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;	lambda$static$481	method_1_1256
+METHOD	net/minecraft/data/recipes/RecipeBuilder	(Lnet/minecraft/data/recipes/RecipeCategory;Ljava/lang/String;)Lnet/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo;	createCraftingBookInfo	method_1_1257
+METHOD	net/minecraft/data/recipes/RecipeBuilder	(Z)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	createCraftingCommonInfo	method_1_1258
+CLASS	net/minecraft/world/item/crafting/Recipe$BookInfo	class_1_143
+METHOD	net/minecraft/world/item/crafting/Recipe$BookInfo	()Ljava/lang/Object;	category	method_1_1259
+METHOD	net/minecraft/world/item/crafting/Recipe$BookInfo	()Ljava/lang/String;	group	comp_1_112
+METHOD	net/minecraft/world/item/crafting/Recipe$BookInfo	(Lcom/mojang/serialization/Codec;Ljava/lang/Object;Lnet/minecraft/world/item/crafting/Recipe$BookInfo$Constructor;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$mapCodec$0	method_1_1260
+METHOD	net/minecraft/world/item/crafting/Recipe$BookInfo	(Lcom/mojang/serialization/Codec;Ljava/lang/Object;Lnet/minecraft/world/item/crafting/Recipe$BookInfo$Constructor;)Lcom/mojang/serialization/MapCodec;	mapCodec	method_1_1261
+METHOD	net/minecraft/world/item/crafting/Recipe$BookInfo	(Lnet/minecraft/network/codec/StreamCodec;Lnet/minecraft/world/item/crafting/Recipe$BookInfo$Constructor;)Lnet/minecraft/network/codec/StreamCodec;	streamCodec	method_1_1262
+CLASS	net/minecraft/world/item/crafting/Recipe$BookInfo$Constructor	class_1_144
+CLASS	net/minecraft/world/item/crafting/Recipe$CommonInfo	class_1_145
+FIELD	net/minecraft/world/item/crafting/Recipe$CommonInfo	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1154
+FIELD	net/minecraft/world/item/crafting/Recipe$CommonInfo	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1155
+FIELD	net/minecraft/world/item/crafting/Recipe$CommonInfo	Z	showNotification	comp_1_113
+METHOD	net/minecraft/world/item/crafting/Recipe$CommonInfo	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1263
+FIELD	net/minecraft/data/recipes/RecipeProvider	Ljava/util/Map;	STONECUTTER_RECIPE_BUILDERS	field_1_1156
+METHOD	net/minecraft/data/recipes/RecipeProvider	()Lnet/minecraft/advancements/Criterion;	bredAnimal	method_1_1264
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;)V	dyedBundleRecipe	method_1_1265
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/world/item/Item;Ljava/lang/String;)V	dyedItem	method_1_1266
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/Item;)V	dyedShulkerBoxRecipe	method_1_1267
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/BlockFamily;Lnet/minecraft/data/BlockFamily$Variant;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/ItemLike;)V	generateCraftingRecipe	method_1_1268
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/BlockFamily;Lnet/minecraft/data/BlockFamily$Variant;Lnet/minecraft/world/level/block/Block;)V	generateStonecutterRecipe	method_1_1269
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/world/item/crafting/Recipe;	lambda$banner$0	method_1_1270
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/world/item/Item;Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;Lnet/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo;)Lnet/minecraft/world/item/crafting/Recipe;	lambda$dyedItem$0	method_1_1271
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/BlockFamily;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/data/BlockFamily$Variant;Lnet/minecraft/world/level/block/Block;)V	lambda$generateStonecutterRecipe$0	method_1_1272
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)V	lambda$static$17	method_1_1273
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)V	lambda$static$18	method_1_1274
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)V	lambda$static$19	method_1_1275
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)V	lambda$static$20	method_1_1276
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)V	lambda$static$21	method_1_1277
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)V	lambda$static$22	method_1_1278
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)V	lambda$static$23	method_1_1279
+CLASS	net/minecraft/data/recipes/RecipeProvider$FamilyStonecutterRecipeProvider	class_1_146
+METHOD	net/minecraft/data/recipes/RecipeProvider$FamilyStonecutterRecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)V	create	method_1_1280
+FIELD	net/minecraft/world/entity/monster/Zoglin	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1157
+METHOD	net/minecraft/world/entity/monster/Zoglin	(Lnet/minecraft/world/entity/monster/Zoglin;)Ljava/util/List;	lambda$static$0	method_1_1281
+METHOD	net/minecraft/world/item/ItemStackTemplate	(ILnet/minecraft/core/component/DataComponentPatch;)Lnet/minecraft/world/item/ItemStack;	apply	method_1_1282
+METHOD	net/minecraft/world/item/ItemStackTemplate	(I)Lnet/minecraft/world/item/ItemStackTemplate;	withCount	method_1_1283
+CLASS	com/mojang/blaze3d/systems/GpuDeviceBackend	class_1_147
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()V	clearPipelineCache	method_1_1284
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()V	close	method_1_1285
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	(Ljava/util/function/Supplier;IJ)Lcom/mojang/blaze3d/buffers/GpuBuffer;	createBuffer	method_1_1286
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	(Ljava/util/function/Supplier;ILjava/nio/ByteBuffer;)Lcom/mojang/blaze3d/buffers/GpuBuffer;	createBuffer	method_1_1287
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()Lcom/mojang/blaze3d/systems/CommandEncoderBackend;	createCommandEncoder	method_1_1288
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	(Lcom/mojang/blaze3d/textures/AddressMode;Lcom/mojang/blaze3d/textures/AddressMode;Lcom/mojang/blaze3d/textures/FilterMode;Lcom/mojang/blaze3d/textures/FilterMode;ILjava/util/OptionalDouble;)Lcom/mojang/blaze3d/textures/GpuSampler;	createSampler	method_1_1289
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	(Ljava/lang/String;ILcom/mojang/blaze3d/textures/TextureFormat;IIII)Lcom/mojang/blaze3d/textures/GpuTexture;	createTexture	method_1_1290
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	(Ljava/util/function/Supplier;ILcom/mojang/blaze3d/textures/TextureFormat;IIII)Lcom/mojang/blaze3d/textures/GpuTexture;	createTexture	method_1_1291
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	(Lcom/mojang/blaze3d/textures/GpuTexture;)Lcom/mojang/blaze3d/textures/GpuTextureView;	createTextureView	method_1_1292
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	(Lcom/mojang/blaze3d/textures/GpuTexture;II)Lcom/mojang/blaze3d/textures/GpuTextureView;	createTextureView	method_1_1293
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()Ljava/lang/String;	getBackendName	method_1_1294
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()Ljava/util/List;	getEnabledExtensions	method_1_1295
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()Ljava/lang/String;	getImplementationInformation	method_1_1296
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()Ljava/util/List;	getLastDebugMessages	method_1_1297
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()I	getMaxSupportedAnisotropy	method_1_1298
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()I	getMaxTextureSize	method_1_1299
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()Ljava/lang/String;	getRenderer	method_1_1300
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()I	getUniformOffsetAlignment	method_1_1301
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()Ljava/lang/String;	getVendor	method_1_1302
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()Ljava/lang/String;	getVersion	method_1_1303
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()Z	isDebuggingEnabled	method_1_1304
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()Z	isZZeroToOne	method_1_1305
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lcom/mojang/blaze3d/shaders/ShaderSource;)Lcom/mojang/blaze3d/pipeline/CompiledRenderPipeline;	precompilePipeline	method_1_1306
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	()V	presentFrame	method_1_1307
+METHOD	com/mojang/blaze3d/systems/GpuDeviceBackend	(Z)V	setVsync	method_1_1308
+FIELD	net/minecraft/core/component/DataComponents	Lnet/minecraft/core/component/DataComponentType;	DYE	field_1_1158
+METHOD	net/minecraft/core/component/DataComponents	(Lnet/minecraft/core/component/DataComponentType$Builder;)Lnet/minecraft/core/component/DataComponentType$Builder;	lambda$static$43	method_1_1309
+FIELD	net/minecraft/world/entity/animal/frog/Frog	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1159
+METHOD	net/minecraft/world/entity/animal/frog/Frog	(Lnet/minecraft/world/entity/animal/frog/Frog;)Ljava/util/List;	lambda$static$0	method_1_1310
+FIELD	net/minecraft/world/entity/animal/goat/Goat	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1160
+METHOD	net/minecraft/world/entity/animal/goat/Goat	(Lnet/minecraft/world/entity/animal/goat/Goat;)Ljava/util/List;	lambda$static$0	method_1_1311
+CLASS	net/minecraft/world/item/crafting/DyeRecipe	class_1_148
+FIELD	net/minecraft/world/item/crafting/DyeRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1161
+FIELD	net/minecraft/world/item/crafting/DyeRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1162
+FIELD	net/minecraft/world/item/crafting/DyeRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1163
+FIELD	net/minecraft/world/item/crafting/DyeRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	dye	field_1_1164
+FIELD	net/minecraft/world/item/crafting/DyeRecipe	Lnet/minecraft/world/item/ItemStackTemplate;	result	field_1_1165
+FIELD	net/minecraft/world/item/crafting/DyeRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	target	field_1_1166
+METHOD	net/minecraft/world/item/crafting/DyeRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;	assemble	method_1_1312
+METHOD	net/minecraft/world/item/crafting/DyeRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1313
+METHOD	net/minecraft/world/item/crafting/DyeRecipe	(Lnet/minecraft/world/item/crafting/DyeRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$static$1	method_1_1314
+METHOD	net/minecraft/world/item/crafting/DyeRecipe	(Lnet/minecraft/world/item/crafting/DyeRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$10	method_1_1315
+METHOD	net/minecraft/world/item/crafting/DyeRecipe	(Lnet/minecraft/world/item/crafting/DyeRecipe;)Lnet/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo;	lambda$static$2	method_1_1316
+METHOD	net/minecraft/world/item/crafting/DyeRecipe	(Lnet/minecraft/world/item/crafting/DyeRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$3	method_1_1317
+METHOD	net/minecraft/world/item/crafting/DyeRecipe	(Lnet/minecraft/world/item/crafting/DyeRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$4	method_1_1318
+METHOD	net/minecraft/world/item/crafting/DyeRecipe	(Lnet/minecraft/world/item/crafting/DyeRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$5	method_1_1319
+METHOD	net/minecraft/world/item/crafting/DyeRecipe	(Lnet/minecraft/world/item/crafting/DyeRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$static$6	method_1_1320
+METHOD	net/minecraft/world/item/crafting/DyeRecipe	(Lnet/minecraft/world/item/crafting/DyeRecipe;)Lnet/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo;	lambda$static$7	method_1_1321
+METHOD	net/minecraft/world/item/crafting/DyeRecipe	(Lnet/minecraft/world/item/crafting/DyeRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$8	method_1_1322
+METHOD	net/minecraft/world/item/crafting/DyeRecipe	(Lnet/minecraft/world/item/crafting/DyeRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$9	method_1_1323
+METHOD	net/minecraft/world/item/crafting/DyeRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;)Z	matches	method_1_1324
+CLASS	com/mojang/blaze3d/systems/RenderPassBackend	class_1_149
+METHOD	com/mojang/blaze3d/systems/RenderPassBackend	(Ljava/lang/String;Lcom/mojang/blaze3d/textures/GpuTextureView;Lcom/mojang/blaze3d/textures/GpuSampler;)V	bindTexture	method_1_1325
+METHOD	com/mojang/blaze3d/systems/RenderPassBackend	()V	disableScissor	method_1_1326
+METHOD	com/mojang/blaze3d/systems/RenderPassBackend	(II)V	draw	method_1_1327
+METHOD	com/mojang/blaze3d/systems/RenderPassBackend	(IIII)V	drawIndexed	method_1_1328
+METHOD	com/mojang/blaze3d/systems/RenderPassBackend	(Ljava/util/Collection;Lcom/mojang/blaze3d/buffers/GpuBuffer;Lcom/mojang/blaze3d/vertex/VertexFormat$IndexType;Ljava/util/Collection;Ljava/lang/Object;)V	drawMultipleIndexed	method_1_1329
+METHOD	com/mojang/blaze3d/systems/RenderPassBackend	(IIII)V	enableScissor	method_1_1330
+METHOD	com/mojang/blaze3d/systems/RenderPassBackend	()Z	isClosed	method_1_1331
+METHOD	com/mojang/blaze3d/systems/RenderPassBackend	()V	popDebugGroup	method_1_1332
+METHOD	com/mojang/blaze3d/systems/RenderPassBackend	(Ljava/util/function/Supplier;)V	pushDebugGroup	method_1_1333
+METHOD	com/mojang/blaze3d/systems/RenderPassBackend	(Lcom/mojang/blaze3d/buffers/GpuBuffer;Lcom/mojang/blaze3d/vertex/VertexFormat$IndexType;)V	setIndexBuffer	method_1_1334
+METHOD	com/mojang/blaze3d/systems/RenderPassBackend	(Lcom/mojang/blaze3d/pipeline/RenderPipeline;)V	setPipeline	method_1_1335
+METHOD	com/mojang/blaze3d/systems/RenderPassBackend	(Ljava/lang/String;Lcom/mojang/blaze3d/buffers/GpuBuffer;)V	setUniform	method_1_1336
+METHOD	com/mojang/blaze3d/systems/RenderPassBackend	(Ljava/lang/String;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;)V	setUniform	method_1_1337
+METHOD	com/mojang/blaze3d/systems/RenderPassBackend	(ILcom/mojang/blaze3d/buffers/GpuBuffer;)V	setVertexBuffer	method_1_1338
+FIELD	net/minecraft/world/entity/animal/allay/Allay	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1167
+METHOD	net/minecraft/world/entity/animal/allay/Allay	(Lnet/minecraft/world/entity/animal/allay/Allay;)Ljava/util/List;	lambda$static$0	method_1_1339
+FIELD	net/minecraft/world/entity/animal/camel/Camel	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1168
+METHOD	net/minecraft/world/entity/animal/camel/Camel	(Lnet/minecraft/world/entity/animal/camel/Camel;)Ljava/util/List;	lambda$static$0	method_1_1340
+FIELD	net/minecraft/world/entity/animal/squid/Squid	Lnet/minecraft/world/entity/EntityDimensions;	BABY_DIMENSIONS	field_1_1169
+CLASS	net/minecraft/world/item/crafting/ImbueRecipe	class_1_150
+FIELD	net/minecraft/world/item/crafting/ImbueRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1170
+FIELD	net/minecraft/world/item/crafting/ImbueRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1171
+FIELD	net/minecraft/world/item/crafting/ImbueRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1172
+FIELD	net/minecraft/world/item/crafting/ImbueRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	material	field_1_1173
+FIELD	net/minecraft/world/item/crafting/ImbueRecipe	Lnet/minecraft/world/item/ItemStackTemplate;	result	field_1_1174
+FIELD	net/minecraft/world/item/crafting/ImbueRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	source	field_1_1175
+METHOD	net/minecraft/world/item/crafting/ImbueRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;	assemble	method_1_1341
+METHOD	net/minecraft/world/item/crafting/ImbueRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1342
+METHOD	net/minecraft/world/item/crafting/ImbueRecipe	(Lnet/minecraft/world/item/crafting/ImbueRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$static$1	method_1_1343
+METHOD	net/minecraft/world/item/crafting/ImbueRecipe	(Lnet/minecraft/world/item/crafting/ImbueRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$10	method_1_1344
+METHOD	net/minecraft/world/item/crafting/ImbueRecipe	(Lnet/minecraft/world/item/crafting/ImbueRecipe;)Lnet/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo;	lambda$static$2	method_1_1345
+METHOD	net/minecraft/world/item/crafting/ImbueRecipe	(Lnet/minecraft/world/item/crafting/ImbueRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$3	method_1_1346
+METHOD	net/minecraft/world/item/crafting/ImbueRecipe	(Lnet/minecraft/world/item/crafting/ImbueRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$4	method_1_1347
+METHOD	net/minecraft/world/item/crafting/ImbueRecipe	(Lnet/minecraft/world/item/crafting/ImbueRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$5	method_1_1348
+METHOD	net/minecraft/world/item/crafting/ImbueRecipe	(Lnet/minecraft/world/item/crafting/ImbueRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$static$6	method_1_1349
+METHOD	net/minecraft/world/item/crafting/ImbueRecipe	(Lnet/minecraft/world/item/crafting/ImbueRecipe;)Lnet/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo;	lambda$static$7	method_1_1350
+METHOD	net/minecraft/world/item/crafting/ImbueRecipe	(Lnet/minecraft/world/item/crafting/ImbueRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$8	method_1_1351
+METHOD	net/minecraft/world/item/crafting/ImbueRecipe	(Lnet/minecraft/world/item/crafting/ImbueRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$9	method_1_1352
+METHOD	net/minecraft/world/item/crafting/ImbueRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;)Z	matches	method_1_1353
+FIELD	net/minecraft/data/recipes/ShapedRecipeBuilder	Lnet/minecraft/data/recipes/RecipeUnlockAdvancementBuilder;	advancementBuilder	field_1_1176
+CLASS	net/minecraft/world/entity/ai/memory/MemoryMap	class_1_151
+FIELD	net/minecraft/world/entity/ai/memory/MemoryMap	Lcom/mojang/serialization/Codec;	CODEC	field_1_1177
+FIELD	net/minecraft/world/entity/ai/memory/MemoryMap	Lnet/minecraft/world/entity/ai/memory/MemoryMap;	EMPTY	field_1_1178
+FIELD	net/minecraft/world/entity/ai/memory/MemoryMap	Lcom/mojang/serialization/Codec;	SERIALIZABLE_MEMORY_MODULE_CODEC	field_1_1179
+FIELD	net/minecraft/world/entity/ai/memory/MemoryMap	Ljava/util/Map;	memories	field_1_1180
+METHOD	net/minecraft/world/entity/ai/memory/MemoryMap	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)Lnet/minecraft/world/entity/ai/memory/ExpirableValue;	get	method_1_1354
+METHOD	net/minecraft/world/entity/ai/memory/MemoryMap	(Ljava/util/Map$Entry;)Lnet/minecraft/world/entity/ai/memory/MemoryMap$Value;	lambda$iterator$0	method_1_1355
+METHOD	net/minecraft/world/entity/ai/memory/MemoryMap	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)Lcom/mojang/serialization/DataResult;	lambda$static$0	method_1_1356
+METHOD	net/minecraft/world/entity/ai/memory/MemoryMap	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)Ljava/lang/String;	lambda$static$1	method_1_1357
+METHOD	net/minecraft/world/entity/ai/memory/MemoryMap	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)Lcom/mojang/serialization/Codec;	lambda$static$2	method_1_1358
+METHOD	net/minecraft/world/entity/ai/memory/MemoryMap	(Lnet/minecraft/world/entity/ai/memory/MemoryMap;)Ljava/util/Map;	lambda$static$3	method_1_1359
+METHOD	net/minecraft/world/entity/ai/memory/MemoryMap	(Ljava/util/stream/Stream;)Lnet/minecraft/world/entity/ai/memory/MemoryMap;	of	method_1_1360
+CLASS	net/minecraft/world/entity/ai/memory/MemoryMap$Value	class_1_152
+FIELD	net/minecraft/world/entity/ai/memory/MemoryMap$Value	Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;	type	comp_1_114
+FIELD	net/minecraft/world/entity/ai/memory/MemoryMap$Value	Lnet/minecraft/world/entity/ai/memory/ExpirableValue;	value	comp_1_115
+METHOD	net/minecraft/world/entity/ai/memory/MemoryMap$Value	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Lnet/minecraft/world/entity/ai/memory/ExpirableValue;)Lnet/minecraft/world/entity/ai/memory/MemoryMap$Value;	createUnchecked	method_1_1361
+FIELD	net/minecraft/world/entity/animal/frog/Tadpole	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1181
+METHOD	net/minecraft/world/entity/animal/frog/Tadpole	(Lnet/minecraft/world/entity/animal/frog/Tadpole;)Ljava/util/List;	lambda$static$0	method_1_1362
+FIELD	net/minecraft/world/item/crafting/ShapedRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1182
+FIELD	net/minecraft/world/item/crafting/ShapedRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1183
+FIELD	net/minecraft/world/item/crafting/ShapedRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1184
+METHOD	net/minecraft/world/item/crafting/ShapedRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1363
+METHOD	net/minecraft/world/item/crafting/ShapedRecipe	(Lnet/minecraft/world/item/crafting/ShapedRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$static$1	method_1_1364
+METHOD	net/minecraft/world/item/crafting/ShapedRecipe	(Lnet/minecraft/world/item/crafting/ShapedRecipe;)Lnet/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo;	lambda$static$2	method_1_1365
+METHOD	net/minecraft/world/item/crafting/ShapedRecipe	(Lnet/minecraft/world/item/crafting/ShapedRecipe;)Lnet/minecraft/world/item/crafting/ShapedRecipePattern;	lambda$static$3	method_1_1366
+METHOD	net/minecraft/world/item/crafting/ShapedRecipe	(Lnet/minecraft/world/item/crafting/ShapedRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$4	method_1_1367
+METHOD	net/minecraft/world/item/crafting/ShapedRecipe	(Lnet/minecraft/world/item/crafting/ShapedRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$static$5	method_1_1368
+METHOD	net/minecraft/world/item/crafting/ShapedRecipe	(Lnet/minecraft/world/item/crafting/ShapedRecipe;)Lnet/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo;	lambda$static$6	method_1_1369
+METHOD	net/minecraft/world/item/crafting/ShapedRecipe	(Lnet/minecraft/world/item/crafting/ShapedRecipe;)Lnet/minecraft/world/item/crafting/ShapedRecipePattern;	lambda$static$7	method_1_1370
+METHOD	net/minecraft/world/item/crafting/ShapedRecipe	(Lnet/minecraft/world/item/crafting/ShapedRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$8	method_1_1371
+METHOD	net/minecraft/client/gui/components/PopupScreen	(Lnet/minecraft/network/chat/Component;)V	lambda$init$0	method_1_1372
+FIELD	net/minecraft/client/gui/components/PopupScreen$Builder	Ljava/util/List;	messages	field_1_1185
+METHOD	net/minecraft/client/gui/components/PopupScreen$Builder	(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/components/PopupScreen$Builder;	addMessage	method_1_1373
+FIELD	net/minecraft/commands/arguments/item/ItemInput	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	ERROR_MALFORMED_ITEM	field_1_1186
+field_49570 is now comp_1_116
+field_10796 is now comp_1_117
+METHOD	net/minecraft/commands/arguments/item/ItemInput	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	lambda$static$1	method_1_1374
+CLASS	net/minecraft/data/recipes/SpecialRecipeBuilder	class_1_153
+FIELD	net/minecraft/data/recipes/SpecialRecipeBuilder	Lnet/minecraft/data/recipes/RecipeUnlockAdvancementBuilder;	advancementBuilder	field_1_1187
+FIELD	net/minecraft/data/recipes/SpecialRecipeBuilder	Ljava/util/function/Supplier;	factory	field_1_1188
+METHOD	net/minecraft/data/recipes/SpecialRecipeBuilder	(Lnet/minecraft/data/recipes/RecipeOutput;Ljava/lang/String;)V	save	method_1_1375
+METHOD	net/minecraft/data/recipes/SpecialRecipeBuilder	(Lnet/minecraft/data/recipes/RecipeOutput;Lnet/minecraft/resources/ResourceKey;)V	save	method_1_1376
+METHOD	net/minecraft/data/recipes/SpecialRecipeBuilder	(Ljava/util/function/Supplier;)Lnet/minecraft/data/recipes/SpecialRecipeBuilder;	special	method_1_1377
+METHOD	net/minecraft/data/recipes/SpecialRecipeBuilder	(Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Lnet/minecraft/data/recipes/SpecialRecipeBuilder;	unlockedBy	method_1_1378
+METHOD	net/minecraft/network/chat/contents/NbtContents	(Lnet/minecraft/nbt/Tag;)Lnet/minecraft/network/chat/MutableComponent;	lambda$resolve$3	method_1_1379
+METHOD	net/minecraft/network/chat/contents/NbtContents	(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/MutableComponent;Lnet/minecraft/network/chat/MutableComponent;)Lnet/minecraft/network/chat/MutableComponent;	lambda$resolve$4	method_1_1380
+FIELD	net/minecraft/world/item/crafting/SmokingRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1189
+FIELD	net/minecraft/world/item/crafting/SmokingRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1190
+FIELD	net/minecraft/world/item/crafting/SmokingRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1191
+FIELD	net/minecraft/world/item/trading/VillagerTrades	Lnet/minecraft/resources/ResourceKey;	WANDERING_TRADER_EMERALD_GOLDEN_DANDELION	field_1_1192
+CLASS	com/mojang/blaze3d/systems/CommandEncoderBackend	class_1_154
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Lcom/mojang/blaze3d/textures/GpuTexture;ILcom/mojang/blaze3d/textures/GpuTexture;D)V	clearColorAndDepthTextures	method_1_1381
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Lcom/mojang/blaze3d/textures/GpuTexture;ILcom/mojang/blaze3d/textures/GpuTexture;DIIII)V	clearColorAndDepthTextures	method_1_1382
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Lcom/mojang/blaze3d/textures/GpuTexture;I)V	clearColorTexture	method_1_1383
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Lcom/mojang/blaze3d/textures/GpuTexture;D)V	clearDepthTexture	method_1_1384
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Lcom/mojang/blaze3d/textures/GpuTexture;Lcom/mojang/blaze3d/buffers/GpuBuffer;JLjava/lang/Runnable;I)V	copyTextureToBuffer	method_1_1385
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Lcom/mojang/blaze3d/textures/GpuTexture;Lcom/mojang/blaze3d/buffers/GpuBuffer;JLjava/lang/Runnable;IIIII)V	copyTextureToBuffer	method_1_1386
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Lcom/mojang/blaze3d/textures/GpuTexture;Lcom/mojang/blaze3d/textures/GpuTexture;IIIIIII)V	copyTextureToTexture	method_1_1387
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;)V	copyToBuffer	method_1_1388
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	()Lcom/mojang/blaze3d/buffers/GpuFence;	createFence	method_1_1389
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Ljava/util/function/Supplier;Lcom/mojang/blaze3d/textures/GpuTextureView;Ljava/util/OptionalInt;)Lcom/mojang/blaze3d/systems/RenderPass;	createRenderPass	method_1_1390
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Ljava/util/function/Supplier;Lcom/mojang/blaze3d/textures/GpuTextureView;Ljava/util/OptionalInt;Lcom/mojang/blaze3d/textures/GpuTextureView;Ljava/util/OptionalDouble;)Lcom/mojang/blaze3d/systems/RenderPass;	createRenderPass	method_1_1391
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	()Z	isInRenderPass	method_1_1392
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Lcom/mojang/blaze3d/buffers/GpuBufferSlice;ZZ)Lcom/mojang/blaze3d/buffers/GpuBuffer$MappedView;	mapBuffer	method_1_1393
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Lcom/mojang/blaze3d/textures/GpuTextureView;)V	presentTexture	method_1_1394
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	()Lcom/mojang/blaze3d/systems/GpuQuery;	timerQueryBegin	method_1_1395
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Lcom/mojang/blaze3d/systems/GpuQuery;)V	timerQueryEnd	method_1_1396
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Ljava/nio/ByteBuffer;)V	writeToBuffer	method_1_1397
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Lcom/mojang/blaze3d/textures/GpuTexture;Lcom/mojang/blaze3d/platform/NativeImage;IIIIIIII)V	writeToTexture	method_1_1398
+METHOD	com/mojang/blaze3d/systems/CommandEncoderBackend	(Lcom/mojang/blaze3d/textures/GpuTexture;Ljava/nio/ByteBuffer;Lcom/mojang/blaze3d/platform/NativeImage$Format;IIIIII)V	writeToTexture	method_1_1399
+FIELD	net/minecraft/world/entity/monster/breeze/Breeze	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1193
+FIELD	net/minecraft/world/entity/monster/hoglin/Hoglin	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1194
+METHOD	net/minecraft/world/entity/monster/hoglin/Hoglin	(Lnet/minecraft/world/entity/monster/hoglin/Hoglin;)Ljava/util/List;	lambda$static$0	method_1_1400
+FIELD	net/minecraft/world/entity/monster/piglin/Piglin	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1195
+FIELD	net/minecraft/world/entity/monster/warden/Warden	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1196
+FIELD	net/minecraft/world/entity/npc/villager/Villager	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1197
+METHOD	net/minecraft/world/entity/npc/villager/Villager	(Lnet/minecraft/world/entity/npc/villager/Villager;)Ljava/util/List;	lambda$static$0	method_1_1401
+METHOD	net/minecraft/world/item/component/DyedItemColor	(Lnet/minecraft/world/item/component/DyedItemColor;Ljava/util/List;)Lnet/minecraft/world/item/component/DyedItemColor;	applyDyes	method_1_1402
+FIELD	net/minecraft/world/item/crafting/BlastingRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1198
+FIELD	net/minecraft/world/item/crafting/BlastingRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1199
+FIELD	net/minecraft/world/item/crafting/BlastingRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1200
+CLASS	net/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo	class_1_155
+FIELD	net/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1201
+FIELD	net/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1202
+FIELD	net/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo	Lnet/minecraft/world/item/crafting/CraftingBookCategory;	category	comp_1_118
+FIELD	net/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo	Ljava/lang/String;	group	comp_1_119
+FIELD	net/minecraft/world/item/crafting/SmeltingRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1203
+FIELD	net/minecraft/world/item/crafting/SmeltingRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1204
+FIELD	net/minecraft/world/item/crafting/SmeltingRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1205
+METHOD	net/minecraft/advancements/criterion/MinMaxBounds	(Lcom/google/common/collect/Range;Lnet/minecraft/advancements/criterion/MinMaxBounds;)Lcom/mojang/serialization/DataResult;	lambda$validateContainedInRange$0	method_1_1403
+METHOD	net/minecraft/advancements/criterion/MinMaxBounds	(Lcom/google/common/collect/Range;Lcom/google/common/collect/Range;)Ljava/lang/String;	lambda$validateContainedInRange$1	method_1_1404
+METHOD	net/minecraft/advancements/criterion/MinMaxBounds	(Lnet/minecraft/advancements/criterion/MinMaxBounds;)Ljava/util/function/Function;	validateContainedInRange	method_1_1405
+METHOD	net/minecraft/advancements/criterion/MinMaxBounds$Bounds	()Lcom/google/common/collect/Range;	asRange	method_1_1406
+FIELD	net/minecraft/data/recipes/ShapelessRecipeBuilder	Lnet/minecraft/data/recipes/RecipeUnlockAdvancementBuilder;	advancementBuilder	field_1_1206
+FIELD	net/minecraft/data/recipes/TransmuteRecipeBuilder	Z	addMaterialCountToOutput	field_1_1207
+FIELD	net/minecraft/data/recipes/TransmuteRecipeBuilder	Lnet/minecraft/data/recipes/RecipeUnlockAdvancementBuilder;	advancementBuilder	field_1_1208
+FIELD	net/minecraft/data/recipes/TransmuteRecipeBuilder	Lnet/minecraft/advancements/criterion/MinMaxBounds$Ints;	materialCount	field_1_1209
+METHOD	net/minecraft/data/recipes/TransmuteRecipeBuilder	()Lnet/minecraft/data/recipes/TransmuteRecipeBuilder;	addMaterialCountToOutput	method_1_1407
+METHOD	net/minecraft/data/recipes/TransmuteRecipeBuilder	(Lnet/minecraft/advancements/criterion/MinMaxBounds$Ints;)Lnet/minecraft/data/recipes/TransmuteRecipeBuilder;	setMaterialCount	method_1_1408
+METHOD	net/minecraft/data/recipes/TransmuteRecipeBuilder	(Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/world/item/ItemStackTemplate;)Lnet/minecraft/data/recipes/TransmuteRecipeBuilder;	transmute	method_1_1409
+METHOD	net/minecraft/data/recipes/TransmuteRecipeBuilder	(Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Lnet/minecraft/data/recipes/TransmuteRecipeBuilder;	unlockedBy	method_1_1410
+FIELD	net/minecraft/world/entity/animal/axolotl/Axolotl	Lcom/google/common/collect/ImmutableList;	ALL_ANIMATIONS	field_1_1210
+FIELD	net/minecraft/world/entity/animal/axolotl/Axolotl	Lnet/minecraft/world/entity/EntityDimensions;	BABY_DIMENSIONS	field_1_1211
+FIELD	net/minecraft/world/entity/animal/axolotl/Axolotl	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1212
+FIELD	net/minecraft/world/entity/animal/axolotl/Axolotl	Lnet/minecraft/world/entity/AnimationState;	idleOnGroundAnimationState	field_1_1213
+FIELD	net/minecraft/world/entity/animal/axolotl/Axolotl	Lnet/minecraft/world/entity/AnimationState;	idleUnderWaterAnimationState	field_1_1214
+FIELD	net/minecraft/world/entity/animal/axolotl/Axolotl	Lnet/minecraft/world/entity/AnimationState;	idleUnderWaterOnGroundAnimationState	field_1_1215
+FIELD	net/minecraft/world/entity/animal/axolotl/Axolotl	Lnet/minecraft/world/entity/AnimationState;	swimAnimationState	field_1_1216
+FIELD	net/minecraft/world/entity/animal/axolotl/Axolotl	Lnet/minecraft/world/entity/AnimationState;	walkAnimationState	field_1_1217
+FIELD	net/minecraft/world/entity/animal/axolotl/Axolotl	Lnet/minecraft/world/entity/AnimationState;	walkUnderWaterAnimationState	field_1_1218
+METHOD	net/minecraft/world/entity/animal/axolotl/Axolotl	(Lnet/minecraft/world/entity/animal/axolotl/Axolotl;)Ljava/util/List;	lambda$static$0	method_1_1411
+METHOD	net/minecraft/world/entity/animal/axolotl/Axolotl	(Lnet/minecraft/world/entity/AnimationState;)V	soloAnimation	method_1_1412
+METHOD	net/minecraft/world/entity/animal/axolotl/Axolotl	()V	tickBabyAnimations	method_1_1413
+FIELD	net/minecraft/world/entity/animal/sniffer/Sniffer	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1219
+METHOD	net/minecraft/world/entity/animal/sniffer/Sniffer	(Lnet/minecraft/world/entity/animal/sniffer/Sniffer;)Ljava/util/List;	lambda$static$0	method_1_1414
+FIELD	net/minecraft/world/item/crafting/ShapelessRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1220
+FIELD	net/minecraft/world/item/crafting/ShapelessRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1221
+FIELD	net/minecraft/world/item/crafting/ShapelessRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1222
+METHOD	net/minecraft/world/item/crafting/ShapelessRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1415
+METHOD	net/minecraft/world/item/crafting/ShapelessRecipe	(Lnet/minecraft/world/item/crafting/ShapelessRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$static$1	method_1_1416
+METHOD	net/minecraft/world/item/crafting/ShapelessRecipe	(Lnet/minecraft/world/item/crafting/ShapelessRecipe;)Lnet/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo;	lambda$static$2	method_1_1417
+METHOD	net/minecraft/world/item/crafting/ShapelessRecipe	(Lnet/minecraft/world/item/crafting/ShapelessRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$3	method_1_1418
+METHOD	net/minecraft/world/item/crafting/ShapelessRecipe	(Lnet/minecraft/world/item/crafting/ShapelessRecipe;)Ljava/util/List;	lambda$static$4	method_1_1419
+METHOD	net/minecraft/world/item/crafting/ShapelessRecipe	(Lnet/minecraft/world/item/crafting/ShapelessRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$static$5	method_1_1420
+METHOD	net/minecraft/world/item/crafting/ShapelessRecipe	(Lnet/minecraft/world/item/crafting/ShapelessRecipe;)Lnet/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo;	lambda$static$6	method_1_1421
+METHOD	net/minecraft/world/item/crafting/ShapelessRecipe	(Lnet/minecraft/world/item/crafting/ShapelessRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$7	method_1_1422
+METHOD	net/minecraft/world/item/crafting/ShapelessRecipe	(Lnet/minecraft/world/item/crafting/ShapelessRecipe;)Ljava/util/List;	lambda$static$8	method_1_1423
+FIELD	net/minecraft/world/item/crafting/TransmuteRecipe	Lnet/minecraft/advancements/criterion/MinMaxBounds$Ints;	DEFAULT_MATERIAL_COUNT	field_1_1223
+FIELD	net/minecraft/world/item/crafting/TransmuteRecipe	Lnet/minecraft/advancements/criterion/MinMaxBounds$Ints;	FULL_RANGE_MATERIAL_COUNT	field_1_1224
+FIELD	net/minecraft/world/item/crafting/TransmuteRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1225
+FIELD	net/minecraft/world/item/crafting/TransmuteRecipe	Lcom/mojang/serialization/Codec;	MATERIAL_COUNT_BOUNDS	field_1_1226
+FIELD	net/minecraft/world/item/crafting/TransmuteRecipe	I	MAX_MATERIAL_COUNT	field_1_1227
+FIELD	net/minecraft/world/item/crafting/TransmuteRecipe	I	MIN_MATERIAL_COUNT	field_1_1228
+FIELD	net/minecraft/world/item/crafting/TransmuteRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1229
+FIELD	net/minecraft/world/item/crafting/TransmuteRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1230
+FIELD	net/minecraft/world/item/crafting/TransmuteRecipe	Z	addMaterialCountToResult	field_1_1231
+FIELD	net/minecraft/world/item/crafting/TransmuteRecipe	Lnet/minecraft/advancements/criterion/MinMaxBounds$Ints;	materialCount	field_1_1232
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/ItemStack;I)Lnet/minecraft/world/item/ItemStack;	computeResult	method_1_1424
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(I)I	computeResultSize	method_1_1425
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/ItemStackTemplate;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;	createWithOriginalComponents	method_1_1426
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/ItemStackTemplate;Lnet/minecraft/world/item/ItemStack;I)Lnet/minecraft/world/item/ItemStack;	createWithOriginalComponents	method_1_1427
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1428
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/crafting/TransmuteRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$static$1	method_1_1429
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/crafting/TransmuteRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$10	method_1_1430
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/crafting/TransmuteRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$11	method_1_1431
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/crafting/TransmuteRecipe;)Lnet/minecraft/advancements/criterion/MinMaxBounds$Ints;	lambda$static$12	method_1_1432
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/crafting/TransmuteRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$13	method_1_1433
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/crafting/TransmuteRecipe;)Ljava/lang/Boolean;	lambda$static$14	method_1_1434
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/crafting/TransmuteRecipe;)Lnet/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo;	lambda$static$2	method_1_1435
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/crafting/TransmuteRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$3	method_1_1436
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/crafting/TransmuteRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$4	method_1_1437
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/crafting/TransmuteRecipe;)Lnet/minecraft/advancements/criterion/MinMaxBounds$Ints;	lambda$static$5	method_1_1438
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/crafting/TransmuteRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$6	method_1_1439
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/crafting/TransmuteRecipe;)Ljava/lang/Boolean;	lambda$static$7	method_1_1440
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/crafting/TransmuteRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$static$8	method_1_1441
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	(Lnet/minecraft/world/item/crafting/TransmuteRecipe;)Lnet/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo;	lambda$static$9	method_1_1442
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	()I	maxMaterialCount	method_1_1443
+METHOD	net/minecraft/world/item/crafting/TransmuteRecipe	()I	minMaterialCount	method_1_1444
+FIELD	net/minecraft/client/renderer/entity/SquidRenderer	Lnet/minecraft/resources/Identifier;	SQUID_BABY_LOCATION	field_1_1233
+CLASS	net/minecraft/data/recipes/SingleItemRecipeBuilder	class_1_156
+FIELD	net/minecraft/data/recipes/SingleItemRecipeBuilder	Lnet/minecraft/data/recipes/RecipeUnlockAdvancementBuilder;	advancementBuilder	field_1_1234
+FIELD	net/minecraft/data/recipes/SingleItemRecipeBuilder	Lnet/minecraft/data/recipes/RecipeCategory;	category	field_1_1235
+FIELD	net/minecraft/data/recipes/SingleItemRecipeBuilder	Lnet/minecraft/world/item/crafting/SingleItemRecipe$Factory;	factory	field_1_1236
+FIELD	net/minecraft/data/recipes/SingleItemRecipeBuilder	Lnet/minecraft/world/item/crafting/Ingredient;	ingredient	field_1_1237
+FIELD	net/minecraft/data/recipes/SingleItemRecipeBuilder	Lnet/minecraft/world/item/ItemStackTemplate;	result	field_1_1238
+METHOD	net/minecraft/data/recipes/SingleItemRecipeBuilder	(Ljava/lang/String;)Lnet/minecraft/data/recipes/SingleItemRecipeBuilder;	group	method_1_1445
+METHOD	net/minecraft/data/recipes/SingleItemRecipeBuilder	(Lnet/minecraft/world/item/crafting/Ingredient;Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;I)Lnet/minecraft/data/recipes/SingleItemRecipeBuilder;	stonecutting	method_1_1446
+METHOD	net/minecraft/data/recipes/SingleItemRecipeBuilder	(Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Lnet/minecraft/data/recipes/SingleItemRecipeBuilder;	unlockedBy	method_1_1447
+CLASS	net/minecraft/world/item/crafting/RecipeSerializer	class_1_157
+FIELD	net/minecraft/world/item/crafting/RecipeSerializer	Lcom/mojang/serialization/MapCodec;	codec	comp_1_120
+FIELD	net/minecraft/world/item/crafting/RecipeSerializer	Lnet/minecraft/network/codec/StreamCodec;	streamCodec	comp_1_121
+FIELD	net/minecraft/world/item/crafting/RepairItemRecipe	Lnet/minecraft/world/item/crafting/RepairItemRecipe;	INSTANCE	field_1_1239
+FIELD	net/minecraft/world/item/crafting/RepairItemRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1240
+FIELD	net/minecraft/world/item/crafting/RepairItemRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1241
+FIELD	net/minecraft/world/item/crafting/RepairItemRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1242
+FIELD	net/minecraft/world/item/crafting/SingleItemRecipe	Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	commonInfo	field_1_1243
+METHOD	net/minecraft/world/item/crafting/SingleItemRecipe	(Lnet/minecraft/world/item/crafting/SingleItemRecipe$Factory;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$simpleMapCodec$0	method_1_1448
+METHOD	net/minecraft/world/item/crafting/SingleItemRecipe	(Lnet/minecraft/world/item/crafting/SingleItemRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$simpleMapCodec$1	method_1_1449
+METHOD	net/minecraft/world/item/crafting/SingleItemRecipe	(Lnet/minecraft/world/item/crafting/SingleItemRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$simpleStreamCodec$0	method_1_1450
+METHOD	net/minecraft/world/item/crafting/SingleItemRecipe	(Lnet/minecraft/world/item/crafting/SingleItemRecipe$Factory;)Lcom/mojang/serialization/MapCodec;	simpleMapCodec	method_1_1451
+METHOD	net/minecraft/world/item/crafting/SingleItemRecipe	(Lnet/minecraft/world/item/crafting/SingleItemRecipe$Factory;)Lnet/minecraft/network/codec/StreamCodec;	simpleStreamCodec	method_1_1452
+FIELD	net/minecraft/client/renderer/entity/TurtleRenderer	Lnet/minecraft/resources/Identifier;	BABY_TURTLE_LOCATION	field_1_1244
+FIELD	net/minecraft/world/entity/animal/golem/CopperGolem	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1245
+METHOD	net/minecraft/world/entity/animal/golem/CopperGolem	(Lnet/minecraft/world/entity/animal/golem/CopperGolem;)Ljava/util/List;	lambda$static$0	method_1_1453
+FIELD	net/minecraft/world/entity/animal/nautilus/Nautilus	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1246
+METHOD	net/minecraft/world/entity/animal/nautilus/Nautilus	(Lnet/minecraft/world/entity/animal/nautilus/Nautilus;)Ljava/util/List;	lambda$static$0	method_1_1454
+CLASS	net/minecraft/world/item/crafting/BookCloningRecipe	class_1_158
+FIELD	net/minecraft/world/item/crafting/BookCloningRecipe	Lnet/minecraft/advancements/criterion/MinMaxBounds$Ints;	ALLOWED_BOOK_GENERATION_RANGES	field_1_1247
+FIELD	net/minecraft/world/item/crafting/BookCloningRecipe	Lcom/mojang/serialization/Codec;	ALLOWED_GENERATION_CODEC	field_1_1248
+FIELD	net/minecraft/world/item/crafting/BookCloningRecipe	Lnet/minecraft/advancements/criterion/MinMaxBounds$Ints;	DEFAULT_BOOK_GENERATION_RANGES	field_1_1249
+FIELD	net/minecraft/world/item/crafting/BookCloningRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1250
+FIELD	net/minecraft/world/item/crafting/BookCloningRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1251
+FIELD	net/minecraft/world/item/crafting/BookCloningRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1252
+FIELD	net/minecraft/world/item/crafting/BookCloningRecipe	Lnet/minecraft/advancements/criterion/MinMaxBounds$Ints;	allowedGenerations	field_1_1253
+FIELD	net/minecraft/world/item/crafting/BookCloningRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	material	field_1_1254
+FIELD	net/minecraft/world/item/crafting/BookCloningRecipe	Lnet/minecraft/world/item/ItemStackTemplate;	result	field_1_1255
+FIELD	net/minecraft/world/item/crafting/BookCloningRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	source	field_1_1256
+METHOD	net/minecraft/world/item/crafting/BookCloningRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;	assemble	method_1_1455
+METHOD	net/minecraft/world/item/crafting/BookCloningRecipe	(Lnet/minecraft/world/item/component/WrittenBookContent;)Z	canCraftCopy	method_1_1456
+METHOD	net/minecraft/world/item/crafting/BookCloningRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1457
+METHOD	net/minecraft/world/item/crafting/BookCloningRecipe	(Lnet/minecraft/world/item/crafting/BookCloningRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$1	method_1_1458
+METHOD	net/minecraft/world/item/crafting/BookCloningRecipe	(Lnet/minecraft/world/item/crafting/BookCloningRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$2	method_1_1459
+METHOD	net/minecraft/world/item/crafting/BookCloningRecipe	(Lnet/minecraft/world/item/crafting/BookCloningRecipe;)Lnet/minecraft/advancements/criterion/MinMaxBounds$Ints;	lambda$static$3	method_1_1460
+METHOD	net/minecraft/world/item/crafting/BookCloningRecipe	(Lnet/minecraft/world/item/crafting/BookCloningRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$4	method_1_1461
+METHOD	net/minecraft/world/item/crafting/BookCloningRecipe	(Lnet/minecraft/world/item/crafting/BookCloningRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$5	method_1_1462
+METHOD	net/minecraft/world/item/crafting/BookCloningRecipe	(Lnet/minecraft/world/item/crafting/BookCloningRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$6	method_1_1463
+METHOD	net/minecraft/world/item/crafting/BookCloningRecipe	(Lnet/minecraft/world/item/crafting/BookCloningRecipe;)Lnet/minecraft/advancements/criterion/MinMaxBounds$Ints;	lambda$static$7	method_1_1464
+METHOD	net/minecraft/world/item/crafting/BookCloningRecipe	(Lnet/minecraft/world/item/crafting/BookCloningRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$8	method_1_1465
+METHOD	net/minecraft/world/item/crafting/BookCloningRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;)Z	matches	method_1_1466
+CLASS	net/minecraft/world/item/crafting/RecipeSerializers	class_1_159
+METHOD	net/minecraft/world/item/crafting/RecipeSerializers	(Lnet/minecraft/core/Registry;)Ljava/lang/Object;	bootstrap	method_1_1467
+FIELD	net/minecraft/world/item/crafting/StonecutterRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1257
+FIELD	net/minecraft/world/item/crafting/StonecutterRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1258
+FIELD	net/minecraft/world/item/crafting/StonecutterRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1259
+CLASS	net/minecraft/client/model/animal/turtle/TurtleModel	class_1_160
+METHOD	net/minecraft/client/model/animal/turtle/TurtleModel	(Lnet/minecraft/client/renderer/entity/state/TurtleRenderState;)V	setupAnim	method_1_1468
+CLASS	net/minecraft/client/renderer/entity/AxolotlRenderer$AxolotlTextures	class_1_161
+FIELD	net/minecraft/client/renderer/entity/AxolotlRenderer$AxolotlTextures	Lnet/minecraft/resources/Identifier;	adult	comp_1_122
+FIELD	net/minecraft/client/renderer/entity/AxolotlRenderer$AxolotlTextures	Lnet/minecraft/resources/Identifier;	baby	comp_1_123
+FIELD	net/minecraft/client/renderer/entity/DolphinRenderer	Lnet/minecraft/resources/Identifier;	DOLPHIN_BABY_LOCATION	field_1_1260
+FIELD	net/minecraft/data/recipes/SmithingTrimRecipeBuilder	Lnet/minecraft/data/recipes/RecipeUnlockAdvancementBuilder;	advancementBuilder	field_1_1261
+FIELD	net/minecraft/world/entity/monster/creaking/Creaking	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1262
+CLASS	net/minecraft/world/item/crafting/DecoratedPotRecipe	class_1_162
+FIELD	net/minecraft/world/item/crafting/DecoratedPotRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1263
+FIELD	net/minecraft/world/item/crafting/DecoratedPotRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1264
+FIELD	net/minecraft/world/item/crafting/DecoratedPotRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1265
+FIELD	net/minecraft/world/item/crafting/DecoratedPotRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	backPattern	field_1_1266
+FIELD	net/minecraft/world/item/crafting/DecoratedPotRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	frontPattern	field_1_1267
+FIELD	net/minecraft/world/item/crafting/DecoratedPotRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	leftPattern	field_1_1268
+FIELD	net/minecraft/world/item/crafting/DecoratedPotRecipe	Lnet/minecraft/world/item/ItemStackTemplate;	result	field_1_1269
+FIELD	net/minecraft/world/item/crafting/DecoratedPotRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	rightPattern	field_1_1270
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;	assemble	method_1_1469
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;	back	method_1_1470
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;	front	method_1_1471
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1472
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/DecoratedPotRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$1	method_1_1473
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/DecoratedPotRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$10	method_1_1474
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/DecoratedPotRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$2	method_1_1475
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/DecoratedPotRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$3	method_1_1476
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/DecoratedPotRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$4	method_1_1477
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/DecoratedPotRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$5	method_1_1478
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/DecoratedPotRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$6	method_1_1479
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/DecoratedPotRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$7	method_1_1480
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/DecoratedPotRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$8	method_1_1481
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/DecoratedPotRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$9	method_1_1482
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;	left	method_1_1483
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;)Z	matches	method_1_1484
+METHOD	net/minecraft/world/item/crafting/DecoratedPotRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;	right	method_1_1485
+CLASS	net/minecraft/world/item/crafting/FireworkStarRecipe	class_1_163
+FIELD	net/minecraft/world/item/crafting/FireworkStarRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1271
+FIELD	net/minecraft/world/item/crafting/FireworkStarRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1272
+FIELD	net/minecraft/world/item/crafting/FireworkStarRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1273
+FIELD	net/minecraft/world/item/crafting/FireworkStarRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	dye	field_1_1274
+FIELD	net/minecraft/world/item/crafting/FireworkStarRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	fuel	field_1_1275
+FIELD	net/minecraft/world/item/crafting/FireworkStarRecipe	Lnet/minecraft/world/item/ItemStackTemplate;	result	field_1_1276
+FIELD	net/minecraft/world/item/crafting/FireworkStarRecipe	Ljava/util/Map;	shapes	field_1_1277
+FIELD	net/minecraft/world/item/crafting/FireworkStarRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	trail	field_1_1278
+FIELD	net/minecraft/world/item/crafting/FireworkStarRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	twinkle	field_1_1279
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;	assemble	method_1_1486
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/component/FireworkExplosion$Shape;	findShape	method_1_1487
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1488
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarRecipe;)Ljava/util/Map;	lambda$static$1	method_1_1489
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$10	method_1_1490
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$11	method_1_1491
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$12	method_1_1492
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$2	method_1_1493
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$3	method_1_1494
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$4	method_1_1495
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$5	method_1_1496
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$6	method_1_1497
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarRecipe;)Ljava/util/Map;	lambda$static$7	method_1_1498
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$8	method_1_1499
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$9	method_1_1500
+METHOD	net/minecraft/world/item/crafting/FireworkStarRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;)Z	matches	method_1_1501
+CLASS	net/minecraft/world/item/crafting/MapExtendingRecipe	class_1_164
+FIELD	net/minecraft/world/item/crafting/MapExtendingRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1280
+FIELD	net/minecraft/world/item/crafting/MapExtendingRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1281
+FIELD	net/minecraft/world/item/crafting/MapExtendingRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1282
+FIELD	net/minecraft/world/item/crafting/MapExtendingRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	map	field_1_1283
+FIELD	net/minecraft/world/item/crafting/MapExtendingRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	material	field_1_1284
+FIELD	net/minecraft/world/item/crafting/MapExtendingRecipe	Lnet/minecraft/world/item/crafting/ShapedRecipePattern;	pattern	field_1_1285
+FIELD	net/minecraft/world/item/crafting/MapExtendingRecipe	Lnet/minecraft/world/item/ItemStackTemplate;	result	field_1_1286
+METHOD	net/minecraft/world/item/crafting/MapExtendingRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;	assemble	method_1_1502
+METHOD	net/minecraft/world/item/crafting/MapExtendingRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;	findFilledMap	method_1_1503
+METHOD	net/minecraft/world/item/crafting/MapExtendingRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1504
+METHOD	net/minecraft/world/item/crafting/MapExtendingRecipe	(Lnet/minecraft/world/item/crafting/MapExtendingRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$1	method_1_1505
+METHOD	net/minecraft/world/item/crafting/MapExtendingRecipe	(Lnet/minecraft/world/item/crafting/MapExtendingRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$2	method_1_1506
+METHOD	net/minecraft/world/item/crafting/MapExtendingRecipe	(Lnet/minecraft/world/item/crafting/MapExtendingRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$3	method_1_1507
+METHOD	net/minecraft/world/item/crafting/MapExtendingRecipe	(Lnet/minecraft/world/item/crafting/MapExtendingRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$4	method_1_1508
+METHOD	net/minecraft/world/item/crafting/MapExtendingRecipe	(Lnet/minecraft/world/item/crafting/MapExtendingRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$5	method_1_1509
+METHOD	net/minecraft/world/item/crafting/MapExtendingRecipe	(Lnet/minecraft/world/item/crafting/MapExtendingRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$6	method_1_1510
+METHOD	net/minecraft/world/item/crafting/MapExtendingRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;)Z	matches	method_1_1511
+FIELD	net/minecraft/world/item/crafting/SmithingTrimRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1287
+FIELD	net/minecraft/world/item/crafting/SmithingTrimRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1288
+FIELD	net/minecraft/world/item/crafting/SmithingTrimRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1289
+METHOD	net/minecraft/world/item/crafting/SmithingTrimRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1512
+METHOD	net/minecraft/world/item/crafting/SmithingTrimRecipe	(Lnet/minecraft/world/item/crafting/SmithingTrimRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$static$1	method_1_1513
+METHOD	net/minecraft/world/item/crafting/SmithingTrimRecipe	(Lnet/minecraft/world/item/crafting/SmithingTrimRecipe;)Lnet/minecraft/core/Holder;	lambda$static$10	method_1_1514
+METHOD	net/minecraft/world/item/crafting/SmithingTrimRecipe	(Lnet/minecraft/world/item/crafting/SmithingTrimRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$2	method_1_1515
+METHOD	net/minecraft/world/item/crafting/SmithingTrimRecipe	(Lnet/minecraft/world/item/crafting/SmithingTrimRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$3	method_1_1516
+METHOD	net/minecraft/world/item/crafting/SmithingTrimRecipe	(Lnet/minecraft/world/item/crafting/SmithingTrimRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$4	method_1_1517
+METHOD	net/minecraft/world/item/crafting/SmithingTrimRecipe	(Lnet/minecraft/world/item/crafting/SmithingTrimRecipe;)Lnet/minecraft/core/Holder;	lambda$static$5	method_1_1518
+METHOD	net/minecraft/world/item/crafting/SmithingTrimRecipe	(Lnet/minecraft/world/item/crafting/SmithingTrimRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$static$6	method_1_1519
+METHOD	net/minecraft/world/item/crafting/SmithingTrimRecipe	(Lnet/minecraft/world/item/crafting/SmithingTrimRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$7	method_1_1520
+METHOD	net/minecraft/world/item/crafting/SmithingTrimRecipe	(Lnet/minecraft/world/item/crafting/SmithingTrimRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$8	method_1_1521
+METHOD	net/minecraft/world/item/crafting/SmithingTrimRecipe	(Lnet/minecraft/world/item/crafting/SmithingTrimRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$9	method_1_1522
+METHOD	net/minecraft/client/multiplayer/ClientPacketListener	(Lnet/minecraft/client/gui/components/PopupScreen;)V	lambda$openDemoIntroScreen$0	method_1_1523
+METHOD	net/minecraft/client/multiplayer/ClientPacketListener	(Lnet/minecraft/client/gui/components/PopupScreen;)V	lambda$openDemoIntroScreen$1	method_1_1524
+METHOD	net/minecraft/client/multiplayer/ClientPacketListener	(Lnet/minecraft/client/Options;)V	openDemoIntroScreen	method_1_1525
+FIELD	net/minecraft/data/recipes/SimpleCookingRecipeBuilder	Lnet/minecraft/data/recipes/RecipeUnlockAdvancementBuilder;	advancementBuilder	field_1_1290
+FIELD	net/minecraft/world/entity/animal/armadillo/Armadillo	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1291
+METHOD	net/minecraft/world/entity/animal/armadillo/Armadillo	(Lnet/minecraft/world/entity/animal/armadillo/Armadillo;)Ljava/util/List;	lambda$static$0	method_1_1526
+FIELD	net/minecraft/world/entity/monster/piglin/PiglinBrute	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1292
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay	(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;Lnet/minecraft/world/item/crafting/display/SlotDisplay;Lnet/minecraft/world/item/crafting/display/SlotDisplay;Ljava/util/function/BinaryOperator;)Ljava/util/stream/Stream;	applyDemoTransformation	method_1_1527
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay	(Lnet/minecraft/util/context/ContextMap;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory;Lnet/minecraft/world/item/crafting/display/SlotDisplay;Lnet/minecraft/world/item/crafting/display/SlotDisplay;Lnet/minecraft/util/RandomSource;Ljava/util/function/BinaryOperator;)Ljava/util/stream/Stream;	applyDemoTransformation	method_1_1528
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay	(Ljava/util/List;Lnet/minecraft/util/RandomSource;Ljava/util/List;Ljava/util/function/BinaryOperator;)Lnet/minecraft/world/item/ItemStack;	lambda$applyDemoTransformation$0	method_1_1529
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay	(Lnet/minecraft/world/item/ItemStack;)Z	lambda$applyDemoTransformation$1	method_1_1530
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay	(Ljava/util/List;Ljava/util/List;Ljava/util/function/BinaryOperator;I)Lnet/minecraft/world/item/ItemStack;	lambda$applyDemoTransformation$2	method_1_1531
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay	(Lnet/minecraft/world/item/ItemStack;)Z	lambda$applyDemoTransformation$3	method_1_1532
+CLASS	net/minecraft/world/item/crafting/display/SlotDisplay$DyedSlotDemo	class_1_165
+FIELD	net/minecraft/world/item/crafting/display/SlotDisplay$DyedSlotDemo	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1293
+FIELD	net/minecraft/world/item/crafting/display/SlotDisplay$DyedSlotDemo	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1294
+FIELD	net/minecraft/world/item/crafting/display/SlotDisplay$DyedSlotDemo	Lnet/minecraft/world/item/crafting/display/SlotDisplay$Type;	TYPE	field_1_1295
+FIELD	net/minecraft/world/item/crafting/display/SlotDisplay$DyedSlotDemo	Lnet/minecraft/world/item/crafting/display/SlotDisplay;	dye	comp_1_124
+FIELD	net/minecraft/world/item/crafting/display/SlotDisplay$DyedSlotDemo	Lnet/minecraft/world/item/crafting/display/SlotDisplay;	target	comp_1_125
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay$DyedSlotDemo	(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;	lambda$resolve$0	method_1_1533
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay$DyedSlotDemo	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1534
+CLASS	net/minecraft/world/item/crafting/display/SlotDisplay$OnlyWithComponent	class_1_166
+FIELD	net/minecraft/world/item/crafting/display/SlotDisplay$OnlyWithComponent	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1296
+FIELD	net/minecraft/world/item/crafting/display/SlotDisplay$OnlyWithComponent	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1297
+FIELD	net/minecraft/world/item/crafting/display/SlotDisplay$OnlyWithComponent	Lnet/minecraft/world/item/crafting/display/SlotDisplay$Type;	TYPE	field_1_1298
+FIELD	net/minecraft/world/item/crafting/display/SlotDisplay$OnlyWithComponent	Lnet/minecraft/core/component/DataComponentType;	component	comp_1_126
+FIELD	net/minecraft/world/item/crafting/display/SlotDisplay$OnlyWithComponent	Lnet/minecraft/world/item/crafting/display/SlotDisplay;	source	comp_1_127
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay$OnlyWithComponent	(Lnet/minecraft/world/item/ItemStack;)Z	lambda$resolve$0	method_1_1535
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay$OnlyWithComponent	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1536
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay$SmithingTrimDemoSlotDisplay	(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;	lambda$resolve$0	method_1_1537
+CLASS	net/minecraft/world/item/crafting/display/SlotDisplay$WithAnyPotion	class_1_167
+FIELD	net/minecraft/world/item/crafting/display/SlotDisplay$WithAnyPotion	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1299
+FIELD	net/minecraft/world/item/crafting/display/SlotDisplay$WithAnyPotion	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1300
+FIELD	net/minecraft/world/item/crafting/display/SlotDisplay$WithAnyPotion	Lnet/minecraft/world/item/crafting/display/SlotDisplay$Type;	TYPE	field_1_1301
+FIELD	net/minecraft/world/item/crafting/display/SlotDisplay$WithAnyPotion	Lnet/minecraft/world/item/crafting/display/SlotDisplay;	display	comp_1_128
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay$WithAnyPotion	(Lnet/minecraft/core/HolderLookup$Provider;)Ljava/util/Optional;	lambda$resolve$0	method_1_1538
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay$WithAnyPotion	(Ljava/util/List;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory$ForStacks;Lnet/minecraft/core/Holder$Reference;)Ljava/util/stream/Stream;	lambda$resolve$1	method_1_1539
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay$WithAnyPotion	(Lnet/minecraft/world/item/alchemy/PotionContents;Lnet/minecraft/world/item/crafting/display/DisplayContentsFactory$ForStacks;Lnet/minecraft/world/item/ItemStack;)Ljava/lang/Object;	lambda$resolve$2	method_1_1540
+METHOD	net/minecraft/world/item/crafting/display/SlotDisplay$WithAnyPotion	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1541
+FIELD	net/minecraft/world/level/dimension/DimensionDefaults	F	TURTLE_EGG_HATCH_CHANCE	field_1_1302
+METHOD	net/minecraft/client/gui/screens/options/OptionsScreen	()Lnet/minecraft/client/gui/layouts/LayoutElement;	createWorldOptionsButtonOrDifficultyButton	method_1_1542
+METHOD	net/minecraft/client/gui/screens/options/OptionsScreen	()Lnet/minecraft/client/gui/screens/Screen;	getLastScreen	method_1_1543
+CLASS	net/minecraft/client/model/animal/squid/BabySquidModel	class_1_168
+METHOD	net/minecraft/client/model/animal/squid/BabySquidModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_1544
+FIELD	net/minecraft/client/renderer/entity/GlowSquidRenderer	Lnet/minecraft/resources/Identifier;	GLOW_SQUID_BABY_LOCATION	field_1_1303
+CLASS	net/minecraft/data/recipes/CustomCraftingRecipeBuilder	class_1_169
+FIELD	net/minecraft/data/recipes/CustomCraftingRecipeBuilder	Lnet/minecraft/data/recipes/RecipeUnlockAdvancementBuilder;	advancementBuilder	field_1_1304
+FIELD	net/minecraft/data/recipes/CustomCraftingRecipeBuilder	Lnet/minecraft/data/recipes/RecipeCategory;	category	field_1_1305
+FIELD	net/minecraft/data/recipes/CustomCraftingRecipeBuilder	Lnet/minecraft/data/recipes/CustomCraftingRecipeBuilder$Factory;	factory	field_1_1306
+FIELD	net/minecraft/data/recipes/CustomCraftingRecipeBuilder	Ljava/lang/String;	group	field_1_1307
+METHOD	net/minecraft/data/recipes/CustomCraftingRecipeBuilder	(Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/data/recipes/CustomCraftingRecipeBuilder$Factory;)Lnet/minecraft/data/recipes/CustomCraftingRecipeBuilder;	customCrafting	method_1_1545
+METHOD	net/minecraft/data/recipes/CustomCraftingRecipeBuilder	(Ljava/lang/String;)Lnet/minecraft/data/recipes/CustomCraftingRecipeBuilder;	group	method_1_1546
+METHOD	net/minecraft/data/recipes/CustomCraftingRecipeBuilder	(Lnet/minecraft/data/recipes/RecipeOutput;Ljava/lang/String;)V	save	method_1_1547
+METHOD	net/minecraft/data/recipes/CustomCraftingRecipeBuilder	(Lnet/minecraft/data/recipes/RecipeOutput;Lnet/minecraft/resources/ResourceKey;)V	save	method_1_1548
+METHOD	net/minecraft/data/recipes/CustomCraftingRecipeBuilder	(Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)Lnet/minecraft/data/recipes/CustomCraftingRecipeBuilder;	unlockedBy	method_1_1549
+CLASS	net/minecraft/data/recipes/CustomCraftingRecipeBuilder$Factory	class_1_170
+METHOD	net/minecraft/data/recipes/packs/VanillaRecipeProvider	()V	bundleRecipes	method_1_1550
+METHOD	net/minecraft/data/recipes/packs/VanillaRecipeProvider	(Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;Lnet/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo;)Lnet/minecraft/world/item/crafting/Recipe;	lambda$buildRecipes$1	method_1_1551
+METHOD	net/minecraft/data/recipes/packs/VanillaRecipeProvider	()Lnet/minecraft/world/item/crafting/Recipe;	lambda$buildRecipes$2	method_1_1552
+METHOD	net/minecraft/data/recipes/packs/VanillaRecipeProvider	()Lnet/minecraft/world/item/crafting/Recipe;	lambda$buildRecipes$3	method_1_1553
+METHOD	net/minecraft/data/recipes/packs/VanillaRecipeProvider	()Lnet/minecraft/world/item/crafting/Recipe;	lambda$buildRecipes$4	method_1_1554
+METHOD	net/minecraft/data/recipes/packs/VanillaRecipeProvider	()Lnet/minecraft/world/item/crafting/Recipe;	lambda$buildRecipes$5	method_1_1555
+METHOD	net/minecraft/data/recipes/packs/VanillaRecipeProvider	()Lnet/minecraft/world/item/crafting/Recipe;	lambda$buildRecipes$6	method_1_1556
+METHOD	net/minecraft/data/recipes/packs/VanillaRecipeProvider	()Lnet/minecraft/world/item/crafting/Recipe;	lambda$buildRecipes$7	method_1_1557
+METHOD	net/minecraft/data/recipes/packs/VanillaRecipeProvider	()Lnet/minecraft/world/item/crafting/Recipe;	lambda$buildRecipes$9	method_1_1558
+METHOD	net/minecraft/data/recipes/packs/VanillaRecipeProvider	()V	shulkerBoxRecipes	method_1_1559
+CLASS	net/minecraft/world/item/crafting/FireworkRocketRecipe	class_1_171
+FIELD	net/minecraft/world/item/crafting/FireworkRocketRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1308
+FIELD	net/minecraft/world/item/crafting/FireworkRocketRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1309
+FIELD	net/minecraft/world/item/crafting/FireworkRocketRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1310
+FIELD	net/minecraft/world/item/crafting/FireworkRocketRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	fuel	field_1_1311
+FIELD	net/minecraft/world/item/crafting/FireworkRocketRecipe	Lnet/minecraft/world/item/ItemStackTemplate;	result	field_1_1312
+FIELD	net/minecraft/world/item/crafting/FireworkRocketRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	shell	field_1_1313
+FIELD	net/minecraft/world/item/crafting/FireworkRocketRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	star	field_1_1314
+METHOD	net/minecraft/world/item/crafting/FireworkRocketRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;	assemble	method_1_1560
+METHOD	net/minecraft/world/item/crafting/FireworkRocketRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1561
+METHOD	net/minecraft/world/item/crafting/FireworkRocketRecipe	(Lnet/minecraft/world/item/crafting/FireworkRocketRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$1	method_1_1562
+METHOD	net/minecraft/world/item/crafting/FireworkRocketRecipe	(Lnet/minecraft/world/item/crafting/FireworkRocketRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$2	method_1_1563
+METHOD	net/minecraft/world/item/crafting/FireworkRocketRecipe	(Lnet/minecraft/world/item/crafting/FireworkRocketRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$3	method_1_1564
+METHOD	net/minecraft/world/item/crafting/FireworkRocketRecipe	(Lnet/minecraft/world/item/crafting/FireworkRocketRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$4	method_1_1565
+METHOD	net/minecraft/world/item/crafting/FireworkRocketRecipe	(Lnet/minecraft/world/item/crafting/FireworkRocketRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$5	method_1_1566
+METHOD	net/minecraft/world/item/crafting/FireworkRocketRecipe	(Lnet/minecraft/world/item/crafting/FireworkRocketRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$6	method_1_1567
+METHOD	net/minecraft/world/item/crafting/FireworkRocketRecipe	(Lnet/minecraft/world/item/crafting/FireworkRocketRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$7	method_1_1568
+METHOD	net/minecraft/world/item/crafting/FireworkRocketRecipe	(Lnet/minecraft/world/item/crafting/FireworkRocketRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$8	method_1_1569
+METHOD	net/minecraft/world/item/crafting/FireworkRocketRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;)Z	matches	method_1_1570
+CLASS	net/minecraft/world/item/crafting/NormalCraftingRecipe	class_1_172
+FIELD	net/minecraft/world/item/crafting/NormalCraftingRecipe	Lnet/minecraft/world/item/crafting/CraftingRecipe$CraftingBookInfo;	bookInfo	field_1_1315
+FIELD	net/minecraft/world/item/crafting/NormalCraftingRecipe	Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	commonInfo	field_1_1316
+FIELD	net/minecraft/world/item/crafting/NormalCraftingRecipe	Lnet/minecraft/world/item/crafting/PlacementInfo;	placementInfo	field_1_1317
+METHOD	net/minecraft/world/item/crafting/NormalCraftingRecipe	()Lnet/minecraft/world/item/crafting/PlacementInfo;	createPlacementInfo	method_1_1571
+CLASS	net/minecraft/world/item/crafting/SimpleSmithingRecipe	class_1_173
+FIELD	net/minecraft/world/item/crafting/SimpleSmithingRecipe	Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	commonInfo	field_1_1318
+FIELD	net/minecraft/world/item/crafting/SimpleSmithingRecipe	Lnet/minecraft/world/item/crafting/PlacementInfo;	placementInfo	field_1_1319
+METHOD	net/minecraft/world/item/crafting/SimpleSmithingRecipe	()Lnet/minecraft/world/item/crafting/PlacementInfo;	createPlacementInfo	method_1_1572
+FIELD	net/minecraft/world/entity/animal/happyghast/HappyGhast	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1320
+METHOD	net/minecraft/world/entity/animal/happyghast/HappyGhast	(Lnet/minecraft/world/entity/animal/happyghast/HappyGhast;)Ljava/util/List;	lambda$static$0	method_1_1573
+FIELD	net/minecraft/world/item/crafting/AbstractCookingRecipe	Lnet/minecraft/world/item/crafting/AbstractCookingRecipe$CookingBookInfo;	bookInfo	field_1_1321
+METHOD	net/minecraft/world/item/crafting/AbstractCookingRecipe	(Lnet/minecraft/world/item/crafting/AbstractCookingRecipe$Factory;I)Lcom/mojang/serialization/MapCodec;	cookingMapCodec	method_1_1574
+METHOD	net/minecraft/world/item/crafting/AbstractCookingRecipe	(Lnet/minecraft/world/item/crafting/AbstractCookingRecipe$Factory;)Lnet/minecraft/network/codec/StreamCodec;	cookingStreamCodec	method_1_1575
+METHOD	net/minecraft/world/item/crafting/AbstractCookingRecipe	(ILnet/minecraft/world/item/crafting/AbstractCookingRecipe$Factory;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$cookingMapCodec$0	method_1_1576
+METHOD	net/minecraft/world/item/crafting/AbstractCookingRecipe	(Lnet/minecraft/world/item/crafting/AbstractCookingRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$cookingMapCodec$1	method_1_1577
+METHOD	net/minecraft/world/item/crafting/AbstractCookingRecipe	(Lnet/minecraft/world/item/crafting/AbstractCookingRecipe;)Lnet/minecraft/world/item/crafting/AbstractCookingRecipe$CookingBookInfo;	lambda$cookingMapCodec$2	method_1_1578
+METHOD	net/minecraft/world/item/crafting/AbstractCookingRecipe	(Lnet/minecraft/world/item/crafting/AbstractCookingRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$cookingStreamCodec$0	method_1_1579
+METHOD	net/minecraft/world/item/crafting/AbstractCookingRecipe	(Lnet/minecraft/world/item/crafting/AbstractCookingRecipe;)Lnet/minecraft/world/item/crafting/AbstractCookingRecipe$CookingBookInfo;	lambda$cookingStreamCodec$1	method_1_1580
+CLASS	net/minecraft/world/item/crafting/AbstractCookingRecipe$CookingBookInfo	class_1_174
+FIELD	net/minecraft/world/item/crafting/AbstractCookingRecipe$CookingBookInfo	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1322
+FIELD	net/minecraft/world/item/crafting/AbstractCookingRecipe$CookingBookInfo	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1323
+FIELD	net/minecraft/world/item/crafting/AbstractCookingRecipe$CookingBookInfo	Lnet/minecraft/world/item/crafting/CookingBookCategory;	category	comp_1_129
+CLASS	net/minecraft/world/item/crafting/BannerDuplicateRecipe	class_1_175
+FIELD	net/minecraft/world/item/crafting/BannerDuplicateRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1324
+FIELD	net/minecraft/world/item/crafting/BannerDuplicateRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1325
+FIELD	net/minecraft/world/item/crafting/BannerDuplicateRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1326
+FIELD	net/minecraft/world/item/crafting/BannerDuplicateRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	banner	field_1_1327
+FIELD	net/minecraft/world/item/crafting/BannerDuplicateRecipe	Lnet/minecraft/world/item/ItemStackTemplate;	result	field_1_1328
+METHOD	net/minecraft/world/item/crafting/BannerDuplicateRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;	assemble	method_1_1581
+METHOD	net/minecraft/world/item/crafting/BannerDuplicateRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1582
+METHOD	net/minecraft/world/item/crafting/BannerDuplicateRecipe	(Lnet/minecraft/world/item/crafting/BannerDuplicateRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$1	method_1_1583
+METHOD	net/minecraft/world/item/crafting/BannerDuplicateRecipe	(Lnet/minecraft/world/item/crafting/BannerDuplicateRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$2	method_1_1584
+METHOD	net/minecraft/world/item/crafting/BannerDuplicateRecipe	(Lnet/minecraft/world/item/crafting/BannerDuplicateRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$3	method_1_1585
+METHOD	net/minecraft/world/item/crafting/BannerDuplicateRecipe	(Lnet/minecraft/world/item/crafting/BannerDuplicateRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$4	method_1_1586
+METHOD	net/minecraft/world/item/crafting/BannerDuplicateRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;)Z	matches	method_1_1587
+CLASS	net/minecraft/world/item/crafting/CampfireCookingRecipe	class_1_176
+FIELD	net/minecraft/world/item/crafting/CampfireCookingRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1329
+FIELD	net/minecraft/world/item/crafting/CampfireCookingRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1330
+FIELD	net/minecraft/world/item/crafting/CampfireCookingRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1331
+CLASS	net/minecraft/client/model/animal/turtle/BabyTurtleModel	class_1_177
+METHOD	net/minecraft/client/model/animal/turtle/BabyTurtleModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_1588
+FIELD	net/minecraft/world/item/crafting/FireworkStarFadeRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1332
+FIELD	net/minecraft/world/item/crafting/FireworkStarFadeRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1333
+FIELD	net/minecraft/world/item/crafting/FireworkStarFadeRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1334
+FIELD	net/minecraft/world/item/crafting/FireworkStarFadeRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	dye	field_1_1335
+FIELD	net/minecraft/world/item/crafting/FireworkStarFadeRecipe	Lnet/minecraft/world/item/ItemStackTemplate;	result	field_1_1336
+FIELD	net/minecraft/world/item/crafting/FireworkStarFadeRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	target	field_1_1337
+METHOD	net/minecraft/world/item/crafting/FireworkStarFadeRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1589
+METHOD	net/minecraft/world/item/crafting/FireworkStarFadeRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarFadeRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$1	method_1_1590
+METHOD	net/minecraft/world/item/crafting/FireworkStarFadeRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarFadeRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$2	method_1_1591
+METHOD	net/minecraft/world/item/crafting/FireworkStarFadeRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarFadeRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$3	method_1_1592
+METHOD	net/minecraft/world/item/crafting/FireworkStarFadeRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarFadeRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$4	method_1_1593
+METHOD	net/minecraft/world/item/crafting/FireworkStarFadeRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarFadeRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$5	method_1_1594
+METHOD	net/minecraft/world/item/crafting/FireworkStarFadeRecipe	(Lnet/minecraft/world/item/crafting/FireworkStarFadeRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$6	method_1_1595
+CLASS	net/minecraft/world/item/crafting/ShieldDecorationRecipe	class_1_178
+FIELD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1338
+FIELD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1339
+FIELD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1340
+FIELD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	banner	field_1_1341
+FIELD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	Lnet/minecraft/world/item/ItemStackTemplate;	result	field_1_1342
+FIELD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	Lnet/minecraft/world/item/crafting/Ingredient;	target	field_1_1343
+METHOD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;)Lnet/minecraft/world/item/ItemStack;	assemble	method_1_1596
+METHOD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1597
+METHOD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	(Lnet/minecraft/world/item/crafting/ShieldDecorationRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$1	method_1_1598
+METHOD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	(Lnet/minecraft/world/item/crafting/ShieldDecorationRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$2	method_1_1599
+METHOD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	(Lnet/minecraft/world/item/crafting/ShieldDecorationRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$3	method_1_1600
+METHOD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	(Lnet/minecraft/world/item/crafting/ShieldDecorationRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$4	method_1_1601
+METHOD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	(Lnet/minecraft/world/item/crafting/ShieldDecorationRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$5	method_1_1602
+METHOD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	(Lnet/minecraft/world/item/crafting/ShieldDecorationRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$6	method_1_1603
+METHOD	net/minecraft/world/item/crafting/ShieldDecorationRecipe	(Lnet/minecraft/world/item/crafting/CraftingInput;Lnet/minecraft/world/level/Level;)Z	matches	method_1_1604
+CLASS	net/minecraft/client/model/animal/turtle/AdultTurtleModel	class_1_179
+FIELD	net/minecraft/client/model/animal/turtle/AdultTurtleModel	Ljava/lang/String;	EGG_BELLY	field_1_1344
+FIELD	net/minecraft/client/model/animal/turtle/AdultTurtleModel	Lnet/minecraft/client/model/geom/ModelPart;	eggBelly	field_1_1345
+METHOD	net/minecraft/client/model/animal/turtle/AdultTurtleModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_1605
+CLASS	net/minecraft/data/recipes/RecipeUnlockAdvancementBuilder	class_1_180
+FIELD	net/minecraft/data/recipes/RecipeUnlockAdvancementBuilder	Ljava/util/Map;	criteria	field_1_1346
+METHOD	net/minecraft/data/recipes/RecipeUnlockAdvancementBuilder	(Lnet/minecraft/data/recipes/RecipeOutput;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/data/recipes/RecipeCategory;)Lnet/minecraft/advancements/AdvancementHolder;	build	method_1_1606
+METHOD	net/minecraft/data/recipes/RecipeUnlockAdvancementBuilder	(Ljava/lang/String;Lnet/minecraft/advancements/Criterion;)V	unlockedBy	method_1_1607
+FIELD	net/minecraft/data/recipes/SmithingTransformRecipeBuilder	Lnet/minecraft/data/recipes/RecipeUnlockAdvancementBuilder;	advancementBuilder	field_1_1347
+FIELD	net/minecraft/world/entity/animal/nautilus/ZombieNautilus	Lnet/minecraft/world/entity/ai/Brain$Provider;	BRAIN_PROVIDER	field_1_1348
+METHOD	net/minecraft/world/entity/animal/nautilus/ZombieNautilus	(Lnet/minecraft/world/entity/animal/nautilus/ZombieNautilus;)Ljava/util/List;	lambda$static$0	method_1_1608
+FIELD	net/minecraft/world/item/crafting/SmithingTransformRecipe	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_1349
+FIELD	net/minecraft/world/item/crafting/SmithingTransformRecipe	Lnet/minecraft/world/item/crafting/RecipeSerializer;	SERIALIZER	field_1_1350
+FIELD	net/minecraft/world/item/crafting/SmithingTransformRecipe	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_1351
+METHOD	net/minecraft/world/item/crafting/SmithingTransformRecipe	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1609
+METHOD	net/minecraft/world/item/crafting/SmithingTransformRecipe	(Lnet/minecraft/world/item/crafting/SmithingTransformRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$static$1	method_1_1610
+METHOD	net/minecraft/world/item/crafting/SmithingTransformRecipe	(Lnet/minecraft/world/item/crafting/SmithingTransformRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$10	method_1_1611
+METHOD	net/minecraft/world/item/crafting/SmithingTransformRecipe	(Lnet/minecraft/world/item/crafting/SmithingTransformRecipe;)Ljava/util/Optional;	lambda$static$2	method_1_1612
+METHOD	net/minecraft/world/item/crafting/SmithingTransformRecipe	(Lnet/minecraft/world/item/crafting/SmithingTransformRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$3	method_1_1613
+METHOD	net/minecraft/world/item/crafting/SmithingTransformRecipe	(Lnet/minecraft/world/item/crafting/SmithingTransformRecipe;)Ljava/util/Optional;	lambda$static$4	method_1_1614
+METHOD	net/minecraft/world/item/crafting/SmithingTransformRecipe	(Lnet/minecraft/world/item/crafting/SmithingTransformRecipe;)Lnet/minecraft/world/item/ItemStackTemplate;	lambda$static$5	method_1_1615
+METHOD	net/minecraft/world/item/crafting/SmithingTransformRecipe	(Lnet/minecraft/world/item/crafting/SmithingTransformRecipe;)Lnet/minecraft/world/item/crafting/Recipe$CommonInfo;	lambda$static$6	method_1_1616
+METHOD	net/minecraft/world/item/crafting/SmithingTransformRecipe	(Lnet/minecraft/world/item/crafting/SmithingTransformRecipe;)Ljava/util/Optional;	lambda$static$7	method_1_1617
+METHOD	net/minecraft/world/item/crafting/SmithingTransformRecipe	(Lnet/minecraft/world/item/crafting/SmithingTransformRecipe;)Lnet/minecraft/world/item/crafting/Ingredient;	lambda$static$8	method_1_1618
+METHOD	net/minecraft/world/item/crafting/SmithingTransformRecipe	(Lnet/minecraft/world/item/crafting/SmithingTransformRecipe;)Ljava/util/Optional;	lambda$static$9	method_1_1619
+CLASS	net/minecraft/client/gui/screens/options/DifficultyButtons	class_1_181
+METHOD	net/minecraft/client/gui/screens/options/DifficultyButtons	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/screens/Screen;)Lnet/minecraft/client/gui/layouts/LayoutElement;	create	method_1_1620
+METHOD	net/minecraft/client/gui/screens/options/DifficultyButtons	(Lnet/minecraft/client/Minecraft;)Z	isDifficultyLocked	method_1_1621
+METHOD	net/minecraft/client/gui/screens/options/DifficultyButtons	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/components/CycleButton;Lnet/minecraft/world/Difficulty;)V	lambda$create$0	method_1_1622
+METHOD	net/minecraft/client/gui/screens/options/DifficultyButtons	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/screens/Screen;Lnet/minecraft/client/gui/components/CycleButton;Lnet/minecraft/client/gui/components/Button;)V	lambda$create$1	method_1_1623
+METHOD	net/minecraft/client/gui/screens/options/DifficultyButtons	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/screens/Screen;Lnet/minecraft/client/gui/components/CycleButton;Lnet/minecraft/client/gui/components/Button;Z)V	lambda$create$2	method_1_1624
+METHOD	net/minecraft/client/gui/screens/options/DifficultyButtons	(ZLnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/screens/Screen;Lnet/minecraft/client/gui/components/CycleButton;Lnet/minecraft/client/gui/components/LockIconButton;)V	onLockCallback	method_1_1625
+METHOD	net/minecraft/client/gui/screens/options/DifficultyButtons	(Lnet/minecraft/client/Minecraft;)Z	playerHasPermissionToChangeDifficulty	method_1_1626
+CLASS	net/minecraft/client/model/animal/axolotl/BabyAxolotlModel	class_1_182
+FIELD	net/minecraft/client/model/animal/axolotl/BabyAxolotlModel	F	MAX_WALK_ANIMATION_SPEED	field_1_1352
+FIELD	net/minecraft/client/model/animal/axolotl/BabyAxolotlModel	F	WALK_ANIMATION_SCALE_FACTOR	field_1_1353
+FIELD	net/minecraft/client/model/animal/axolotl/BabyAxolotlModel	Lnet/minecraft/client/animation/KeyframeAnimation;	idleOnGroundAnimation	field_1_1354
+FIELD	net/minecraft/client/model/animal/axolotl/BabyAxolotlModel	Lnet/minecraft/client/animation/KeyframeAnimation;	idleOnGroundUnderWaterAnimation	field_1_1355
+FIELD	net/minecraft/client/model/animal/axolotl/BabyAxolotlModel	Lnet/minecraft/client/animation/KeyframeAnimation;	idleUnderWaterAnimation	field_1_1356
+FIELD	net/minecraft/client/model/animal/axolotl/BabyAxolotlModel	Lnet/minecraft/client/animation/KeyframeAnimation;	swimAnimation	field_1_1357
+FIELD	net/minecraft/client/model/animal/axolotl/BabyAxolotlModel	Lnet/minecraft/client/animation/KeyframeAnimation;	walkAnimation	field_1_1358
+FIELD	net/minecraft/client/model/animal/axolotl/BabyAxolotlModel	Lnet/minecraft/client/animation/KeyframeAnimation;	walkUnderwaterAnimation	field_1_1359
+METHOD	net/minecraft/client/model/animal/axolotl/BabyAxolotlModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_1627
+METHOD	net/minecraft/client/model/animal/axolotl/BabyAxolotlModel	(Lnet/minecraft/client/renderer/entity/state/AxolotlRenderState;)V	setupAnim	method_1_1628
+CLASS	net/minecraft/client/model/animal/dolphin/BabyDolphinModel	class_1_183
+METHOD	net/minecraft/client/model/animal/dolphin/BabyDolphinModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_1629
+CLASS	net/minecraft/util/datafix/fixes/StonecutterRecipeRenameFix	class_1_184
+FIELD	net/minecraft/util/datafix/fixes/StonecutterRecipeRenameFix	Lcom/google/common/collect/ImmutableMap;	ADVANCEMENT_RENAMES	field_1_1360
+FIELD	net/minecraft/util/datafix/fixes/StonecutterRecipeRenameFix	Lcom/google/common/collect/ImmutableMap;	RECIPE_RENAMES	field_1_1361
+FIELD	net/minecraft/client/gui/components/debug/DebugEntryLookingAt	I	RANGE	field_1_1362
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryLookingAt	(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/world/phys/HitResult;	getHitResult	method_1_1630
+FIELD	net/minecraft/client/renderer/entity/state/AxolotlRenderState	Lnet/minecraft/world/entity/AnimationState;	idleOnGroundAnimationState	field_1_1363
+FIELD	net/minecraft/client/renderer/entity/state/AxolotlRenderState	Lnet/minecraft/world/entity/AnimationState;	idleUnderWaterAnimationState	field_1_1364
+FIELD	net/minecraft/client/renderer/entity/state/AxolotlRenderState	Lnet/minecraft/world/entity/AnimationState;	idleUnderWaterOnGroundAnimationState	field_1_1365
+FIELD	net/minecraft/client/renderer/entity/state/AxolotlRenderState	Lnet/minecraft/world/entity/AnimationState;	swimAnimation	field_1_1366
+FIELD	net/minecraft/client/renderer/entity/state/AxolotlRenderState	Lnet/minecraft/world/entity/AnimationState;	walkAnimationState	field_1_1367
+FIELD	net/minecraft/client/renderer/entity/state/AxolotlRenderState	Lnet/minecraft/world/entity/AnimationState;	walkUnderWaterAnimationState	field_1_1368
+METHOD	net/minecraft/client/renderer/feature/FeatureRenderDispatcher	()V	renderTranslucentParticles	method_1_1631
+CLASS	net/minecraft/client/animation/definitions/BabyAxolotlAnimation	class_1_185
+FIELD	net/minecraft/client/animation/definitions/BabyAxolotlAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	AXOLOTL_WALK_FLOOR	field_1_1369
+FIELD	net/minecraft/client/animation/definitions/BabyAxolotlAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	BABY_AXOLOTL_DASH	field_1_1370
+FIELD	net/minecraft/client/animation/definitions/BabyAxolotlAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	BABY_AXOLOTL_IDLE_FLOOR	field_1_1371
+FIELD	net/minecraft/client/animation/definitions/BabyAxolotlAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	BABY_AXOLOTL_SWIM	field_1_1372
+FIELD	net/minecraft/client/animation/definitions/BabyAxolotlAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	IDLE_FLOOR_UNDERWATER	field_1_1373
+FIELD	net/minecraft/client/animation/definitions/BabyAxolotlAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	IDLE_UNDERWATER	field_1_1374
+FIELD	net/minecraft/client/animation/definitions/BabyAxolotlAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	WALK_FLOOR_UNDERWATER	field_1_1375
+FIELD	net/minecraft/client/gui/screens/options/InWorldGameRulesScreen	Lnet/minecraft/client/gui/screens/Screen;	lastScreen	field_1_1376
+METHOD	net/minecraft/world/level/block/entity/AbstractFurnaceBlockEntity	(Lnet/minecraft/core/NonNullList;Lnet/minecraft/world/item/ItemStack;)V	consumeFuel	method_1_1632
+FIELD	net/minecraft/world/level/storage/loot/functions/SmeltItemFunction	Z	useInputCount	field_1_1377
+METHOD	net/minecraft/world/level/storage/loot/functions/SmeltItemFunction	(ZLjava/util/List;)Lnet/minecraft/world/level/storage/loot/functions/LootItemFunction;	lambda$smelted$0	method_1_1633
+METHOD	net/minecraft/world/level/storage/loot/functions/SmeltItemFunction	(Lnet/minecraft/world/level/storage/loot/functions/SmeltItemFunction;)Ljava/lang/Boolean;	lambda$static$1	method_1_1634
+METHOD	net/minecraft/world/level/storage/loot/functions/SmeltItemFunction	(Z)Lnet/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$Builder;	smelted	method_1_1635
+METHOD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen$RuleList	(Ljava/lang/String;Lnet/minecraft/network/chat/MutableComponent;)Ljava/lang/Boolean;	lambda$matchesFilter$0	method_1_1636
+METHOD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen$RuleList	(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/Optional;Ljava/lang/String;)Z	matchesFilter	method_1_1637
+METHOD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen$RuleList	(Ljava/lang/String;Ljava/lang/String;)Z	toLowerCaseMatchesFilter	method_1_1638
+CLASS	net/minecraft/client/gui/screens/options/HasGamemasterPermissionReaction	class_1_186
+METHOD	net/minecraft/client/gui/screens/options/HasGamemasterPermissionReaction	(Z)V	onGamemasterPermissionChanged	method_1_1639
+Done!
