@@ -1,0 +1,1064 @@
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/criterion/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/criterion/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/commands/arguments/selector/SelectorPattern;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Read 10393 (6706) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 19001 MethodEntries (0 unique, 10627 classes).
+Collecting additional information...
+- Done. -
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/criterion/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/criterion/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/commands/arguments/selector/SelectorPattern;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Read 10492 (6782) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 19017 MethodEntries (0 unique, 10731 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+METHOD	net/minecraft/util/Util	(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)Z	safeMoveFile	method_1_1640
+FIELD	net/minecraft/util/Util$5	[Ljava/nio/file/CopyOption;	val$options	field_1_1378
+METHOD	net/minecraft/nbt/NbtUtils	(Lcom/mojang/serialization/Dynamic;)I	getDataVersion	method_1_1641
+FIELD	net/minecraft/tags/ItemTags	Lnet/minecraft/tags/TagKey;	GRASS_BLOCKS	field_1_1379
+FIELD	net/minecraft/tags/ItemTags	Lnet/minecraft/tags/TagKey;	MOSS_BLOCKS	field_1_1380
+FIELD	net/minecraft/tags/ItemTags	Lnet/minecraft/tags/TagKey;	MUD	field_1_1381
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	BENEATH_BAMBOO_PODZOL_REPLACEABLE	field_1_1382
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	BENEATH_TREE_PODZOL_REPLACEABLE	field_1_1383
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	CANNOT_REPLACE_BELOW_TREE_TRUNK	field_1_1384
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	FOREST_ROCK_CAN_PLACE_ON	field_1_1385
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	GRASS_BLOCKS	field_1_1386
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	HUGE_BROWN_MUSHROOM_CAN_PLACE_ON	field_1_1387
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	HUGE_RED_MUSHROOM_CAN_PLACE_ON	field_1_1388
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	ICE_SPIKE_REPLACEABLE	field_1_1389
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	MOSS_BLOCKS	field_1_1390
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	MUD	field_1_1391
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	SUBSTRATE_OVERWORLD	field_1_1392
+METHOD	net/minecraft/data/PackOutput$PathProvider	(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	lambda$file$0	method_1_1642
+METHOD	net/minecraft/data/PackOutput$PathProvider	(Ljava/lang/String;)Ljava/lang/String;	lambda$json$0	method_1_1643
+FIELD	net/minecraft/server/WorldStem	Lnet/minecraft/world/level/storage/LevelDataAndDimensions$WorldDataAndGenSettings;	worldDataAndGenSettings	comp_1_130
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	CHICKEN_STEP_BABY	field_1_1393
+FIELD	net/minecraft/resources/Identifier	Ljava/lang/String;	ALLOWED_NAMESPACE_CHARACTERS	field_1_1394
+METHOD	net/minecraft/resources/Identifier	(Ljava/nio/file/Path;)Ljava/nio/file/Path;	resolveAgainst	method_1_1644
+CLASS	net/minecraft/util/filefix/FileFix	class_1_187
+FIELD	net/minecraft/util/filefix/FileFix	Ljava/util/List;	fileFixOperations	field_1_1395
+FIELD	net/minecraft/util/filefix/FileFix	Lcom/mojang/datafixers/schemas/Schema;	schema	field_1_1396
+METHOD	net/minecraft/util/filefix/FileFix	(Lnet/minecraft/util/filefix/operations/ModifyContent$FileAccessFunction;)V	addFileContentFix	method_1_1645
+METHOD	net/minecraft/util/filefix/FileFix	(Lnet/minecraft/util/filefix/operations/FileFixOperation;)V	addFileFixOperation	method_1_1646
+METHOD	net/minecraft/util/filefix/FileFix	()I	countFileOperations	method_1_1647
+METHOD	net/minecraft/util/filefix/FileFix	()Lcom/mojang/datafixers/schemas/Schema;	getSchema	method_1_1648
+METHOD	net/minecraft/util/filefix/FileFix	()I	getVersion	method_1_1649
+METHOD	net/minecraft/util/filefix/FileFix	()V	makeFixer	method_1_1650
+METHOD	net/minecraft/util/filefix/FileFix	(Ljava/nio/file/Path;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V	runFixOperations	method_1_1651
+METHOD	net/minecraft/world/level/ChunkPos	(J)I	getRegionX	method_1_1652
+METHOD	net/minecraft/world/level/ChunkPos	(J)I	getRegionZ	method_1_1653
+METHOD	net/minecraft/world/entity/ai/Brain	(Lnet/minecraft/world/entity/ai/Brain$Visitor;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Lnet/minecraft/world/entity/ai/memory/MemorySlot;)V	callVisitor	method_1_1654
+METHOD	net/minecraft/world/entity/ai/Brain	(Lnet/minecraft/world/entity/ai/Brain$Visitor;)V	forEach	method_1_1655
+METHOD	net/minecraft/world/entity/ai/Brain	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)Lnet/minecraft/world/entity/ai/memory/MemorySlot;	getMemorySlot	method_1_1656
+METHOD	net/minecraft/world/entity/ai/Brain	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)Lnet/minecraft/world/entity/ai/memory/MemorySlot;	getMemorySlotIfPresent	method_1_1657
+METHOD	net/minecraft/world/entity/ai/Brain	(Lnet/minecraft/world/entity/ai/Brain$Visitor;Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Lnet/minecraft/world/entity/ai/memory/MemorySlot;)V	lambda$forEach$0	method_1_1658
+METHOD	net/minecraft/world/entity/ai/Brain	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)V	registerMemory	method_1_1659
+METHOD	net/minecraft/world/entity/ai/Brain	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Ljava/lang/Object;J)V	setMemoryInternal	method_1_1660
+FIELD	net/minecraft/world/entity/ai/Brain$1	Lnet/minecraft/world/entity/ai/memory/MemoryMap$Builder;	val$builder	field_1_1397
+CLASS	net/minecraft/world/entity/ai/Brain$Visitor	class_1_188
+METHOD	net/minecraft/world/entity/ai/Brain$Visitor	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Ljava/lang/Object;)V	accept	method_1_1661
+METHOD	net/minecraft/world/entity/ai/Brain$Visitor	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Ljava/lang/Object;J)V	accept	method_1_1662
+METHOD	net/minecraft/world/entity/ai/Brain$Visitor	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;)V	acceptEmpty	method_1_1663
+FIELD	net/minecraft/client/renderer/Sheets	Lnet/minecraft/client/renderer/rendertype/RenderType;	TRANSLUCENT_BLOCK_SHEET	field_1_1398
+METHOD	net/minecraft/client/renderer/Sheets	()Lnet/minecraft/client/renderer/rendertype/RenderType;	translucentBlockSheet	method_1_1664
+FIELD	net/minecraft/server/MinecraftServer	Ljava/util/function/Supplier;	DEFAULT_GAME_RULES	field_1_1399
+FIELD	net/minecraft/server/MinecraftServer	Ljava/util/Map;	LEGACY_WORLD_NAMES_FOR_REALMS_LOG	field_1_1400
+FIELD	net/minecraft/server/MinecraftServer	Lnet/minecraft/world/level/gamerules/GameRules;	gameRules	field_1_1401
+FIELD	net/minecraft/server/MinecraftServer	Lnet/minecraft/world/RandomSequences;	randomSequences	field_1_1402
+FIELD	net/minecraft/server/MinecraftServer	Lnet/minecraft/world/level/storage/SavedDataStorage;	savedDataStorage	field_1_1403
+FIELD	net/minecraft/server/MinecraftServer	Lnet/minecraft/world/level/timers/TimerQueue;	scheduledEvents	field_1_1404
+FIELD	net/minecraft/server/MinecraftServer	Lnet/minecraft/world/level/saveddata/WeatherData;	weatherData	field_1_1405
+FIELD	net/minecraft/server/MinecraftServer	Lnet/minecraft/world/level/levelgen/WorldGenSettings;	worldGenSettings	field_1_1406
+METHOD	net/minecraft/server/MinecraftServer	()Lnet/minecraft/world/level/storage/SavedDataStorage;	getDataStorage	method_1_1665
+METHOD	net/minecraft/server/MinecraftServer	()Lnet/minecraft/world/level/gamerules/GameRules;	getGameRules	method_1_1666
+METHOD	net/minecraft/server/MinecraftServer	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/util/RandomSource;	getRandomSequence	method_1_1667
+METHOD	net/minecraft/server/MinecraftServer	()Lnet/minecraft/world/RandomSequences;	getRandomSequences	method_1_1668
+METHOD	net/minecraft/server/MinecraftServer	()Lnet/minecraft/world/level/timers/TimerQueue;	getScheduledEvents	method_1_1669
+METHOD	net/minecraft/server/MinecraftServer	()Lnet/minecraft/world/level/saveddata/WeatherData;	getWeatherData	method_1_1670
+METHOD	net/minecraft/server/MinecraftServer	()Lnet/minecraft/world/level/levelgen/WorldGenSettings;	getWorldGenSettings	method_1_1671
+METHOD	net/minecraft/server/MinecraftServer	(Lnet/minecraft/world/level/gamerules/GameRules;)V	lambda$new$2	method_1_1672
+METHOD	net/minecraft/server/MinecraftServer	()Lnet/minecraft/world/level/gamerules/GameRules;	lambda$static$0	method_1_1673
+METHOD	net/minecraft/server/MinecraftServer	(IIZZ)V	setWeatherParameters	method_1_1674
+FIELD	net/minecraft/util/datafix/DataFixers	Lcom/mojang/datafixers/DataFixerBuilder$Result;	DATA_FIXER	field_1_1407
+FIELD	net/minecraft/util/datafix/DataFixers	Lnet/minecraft/util/filefix/FileFixerUpper;	FILE_FIXER	field_1_1408
+METHOD	net/minecraft/world/entity/AgeableMob	(Lnet/minecraft/world/item/ItemStack;ZILnet/minecraft/world/entity/Mob;)Z	canUseGoldenDandelion	method_1_1675
+METHOD	net/minecraft/world/entity/AgeableMob	(Lnet/minecraft/world/entity/Mob;)V	lambda$mobInteract$0	method_1_1676
+METHOD	net/minecraft/world/entity/AgeableMob	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Mob;I)I	makeAgeLockedParticle	method_1_1677
+METHOD	net/minecraft/world/entity/AgeableMob	(Lnet/minecraft/world/entity/Mob;Ljava/util/function/Supplier;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/world/item/ItemStack;Ljava/util/function/Consumer;)V	setAgeLocked	method_1_1678
+METHOD	net/minecraft/world/entity/AgeableMob	()V	setAgeLockedData	method_1_1679
+METHOD	net/minecraft/world/level/LevelReader	(Lnet/minecraft/core/BlockPos;)I	getEffectiveSkyBrightness	method_1_1680
+METHOD	net/minecraft/server/level/ServerLevel	()Lnet/minecraft/world/level/saveddata/WeatherData;	getWeatherData	method_1_1681
+METHOD	net/minecraft/server/level/ServerLevel	(Lnet/minecraft/world/level/saveddata/WeatherData;)Ljava/lang/String;	lambda$fillReportDetails$1	method_1_1682
+METHOD	net/minecraft/server/level/ServerLevel	(Lnet/minecraft/world/level/saveddata/WeatherData;)V	prepareWeather	method_1_1683
+FIELD	net/minecraft/util/DummyFileAttributes	Ljava/nio/file/attribute/BasicFileAttributes;	DIRECTORY	field_1_1409
+FIELD	net/minecraft/util/DummyFileAttributes	Ljava/nio/file/attribute/BasicFileAttributes;	FILE	field_1_1410
+METHOD	net/minecraft/util/datafix/schemas/V99	(Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;	lambda$registerTypes$10	method_1_1684
+METHOD	net/minecraft/util/datafix/schemas/V99	(Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;	lambda$registerTypes$14	method_1_1685
+CLASS	net/minecraft/util/filefix/FileFixUtil	class_1_189
+FIELD	net/minecraft/util/filefix/FileFixUtil	Lorg/slf4j/Logger;	LOGGER	field_1_1411
+FIELD	net/minecraft/util/filefix/FileFixUtil	Ljava/lang/String;	NAMESPACE_PATTERN	field_1_1412
+METHOD	net/minecraft/util/filefix/FileFixUtil	(Ljava/nio/file/Path;Ljava/lang/String;)V	deleteFileOrEmptyDirectory	method_1_1686
+METHOD	net/minecraft/util/filefix/FileFixUtil	(Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/String;)V	moveFile	method_1_1687
+FIELD	net/minecraft/util/datafix/DataFixTypes	Lnet/minecraft/util/datafix/DataFixTypes;	SAVED_DATA_CUSTOM_BOSS_EVENTS	field_1_1413
+FIELD	net/minecraft/util/datafix/DataFixTypes	Lnet/minecraft/util/datafix/DataFixTypes;	SAVED_DATA_ENDER_DRAGON_FIGHT	field_1_1414
+FIELD	net/minecraft/util/datafix/DataFixTypes	Lnet/minecraft/util/datafix/DataFixTypes;	SAVED_DATA_GAME_RULES	field_1_1415
+FIELD	net/minecraft/util/datafix/DataFixTypes	Lnet/minecraft/util/datafix/DataFixTypes;	SAVED_DATA_SCHEDULED_EVENTS	field_1_1416
+FIELD	net/minecraft/util/datafix/DataFixTypes	Lnet/minecraft/util/datafix/DataFixTypes;	SAVED_DATA_WANDERING_TRADER	field_1_1417
+FIELD	net/minecraft/util/datafix/DataFixTypes	Lnet/minecraft/util/datafix/DataFixTypes;	SAVED_DATA_WEATHER	field_1_1418
+FIELD	net/minecraft/util/datafix/DataFixTypes	Lnet/minecraft/util/datafix/DataFixTypes;	SAVED_DATA_WORLD_CLOCKS	field_1_1419
+FIELD	net/minecraft/util/datafix/DataFixTypes	Lnet/minecraft/util/datafix/DataFixTypes;	SAVED_DATA_WORLD_GEN_SETTINGS	field_1_1420
+FIELD	net/minecraft/util/debug/DebugBrainDump$1	Lnet/minecraft/server/level/ServerLevel;	val$level	field_1_1421
+FIELD	net/minecraft/util/debug/DebugBrainDump$1	Ljava/util/List;	val$result	field_1_1422
+FIELD	net/minecraft/util/debug/DebugBrainDump$1	J	val$timestamp	field_1_1423
+METHOD	net/minecraft/util/debug/DebugBrainDump$1	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Ljava/util/Optional;Ljava/util/OptionalLong;)V	collectResult	method_1_1688
+CLASS	net/minecraft/util/filefix/package-info	class_1_190
+field_9261 is now comp_1_131
+field_25403 is now comp_1_132
+field_24106 is now comp_1_133
+field_9257 is now comp_1_134
+field_24105 is now comp_1_135
+METHOD	net/minecraft/world/level/LevelSettings	(Z)Lnet/minecraft/world/level/LevelSettings;	withDifficultyLock	method_1_1689
+CLASS	net/minecraft/world/level/LevelSettings$DifficultySettings	class_1_191
+FIELD	net/minecraft/world/level/LevelSettings$DifficultySettings	Lcom/mojang/serialization/Codec;	CODEC	field_1_1424
+FIELD	net/minecraft/world/level/LevelSettings$DifficultySettings	Lnet/minecraft/world/level/LevelSettings$DifficultySettings;	DEFAULT	field_1_1425
+FIELD	net/minecraft/world/level/LevelSettings$DifficultySettings	Lnet/minecraft/world/Difficulty;	difficulty	comp_1_136
+FIELD	net/minecraft/world/level/LevelSettings$DifficultySettings	Z	hardcore	comp_1_137
+FIELD	net/minecraft/world/level/LevelSettings$DifficultySettings	Z	locked	comp_1_138
+METHOD	net/minecraft/world/level/LevelSettings$DifficultySettings	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1690
+METHOD	net/minecraft/util/datafix/schemas/V1460	(Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;	lambda$registerTypes$14	method_1_1691
+METHOD	net/minecraft/util/datafix/schemas/V1460	(Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;	lambda$registerTypes$18	method_1_1692
+CLASS	net/minecraft/util/datafix/schemas/V4771	class_1_192
+METHOD	net/minecraft/util/datafix/schemas/V4771	(Lcom/mojang/datafixers/schemas/Schema;)Lcom/mojang/datafixers/types/templates/TypeTemplate;	lambda$registerTypes$0	method_1_1693
+field_39967 is now comp_1_139
+field_39966 is now comp_1_140
+METHOD	net/minecraft/resources/FileToIdConverter	(Lnet/minecraft/resources/Identifier;)Z	extensionMatches	method_1_1694
+CLASS	net/minecraft/util/filefix/FileFixerUpper	class_1_193
+FIELD	net/minecraft/util/filefix/FileFixerUpper	I	FILE_FIXER_INTRODUCTION_VERSION	field_1_1426
+FIELD	net/minecraft/util/filefix/FileFixerUpper	Lorg/slf4j/Logger;	LOGGER	field_1_1427
+FIELD	net/minecraft/util/filefix/FileFixerUpper	Lcom/mojang/datafixers/DataFixerBuilder$Result;	dataFixer	field_1_1428
+FIELD	net/minecraft/util/filefix/FileFixerUpper	Ljava/util/List;	fileFixes	field_1_1429
+FIELD	net/minecraft/util/filefix/FileFixerUpper	I	latestFileFixerVersion	field_1_1430
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(Lcom/mojang/serialization/Dynamic;I)Lcom/mojang/serialization/Dynamic;	addVersionsToLevelData	method_1_1695
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(Lnet/minecraft/util/worldupdate/UpgradeProgress;IILjava/nio/file/Path;)Lcom/mojang/serialization/Dynamic;	applyFileFixers	method_1_1696
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(Ljava/util/List;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V	countFiles	method_1_1697
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/FileFixerUpper$FileSystemCapabilities;	detectFileSystemCapabilities	method_1_1698
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lcom/mojang/serialization/Dynamic;Lnet/minecraft/util/worldupdate/UpgradeProgress;)Lcom/mojang/serialization/Dynamic;	fix	method_1_1699
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lcom/mojang/serialization/Dynamic;Lnet/minecraft/util/worldupdate/UpgradeProgress;I)Lcom/mojang/serialization/Dynamic;	fix	method_1_1700
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(II)Ljava/util/List;	getApplicableFixers	method_1_1701
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(IILnet/minecraft/util/filefix/FileFix;)Z	lambda$getApplicableFixers$0	method_1_1702
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(Ljava/nio/file/Path;Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;Ljava/nio/file/Path;)V	lambda$swapInFixedWorld$0	method_1_1703
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(I)Z	requiresFileFixing	method_1_1704
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(Ljava/nio/file/Path;)Z	supportsAtomicMove	method_1_1705
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(Ljava/nio/file/Path;)Z	supportsHardLinks	method_1_1706
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem;)V	swapInFixedWorld	method_1_1707
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(I)I	worldVersionToFileFixerVersion	method_1_1708
+METHOD	net/minecraft/util/filefix/FileFixerUpper	(Ljava/nio/file/Path;I)Lcom/mojang/serialization/Dynamic;	writeUpdatedLevelData	method_1_1709
+CLASS	net/minecraft/util/filefix/FileFixerUpper$Builder	class_1_194
+FIELD	net/minecraft/util/filefix/FileFixerUpper$Builder	I	currentVersion	field_1_1431
+FIELD	net/minecraft/util/filefix/FileFixerUpper$Builder	Ljava/util/List;	fileFixes	field_1_1432
+FIELD	net/minecraft/util/filefix/FileFixerUpper$Builder	Ljava/util/List;	knownSchemas	field_1_1433
+FIELD	net/minecraft/util/filefix/FileFixerUpper$Builder	I	latestFileFixerVersion	field_1_1434
+METHOD	net/minecraft/util/filefix/FileFixerUpper$Builder	(Lnet/minecraft/util/filefix/FileFix;)V	addFixer	method_1_1710
+METHOD	net/minecraft/util/filefix/FileFixerUpper$Builder	(Lcom/mojang/datafixers/DataFixerBuilder;ILjava/util/function/BiFunction;)Lcom/mojang/datafixers/schemas/Schema;	addSchema	method_1_1711
+METHOD	net/minecraft/util/filefix/FileFixerUpper$Builder	(Lcom/mojang/datafixers/DataFixerBuilder$Result;)Lnet/minecraft/util/filefix/FileFixerUpper;	build	method_1_1712
+CLASS	net/minecraft/util/filefix/FileFixerUpper$FileSystemCapabilities	class_1_195
+FIELD	net/minecraft/util/filefix/FileFixerUpper$FileSystemCapabilities	Z	atomicMove	comp_1_141
+FIELD	net/minecraft/util/filefix/FileFixerUpper$FileSystemCapabilities	Z	hardLinks	comp_1_142
+FIELD	net/minecraft/world/entity/animal/fox/Fox	F	BABY_SCALE	field_1_1435
+FIELD	net/minecraft/world/entity/animal/fox/Fox	F	MAX_CROUCH_AMOUNT	field_1_1436
+METHOD	net/minecraft/world/entity/animal/fox/Fox	(Lnet/minecraft/world/entity/animal/fox/Fox;)Z	access$400	method_1_1713
+METHOD	net/minecraft/server/level/ServerBossEvent	()V	setDirty	method_1_1714
+CLASS	net/minecraft/util/filefix/access/ChunkNbt	class_1_196
+FIELD	net/minecraft/util/filefix/access/ChunkNbt	Lnet/minecraft/world/level/chunk/storage/SimpleRegionStorage;	storage	field_1_1437
+FIELD	net/minecraft/util/filefix/access/ChunkNbt	I	targetVersion	field_1_1438
+METHOD	net/minecraft/util/filefix/access/ChunkNbt	(Lnet/minecraft/nbt/CompoundTag;Ljava/util/function/UnaryOperator;Ljava/util/Optional;)Ljava/util/Optional;	lambda$updateChunk$0	method_1_1715
+METHOD	net/minecraft/util/filefix/access/ChunkNbt	(Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;	lambda$updateChunk$1	method_1_1716
+METHOD	net/minecraft/util/filefix/access/ChunkNbt	(Lnet/minecraft/world/level/ChunkPos;Ljava/util/Optional;)Ljava/util/concurrent/CompletionStage;	lambda$updateChunk$2	method_1_1717
+METHOD	net/minecraft/util/filefix/access/ChunkNbt	(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/CompoundTag;)Ljava/util/concurrent/CompletableFuture;	lambda$updateChunk$3	method_1_1718
+METHOD	net/minecraft/util/filefix/access/ChunkNbt	(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/nbt/CompoundTag;Ljava/util/function/UnaryOperator;)V	updateChunk	method_1_1719
+CLASS	net/minecraft/util/filefix/access/LevelDat	class_1_197
+FIELD	net/minecraft/util/filefix/access/LevelDat	I	targetVersion	field_1_1439
+METHOD	net/minecraft/util/filefix/access/LevelDat	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$read$0	method_1_1720
+CLASS	net/minecraft/util/filefix/operations/Move	class_1_198
+FIELD	net/minecraft/util/filefix/operations/Move	Ljava/lang/String;	from	comp_1_143
+FIELD	net/minecraft/util/filefix/operations/Move	Ljava/lang/String;	to	comp_1_144
+METHOD	net/minecraft/util/filefix/operations/Move	(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/util/filefix/operations/Move;	relative	method_1_1721
+FIELD	net/minecraft/client/gui/render/GuiRenderer	Lnet/minecraft/client/gui/render/GuiItemAtlas;	itemAtlas	field_1_1440
+METHOD	net/minecraft/client/gui/render/GuiRenderer	()V	endFrame	method_1_1722
+METHOD	net/minecraft/client/gui/render/GuiRenderer	(Lorg/apache/commons/lang3/mutable/MutableBoolean;Lnet/minecraft/client/gui/render/GuiItemAtlas;Lnet/minecraft/client/gui/render/state/GuiItemRenderState;)V	lambda$prepareItemElements$0	method_1_1723
+METHOD	net/minecraft/client/gui/render/GuiRenderer	(Lnet/minecraft/client/gui/render/state/GuiItemRenderState;Lnet/minecraft/client/gui/render/GuiItemAtlas$SlotView;)V	submitBlitFromItemAtlas	method_1_1724
+FIELD	net/minecraft/util/datafix/fixes/References	Lcom/mojang/datafixers/DSL$TypeReference;	SAVED_DATA_CUSTOM_BOSS_EVENTS	field_1_1441
+FIELD	net/minecraft/util/datafix/fixes/References	Lcom/mojang/datafixers/DSL$TypeReference;	SAVED_DATA_ENDER_DRAGON_FIGHT	field_1_1442
+FIELD	net/minecraft/util/datafix/fixes/References	Lcom/mojang/datafixers/DSL$TypeReference;	SAVED_DATA_GAME_RULES	field_1_1443
+FIELD	net/minecraft/util/datafix/fixes/References	Lcom/mojang/datafixers/DSL$TypeReference;	SAVED_DATA_SCHEDULED_EVENTS	field_1_1444
+FIELD	net/minecraft/util/datafix/fixes/References	Lcom/mojang/datafixers/DSL$TypeReference;	SAVED_DATA_WANDERING_TRADER	field_1_1445
+FIELD	net/minecraft/util/datafix/fixes/References	Lcom/mojang/datafixers/DSL$TypeReference;	SAVED_DATA_WEATHER	field_1_1446
+FIELD	net/minecraft/util/datafix/fixes/References	Lcom/mojang/datafixers/DSL$TypeReference;	SAVED_DATA_WORLD_CLOCKS	field_1_1447
+FIELD	net/minecraft/util/datafix/fixes/References	Lcom/mojang/datafixers/DSL$TypeReference;	SAVED_DATA_WORLD_GEN_SETTINGS	field_1_1448
+FIELD	net/minecraft/world/entity/animal/goat/Goat	F	BABY_SCALE	field_1_1449
+METHOD	net/minecraft/world/level/storage/WorldData	(Ljava/util/UUID;)Lnet/minecraft/nbt/CompoundTag;	createTag	method_1_1725
+FIELD	net/minecraft/world/level/timers/TimerQueue	Lcom/mojang/serialization/Codec;	CODEC	field_1_1450
+FIELD	net/minecraft/world/level/timers/TimerQueue	Lnet/minecraft/world/level/saveddata/SavedDataType;	TYPE	field_1_1451
+METHOD	net/minecraft/world/level/timers/TimerQueue	(Lnet/minecraft/world/level/timers/TimerCallbacks;)Lcom/mojang/serialization/Codec;	codec	method_1_1726
+METHOD	net/minecraft/world/level/timers/TimerQueue	(Lnet/minecraft/world/level/timers/TimerQueue$Event$Packed;)V	lambda$new$0	method_1_1727
+METHOD	net/minecraft/world/level/timers/TimerQueue	(Lnet/minecraft/world/level/timers/TimerQueue$Event;)Lnet/minecraft/world/level/timers/TimerQueue$Event$Packed;	lambda$pack$0	method_1_1728
+METHOD	net/minecraft/world/level/timers/TimerQueue	()Lnet/minecraft/world/level/timers/TimerQueue$Packed;	pack	method_1_1729
+field_1316 is now comp_1_145
+field_1317 is now comp_1_146
+field_1319 is now comp_1_147
+field_1318 is now comp_1_148
+CLASS	net/minecraft/world/level/timers/TimerQueue$Event$Packed	class_1_199
+FIELD	net/minecraft/world/level/timers/TimerQueue$Event$Packed	Lnet/minecraft/world/level/timers/TimerCallback;	callback	comp_1_149
+FIELD	net/minecraft/world/level/timers/TimerQueue$Event$Packed	Ljava/lang/String;	id	comp_1_150
+FIELD	net/minecraft/world/level/timers/TimerQueue$Event$Packed	J	triggerTime	comp_1_151
+METHOD	net/minecraft/world/level/timers/TimerQueue$Event$Packed	(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;	codec	method_1_1730
+METHOD	net/minecraft/world/level/timers/TimerQueue$Event$Packed	(Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$codec$0	method_1_1731
+CLASS	net/minecraft/world/level/timers/TimerQueue$Packed	class_1_200
+FIELD	net/minecraft/world/level/timers/TimerQueue$Packed	Ljava/util/List;	events	comp_1_152
+METHOD	net/minecraft/world/level/timers/TimerQueue$Packed	(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;	codec	method_1_1732
+METHOD	net/minecraft/world/level/timers/TimerQueue$Packed	(Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$codec$0	method_1_1733
+CLASS	net/minecraft/client/gui/render/GuiItemAtlas	class_1_201
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas	I	MAXIMUM_TEXTURE_SIZE	field_1_1452
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas	I	MINIMUM_TEXTURE_SIZE	field_1_1453
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas	Lnet/minecraft/client/gui/render/DynamicAtlasAllocator;	allocator	field_1_1454
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas	Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;	bufferSource	field_1_1455
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas	Lcom/mojang/blaze3d/textures/GpuTexture;	depthTexture	field_1_1456
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas	Lcom/mojang/blaze3d/textures/GpuTextureView;	depthTextureView	field_1_1457
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas	Lnet/minecraft/client/renderer/feature/FeatureRenderDispatcher;	featureRenderDispatcher	field_1_1458
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas	Lcom/mojang/blaze3d/vertex/PoseStack;	poseStack	field_1_1459
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas	Lnet/minecraft/client/renderer/CachedOrthoProjectionMatrixBuffer;	projectionMatrixBuffer	field_1_1460
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas	I	slotTextureSize	field_1_1461
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas	Lnet/minecraft/client/renderer/SubmitNodeCollector;	submitNodeCollector	field_1_1462
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas	Lcom/mojang/blaze3d/textures/GpuTexture;	texture	field_1_1463
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas	I	textureSize	field_1_1464
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas	Lcom/mojang/blaze3d/textures/GpuTextureView;	textureView	field_1_1465
+METHOD	net/minecraft/client/gui/render/GuiItemAtlas	(II)I	computeTextureSizeFor	method_1_1734
+METHOD	net/minecraft/client/gui/render/GuiItemAtlas	(IIZLnet/minecraft/client/renderer/item/ItemStackRenderState;)V	drawToSlot	method_1_1735
+METHOD	net/minecraft/client/gui/render/GuiItemAtlas	()V	endFrame	method_1_1736
+METHOD	net/minecraft/client/gui/render/GuiItemAtlas	(Lnet/minecraft/client/renderer/item/TrackingItemStackRenderState;)Lnet/minecraft/client/gui/render/GuiItemAtlas$SlotView;	getOrUpdate	method_1_1737
+METHOD	net/minecraft/client/gui/render/GuiItemAtlas	()I	textureSize	method_1_1738
+METHOD	net/minecraft/client/gui/render/GuiItemAtlas	(Ljava/util/Set;)Z	tryPrepareFor	method_1_1739
+CLASS	net/minecraft/client/gui/render/GuiItemAtlas$SlotView	class_1_202
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas$SlotView	Lcom/mojang/blaze3d/textures/GpuTextureView;	textureView	comp_1_153
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas$SlotView	F	u0	comp_1_154
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas$SlotView	F	u1	comp_1_155
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas$SlotView	F	v0	comp_1_156
+FIELD	net/minecraft/client/gui/render/GuiItemAtlas$SlotView	F	v1	comp_1_157
+METHOD	net/minecraft/client/multiplayer/ClientLevel	()Ljava/lang/String;	lambda$fillReportDetails$3	method_1_1740
+METHOD	net/minecraft/server/packs/PathPackResources	(Ljava/nio/file/Path;)Ljava/util/Set;	getNamespaces	method_1_1741
+METHOD	net/minecraft/server/packs/PathPackResources	(Ljava/nio/file/Path;Ljava/lang/String;Lnet/minecraft/server/packs/PackResources$ResourceOutput;Ljava/util/List;)V	lambda$listResources$0	method_1_1742
+METHOD	net/minecraft/server/packs/PathPackResources	(Ljava/nio/file/Path;Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/server/packs/PackResources$ResourceOutput;)V	listResources	method_1_1743
+METHOD	net/minecraft/server/packs/PathPackResources	(Lnet/minecraft/server/packs/PackType;)Ljava/nio/file/Path;	topPackDir	method_1_1744
+CLASS	net/minecraft/util/filefix/access/FileAccess	class_1_203
+FIELD	net/minecraft/util/filefix/access/FileAccess	Lorg/slf4j/Logger;	LOGGER	field_1_1466
+FIELD	net/minecraft/util/filefix/access/FileAccess	Lnet/minecraft/util/filefix/access/FileAccessProvider;	fileAccessProvider	field_1_1467
+FIELD	net/minecraft/util/filefix/access/FileAccess	Lnet/minecraft/util/filefix/access/FileRelation;	fileRelation	field_1_1468
+FIELD	net/minecraft/util/filefix/access/FileAccess	Ljava/util/List;	files	field_1_1469
+FIELD	net/minecraft/util/filefix/access/FileAccess	Lnet/minecraft/util/filefix/access/FileResourceType;	type	field_1_1470
+METHOD	net/minecraft/util/filefix/access/FileAccess	()Ljava/util/List;	get	method_1_1745
+METHOD	net/minecraft/util/filefix/access/FileAccess	()Ljava/lang/AutoCloseable;	getOnlyFile	method_1_1746
+METHOD	net/minecraft/util/filefix/access/FileAccess	(Ljava/nio/file/Path;)Ljava/lang/AutoCloseable;	lambda$get$0	method_1_1747
+CLASS	net/minecraft/util/filefix/access/PlayerData	class_1_204
+FIELD	net/minecraft/util/filefix/access/PlayerData	I	targetVersion	field_1_1471
+METHOD	net/minecraft/util/filefix/access/PlayerData	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$read$0	method_1_1748
+FIELD	net/minecraft/world/clock/ServerClockManager	Lnet/minecraft/world/level/saveddata/SavedDataType;	TYPE	field_1_1472
+FIELD	net/minecraft/world/clock/ServerClockManager	Lnet/minecraft/world/clock/PackedClockStates;	packedClockStates	field_1_1473
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/server/MinecraftServer;)V	init	method_1_1749
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/core/Holder$Reference;)V	lambda$init$0	method_1_1750
+METHOD	net/minecraft/world/clock/ServerClockManager	(Lnet/minecraft/core/Holder$Reference;)V	lambda$init$1	method_1_1751
+METHOD	net/minecraft/world/clock/ServerClockManager	()Lnet/minecraft/world/clock/ServerClockManager;	lambda$static$0	method_1_1752
+METHOD	net/minecraft/world/entity/ai/sensing/Sensor	(Lnet/minecraft/util/RandomSource;)V	randomlyDelayStart	method_1_1753
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	END_CRYSTAL_BEAM	field_1_1474
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ENTITY_CUTOUT_DISSOLVE	field_1_1475
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ENTITY_TRANSLUCENT_CULL	field_1_1476
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ITEM_CUTOUT	field_1_1477
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	ITEM_SNIPPET	field_1_1478
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ITEM_TRANSLUCENT	field_1_1479
+CLASS	net/minecraft/util/filefix/fixes/package-info	class_1_205
+METHOD	net/minecraft/world/level/gamerules/GameRules	(Lnet/minecraft/world/flag/FeatureFlagSet;Lnet/minecraft/world/level/gamerules/GameRuleMap;Lnet/minecraft/world/level/gamerules/GameRule;)V	lambda$new$0	method_1_1754
+METHOD	net/minecraft/client/model/animal/bee/BeeModel	(FF)V	bobUpAndDown	method_1_1755
+METHOD	net/minecraft/client/model/animal/fox/FoxModel	(Lnet/minecraft/client/renderer/entity/state/FoxRenderState;)V	setCrouchingPose	method_1_1756
+METHOD	net/minecraft/client/model/animal/fox/FoxModel	(Lnet/minecraft/client/renderer/entity/state/FoxRenderState;)V	setPouncingPose	method_1_1757
+METHOD	net/minecraft/client/model/animal/fox/FoxModel	(Lnet/minecraft/client/renderer/entity/state/FoxRenderState;)V	setSittingPose	method_1_1758
+METHOD	net/minecraft/client/model/animal/fox/FoxModel	(Lnet/minecraft/client/renderer/entity/state/FoxRenderState;)V	setSleepingPose	method_1_1759
+METHOD	net/minecraft/client/model/animal/fox/FoxModel	(Lnet/minecraft/client/renderer/entity/state/FoxRenderState;)V	setWalkingPose	method_1_1760
+METHOD	net/minecraft/client/model/animal/fox/FoxModel	(Lnet/minecraft/client/renderer/entity/state/FoxRenderState;)V	setupAnim	method_1_1761
+CLASS	net/minecraft/util/filefix/access/FileRelation	class_1_206
+FIELD	net/minecraft/util/filefix/access/FileRelation	Lnet/minecraft/util/filefix/access/FileRelation;	DATA	field_1_1480
+FIELD	net/minecraft/util/filefix/access/FileRelation	Lnet/minecraft/util/filefix/access/FileRelation;	DIMENSIONS	field_1_1481
+FIELD	net/minecraft/util/filefix/access/FileRelation	Lnet/minecraft/util/filefix/access/FileRelation;	DIMENSIONS_DATA	field_1_1482
+FIELD	net/minecraft/util/filefix/access/FileRelation	Lnet/minecraft/util/filefix/access/FileRelation;	GENERATED_NAMESPACES	field_1_1483
+FIELD	net/minecraft/util/filefix/access/FileRelation	Lorg/slf4j/Logger;	LOGGER	field_1_1484
+FIELD	net/minecraft/util/filefix/access/FileRelation	Lnet/minecraft/util/filefix/access/FileRelation;	OLD_END	field_1_1485
+FIELD	net/minecraft/util/filefix/access/FileRelation	Lnet/minecraft/util/filefix/access/FileRelation;	OLD_NETHER	field_1_1486
+FIELD	net/minecraft/util/filefix/access/FileRelation	Lnet/minecraft/util/filefix/access/FileRelation;	OLD_OVERWORLD	field_1_1487
+FIELD	net/minecraft/util/filefix/access/FileRelation	Lnet/minecraft/util/filefix/access/FileRelation;	ORIGIN	field_1_1488
+FIELD	net/minecraft/util/filefix/access/FileRelation	Lnet/minecraft/util/filefix/access/FileRelation;	PLAYER_DATA	field_1_1489
+FIELD	net/minecraft/util/filefix/access/FileRelation	Lnet/minecraft/util/filefix/access/FileRelation;	REGION	field_1_1490
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/nio/file/Path;)Ljava/util/List;	directoriesInPath	method_1_1762
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/nio/file/Path;)Ljava/util/List;	discoverDimensions	method_1_1763
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/util/filefix/access/FileRelation;	forDataFileInDimension	method_1_1764
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/lang/String;)Lnet/minecraft/util/filefix/access/FileRelation;	forFile	method_1_1765
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/nio/file/Path;)Ljava/util/List;	getDefaultDimensions	method_1_1766
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/nio/file/Path;)Ljava/util/List;	getPaths	method_1_1767
+METHOD	net/minecraft/util/filefix/access/FileRelation	([Lnet/minecraft/util/filefix/access/FileRelation;)Lnet/minecraft/util/filefix/access/FileRelation;	join	method_1_1768
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/nio/file/Path;)Z	lambda$directoriesInPath$0	method_1_1769
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/nio/file/Path;)Z	lambda$discoverDimensions$0	method_1_1770
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/nio/file/Path;)Ljava/util/stream/Stream;	lambda$discoverDimensions$1	method_1_1771
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/lang/String;Ljava/lang/String;Ljava/nio/file/Path;)Ljava/util/List;	lambda$forDataFileInDimension$0	method_1_1772
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/lang/String;Ljava/nio/file/Path;)Ljava/util/List;	lambda$forFile$0	method_1_1773
+METHOD	net/minecraft/util/filefix/access/FileRelation	([Lnet/minecraft/util/filefix/access/FileRelation;Ljava/nio/file/Path;)Ljava/util/List;	lambda$join$0	method_1_1774
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Lnet/minecraft/util/filefix/access/FileRelation;Ljava/nio/file/Path;)Ljava/util/List;	lambda$resolve$0	method_1_1775
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Lnet/minecraft/util/filefix/access/FileRelation;Ljava/nio/file/Path;)Ljava/util/stream/Stream;	lambda$resolve$1	method_1_1776
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/nio/file/Path;)Ljava/util/List;	lambda$static$0	method_1_1777
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/nio/file/Path;)Ljava/util/List;	lambda$static$1	method_1_1778
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/nio/file/Path;)Ljava/util/List;	lambda$static$2	method_1_1779
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/nio/file/Path;)Ljava/util/List;	lambda$static$3	method_1_1780
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/nio/file/Path;)Ljava/util/List;	lambda$static$4	method_1_1781
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Ljava/nio/file/Path;)Ljava/util/List;	lambda$static$5	method_1_1782
+METHOD	net/minecraft/util/filefix/access/FileRelation	(Lnet/minecraft/util/filefix/access/FileRelation;)Lnet/minecraft/util/filefix/access/FileRelation;	resolve	method_1_1783
+CLASS	net/minecraft/util/filefix/access/SavedDataNbt	class_1_207
+FIELD	net/minecraft/util/filefix/access/SavedDataNbt	I	targetVersion	field_1_1491
+FIELD	net/minecraft/util/filefix/access/SavedDataNbt	Lcom/mojang/datafixers/DSL$TypeReference;	type	field_1_1492
+METHOD	net/minecraft/util/filefix/access/SavedDataNbt	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$read$0	method_1_1784
+CLASS	net/minecraft/util/filefix/access/package-info	class_1_208
+FIELD	net/minecraft/util/worldupdate/UpgradeProgress	Lorg/slf4j/Logger;	LOGGER	field_1_1493
+FIELD	net/minecraft/util/worldupdate/UpgradeProgress	Ljava/util/concurrent/atomic/AtomicLong;	lastLoggedProgressTime	field_1_1494
+FIELD	net/minecraft/util/worldupdate/UpgradeProgress	Lnet/minecraft/util/worldupdate/UpgradeProgress$FileFixStats;	runningFileFixerStats	field_1_1495
+FIELD	net/minecraft/util/worldupdate/UpgradeProgress	Lnet/minecraft/util/worldupdate/UpgradeProgress$FileFixStats;	totalFileFixStats	field_1_1496
+FIELD	net/minecraft/util/worldupdate/UpgradeProgress	Lnet/minecraft/util/worldupdate/UpgradeProgress$FileFixStats;	typeFileFixStats	field_1_1497
+FIELD	net/minecraft/util/worldupdate/UpgradeProgress	Lnet/minecraft/util/worldupdate/UpgradeProgress$Type;	type	field_1_1498
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress	(I)V	addTotalFileFixOperations	method_1_1785
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress	()Lnet/minecraft/util/worldupdate/UpgradeProgress$FileFixStats;	getRunningFileFixerStats	method_1_1786
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress	()Lnet/minecraft/util/worldupdate/UpgradeProgress$FileFixStats;	getTotalFileFixStats	method_1_1787
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress	()Lnet/minecraft/util/worldupdate/UpgradeProgress$Type;	getType	method_1_1788
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress	()Lnet/minecraft/util/worldupdate/UpgradeProgress$FileFixStats;	getTypeFileFixStats	method_1_1789
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress	()V	incrementFinishedOperations	method_1_1790
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress	(I)V	incrementFinishedOperationsBy	method_1_1791
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress	()V	incrementRunningFileFixer	method_1_1792
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress	()V	logProgress	method_1_1793
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress	(I)V	setApplicableFixerAmount	method_1_1794
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress	(Lnet/minecraft/util/worldupdate/UpgradeProgress$Type;)V	setType	method_1_1795
+CLASS	net/minecraft/util/worldupdate/UpgradeProgress$FileFixStats	class_1_209
+FIELD	net/minecraft/util/worldupdate/UpgradeProgress$FileFixStats	Ljava/util/concurrent/atomic/AtomicInteger;	finishedOperations	field_1_1499
+FIELD	net/minecraft/util/worldupdate/UpgradeProgress$FileFixStats	Ljava/util/concurrent/atomic/AtomicInteger;	totalOperations	field_1_1500
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress$FileFixStats	()I	finishedOperations	method_1_1796
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress$FileFixStats	()F	getProgress	method_1_1797
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress$FileFixStats	()V	reset	method_1_1798
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress$FileFixStats	()I	totalOperations	method_1_1799
+CLASS	net/minecraft/util/worldupdate/UpgradeProgress$Type	class_1_210
+FIELD	net/minecraft/util/worldupdate/UpgradeProgress$Type	[Lnet/minecraft/util/worldupdate/UpgradeProgress$Type;	$VALUES	field_1_1501
+FIELD	net/minecraft/util/worldupdate/UpgradeProgress$Type	Lnet/minecraft/util/worldupdate/UpgradeProgress$Type;	FILES	field_1_1502
+FIELD	net/minecraft/util/worldupdate/UpgradeProgress$Type	Lnet/minecraft/util/worldupdate/UpgradeProgress$Type;	LEGACY_STRUCTURES	field_1_1503
+FIELD	net/minecraft/util/worldupdate/UpgradeProgress$Type	Lnet/minecraft/util/worldupdate/UpgradeProgress$Type;	REGIONS	field_1_1504
+FIELD	net/minecraft/util/worldupdate/UpgradeProgress$Type	Ljava/lang/String;	id	field_1_1505
+FIELD	net/minecraft/util/worldupdate/UpgradeProgress$Type	Lnet/minecraft/network/chat/Component;	label	field_1_1506
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress$Type	()[Lnet/minecraft/util/worldupdate/UpgradeProgress$Type;	$values	method_1_1800
+METHOD	net/minecraft/util/worldupdate/UpgradeProgress$Type	()Lnet/minecraft/network/chat/Component;	label	method_1_1801
+CLASS	net/minecraft/world/entity/ai/memory/MemoryMap$Builder	class_1_211
+FIELD	net/minecraft/world/entity/ai/memory/MemoryMap$Builder	Lcom/google/common/collect/ImmutableMap$Builder;	builder	field_1_1507
+METHOD	net/minecraft/world/entity/ai/memory/MemoryMap$Builder	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Lnet/minecraft/world/entity/ai/memory/ExpirableValue;)Lnet/minecraft/world/entity/ai/memory/MemoryMap$Builder;	add	method_1_1802
+METHOD	net/minecraft/world/entity/ai/memory/MemoryMap$Builder	()Lnet/minecraft/world/entity/ai/memory/MemoryMap;	build	method_1_1803
+FIELD	net/minecraft/world/entity/animal/frog/Tadpole	Lnet/minecraft/network/syncher/EntityDataAccessor;	AGE_LOCKED	field_1_1508
+FIELD	net/minecraft/world/entity/animal/frog/Tadpole	I	ageLockParticleTimer	field_1_1509
+METHOD	net/minecraft/world/entity/animal/frog/Tadpole	()Z	isAgeLocked	method_1_1804
+METHOD	net/minecraft/world/entity/animal/frog/Tadpole	(Lnet/minecraft/world/entity/Mob;)V	lambda$mobInteract$0	method_1_1805
+METHOD	net/minecraft/world/entity/animal/frog/Tadpole	(Z)V	setAgeLocked	method_1_1806
+METHOD	net/minecraft/world/entity/animal/frog/Tadpole	()V	setAgeLockedData	method_1_1807
+FIELD	net/minecraft/world/level/storage/LevelSummary	Lnet/minecraft/network/chat/Component;	UPGRADE_AND_PLAY_WORLD	field_1_1510
+FIELD	net/minecraft/world/level/storage/LevelSummary	Z	requiresFileFixing	field_1_1511
+METHOD	net/minecraft/world/level/storage/LevelSummary	()Z	requiresFileFixing	method_1_1808
+FIELD	net/minecraft/world/level/storage/LevelSummary$BackupStatus	Lnet/minecraft/world/level/storage/LevelSummary$BackupStatus;	FILE_FIXING_REQUIRED	field_1_1512
+FIELD	net/minecraft/gametest/framework/StructureUtils	Ljava/nio/file/Path;	testStructuresSourceDir	field_1_1513
+FIELD	net/minecraft/gametest/framework/StructureUtils	Ljava/nio/file/Path;	testStructuresTargetDir	field_1_1514
+FIELD	net/minecraft/server/bossevents/CustomBossEvent	Ljava/lang/Runnable;	dirtyCallback	field_1_1515
+CLASS	net/minecraft/util/filefix/access/CompressedNbt	class_1_212
+FIELD	net/minecraft/util/filefix/access/CompressedNbt	Lorg/slf4j/Logger;	LOGGER	field_1_1516
+FIELD	net/minecraft/util/filefix/access/CompressedNbt	Lnet/minecraft/util/filefix/access/CompressedNbt$MissingSeverity;	missingSeverity	field_1_1517
+FIELD	net/minecraft/util/filefix/access/CompressedNbt	Ljava/nio/file/Path;	path	field_1_1518
+METHOD	net/minecraft/util/filefix/access/CompressedNbt	()Ljava/nio/file/Path;	path	method_1_1809
+METHOD	net/minecraft/util/filefix/access/CompressedNbt	()Ljava/util/Optional;	read	method_1_1810
+METHOD	net/minecraft/util/filefix/access/CompressedNbt	()Ljava/util/Optional;	readFile	method_1_1811
+METHOD	net/minecraft/util/filefix/access/CompressedNbt	(Lcom/mojang/serialization/Dynamic;)V	write	method_1_1812
+METHOD	net/minecraft/util/filefix/access/CompressedNbt	(Lcom/mojang/serialization/Dynamic;)V	writeFile	method_1_1813
+CLASS	net/minecraft/util/filefix/access/CompressedNbt$MissingSeverity	class_1_213
+FIELD	net/minecraft/util/filefix/access/CompressedNbt$MissingSeverity	[Lnet/minecraft/util/filefix/access/CompressedNbt$MissingSeverity;	$VALUES	field_1_1519
+FIELD	net/minecraft/util/filefix/access/CompressedNbt$MissingSeverity	Lnet/minecraft/util/filefix/access/CompressedNbt$MissingSeverity;	IMPORTANT	field_1_1520
+FIELD	net/minecraft/util/filefix/access/CompressedNbt$MissingSeverity	Lnet/minecraft/util/filefix/access/CompressedNbt$MissingSeverity;	MINOR	field_1_1521
+FIELD	net/minecraft/util/filefix/access/CompressedNbt$MissingSeverity	Lnet/minecraft/util/filefix/access/CompressedNbt$MissingSeverity;	NEUTRAL	field_1_1522
+FIELD	net/minecraft/util/filefix/access/CompressedNbt$MissingSeverity	Ljava/util/function/BiConsumer;	logFunction	field_1_1523
+METHOD	net/minecraft/util/filefix/access/CompressedNbt$MissingSeverity	()[Lnet/minecraft/util/filefix/access/CompressedNbt$MissingSeverity;	$values	method_1_1814
+METHOD	net/minecraft/util/filefix/access/CompressedNbt$MissingSeverity	(Ljava/lang/String;Ljava/nio/file/Path;)V	log	method_1_1815
+CLASS	net/minecraft/util/filefix/operations/GroupMove	class_1_214
+FIELD	net/minecraft/util/filefix/operations/GroupMove	Ljava/util/List;	fixers	comp_1_158
+FIELD	net/minecraft/util/filefix/operations/GroupMove	Ljava/util/Map;	fromTo	comp_1_159
+CLASS	net/minecraft/util/filefix/operations/RegexMove	class_1_215
+FIELD	net/minecraft/util/filefix/operations/RegexMove	Ljava/util/regex/Pattern;	fromPattern	comp_1_160
+FIELD	net/minecraft/util/filefix/operations/RegexMove	Ljava/lang/String;	toReplacement	comp_1_161
+FIELD	net/minecraft/world/entity/ai/memory/MemorySlot	J	NEVER_EXPIRE	field_1_1524
+METHOD	net/minecraft/world/entity/ai/memory/MemorySlot	()V	clear	method_1_1816
+METHOD	net/minecraft/world/entity/ai/memory/MemorySlot	()Lnet/minecraft/world/entity/ai/memory/MemorySlot;	create	method_1_1817
+METHOD	net/minecraft/world/entity/ai/memory/MemorySlot	()Z	hasValue	method_1_1818
+METHOD	net/minecraft/world/entity/ai/memory/MemorySlot	(Ljava/lang/Object;)V	set	method_1_1819
+METHOD	net/minecraft/world/entity/ai/memory/MemorySlot	(Ljava/lang/Object;J)V	set	method_1_1820
+METHOD	net/minecraft/world/entity/ai/memory/MemorySlot	(Lnet/minecraft/world/entity/ai/memory/MemoryModuleType;Lnet/minecraft/world/entity/ai/Brain$Visitor;)V	visit	method_1_1821
+FIELD	net/minecraft/world/level/gamerules/GameRuleMap	Lnet/minecraft/world/level/saveddata/SavedDataType;	TYPE	field_1_1525
+METHOD	net/minecraft/world/level/gamerules/GameRuleMap	(Lnet/minecraft/world/level/gamerules/GameRule;)V	reset	method_1_1822
+CLASS	net/minecraft/world/level/saveddata/WeatherData	class_1_216
+FIELD	net/minecraft/world/level/saveddata/WeatherData	Lcom/mojang/serialization/Codec;	CODEC	field_1_1526
+FIELD	net/minecraft/world/level/saveddata/WeatherData	Lnet/minecraft/world/level/saveddata/SavedDataType;	TYPE	field_1_1527
+FIELD	net/minecraft/world/level/saveddata/WeatherData	I	clearWeatherTime	field_1_1528
+FIELD	net/minecraft/world/level/saveddata/WeatherData	I	rainTime	field_1_1529
+FIELD	net/minecraft/world/level/saveddata/WeatherData	Z	raining	field_1_1530
+FIELD	net/minecraft/world/level/saveddata/WeatherData	I	thunderTime	field_1_1531
+FIELD	net/minecraft/world/level/saveddata/WeatherData	Z	thundering	field_1_1532
+METHOD	net/minecraft/world/level/saveddata/WeatherData	()I	getClearWeatherTime	method_1_1823
+METHOD	net/minecraft/world/level/saveddata/WeatherData	()I	getRainTime	method_1_1824
+METHOD	net/minecraft/world/level/saveddata/WeatherData	()I	getThunderTime	method_1_1825
+METHOD	net/minecraft/world/level/saveddata/WeatherData	()Z	isRaining	method_1_1826
+METHOD	net/minecraft/world/level/saveddata/WeatherData	()Z	isThundering	method_1_1827
+METHOD	net/minecraft/world/level/saveddata/WeatherData	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1828
+METHOD	net/minecraft/world/level/saveddata/WeatherData	(I)V	setClearWeatherTime	method_1_1829
+METHOD	net/minecraft/world/level/saveddata/WeatherData	(I)V	setRainTime	method_1_1830
+METHOD	net/minecraft/world/level/saveddata/WeatherData	(Z)V	setRaining	method_1_1831
+METHOD	net/minecraft/world/level/saveddata/WeatherData	(I)V	setThunderTime	method_1_1832
+METHOD	net/minecraft/world/level/saveddata/WeatherData	(Z)V	setThundering	method_1_1833
+FIELD	net/minecraft/world/level/storage/LevelResource	Lnet/minecraft/world/level/storage/LevelResource;	DATA	field_1_1533
+field_24189 is now comp_1_162
+FIELD	net/minecraft/client/renderer/entity/BeeRenderer	Lnet/minecraft/resources/Identifier;	ANGRY_BEE_BABY_TEXTURE	field_1_1534
+FIELD	net/minecraft/client/renderer/entity/BeeRenderer	Lnet/minecraft/resources/Identifier;	ANGRY_NECTAR_BEE_BABY_TEXTURE	field_1_1535
+FIELD	net/minecraft/client/renderer/entity/BeeRenderer	Lnet/minecraft/resources/Identifier;	BEE_BABY_TEXTURE	field_1_1536
+FIELD	net/minecraft/client/renderer/entity/BeeRenderer	Lnet/minecraft/resources/Identifier;	NECTAR_BEE_BABY_TEXTURE	field_1_1537
+FIELD	net/minecraft/client/renderer/entity/FoxRenderer	Lnet/minecraft/resources/Identifier;	BABY_RED_FOX_SLEEP_TEXTURE	field_1_1538
+FIELD	net/minecraft/client/renderer/entity/FoxRenderer	Lnet/minecraft/resources/Identifier;	BABY_RED_FOX_TEXTURE	field_1_1539
+FIELD	net/minecraft/client/renderer/entity/FoxRenderer	Lnet/minecraft/resources/Identifier;	BABY_SNOW_FOX_SLEEP_TEXTURE	field_1_1540
+FIELD	net/minecraft/client/renderer/entity/FoxRenderer	Lnet/minecraft/resources/Identifier;	BABY_SNOW_FOX_TEXTURE	field_1_1541
+FIELD	net/minecraft/client/renderer/entity/FoxRenderer	Ljava/util/EnumMap;	TEXTURES_BY_VARIANT	field_1_1542
+CLASS	net/minecraft/client/renderer/entity/FoxRenderer$FoxTexturesByAge	class_1_217
+FIELD	net/minecraft/client/renderer/entity/FoxRenderer$FoxTexturesByAge	Lnet/minecraft/resources/Identifier;	adult	comp_1_163
+FIELD	net/minecraft/client/renderer/entity/FoxRenderer$FoxTexturesByAge	Lnet/minecraft/resources/Identifier;	baby	comp_1_164
+CLASS	net/minecraft/client/renderer/entity/FoxRenderer$FoxTexturesByState	class_1_218
+FIELD	net/minecraft/client/renderer/entity/FoxRenderer$FoxTexturesByState	Lnet/minecraft/client/renderer/entity/FoxRenderer$FoxTexturesByAge;	idle	comp_1_165
+FIELD	net/minecraft/client/renderer/entity/FoxRenderer$FoxTexturesByState	Lnet/minecraft/client/renderer/entity/FoxRenderer$FoxTexturesByAge;	sleeping	comp_1_166
+FIELD	net/minecraft/server/bossevents/CustomBossEvents	Lcom/mojang/serialization/Codec;	CODEC	field_1_1543
+FIELD	net/minecraft/server/bossevents/CustomBossEvents	Lnet/minecraft/world/level/saveddata/SavedDataType;	TYPE	field_1_1544
+METHOD	net/minecraft/server/bossevents/CustomBossEvents	(Ljava/util/Map;)Lnet/minecraft/server/bossevents/CustomBossEvents;	lambda$static$0	method_1_1834
+METHOD	net/minecraft/server/bossevents/CustomBossEvents	(Lnet/minecraft/server/bossevents/CustomBossEvents;Lnet/minecraft/resources/Identifier;Lnet/minecraft/server/bossevents/CustomBossEvent$Packed;)V	lambda$static$1	method_1_1835
+METHOD	net/minecraft/server/bossevents/CustomBossEvents	(Lnet/minecraft/server/bossevents/CustomBossEvents;)Ljava/util/Map;	lambda$static$2	method_1_1836
+FIELD	net/minecraft/client/renderer/entity/GoatRenderer	Lnet/minecraft/resources/Identifier;	BABY_GOAT_LOCATION	field_1_1545
+CLASS	net/minecraft/util/filefix/virtualfilesystem/Node	class_1_219
+FIELD	net/minecraft/util/filefix/virtualfilesystem/Node	Lnet/minecraft/util/filefix/virtualfilesystem/DirectoryNode;	parent	field_1_1546
+FIELD	net/minecraft/util/filefix/virtualfilesystem/Node	Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	path	field_1_1547
+METHOD	net/minecraft/util/filefix/virtualfilesystem/Node	()Ljava/lang/String;	name	method_1_1837
+METHOD	net/minecraft/util/filefix/virtualfilesystem/Node	()Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	path	method_1_1838
+METHOD	net/minecraft/util/filefix/virtualfilesystem/Node	(Lnet/minecraft/util/filefix/virtualfilesystem/DirectoryNode;)V	setParent	method_1_1839
+METHOD	net/minecraft/util/filefix/virtualfilesystem/Node	(Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;)V	setPath	method_1_1840
+FIELD	net/minecraft/world/entity/animal/axolotl/Axolotl	Lnet/minecraft/world/entity/AnimationState;	playDeadAnimationState	field_1_1548
+METHOD	net/minecraft/world/entity/boss/wither/WitherBoss	(Lnet/minecraft/server/level/ServerBossEvent;)V	lambda$new$0	method_1_1841
+FIELD	net/minecraft/world/level/dimension/DimensionType	Z	hasEnderDragonFight	comp_1_167
+CLASS	net/minecraft/client/model/animal/bee/BabyBeeModel	class_1_220
+METHOD	net/minecraft/client/model/animal/bee/BabyBeeModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_1842
+CLASS	net/minecraft/client/model/animal/fox/BabyFoxModel	class_1_221
+FIELD	net/minecraft/client/model/animal/fox/BabyFoxModel	F	MAX_WALK_ANIMATION_SPEED	field_1_1549
+FIELD	net/minecraft/client/model/animal/fox/BabyFoxModel	F	WALK_ANIMATION_SCALE_FACTOR	field_1_1550
+FIELD	net/minecraft/client/model/animal/fox/BabyFoxModel	Lnet/minecraft/client/animation/KeyframeAnimation;	babyWalkAnimation	field_1_1551
+METHOD	net/minecraft/client/model/animal/fox/BabyFoxModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_1843
+FIELD	net/minecraft/client/renderer/entity/CamelRenderer	Lnet/minecraft/resources/Identifier;	CAMEL_BABY_LOCATION	field_1_1552
+METHOD	net/minecraft/client/renderer/entity/CamelRenderer	(Lnet/minecraft/client/renderer/entity/EntityRendererProvider$Context;Lnet/minecraft/client/renderer/entity/MobRenderer;Lnet/minecraft/client/resources/model/EquipmentClientInfo$LayerType;Lnet/minecraft/client/model/geom/ModelLayerLocation;)Lnet/minecraft/client/renderer/entity/layers/SimpleEquipmentLayer;	createCamelSaddleLayer	method_1_1844
+METHOD	net/minecraft/client/renderer/entity/CamelRenderer	(Lnet/minecraft/world/entity/animal/camel/Camel;Lnet/minecraft/client/renderer/entity/state/CamelRenderState;F)V	extractAdditionalState	method_1_1845
+METHOD	net/minecraft/client/renderer/entity/CamelRenderer	(Lnet/minecraft/world/entity/animal/camel/Camel;F)F	getJumpCooldown	method_1_1846
+FIELD	net/minecraft/client/renderer/entity/LlamaRenderer	Ljava/util/Map;	BABY_TEXTURES	field_1_1553
+FIELD	net/minecraft/client/renderer/entity/LlamaRenderer	Ljava/util/Map;	TEXTURES	field_1_1554
+CLASS	net/minecraft/util/filefix/access/FileResourceType	class_1_222
+FIELD	net/minecraft/util/filefix/access/FileResourceType	Lnet/minecraft/util/filefix/access/FileResourceType$AccessFactory;	factory	field_1_1555
+METHOD	net/minecraft/util/filefix/access/FileResourceType	(Ljava/nio/file/Path;I)Ljava/lang/AutoCloseable;	create	method_1_1847
+CLASS	net/minecraft/util/filefix/access/FileResourceType$AccessFactory	class_1_223
+METHOD	net/minecraft/util/filefix/access/FileResourceType$AccessFactory	(Ljava/nio/file/Path;I)Ljava/lang/Object;	create	method_1_1848
+CLASS	net/minecraft/util/filefix/operations/package-info	class_1_224
+FIELD	net/minecraft/world/item/equipment/EquipmentAssets	Lnet/minecraft/resources/ResourceKey;	TRADER_LLAMA_BABY	field_1_1556
+FIELD	net/minecraft/world/level/levelgen/feature/Feature	Lnet/minecraft/world/level/levelgen/feature/Feature;	BLOCK_BLOB	field_1_1557
+FIELD	net/minecraft/world/level/levelgen/feature/Feature	Lnet/minecraft/world/level/levelgen/feature/Feature;	SPIKE	field_1_1558
+FIELD	net/minecraft/world/level/storage/PrimaryLevelData	Ljava/lang/String;	SINGLEPLAYER_UUID	field_1_1559
+FIELD	net/minecraft/world/level/storage/PrimaryLevelData	Ljava/util/UUID;	singlePlayerUUID	field_1_1560
+METHOD	net/minecraft/world/level/storage/PrimaryLevelData	(Lcom/mojang/serialization/Dynamic;Lnet/minecraft/world/level/LevelSettings;Lnet/minecraft/world/level/storage/PrimaryLevelData$SpecialWorldProperty;Lcom/mojang/serialization/Lifecycle;)Lnet/minecraft/world/level/storage/PrimaryLevelData;	parse	method_1_1849
+METHOD	net/minecraft/world/level/storage/PrimaryLevelData	(Lnet/minecraft/nbt/CompoundTag;Ljava/util/UUID;)V	setTagData	method_1_1850
+METHOD	net/minecraft/world/level/storage/PrimaryLevelData	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	writeLastPlayed	method_1_1851
+METHOD	net/minecraft/world/level/storage/PrimaryLevelData	(Lnet/minecraft/nbt/CompoundTag;)V	writeLastPlayed	method_1_1852
+METHOD	net/minecraft/world/level/storage/PrimaryLevelData	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	writeVersionTag	method_1_1853
+METHOD	net/minecraft/world/level/storage/PrimaryLevelData	(Lnet/minecraft/nbt/CompoundTag;)V	writeVersionTag	method_1_1854
+FIELD	net/minecraft/world/level/storage/SavedDataStorage	Z	closed	field_1_1561
+CLASS	net/minecraft/client/model/animal/bee/AdultBeeModel	class_1_225
+FIELD	net/minecraft/client/model/animal/bee/AdultBeeModel	Ljava/lang/String;	LEFT_ANTENNA	field_1_1562
+FIELD	net/minecraft/client/model/animal/bee/AdultBeeModel	Ljava/lang/String;	RIGHT_ANTENNA	field_1_1563
+FIELD	net/minecraft/client/model/animal/bee/AdultBeeModel	Lnet/minecraft/client/model/geom/ModelPart;	leftAntenna	field_1_1564
+FIELD	net/minecraft/client/model/animal/bee/AdultBeeModel	Lnet/minecraft/client/model/geom/ModelPart;	rightAntenna	field_1_1565
+METHOD	net/minecraft/client/model/animal/bee/AdultBeeModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_1855
+CLASS	net/minecraft/client/model/animal/fox/AdultFoxModel	class_1_226
+FIELD	net/minecraft/client/model/animal/fox/AdultFoxModel	F	HEAD_HEIGHT	field_1_1566
+FIELD	net/minecraft/client/model/animal/fox/AdultFoxModel	F	LEG_POS	field_1_1567
+FIELD	net/minecraft/client/model/animal/fox/AdultFoxModel	I	LEG_SIZE	field_1_1568
+METHOD	net/minecraft/client/model/animal/fox/AdultFoxModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_1856
+CLASS	net/minecraft/util/filefix/access/FileResourceTypes	class_1_227
+FIELD	net/minecraft/util/filefix/access/FileResourceTypes	Lnet/minecraft/util/filefix/access/FileResourceType;	LEVEL_DAT	field_1_1569
+FIELD	net/minecraft/util/filefix/access/FileResourceTypes	Lnet/minecraft/util/filefix/access/FileResourceType;	PLAYER_DATA	field_1_1570
+METHOD	net/minecraft/util/filefix/access/FileResourceTypes	(Lnet/minecraft/util/datafix/DataFixTypes;Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;)Lnet/minecraft/util/filefix/access/FileResourceType;	chunk	method_1_1857
+METHOD	net/minecraft/util/filefix/access/FileResourceTypes	(Lnet/minecraft/world/level/chunk/storage/RegionStorageInfo;Lnet/minecraft/util/datafix/DataFixTypes;Ljava/nio/file/Path;I)Lnet/minecraft/util/filefix/access/ChunkNbt;	lambda$chunk$0	method_1_1858
+METHOD	net/minecraft/util/filefix/access/FileResourceTypes	(Lcom/mojang/datafixers/DSL$TypeReference;Lnet/minecraft/util/filefix/access/CompressedNbt$MissingSeverity;Ljava/nio/file/Path;I)Lnet/minecraft/util/filefix/access/SavedDataNbt;	lambda$savedData$0	method_1_1859
+METHOD	net/minecraft/util/filefix/access/FileResourceTypes	(Lcom/mojang/datafixers/DSL$TypeReference;)Lnet/minecraft/util/filefix/access/FileResourceType;	savedData	method_1_1860
+METHOD	net/minecraft/util/filefix/access/FileResourceTypes	(Lcom/mojang/datafixers/DSL$TypeReference;Lnet/minecraft/util/filefix/access/CompressedNbt$MissingSeverity;)Lnet/minecraft/util/filefix/access/FileResourceType;	savedData	method_1_1861
+CLASS	net/minecraft/util/filefix/operations/ModifyContent	class_1_228
+FIELD	net/minecraft/util/filefix/operations/ModifyContent	Lnet/minecraft/util/filefix/access/FileAccessProvider;	fileAccessProvider	field_1_1571
+FIELD	net/minecraft/util/filefix/operations/ModifyContent	Lnet/minecraft/util/filefix/operations/ModifyContent$FixFunction;	fixFunction	field_1_1572
+METHOD	net/minecraft/util/filefix/operations/ModifyContent	(Lnet/minecraft/util/worldupdate/UpgradeProgress;)V	lambda$fix$0	method_1_1862
+CLASS	net/minecraft/util/filefix/operations/ModifyContent$FileAccessFunction	class_1_229
+METHOD	net/minecraft/util/filefix/operations/ModifyContent$FileAccessFunction	(Lnet/minecraft/util/filefix/access/FileAccessProvider;)Lnet/minecraft/util/filefix/operations/ModifyContent$FixFunction;	make	method_1_1863
+CLASS	net/minecraft/util/filefix/operations/ModifyContent$FixFunction	class_1_230
+METHOD	net/minecraft/util/filefix/operations/ModifyContent$FixFunction	(Lnet/minecraft/util/worldupdate/UpgradeProgress;)V	run	method_1_1864
+CLASS	net/minecraft/world/entity/ai/memory/ExpirableValue	class_1_231
+FIELD	net/minecraft/world/entity/ai/memory/ExpirableValue	Ljava/util/Optional;	timeToLive	comp_1_168
+FIELD	net/minecraft/world/entity/ai/memory/ExpirableValue	Ljava/lang/Object;	value	comp_1_169
+METHOD	net/minecraft/world/entity/ai/memory/ExpirableValue	(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;	codec	method_1_1865
+METHOD	net/minecraft/world/entity/ai/memory/ExpirableValue	(Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$codec$0	method_1_1866
+METHOD	net/minecraft/world/entity/ai/memory/ExpirableValue	(Ljava/lang/Object;)Lnet/minecraft/world/entity/ai/memory/ExpirableValue;	of	method_1_1867
+METHOD	net/minecraft/world/entity/ai/memory/ExpirableValue	(Ljava/lang/Object;J)Lnet/minecraft/world/entity/ai/memory/ExpirableValue;	of	method_1_1868
+FIELD	net/minecraft/world/level/levelgen/WorldGenSettings	Lnet/minecraft/world/level/saveddata/SavedDataType;	TYPE	field_1_1573
+comp_1020 is now field_1_1574
+comp_1019 is now field_1_1575
+comp_1020 is now method_1_1869
+METHOD	net/minecraft/world/level/levelgen/WorldGenSettings	()Lnet/minecraft/world/level/levelgen/WorldGenSettings;	lambda$static$1	method_1_1870
+METHOD	net/minecraft/world/level/levelgen/WorldGenSettings	(Lnet/minecraft/world/level/levelgen/WorldOptions;Lnet/minecraft/core/RegistryAccess;)Lnet/minecraft/world/level/levelgen/WorldGenSettings;	of	method_1_1871
+comp_1019 is now method_1_1872
+FIELD	net/minecraft/client/gui/screens/BackupConfirmScreen	Z	forceBackup	field_1_1576
+CLASS	net/minecraft/client/model/animal/goat/BabyGoatModel	class_1_232
+FIELD	net/minecraft/client/model/animal/goat/BabyGoatModel	Ljava/lang/String;	HEAD_MAIN	field_1_1577
+METHOD	net/minecraft/client/model/animal/goat/BabyGoatModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_1873
+FIELD	net/minecraft/client/renderer/rendertype/RenderTypes	Ljava/util/function/BiFunction;	ENTITY_CUTOUT_DISSOLVE	field_1_1578
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	entityCutoutDissolve	method_1_1874
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	itemTranslucent	method_1_1875
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	lambda$static$10	method_1_1876
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	lambda$static$11	method_1_1877
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	lambda$static$9	method_1_1878
+CLASS	net/minecraft/util/filefix/access/FileAccessProvider	class_1_233
+FIELD	net/minecraft/util/filefix/access/FileAccessProvider	Ljava/util/List;	accessedFiles	field_1_1579
+FIELD	net/minecraft/util/filefix/access/FileAccessProvider	Ljava/lang/ScopedValue;	baseDirectory	field_1_1580
+FIELD	net/minecraft/util/filefix/access/FileAccessProvider	I	dataVersion	field_1_1581
+FIELD	net/minecraft/util/filefix/access/FileAccessProvider	Z	frozen	field_1_1582
+METHOD	net/minecraft/util/filefix/access/FileAccessProvider	()Ljava/lang/ScopedValue;	baseDirectory	method_1_1879
+METHOD	net/minecraft/util/filefix/access/FileAccessProvider	()I	dataVersion	method_1_1880
+METHOD	net/minecraft/util/filefix/access/FileAccessProvider	()V	freeze	method_1_1881
+METHOD	net/minecraft/util/filefix/access/FileAccessProvider	(Lnet/minecraft/util/filefix/access/FileResourceType;Lnet/minecraft/util/filefix/access/FileRelation;)Lnet/minecraft/util/filefix/access/FileAccess;	getFileAccess	method_1_1882
+CLASS	net/minecraft/util/filefix/operations/ApplyInFolders	class_1_234
+FIELD	net/minecraft/util/filefix/operations/ApplyInFolders	Ljava/util/List;	fileFixOperations	comp_1_170
+FIELD	net/minecraft/util/filefix/operations/ApplyInFolders	Lnet/minecraft/util/filefix/access/FileRelation;	folders	comp_1_171
+METHOD	net/minecraft/world/level/storage/LevelStorageSource	(Ljava/lang/String;)Lnet/minecraft/world/level/storage/LevelStorageException;	lambda$getLevelDataAndDimensions$0	method_1_1883
+METHOD	net/minecraft/world/level/storage/LevelStorageSource	(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/world/level/saveddata/SavedDataType;)Lcom/mojang/serialization/DataResult;	readExistingSavedData	method_1_1884
+METHOD	net/minecraft/world/level/storage/LevelStorageSource	(Lnet/minecraft/world/level/storage/WorldData;Ljava/nio/file/Path;Lnet/minecraft/world/level/gamerules/GameRules;)V	writeGameRules	method_1_1885
+METHOD	net/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess	(Z)V	collectIssues	method_1_1886
+METHOD	net/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess	()V	createLock	method_1_1887
+METHOD	net/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess	()Lnet/minecraft/world/level/storage/LevelSummary;	fixAndGetSummary	method_1_1888
+METHOD	net/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess	(Z)Lcom/mojang/serialization/Dynamic;	getUnfixedDataTag	method_1_1889
+METHOD	net/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess	()Lcom/mojang/serialization/Dynamic;	getUnfixedDataTagWithFallback	method_1_1890
+METHOD	net/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess	(Lorg/apache/commons/io/function/IORunnable;)V	releaseTemporarilyAndRun	method_1_1891
+METHOD	net/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess	(Lcom/mojang/serialization/Dynamic;)V	saveLevelData	method_1_1892
+CLASS	net/minecraft/client/gui/render/DynamicAtlasAllocator	class_1_235
+FIELD	net/minecraft/client/gui/render/DynamicAtlasAllocator	Ljava/util/BitSet;	freeSlots	field_1_1583
+FIELD	net/minecraft/client/gui/render/DynamicAtlasAllocator	Ljava/util/List;	slots	field_1_1584
+FIELD	net/minecraft/client/gui/render/DynamicAtlasAllocator	Ljava/util/Map;	usedSlotByKey	field_1_1585
+FIELD	net/minecraft/client/gui/render/DynamicAtlasAllocator	I	width	field_1_1586
+METHOD	net/minecraft/client/gui/render/DynamicAtlasAllocator	()V	endFrame	method_1_1893
+METHOD	net/minecraft/client/gui/render/DynamicAtlasAllocator	()I	freeSlotCount	method_1_1894
+METHOD	net/minecraft/client/gui/render/DynamicAtlasAllocator	(Ljava/util/function/BiPredicate;)V	freeSlotIf	method_1_1895
+METHOD	net/minecraft/client/gui/render/DynamicAtlasAllocator	(Ljava/lang/Object;Z)Lnet/minecraft/client/gui/render/DynamicAtlasAllocator$Slot;	getOrAllocate	method_1_1896
+METHOD	net/minecraft/client/gui/render/DynamicAtlasAllocator	(Ljava/util/Set;)Z	hasSpaceForAll	method_1_1897
+METHOD	net/minecraft/client/gui/render/DynamicAtlasAllocator	(Ljava/lang/Object;Lnet/minecraft/client/gui/render/DynamicAtlasAllocator$Slot;)Z	lambda$endFrame$0	method_1_1898
+METHOD	net/minecraft/client/gui/render/DynamicAtlasAllocator	(Ljava/util/function/BiPredicate;Ljava/util/Map$Entry;)Z	lambda$freeSlotIf$0	method_1_1899
+METHOD	net/minecraft/client/gui/render/DynamicAtlasAllocator	(Lorg/apache/commons/lang3/mutable/MutableInt;Ljava/util/Set;Ljava/lang/Object;Lnet/minecraft/client/gui/render/DynamicAtlasAllocator$Slot;)Z	lambda$reclaimSpaceFor$0	method_1_1900
+METHOD	net/minecraft/client/gui/render/DynamicAtlasAllocator	(Ljava/util/Set;)Z	reclaimSpaceFor	method_1_1901
+METHOD	net/minecraft/client/gui/render/DynamicAtlasAllocator	()Ljava/util/Set;	usedSlotKeys	method_1_1902
+CLASS	net/minecraft/client/gui/render/DynamicAtlasAllocator$Slot	class_1_236
+FIELD	net/minecraft/client/gui/render/DynamicAtlasAllocator$Slot	Z	discardAfterFrame	field_1_1587
+FIELD	net/minecraft/client/gui/render/DynamicAtlasAllocator$Slot	Lnet/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState;	externalState	field_1_1588
+FIELD	net/minecraft/client/gui/render/DynamicAtlasAllocator$Slot	Z	fresh	field_1_1589
+FIELD	net/minecraft/client/gui/render/DynamicAtlasAllocator$Slot	I	x	field_1_1590
+FIELD	net/minecraft/client/gui/render/DynamicAtlasAllocator$Slot	I	y	field_1_1591
+METHOD	net/minecraft/client/gui/render/DynamicAtlasAllocator$Slot	()Lnet/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState;	state	method_1_1903
+METHOD	net/minecraft/client/gui/render/DynamicAtlasAllocator$Slot	()I	x	method_1_1904
+METHOD	net/minecraft/client/gui/render/DynamicAtlasAllocator$Slot	()I	y	method_1_1905
+CLASS	net/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState	class_1_237
+FIELD	net/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState	[Lnet/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState;	$VALUES	field_1_1592
+FIELD	net/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState	Lnet/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState;	EMPTY	field_1_1593
+FIELD	net/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState	Lnet/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState;	READY	field_1_1594
+FIELD	net/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState	Lnet/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState;	STALE	field_1_1595
+METHOD	net/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState	()[Lnet/minecraft/client/gui/render/DynamicAtlasAllocator$SlotState;	$values	method_1_1906
+FIELD	net/minecraft/client/gui/screens/GenericWaitingScreen	Z	closeOnEscape	field_1_1596
+FIELD	net/minecraft/client/gui/screens/GenericWaitingScreen	Z	showButton	field_1_1597
+FIELD	net/minecraft/client/gui/screens/GenericWaitingScreen	Z	showLoadingDots	field_1_1598
+METHOD	net/minecraft/client/gui/screens/GenericWaitingScreen	(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/screens/GenericWaitingScreen;	createWaitingWithoutButton	method_1_1907
+METHOD	net/minecraft/client/gui/screens/GenericWaitingScreen	()V	lambda$createWaitingWithoutButton$0	method_1_1908
+CLASS	net/minecraft/util/filefix/fixes/PlayerStorageFileFix	class_1_238
+CLASS	net/minecraft/util/filefix/virtualfilesystem/FileNode	class_1_239
+FIELD	net/minecraft/util/filefix/virtualfilesystem/FileNode	Z	isCopy	field_1_1599
+FIELD	net/minecraft/util/filefix/virtualfilesystem/FileNode	Ljava/nio/file/Path;	storagePath	field_1_1600
+METHOD	net/minecraft/util/filefix/virtualfilesystem/FileNode	()V	deleteCopy	method_1_1909
+METHOD	net/minecraft/util/filefix/virtualfilesystem/FileNode	()V	ensureCopy	method_1_1910
+METHOD	net/minecraft/util/filefix/virtualfilesystem/FileNode	()Ljava/nio/file/Path;	storagePath	method_1_1911
+METHOD	net/minecraft/world/entity/ai/memory/MemoryModuleType	()Z	canSerialize	method_1_1912
+METHOD	net/minecraft/world/entity/animal/polarbear/PolarBear	(Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/server/level/ServerLevel;)Z	lambda$registerGoals$1	method_1_1913
+CLASS	net/minecraft/client/model/animal/camel/BabyCamelModel	class_1_240
+METHOD	net/minecraft/client/model/animal/camel/BabyCamelModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_1914
+CLASS	net/minecraft/client/model/animal/llama/BabyLlamaModel	class_1_241
+METHOD	net/minecraft/client/model/animal/llama/BabyLlamaModel	(Lnet/minecraft/client/model/geom/builders/CubeDeformation;)Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_1915
+FIELD	net/minecraft/client/renderer/entity/ArmadilloRenderer	Lnet/minecraft/resources/Identifier;	ARMADILLO_BABY_LOCATION	field_1_1601
+METHOD	net/minecraft/client/renderer/entity/CamelHuskRenderer	()Lnet/minecraft/client/renderer/entity/state/CamelRenderState;	createRenderState	method_1_1916
+METHOD	net/minecraft/client/renderer/entity/CamelHuskRenderer	(Lnet/minecraft/world/entity/animal/camel/Camel;Lnet/minecraft/client/renderer/entity/state/CamelRenderState;F)V	extractRenderState	method_1_1917
+METHOD	net/minecraft/client/renderer/entity/CamelHuskRenderer	(Lnet/minecraft/client/renderer/entity/state/CamelRenderState;)Lnet/minecraft/resources/Identifier;	getTextureLocation	method_1_1918
+FIELD	net/minecraft/client/renderer/entity/PolarBearRenderer	Lnet/minecraft/resources/Identifier;	BABY_BEAR_LOCATION	field_1_1602
+CLASS	net/minecraft/util/datafix/fixes/LevelDatDifficultyFix	class_1_242
+METHOD	net/minecraft/util/datafix/fixes/LevelDatDifficultyFix	(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	lambda$makeRule$0	method_1_1919
+METHOD	net/minecraft/util/datafix/fixes/LevelDatDifficultyFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$makeRule$1	method_1_1920
+CLASS	net/minecraft/util/filefix/operations/FileFixOperation	class_1_243
+METHOD	net/minecraft/util/filefix/operations/FileFixOperation	(Ljava/nio/file/Path;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V	fix	method_1_1921
+FIELD	net/minecraft/util/worldupdate/UpgradeStatusTranslator	Lnet/minecraft/network/chat/Component;	COUNTING	field_1_1603
+FIELD	net/minecraft/util/worldupdate/UpgradeStatusTranslator	Lnet/minecraft/network/chat/Component;	FAILED	field_1_1604
+FIELD	net/minecraft/util/worldupdate/UpgradeStatusTranslator	Lnet/minecraft/network/chat/Component;	UPGRADING	field_1_1605
+METHOD	net/minecraft/util/worldupdate/UpgradeStatusTranslator$Messages	(Ljava/lang/String;)Lnet/minecraft/util/worldupdate/UpgradeStatusTranslator$Messages;	create	method_1_1922
+METHOD	net/minecraft/client/gui/screens/RecoverWorldDataScreen	(Lnet/minecraft/client/Minecraft;Ljava/lang/Boolean;)V	lambda$attemptRestore$1	method_1_1923
+METHOD	net/minecraft/client/gui/screens/RecoverWorldDataScreen	()V	lambda$attemptRestore$2	method_1_1924
+CLASS	net/minecraft/client/model/animal/camel/AdultCamelModel	class_1_244
+METHOD	net/minecraft/client/model/animal/camel/AdultCamelModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_1925
+METHOD	net/minecraft/client/model/animal/camel/AdultCamelModel	()Lnet/minecraft/client/model/geom/builders/MeshDefinition;	createBodyMesh	method_1_1926
+CLASS	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	class_1_245
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	Lnet/minecraft/resources/ResourceKey;	END_KEY	field_1_1606
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	Ljava/util/List;	END_LEGACY_STRUCTURES	field_1_1607
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	Ljava/util/Map;	LEGACY_TO_CURRENT_MAP	field_1_1608
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	Lnet/minecraft/resources/ResourceKey;	NETHER_KEY	field_1_1609
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	Ljava/util/List;	NETHER_LEGACY_STRUCTURES	field_1_1610
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	Lnet/minecraft/resources/ResourceKey;	OVERWORLD_KEY	field_1_1611
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	Ljava/util/List;	OVERWORLD_LEGACY_STRUCTURES	field_1_1612
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	I	STRUCTURE_RANGE	field_1_1613
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Lcom/mojang/serialization/Dynamic;Ljava/util/List;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V	extractAndStoreLegacyStructureData	method_1_1927
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Lcom/mojang/serialization/Dynamic;Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;)V	extractLegacyStructureData	method_1_1928
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Lnet/minecraft/util/filefix/access/FileAccessProvider;Ljava/lang/String;)Lnet/minecraft/util/filefix/access/FileAccess;	getLegacyStructureData	method_1_1929
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;JLcom/mojang/serialization/Dynamic;Ljava/lang/String;)V	lambda$extractLegacyStructureData$0	method_1_1930
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(J)Lnet/minecraft/util/filefix/fixes/LegacyStructureFileFix$LegacyStructureData;	lambda$extractLegacyStructureData$1	method_1_1931
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(J)Lnet/minecraft/util/filefix/fixes/LegacyStructureFileFix$LegacyStructureData;	lambda$extractLegacyStructureData$2	method_1_1932
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Lnet/minecraft/util/filefix/access/FileAccessProvider;)Lnet/minecraft/util/filefix/operations/ModifyContent$FixFunction;	lambda$makeFixer$0	method_1_1933
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Lnet/minecraft/util/filefix/access/FileAccessProvider;Ljava/lang/String;)Lnet/minecraft/util/filefix/access/FileAccess;	lambda$makeFixer$1	method_1_1934
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Lnet/minecraft/util/filefix/access/FileAccessProvider;Ljava/lang/String;)Lnet/minecraft/util/filefix/access/FileAccess;	lambda$makeFixer$2	method_1_1935
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Lnet/minecraft/util/filefix/access/FileAccessProvider;Ljava/lang/String;)Lnet/minecraft/util/filefix/access/FileAccess;	lambda$makeFixer$3	method_1_1936
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Lnet/minecraft/util/filefix/access/FileAccess;Ljava/util/List;Lnet/minecraft/util/filefix/access/FileAccess;Ljava/util/List;Lnet/minecraft/util/filefix/access/FileAccess;Ljava/util/List;Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V	lambda$makeFixer$4	method_1_1937
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Ljava/util/HashMap;)V	lambda$static$0	method_1_1938
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Lit/unimi/dsi/fastutil/longs/Long2ObjectMap$Entry;)J	lambda$storeLegacyStructureDataToChunks$0	method_1_1939
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Lnet/minecraft/util/filefix/fixes/LegacyStructureFileFix$LegacyStructureData;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/nbt/CompoundTag;	lambda$storeLegacyStructureDataToChunks$1	method_1_1940
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Lnet/minecraft/nbt/CompoundTag;Ljava/lang/String;Lcom/mojang/serialization/Dynamic;)V	lambda$storeLegacyStructureDataToChunks$2	method_1_1941
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Lnet/minecraft/nbt/CompoundTag;Ljava/lang/String;Lit/unimi/dsi/fastutil/longs/LongList;)V	lambda$storeLegacyStructureDataToChunks$3	method_1_1942
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix	(Lit/unimi/dsi/fastutil/longs/Long2ObjectMap;Lnet/minecraft/util/filefix/access/ChunkNbt;Lnet/minecraft/nbt/CompoundTag;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V	storeLegacyStructureDataToChunks	method_1_1943
+CLASS	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$DimensionFixEntry	class_1_246
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$DimensionFixEntry	Lnet/minecraft/util/filefix/access/FileAccess;	chunkFileAccess	comp_1_172
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$DimensionFixEntry	Lnet/minecraft/resources/ResourceKey;	dimensionKey	comp_1_173
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$DimensionFixEntry	Ljava/util/List;	structureFileAccess	comp_1_174
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$DimensionFixEntry	Lit/unimi/dsi/fastutil/longs/Long2ObjectOpenHashMap;	structures	comp_1_175
+CLASS	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$LegacyStructureData	class_1_247
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$LegacyStructureData	Ljava/util/Map;	indexes	comp_1_176
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$LegacyStructureData	Ljava/util/Map;	starts	comp_1_177
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$LegacyStructureData	(Ljava/lang/String;J)V	addIndex	method_1_1944
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$LegacyStructureData	(Ljava/lang/String;Lcom/mojang/serialization/Dynamic;)V	addStart	method_1_1945
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$LegacyStructureData	(Ljava/lang/String;)Lit/unimi/dsi/fastutil/longs/LongList;	lambda$addIndex$0	method_1_1946
+CLASS	net/minecraft/util/filefix/operations/FileFixOperations	class_1_248
+METHOD	net/minecraft/util/filefix/operations/FileFixOperations	(Lnet/minecraft/util/filefix/access/FileRelation;Ljava/util/List;)Lnet/minecraft/util/filefix/operations/ApplyInFolders;	applyInFolders	method_1_1947
+METHOD	net/minecraft/util/filefix/operations/FileFixOperations	(Ljava/lang/String;)Lnet/minecraft/util/filefix/operations/DeleteFileOrEmptyDirectory;	delete	method_1_1948
+METHOD	net/minecraft/util/filefix/operations/FileFixOperations	(Ljava/util/Map;Ljava/util/List;)Lnet/minecraft/util/filefix/operations/GroupMove;	groupMove	method_1_1949
+METHOD	net/minecraft/util/filefix/operations/FileFixOperations	(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/util/filefix/operations/Move;	move	method_1_1950
+METHOD	net/minecraft/util/filefix/operations/FileFixOperations	(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/util/filefix/operations/RegexMove;	moveRegex	method_1_1951
+METHOD	net/minecraft/util/filefix/operations/FileFixOperations	(Ljava/lang/String;)Lnet/minecraft/util/filefix/operations/Move;	moveSimple	method_1_1952
+CLASS	net/minecraft/world/level/saveddata/WanderingTraderData	class_1_249
+FIELD	net/minecraft/world/level/saveddata/WanderingTraderData	Lcom/mojang/serialization/Codec;	CODEC	field_1_1614
+FIELD	net/minecraft/world/level/saveddata/WanderingTraderData	Lnet/minecraft/world/level/saveddata/SavedDataType;	TYPE	field_1_1615
+FIELD	net/minecraft/world/level/saveddata/WanderingTraderData	I	spawnChance	field_1_1616
+FIELD	net/minecraft/world/level/saveddata/WanderingTraderData	I	spawnDelay	field_1_1617
+METHOD	net/minecraft/world/level/saveddata/WanderingTraderData	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1953
+METHOD	net/minecraft/world/level/saveddata/WanderingTraderData	(Lnet/minecraft/world/level/saveddata/WanderingTraderData;)Ljava/lang/Integer;	lambda$static$1	method_1_1954
+METHOD	net/minecraft/world/level/saveddata/WanderingTraderData	(Lnet/minecraft/world/level/saveddata/WanderingTraderData;)Ljava/lang/Integer;	lambda$static$2	method_1_1955
+METHOD	net/minecraft/world/level/saveddata/WanderingTraderData	(I)V	setSpawnChance	method_1_1956
+METHOD	net/minecraft/world/level/saveddata/WanderingTraderData	(I)V	setSpawnDelay	method_1_1957
+METHOD	net/minecraft/world/level/saveddata/WanderingTraderData	()I	spawnChance	method_1_1958
+METHOD	net/minecraft/world/level/saveddata/WanderingTraderData	()I	spawnDelay	method_1_1959
+METHOD	net/minecraft/client/renderer/blockentity/BannerRenderer	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	lambda$submitPatternLayer$0	method_1_1960
+CLASS	net/minecraft/util/filefix/fixes/DimensionStorageFileFix	class_1_250
+FIELD	net/minecraft/world/level/dimension/end/EnderDragonFight	Lcom/mojang/serialization/Codec;	CODEC	field_1_1618
+FIELD	net/minecraft/world/level/dimension/end/EnderDragonFight	Lnet/minecraft/network/chat/Component;	EVENT_DISPLAY_NAME	field_1_1619
+FIELD	net/minecraft/world/level/dimension/end/EnderDragonFight	Lnet/minecraft/world/level/saveddata/SavedDataType;	TYPE	field_1_1620
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	()V	abortRespawnSequence	method_1_1961
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	()Lnet/minecraft/world/level/dimension/end/EnderDragonFight;	createDefault	method_1_1962
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	(Lnet/minecraft/server/level/ServerLevel;JLnet/minecraft/core/BlockPos;)V	init	method_1_1963
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	(Lnet/minecraft/world/level/ChunkPos;)Z	lambda$isArenaLoaded$0	method_1_1964
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_1965
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	(Lnet/minecraft/world/level/dimension/end/EnderDragonFight;)Ljava/lang/Boolean;	lambda$static$1	method_1_1966
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	(Lnet/minecraft/world/level/dimension/end/EnderDragonFight;)Ljava/lang/Boolean;	lambda$static$2	method_1_1967
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	(Lnet/minecraft/world/level/dimension/end/EnderDragonFight;)Ljava/lang/Boolean;	lambda$static$3	method_1_1968
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	(Lnet/minecraft/world/level/dimension/end/EnderDragonFight;)Ljava/util/Optional;	lambda$static$4	method_1_1969
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	(Lnet/minecraft/world/level/dimension/end/EnderDragonFight;)Ljava/lang/Integer;	lambda$static$5	method_1_1970
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	(Lnet/minecraft/world/level/dimension/end/EnderDragonFight;)Ljava/util/Optional;	lambda$static$6	method_1_1971
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	(Lnet/minecraft/world/level/dimension/end/EnderDragonFight;)Ljava/util/Optional;	lambda$static$7	method_1_1972
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	(Lnet/minecraft/world/level/dimension/end/EnderDragonFight;)Ljava/util/List;	lambda$static$8	method_1_1973
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	(Lnet/minecraft/world/level/dimension/end/EnderDragonFight;)Ljava/util/List;	lambda$static$9	method_1_1974
+METHOD	net/minecraft/world/level/dimension/end/EnderDragonFight	(Lnet/minecraft/world/entity/EntityReference;)Lnet/minecraft/world/entity/boss/enderdragon/EndCrystal;	lambda$tick$0	method_1_1975
+METHOD	net/minecraft/world/level/storage/LevelDataAndDimensions	(Lnet/minecraft/world/level/storage/WorldData;Lnet/minecraft/world/level/levelgen/WorldGenSettings;Lnet/minecraft/world/level/levelgen/WorldDimensions$Complete;)Lnet/minecraft/world/level/storage/LevelDataAndDimensions;	create	method_1_1976
+CLASS	net/minecraft/world/level/storage/LevelDataAndDimensions$WorldDataAndGenSettings	class_1_251
+FIELD	net/minecraft/world/level/storage/LevelDataAndDimensions$WorldDataAndGenSettings	Lnet/minecraft/world/level/storage/WorldData;	data	comp_1_178
+FIELD	net/minecraft/world/level/storage/LevelDataAndDimensions$WorldDataAndGenSettings	Lnet/minecraft/world/level/levelgen/WorldGenSettings;	genSettings	comp_1_179
+CLASS	net/minecraft/util/filefix/virtualfilesystem/package-info	class_1_252
+FIELD	net/minecraft/client/model/animal/axolotl/BabyAxolotlModel	Lnet/minecraft/client/animation/KeyframeAnimation;	playDeadAnimation	field_1_1621
+CLASS	net/minecraft/util/filefix/virtualfilesystem/DirectoryNode	class_1_253
+FIELD	net/minecraft/util/filefix/virtualfilesystem/DirectoryNode	Ljava/util/Map;	childNodes	field_1_1622
+METHOD	net/minecraft/util/filefix/virtualfilesystem/DirectoryNode	(Lnet/minecraft/util/filefix/virtualfilesystem/Node;)V	addChild	method_1_1977
+METHOD	net/minecraft/util/filefix/virtualfilesystem/DirectoryNode	(Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;)Lnet/minecraft/util/filefix/virtualfilesystem/Node;	byPath	method_1_1978
+METHOD	net/minecraft/util/filefix/virtualfilesystem/DirectoryNode	(Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;)Lnet/minecraft/util/filefix/virtualfilesystem/Node;	byPathOrNull	method_1_1979
+METHOD	net/minecraft/util/filefix/virtualfilesystem/DirectoryNode	()Ljava/util/Collection;	children	method_1_1980
+METHOD	net/minecraft/util/filefix/virtualfilesystem/DirectoryNode	(Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;)Lnet/minecraft/util/filefix/virtualfilesystem/DirectoryNode;	directoryByPath	method_1_1981
+METHOD	net/minecraft/util/filefix/virtualfilesystem/DirectoryNode	(Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;)Lnet/minecraft/util/filefix/virtualfilesystem/FileNode;	fileByPath	method_1_1982
+METHOD	net/minecraft/util/filefix/virtualfilesystem/DirectoryNode	(Ljava/lang/String;)Lnet/minecraft/util/filefix/virtualfilesystem/Node;	getChild	method_1_1983
+METHOD	net/minecraft/util/filefix/virtualfilesystem/DirectoryNode	(Ljava/lang/String;)V	removeChild	method_1_1984
+FIELD	net/minecraft/world/level/dimension/end/DragonRespawnStage	Lcom/mojang/serialization/Codec;	CODEC	field_1_1623
+FIELD	net/minecraft/world/level/dimension/end/DragonRespawnStage	Ljava/lang/String;	name	field_1_1624
+CLASS	net/minecraft/client/animation/definitions/FoxBabyAnimation	class_1_254
+FIELD	net/minecraft/client/animation/definitions/FoxBabyAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	FOX_BABY_WALK	field_1_1625
+CLASS	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	class_1_255
+FIELD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	Ljava/util/UUID;	FALLBACK_SINGLE_PLAYER_UUID	field_1_1626
+FIELD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	Ljava/lang/String;	OVERWORLD	field_1_1627
+FIELD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	Ljava/lang/String;	THE_END	field_1_1628
+FIELD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	Ljava/lang/String;	THE_NETHER	field_1_1629
+FIELD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	Ljava/lang/String;	WORLD_BORDER_FILE_NAME	field_1_1630
+FIELD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	Ljava/lang/String;	WORLD_BORDER_KEY	field_1_1631
+METHOD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	(Lnet/minecraft/util/filefix/access/FileAccess;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	extractPlayerDataToFile	method_1_1985
+METHOD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	(Lnet/minecraft/util/filefix/access/FileAccess;Lcom/mojang/serialization/Dynamic;Ljava/lang/String;)Lcom/mojang/serialization/Dynamic;	extractToFile	method_1_1986
+METHOD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	(Lnet/minecraft/util/filefix/access/FileAccess;Lcom/mojang/serialization/Dynamic;D)V	extractWorldBorderToFile	method_1_1987
+METHOD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	(Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/filefix/access/FileAccess;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	extractWorldBorderToFiles	method_1_1988
+METHOD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	(Lnet/minecraft/util/filefix/access/FileAccess;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	extractWorldGenSettingsToFile	method_1_1989
+METHOD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	(DLcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$extractWorldBorderToFile$0	method_1_1990
+METHOD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	(DLcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$extractWorldBorderToFile$1	method_1_1991
+METHOD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	(Lnet/minecraft/util/filefix/access/FileAccessProvider;)Lnet/minecraft/util/filefix/operations/ModifyContent$FixFunction;	lambda$makeFixer$0	method_1_1992
+METHOD	net/minecraft/util/filefix/fixes/LevelDatToSavedDataFileFix	(Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/filefix/access/FileAccess;Lnet/minecraft/util/worldupdate/UpgradeProgress;)V	lambda$makeFixer$1	method_1_1993
+CLASS	net/minecraft/util/filefix/fixes/RemoveObsoleteFilesFileFix	class_1_256
+METHOD	net/minecraft/util/filefix/fixes/RemoveObsoleteFilesFileFix	(Ljava/lang/String;)V	lambda$makeFixer$0	method_1_1994
+CLASS	net/minecraft/util/filefix/fixes/ResourcePackLocationFileFix	class_1_257
+CLASS	net/minecraft/client/animation/definitions/CamelBabyAnimation	class_1_258
+FIELD	net/minecraft/client/animation/definitions/CamelBabyAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	CAMEL_BABY_DASH	field_1_1632
+FIELD	net/minecraft/client/animation/definitions/CamelBabyAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	CAMEL_BABY_IDLE	field_1_1633
+FIELD	net/minecraft/client/animation/definitions/CamelBabyAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	CAMEL_BABY_SIT	field_1_1634
+FIELD	net/minecraft/client/animation/definitions/CamelBabyAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	CAMEL_BABY_SIT_POSE	field_1_1635
+FIELD	net/minecraft/client/animation/definitions/CamelBabyAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	CAMEL_BABY_STANDUP	field_1_1636
+FIELD	net/minecraft/client/animation/definitions/CamelBabyAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	CAMEL_BABY_WALK	field_1_1637
+FIELD	net/minecraft/client/renderer/entity/state/AxolotlRenderState	Lnet/minecraft/world/entity/AnimationState;	playDeadAnimationState	field_1_1638
+METHOD	net/minecraft/client/gui/screens/worldselection/WorldOpenFlows	(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lcom/mojang/serialization/Dynamic;Ljava/lang/Runnable;Z)V	createBackupAndOpenWorld	method_1_1995
+METHOD	net/minecraft/client/gui/screens/worldselection/WorldOpenFlows	(Ljava/lang/Runnable;Ljava/lang/Boolean;)V	lambda$askForBackup$1	method_1_1996
+METHOD	net/minecraft/client/gui/screens/worldselection/WorldOpenFlows	(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lcom/mojang/serialization/Dynamic;Ljava/lang/Runnable;Ljava/lang/Boolean;)V	lambda$createBackupAndOpenWorld$0	method_1_1997
+METHOD	net/minecraft/client/gui/screens/worldselection/WorldOpenFlows	(Lcom/mojang/serialization/DataResult$Error;)V	lambda$recreateWorldData$2	method_1_1998
+METHOD	net/minecraft/client/gui/screens/worldselection/WorldOpenFlows	(Lcom/mojang/serialization/Dynamic;Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lnet/minecraft/util/worldupdate/UpgradeProgress;Ljava/lang/Runnable;)V	lambda$upgradeAndOpenWorld$0	method_1_1999
+METHOD	net/minecraft/client/gui/screens/worldselection/WorldOpenFlows	(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Ljava/lang/Runnable;)V	lambda$upgradeAndOpenWorld$1	method_1_2000
+METHOD	net/minecraft/client/gui/screens/worldselection/WorldOpenFlows	(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Ljava/lang/Runnable;)V	lambda$upgradeAndOpenWorld$2	method_1_2001
+METHOD	net/minecraft/client/gui/screens/worldselection/WorldOpenFlows	(ZLnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lcom/mojang/serialization/Dynamic;Ljava/lang/Runnable;)V	lambda$upgradeAndOpenWorld$3	method_1_2002
+METHOD	net/minecraft/client/gui/screens/worldselection/WorldOpenFlows	(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lcom/mojang/serialization/Dynamic;Ljava/lang/Runnable;Z)V	lambda$upgradeAndOpenWorld$4	method_1_2003
+METHOD	net/minecraft/client/gui/screens/worldselection/WorldOpenFlows	(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lcom/mojang/serialization/Dynamic;Ljava/lang/Runnable;)V	upgradeAndOpenWorld	method_1_2004
+CLASS	net/minecraft/client/model/animal/armadillo/BabyArmadilloModel	class_1_259
+METHOD	net/minecraft/client/model/animal/armadillo/BabyArmadilloModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_2005
+CLASS	net/minecraft/client/model/animal/polarbear/BabyPolarBearModel	class_1_260
+METHOD	net/minecraft/client/model/animal/polarbear/BabyPolarBearModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_2006
+CLASS	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	class_1_261
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem;	fs	field_1_1639
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	Z	isAbsolute	field_1_1640
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	Ljava/nio/file/Path;	path	field_1_1641
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	asCow	method_1_2007
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	()Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	getFileName	method_1_2008
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	()Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem;	getFileSystem	method_1_2009
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	()Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	getParent	method_1_2010
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	()Z	isRoot	method_1_2011
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	()Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	normalize	method_1_2012
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	(Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem;Ljava/lang/String;[Ljava/lang/String;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	of	method_1_2013
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	relativize	method_1_2014
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	(Ljava/lang/String;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	resolve	method_1_2015
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	(Ljava/lang/String;[Ljava/lang/String;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	resolve	method_1_2016
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	resolve	method_1_2017
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	()Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	toAbsolutePath	method_1_2018
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath	([Ljava/nio/file/LinkOption;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	toRealPath	method_1_2019
+FIELD	net/minecraft/world/level/block/entity/TestInstanceBlockEntity	Lorg/slf4j/Logger;	LOGGER	field_1_1642
+FIELD	net/minecraft/client/animation/definitions/BabyAxolotlAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	BABY_AXOLOTL_PLAY_DEAD	field_1_1643
+METHOD	net/minecraft/client/gui/screens/worldselection/EditWorldScreen	(ZLnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;)Ljava/util/concurrent/CompletableFuture;	conditionallyMakeBackupAndShowToast	method_1_2020
+METHOD	net/minecraft/client/gui/screens/worldselection/EditWorldScreen	(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;)Ljava/lang/Long;	lambda$makeBackupAndShowToast$0	method_1_2021
+METHOD	net/minecraft/client/gui/screens/worldselection/EditWorldScreen	(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lnet/minecraft/client/Minecraft;Ljava/lang/Long;)Ljava/lang/Boolean;	lambda$makeBackupAndShowToast$1	method_1_2022
+METHOD	net/minecraft/client/gui/screens/worldselection/EditWorldScreen	(Lnet/minecraft/client/Minecraft;Ljava/lang/Throwable;)Ljava/lang/Boolean;	lambda$makeBackupAndShowToast$2	method_1_2023
+METHOD	net/minecraft/client/gui/screens/worldselection/EditWorldScreen	(Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;Lnet/minecraft/client/Minecraft;ZZ)V	lambda$new$12	method_1_2024
+METHOD	net/minecraft/client/gui/screens/worldselection/EditWorldScreen	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/world/level/storage/LevelStorageSource$LevelStorageAccess;ZLjava/lang/Boolean;)V	lambda$new$13	method_1_2025
+METHOD	net/minecraft/client/gui/screens/worldselection/EditWorldScreen	(Ljava/lang/Boolean;)V	lambda$new$8	method_1_2026
+CLASS	net/minecraft/client/model/animal/armadillo/AdultArmadilloModel	class_1_262
+METHOD	net/minecraft/client/model/animal/armadillo/AdultArmadilloModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createBodyLayer	method_1_2027
+CLASS	net/minecraft/util/filefix/operations/DeleteFileOrEmptyDirectory	class_1_263
+FIELD	net/minecraft/util/filefix/operations/DeleteFileOrEmptyDirectory	Ljava/lang/String;	target	comp_1_180
+CLASS	net/minecraft/client/animation/definitions/BabyArmadilloAnimation	class_1_264
+FIELD	net/minecraft/client/animation/definitions/BabyArmadilloAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	ARMADILLO_BABY_PEEK	field_1_1644
+FIELD	net/minecraft/client/animation/definitions/BabyArmadilloAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	ARMADILLO_BABY_ROLL_OUT	field_1_1645
+FIELD	net/minecraft/client/animation/definitions/BabyArmadilloAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	ARMADILLO_BABY_ROLL_UP	field_1_1646
+FIELD	net/minecraft/client/animation/definitions/BabyArmadilloAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	ARMADILLO_BABY_WALK	field_1_1647
+CLASS	net/minecraft/util/filefix/fixes/GeneratedStructuresRenameFileFix	class_1_265
+CLASS	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileStore	class_1_266
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileStore	Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem;	fs	field_1_1648
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileStore	Ljava/lang/String;	name	field_1_1649
+CLASS	net/minecraft/util/datafix/fixes/LevelDatToSavedDataPreparationFix	class_1_267
+METHOD	net/minecraft/util/datafix/fixes/LevelDatToSavedDataPreparationFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	fixDragonFight	method_1_2028
+METHOD	net/minecraft/util/datafix/fixes/LevelDatToSavedDataPreparationFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	fixScheduledEvents	method_1_2029
+METHOD	net/minecraft/util/datafix/fixes/LevelDatToSavedDataPreparationFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	fixWanderingTrader	method_1_2030
+METHOD	net/minecraft/util/datafix/fixes/LevelDatToSavedDataPreparationFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	fixWeatherData	method_1_2031
+METHOD	net/minecraft/util/datafix/fixes/LevelDatToSavedDataPreparationFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	fixWorldGenSettings	method_1_2032
+METHOD	net/minecraft/util/datafix/fixes/LevelDatToSavedDataPreparationFix	(Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$fixDragonFight$0	method_1_2033
+METHOD	net/minecraft/util/datafix/fixes/LevelDatToSavedDataPreparationFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$fixScheduledEvents$0	method_1_2034
+METHOD	net/minecraft/util/datafix/fixes/LevelDatToSavedDataPreparationFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$fixScheduledEvents$1	method_1_2035
+METHOD	net/minecraft/util/datafix/fixes/LevelDatToSavedDataPreparationFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$fixWorldGenSettings$0	method_1_2036
+METHOD	net/minecraft/util/datafix/fixes/LevelDatToSavedDataPreparationFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$makeRule$0	method_1_2037
+CLASS	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSProvider	class_1_268
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSProvider	Ljava/nio/file/attribute/BasicFileAttributeView;	DUMMY_DIRECTORY_VIEW	field_1_1650
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSProvider	Ljava/lang/String;	SCHEME	field_1_1651
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSProvider	Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem;	fs	field_1_1652
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSProvider	(Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	getRealPath	method_1_2038
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSProvider	(Ljava/nio/file/Path;Ljava/util/Set;[Ljava/nio/file/attribute/FileAttribute;Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSProvider$ChannelFactory;)Ljava/lang/Object;	newChannel	method_1_2039
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSProvider	(Ljava/util/Set;)Z	wantsWrite	method_1_2040
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSProvider$2	Ljava/util/List;	val$result	field_1_1653
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSProvider$3	Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	val$cowPath	field_1_1654
+CLASS	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSProvider$ChannelFactory	class_1_269
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSProvider$ChannelFactory	(Ljava/nio/file/Path;Ljava/util/Set;[Ljava/nio/file/attribute/FileAttribute;)Ljava/lang/Object;	newChannel	method_1_2041
+CLASS	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	class_1_270
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	Ljava/util/Set;	FILE_ATTRIBUTE_VIEWS	field_1_1655
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	Lorg/slf4j/Logger;	LOGGER	field_1_1656
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	Ljava/lang/String;	TMP_DIRECTORY_NAME	field_1_1657
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	Ljava/nio/file/Path;	baseDirectory	field_1_1658
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	Lnet/minecraft/util/filefix/virtualfilesystem/DirectoryNode;	fileTree	field_1_1659
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSProvider;	provider	field_1_1660
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	rootPath	field_1_1661
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileStore;	store	field_1_1662
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	Ljava/nio/file/Path;	tmpDirectory	field_1_1663
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	Ljava/util/concurrent/atomic/AtomicInteger;	tmpFileIndex	field_1_1664
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	()Ljava/nio/file/FileSystem;	backingFileSystem	method_1_2042
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	()Ljava/nio/file/Path;	baseDirectory	method_1_2043
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/virtualfilesystem/DirectoryNode;	buildFileTreeFrom	method_1_2044
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	(Ljava/nio/file/Path;Lnet/minecraft/util/filefix/virtualfilesystem/DirectoryNode;)Ljava/util/List;	collectMoveOperations	method_1_2045
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	(Ljava/nio/file/Path;Lnet/minecraft/util/filefix/virtualfilesystem/DirectoryNode;Ljava/util/List;)V	collectMoveOperations	method_1_2046
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	(Ljava/lang/String;Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem;	create	method_1_2047
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	()Ljava/nio/file/Path;	createTemporaryFilePath	method_1_2048
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	()Lnet/minecraft/util/filefix/virtualfilesystem/DirectoryNode;	fileTree	method_1_2049
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	(Ljava/lang/String;[Ljava/lang/String;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	getPath	method_1_2050
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	(Ljava/nio/file/Path;)V	makeHardLinkCopy	method_1_2051
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	(Ljava/nio/file/Path;[Ljava/nio/file/CopyOption;)V	moveFilesToNewFolder	method_1_2052
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	()Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSProvider;	provider	method_1_2053
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	()V	resetFileTreeToBaseFolderContent	method_1_2054
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	()Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	rootPath	method_1_2055
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	()Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileStore;	store	method_1_2056
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem	()Ljava/nio/file/Path;	tmpDirectory	method_1_2057
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$1	Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem;	this$0	field_1_1665
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$1	Ljava/nio/file/Path;	val$baseDirectory	field_1_1666
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$1	Lnet/minecraft/util/filefix/virtualfilesystem/DirectoryNode;	val$fileTree	field_1_1667
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$1	(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)V	checkAttributes	method_1_2058
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$1	(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;	preVisitDirectory	method_1_2059
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$1	(Ljava/nio/file/Path;)Lnet/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFSPath;	toCowPath	method_1_2060
+METHOD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$1	(Ljava/nio/file/Path;Ljava/nio/file/attribute/BasicFileAttributes;)Ljava/nio/file/FileVisitResult;	visitFile	method_1_2061
+CLASS	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$Move	class_1_271
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$Move	Ljava/nio/file/Path;	from	comp_1_181
+FIELD	net/minecraft/util/filefix/virtualfilesystem/CopyOnWriteFileSystem$Move	Ljava/nio/file/Path;	to	comp_1_182
+CLASS	net/minecraft/util/filefix/virtualfilesystem/exception/package-info	class_1_272
+FIELD	net/minecraft/world/entity/npc/wanderingtrader/WanderingTraderSpawner	Lnet/minecraft/world/level/saveddata/WanderingTraderData;	traderData	field_1_1668
+METHOD	net/minecraft/world/entity/npc/wanderingtrader/WanderingTraderSpawner	()Lnet/minecraft/world/level/saveddata/WanderingTraderData;	getTraderData	method_1_2062
+CLASS	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	class_1_273
+FIELD	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	I	LINE_SPACING	field_1_1669
+FIELD	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	I	PROGRESS_BAR_HEIGHT	field_1_1670
+FIELD	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	I	PROGRESS_BAR_WIDTH	field_1_1671
+FIELD	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	Lnet/minecraft/network/chat/Component;	SCANNING	field_1_1672
+FIELD	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	I	SECTION_SPACING	field_1_1673
+FIELD	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	Lnet/minecraft/util/worldupdate/UpgradeProgress;	upgradeProgress	field_1_1674
+METHOD	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	(Lnet/minecraft/client/gui/GuiGraphics;IIII)V	renderFileFixerCount	method_1_2063
+METHOD	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	(Lnet/minecraft/client/gui/GuiGraphics;IIII)V	renderFileStats	method_1_2064
+METHOD	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	(Lnet/minecraft/client/gui/GuiGraphics;II)V	renderProgress	method_1_2065
+METHOD	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	(Lnet/minecraft/client/gui/GuiGraphics;IIF)V	renderProgressBar	method_1_2066
+METHOD	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	(Lnet/minecraft/client/gui/GuiGraphics;II)V	renderScanning	method_1_2067
+METHOD	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	(Lnet/minecraft/client/gui/GuiGraphics;II)V	renderTitle	method_1_2068
+METHOD	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	(Lnet/minecraft/client/gui/GuiGraphics;IIF)V	renderTypeProgress	method_1_2069
+METHOD	net/minecraft/client/gui/screens/worldselection/FileFixerProgressScreen	(Lnet/minecraft/client/gui/GuiGraphics;II)V	renderTypeText	method_1_2070
+FIELD	net/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration	Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;	CAN_PLACE_BELOW_OVERWORLD_TRUNKS	field_1_1675
+FIELD	net/minecraft/world/level/levelgen/feature/configurations/TreeConfiguration	Lnet/minecraft/world/level/levelgen/feature/stateproviders/RuleBasedBlockStateProvider;	PLACE_BELOW_OVERWORLD_TRUNKS	field_1_1676
+CLASS	net/minecraft/util/filefix/virtualfilesystem/exception/CowFSSymlinkException	class_1_274
+CLASS	net/minecraft/world/level/levelgen/feature/configurations/SpikeConfiguration	class_1_275
+FIELD	net/minecraft/world/level/levelgen/feature/configurations/SpikeConfiguration	Lcom/mojang/serialization/Codec;	CODEC	field_1_1677
+FIELD	net/minecraft/world/level/levelgen/feature/configurations/SpikeConfiguration	Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;	canPlaceOn	comp_1_183
+FIELD	net/minecraft/world/level/levelgen/feature/configurations/SpikeConfiguration	Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;	canReplace	comp_1_184
+FIELD	net/minecraft/world/level/levelgen/feature/configurations/SpikeConfiguration	Lnet/minecraft/world/level/block/state/BlockState;	state	comp_1_185
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpikeConfiguration	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_2071
+CLASS	net/minecraft/util/filefix/virtualfilesystem/exception/CowFSCreationException	class_1_276
+CLASS	net/minecraft/util/filefix/virtualfilesystem/exception/CowFSFileSystemException	class_1_277
+CLASS	net/minecraft/util/filefix/virtualfilesystem/exception/CowFSNoSuchFileException	class_1_278
+CLASS	net/minecraft/world/level/levelgen/structure/templatesystem/loader/package-info	class_1_279
+CLASS	net/minecraft/world/level/levelgen/feature/configurations/BlockBlobConfiguration	class_1_280
+FIELD	net/minecraft/world/level/levelgen/feature/configurations/BlockBlobConfiguration	Lcom/mojang/serialization/Codec;	CODEC	field_1_1678
+FIELD	net/minecraft/world/level/levelgen/feature/configurations/BlockBlobConfiguration	Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;	canPlaceOn	comp_1_186
+FIELD	net/minecraft/world/level/levelgen/feature/configurations/BlockBlobConfiguration	Lnet/minecraft/world/level/block/state/BlockState;	state	comp_1_187
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/BlockBlobConfiguration	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_2072
+CLASS	net/minecraft/util/filefix/virtualfilesystem/exception/CowFSNotDirectoryException	class_1_281
+CLASS	net/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplateSource	class_1_282
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplateSource	Lnet/minecraft/core/HolderGetter;	blockLookup	field_1_1679
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplateSource	Lcom/mojang/datafixers/DataFixer;	fixerUpper	field_1_1680
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplateSource	()Ljava/util/stream/Stream;	list	method_1_2073
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplateSource	(Lnet/minecraft/resources/Identifier;)Ljava/util/Optional;	load	method_1_2074
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplateSource	(Lnet/minecraft/server/packs/resources/IoSupplier;ZLjava/util/function/Consumer;)Ljava/util/Optional;	load	method_1_2075
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplateSource	(Ljava/io/InputStream;)Lnet/minecraft/nbt/CompoundTag;	readStructure	method_1_2076
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplateSource	(Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;	readStructure	method_1_2077
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplateSource	(Ljava/io/InputStream;)Lnet/minecraft/nbt/CompoundTag;	readTextStructure	method_1_2078
+CLASS	net/minecraft/util/filefix/virtualfilesystem/exception/CowFSIllegalArgumentException	class_1_283
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager	Lnet/minecraft/resources/FileToIdConverter;	RESOURCE_STRUCTURE_LISTER	field_1_1681
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager	Lnet/minecraft/resources/FileToIdConverter;	RESOURCE_TEXT_STRUCTURE_LISTER	field_1_1682
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager	Lnet/minecraft/resources/FileToIdConverter;	WORLD_TEXT_STRUCTURE_LISTER	field_1_1683
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager	Lnet/minecraft/world/level/levelgen/structure/templatesystem/loader/ResourceManagerTemplateSource;	resourceManagerSource	field_1_1684
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager	Lnet/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplatePathFactory;	testTemplates	field_1_1685
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager	Lnet/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplatePathFactory;	worldTemplates	field_1_1686
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager	(Ljava/nio/file/Path;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;Z)Z	save	method_1_2079
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager	()Lnet/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplatePathFactory;	testTemplates	method_1_2080
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager	()Lnet/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplatePathFactory;	worldTemplates	method_1_2081
+METHOD	net/minecraft/world/level/levelgen/feature/stateproviders/RuleBasedBlockStateProvider	(Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/levelgen/feature/stateproviders/RuleBasedBlockStateProvider;	ifTrueThenProvide	method_1_2082
+METHOD	net/minecraft/world/level/levelgen/feature/stateproviders/RuleBasedBlockStateProvider	(Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)Lnet/minecraft/world/level/levelgen/feature/stateproviders/RuleBasedBlockStateProvider;	ifTrueThenProvide	method_1_2083
+METHOD	net/minecraft/world/level/levelgen/feature/stateproviders/RuleBasedBlockStateProvider	(Lnet/minecraft/world/level/levelgen/feature/stateproviders/RuleBasedBlockStateProvider;)Ljava/util/Optional;	lambda$static$1	method_1_2084
+CLASS	net/minecraft/util/filefix/virtualfilesystem/exception/CowFSDirectoryNotEmptyException	class_1_284
+CLASS	net/minecraft/util/filefix/virtualfilesystem/exception/CowFSFileAlreadyExistsException	class_1_285
+CLASS	net/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplatePathFactory	class_1_286
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplatePathFactory	Ljava/nio/file/Path;	sourceDir	field_1_1687
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplatePathFactory	(Lnet/minecraft/resources/Identifier;)Ljava/nio/file/Path;	createAndValidatePathToStructure	method_1_2085
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplatePathFactory	(Lnet/minecraft/resources/Identifier;Lnet/minecraft/resources/FileToIdConverter;)Ljava/nio/file/Path;	createAndValidatePathToStructure	method_1_2086
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/TemplatePathFactory	(Lnet/minecraft/resources/Identifier;Ljava/lang/String;)Lnet/minecraft/IdentifierException;	lambda$createAndValidatePathToStructure$0	method_1_2087
+FIELD	net/minecraft/world/level/levelgen/feature/configurations/HugeMushroomFeatureConfiguration	Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;	canPlaceOn	comp_1_188
+field_21230 is now comp_1_189
+field_21232 is now comp_1_190
+field_21231 is now comp_1_191
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/HugeMushroomFeatureConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/HugeMushroomFeatureConfiguration;)Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;	lambda$static$4	method_1_2088
+CLASS	net/minecraft/world/level/levelgen/structure/templatesystem/loader/DirectoryTemplateSource	class_1_287
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/DirectoryTemplateSource	Lorg/slf4j/Logger;	LOGGER	field_1_1688
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/DirectoryTemplateSource	Lnet/minecraft/resources/FileToIdConverter;	fileToIdConverter	field_1_1689
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/DirectoryTemplateSource	Z	loadAsText	field_1_1690
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/DirectoryTemplateSource	Ljava/nio/file/Path;	sourceDir	field_1_1691
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/DirectoryTemplateSource	(Ljava/util/stream/Stream$Builder;Lnet/minecraft/resources/Identifier;Lnet/minecraft/server/packs/resources/IoSupplier;)V	lambda$list$0	method_1_2089
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/DirectoryTemplateSource	(Lnet/minecraft/resources/Identifier;Ljava/lang/Throwable;)V	lambda$load$0	method_1_2090
+CLASS	net/minecraft/world/level/levelgen/structure/templatesystem/loader/ResourceManagerTemplateSource	class_1_288
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/ResourceManagerTemplateSource	Lorg/slf4j/Logger;	LOGGER	field_1_1692
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/ResourceManagerTemplateSource	Lnet/minecraft/resources/FileToIdConverter;	fileToIdConverter	field_1_1693
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/ResourceManagerTemplateSource	Lnet/minecraft/server/packs/resources/ResourceManager;	resourceManager	field_1_1694
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/ResourceManagerTemplateSource	(Lnet/minecraft/resources/Identifier;)Ljava/io/InputStream;	lambda$load$0	method_1_2091
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/ResourceManagerTemplateSource	(Lnet/minecraft/resources/Identifier;Ljava/lang/Throwable;)V	lambda$load$1	method_1_2092
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/loader/ResourceManagerTemplateSource	(Lnet/minecraft/server/packs/resources/ResourceManager;)V	setResourceManager	method_1_2093
+Done!
