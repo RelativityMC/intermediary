@@ -1,0 +1,359 @@
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/criterion/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/criterion/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Read 10582 (6832) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 19097 MethodEntries (0 unique, 10821 classes).
+Collecting additional information...
+- Done. -
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/criterion/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/criterion/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Read 10586 (6837) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 19101 MethodEntries (0 unique, 10825 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+METHOD	net/minecraft/util/ARGB	(F)I	gray	method_1_2566
+FIELD	net/minecraft/client/Minecraft	Lnet/minecraft/client/renderer/block/BlockModelResolver;	blockModelResolver	field_1_2136
+FIELD	net/minecraft/client/Minecraft	Z	imeStatusChanged	field_1_2137
+METHOD	net/minecraft/client/Minecraft	(Lnet/minecraft/client/Minecraft;)Ljava/lang/String;	lambda$fillSystemReport$7	method_1_2567
+METHOD	net/minecraft/client/Minecraft	()V	notifyIMEChanged	method_1_2568
+METHOD	net/minecraft/util/RandomSource	(J)Lnet/minecraft/util/RandomSource;	createThreadLocalInstance	method_1_2569
+METHOD	net/minecraft/world/entity/Entity	(D)D	getRandomY	method_1_2570
+METHOD	net/minecraft/world/item/LeadItem	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/entity/decoration/LeashFenceKnotEntity;	lambda$bindPlayerMobs$1	method_1_2571
+METHOD	com/mojang/blaze3d/platform/Window	(Z)V	onTextInputFocusChange	method_1_2572
+METHOD	com/mojang/blaze3d/platform/Window	()V	startTextInput	method_1_2573
+METHOD	com/mojang/blaze3d/platform/Window	()V	stopTextInput	method_1_2574
+METHOD	com/mojang/blaze3d/platform/Window	(Z)V	toggleIME	method_1_2575
+FIELD	com/mojang/blaze3d/audio/SoundBuffer	I	size	field_1_2138
+METHOD	com/mojang/blaze3d/audio/SoundBuffer	()Ljavax/sound/sampled/AudioFormat;	format	method_1_2576
+METHOD	com/mojang/blaze3d/audio/SoundBuffer	()Z	isValid	method_1_2577
+METHOD	com/mojang/blaze3d/audio/SoundBuffer	()I	size	method_1_2578
+METHOD	net/minecraft/client/KeyboardHandler	(J)V	lambda$setup$6	method_1_2579
+CLASS	com/mojang/blaze3d/platform/CompareOp	class_1_381
+FIELD	com/mojang/blaze3d/platform/CompareOp	[Lcom/mojang/blaze3d/platform/CompareOp;	$VALUES	field_1_2139
+FIELD	com/mojang/blaze3d/platform/CompareOp	Lcom/mojang/blaze3d/platform/CompareOp;	ALWAYS_PASS	field_1_2140
+FIELD	com/mojang/blaze3d/platform/CompareOp	Lcom/mojang/blaze3d/platform/CompareOp;	EQUAL	field_1_2141
+FIELD	com/mojang/blaze3d/platform/CompareOp	Lcom/mojang/blaze3d/platform/CompareOp;	GREATER_THAN	field_1_2142
+FIELD	com/mojang/blaze3d/platform/CompareOp	Lcom/mojang/blaze3d/platform/CompareOp;	GREATER_THAN_OR_EQUAL	field_1_2143
+FIELD	com/mojang/blaze3d/platform/CompareOp	Lcom/mojang/blaze3d/platform/CompareOp;	LESS_THAN	field_1_2144
+FIELD	com/mojang/blaze3d/platform/CompareOp	Lcom/mojang/blaze3d/platform/CompareOp;	LESS_THAN_OR_EQUAL	field_1_2145
+FIELD	com/mojang/blaze3d/platform/CompareOp	Lcom/mojang/blaze3d/platform/CompareOp;	NEVER_PASS	field_1_2146
+FIELD	com/mojang/blaze3d/platform/CompareOp	Lcom/mojang/blaze3d/platform/CompareOp;	NOT_EQUAL	field_1_2147
+METHOD	com/mojang/blaze3d/platform/CompareOp	()[Lcom/mojang/blaze3d/platform/CompareOp;	$values	method_1_2580
+FIELD	net/minecraft/world/entity/AgeableMob	F	AGE_LOCK_DOWNWARDS_MOVING_PARTICLE_Y_OFFSET	field_1_2148
+CLASS	com/mojang/blaze3d/vertex/QuadInstance	class_1_382
+FIELD	com/mojang/blaze3d/vertex/QuadInstance	I	color0	field_1_2149
+FIELD	com/mojang/blaze3d/vertex/QuadInstance	I	color1	field_1_2150
+FIELD	com/mojang/blaze3d/vertex/QuadInstance	I	color2	field_1_2151
+FIELD	com/mojang/blaze3d/vertex/QuadInstance	I	color3	field_1_2152
+FIELD	com/mojang/blaze3d/vertex/QuadInstance	I	lightCoords0	field_1_2153
+FIELD	com/mojang/blaze3d/vertex/QuadInstance	I	lightCoords1	field_1_2154
+FIELD	com/mojang/blaze3d/vertex/QuadInstance	I	lightCoords2	field_1_2155
+FIELD	com/mojang/blaze3d/vertex/QuadInstance	I	lightCoords3	field_1_2156
+FIELD	com/mojang/blaze3d/vertex/QuadInstance	I	overlayCoords	field_1_2157
+METHOD	com/mojang/blaze3d/vertex/QuadInstance	(Lcom/mojang/blaze3d/vertex/QuadInstance;)V	copyFrom	method_1_2581
+METHOD	com/mojang/blaze3d/vertex/QuadInstance	(I)I	getColor	method_1_2582
+METHOD	com/mojang/blaze3d/vertex/QuadInstance	(I)I	getLightCoords	method_1_2583
+METHOD	com/mojang/blaze3d/vertex/QuadInstance	(II)I	getLightCoordsWithEmission	method_1_2584
+METHOD	com/mojang/blaze3d/vertex/QuadInstance	(I)V	multiplyColor	method_1_2585
+METHOD	com/mojang/blaze3d/vertex/QuadInstance	()I	overlayCoords	method_1_2586
+METHOD	com/mojang/blaze3d/vertex/QuadInstance	(F)V	scaleColor	method_1_2587
+METHOD	com/mojang/blaze3d/vertex/QuadInstance	(I)V	setColor	method_1_2588
+METHOD	com/mojang/blaze3d/vertex/QuadInstance	(II)V	setColor	method_1_2589
+METHOD	com/mojang/blaze3d/vertex/QuadInstance	(I)V	setLightCoords	method_1_2590
+METHOD	com/mojang/blaze3d/vertex/QuadInstance	(II)V	setLightCoords	method_1_2591
+METHOD	com/mojang/blaze3d/vertex/QuadInstance	(I)V	setOverlayCoords	method_1_2592
+METHOD	net/minecraft/client/sounds/SoundEngine	(Lnet/minecraft/client/sounds/SoundBufferLibrary$DebugOutput;)V	getSoundCacheDebugStats	method_1_2593
+METHOD	com/mojang/blaze3d/vertex/VertexConsumer	(FFFLnet/minecraft/client/renderer/block/model/BakedQuad;Lcom/mojang/blaze3d/vertex/QuadInstance;)V	putBlockBakedQuad	method_1_2594
+METHOD	net/minecraft/client/sounds/SoundManager	(Lnet/minecraft/client/sounds/SoundBufferLibrary$DebugOutput;)V	getSoundCacheDebugStats	method_1_2595
+FIELD	net/minecraft/core/particles/ParticleTypes	Lnet/minecraft/core/particles/SimpleParticleType;	PAUSE_MOB_GROWTH	field_1_2158
+FIELD	net/minecraft/core/particles/ParticleTypes	Lnet/minecraft/core/particles/SimpleParticleType;	RESET_MOB_GROWTH	field_1_2159
+CLASS	net/minecraft/world/level/CardinalLighting	class_1_383
+FIELD	net/minecraft/world/level/CardinalLighting	Lnet/minecraft/world/level/CardinalLighting;	DEFAULT	field_1_2160
+FIELD	net/minecraft/world/level/CardinalLighting	Lnet/minecraft/world/level/CardinalLighting;	NETHER	field_1_2161
+FIELD	net/minecraft/world/level/CardinalLighting	F	down	comp_1_272
+FIELD	net/minecraft/world/level/CardinalLighting	F	east	comp_1_273
+FIELD	net/minecraft/world/level/CardinalLighting	F	north	comp_1_274
+FIELD	net/minecraft/world/level/CardinalLighting	F	south	comp_1_275
+FIELD	net/minecraft/world/level/CardinalLighting	F	up	comp_1_276
+FIELD	net/minecraft/world/level/CardinalLighting	F	west	comp_1_277
+METHOD	net/minecraft/world/level/CardinalLighting	(Lnet/minecraft/core/Direction;)F	byFace	method_1_2596
+FIELD	net/minecraft/world/level/CardinalLighting$1	[I	$SwitchMap$net$minecraft$core$Direction	field_1_2162
+FIELD	net/minecraft/world/level/CardinalLighting$Type	Lnet/minecraft/world/level/CardinalLighting;	lighting	field_1_2163
+METHOD	net/minecraft/world/level/CardinalLighting$Type	()Lnet/minecraft/world/level/CardinalLighting;	get	method_1_2597
+FIELD	net/minecraft/client/renderer/LevelRenderer	Z	lastSmartCull	field_1_2164
+CLASS	com/mojang/blaze3d/pipeline/ColorTargetState	class_1_384
+FIELD	com/mojang/blaze3d/pipeline/ColorTargetState	Lcom/mojang/blaze3d/pipeline/ColorTargetState;	DEFAULT	field_1_2165
+FIELD	com/mojang/blaze3d/pipeline/ColorTargetState	I	WRITE_ALL	field_1_2166
+FIELD	com/mojang/blaze3d/pipeline/ColorTargetState	I	WRITE_ALPHA	field_1_2167
+FIELD	com/mojang/blaze3d/pipeline/ColorTargetState	I	WRITE_BLUE	field_1_2168
+FIELD	com/mojang/blaze3d/pipeline/ColorTargetState	I	WRITE_COLOR	field_1_2169
+FIELD	com/mojang/blaze3d/pipeline/ColorTargetState	I	WRITE_GREEN	field_1_2170
+FIELD	com/mojang/blaze3d/pipeline/ColorTargetState	I	WRITE_NONE	field_1_2171
+FIELD	com/mojang/blaze3d/pipeline/ColorTargetState	I	WRITE_RED	field_1_2172
+FIELD	com/mojang/blaze3d/pipeline/ColorTargetState	Ljava/util/Optional;	blendFunction	comp_1_278
+FIELD	com/mojang/blaze3d/pipeline/ColorTargetState	I	writeMask	comp_1_279
+METHOD	com/mojang/blaze3d/pipeline/ColorTargetState	()Z	writeAlpha	method_1_2598
+METHOD	com/mojang/blaze3d/pipeline/ColorTargetState	()Z	writeBlue	method_1_2599
+METHOD	com/mojang/blaze3d/pipeline/ColorTargetState	()Z	writeGreen	method_1_2600
+METHOD	com/mojang/blaze3d/pipeline/ColorTargetState	()Z	writeRed	method_1_2601
+CLASS	com/mojang/blaze3d/pipeline/ColorTargetState$WriteMask	class_1_385
+FIELD	net/minecraft/client/color/block/BlockColors	I	MAX_TINT_INDEX	field_1_2173
+CLASS	com/mojang/blaze3d/pipeline/DepthStencilState	class_1_386
+FIELD	com/mojang/blaze3d/pipeline/DepthStencilState	Lcom/mojang/blaze3d/pipeline/DepthStencilState;	DEFAULT	field_1_2174
+FIELD	com/mojang/blaze3d/pipeline/DepthStencilState	F	depthBiasConstant	comp_1_280
+FIELD	com/mojang/blaze3d/pipeline/DepthStencilState	F	depthBiasScaleFactor	comp_1_281
+FIELD	com/mojang/blaze3d/pipeline/DepthStencilState	Lcom/mojang/blaze3d/platform/CompareOp;	depthTest	comp_1_282
+FIELD	com/mojang/blaze3d/pipeline/DepthStencilState	Z	writeDepth	comp_1_283
+METHOD	net/minecraft/client/sounds/SoundBufferLibrary	(Lnet/minecraft/client/sounds/SoundBufferLibrary$DebugOutput;)V	enumerate	method_1_2602
+METHOD	net/minecraft/client/sounds/SoundBufferLibrary	(Lnet/minecraft/client/sounds/SoundBufferLibrary$DebugOutput;Lnet/minecraft/resources/Identifier;Ljava/util/concurrent/CompletableFuture;)V	lambda$enumerate$0	method_1_2603
+CLASS	net/minecraft/client/sounds/SoundBufferLibrary$DebugOutput	class_1_387
+METHOD	net/minecraft/client/sounds/SoundBufferLibrary$DebugOutput	(Lnet/minecraft/resources/Identifier;ILjavax/sound/sampled/AudioFormat;)V	accountBuffer	method_1_2604
+CLASS	net/minecraft/client/sounds/SoundBufferLibrary$DebugOutput$Counter	class_1_388
+FIELD	net/minecraft/client/sounds/SoundBufferLibrary$DebugOutput$Counter	I	totalCount	field_1_2175
+FIELD	net/minecraft/client/sounds/SoundBufferLibrary$DebugOutput$Counter	J	totalSize	field_1_2176
+METHOD	net/minecraft/client/sounds/SoundBufferLibrary$DebugOutput$Counter	()I	totalCount	method_1_2605
+METHOD	net/minecraft/client/sounds/SoundBufferLibrary$DebugOutput$Counter	()J	totalSize	method_1_2606
+FIELD	net/minecraft/client/renderer/SubmitNodeStorage$BlockModelSubmit	[I	tintLayers	comp_1_284
+FIELD	net/minecraft/client/model/geom/LayerDefinitions	Lnet/minecraft/client/model/geom/builders/CubeDeformation;	BABY_PIGLIN_INNER_ARMOR_DEFORMATION	field_1_2177
+FIELD	net/minecraft/client/model/geom/LayerDefinitions	Lnet/minecraft/client/model/geom/builders/CubeDeformation;	BABY_PIGLIN_OUTER_ARMOR_DEFORMATION	field_1_2178
+FIELD	net/minecraft/client/renderer/entity/TntRenderer	Lnet/minecraft/client/renderer/block/BlockModelResolver;	blockModelResolver	field_1_2179
+FIELD	net/minecraft/client/resources/model/ModelManager	Lnet/minecraft/client/renderer/block/BlockStateModelSet;	blockModelSet	field_1_2180
+METHOD	net/minecraft/client/resources/model/ModelManager	()Lnet/minecraft/client/renderer/block/BlockStateModelSet;	getBlockModelSet	method_1_2607
+METHOD	net/minecraft/world/level/levelgen/feature/Feature	(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/core/BlockPos;)V	markForPostProcessing	method_1_2608
+FIELD	net/minecraft/client/renderer/chunk/SectionCompiler	Z	ambientOcclusion	field_1_2181
+FIELD	net/minecraft/client/renderer/chunk/SectionCompiler	Lnet/minecraft/client/color/block/BlockColors;	blockColors	field_1_2182
+FIELD	net/minecraft/client/renderer/chunk/SectionCompiler	Lnet/minecraft/client/renderer/block/BlockStateModelSet;	blockModelSet	field_1_2183
+FIELD	net/minecraft/client/renderer/chunk/SectionCompiler	Z	cutoutLeaves	field_1_2184
+FIELD	net/minecraft/client/renderer/chunk/SectionCompiler	Lnet/minecraft/client/renderer/block/LiquidBlockRenderer;	liquidRenderer	field_1_2185
+FIELD	net/minecraft/client/model/animal/rabbit/RabbitModel	Lnet/minecraft/client/model/geom/ModelPart;	head	field_1_2186
+CLASS	net/minecraft/client/particle/SimpleVerticalParticle	class_1_389
+CLASS	net/minecraft/client/particle/SimpleVerticalParticle$PauseMobGrowthProvider	class_1_390
+FIELD	net/minecraft/client/particle/SimpleVerticalParticle$PauseMobGrowthProvider	Lnet/minecraft/client/particle/SpriteSet;	sprite	comp_1_285
+METHOD	net/minecraft/client/particle/SimpleVerticalParticle$PauseMobGrowthProvider	(Lnet/minecraft/core/particles/SimpleParticleType;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;	createParticle	method_1_2609
+CLASS	net/minecraft/client/particle/SimpleVerticalParticle$ResetMobGrowthProvider	class_1_391
+FIELD	net/minecraft/client/particle/SimpleVerticalParticle$ResetMobGrowthProvider	Lnet/minecraft/client/particle/SpriteSet;	sprite	comp_1_286
+METHOD	net/minecraft/client/particle/SimpleVerticalParticle$ResetMobGrowthProvider	(Lnet/minecraft/core/particles/SimpleParticleType;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;	createParticle	method_1_2610
+FIELD	net/minecraft/client/renderer/entity/DisplayRenderer	Lnet/minecraft/client/renderer/block/BlockModelResolver;	blockModelResolver	field_1_2187
+METHOD	net/minecraft/world/level/storage/LevelStorageSource	(Ljava/nio/file/Path;Lcom/mojang/serialization/DynamicOps;Lnet/minecraft/world/level/saveddata/SavedDataType;Lcom/mojang/serialization/Codec;Ljava/lang/Object;)V	writeSavedData	method_1_2611
+METHOD	net/minecraft/world/level/storage/LevelStorageSource	(Lnet/minecraft/core/RegistryAccess;Ljava/nio/file/Path;Lnet/minecraft/world/level/levelgen/WorldGenSettings;)V	writeWorldGenSettings	method_1_2612
+CLASS	net/minecraft/client/renderer/block/BlockModelLighter	class_1_392
+FIELD	net/minecraft/client/renderer/block/BlockModelLighter	Ljava/lang/ThreadLocal;	CACHE	field_1_2188
+FIELD	net/minecraft/client/renderer/block/BlockModelLighter	I	CACHE_SIZE	field_1_2189
+FIELD	net/minecraft/client/renderer/block/BlockModelLighter	I	CHECK_LIGHT	field_1_2190
+FIELD	net/minecraft/client/renderer/block/BlockModelLighter	Lnet/minecraft/client/renderer/block/BlockModelLighter$Cache;	cache	field_1_2191
+FIELD	net/minecraft/client/renderer/block/BlockModelLighter	Z	faceCubic	field_1_2192
+FIELD	net/minecraft/client/renderer/block/BlockModelLighter	Z	facePartial	field_1_2193
+FIELD	net/minecraft/client/renderer/block/BlockModelLighter	[F	faceShape	field_1_2194
+FIELD	net/minecraft/client/renderer/block/BlockModelLighter	Lnet/minecraft/core/BlockPos$MutableBlockPos;	scratchPos	field_1_2195
+METHOD	net/minecraft/client/renderer/block/BlockModelLighter	()V	clearCache	method_1_2613
+METHOD	net/minecraft/client/renderer/block/BlockModelLighter	()V	enableCaching	method_1_2614
+METHOD	net/minecraft/client/renderer/block/BlockModelLighter	(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/core/BlockPos;)I	getLightCoords	method_1_2615
+METHOD	net/minecraft/client/renderer/block/BlockModelLighter	(Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/renderer/block/model/BakedQuad;Lcom/mojang/blaze3d/vertex/QuadInstance;)V	prepareQuadAmbientOcclusion	method_1_2616
+METHOD	net/minecraft/client/renderer/block/BlockModelLighter	(Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;ILnet/minecraft/client/renderer/block/model/BakedQuad;Lcom/mojang/blaze3d/vertex/QuadInstance;)V	prepareQuadFlat	method_1_2617
+METHOD	net/minecraft/client/renderer/block/BlockModelLighter	(Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/renderer/block/model/BakedQuad;Z)V	prepareQuadShape	method_1_2618
+FIELD	net/minecraft/client/renderer/block/BlockModelLighter$1	[I	$SwitchMap$net$minecraft$core$Direction	field_1_2196
+METHOD	net/minecraft/client/renderer/block/BlockModelLighter$Cache	()Lit/unimi/dsi/fastutil/longs/Long2IntLinkedOpenHashMap;	lambda$new$0	method_1_2619
+METHOD	net/minecraft/client/renderer/block/BlockModelLighter$Cache	()Lit/unimi/dsi/fastutil/longs/Long2FloatLinkedOpenHashMap;	lambda$new$1	method_1_2620
+METHOD	net/minecraft/client/renderer/block/BlockModelLighter$Cache	(Lnet/minecraft/world/level/BlockAndLightGetter;Lnet/minecraft/core/BlockPos;)I	lambda$new$2	method_1_2621
+METHOD	net/minecraft/client/renderer/chunk/ChunkSectionLayer	()Lcom/mojang/blaze3d/vertex/VertexFormat;	vertexFormat	method_1_2622
+FIELD	net/minecraft/client/renderer/entity/EndermanRenderer	Lnet/minecraft/client/renderer/block/BlockModelResolver;	blockModelResolver	field_1_2197
+CLASS	net/minecraft/client/renderer/block/BlockAndTintGetter	class_1_393
+FIELD	net/minecraft/client/renderer/block/BlockAndTintGetter	Lnet/minecraft/client/renderer/block/BlockAndTintGetter;	EMPTY	field_1_2198
+METHOD	net/minecraft/client/renderer/block/BlockAndTintGetter	()Lnet/minecraft/world/level/CardinalLighting;	cardinalLighting	method_1_2623
+CLASS	net/minecraft/client/renderer/block/BlockModelResolver	class_1_394
+FIELD	net/minecraft/client/renderer/block/BlockModelResolver	Lnet/minecraft/client/color/block/BlockColors;	blockColors	field_1_2199
+FIELD	net/minecraft/client/renderer/block/BlockModelResolver	Lnet/minecraft/client/resources/model/ModelManager;	modelManager	field_1_2200
+METHOD	net/minecraft/client/renderer/block/BlockModelResolver	(Lnet/minecraft/client/renderer/block/BlockModelRenderState;Lnet/minecraft/world/level/block/state/BlockState;)V	update	method_1_2624
+METHOD	net/minecraft/client/renderer/block/BlockModelResolver	(Lnet/minecraft/client/renderer/block/BlockModelRenderState;ZZ)V	updateForItemFrame	method_1_2625
+METHOD	net/minecraft/client/renderer/block/BlockModelResolver	(Lnet/minecraft/client/renderer/block/BlockModelRenderState;Lnet/minecraft/world/level/block/state/BlockState;)V	updateTints	method_1_2626
+FIELD	net/minecraft/client/renderer/block/BlockStateModelSet	Lnet/minecraft/client/renderer/block/model/BlockStateModel;	missingModel	field_1_2201
+FIELD	net/minecraft/client/renderer/block/ModelBlockRenderer	Z	ambientOcclusion	field_1_2202
+FIELD	net/minecraft/client/renderer/block/ModelBlockRenderer	Z	cull	field_1_2203
+FIELD	net/minecraft/client/renderer/block/ModelBlockRenderer	Lnet/minecraft/client/renderer/block/BlockModelLighter;	lighter	field_1_2204
+FIELD	net/minecraft/client/renderer/block/ModelBlockRenderer	Ljava/util/List;	parts	field_1_2205
+FIELD	net/minecraft/client/renderer/block/ModelBlockRenderer	Lcom/mojang/blaze3d/vertex/QuadInstance;	quadInstance	field_1_2206
+FIELD	net/minecraft/client/renderer/block/ModelBlockRenderer	Lnet/minecraft/util/RandomSource;	random	field_1_2207
+FIELD	net/minecraft/client/renderer/block/ModelBlockRenderer	Lnet/minecraft/core/BlockPos$MutableBlockPos;	scratchPos	field_1_2208
+FIELD	net/minecraft/client/renderer/block/ModelBlockRenderer	I	tintCacheIndex	field_1_2209
+FIELD	net/minecraft/client/renderer/block/ModelBlockRenderer	I	tintCacheValue	field_1_2210
+FIELD	net/minecraft/client/renderer/block/ModelBlockRenderer	Lcom/mojang/blaze3d/vertex/QuadInstance;	tintedQuadInstance	field_1_2211
+METHOD	net/minecraft/client/renderer/block/ModelBlockRenderer	(ZLnet/minecraft/world/level/block/state/BlockState;)Z	forceOpaque	method_1_2627
+METHOD	net/minecraft/client/renderer/block/ModelBlockRenderer	(Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;I)I	getTintColor	method_1_2628
+METHOD	net/minecraft/client/renderer/block/ModelBlockRenderer	(Lnet/minecraft/client/renderer/block/BlockQuadOutput;FFFLnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/renderer/block/model/BakedQuad;)V	putQuadWithTint	method_1_2629
+METHOD	net/minecraft/client/renderer/block/ModelBlockRenderer	(Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/Direction;Lnet/minecraft/core/BlockPos;)Z	shouldRenderFace	method_1_2630
+METHOD	net/minecraft/client/renderer/block/ModelBlockRenderer	(Lnet/minecraft/client/renderer/block/BlockQuadOutput;FFFLjava/util/List;Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V	tesselateAmbientOcclusion	method_1_2631
+METHOD	net/minecraft/client/renderer/block/ModelBlockRenderer	(Lnet/minecraft/client/renderer/block/BlockQuadOutput;FFFLnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/client/renderer/block/model/BlockStateModel;J)V	tesselateBlock	method_1_2632
+METHOD	net/minecraft/client/renderer/block/ModelBlockRenderer	(Lnet/minecraft/client/renderer/block/BlockQuadOutput;FFFLjava/util/List;Lnet/minecraft/client/renderer/block/BlockAndTintGetter;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/core/BlockPos;)V	tesselateFlat	method_1_2633
+FIELD	net/minecraft/client/renderer/entity/IronGolemRenderer	Lnet/minecraft/client/renderer/block/BlockModelResolver;	blockModelResolver	field_1_2212
+FIELD	net/minecraft/client/renderer/entity/ItemFrameRenderer	Lnet/minecraft/client/renderer/block/BlockModelResolver;	blockModelResolver	field_1_2213
+FIELD	net/minecraft/client/renderer/entity/SnowGolemRenderer	Lnet/minecraft/client/renderer/block/BlockModelResolver;	blockModelResolver	field_1_2214
+METHOD	net/minecraft/client/model/monster/strider/StriderModel	(FFLnet/minecraft/client/model/geom/ModelPart;Lnet/minecraft/client/model/geom/ModelPart;Lnet/minecraft/client/model/geom/ModelPart;Ljava/util/function/BiConsumer;)V	animateBristle	method_1_2634
+METHOD	net/minecraft/client/renderer/SpecialBlockModelRenderer	(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/client/renderer/special/SpecialModelRenderer;	getSpecialRenderer	method_1_2635
+FIELD	net/minecraft/client/renderer/block/LiquidBlockRenderer	Ljava/util/Map;	layerByFluid	field_1_2215
+METHOD	net/minecraft/client/renderer/block/LiquidBlockRenderer	(Lnet/minecraft/world/level/material/FluidState;)Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;	getRenderLayer	method_1_2636
+FIELD	net/minecraft/client/renderer/chunk/RenderSectionRegion	Lnet/minecraft/world/level/CardinalLighting;	cardinalLighting	field_1_2216
+FIELD	net/minecraft/client/renderer/chunk/RenderSectionRegion	Lnet/minecraft/world/level/lighting/LevelLightEngine;	lightEngine	field_1_2217
+FIELD	net/minecraft/client/renderer/entity/CopperGolemRenderer	Lnet/minecraft/client/renderer/block/BlockModelResolver;	blockModelResolver	field_1_2218
+FIELD	net/minecraft/client/renderer/entity/MushroomCowRenderer	Lnet/minecraft/client/renderer/block/BlockModelResolver;	blockModelResolver	field_1_2219
+CLASS	net/minecraft/client/renderer/block/BlockModelRenderState	class_1_395
+FIELD	net/minecraft/client/renderer/block/BlockModelRenderState	Lnet/minecraft/world/level/block/Block;	block	field_1_2220
+FIELD	net/minecraft/client/renderer/block/BlockModelRenderState	Lnet/minecraft/client/renderer/block/model/BlockStateModel;	model	field_1_2221
+FIELD	net/minecraft/client/renderer/block/BlockModelRenderState	Lnet/minecraft/client/renderer/special/SpecialModelRenderer;	specialRenderer	field_1_2222
+FIELD	net/minecraft/client/renderer/block/BlockModelRenderState	[I	tintLayers	field_1_2223
+METHOD	net/minecraft/client/renderer/block/BlockModelRenderState	()V	clear	method_1_2637
+METHOD	net/minecraft/client/renderer/block/BlockModelRenderState	()Z	isEmpty	method_1_2638
+METHOD	net/minecraft/client/renderer/block/BlockModelRenderState	(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;III)V	submit	method_1_2639
+METHOD	net/minecraft/client/renderer/block/BlockModelRenderState	(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;III)V	submitOnlyOutline	method_1_2640
+METHOD	net/minecraft/client/renderer/block/BlockModelRenderState	(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;III)V	submitWithZOffset	method_1_2641
+FIELD	net/minecraft/client/renderer/block/BlockRenderDispatcher	[Lnet/minecraft/core/Direction;	DIRECTIONS	field_1_2224
+FIELD	net/minecraft/client/renderer/block/BlockRenderDispatcher	Lnet/minecraft/client/resources/model/ModelManager;	modelManager	field_1_2225
+METHOD	net/minecraft/client/renderer/block/BlockRenderDispatcher	()Lnet/minecraft/client/renderer/block/LiquidBlockRenderer;	getLiquidRenderer	method_1_2642
+METHOD	net/minecraft/client/renderer/block/BlockRenderDispatcher	()Lnet/minecraft/client/renderer/block/BlockStateModelSet;	getModelSet	method_1_2643
+FIELD	net/minecraft/client/renderer/block/MovingBlockRenderState	Lnet/minecraft/world/level/CardinalLighting;	cardinalLighting	field_1_2226
+FIELD	net/minecraft/client/renderer/block/MovingBlockRenderState	Lnet/minecraft/world/level/lighting/LevelLightEngine;	lightEngine	field_1_2227
+FIELD	net/minecraft/client/renderer/feature/BlockFeatureRenderer	[Lnet/minecraft/core/Direction;	DIRECTIONS	field_1_2228
+FIELD	net/minecraft/client/renderer/feature/BlockFeatureRenderer	J	MODEL_SEED	field_1_2229
+FIELD	net/minecraft/client/renderer/feature/BlockFeatureRenderer	Lnet/minecraft/util/RandomSource;	random	field_1_2230
+METHOD	net/minecraft/client/renderer/feature/BlockFeatureRenderer	(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;FFFLnet/minecraft/client/renderer/block/model/BakedQuad;Lcom/mojang/blaze3d/vertex/QuadInstance;)V	lambda$renderMovingBlockSubmits$0	method_1_2644
+METHOD	net/minecraft/client/renderer/feature/BlockFeatureRenderer	(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;FFFLnet/minecraft/client/renderer/block/model/BakedQuad;Lcom/mojang/blaze3d/vertex/QuadInstance;)V	lambda$renderMovingBlockSubmits$1	method_1_2645
+METHOD	net/minecraft/client/renderer/feature/BlockFeatureRenderer	(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;FFFLnet/minecraft/client/renderer/block/model/BakedQuad;Lcom/mojang/blaze3d/vertex/QuadInstance;Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)V	putBakedQuad	method_1_2646
+METHOD	net/minecraft/client/renderer/feature/BlockFeatureRenderer	(Lnet/minecraft/client/renderer/block/model/BlockModelPart;Lcom/mojang/blaze3d/vertex/PoseStack$Pose;Lcom/mojang/blaze3d/vertex/QuadInstance;[ILcom/mojang/blaze3d/vertex/VertexConsumer;Lcom/mojang/blaze3d/vertex/VertexConsumer;)V	putPartQuads	method_1_2647
+METHOD	net/minecraft/client/renderer/feature/BlockFeatureRenderer	(Lcom/mojang/blaze3d/vertex/PoseStack$Pose;Lnet/minecraft/client/renderer/block/model/BakedQuad;Lcom/mojang/blaze3d/vertex/QuadInstance;[ILcom/mojang/blaze3d/vertex/VertexConsumer;Lcom/mojang/blaze3d/vertex/VertexConsumer;)V	putQuad	method_1_2648
+METHOD	net/minecraft/world/entity/decoration/LeashFenceKnotEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/entity/decoration/LeashFenceKnotEntity;	createKnot	method_1_2649
+METHOD	net/minecraft/world/entity/decoration/LeashFenceKnotEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Ljava/util/Optional;	getKnot	method_1_2650
+METHOD	net/minecraft/world/entity/decoration/LeashFenceKnotEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/world/entity/decoration/LeashFenceKnotEntity;	lambda$getOrCreateKnot$0	method_1_2651
+FIELD	net/minecraft/client/model/monster/strider/BabyStriderModel	Ljava/lang/String;	BACK_BRISTLE	field_1_2231
+FIELD	net/minecraft/client/model/monster/strider/BabyStriderModel	Ljava/lang/String;	FRONT_BRISTLE	field_1_2232
+FIELD	net/minecraft/client/model/monster/strider/BabyStriderModel	Ljava/lang/String;	MIDDLE_BRISTLE	field_1_2233
+FIELD	net/minecraft/client/model/monster/strider/BabyStriderModel	Lnet/minecraft/client/model/geom/ModelPart;	bottomBristle	field_1_2234
+FIELD	net/minecraft/client/model/monster/strider/BabyStriderModel	Lnet/minecraft/client/model/geom/ModelPart;	frontBristle	field_1_2235
+FIELD	net/minecraft/client/model/monster/strider/BabyStriderModel	Lnet/minecraft/client/model/geom/ModelPart;	middleBristle	field_1_2236
+METHOD	net/minecraft/client/model/monster/strider/BabyStriderModel	(Lnet/minecraft/client/model/geom/ModelPart;Ljava/lang/Float;)V	lambda$customAnimations$0	method_1_2652
+METHOD	net/minecraft/client/renderer/entity/layers/ItemInHandLayer	(Lnet/minecraft/client/renderer/entity/state/ArmedEntityRenderState;)Z	useBabyOffset	method_1_2653
+FIELD	net/minecraft/client/gui/components/debug/DebugScreenEntries	Lnet/minecraft/resources/Identifier;	SOUND_CACHE	field_1_2237
+METHOD	net/minecraft/client/model/monster/strider/AdultStriderModel	(Lnet/minecraft/client/model/geom/ModelPart;Ljava/lang/Float;)V	lambda$customAnimations$0	method_1_2654
+METHOD	net/minecraft/client/model/monster/strider/AdultStriderModel	(Lnet/minecraft/client/model/geom/ModelPart;Ljava/lang/Float;)V	lambda$customAnimations$1	method_1_2655
+FIELD	net/minecraft/client/renderer/entity/AbstractMinecartRenderer	Lnet/minecraft/client/renderer/block/BlockModelResolver;	blockModelResolver	field_1_2238
+CLASS	net/minecraft/client/gui/components/debug/DebugEntrySoundCache	class_1_396
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySoundCache	(J)J	bytesToMegabytes	method_1_2656
+FIELD	net/minecraft/client/renderer/entity/state/IronGolemRenderState	Lnet/minecraft/client/renderer/block/BlockModelRenderState;	flowerBlock	field_1_2239
+FIELD	net/minecraft/client/renderer/entity/state/ItemFrameRenderState	Lnet/minecraft/client/renderer/block/BlockModelRenderState;	frameModel	field_1_2240
+FIELD	net/minecraft/client/renderer/entity/state/SnowGolemRenderState	Lnet/minecraft/client/renderer/block/BlockModelRenderState;	headBlock	field_1_2241
+FIELD	net/minecraft/client/renderer/entity/state/MushroomCowRenderState	Lnet/minecraft/client/renderer/block/BlockModelRenderState;	mushroomModel	field_1_2242
+FIELD	net/minecraft/client/renderer/blockentity/BlockEntityRenderDispatcher	Lnet/minecraft/client/renderer/block/BlockModelResolver;	blockModelResolver	field_1_2243
+FIELD	net/minecraft/client/renderer/blockentity/BlockEntityRendererProvider$Context	Lnet/minecraft/client/renderer/block/BlockModelResolver;	blockModelResolver	comp_1_287
+FIELD	net/minecraft/client/renderer/entity/state/BlockDisplayEntityRenderState	Lnet/minecraft/client/renderer/block/BlockModelRenderState;	blockModel	field_1_2244
+Done!
