@@ -1,0 +1,218 @@
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/criterion/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/criterion/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Read 10680 (6880) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 19198 MethodEntries (0 unique, 10919 classes).
+Collecting additional information...
+- Done. -
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/criterion/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/criterion/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Read 10682 (6882) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 19190 MethodEntries (0 unique, 10921 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+FIELD	net/minecraft/client/Options	Lnet/minecraft/network/chat/Component;	TOOLTIP_EXCLUSIVE_FULLSCREEN_WARNING	field_1_2567
+FIELD	net/minecraft/client/Options	Lnet/minecraft/network/chat/Component;	TOOLTIP_NEEDS_RESTART	field_1_2568
+FIELD	net/minecraft/client/Options	Lnet/minecraft/client/OptionInstance;	exclusiveFullscreen	field_1_2569
+FIELD	net/minecraft/client/Options	Z	initialExclusiveFullscreen	field_1_2570
+METHOD	net/minecraft/client/Options	()Lnet/minecraft/client/OptionInstance;	exclusiveFullscreen	method_1_3093
+METHOD	net/minecraft/client/Options	(Ljava/lang/Boolean;)Lnet/minecraft/client/gui/components/Tooltip;	lambda$new$85	method_1_3094
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/world/flag/FeatureFlagSet;)Lnet/minecraft/world/item/Item$Properties;	requiredFeatures	method_1_3095
+FIELD	net/minecraft/client/Minecraft	Lcom/mojang/blaze3d/platform/TextInputManager;	textInputManager	field_1_2571
+METHOD	net/minecraft/client/Minecraft	(Lnet/minecraft/client/gui/components/events/GuiEventListener;Z)V	onTextInputFocusChange	method_1_3096
+METHOD	net/minecraft/client/Minecraft	()Lcom/mojang/blaze3d/platform/TextInputManager;	textInputManager	method_1_3097
+METHOD	net/minecraft/world/entity/Entity	()V	applyEffectsFromBlocksForLastMovements	method_1_3098
+METHOD	com/mojang/blaze3d/platform/Window	(I)I	allowedWindowMinSize	method_1_3099
+FIELD	net/minecraft/client/KeyboardHandler	Lnet/minecraft/client/input/PreeditEvent;	lastPreeditEvent	field_1_2572
+METHOD	net/minecraft/client/KeyboardHandler	(Lnet/minecraft/client/gui/components/events/GuiEventListener;)V	resubmitLastPreeditEvent	method_1_3100
+METHOD	net/minecraft/client/KeyboardHandler	(Lnet/minecraft/client/gui/components/events/GuiEventListener;Lnet/minecraft/client/input/PreeditEvent;)V	submitPreeditEvent	method_1_3101
+METHOD	net/minecraft/util/random/WeightedList	(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;	entryToListCodec	method_1_3102
+METHOD	net/minecraft/util/random/WeightedList	(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;	entryToNonEmptyListCodec	method_1_3103
+METHOD	net/minecraft/util/random/WeightedList	(Lnet/minecraft/util/random/WeightedList;)Lcom/mojang/serialization/DataResult;	lambda$entryToNonEmptyListCodec$0	method_1_3104
+METHOD	net/minecraft/util/random/WeightedList	()Ljava/lang/String;	lambda$entryToNonEmptyListCodec$1	method_1_3105
+METHOD	net/minecraft/server/level/ServerPlayer	(Lnet/minecraft/core/BlockPos;)V	sendSpawnProtectionMessage	method_1_3106
+FIELD	net/minecraft/network/chat/ComponentUtils$1	[I	$SwitchMap$net$minecraft$network$chat$ResolutionContext$LimitBehavior	field_1_2573
+CLASS	com/mojang/blaze3d/platform/BackendOptions	class_1_489
+FIELD	com/mojang/blaze3d/platform/BackendOptions	Z	exclusiveFullScreen	comp_1_406
+CLASS	com/mojang/blaze3d/platform/TextInputManager	class_1_490
+FIELD	com/mojang/blaze3d/platform/TextInputManager	Z	cachedIMEStatus	field_1_2574
+FIELD	com/mojang/blaze3d/platform/TextInputManager	Z	imeRequested	field_1_2575
+FIELD	com/mojang/blaze3d/platform/TextInputManager	Z	imeStatusChanged	field_1_2576
+FIELD	com/mojang/blaze3d/platform/TextInputManager	Z	textInputEnabled	field_1_2577
+FIELD	com/mojang/blaze3d/platform/TextInputManager	Lcom/mojang/blaze3d/platform/Window;	window	field_1_2578
+METHOD	com/mojang/blaze3d/platform/TextInputManager	()Z	getIMEStatus	method_1_3107
+METHOD	com/mojang/blaze3d/platform/TextInputManager	()V	notifyIMEChanged	method_1_3108
+METHOD	com/mojang/blaze3d/platform/TextInputManager	(Z)V	onTextInputFocusChange	method_1_3109
+METHOD	com/mojang/blaze3d/platform/TextInputManager	(Z)V	setIMEInputMode	method_1_3110
+METHOD	com/mojang/blaze3d/platform/TextInputManager	(IIII)V	setTextInputArea	method_1_3111
+METHOD	com/mojang/blaze3d/platform/TextInputManager	()V	startTextInput	method_1_3112
+METHOD	com/mojang/blaze3d/platform/TextInputManager	()V	stopTextInput	method_1_3113
+METHOD	com/mojang/blaze3d/platform/TextInputManager	()V	tick	method_1_3114
+METHOD	com/mojang/blaze3d/platform/TextInputManager	()V	tickDuringTextInput	method_1_3115
+METHOD	com/mojang/blaze3d/platform/TextInputManager	()V	tickOutsideTextInput	method_1_3116
+FIELD	net/minecraft/network/chat/ResolutionContext	Lnet/minecraft/world/entity/Entity;	defaultScoreboardEntity	comp_1_407
+FIELD	net/minecraft/network/chat/ResolutionContext	Lnet/minecraft/network/chat/ResolutionContext$LimitBehavior;	depthLimitBehavior	comp_1_408
+FIELD	net/minecraft/network/chat/ResolutionContext	I	depthLimit	comp_1_409
+FIELD	net/minecraft/network/chat/ResolutionContext	Ljava/util/function/Predicate;	objectInfoValidator	comp_1_410
+FIELD	net/minecraft/network/chat/ResolutionContext	Lnet/minecraft/commands/CommandSourceStack;	source	comp_1_411
+METHOD	net/minecraft/network/chat/ResolutionContext	()Lnet/minecraft/network/chat/ResolutionContext$Builder;	builder	method_1_3117
+METHOD	net/minecraft/network/chat/ResolutionContext	(Lnet/minecraft/network/chat/contents/objects/ObjectInfo;)Lnet/minecraft/network/chat/contents/objects/ObjectInfo;	validate	method_1_3118
+CLASS	net/minecraft/network/chat/ResolutionContext$Builder	class_1_491
+FIELD	net/minecraft/network/chat/ResolutionContext$Builder	Lnet/minecraft/world/entity/Entity;	defaultScoreboardEntity	field_1_2579
+FIELD	net/minecraft/network/chat/ResolutionContext$Builder	Lnet/minecraft/network/chat/ResolutionContext$LimitBehavior;	depthLimitBehavior	field_1_2580
+FIELD	net/minecraft/network/chat/ResolutionContext$Builder	I	depthLimit	field_1_2581
+FIELD	net/minecraft/network/chat/ResolutionContext$Builder	Ljava/util/function/Predicate;	objectInfoValidator	field_1_2582
+FIELD	net/minecraft/network/chat/ResolutionContext$Builder	Lnet/minecraft/commands/CommandSourceStack;	source	field_1_2583
+METHOD	net/minecraft/network/chat/ResolutionContext$Builder	()Lnet/minecraft/network/chat/ResolutionContext;	build	method_1_3119
+METHOD	net/minecraft/network/chat/ResolutionContext$Builder	(Lnet/minecraft/network/chat/contents/objects/ObjectInfo;)Z	lambda$new$0	method_1_3120
+METHOD	net/minecraft/network/chat/ResolutionContext$Builder	(I)Lnet/minecraft/network/chat/ResolutionContext$Builder;	setDepthLimit	method_1_3121
+METHOD	net/minecraft/network/chat/ResolutionContext$Builder	(Lnet/minecraft/network/chat/ResolutionContext$LimitBehavior;)Lnet/minecraft/network/chat/ResolutionContext$Builder;	setDepthLimitBehavior	method_1_3122
+METHOD	net/minecraft/network/chat/ResolutionContext$Builder	(Lnet/minecraft/world/entity/Entity;)Lnet/minecraft/network/chat/ResolutionContext$Builder;	withEntityOverride	method_1_3123
+METHOD	net/minecraft/network/chat/ResolutionContext$Builder	(Ljava/util/function/Predicate;)Lnet/minecraft/network/chat/ResolutionContext$Builder;	withObjectInfoValidator	method_1_3124
+METHOD	net/minecraft/network/chat/ResolutionContext$Builder	(Lnet/minecraft/commands/CommandSourceStack;)Lnet/minecraft/network/chat/ResolutionContext$Builder;	withSource	method_1_3125
+CLASS	net/minecraft/network/chat/ResolutionContext$LimitBehavior	class_1_492
+FIELD	net/minecraft/network/chat/ResolutionContext$LimitBehavior	[Lnet/minecraft/network/chat/ResolutionContext$LimitBehavior;	$VALUES	field_1_2584
+FIELD	net/minecraft/network/chat/ResolutionContext$LimitBehavior	Lnet/minecraft/network/chat/ResolutionContext$LimitBehavior;	DISCARD_REMAINING	field_1_2585
+FIELD	net/minecraft/network/chat/ResolutionContext$LimitBehavior	Lnet/minecraft/network/chat/ResolutionContext$LimitBehavior;	STOP_PROCESSING_AND_COPY_REMAINING	field_1_2586
+METHOD	net/minecraft/network/chat/ResolutionContext$LimitBehavior	()[Lnet/minecraft/network/chat/ResolutionContext$LimitBehavior;	$values	method_1_3126
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(IIILnet/minecraft/world/level/block/Block;Lnet/minecraft/core/Direction;)V	placeBlock	method_1_3127
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/Direction;)V	placeBlock	method_1_3128
+CLASS	net/minecraft/gametest/framework/GameTestHelper$TestBlockPlaceContext	class_1_493
+FIELD	net/minecraft/gametest/framework/GameTestHelper$TestBlockPlaceContext	Lnet/minecraft/core/Direction;	placeDirection	field_1_2587
+METHOD	net/minecraft/gametest/framework/GameTestHelper$TestBlockPlaceContext	(Lnet/minecraft/core/Direction;)D	lambda$getNearestLookingDirections$0	method_1_3129
+FIELD	net/minecraft/client/gui/components/ChatComponent	Lnet/minecraft/network/chat/Component;	RESTRICTED_CHAT_MESSAGE_WITH_HOVER	field_1_2588
+METHOD	net/minecraft/world/level/block/TripWireHookBlock	(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)V	onRemoved	method_1_3130
+METHOD	net/minecraft/client/multiplayer/ServerStatusPinger	(Lnet/minecraft/network/chat/contents/objects/ObjectInfo;)Z	lambda$static$0	method_1_3131
+METHOD	net/minecraft/client/gui/screens/inventory/LoomScreen	()Z	isScrollBarActive	method_1_3132
+METHOD	net/minecraft/client/gui/components/ComponentRenderUtils	(Lnet/minecraft/network/chat/Component;Lnet/minecraft/client/gui/Font;I)Lnet/minecraft/util/FormattedCharSequence;	clipText	method_1_3133
+FIELD	net/minecraft/client/animation/definitions/BabyAxolotlAnimation	Lnet/minecraft/client/animation/AnimationDefinition;	baby_axolotl_dash	field_1_2589
+FIELD	net/minecraft/client/multiplayer/prediction/BlockStatePredictionHandler	I	lastTeleportSequence	field_1_2590
+METHOD	net/minecraft/client/multiplayer/prediction/BlockStatePredictionHandler	()V	onTeleport	method_1_3134
+METHOD	net/minecraft/world/level/levelgen/feature/stateproviders/WeightedStateProvider	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_3135
+METHOD	net/minecraft/world/level/levelgen/feature/stateproviders/WeightedStateProvider	(Lnet/minecraft/world/level/levelgen/feature/stateproviders/WeightedStateProvider;)Lnet/minecraft/util/random/WeightedList;	lambda$static$1	method_1_3136
+Done!
