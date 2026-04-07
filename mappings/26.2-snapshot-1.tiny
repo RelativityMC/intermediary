@@ -77460,13 +77460,13 @@ METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	(Ljava/lang/Strin
 METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	(Ljava/lang/String;)Lcom/mojang/blaze3d/vulkan/glsl/SpvSampler;	getSampler	method_1_4557
 METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	(Ljava/lang/String;)Lcom/mojang/blaze3d/vulkan/glsl/SpvUniformBuffer;	getUniformBuffer	method_1_4558
 METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	()Ljava/util/List;	inputs	comp_1_573
-METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	()Ljava/lang/String;	lambda$createVulkanShaderModule$0	comp_1_574
+METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	()Ljava/lang/String;	lambda$createVulkanShaderModule$0	method_1_4559
 METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	()Ljava/lang/String;	name	comp_1_574
 METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	()Ljava/util/List;	outputs	comp_1_575
-METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	(Ljava/util/List;Ljava/util/List;)V	rebind	method_1_4559
+METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	(Ljava/util/List;Ljava/util/List;)V	rebind	method_1_4560
 METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	()Ljava/util/List;	samplers	comp_1_576
 METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	()Ljava/nio/ByteBuffer;	spirv	comp_1_577
-METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	(ILjava/lang/String;)V	throwIfError	method_1_4560
+METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	(ILjava/lang/String;)V	throwIfError	method_1_4561
 METHOD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule	()Ljava/util/List;	uniformBuffers	comp_1_578
 CLASS	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule$1	net/minecraft/class_1_753$1
 FIELD	com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule$1	[I	$SwitchMap$com$mojang$blaze3d$vulkan$VulkanBindGroupLayout$VulkanBindGroupEntryType	field_1_3799
@@ -78222,10 +78222,10 @@ CLASS	net/minecraft/client/renderer/entity/SulfurCubeRenderer	net/minecraft/clas
 FIELD	net/minecraft/client/renderer/entity/SulfurCubeRenderer	Lnet/minecraft/client/renderer/block/model/BlockDisplayContext;	BLOCK_DISPLAY_CONTEXT	field_1_3800
 FIELD	net/minecraft/client/renderer/entity/SulfurCubeRenderer	Lnet/minecraft/resources/Identifier;	SULFUR_CUBE_LOCATION	field_1_3801
 FIELD	net/minecraft/client/renderer/entity/SulfurCubeRenderer	Lnet/minecraft/client/renderer/block/BlockModelResolver;	blockModelResolver	field_1_3802
-METHOD	net/minecraft/client/renderer/entity/SulfurCubeRenderer	()Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;	createRenderState	method_1_4561
-METHOD	net/minecraft/client/renderer/entity/SulfurCubeRenderer	(Lnet/minecraft/world/entity/monster/cubemob/SulfurCube;Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;F)V	extractRenderState	method_1_4562
-METHOD	net/minecraft/client/renderer/entity/SulfurCubeRenderer	(Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;)Lnet/minecraft/resources/Identifier;	getTextureLocation	method_1_4563
-METHOD	net/minecraft/client/renderer/entity/SulfurCubeRenderer	(Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;)V	scale	method_1_4564
+METHOD	net/minecraft/client/renderer/entity/SulfurCubeRenderer	()Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;	createRenderState	method_1_4562
+METHOD	net/minecraft/client/renderer/entity/SulfurCubeRenderer	(Lnet/minecraft/world/entity/monster/cubemob/SulfurCube;Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;F)V	extractRenderState	method_1_4563
+METHOD	net/minecraft/client/renderer/entity/SulfurCubeRenderer	(Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;)Lnet/minecraft/resources/Identifier;	getTextureLocation	method_1_4564
+METHOD	net/minecraft/client/renderer/entity/SulfurCubeRenderer	(Lnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;)V	scale	method_1_4565
 CLASS	net/minecraft/client/renderer/entity/ThrownItemRenderer	net/minecraft/class_953
 FIELD	net/minecraft/client/renderer/entity/ThrownItemRenderer	Z	fullBright	field_21745
 FIELD	net/minecraft/client/renderer/entity/ThrownItemRenderer	Lnet/minecraft/client/renderer/item/ItemModelResolver;	itemModelResolver	field_55301
@@ -79954,7 +79954,7 @@ FIELD	net/minecraft/world/level/levelgen/feature/DeltaFeature	D	RIM_SPAWN_CHANCE
 METHOD	net/minecraft/world/level/levelgen/feature/DeltaFeature	(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/feature/configurations/DeltaFeatureConfiguration;)Z	isClear	method_27103
 CLASS	net/minecraft/world/level/levelgen/feature/GeodeFeature	net/minecraft/class_5588
 FIELD	net/minecraft/world/level/levelgen/feature/GeodeFeature	[Lnet/minecraft/core/Direction;	DIRECTIONS	field_27313
-METHOD	net/minecraft/world/level/levelgen/feature/GeodeFeature	(Lnet/minecraft/core/HolderSet;Lnet/minecraft/world/level/block/state/BlockState;)Z	lambda$place$0	method_1_4565
+METHOD	net/minecraft/world/level/levelgen/feature/GeodeFeature	(Lnet/minecraft/core/HolderSet;Lnet/minecraft/world/level/block/state/BlockState;)Z	lambda$place$0	method_1_4566
 CLASS	net/minecraft/world/level/levelgen/feature/SpikeFeature	net/minecraft/class_3070
 CLASS	net/minecraft/world/level/levelgen/feature/VinesFeature	net/minecraft/class_3219
 CLASS	net/minecraft/world/level/levelgen/feature/package-info	net/minecraft/class_6114
@@ -80623,8 +80623,8 @@ CLASS	net/minecraft/client/model/monster/guardian/package-info	net/minecraft/cla
 CLASS	net/minecraft/client/model/monster/nautilus/package-info	net/minecraft/class_12436
 CLASS	net/minecraft/client/model/monster/skeleton/package-info	net/minecraft/class_12442
 CLASS	net/minecraft/client/model/monster/slime/SulfurCubeModel	net/minecraft/class_1_756
-METHOD	net/minecraft/client/model/monster/slime/SulfurCubeModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createInnerBodyLayer	method_1_4566
-METHOD	net/minecraft/client/model/monster/slime/SulfurCubeModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createOuterBodyLayer	method_1_4567
+METHOD	net/minecraft/client/model/monster/slime/SulfurCubeModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createInnerBodyLayer	method_1_4567
+METHOD	net/minecraft/client/model/monster/slime/SulfurCubeModel	()Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createOuterBodyLayer	method_1_4568
 CLASS	net/minecraft/client/model/object/banner/BannerFlagModel	net/minecraft/class_10377
 FIELD	net/minecraft/client/model/object/banner/BannerFlagModel	Lnet/minecraft/client/model/geom/ModelPart;	flag	field_55107
 METHOD	net/minecraft/client/model/object/banner/BannerFlagModel	(Z)Lnet/minecraft/client/model/geom/builders/LayerDefinition;	createFlagLayer	method_65189
@@ -80676,7 +80676,7 @@ CLASS	net/minecraft/client/particle/FlyTowardsPositionParticle$VaultConnectionPr
 FIELD	net/minecraft/client/particle/FlyTowardsPositionParticle$VaultConnectionProvider	Lnet/minecraft/client/particle/SpriteSet;	sprite	field_48940
 METHOD	net/minecraft/client/particle/FlyTowardsPositionParticle$VaultConnectionProvider	(Lnet/minecraft/core/particles/SimpleParticleType;Lnet/minecraft/client/multiplayer/ClientLevel;DDDDDDLnet/minecraft/util/RandomSource;)Lnet/minecraft/client/particle/Particle;	createParticle	method_56832
 CLASS	net/minecraft/client/renderer/OrderedSubmitNodeCollector	net/minecraft/class_11785
-METHOD	net/minecraft/client/renderer/OrderedSubmitNodeCollector	(Lnet/minecraft/client/renderer/rendertype/RenderType;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	lambda$submitModelPart$0	method_1_4568
+METHOD	net/minecraft/client/renderer/OrderedSubmitNodeCollector	(Lnet/minecraft/client/renderer/rendertype/RenderType;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	lambda$submitModelPart$0	method_1_4569
 METHOD	net/minecraft/client/renderer/OrderedSubmitNodeCollector	(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/rendertype/RenderType;Ljava/util/List;[IIII)V	submitBlockModel	method_73484
 METHOD	net/minecraft/client/renderer/OrderedSubmitNodeCollector	(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/block/dispatch/BlockStateModel;JI)V	submitBreakingBlockModel	method_1_3047
 METHOD	net/minecraft/client/renderer/OrderedSubmitNodeCollector	(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/rendertype/RenderType;Lnet/minecraft/client/renderer/SubmitNodeCollector$CustomGeometryRenderer;)V	submitCustomGeometry	method_73483
@@ -82799,8 +82799,8 @@ FIELD	net/minecraft/world/level/storage/loot/BuiltInLootTables	Lnet/minecraft/re
 FIELD	net/minecraft/world/level/storage/loot/BuiltInLootTables	Lnet/minecraft/resources/ResourceKey;	WEAPONSMITH_GIFT	field_19074
 FIELD	net/minecraft/world/level/storage/loot/BuiltInLootTables	Lnet/minecraft/resources/ResourceKey;	WOODLAND_MANSION	field_484
 METHOD	net/minecraft/world/level/storage/loot/BuiltInLootTables	()Ljava/util/Set;	all	method_270
-METHOD	net/minecraft/world/level/storage/loot/BuiltInLootTables	(Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/resources/ResourceKey;	lambda$static$0	method_1_4569
-METHOD	net/minecraft/world/level/storage/loot/BuiltInLootTables	(Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/resources/ResourceKey;	lambda$static$1	method_1_4570
+METHOD	net/minecraft/world/level/storage/loot/BuiltInLootTables	(Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/resources/ResourceKey;	lambda$static$0	method_1_4570
+METHOD	net/minecraft/world/level/storage/loot/BuiltInLootTables	(Lnet/minecraft/world/item/DyeColor;)Lnet/minecraft/resources/ResourceKey;	lambda$static$1	method_1_4571
 METHOD	net/minecraft/world/level/storage/loot/BuiltInLootTables	(Ljava/lang/String;)Lnet/minecraft/resources/ResourceKey;	register	method_269
 METHOD	net/minecraft/world/level/storage/loot/BuiltInLootTables	(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/resources/ResourceKey;	register	method_271
 CLASS	net/minecraft/world/level/storage/loot/ValidationContext	net/minecraft/class_58
@@ -85040,17 +85040,17 @@ FIELD	net/minecraft/world/level/block/entity/PotentSulfurEntity	I	EFFECT_DURATIO
 FIELD	net/minecraft/world/level/block/entity/PotentSulfurEntity	Ljava/util/function/Predicate;	EFFECT_PREDICATE	field_1_3806
 FIELD	net/minecraft/world/level/block/entity/PotentSulfurEntity	F	EFFECT_RANGE	field_1_3807
 FIELD	net/minecraft/world/level/block/entity/PotentSulfurEntity	I	PARTICLE_FREQUENCY_TICKS	field_1_3808
-METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/entity/LivingEntity;)V	applyNauseaEffect	method_1_4571
-METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/Vec3;)Z	canBeReachedByNoxiousGas	method_1_4572
-METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/PotentSulfurEntity;)V	clientTick	method_1_4573
-METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;	findNoxiousGasSourceBlock	method_1_4574
-METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Ljava/util/List;	getNearbyLivingEntities	method_1_4575
-METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Z	haveLineOfSight	method_1_4576
-METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;)Z	isAir	method_1_4577
-METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z	isUnderwater	method_1_4578
-METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;)Z	isWater	method_1_4579
-METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/PotentSulfurEntity;)V	serverTick	method_1_4580
-METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;)V	spawnNoxiousGasCloudParticle	method_1_4581
+METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/entity/LivingEntity;)V	applyNauseaEffect	method_1_4572
+METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/phys/Vec3;)Z	canBeReachedByNoxiousGas	method_1_4573
+METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/PotentSulfurEntity;)V	clientTick	method_1_4574
+METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/core/BlockPos;	findNoxiousGasSourceBlock	method_1_4575
+METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Ljava/util/List;	getNearbyLivingEntities	method_1_4576
+METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec3;)Z	haveLineOfSight	method_1_4577
+METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;)Z	isAir	method_1_4578
+METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z	isUnderwater	method_1_4579
+METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;)Z	isWater	method_1_4580
+METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/PotentSulfurEntity;)V	serverTick	method_1_4581
+METHOD	net/minecraft/world/level/block/entity/PotentSulfurEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/phys/Vec3;)V	spawnNoxiousGasCloudParticle	method_1_4582
 CLASS	net/minecraft/world/level/block/entity/SpawnerBlockEntity	net/minecraft/class_2636
 FIELD	net/minecraft/world/level/block/entity/SpawnerBlockEntity	Lnet/minecraft/world/level/BaseSpawner;	spawner	field_12114
 METHOD	net/minecraft/world/level/block/entity/SpawnerBlockEntity	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/entity/SpawnerBlockEntity;)V	clientTick	method_31696
@@ -87289,27 +87289,27 @@ FIELD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	F	oSquish	field
 FIELD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	F	squish	field_7388
 FIELD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	F	targetSquish	field_7389
 FIELD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	Z	wasOnGround	field_7391
-METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()V	addBehaviourGoals	method_1_4582
-METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()V	addTargetingGoals	method_1_4583
+METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()V	addBehaviourGoals	method_1_4583
+METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()V	addTargetingGoals	method_1_4584
 METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	(Lnet/minecraft/world/entity/LivingEntity;)V	dealDamage	method_7155
 METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()V	decreaseSquish	method_7156
 METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()Z	doPlayJumpSound	method_7159
 METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()F	getAttackDamage	method_7158
-METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/monster/cubemob/AbstractCubeMob;	getBreedOffspring	method_1_4584
+METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/entity/AgeableMob;)Lnet/minecraft/world/entity/monster/cubemob/AbstractCubeMob;	getBreedOffspring	method_1_4585
 METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()I	getJumpDelay	method_7154
 METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()Lnet/minecraft/sounds/SoundEvent;	getJumpSound	method_7153
 METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()Lnet/minecraft/core/particles/ParticleOptions;	getParticleType	method_7162
 METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()I	getSize	method_7152
 METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()F	getSoundPitch	method_24353
-METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()I	getSplitCount	method_1_4585
+METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()I	getSplitCount	method_1_4586
 METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()Lnet/minecraft/sounds/SoundEvent;	getSquishSound	method_7160
 METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()Z	isDealsDamage	method_7163
 METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	()Z	isTiny	method_7157
-METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	(IFFLnet/minecraft/world/entity/monster/cubemob/AbstractCubeMob;)V	lambda$remove$0	method_1_4586
+METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	(IFFLnet/minecraft/world/entity/monster/cubemob/AbstractCubeMob;)V	lambda$remove$0	method_1_4587
 METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	(IZ)V	setSize	method_7161
-METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;)V	setSpawnSize	method_1_4587
-METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	(Lnet/minecraft/world/entity/monster/cubemob/AbstractCubeMob;IFF)V	setUpSplitCube	method_1_4588
-METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	(I)V	setcubeMobHealth	method_1_4589
+METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/world/DifficultyInstance;)V	setSpawnSize	method_1_4588
+METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	(Lnet/minecraft/world/entity/monster/cubemob/AbstractCubeMob;IFF)V	setUpSplitCube	method_1_4589
+METHOD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob	(I)V	setcubeMobHealth	method_1_4590
 CLASS	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob$CubeMobAttackGoal	net/minecraft/class_1621$class_1622
 FIELD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob$CubeMobAttackGoal	Lnet/minecraft/world/entity/monster/cubemob/AbstractCubeMob;	cubeMob	field_7393
 FIELD	net/minecraft/world/entity/monster/cubemob/AbstractCubeMob$CubeMobAttackGoal	I	growTiredTimer	field_7392
@@ -87517,37 +87517,37 @@ FIELD	net/minecraft/world/level/block/WeatheringCopperCollection	Ljava/lang/Obje
 FIELD	net/minecraft/world/level/block/WeatheringCopperCollection	Ljava/lang/Object;	waxedOxidized	comp_1_584
 FIELD	net/minecraft/world/level/block/WeatheringCopperCollection	Ljava/lang/Object;	waxedWeathered	comp_1_585
 FIELD	net/minecraft/world/level/block/WeatheringCopperCollection	Ljava/lang/Object;	weathered	comp_1_586
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	()Lcom/google/common/collect/ImmutableList;	asList	method_1_4590
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/util/function/BiFunction;Ljava/util/function/BiFunction;)Lnet/minecraft/world/level/block/WeatheringCopperCollection;	createFamily	method_1_4591
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	()Lcom/google/common/collect/ImmutableList;	asList	method_1_4591
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/util/function/BiFunction;Ljava/util/function/BiFunction;)Lnet/minecraft/world/level/block/WeatheringCopperCollection;	createFamily	method_1_4592
 METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	()Ljava/lang/Object;	exposed	comp_1_579
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/util/function/Consumer;)V	forEach	method_1_4592
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/lang/String;Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Ljava/lang/Boolean;)Ljava/lang/String;	lambda$registerBlocks$0	method_1_4593
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/lang/Boolean;Ljava/util/function/BiFunction;Ljava/util/function/BiFunction;Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;	lambda$registerWeatheringBlock$0	method_1_4594
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/util/function/Consumer;)V	forEach	method_1_4593
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/lang/String;Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Ljava/lang/Boolean;)Ljava/lang/String;	lambda$registerBlocks$0	method_1_4594
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/lang/Boolean;Ljava/util/function/BiFunction;Ljava/util/function/BiFunction;Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Lnet/minecraft/world/level/block/state/BlockBehaviour$Properties;)Lnet/minecraft/world/level/block/Block;	lambda$registerWeatheringBlock$0	method_1_4595
 METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	()Ljava/lang/Object;	oxidized	comp_1_580
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Z)Ljava/lang/Object;	pick	method_1_4595
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Z)Ljava/lang/String;	prefixByState	method_1_4596
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/lang/String;Lorg/apache/commons/lang3/function/TriFunction;Ljava/util/function/BiFunction;Ljava/util/function/BiFunction;Ljava/util/function/Function;)Lnet/minecraft/world/level/block/WeatheringCopperCollection;	registerBlocks	method_1_4597
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/util/function/BiFunction;Lorg/apache/commons/lang3/function/TriFunction;Ljava/util/function/BiFunction;Ljava/util/function/BiFunction;Ljava/util/function/Function;)Lnet/minecraft/world/level/block/WeatheringCopperCollection;	registerBlocks	method_1_4598
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Lnet/minecraft/world/level/block/WeatheringCopperCollection;Ljava/util/function/Function;)Lnet/minecraft/world/level/block/WeatheringCopperCollection;	registerItems	method_1_4599
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Ljava/lang/Boolean;Ljava/util/function/BiFunction;Lorg/apache/commons/lang3/function/TriFunction;Ljava/util/function/BiFunction;Ljava/util/function/BiFunction;Ljava/util/function/Function;)Lnet/minecraft/world/level/block/Block;	registerWeatheringBlock	method_1_4600
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/util/function/BiPredicate;)Ljava/util/Collection;	select	method_1_4601
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Z)Ljava/lang/Object;	pick	method_1_4596
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Z)Ljava/lang/String;	prefixByState	method_1_4597
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/lang/String;Lorg/apache/commons/lang3/function/TriFunction;Ljava/util/function/BiFunction;Ljava/util/function/BiFunction;Ljava/util/function/Function;)Lnet/minecraft/world/level/block/WeatheringCopperCollection;	registerBlocks	method_1_4598
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/util/function/BiFunction;Lorg/apache/commons/lang3/function/TriFunction;Ljava/util/function/BiFunction;Ljava/util/function/BiFunction;Ljava/util/function/Function;)Lnet/minecraft/world/level/block/WeatheringCopperCollection;	registerBlocks	method_1_4599
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Lnet/minecraft/world/level/block/WeatheringCopperCollection;Ljava/util/function/Function;)Lnet/minecraft/world/level/block/WeatheringCopperCollection;	registerItems	method_1_4600
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Ljava/lang/Boolean;Ljava/util/function/BiFunction;Lorg/apache/commons/lang3/function/TriFunction;Ljava/util/function/BiFunction;Ljava/util/function/BiFunction;Ljava/util/function/Function;)Lnet/minecraft/world/level/block/Block;	registerWeatheringBlock	method_1_4601
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/util/function/BiPredicate;)Ljava/util/Collection;	select	method_1_4602
 METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	()Ljava/lang/Object;	unaffected	comp_1_581
 METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	()Ljava/lang/Object;	waxed	comp_1_583
 METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	()Ljava/lang/Object;	waxedExposed	comp_1_582
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	()Lcom/google/common/collect/ImmutableBiMap;	waxedMapping	method_1_4602
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	()Lcom/google/common/collect/ImmutableBiMap;	waxedMapping	method_1_4603
 METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	()Ljava/lang/Object;	waxedOxidized	comp_1_584
 METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	()Ljava/lang/Object;	waxedWeathered	comp_1_585
 METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	()Ljava/lang/Object;	weathered	comp_1_586
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	()Lcom/google/common/collect/ImmutableBiMap;	weatheringMapping	method_1_4603
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/util/function/BiConsumer;Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lnet/minecraft/world/level/block/WeatheringCopperCollection;)V	zipApply	method_1_4604
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Lnet/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer;Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lnet/minecraft/world/level/block/WeatheringCopperCollection;)V	zipApply	method_1_4605
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Lorg/apache/commons/lang3/function/TriConsumer;Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lnet/minecraft/world/level/block/WeatheringCopperCollection;)V	zipApply	method_1_4606
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	()Lcom/google/common/collect/ImmutableBiMap;	weatheringMapping	method_1_4604
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Ljava/util/function/BiConsumer;Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lnet/minecraft/world/level/block/WeatheringCopperCollection;)V	zipApply	method_1_4605
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Lnet/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer;Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lnet/minecraft/world/level/block/WeatheringCopperCollection;)V	zipApply	method_1_4606
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection	(Lorg/apache/commons/lang3/function/TriConsumer;Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lnet/minecraft/world/level/block/WeatheringCopperCollection;Lnet/minecraft/world/level/block/WeatheringCopperCollection;)V	zipApply	method_1_4607
 CLASS	net/minecraft/world/level/block/WeatheringCopperCollection$1	net/minecraft/class_1_758$1
 FIELD	net/minecraft/world/level/block/WeatheringCopperCollection$1	[I	$SwitchMap$net$minecraft$world$level$block$WeatheringCopper$WeatherState	field_1_3812
 CLASS	net/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer	net/minecraft/class_1_758$class_1_759
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer	(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V	accept	method_1_4607
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer	(Lnet/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer;)Lnet/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer;	andThen	method_1_4608
-METHOD	net/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer	(Lnet/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V	lambda$andThen$0	method_1_4609
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer	(Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V	accept	method_1_4608
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer	(Lnet/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer;)Lnet/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer;	andThen	method_1_4609
+METHOD	net/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer	(Lnet/minecraft/world/level/block/WeatheringCopperCollection$QuadConsumer;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;Ljava/lang/Object;)V	lambda$andThen$0	method_1_4610
 CLASS	net/minecraft/world/level/block/WeatheringCopperGrateBlock	net/minecraft/class_8926
 FIELD	net/minecraft/world/level/block/WeatheringCopperGrateBlock	Lcom/mojang/serialization/MapCodec;	CODEC	field_47092
 FIELD	net/minecraft/world/level/block/WeatheringCopperGrateBlock	Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;	weatherState	field_47093
@@ -87750,8 +87750,8 @@ METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraf
 METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/properties/SpeleothemThickness;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/block/state/BlockState;	createPointedBlock	method_33013
 METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(DDDD)D	getSpeleothemHeight	method_33005
 METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;IZLnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/HolderSet;)V	growSpeleothem	method_33010
-METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/HolderSet;)Z	isBase	method_1_4610
-METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/HolderSet;)Z	isBaseOrLava	method_1_4611
+METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/HolderSet;)Z	isBase	method_1_4611
+METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/HolderSet;)Z	isBaseOrLava	method_1_4612
 METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/core/BlockPos;I)Z	isCircleMostlyEmbeddedInStone	method_33009
 METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;)Z	isEmptyOrWater	method_33006
 METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraft/world/level/block/state/BlockState;)Z	isEmptyOrWater	method_33014
@@ -87759,9 +87759,9 @@ METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraf
 METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraft/world/level/block/state/BlockState;)Z	isEmptyOrWaterOrLava	method_33389
 METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraft/world/level/block/state/BlockState;)Z	isNeitherEmptyNorWater	method_40074
 METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos$MutableBlockPos;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;)V	lambda$growSpeleothem$0	method_33007
-METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/HolderSet;)Z	placeBaseBlockIfPossible	method_1_4612
+METHOD	net/minecraft/world/level/levelgen/feature/SpeleothemUtils	(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/HolderSet;)Z	placeBaseBlockIfPossible	method_1_4613
 CLASS	net/minecraft/world/level/levelgen/feature/TemplateFeature	net/minecraft/class_1_761
-METHOD	net/minecraft/world/level/levelgen/feature/TemplateFeature	(Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/core/Direction$Axis;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;)Lnet/minecraft/core/Vec3i;	getRotatedOffset	method_1_4613
+METHOD	net/minecraft/world/level/levelgen/feature/TemplateFeature	(Lnet/minecraft/world/level/block/Rotation;Lnet/minecraft/core/Direction$Axis;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;)Lnet/minecraft/core/Vec3i;	getRotatedOffset	method_1_4614
 CLASS	net/minecraft/world/level/levelgen/placement/PlacedFeature	net/minecraft/class_6796
 FIELD	net/minecraft/world/level/levelgen/placement/PlacedFeature	Lcom/mojang/serialization/Codec;	CODEC	field_35730
 FIELD	net/minecraft/world/level/levelgen/placement/PlacedFeature	Lcom/mojang/serialization/Codec;	DIRECT_CODEC	field_35729
@@ -88226,7 +88226,7 @@ METHOD	net/minecraft/client/renderer/chunk/SectionRenderDispatcher	()I	getFreeBu
 METHOD	net/minecraft/client/renderer/chunk/SectionRenderDispatcher	(Lnet/minecraft/client/renderer/chunk/SectionMesh;Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher$RenderSectionBufferSlice;	getRenderSectionSlice	method_1_2401
 METHOD	net/minecraft/client/renderer/chunk/SectionRenderDispatcher	()Ljava/lang/String;	getStats	method_3622
 METHOD	net/minecraft/client/renderer/chunk/SectionRenderDispatcher	()Z	isQueueEmpty	method_3630
-METHOD	net/minecraft/client/renderer/chunk/SectionRenderDispatcher	(Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher$SectionUberBuffers;	lambda$new$0	method_1_4614
+METHOD	net/minecraft/client/renderer/chunk/SectionRenderDispatcher	(Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher$SectionUberBuffers;	lambda$new$0	method_1_4615
 METHOD	net/minecraft/client/renderer/chunk/SectionRenderDispatcher	()V	lock	method_1_2403
 METHOD	net/minecraft/client/renderer/chunk/SectionRenderDispatcher	(Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher$RenderSection;Lnet/minecraft/client/renderer/chunk/RenderRegionCache;)V	rebuildSectionSync	method_3627
 METHOD	net/minecraft/client/renderer/chunk/SectionRenderDispatcher	()V	runTask	method_22763
@@ -90007,8 +90007,8 @@ FIELD	net/minecraft/client/gui/components/debugchart/TpsDebugChart	I	TICK_METHOD
 FIELD	net/minecraft/client/gui/components/debugchart/TpsDebugChart	Ljava/util/function/Supplier;	msptSupplier	field_47117
 METHOD	net/minecraft/client/gui/components/debugchart/TpsDebugChart	(D)D	toMilliseconds	method_53482
 CLASS	net/minecraft/client/gui/render/pip/GuiProfilerChartRenderer	net/minecraft/class_11236
-METHOD	net/minecraft/client/gui/render/pip/GuiProfilerChartRenderer	(IIDDLcom/mojang/blaze3d/vertex/PoseStack$Pose;Lcom/mojang/blaze3d/vertex/VertexConsumer;)V	lambda$renderToTexture$0	method_1_4615
-METHOD	net/minecraft/client/gui/render/pip/GuiProfilerChartRenderer	(IDDILcom/mojang/blaze3d/vertex/PoseStack$Pose;Lcom/mojang/blaze3d/vertex/VertexConsumer;)V	lambda$renderToTexture$1	method_1_4616
+METHOD	net/minecraft/client/gui/render/pip/GuiProfilerChartRenderer	(IIDDLcom/mojang/blaze3d/vertex/PoseStack$Pose;Lcom/mojang/blaze3d/vertex/VertexConsumer;)V	lambda$renderToTexture$0	method_1_4616
+METHOD	net/minecraft/client/gui/render/pip/GuiProfilerChartRenderer	(IDDILcom/mojang/blaze3d/vertex/PoseStack$Pose;Lcom/mojang/blaze3d/vertex/VertexConsumer;)V	lambda$renderToTexture$1	method_1_4617
 METHOD	net/minecraft/client/gui/render/pip/GuiProfilerChartRenderer	(Lnet/minecraft/client/renderer/state/gui/pip/GuiProfilerChartRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;)V	renderToTexture	method_70910
 CLASS	net/minecraft/client/gui/render/pip/PictureInPictureRenderer	net/minecraft/class_11239
 FIELD	net/minecraft/client/gui/render/pip/PictureInPictureRenderer	Lcom/mojang/blaze3d/textures/GpuTexture;	depthTexture	field_59936
@@ -90356,10 +90356,10 @@ CLASS	net/minecraft/client/renderer/blockentity/SkullBlockRenderer$1	net/minecra
 FIELD	net/minecraft/client/renderer/blockentity/SkullBlockRenderer$1	[I	$SwitchMap$net$minecraft$world$level$block$SkullBlock$Types	field_55285
 CLASS	net/minecraft/client/renderer/blockentity/state/package-info	net/minecraft/class_11976
 CLASS	net/minecraft/client/renderer/entity/AbstractCubeMobRenderer	net/minecraft/class_1_762
-METHOD	net/minecraft/client/renderer/entity/AbstractCubeMobRenderer	(Lnet/minecraft/client/renderer/entity/state/SlimeRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;)V	applySizeAndSquish	method_1_4617
-METHOD	net/minecraft/client/renderer/entity/AbstractCubeMobRenderer	(Lcom/mojang/blaze3d/vertex/PoseStack;)V	downscaleSlightly	method_1_4618
-METHOD	net/minecraft/client/renderer/entity/AbstractCubeMobRenderer	(Lnet/minecraft/world/entity/monster/cubemob/AbstractCubeMob;Lnet/minecraft/client/renderer/entity/state/SlimeRenderState;F)V	extractRenderState	method_1_4619
-METHOD	net/minecraft/client/renderer/entity/AbstractCubeMobRenderer	(Lnet/minecraft/client/renderer/entity/state/SlimeRenderState;)F	getShadowRadius	method_1_4620
+METHOD	net/minecraft/client/renderer/entity/AbstractCubeMobRenderer	(Lnet/minecraft/client/renderer/entity/state/SlimeRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;)V	applySizeAndSquish	method_1_4618
+METHOD	net/minecraft/client/renderer/entity/AbstractCubeMobRenderer	(Lcom/mojang/blaze3d/vertex/PoseStack;)V	downscaleSlightly	method_1_4619
+METHOD	net/minecraft/client/renderer/entity/AbstractCubeMobRenderer	(Lnet/minecraft/world/entity/monster/cubemob/AbstractCubeMob;Lnet/minecraft/client/renderer/entity/state/SlimeRenderState;F)V	extractRenderState	method_1_4620
+METHOD	net/minecraft/client/renderer/entity/AbstractCubeMobRenderer	(Lnet/minecraft/client/renderer/entity/state/SlimeRenderState;)F	getShadowRadius	method_1_4621
 METHOD	net/minecraft/client/renderer/entity/AbstractCubeMobRenderer	(Lnet/minecraft/client/renderer/entity/state/SlimeRenderState;Lcom/mojang/blaze3d/vertex/PoseStack;)V	scale	method_4118
 CLASS	net/minecraft/client/renderer/entity/WanderingTraderRenderer	net/minecraft/class_3992
 FIELD	net/minecraft/client/renderer/entity/WanderingTraderRenderer	Lnet/minecraft/resources/Identifier;	VILLAGER_BASE_SKIN	field_17739
@@ -93285,11 +93285,11 @@ FIELD	net/minecraft/world/item/trading/TradeRebalanceVillagerTrades	Lnet/minecra
 FIELD	net/minecraft/world/item/trading/TradeRebalanceVillagerTrades	Lnet/minecraft/resources/ResourceKey;	LIBRARIAN_5_EMERALD_AND_BOOK_SWAMP_ENCHANTED_BOOK	field_1_801
 FIELD	net/minecraft/world/item/trading/TradeRebalanceVillagerTrades	Lnet/minecraft/resources/ResourceKey;	LIBRARIAN_5_EMERALD_AND_BOOK_TAIGA_ENCHANTED_BOOK	field_1_802
 METHOD	net/minecraft/world/item/trading/TradeRebalanceVillagerTrades	(Lnet/minecraft/data/worldgen/BootstrapContext;)Lnet/minecraft/core/Holder;	bootstrap	method_1_704
-METHOD	net/minecraft/world/item/trading/TradeRebalanceVillagerTrades	(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/item/trading/VillagerTrade;	createLibrarianLevel1EnchantmentTrade	method_1_4621
-METHOD	net/minecraft/world/item/trading/TradeRebalanceVillagerTrades	(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/item/trading/VillagerTrade;	createLibrarianLevel2EnchantmentTrade	method_1_4622
-METHOD	net/minecraft/world/item/trading/TradeRebalanceVillagerTrades	(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/item/trading/VillagerTrade;	createLibrarianLevel3EnchantmentTrade	method_1_4623
-METHOD	net/minecraft/world/item/trading/TradeRebalanceVillagerTrades	(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/Holder;I)Lnet/minecraft/world/item/trading/VillagerTrade;	createLibrarianLevel5EnchantmentTrade	method_1_4624
-METHOD	net/minecraft/world/item/trading/TradeRebalanceVillagerTrades	(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/item/trading/VillagerTrade;	createLibrarianLevel5SpecialEnchantmentTrade	method_1_4625
+METHOD	net/minecraft/world/item/trading/TradeRebalanceVillagerTrades	(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/item/trading/VillagerTrade;	createLibrarianLevel1EnchantmentTrade	method_1_4622
+METHOD	net/minecraft/world/item/trading/TradeRebalanceVillagerTrades	(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/item/trading/VillagerTrade;	createLibrarianLevel2EnchantmentTrade	method_1_4623
+METHOD	net/minecraft/world/item/trading/TradeRebalanceVillagerTrades	(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/item/trading/VillagerTrade;	createLibrarianLevel3EnchantmentTrade	method_1_4624
+METHOD	net/minecraft/world/item/trading/TradeRebalanceVillagerTrades	(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/Holder;I)Lnet/minecraft/world/item/trading/VillagerTrade;	createLibrarianLevel5EnchantmentTrade	method_1_4625
+METHOD	net/minecraft/world/item/trading/TradeRebalanceVillagerTrades	(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/HolderSet;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/item/trading/VillagerTrade;	createLibrarianLevel5SpecialEnchantmentTrade	method_1_4626
 CLASS	net/minecraft/world/level/biome/CheckerboardColumnBiomeSource	net/minecraft/class_1973
 FIELD	net/minecraft/world/level/biome/CheckerboardColumnBiomeSource	Lcom/mojang/serialization/MapCodec;	CODEC	field_24715
 FIELD	net/minecraft/world/level/biome/CheckerboardColumnBiomeSource	Lnet/minecraft/core/HolderSet;	allowedBiomes	field_9481
@@ -97798,7 +97798,7 @@ METHOD	net/minecraft/client/renderer/entity/layers/SimpleEquipmentLayer	(Lcom/mo
 CLASS	net/minecraft/client/renderer/entity/layers/SulfurCubeInnerLayer	net/minecraft/class_1_763
 FIELD	net/minecraft/client/renderer/entity/layers/SulfurCubeInnerLayer	Lnet/minecraft/resources/Identifier;	SULFUR_CUBE_INNER_LOCATION	field_1_3818
 FIELD	net/minecraft/client/renderer/entity/layers/SulfurCubeInnerLayer	Lnet/minecraft/client/model/monster/slime/SulfurCubeModel;	model	field_1_3819
-METHOD	net/minecraft/client/renderer/entity/layers/SulfurCubeInnerLayer	(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;FF)V	submit	method_1_4626
+METHOD	net/minecraft/client/renderer/entity/layers/SulfurCubeInnerLayer	(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;ILnet/minecraft/client/renderer/entity/state/SulfurCubeRenderState;FF)V	submit	method_1_4627
 CLASS	net/minecraft/client/renderer/entity/state/ArmorStandRenderState	net/minecraft/class_9998
 FIELD	net/minecraft/client/renderer/entity/state/ArmorStandRenderState	Lnet/minecraft/core/Rotations;	bodyPose	field_53252
 FIELD	net/minecraft/client/renderer/entity/state/ArmorStandRenderState	Lnet/minecraft/core/Rotations;	headPose	field_53251
@@ -97918,7 +97918,7 @@ METHOD	net/minecraft/core/component/predicates/JukeboxPlayablePredicate	(Lnet/mi
 METHOD	net/minecraft/core/component/predicates/JukeboxPlayablePredicate	()Ljava/util/Optional;	song	comp_2830
 CLASS	net/minecraft/core/dispenser/SulfurCubeBlockDispenseItemBehavior	net/minecraft/class_1_765
 FIELD	net/minecraft/core/dispenser/SulfurCubeBlockDispenseItemBehavior	Lnet/minecraft/core/dispenser/SulfurCubeBlockDispenseItemBehavior;	INSTANCE	field_1_3821
-METHOD	net/minecraft/core/dispenser/SulfurCubeBlockDispenseItemBehavior	(Lnet/minecraft/core/dispenser/BlockSource;Lnet/minecraft/world/item/ItemStack;)Z	dispenseBlock	method_1_4627
+METHOD	net/minecraft/core/dispenser/SulfurCubeBlockDispenseItemBehavior	(Lnet/minecraft/core/dispenser/BlockSource;Lnet/minecraft/world/item/ItemStack;)Z	dispenseBlock	method_1_4628
 CLASS	net/minecraft/data/advancements/packs/VanillaAdvancementProvider	net/minecraft/class_7786
 METHOD	net/minecraft/data/advancements/packs/VanillaAdvancementProvider	(Lnet/minecraft/data/PackOutput;Ljava/util/concurrent/CompletableFuture;)Lnet/minecraft/data/advancements/AdvancementProvider;	create	method_45974
 CLASS	net/minecraft/data/loot/packs/VanillaChargedCreeperExplosionLoot	net/minecraft/class_11703
@@ -98458,7 +98458,7 @@ FIELD	net/minecraft/world/level/gameevent/vibrations/VibrationSelector$Vibration
 METHOD	net/minecraft/world/level/gameevent/vibrations/VibrationSelector$VibrationEvent	()Lnet/minecraft/world/level/gameevent/vibrations/VibrationInfo;	event	comp_1_587
 METHOD	net/minecraft/world/level/gameevent/vibrations/VibrationSelector$VibrationEvent	()J	tick	comp_1_588
 CLASS	net/minecraft/world/level/levelgen/feature/LargeDripstoneFeature	net/minecraft/class_5727
-METHOD	net/minecraft/world/level/levelgen/feature/LargeDripstoneFeature	(Lnet/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration;Lnet/minecraft/world/level/block/state/BlockState;)Z	lambda$place$0	method_1_4628
+METHOD	net/minecraft/world/level/levelgen/feature/LargeDripstoneFeature	(Lnet/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration;Lnet/minecraft/world/level/block/state/BlockState;)Z	lambda$place$0	method_1_4629
 METHOD	net/minecraft/world/level/levelgen/feature/LargeDripstoneFeature	(Lnet/minecraft/core/BlockPos;ZLnet/minecraft/util/RandomSource;ILnet/minecraft/util/valueproviders/FloatProvider;Lnet/minecraft/util/valueproviders/FloatProvider;)Lnet/minecraft/world/level/levelgen/feature/LargeDripstoneFeature$LargeDripstone;	makeDripstone	method_33016
 METHOD	net/minecraft/world/level/levelgen/feature/LargeDripstoneFeature	(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/Column$Range;Lnet/minecraft/world/level/levelgen/feature/LargeDripstoneFeature$WindOffsetter;)V	placeDebugMarkers	method_35360
 CLASS	net/minecraft/world/level/levelgen/feature/LargeDripstoneFeature$LargeDripstone	net/minecraft/class_5727$class_5728
@@ -99044,7 +99044,7 @@ FIELD	net/minecraft/client/renderer/entity/state/WitherSkullRenderState	Z	isDang
 FIELD	net/minecraft/client/renderer/entity/state/WitherSkullRenderState	Lnet/minecraft/client/model/object/skull/SkullModelBase$State;	modelState	field_61825
 CLASS	net/minecraft/client/renderer/feature/ShapeOutlineFeatureRenderer	net/minecraft/class_9974
 METHOD	net/minecraft/client/renderer/feature/ShapeOutlineFeatureRenderer	(Lorg/joml/Vector3f;Lcom/mojang/blaze3d/vertex/VertexConsumer;Lcom/mojang/blaze3d/vertex/PoseStack$Pose;IFDDDDDD)V	lambda$renderTranslucent$0	method_62299
-METHOD	net/minecraft/client/renderer/feature/ShapeOutlineFeatureRenderer	(Lnet/minecraft/client/renderer/SubmitNodeCollection;Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;Z)V	renderTranslucent	method_1_4629
+METHOD	net/minecraft/client/renderer/feature/ShapeOutlineFeatureRenderer	(Lnet/minecraft/client/renderer/SubmitNodeCollection;Lnet/minecraft/client/renderer/MultiBufferSource$BufferSource;Z)V	renderTranslucent	method_1_4630
 CLASS	net/minecraft/client/renderer/fog/environment/WaterFogEnvironment	net/minecraft/class_11403
 CLASS	net/minecraft/client/renderer/item/properties/conditional/Damaged	net/minecraft/class_10462
 FIELD	net/minecraft/client/renderer/item/properties/conditional/Damaged	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_55374
@@ -100492,7 +100492,7 @@ METHOD	net/minecraft/data/advancements/packs/VanillaAdventureAdvancements	(Lnet/
 METHOD	net/minecraft/data/advancements/packs/VanillaAdventureAdvancements	(Lnet/minecraft/advancements/criterion/MinMaxBounds$Ints;Ljava/util/Optional;)Lnet/minecraft/advancements/Criterion;	fireCountAndBystander	method_37316
 METHOD	net/minecraft/data/advancements/packs/VanillaAdventureAdvancements	(Lnet/minecraft/advancements/Advancement$Builder;Lnet/minecraft/core/HolderGetter;Lnet/minecraft/world/entity/EntityType;)V	lambda$addMobsToKill$0	method_55580
 METHOD	net/minecraft/data/advancements/packs/VanillaAdventureAdvancements	(Lnet/minecraft/advancements/Advancement$Builder;Lnet/minecraft/resources/ResourceKey;)V	lambda$craftingANewLook$0	method_54650
-METHOD	net/minecraft/data/advancements/packs/VanillaAdventureAdvancements	(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Ljava/lang/Boolean;)Z	lambda$generate$0	method_1_4630
+METHOD	net/minecraft/data/advancements/packs/VanillaAdventureAdvancements	(Lnet/minecraft/world/level/block/WeatheringCopper$WeatherState;Ljava/lang/Boolean;)Z	lambda$generate$0	method_1_4631
 METHOD	net/minecraft/data/advancements/packs/VanillaAdventureAdvancements	(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/tags/TagKey;Lnet/minecraft/core/Direction;)Lnet/minecraft/world/level/storage/loot/predicates/AllOfCondition$Builder;	lambda$placedBlockActivatesCreakingHeart$0	method_70960
 METHOD	net/minecraft/data/advancements/packs/VanillaAdventureAdvancements	(I)[Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;	lambda$placedBlockActivatesCreakingHeart$1	method_70958
 METHOD	net/minecraft/data/advancements/packs/VanillaAdventureAdvancements	(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/Direction;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;	lambda$placedBlockReadByComparator$0	method_51817
@@ -107055,8 +107055,8 @@ METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/ProcessorRule
 CLASS	net/minecraft/world/level/levelgen/structure/templatesystem/RuleProcessor	net/minecraft/class_3826
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/RuleProcessor	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_3822
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/RuleProcessor	Lcom/google/common/collect/ImmutableList;	rules	field_16881
-METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/RuleProcessor	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4631
-METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/RuleProcessor	(Lnet/minecraft/world/level/levelgen/structure/templatesystem/RuleProcessor;)Ljava/util/List;	lambda$static$1	method_1_4632
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/RuleProcessor	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4632
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/RuleProcessor	(Lnet/minecraft/world/level/levelgen/structure/templatesystem/RuleProcessor;)Ljava/util/List;	lambda$static$1	method_1_4633
 CLASS	net/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer	net/minecraft/class_85
 FIELD	net/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer	I	DEFAULT_QUALITY	field_31848
 FIELD	net/minecraft/world/level/storage/loot/entries/LootPoolSingletonContainer	I	DEFAULT_WEIGHT	field_31847
@@ -108507,8 +108507,8 @@ FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockAgeProces
 METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockAgeProcessor	(Lnet/minecraft/util/RandomSource;[Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;	getRandomBlock	method_27259
 METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockAgeProcessor	(Lnet/minecraft/util/RandomSource;[Lnet/minecraft/world/level/block/state/BlockState;[Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;	getRandomBlock	method_27260
 METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockAgeProcessor	(Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/block/state/BlockState;	getRandomFacingStairs	method_27257
-METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockAgeProcessor	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4633
-METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockAgeProcessor	(Lnet/minecraft/world/level/levelgen/structure/templatesystem/BlockAgeProcessor;)Ljava/lang/Float;	lambda$static$1	method_1_4634
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockAgeProcessor	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4634
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockAgeProcessor	(Lnet/minecraft/world/level/levelgen/structure/templatesystem/BlockAgeProcessor;)Ljava/lang/Float;	lambda$static$1	method_1_4635
 METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockAgeProcessor	(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/level/block/state/BlockState;	maybeReplaceFullStoneBlock	method_27256
 METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockAgeProcessor	(Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/level/block/state/BlockState;	maybeReplaceObsidian	method_27263
 METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockAgeProcessor	(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/util/RandomSource;)Lnet/minecraft/world/level/block/state/BlockState;	maybeReplaceSlab	method_27261
@@ -108731,7 +108731,7 @@ METHOD	net/minecraft/world/level/levelgen/structure/structures/OceanMonumentStru
 METHOD	net/minecraft/world/level/levelgen/structure/structures/OceanMonumentStructure	(Lnet/minecraft/world/level/levelgen/structure/Structure$GenerationContext;Lnet/minecraft/world/level/levelgen/structure/pieces/StructurePiecesBuilder;)V	lambda$findGenerationPoint$0	method_41675
 METHOD	net/minecraft/world/level/levelgen/structure/structures/OceanMonumentStructure	(Lnet/minecraft/world/level/ChunkPos;JLnet/minecraft/world/level/levelgen/structure/pieces/PiecesContainer;)Lnet/minecraft/world/level/levelgen/structure/pieces/PiecesContainer;	regeneratePiecesAfterLoad	method_38680
 CLASS	net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessor	net/minecraft/class_3491
-METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessor	()Lcom/mojang/serialization/MapCodec;	codec	method_1_4635
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessor	()Lcom/mojang/serialization/MapCodec;	codec	method_1_4636
 METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessor	(Lnet/minecraft/world/level/ServerLevelAccessor;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Ljava/util/List;Ljava/util/List;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;)Ljava/util/List;	finalizeProcessing	method_49887
 METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessor	(Lnet/minecraft/world/level/LevelReader;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$StructureBlockInfo;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$StructureBlockInfo;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructurePlaceSettings;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$StructureBlockInfo;	processBlock	method_15110
 CLASS	net/minecraft/world/level/storage/loot/providers/score/ScoreboardNameProviders	net/minecraft/class_5671
@@ -108920,8 +108920,8 @@ FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnorePro
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor	Lnet/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor;	STRUCTURE_BLOCK	field_16718
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor	Lcom/mojang/serialization/Codec;	WEIRD_BLOCK_STATE_CODEC	field_1_3823
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor	Lcom/google/common/collect/ImmutableList;	toIgnore	field_16720
-METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4636
-METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor	(Lnet/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor;)Ljava/util/List;	lambda$static$1	method_1_4637
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4637
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor	(Lnet/minecraft/world/level/levelgen/structure/templatesystem/BlockIgnoreProcessor;)Ljava/util/List;	lambda$static$1	method_1_4638
 CLASS	net/minecraft/world/level/levelgen/structure/templatesystem/RandomBlockMatchTest	net/minecraft/class_3824
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/RandomBlockMatchTest	Lcom/mojang/serialization/MapCodec;	CODEC	field_25009
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/RandomBlockMatchTest	Lnet/minecraft/world/level/block/Block;	block	field_16880
@@ -109088,14 +109088,14 @@ METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfi
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	()F	chanceOfSpreadRadius2	comp_1_612
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	()F	chanceOfSpreadRadius3	comp_1_613
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	()F	chanceOfTallerGeneration	comp_1_614
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4638
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration;)Lnet/minecraft/world/level/block/state/BlockState;	lambda$static$1	method_1_4639
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration;)Lnet/minecraft/world/level/block/state/BlockState;	lambda$static$2	method_1_4640
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration;)Lnet/minecraft/core/HolderSet;	lambda$static$3	method_1_4641
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration;)Ljava/lang/Float;	lambda$static$4	method_1_4642
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration;)Ljava/lang/Float;	lambda$static$5	method_1_4643
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration;)Ljava/lang/Float;	lambda$static$6	method_1_4644
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration;)Ljava/lang/Float;	lambda$static$7	method_1_4645
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4639
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration;)Lnet/minecraft/world/level/block/state/BlockState;	lambda$static$1	method_1_4640
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration;)Lnet/minecraft/world/level/block/state/BlockState;	lambda$static$2	method_1_4641
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration;)Lnet/minecraft/core/HolderSet;	lambda$static$3	method_1_4642
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration;)Ljava/lang/Float;	lambda$static$4	method_1_4643
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration;)Ljava/lang/Float;	lambda$static$5	method_1_4644
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration;)Ljava/lang/Float;	lambda$static$6	method_1_4645
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration;)Ljava/lang/Float;	lambda$static$7	method_1_4646
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	()Lnet/minecraft/world/level/block/state/BlockState;	pointedBlock	comp_1_615
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemConfiguration	()Lnet/minecraft/core/HolderSet;	replaceableBlocks	comp_1_616
 CLASS	net/minecraft/world/level/levelgen/feature/foliageplacers/MegaJungleFoliagePlacer	net/minecraft/class_5209
@@ -109247,7 +109247,7 @@ FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureProce
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessorType	Lcom/mojang/serialization/Codec;	LIST_CODEC	field_25877
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessorType	Lcom/mojang/serialization/Codec;	LIST_OBJECT_CODEC	field_26663
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessorType	Lcom/mojang/serialization/Codec;	SINGLE_CODEC	field_25013
-METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessorType	(Lcom/mojang/serialization/MapCodec;)Lcom/mojang/serialization/MapCodec;	lambda$static$0	method_1_4646
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessorType	(Lcom/mojang/serialization/MapCodec;)Lcom/mojang/serialization/MapCodec;	lambda$static$0	method_1_4647
 CLASS	net/minecraft/world/level/levelgen/structure/templatesystem/rule/blockentity/Clear	net/minecraft/class_8246
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/rule/blockentity/Clear	Lcom/mojang/serialization/MapCodec;	CODEC	field_43341
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/rule/blockentity/Clear	Lnet/minecraft/world/level/levelgen/structure/templatesystem/rule/blockentity/Clear;	INSTANCE	field_43342
@@ -109333,9 +109333,9 @@ CLASS	net/minecraft/world/level/levelgen/structure/templatesystem/ProtectedBlock
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/ProtectedBlockProcessor	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_3825
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/ProtectedBlockProcessor	Lnet/minecraft/core/HolderSet;	cannotReplace	comp_1_617
 METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/ProtectedBlockProcessor	()Lnet/minecraft/core/HolderSet;	cannotReplace	comp_1_617
-METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/ProtectedBlockProcessor	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4647
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/ProtectedBlockProcessor	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4648
 CLASS	net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessorTypes	net/minecraft/class_1_769
-METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessorTypes	(Lnet/minecraft/core/Registry;)Lcom/mojang/serialization/MapCodec;	bootstrap	method_1_4648
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureProcessorTypes	(Lnet/minecraft/core/Registry;)Lcom/mojang/serialization/MapCodec;	bootstrap	method_1_4649
 CLASS	net/minecraft/client/renderer/block/model/properties/select/SelectBlockModelProperty	net/minecraft/class_1_461
 METHOD	net/minecraft/client/renderer/block/model/properties/select/SelectBlockModelProperty	(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/client/renderer/block/model/BlockDisplayContext;)Ljava/lang/Object;	get	method_1_2908
 CLASS	net/minecraft/client/renderer/item/properties/numeric/RangeSelectItemModelProperties	net/minecraft/class_10482
@@ -109465,7 +109465,7 @@ FIELD	net/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneCo
 FIELD	net/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration	Lnet/minecraft/util/valueproviders/FloatProvider;	stalagmiteBluntness	field_28233
 FIELD	net/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration	Lnet/minecraft/util/valueproviders/FloatProvider;	windSpeed	field_28234
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_33052
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration;)Lnet/minecraft/core/HolderSet;	lambda$static$1	method_1_4649
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration;)Lnet/minecraft/core/HolderSet;	lambda$static$1	method_1_4650
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration;)Ljava/lang/Float;	lambda$static$10	method_33053
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration;)Ljava/lang/Integer;	lambda$static$2	method_33061
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/LargeDripstoneConfiguration;)Lnet/minecraft/util/valueproviders/IntProvider;	lambda$static$3	method_33060
@@ -109596,14 +109596,14 @@ METHOD	net/minecraft/world/level/levelgen/feature/configurations/NetherForestVeg
 CLASS	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration	net/minecraft/class_1_770
 FIELD	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration	Lcom/mojang/serialization/Codec;	CODEC	field_1_3827
 FIELD	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration	Lnet/minecraft/util/random/WeightedList;	templates	comp_1_618
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4650
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4651
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration	()Lnet/minecraft/util/random/WeightedList;	templates	comp_1_618
 CLASS	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration$TemplateEntry	net/minecraft/class_1_770$class_1_771
 FIELD	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration$TemplateEntry	Lcom/mojang/serialization/Codec;	CODEC	field_1_3828
 FIELD	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration$TemplateEntry	Ljava/util/List;	rotations	comp_1_619
 FIELD	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration$TemplateEntry	Lnet/minecraft/resources/Identifier;	template	comp_1_620
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration$TemplateEntry	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4651
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration$TemplateEntry	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration$TemplateEntry;	of	method_1_4652
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration$TemplateEntry	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4652
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration$TemplateEntry	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration$TemplateEntry;	of	method_1_4653
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration$TemplateEntry	()Ljava/util/List;	rotations	comp_1_619
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/TemplateFeatureConfiguration$TemplateEntry	()Lnet/minecraft/resources/Identifier;	template	comp_1_620
 CLASS	net/minecraft/world/level/levelgen/feature/configurations/UnderwaterMagmaConfiguration	net/minecraft/class_5835
@@ -109666,8 +109666,8 @@ CLASS	net/minecraft/world/level/levelgen/feature/configurations/CompositeFeature
 FIELD	net/minecraft/world/level/levelgen/feature/configurations/CompositeFeatureConfiguration	Lcom/mojang/serialization/Codec;	CODEC	field_1_3829
 FIELD	net/minecraft/world/level/levelgen/feature/configurations/CompositeFeatureConfiguration	Lnet/minecraft/core/HolderSet;	features	comp_1_631
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/CompositeFeatureConfiguration	()Lnet/minecraft/core/HolderSet;	features	comp_1_631
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/CompositeFeatureConfiguration	(Lnet/minecraft/core/Holder;)Ljava/util/stream/Stream;	lambda$getSubFeatures$0	method_1_4653
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/CompositeFeatureConfiguration	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4654
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/CompositeFeatureConfiguration	(Lnet/minecraft/core/Holder;)Ljava/util/stream/Stream;	lambda$getSubFeatures$0	method_1_4654
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/CompositeFeatureConfiguration	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4655
 CLASS	net/minecraft/world/level/levelgen/structure/templatesystem/LavaSubmergedBlockProcessor	net/minecraft/class_5399
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/LavaSubmergedBlockProcessor	Lnet/minecraft/world/level/levelgen/structure/templatesystem/LavaSubmergedBlockProcessor;	INSTANCE	field_25619
 FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/LavaSubmergedBlockProcessor	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_25618
@@ -109704,21 +109704,21 @@ METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClust
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	()I	floorToCeilingSearchRange	comp_1_635
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	()Lnet/minecraft/util/valueproviders/IntProvider;	height	comp_1_637
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	()I	heightDeviation	comp_1_636
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4655
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/world/level/block/state/BlockState;	lambda$static$1	method_1_4656
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$10	method_1_4657
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$11	method_1_4658
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Ljava/lang/Float;	lambda$static$12	method_1_4659
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Ljava/lang/Integer;	lambda$static$13	method_1_4660
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Ljava/lang/Integer;	lambda$static$14	method_1_4661
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/world/level/block/state/BlockState;	lambda$static$2	method_1_4662
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/core/HolderSet;	lambda$static$3	method_1_4663
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Ljava/lang/Integer;	lambda$static$4	method_1_4664
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/util/valueproviders/IntProvider;	lambda$static$5	method_1_4665
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/util/valueproviders/IntProvider;	lambda$static$6	method_1_4666
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Ljava/lang/Integer;	lambda$static$7	method_1_4667
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Ljava/lang/Integer;	lambda$static$8	method_1_4668
-METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/util/valueproviders/IntProvider;	lambda$static$9	method_1_4669
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_4656
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/world/level/block/state/BlockState;	lambda$static$1	method_1_4657
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$10	method_1_4658
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$11	method_1_4659
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Ljava/lang/Float;	lambda$static$12	method_1_4660
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Ljava/lang/Integer;	lambda$static$13	method_1_4661
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Ljava/lang/Integer;	lambda$static$14	method_1_4662
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/world/level/block/state/BlockState;	lambda$static$2	method_1_4663
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/core/HolderSet;	lambda$static$3	method_1_4664
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Ljava/lang/Integer;	lambda$static$4	method_1_4665
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/util/valueproviders/IntProvider;	lambda$static$5	method_1_4666
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/util/valueproviders/IntProvider;	lambda$static$6	method_1_4667
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Ljava/lang/Integer;	lambda$static$7	method_1_4668
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Ljava/lang/Integer;	lambda$static$8	method_1_4669
+METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	(Lnet/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration;)Lnet/minecraft/util/valueproviders/IntProvider;	lambda$static$9	method_1_4670
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	()I	maxDistanceFromCenterAffectingHeightBias	comp_1_638
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	()I	maxDistanceFromEdgeAffectingChanceOfSpeleothem	comp_1_639
 METHOD	net/minecraft/world/level/levelgen/feature/configurations/SpeleothemClusterConfiguration	()I	maxStalagmiteStalactiteHeightDiff	comp_1_640
