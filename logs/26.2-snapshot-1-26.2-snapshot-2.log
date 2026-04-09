@@ -1,0 +1,227 @@
+Duplicate assignment for record component com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;nameLjava/lang/String;
+Demoting record getter com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;lambda$createVulkanShaderModule$0()Ljava/lang/String; due to conflicts
+Demoting record getter com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;name()Ljava/lang/String; due to conflicts
+Promoting com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;name()Ljava/lang/String; as record getter for nameLjava/lang/String;
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/criterion/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/criterion/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Read 10782 (6946) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 19374 MethodEntries (0 unique, 11021 classes).
+Collecting additional information...
+- Done. -
+Duplicate assignment for record component com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;nameLjava/lang/String;
+Demoting record getter com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;lambda$createVulkanShaderModule$0()Ljava/lang/String; due to conflicts
+Demoting record getter com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;name()Ljava/lang/String; due to conflicts
+Promoting com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;name()Ljava/lang/String; as record getter for nameLjava/lang/String;
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/criterion/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/criterion/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Read 10788 (6948) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 19379 MethodEntries (0 unique, 11029 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+METHOD	net/minecraft/core/BlockPos	(II[Lnet/minecraft/core/Vec3i;IIII)Ljava/util/Iterator;	lambda$neighborColumn$0	method_1_4672
+METHOD	net/minecraft/core/BlockPos	(IIII)Ljava/lang/Iterable;	neighborColumn	method_1_4673
+FIELD	net/minecraft/core/BlockPos$5	Lnet/minecraft/core/BlockPos$MutableBlockPos;	cursor	field_1_3832
+FIELD	net/minecraft/core/BlockPos$5	I	index	field_1_3833
+FIELD	net/minecraft/core/BlockPos$5	I	val$height	field_1_3834
+FIELD	net/minecraft/core/BlockPos$5	I	val$startX	field_1_3835
+FIELD	net/minecraft/core/BlockPos$5	I	val$startY	field_1_3836
+FIELD	net/minecraft/core/BlockPos$5	I	val$startZ	field_1_3837
+FIELD	net/minecraft/core/BlockPos$5	I	val$stepCount	field_1_3838
+FIELD	net/minecraft/core/BlockPos$5	[Lnet/minecraft/core/Vec3i;	val$steps	field_1_3839
+FIELD	net/minecraft/core/BlockPos$5	I	val$yDirection	field_1_3840
+METHOD	net/minecraft/core/BlockPos$5	()Lnet/minecraft/core/BlockPos;	computeNext	method_1_4674
+FIELD	net/minecraft/SharedConstants	Z	DEBUG_SIMULATE_LIBRARY_LOAD_FAILURE	field_1_3841
+FIELD	com/mojang/blaze3d/opengl/GlSurface	Ljava/util/Set;	SUPPORTED_PRESENT_MODES	field_1_3842
+FIELD	net/minecraft/client/main/GameConfig$GameData	Lnet/minecraft/client/PreferredGraphicsApi;	forcedGraphicsApi	field_1_3843
+FIELD	com/mojang/blaze3d/systems/DeviceInfo	Lcom/mojang/blaze3d/systems/HintsAndWorkarounds;	hintsAndWorkarounds	comp_1_646
+METHOD	com/mojang/blaze3d/systems/GpuSurface	()Ljava/util/Collection;	supportedPresentModes	method_1_4675
+FIELD	com/mojang/blaze3d/systems/GpuSurface$Configuration	Lcom/mojang/blaze3d/systems/GpuSurface$PresentMode;	presentMode	comp_1_647
+CLASS	com/mojang/blaze3d/systems/GpuSurface$PresentMode	class_1_774
+FIELD	com/mojang/blaze3d/systems/GpuSurface$PresentMode	[Lcom/mojang/blaze3d/systems/GpuSurface$PresentMode;	$VALUES	field_1_3844
+FIELD	com/mojang/blaze3d/systems/GpuSurface$PresentMode	Lcom/mojang/blaze3d/systems/GpuSurface$PresentMode;	FIFO	field_1_3845
+FIELD	com/mojang/blaze3d/systems/GpuSurface$PresentMode	Lcom/mojang/blaze3d/systems/GpuSurface$PresentMode;	FIFO_RELAXED	field_1_3846
+FIELD	com/mojang/blaze3d/systems/GpuSurface$PresentMode	Lcom/mojang/blaze3d/systems/GpuSurface$PresentMode;	IMMEDIATE	field_1_3847
+FIELD	com/mojang/blaze3d/systems/GpuSurface$PresentMode	Lcom/mojang/blaze3d/systems/GpuSurface$PresentMode;	MAILBOX	field_1_3848
+FIELD	com/mojang/blaze3d/systems/GpuSurface$PresentMode	[Lcom/mojang/blaze3d/systems/GpuSurface$PresentMode;	PRESENT_MODES_NO_VSYNC	field_1_3849
+FIELD	com/mojang/blaze3d/systems/GpuSurface$PresentMode	[Lcom/mojang/blaze3d/systems/GpuSurface$PresentMode;	PRESENT_MODES_VSYNC	field_1_3850
+METHOD	com/mojang/blaze3d/systems/GpuSurface$PresentMode	()[Lcom/mojang/blaze3d/systems/GpuSurface$PresentMode;	$values	method_1_4676
+METHOD	com/mojang/blaze3d/systems/GpuSurface$PresentMode	(Ljava/util/Collection;Z)Lcom/mojang/blaze3d/systems/GpuSurface$PresentMode;	getSupportedVsyncMode	method_1_4677
+METHOD	com/mojang/blaze3d/vulkan/VulkanConst	(Lcom/mojang/blaze3d/systems/GpuSurface$PresentMode;)I	toVk	method_1_4678
+FIELD	com/mojang/blaze3d/vulkan/VulkanConst$1	[I	$SwitchMap$com$mojang$blaze3d$systems$GpuSurface$PresentMode	field_1_3851
+FIELD	com/mojang/blaze3d/opengl/GlHeuristics	Lorg/slf4j/Logger;	LOGGER	field_1_3852
+METHOD	com/mojang/blaze3d/opengl/GlHeuristics	(Lorg/lwjgl/opengl/GLCapabilities;ILjava/util/Set;)Lcom/mojang/blaze3d/systems/DeviceInfo;	createDeviceInfo	method_1_4679
+METHOD	com/mojang/blaze3d/opengl/GlHeuristics	()I	getMaxSupportedTextureSize	method_1_4680
+FIELD	com/mojang/blaze3d/vulkan/VulkanGpuSurface	Ljava/util/Set;	supportedPresentModes	field_1_3853
+FIELD	com/mojang/blaze3d/vulkan/VulkanGpuSurface	I	swapchainImageFormat	field_1_3854
+METHOD	net/minecraft/util/filefix/access/ChunkNbt	(Lnet/minecraft/nbt/CompoundTag;Ljava/util/function/UnaryOperator;Lnet/minecraft/world/level/ChunkPos;Ljava/util/Optional;)Ljava/util/concurrent/CompletionStage;	lambda$updateChunk$0	method_1_4681
+METHOD	com/mojang/blaze3d/systems/GpuSurfaceBackend	()Ljava/util/Collection;	supportedPresentModes	method_1_4682
+FIELD	net/minecraft/server/dedicated/ServerWatchdog	Ljava/util/Comparator;	THREAD_INFO_COMPARATOR	field_1_3855
+CLASS	com/mojang/blaze3d/systems/HintsAndWorkarounds	class_1_775
+FIELD	com/mojang/blaze3d/systems/HintsAndWorkarounds	Z	alwaysCreateFreshImmediateBuffer	comp_1_648
+FIELD	com/mojang/blaze3d/systems/HintsAndWorkarounds	Z	anisotropyHasKnownIssues	comp_1_649
+FIELD	com/mojang/blaze3d/systems/HintsAndWorkarounds	Z	writeToBufferIsSlow	comp_1_650
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/world/entity/EntityType;FFF)Lnet/minecraft/gametest/framework/GameTestEntityBuilder;	spawnEntity	method_1_4683
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/world/entity/EntityType;III)Lnet/minecraft/gametest/framework/GameTestEntityBuilder;	spawnEntity	method_1_4684
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/gametest/framework/GameTestEntityBuilder;	spawnEntity	method_1_4685
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/gametest/framework/GameTestEntityBuilder;	spawnEntity	method_1_4686
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/world/entity/EntityType;FFF)Lnet/minecraft/gametest/framework/GameTestMobBuilder;	spawnMob	method_1_4687
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/world/entity/EntityType;III)Lnet/minecraft/gametest/framework/GameTestMobBuilder;	spawnMob	method_1_4688
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/gametest/framework/GameTestMobBuilder;	spawnMob	method_1_4689
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/gametest/framework/GameTestMobBuilder;	spawnMob	method_1_4690
+CLASS	net/minecraft/gametest/framework/GameTestMobBuilder	class_1_776
+FIELD	net/minecraft/gametest/framework/GameTestMobBuilder	Z	freeWill	field_1_3856
+METHOD	net/minecraft/gametest/framework/GameTestMobBuilder	()Lnet/minecraft/world/entity/Mob;	spawn	method_1_4691
+METHOD	net/minecraft/gametest/framework/GameTestMobBuilder	()Lnet/minecraft/gametest/framework/GameTestMobBuilder;	withNoFreeWill	method_1_4692
+METHOD	com/mojang/blaze3d/platform/NativeLibrariesBootstrap	()V	loadShaderc	method_1_4693
+METHOD	com/mojang/blaze3d/platform/NativeLibrariesBootstrap	()V	loadSpvc	method_1_4694
+METHOD	com/mojang/blaze3d/platform/NativeLibrariesBootstrap	()V	loadVma	method_1_4695
+METHOD	com/mojang/blaze3d/platform/NativeLibrariesBootstrap	()V	loadVulkan	method_1_4696
+CLASS	net/minecraft/gametest/framework/GameTestEntityBuilder	class_1_777
+FIELD	net/minecraft/gametest/framework/GameTestEntityBuilder	Lnet/minecraft/world/entity/EntityType;	entityType	field_1_3857
+FIELD	net/minecraft/gametest/framework/GameTestEntityBuilder	Lnet/minecraft/world/phys/Vec3;	position	field_1_3858
+FIELD	net/minecraft/gametest/framework/GameTestEntityBuilder	Z	requirePersistence	field_1_3859
+FIELD	net/minecraft/gametest/framework/GameTestEntityBuilder	Lnet/minecraft/world/level/block/Rotation;	rotation	field_1_3860
+FIELD	net/minecraft/gametest/framework/GameTestEntityBuilder	Lnet/minecraft/world/entity/EntitySpawnReason;	spawnReason	field_1_3861
+FIELD	net/minecraft/gametest/framework/GameTestEntityBuilder	Lnet/minecraft/gametest/framework/GameTestHelper;	testHelper	field_1_3862
+METHOD	net/minecraft/gametest/framework/GameTestEntityBuilder	(Z)Lnet/minecraft/gametest/framework/GameTestEntityBuilder;	requirePersistence	method_1_4697
+METHOD	net/minecraft/gametest/framework/GameTestEntityBuilder	(Lnet/minecraft/world/level/block/Rotation;)Lnet/minecraft/gametest/framework/GameTestEntityBuilder;	rotation	method_1_4698
+METHOD	net/minecraft/gametest/framework/GameTestEntityBuilder	()Lnet/minecraft/world/entity/Entity;	spawn	method_1_4699
+METHOD	net/minecraft/gametest/framework/GameTestEntityBuilder	(I)Ljava/util/List;	spawn	method_1_4700
+METHOD	net/minecraft/gametest/framework/GameTestEntityBuilder	(Lnet/minecraft/world/entity/EntitySpawnReason;)Lnet/minecraft/gametest/framework/GameTestEntityBuilder;	spawnReason	method_1_4701
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryFps	(Lcom/mojang/blaze3d/systems/GpuSurface$PresentMode;)Ljava/lang/String;	presentModeName	method_1_4702
+CLASS	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$IncrementalFutureSequence	class_1_778
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$IncrementalFutureSequence	Ljava/util/List;	futures	field_1_3863
+FIELD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$IncrementalFutureSequence	I	maxConcurrency	field_1_3864
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$IncrementalFutureSequence	(I)[Ljava/util/concurrent/CompletableFuture;	lambda$waitForAll$0	method_1_4703
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$IncrementalFutureSequence	(I)[Ljava/util/concurrent/CompletableFuture;	lambda$waitOnAny$0	method_1_4704
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$IncrementalFutureSequence	(Ljava/util/concurrent/CompletableFuture;)I	push	method_1_4705
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$IncrementalFutureSequence	()I	waitForAll	method_1_4706
+METHOD	net/minecraft/util/filefix/fixes/LegacyStructureFileFix$IncrementalFutureSequence	()I	waitOnAny	method_1_4707
+METHOD	net/minecraft/world/entity/ai/navigation/PathNavigation	()F	getMaxVerticalDistanceToWaypoint	method_1_4708
+Done!
