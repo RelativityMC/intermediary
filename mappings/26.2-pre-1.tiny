@@ -13303,13 +13303,13 @@ FIELD	com/mojang/blaze3d/opengl/GlBuffer	I	handle	field_1_6918
 FIELD	com/mojang/blaze3d/opengl/GlBuffer	I	mappingRefCount	field_1_6919
 METHOD	com/mojang/blaze3d/opengl/GlBuffer	()V	checkCanBeUsed	method_1_6142
 METHOD	com/mojang/blaze3d/opengl/GlBuffer	()I	handle	method_1_6143
-CLASS	com/mojang/blaze3d/opengl/GlBuffer$Direct	net/minecraft/class_10859
+CLASS	com/mojang/blaze3d/opengl/GlBuffer$Direct	net/minecraft/class_1_1010$class_10859
 FIELD	com/mojang/blaze3d/opengl/GlBuffer$Direct	Z	closed	field_57839
 FIELD	com/mojang/blaze3d/opengl/GlBuffer$Direct	Lcom/mojang/blaze3d/opengl/DirectStateAccess;	dsa	field_60011
 FIELD	com/mojang/blaze3d/opengl/GlBuffer$Direct	Ljava/nio/ByteBuffer;	mappedBuffer	field_60010
 FIELD	com/mojang/blaze3d/opengl/GlBuffer$Direct	I	mappingFlags	field_1_6262
 METHOD	com/mojang/blaze3d/opengl/GlBuffer$Direct	()V	unmap	method_1_5401
-CLASS	com/mojang/blaze3d/opengl/GlBuffer$Direct$1	net/minecraft/class_10859$1
+CLASS	com/mojang/blaze3d/opengl/GlBuffer$Direct$1	net/minecraft/class_1_1010$class_10859$1
 FIELD	com/mojang/blaze3d/opengl/GlBuffer$Direct$1	Z	closed	field_1_6264
 FIELD	com/mojang/blaze3d/opengl/GlBuffer$Direct$1	Lcom/mojang/blaze3d/opengl/GlBuffer$Direct;	this$0	field_1_6265
 CLASS	com/mojang/blaze3d/opengl/GlDevice	net/minecraft/class_10865
@@ -29430,12 +29430,12 @@ METHOD	com/mojang/blaze3d/systems/DeviceFeatures	()Z	shaderDrawParameters	comp_1
 CLASS	com/mojang/blaze3d/vulkan/VulkanGpuBuffer	net/minecraft/class_1_1012
 FIELD	com/mojang/blaze3d/vulkan/VulkanGpuBuffer	J	vkBuffer	field_1_6937
 METHOD	com/mojang/blaze3d/vulkan/VulkanGpuBuffer	()J	vkBuffer	method_1_6147
-CLASS	com/mojang/blaze3d/vulkan/VulkanGpuBuffer$Direct	net/minecraft/class_1_694
+CLASS	com/mojang/blaze3d/vulkan/VulkanGpuBuffer$Direct	net/minecraft/class_1_1012$class_1_694
 FIELD	com/mojang/blaze3d/vulkan/VulkanGpuBuffer$Direct	Z	closed	field_1_3554
 FIELD	com/mojang/blaze3d/vulkan/VulkanGpuBuffer$Direct	Lcom/mojang/blaze3d/vulkan/VulkanDevice;	device	field_1_3555
 FIELD	com/mojang/blaze3d/vulkan/VulkanGpuBuffer$Direct	I	mappingRefCount	field_1_6287
 FIELD	com/mojang/blaze3d/vulkan/VulkanGpuBuffer$Direct	J	vmaAllocation	field_1_3557
-CLASS	com/mojang/blaze3d/vulkan/VulkanGpuBuffer$Direct$1	net/minecraft/class_1_694$1
+CLASS	com/mojang/blaze3d/vulkan/VulkanGpuBuffer$Direct$1	net/minecraft/class_1_1012$class_1_694$1
 FIELD	com/mojang/blaze3d/vulkan/VulkanGpuBuffer$Direct$1	Z	closed	field_1_6288
 FIELD	com/mojang/blaze3d/vulkan/VulkanGpuBuffer$Direct$1	Lcom/mojang/blaze3d/vulkan/VulkanGpuBuffer$Direct;	this$0	field_1_6289
 CLASS	com/mojang/blaze3d/vulkan/VulkanQueryPool	net/minecraft/class_1_696
