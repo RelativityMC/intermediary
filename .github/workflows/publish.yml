@@ -12,6 +12,7 @@ jobs:
         with:
           fetch-depth: 0
       - name: publish
+        if: false
         run: ./gradlew build publish --stacktrace
         env:
           MAVEN_URL: "https://maven.pkg.github.com/RelativityMC/intermediary/"
