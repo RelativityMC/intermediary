@@ -1,0 +1,915 @@
+Duplicate assignment for record component com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;nameLjava/lang/String;
+Demoting record getter com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;lambda$createVulkanShaderModule$0()Ljava/lang/String; due to conflicts
+Demoting record getter com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;name()Ljava/lang/String; due to conflicts
+Promoting com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;name()Ljava/lang/String; as record getter for nameLjava/lang/String;
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/predicates/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/predicates/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/ComponentPath$Leaf;leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/client/renderer/feature/CustomFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/client/renderer/feature/FeatureRendererType;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/client/renderer/feature/ModelFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/core/CompositeDirection;getStep()Lnet/minecraft/core/Vec3i;
+Demoting record getter net/minecraft/core/particles/GeyserBaseParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/core/particles/GeyserParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/CubicSpline$Constant;minValue()F
+Demoting record getter net/minecraft/util/CubicSpline$Constant;maxValue()F
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;maxValue()D as record getter for maxValueD
+Promoting net/minecraft/world/level/levelgen/DensityFunctions$Ap2;minValue()D as record getter for minValueD
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;minValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$Constant;maxValue()D
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Read 11005 (7062) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 19831 MethodEntries (0 unique, 11249 classes).
+Collecting additional information...
+- Done. -
+Duplicate assignment for record component com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;nameLjava/lang/String;
+Demoting record getter com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;lambda$createVulkanShaderModule$0()Ljava/lang/String; due to conflicts
+Demoting record getter com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;name()Ljava/lang/String; due to conflicts
+Promoting com/mojang/blaze3d/vulkan/glsl/IntermediaryShaderModule;name()Ljava/lang/String; as record getter for nameLjava/lang/String;
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/predicates/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/predicates/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/ComponentPath$Leaf;leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/blaze3d/textures/GpuTextureView; as record getter for textureViewLcom/mojang/blaze3d/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/client/renderer/feature/CustomFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/client/renderer/feature/FeatureRendererType;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/client/renderer/feature/ModelFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/core/CompositeDirection;getStep()Lnet/minecraft/core/Vec3i;
+Demoting record getter net/minecraft/core/particles/GeyserBaseParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/core/particles/GeyserParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/DensityFunctions$MulOrAdd;argument2()Lnet/minecraft/world/level/levelgen/DensityFunction;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;oreVeinsEnabled()Z as record getter for oreVeinsEnabledZ
+Read 11028 (7069) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 19534 MethodEntries (0 unique, 11272 classes).
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+FIELD	net/minecraft/tags/ItemTags	Lnet/minecraft/tags/TagKey;	DOWSES_CAMPFIRES	field_1_7941
+CLASS	net/minecraft/util/Interval	class_1_1150
+FIELD	net/minecraft/util/Interval	Lnet/minecraft/util/Interval;	INFINITE	field_1_7942
+FIELD	net/minecraft/util/Interval	Lnet/minecraft/util/Interval;	NEGATIVE_ONE_TO_ONE	field_1_7943
+FIELD	net/minecraft/util/Interval	Lnet/minecraft/util/Interval;	NaI	field_1_7944
+FIELD	net/minecraft/util/Interval	Lnet/minecraft/util/Interval;	ZERO_TO_ONE	field_1_7945
+FIELD	net/minecraft/util/Interval	D	max	field_1_7946
+FIELD	net/minecraft/util/Interval	D	min	field_1_7947
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;)Lnet/minecraft/util/Interval;	abs	method_1_7265
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;Lnet/minecraft/util/Interval;)Lnet/minecraft/util/Interval;	add	method_1_7266
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;DD)Lnet/minecraft/util/Interval;	clamp	method_1_7267
+METHOD	net/minecraft/util/Interval	(D)Z	contains	method_1_7268
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;Lnet/minecraft/util/Interval;)Lnet/minecraft/util/Interval;	div	method_1_7269
+METHOD	net/minecraft/util/Interval	(DD)Lnet/minecraft/util/Interval;	encapsulating	method_1_7270
+METHOD	net/minecraft/util/Interval	(Ljava/util/List;)Lnet/minecraft/util/Interval;	encapsulating	method_1_7271
+METHOD	net/minecraft/util/Interval	([Lnet/minecraft/util/Interval;)Lnet/minecraft/util/Interval;	encapsulating	method_1_7272
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;)Z	intersects	method_1_7273
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;)Lnet/minecraft/util/Interval;	inverse	method_1_7274
+METHOD	net/minecraft/util/Interval	()Z	isNaI	method_1_7275
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;DD)Lnet/minecraft/util/Interval;	lerp	method_1_7276
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;Lnet/minecraft/util/Interval;Lnet/minecraft/util/Interval;)Lnet/minecraft/util/Interval;	lerp	method_1_7277
+METHOD	net/minecraft/util/Interval	(DDD)D	lerpFiniteBound	method_1_7278
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;DD)Lnet/minecraft/util/Interval;	lerpFiniteBounds	method_1_7279
+METHOD	net/minecraft/util/Interval	(DDD)D	lerpInfiniteBound	method_1_7280
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;DD)Lnet/minecraft/util/Interval;	lerpInfiniteBounds	method_1_7281
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;Ljava/util/function/DoubleUnaryOperator;)Lnet/minecraft/util/Interval;	mapMonotonic	method_1_7282
+METHOD	net/minecraft/util/Interval	()D	max	method_1_7283
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;Lnet/minecraft/util/Interval;)Lnet/minecraft/util/Interval;	max	method_1_7284
+METHOD	net/minecraft/util/Interval	()D	min	method_1_7285
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;Lnet/minecraft/util/Interval;)Lnet/minecraft/util/Interval;	min	method_1_7286
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;Lnet/minecraft/util/Interval;)Lnet/minecraft/util/Interval;	mul	method_1_7287
+METHOD	net/minecraft/util/Interval	(DD)D	mulBound	method_1_7288
+METHOD	net/minecraft/util/Interval	(DD)Lnet/minecraft/util/Interval;	of	method_1_7289
+METHOD	net/minecraft/util/Interval	(D)Lnet/minecraft/util/Interval;	ofExact	method_1_7290
+METHOD	net/minecraft/util/Interval	(D)Lnet/minecraft/util/Interval;	ofSymmetric	method_1_7291
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;)Lnet/minecraft/util/Interval;	square	method_1_7292
+METHOD	net/minecraft/util/Interval	(Lnet/minecraft/util/Interval;Lnet/minecraft/util/Interval;)Lnet/minecraft/util/Interval;	sub	method_1_7293
+FIELD	net/minecraft/client/Options	Lnet/minecraft/client/KeyMapping;	keyDebugSwitchTranslucencyMode	field_1_7948
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	CANNOT_PLACE_BASALT_PILLAR_ON	field_1_7949
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	TURNS_INTO_DIRT_PATH	field_1_7950
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	TURNS_INTO_FARMLAND	field_1_7951
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	WOOL_SLABS	field_1_7952
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	WOOL_STAIRS	field_1_7953
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/core/component/BlockTransformer;	lambda$axe$0	method_1_7294
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/core/component/BlockTransformer;	lambda$hoe$0	method_1_7295
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/core/component/BlockTransformer;	lambda$shovel$0	method_1_7296
+METHOD	net/minecraft/util/CubicSpline	()Lnet/minecraft/util/Interval;	range	method_1_7297
+METHOD	net/minecraft/world/level/Level	(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/Holder;Lnet/minecraft/sounds/SoundSource;FF)V	playSound	method_1_7298
+METHOD	net/minecraft/util/StaticCache2D	(Lnet/minecraft/util/StaticCache2D$MappingFunction;II)Ljava/lang/Object;	lambda$map$0	method_1_7299
+METHOD	net/minecraft/util/StaticCache2D	(Lnet/minecraft/util/StaticCache2D$MappingFunction;)Lnet/minecraft/util/StaticCache2D;	map	method_1_7300
+CLASS	net/minecraft/util/StaticCache2D$MappingFunction	class_1_1151
+METHOD	net/minecraft/util/StaticCache2D$MappingFunction	(Ljava/lang/Object;II)Ljava/lang/Object;	apply	method_1_7301
+FIELD	com/mojang/blaze3d/opengl/GlDevice	Lnet/minecraft/client/renderer/ShaderDefines;	globalDefines	field_1_7954
+FIELD	com/mojang/blaze3d/opengl/GlDevice	Z	shaderCompilerRequiresSacrifice	field_1_7955
+METHOD	com/mojang/blaze3d/opengl/GlDevice	()V	markAmdShaderCompilerAngry	method_1_7302
+FIELD	net/minecraft/client/renderer/Sheets	Lnet/minecraft/client/renderer/rendertype/RenderType;	CUTOUT_BLOCK_ITEM_GLINT_SHEET	field_1_7956
+FIELD	net/minecraft/client/renderer/Sheets	Lnet/minecraft/client/renderer/rendertype/RenderType;	CUTOUT_BLOCK_ITEM_GLINT_SPECIAL_SHEET	field_1_7957
+FIELD	net/minecraft/client/renderer/Sheets	Lnet/minecraft/client/renderer/rendertype/RenderType;	CUTOUT_ITEM_GLINT_SHEET	field_1_7958
+FIELD	net/minecraft/client/renderer/Sheets	Lnet/minecraft/client/renderer/rendertype/RenderType;	CUTOUT_ITEM_GLINT_SPECIAL_SHEET	field_1_7959
+FIELD	net/minecraft/client/renderer/Sheets	Lnet/minecraft/client/renderer/rendertype/RenderType;	TRANSLUCENT_BLOCK_ITEM_GLINT_SHEET	field_1_7960
+FIELD	net/minecraft/client/renderer/Sheets	Lnet/minecraft/client/renderer/rendertype/RenderType;	TRANSLUCENT_BLOCK_ITEM_GLINT_SPECIAL_SHEET	field_1_7961
+FIELD	net/minecraft/client/renderer/Sheets	Lnet/minecraft/client/renderer/rendertype/RenderType;	TRANSLUCENT_ITEM_GLINT_SHEET	field_1_7962
+FIELD	net/minecraft/client/renderer/Sheets	Lnet/minecraft/client/renderer/rendertype/RenderType;	TRANSLUCENT_ITEM_GLINT_SPECIAL_SHEET	field_1_7963
+METHOD	net/minecraft/client/renderer/Sheets	()Lnet/minecraft/client/renderer/rendertype/RenderType;	cutoutBlockItemGlintSheet	method_1_7303
+METHOD	net/minecraft/client/renderer/Sheets	()Lnet/minecraft/client/renderer/rendertype/RenderType;	cutoutBlockItemGlintSpecialSheet	method_1_7304
+METHOD	net/minecraft/client/renderer/Sheets	()Lnet/minecraft/client/renderer/rendertype/RenderType;	cutoutItemGlintSheet	method_1_7305
+METHOD	net/minecraft/client/renderer/Sheets	()Lnet/minecraft/client/renderer/rendertype/RenderType;	cutoutItemGlintSpecialSheet	method_1_7306
+METHOD	net/minecraft/client/renderer/Sheets	()Lnet/minecraft/client/renderer/rendertype/RenderType;	translucentBlockItemGlintSheet	method_1_7307
+METHOD	net/minecraft/client/renderer/Sheets	()Lnet/minecraft/client/renderer/rendertype/RenderType;	translucentBlockItemGlintSpecialSheet	method_1_7308
+METHOD	net/minecraft/client/renderer/Sheets	()Lnet/minecraft/client/renderer/rendertype/RenderType;	translucentItemGlintSheet	method_1_7309
+METHOD	net/minecraft/client/renderer/Sheets	()Lnet/minecraft/client/renderer/rendertype/RenderType;	translucentItemGlintSpecialSheet	method_1_7310
+FIELD	com/mojang/blaze3d/systems/RenderSystem$AutoStorageIndexBuffer	I	maxRequestedIndexCount	field_1_7964
+METHOD	com/mojang/blaze3d/systems/RenderSystem$AutoStorageIndexBuffer	()Lcom/mojang/blaze3d/buffers/GpuBuffer;	getBuffer	method_1_7311
+METHOD	com/mojang/blaze3d/systems/RenderSystem$AutoStorageIndexBuffer	(I)V	requestIndexCount	method_1_7312
+METHOD	com/mojang/blaze3d/systems/RenderSystem$AutoStorageIndexBuffer	()V	resizeToRequestedIndexCount	method_1_7313
+FIELD	com/mojang/blaze3d/vertex/BufferBuilder	I	LINE_WIDTH_SEMANTIC_ID	field_1_7965
+FIELD	net/minecraft/client/gui/screens/Screen	Lnet/minecraft/client/gui/narration/NarrationTrigger;	nextNarrationTriggeredBy	field_1_7966
+METHOD	net/minecraft/client/gui/screens/Screen	()Z	isInputCaptured	method_1_7314
+FIELD	net/minecraft/util/BoundedFloatFunction$1	Lnet/minecraft/util/Interval;	val$range	field_1_7967
+FIELD	com/mojang/blaze3d/pipeline/RenderTarget	Lcom/mojang/blaze3d/GpuFormat;	colorFormat	field_1_7968
+FIELD	com/mojang/blaze3d/pipeline/RenderTarget	Lcom/mojang/blaze3d/GpuFormat;	depthFormat	field_1_7969
+METHOD	com/mojang/blaze3d/pipeline/RenderTarget	()Z	hasDepth	method_1_7315
+METHOD	com/mojang/blaze3d/vertex/VertexConsumer	(Lcom/mojang/blaze3d/vertex/PoseStack$Pose;Lnet/minecraft/client/resources/model/geometry/BakedQuad;Lcom/mojang/blaze3d/vertex/QuadInstance;Lcom/mojang/blaze3d/vertex/PoseStack$Pose;)V	putBakedQuadWithGlint	method_1_7316
+METHOD	com/mojang/blaze3d/vertex/VertexConsumer	(FF)Lcom/mojang/blaze3d/vertex/VertexConsumer;	setUv3	method_1_7317
+FIELD	net/minecraft/core/registries/Registries	Lnet/minecraft/resources/ResourceKey;	CARVER	field_1_7970
+FIELD	net/minecraft/core/registries/Registries	Lnet/minecraft/resources/ResourceKey;	CARVER_TYPE	field_1_7971
+CLASS	com/mojang/blaze3d/pipeline/PipelineCache	class_1_1152
+FIELD	com/mojang/blaze3d/pipeline/PipelineCache	Ljava/util/Map;	cache	field_1_7972
+FIELD	com/mojang/blaze3d/pipeline/PipelineCache	Lcom/mojang/blaze3d/systems/GpuDevice;	device	field_1_7973
+FIELD	com/mojang/blaze3d/pipeline/PipelineCache	Lcom/mojang/blaze3d/shaders/ShaderSource;	shaderSource	field_1_7974
+METHOD	com/mojang/blaze3d/pipeline/PipelineCache	()V	clear	method_1_7318
+METHOD	com/mojang/blaze3d/pipeline/PipelineCache	(Lcom/mojang/blaze3d/pipeline/RenderPipeline;)Lcom/mojang/blaze3d/pipeline/CompiledRenderPipeline;	get	method_1_7319
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeCategory;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/item/crafting/Ingredient;)Lnet/minecraft/data/recipes/ShapedRecipeBuilder;	carpetBuilder	method_1_7320
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/data/recipes/RecipeBuilder;	lambda$static$11	method_1_7321
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/data/recipes/RecipeBuilder;	lambda$static$2	method_1_7322
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)V	lambda$static$23	method_1_7323
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)V	lambda$static$30	method_1_7324
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/data/recipes/RecipeProvider;Lnet/minecraft/world/level/ItemLike;Lnet/minecraft/world/level/ItemLike;)Lnet/minecraft/data/recipes/RecipeBuilder;	lambda$static$9	method_1_7325
+METHOD	net/minecraft/server/level/WorldGenRegion	(Lnet/minecraft/world/level/chunk/ChunkAccess;Lnet/minecraft/world/level/chunk/status/ChunkStep;Lnet/minecraft/server/level/GenerationChunkHolder;II)Lnet/minecraft/world/level/chunk/ChunkAccess;	lambda$new$2	method_1_7326
+FIELD	com/mojang/blaze3d/opengl/GlRenderPipeline	Z	closed	field_1_7975
+FIELD	com/mojang/blaze3d/opengl/GlRenderPipeline	Lcom/mojang/blaze3d/opengl/GlDevice;	device	field_1_7976
+comp_3801 is now field_1_7977
+comp_3802 is now field_1_7978
+comp_3802 is now method_1_7327
+METHOD	net/minecraft/client/renderer/GameRenderer	()Ljava/lang/String;	lambda$renderItemInHand$0	method_1_7328
+METHOD	net/minecraft/client/renderer/GameRenderer	()Ljava/lang/String;	lambda$renderLevel$0	method_1_7329
+METHOD	net/minecraft/client/renderer/GameRenderer	()Z	useImprovedTransparency	method_1_7330
+CLASS	net/minecraft/client/renderer/oit/OitStage	class_1_1153
+FIELD	net/minecraft/client/renderer/oit/OitStage	[Lnet/minecraft/client/renderer/oit/OitStage;	$VALUES	field_1_7979
+FIELD	net/minecraft/client/renderer/oit/OitStage	Lnet/minecraft/client/renderer/oit/OitStage;	ACCUMULATE	field_1_7980
+FIELD	net/minecraft/client/renderer/oit/OitStage	Lnet/minecraft/client/renderer/oit/OitStage;	DEPTH_BOUNDS	field_1_7981
+FIELD	net/minecraft/client/renderer/oit/OitStage	Lnet/minecraft/client/renderer/oit/OitStage;	TRANSMITTANCE	field_1_7982
+METHOD	net/minecraft/client/renderer/oit/OitStage	()[Lnet/minecraft/client/renderer/oit/OitStage;	$values	method_1_7331
+METHOD	net/minecraft/client/renderer/CloudRenderer	()Ljava/lang/String;	lambda$render$0	method_1_7332
+METHOD	net/minecraft/client/renderer/CloudRenderer	()Ljava/lang/String;	lambda$renderOit$0	method_1_7333
+METHOD	net/minecraft/client/renderer/CloudRenderer	(Lcom/mojang/blaze3d/systems/RenderPass;Lcom/mojang/blaze3d/pipeline/RenderPipeline;)V	render	method_1_7334
+METHOD	net/minecraft/client/renderer/CloudRenderer	(Lnet/minecraft/client/CloudStatus;Lcom/mojang/blaze3d/systems/RenderPass;)V	render	method_1_7335
+METHOD	net/minecraft/client/renderer/CloudRenderer	(Lnet/minecraft/client/CloudStatus;Lnet/minecraft/client/renderer/oit/OitStage;Lnet/minecraft/client/renderer/oit/OitRenderPassProvider$Parameters;)V	renderOit	method_1_7336
+FIELD	net/minecraft/client/renderer/LevelRenderer	I	OIT_COEFFICIENT_COUNT	field_1_7983
+FIELD	net/minecraft/client/renderer/LevelRenderer	I	OIT_TRANSMITTANCE_TARGET_COUNT	field_1_7984
+FIELD	net/minecraft/client/renderer/LevelRenderer	I	OIT_WAVELET_RANK	field_1_7985
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Lcom/mojang/blaze3d/pipeline/RenderTarget;	accumulateTarget	method_1_7337
+METHOD	net/minecraft/client/renderer/LevelRenderer	(Lnet/minecraft/client/renderer/chunk/ChunkSectionsToRender;Lnet/minecraft/client/renderer/feature/FeatureRenderDispatcher$PreparedFrame;Lcom/mojang/blaze3d/systems/RenderPass;)V	executeClassicTransparency	method_1_7338
+METHOD	net/minecraft/client/renderer/LevelRenderer	(Lnet/minecraft/client/renderer/chunk/ChunkSectionsToRender;Lnet/minecraft/client/renderer/feature/FeatureRenderDispatcher$PreparedFrame;)V	executeOit	method_1_7339
+METHOD	net/minecraft/client/renderer/LevelRenderer	(Lnet/minecraft/client/renderer/feature/FeatureRenderDispatcher$PreparedFrame;Lcom/mojang/blaze3d/pipeline/RenderTarget;)V	executeOitWaterMask	method_1_7340
+METHOD	net/minecraft/client/renderer/LevelRenderer	(Lnet/minecraft/client/renderer/feature/FeatureRenderDispatcher$PreparedFrame;)V	executeOutline	method_1_7341
+METHOD	net/minecraft/client/renderer/LevelRenderer	(Lnet/minecraft/client/renderer/chunk/ChunkSectionsToRender;Lnet/minecraft/client/renderer/feature/FeatureRenderDispatcher$PreparedFrame;Lcom/mojang/blaze3d/systems/RenderPass;)V	executeSolid	method_1_7342
+METHOD	net/minecraft/client/renderer/LevelRenderer	(Lcom/mojang/blaze3d/buffers/GpuBufferSlice;FZLnet/minecraft/client/renderer/chunk/ChunkSectionsToRender;Lnet/minecraft/client/renderer/feature/FeatureRenderDispatcher$PreparedFrame;)V	lambda$addMainPass$0	method_1_7343
+METHOD	net/minecraft/client/renderer/LevelRenderer	(Z)Ljava/lang/String;	lambda$addMainPass$1	method_1_7344
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Ljava/lang/String;	lambda$addMainPass$2	method_1_7345
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Ljava/lang/String;	lambda$executeOit$0	method_1_7346
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Ljava/lang/String;	lambda$executeOit$1	method_1_7347
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Ljava/lang/String;	lambda$executeOitWaterMask$0	method_1_7348
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Ljava/lang/String;	lambda$executeOutline$0	method_1_7349
+METHOD	net/minecraft/client/renderer/LevelRenderer	(F)V	prepareTranslucents	method_1_7350
+METHOD	net/minecraft/client/renderer/LevelRenderer	(I)Lcom/mojang/blaze3d/pipeline/RenderTarget;	transmittanceTarget	method_1_7351
+FIELD	net/minecraft/core/component/DataComponents	Lnet/minecraft/core/component/DataComponentType;	BLOCK_TRANSFORMER	field_1_7986
+METHOD	net/minecraft/core/component/DataComponents	(Lnet/minecraft/core/component/DataComponentType$Builder;)Lnet/minecraft/core/component/DataComponentType$Builder;	lambda$static$42	method_1_7352
+FIELD	net/minecraft/world/level/chunk/CarvingMask	I	height	field_1_7987
+FIELD	net/minecraft/world/level/chunk/CarvingMask	I	maxY	field_1_7988
+METHOD	net/minecraft/world/level/chunk/CarvingMask	()Z	isEmpty	method_1_7353
+METHOD	net/minecraft/world/level/chunk/CarvingMask	(Lnet/minecraft/world/level/chunk/CarvingMask$Visitor;)V	visit	method_1_7354
+METHOD	net/minecraft/world/level/chunk/CarvingMask	(Lnet/minecraft/world/level/chunk/CarvingMask$Visitor;II)V	visitSegment	method_1_7355
+CLASS	net/minecraft/world/level/chunk/CarvingMask$Visitor	class_1_1154
+METHOD	net/minecraft/world/level/chunk/CarvingMask$Visitor	(IIII)V	visitColumn	method_1_7356
+METHOD	net/minecraft/client/gui/render/GuiItemAtlas	()Ljava/lang/String;	lambda$drawToSlot$0	method_1_7357
+CLASS	net/minecraft/world/level/chunk/CarverOutput	class_1_1155
+METHOD	net/minecraft/world/level/chunk/CarverOutput	()I	maxY	method_1_7358
+METHOD	net/minecraft/world/level/chunk/CarverOutput	()I	minY	method_1_7359
+FIELD	com/mojang/blaze3d/vertex/DefaultVertexFormat	Lcom/mojang/blaze3d/vertex/VertexFormat;	ENTITY_GLINT_SPECIAL	field_1_7989
+FIELD	com/mojang/blaze3d/vertex/DefaultVertexFormat	Lcom/mojang/blaze3d/GpuFormat;	UV3_FORMAT	field_1_7990
+FIELD	com/mojang/blaze3d/vertex/DefaultVertexFormat	Ljava/lang/String;	UV3_SEMANTIC_NAME	field_1_7991
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ARMOR_CUTOUT_NO_CULL_GLINT	field_1_7992
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	BREEZE_WIND_OPAQUE_PARTS	field_1_7993
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	CRUMBLING_SNIPPET	field_1_7994
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	DEBUG_POINTS_SNIPPET	field_1_7995
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	DRAGON_RAYS_SNIPPET	field_1_7996
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	ENERGY_SWIRL_SNIPPET	field_1_7997
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	ENTITY_SHADOW_SNIPPET	field_1_7998
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	ENTITY_SNIPPET	field_1_7999
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ENTITY_SOLID_GLINT	field_1_8000
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ENTITY_TRANSLUCENT_CULL_OPAQUE_PARTS	field_1_8001
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ENTITY_TRANSLUCENT_EMISSIVE_OPAQUE_PARTS	field_1_8002
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ENTITY_TRANSLUCENT_OPAQUE_PARTS	field_1_8003
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	EYES_OPAQUE_PARTS	field_1_8004
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	EYES_SNIPPET	field_1_8005
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	GLINT_SNIPPET	field_1_8006
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	GLINT_SPECIAL_SNIPPET	field_1_8007
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ITEM_CUTOUT_GLINT	field_1_8008
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ITEM_CUTOUT_GLINT_SPECIAL	field_1_8009
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ITEM_TRANSLUCENT_GLINT	field_1_8010
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ITEM_TRANSLUCENT_GLINT_OPAQUE_PARTS	field_1_8011
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ITEM_TRANSLUCENT_GLINT_SPECIAL	field_1_8012
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ITEM_TRANSLUCENT_GLINT_SPECIAL_OPAQUE_PARTS	field_1_8013
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	ITEM_TRANSLUCENT_OPAQUE_PARTS	field_1_8014
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	LIGHTNING_SNIPPET	field_1_8015
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	LIT_BLOCKS_SNIPPET	field_1_8016
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	OIT_ACCUMULATE_SNIPPET	field_1_8017
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_BEACON_BEAM	field_1_8018
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_BREEZE_WIND	field_1_8019
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_CLOUDS	field_1_8020
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	OIT_CLOUDS_SNIPPET	field_1_8021
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	OIT_COMPOSITE	field_1_8022
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_CRUMBLING	field_1_8023
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_DEBUG_FILLED_BOX	field_1_8024
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	OIT_DEBUG_FILLED_SNIPPET	field_1_8025
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_DEBUG_POINTS	field_1_8026
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_DEBUG_QUADS	field_1_8027
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_DEBUG_TRIANGLE_FAN	field_1_8028
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	OIT_DEPTH_BOUNDS_SNIPPET	field_1_8029
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_DRAGON_RAYS	field_1_8030
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_ENERGY_SWIRL	field_1_8031
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_ENTITY	field_1_8032
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_ENTITY_CULL	field_1_8033
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_ENTITY_EMISSIVE	field_1_8034
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_ENTITY_SHADOW	field_1_8035
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	OIT_ENTITY_SNIPPET	field_1_8036
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_EYES	field_1_8037
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_FLAT_CLOUDS	field_1_8038
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_ITEM	field_1_8039
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_ITEM_GLINT	field_1_8040
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_ITEM_GLINT_SPECIAL	field_1_8041
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	OIT_ITEM_SNIPPET	field_1_8042
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_LIGHTNING	field_1_8043
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	OIT_LINES_SNIPPET	field_1_8044
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_LINES_TRANSLUCENT	field_1_8045
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	OIT_OPAQUE_PARTS_THRESHOLD_SNIPPET	field_1_8046
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_PARTICLE	field_1_8047
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	OIT_PARTICLE_SNIPPET	field_1_8048
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_SECONDARY_BLOCK_OUTLINE	field_1_8049
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	OIT_SNIPPET	field_1_8050
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_TERRAIN	field_1_8051
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_TEXT	field_1_8052
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_TEXT_BACKGROUND	field_1_8053
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_TEXT_BACKGROUND_SEE_THROUGH	field_1_8054
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_TEXT_GRAYSCALE	field_1_8055
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_TEXT_GRAYSCALE_POLYGON_OFFSET	field_1_8056
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_TEXT_GRAYSCALE_SEE_THROUGH	field_1_8057
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_TEXT_POLYGON_OFFSET	field_1_8058
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_TEXT_SEE_THROUGH	field_1_8059
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_TRANSLUCENT_BLOCK	field_1_8060
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	OIT_TRANSMITTANCE_SNIPPET	field_1_8061
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	OIT_WATER_MASK	field_1_8062
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_WEATHER	field_1_8063
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	OIT_WORLD_BORDER	field_1_8064
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	TEXT_BACKGROUND_SNIPPET	field_1_8065
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	WATER_MASK_SNIPPET	field_1_8066
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	WEATHER	field_1_8067
+METHOD	net/minecraft/client/renderer/RenderPipelines	()Lcom/mojang/blaze3d/pipeline/ColorTargetState;	lambda$static$0	method_1_7360
+METHOD	net/minecraft/client/renderer/RenderPipelines	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;)V	lambda$static$1	method_1_7361
+METHOD	net/minecraft/client/renderer/RenderPipelines	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;)V	lambda$static$2	method_1_7362
+METHOD	net/minecraft/client/renderer/RenderPipelines	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;)V	lambda$static$3	method_1_7363
+METHOD	net/minecraft/client/renderer/RenderPipelines	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;)V	lambda$static$4	method_1_7364
+METHOD	net/minecraft/client/renderer/RenderPipelines	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;)V	lambda$static$5	method_1_7365
+METHOD	net/minecraft/client/renderer/RenderPipelines	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;)V	lambda$static$6	method_1_7366
+METHOD	net/minecraft/client/renderer/RenderPipelines	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;)V	lambda$static$7	method_1_7367
+METHOD	net/minecraft/client/renderer/RenderPipelines	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;)V	lambda$static$8	method_1_7368
+METHOD	net/minecraft/client/renderer/RenderPipelines	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;)V	lambda$static$9	method_1_7369
+METHOD	net/minecraft/client/renderer/RenderPipelines	(Lnet/minecraft/client/renderer/oit/OitPipelineSet;)Lnet/minecraft/client/renderer/oit/OitPipelineSet;	register	method_1_7370
+CLASS	net/minecraft/core/component/BlockTransformer	class_1_1156
+FIELD	net/minecraft/core/component/BlockTransformer	Lcom/mojang/serialization/Codec;	CODEC	field_1_8068
+FIELD	net/minecraft/core/component/BlockTransformer	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_8069
+FIELD	net/minecraft/core/component/BlockTransformer	Ljava/util/List;	transforms	comp_1_1156
+METHOD	net/minecraft/core/component/BlockTransformer	(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/entity/player/Player;Lnet/minecraft/core/component/BlockTransformer$BlockTransformData;Lnet/minecraft/core/Direction;Lnet/minecraft/resources/ResourceKey;)V	lambda$transformBlock$0	method_1_7371
+METHOD	net/minecraft/core/component/BlockTransformer	(Lnet/minecraft/core/component/BlockTransformer$BlockTransformData;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/ItemStack;)V	lambda$transformBlock$1	method_1_7372
+METHOD	net/minecraft/core/component/BlockTransformer	(Lnet/minecraft/world/item/context/UseOnContext;)Z	playerHasBlockingItemUseIntent	method_1_7373
+METHOD	net/minecraft/core/component/BlockTransformer	(Lnet/minecraft/world/item/context/UseOnContext;)Lnet/minecraft/world/InteractionResult;	transformBlock	method_1_7374
+CLASS	net/minecraft/core/component/BlockTransformer$BlockTransformData	class_1_1157
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData	Lcom/mojang/serialization/Codec;	CODEC	field_1_8070
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_8071
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData	Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;	blockStateProvider	comp_1_1157
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData	Z	consumeOnUse	comp_1_1158
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData	Ljava/util/List;	disallowedFaces	comp_1_1159
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData	Lnet/minecraft/core/component/BlockTransformer$DropStrategy;	dropStrategy	comp_1_1160
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData	I	itemDamagePerUse	comp_1_1161
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData	Ljava/util/Optional;	loot	comp_1_1162
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData	Lnet/minecraft/core/component/BlockTransformer$TransformParticle;	particle	comp_1_1163
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData	Lnet/minecraft/core/Holder;	sound	comp_1_1164
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData	Lnet/minecraft/core/component/BlockTransformer$TransformType;	transformType	comp_1_1165
+METHOD	net/minecraft/core/component/BlockTransformer$BlockTransformData	(Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/core/component/BlockTransformer$BlockTransformData$Builder;	builder	method_1_7375
+METHOD	net/minecraft/core/component/BlockTransformer$BlockTransformData	(Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)Lnet/minecraft/core/component/BlockTransformer$BlockTransformData$Builder;	builder	method_1_7376
+METHOD	net/minecraft/core/component/BlockTransformer$BlockTransformData	(Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)Lnet/minecraft/core/component/BlockTransformer$BlockTransformData$Builder;	builder	method_1_7377
+METHOD	net/minecraft/core/component/BlockTransformer$BlockTransformData	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_7378
+CLASS	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	class_1_1158
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	Z	consumeOnUse	field_1_8072
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	Ljava/util/List;	disallowedFaces	field_1_8073
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	Lnet/minecraft/core/component/BlockTransformer$DropStrategy;	dropStrategy	field_1_8074
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	I	itemDamagePerUse	field_1_8075
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	Ljava/util/Optional;	loot	field_1_8076
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	Lnet/minecraft/core/component/BlockTransformer$TransformParticle;	particle	field_1_8077
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	Lnet/minecraft/core/Holder;	sound	field_1_8078
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;	targetStateProvider	field_1_8079
+FIELD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	Lnet/minecraft/core/component/BlockTransformer$TransformType;	transformType	field_1_8080
+METHOD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	()Lnet/minecraft/core/component/BlockTransformer$BlockTransformData;	build	method_1_7379
+METHOD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	(Z)Lnet/minecraft/core/component/BlockTransformer$BlockTransformData$Builder;	consumeOnUse	method_1_7380
+METHOD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	(Ljava/util/List;)Lnet/minecraft/core/component/BlockTransformer$BlockTransformData$Builder;	disallowedFaces	method_1_7381
+METHOD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	(Lnet/minecraft/core/component/BlockTransformer$DropStrategy;)Lnet/minecraft/core/component/BlockTransformer$BlockTransformData$Builder;	dropStrategy	method_1_7382
+METHOD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	(I)Lnet/minecraft/core/component/BlockTransformer$BlockTransformData$Builder;	itemDamagePerUse	method_1_7383
+METHOD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/core/component/BlockTransformer$BlockTransformData$Builder;	loot	method_1_7384
+METHOD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	(Lnet/minecraft/core/component/BlockTransformer$TransformParticle;)Lnet/minecraft/core/component/BlockTransformer$BlockTransformData$Builder;	particle	method_1_7385
+METHOD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	(Lnet/minecraft/core/Holder;)Lnet/minecraft/core/component/BlockTransformer$BlockTransformData$Builder;	sound	method_1_7386
+METHOD	net/minecraft/core/component/BlockTransformer$BlockTransformData$Builder	(Lnet/minecraft/core/component/BlockTransformer$TransformType;)Lnet/minecraft/core/component/BlockTransformer$BlockTransformData$Builder;	transformType	method_1_7387
+CLASS	net/minecraft/core/component/BlockTransformer$DropStrategy	class_1_1159
+FIELD	net/minecraft/core/component/BlockTransformer$DropStrategy	[Lnet/minecraft/core/component/BlockTransformer$DropStrategy;	$VALUES	field_1_8081
+FIELD	net/minecraft/core/component/BlockTransformer$DropStrategy	Ljava/util/function/IntFunction;	BY_ID	field_1_8082
+FIELD	net/minecraft/core/component/BlockTransformer$DropStrategy	Lnet/minecraft/core/component/BlockTransformer$DropStrategy;	CLICKED_FACE	field_1_8083
+FIELD	net/minecraft/core/component/BlockTransformer$DropStrategy	Lcom/mojang/serialization/Codec;	CODEC	field_1_8084
+FIELD	net/minecraft/core/component/BlockTransformer$DropStrategy	Lnet/minecraft/core/component/BlockTransformer$DropStrategy;	FROM_MIDDLE	field_1_8085
+FIELD	net/minecraft/core/component/BlockTransformer$DropStrategy	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_8086
+FIELD	net/minecraft/core/component/BlockTransformer$DropStrategy	I	id	field_1_8087
+FIELD	net/minecraft/core/component/BlockTransformer$DropStrategy	Ljava/lang/String;	name	field_1_8088
+FIELD	net/minecraft/core/component/BlockTransformer$DropStrategy	Lnet/minecraft/core/component/BlockTransformer$DropStrategy$ResourcePopper;	resourcePopper	field_1_8089
+METHOD	net/minecraft/core/component/BlockTransformer$DropStrategy	()[Lnet/minecraft/core/component/BlockTransformer$DropStrategy;	$values	method_1_7388
+METHOD	net/minecraft/core/component/BlockTransformer$DropStrategy	()I	getId	method_1_7389
+METHOD	net/minecraft/core/component/BlockTransformer$DropStrategy	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Lnet/minecraft/world/item/ItemStack;)V	pop	method_1_7390
+CLASS	net/minecraft/core/component/BlockTransformer$DropStrategy$ResourcePopper	class_1_1160
+FIELD	net/minecraft/core/component/BlockTransformer$DropStrategy$ResourcePopper	Lnet/minecraft/core/component/BlockTransformer$DropStrategy$ResourcePopper;	FROM_FACE	field_1_8090
+FIELD	net/minecraft/core/component/BlockTransformer$DropStrategy$ResourcePopper	Lnet/minecraft/core/component/BlockTransformer$DropStrategy$ResourcePopper;	FROM_MIDDLE	field_1_8091
+METHOD	net/minecraft/core/component/BlockTransformer$DropStrategy$ResourcePopper	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Lnet/minecraft/world/item/ItemStack;)V	lambda$static$0	method_1_7391
+METHOD	net/minecraft/core/component/BlockTransformer$DropStrategy$ResourcePopper	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Lnet/minecraft/world/item/ItemStack;)V	pop	method_1_7392
+CLASS	net/minecraft/core/component/BlockTransformer$TransformParticle	class_1_1161
+FIELD	net/minecraft/core/component/BlockTransformer$TransformParticle	[Lnet/minecraft/core/component/BlockTransformer$TransformParticle;	$VALUES	field_1_8092
+FIELD	net/minecraft/core/component/BlockTransformer$TransformParticle	Ljava/util/function/IntFunction;	BY_ID	field_1_8093
+FIELD	net/minecraft/core/component/BlockTransformer$TransformParticle	Lcom/mojang/serialization/Codec;	CODEC	field_1_8094
+FIELD	net/minecraft/core/component/BlockTransformer$TransformParticle	Lnet/minecraft/core/component/BlockTransformer$TransformParticle;	NONE	field_1_8095
+FIELD	net/minecraft/core/component/BlockTransformer$TransformParticle	Lnet/minecraft/core/component/BlockTransformer$TransformParticle;	SCRAPE	field_1_8096
+FIELD	net/minecraft/core/component/BlockTransformer$TransformParticle	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_8097
+FIELD	net/minecraft/core/component/BlockTransformer$TransformParticle	Lnet/minecraft/core/component/BlockTransformer$TransformParticle;	WAX_OFF	field_1_8098
+FIELD	net/minecraft/core/component/BlockTransformer$TransformParticle	Lnet/minecraft/core/component/BlockTransformer$TransformParticle;	WAX_ON	field_1_8099
+FIELD	net/minecraft/core/component/BlockTransformer$TransformParticle	I	id	field_1_8100
+FIELD	net/minecraft/core/component/BlockTransformer$TransformParticle	I	levelEvent	field_1_8101
+FIELD	net/minecraft/core/component/BlockTransformer$TransformParticle	Ljava/lang/String;	name	field_1_8102
+METHOD	net/minecraft/core/component/BlockTransformer$TransformParticle	()[Lnet/minecraft/core/component/BlockTransformer$TransformParticle;	$values	method_1_7393
+METHOD	net/minecraft/core/component/BlockTransformer$TransformParticle	()I	getId	method_1_7394
+METHOD	net/minecraft/core/component/BlockTransformer$TransformParticle	()I	getLevelEvent	method_1_7395
+METHOD	net/minecraft/core/component/BlockTransformer$TransformParticle	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/core/BlockPos;)V	send	method_1_7396
+CLASS	net/minecraft/core/component/BlockTransformer$TransformType	class_1_1162
+FIELD	net/minecraft/core/component/BlockTransformer$TransformType	[Lnet/minecraft/core/component/BlockTransformer$TransformType;	$VALUES	field_1_8103
+FIELD	net/minecraft/core/component/BlockTransformer$TransformType	Ljava/util/function/IntFunction;	BY_ID	field_1_8104
+FIELD	net/minecraft/core/component/BlockTransformer$TransformType	Lcom/mojang/serialization/Codec;	CODEC	field_1_8105
+FIELD	net/minecraft/core/component/BlockTransformer$TransformType	Lnet/minecraft/core/component/BlockTransformer$TransformType;	COPPER_CHEST	field_1_8106
+FIELD	net/minecraft/core/component/BlockTransformer$TransformType	Lnet/minecraft/core/component/BlockTransformer$TransformType;	SINGLE_BLOCK	field_1_8107
+FIELD	net/minecraft/core/component/BlockTransformer$TransformType	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_8108
+FIELD	net/minecraft/core/component/BlockTransformer$TransformType	I	id	field_1_8109
+FIELD	net/minecraft/core/component/BlockTransformer$TransformType	Ljava/lang/String;	name	field_1_8110
+METHOD	net/minecraft/core/component/BlockTransformer$TransformType	()[Lnet/minecraft/core/component/BlockTransformer$TransformType;	$values	method_1_7397
+METHOD	net/minecraft/core/component/BlockTransformer$TransformType	()I	getId	method_1_7398
+FIELD	net/minecraft/world/level/levelgen/Beardifier	Lnet/minecraft/util/Interval;	RANGE	field_1_8111
+FIELD	com/mojang/blaze3d/vulkan/VulkanRenderPipeline	Z	closed	field_1_8112
+comp_1_516 is now field_1_8113
+comp_1_517 is now field_1_8114
+comp_1_518 is now field_1_8115
+comp_1_519 is now field_1_8116
+comp_1_520 is now field_1_8117
+comp_1_521 is now field_1_8118
+comp_1_522 is now field_1_8119
+comp_1_523 is now field_1_8120
+comp_1_516 is now method_1_7399
+comp_1_517 is now method_1_7400
+comp_1_519 is now method_1_7401
+comp_1_520 is now method_1_7402
+comp_1_521 is now method_1_7403
+comp_1_522 is now method_1_7404
+comp_1_523 is now method_1_7405
+FIELD	net/minecraft/client/renderer/BindGroupLayouts	Lcom/mojang/blaze3d/pipeline/BindGroupLayout;	CLOUD_INFO_OIT_COEFFS_DEPTH_BOUNDS_SAMPLER	field_1_8121
+FIELD	net/minecraft/client/renderer/BindGroupLayouts	Lcom/mojang/blaze3d/pipeline/BindGroupLayout;	DEPTH_BOUNDS_SAMPLER	field_1_8122
+FIELD	net/minecraft/client/renderer/BindGroupLayouts	Lcom/mojang/blaze3d/pipeline/BindGroupLayout;	GLINT_SAMPLER	field_1_8123
+FIELD	net/minecraft/client/renderer/BindGroupLayouts	Lcom/mojang/blaze3d/pipeline/BindGroupLayout;	OIT_COEFFS_DEPTH_BOUNDS_SAMPLER	field_1_8124
+FIELD	net/minecraft/client/renderer/BindGroupLayouts	Lcom/mojang/blaze3d/pipeline/BindGroupLayout;	SAMPLER0_OIT_COEFFS	field_1_8125
+FIELD	net/minecraft/client/renderer/BindGroupLayouts	Lcom/mojang/blaze3d/pipeline/BindGroupLayout;	SAMPLER0_SAMPLER2_OIT_COEFFS_DEPTH_BOUNDS_SAMPLER	field_1_8126
+CLASS	net/minecraft/client/renderer/oit/package-info	class_1_1163
+FIELD	net/minecraft/world/level/levelgen/RandomState	Ljava/util/List;	spawnTarget	field_1_8127
+METHOD	net/minecraft/world/level/levelgen/RandomState	(Lnet/minecraft/world/level/levelgen/RandomState$1NoiseWiringHelper;Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;Lnet/minecraft/world/level/levelgen/SpawnTargetPoint;)Lnet/minecraft/world/level/levelgen/SpawnTargetPoint$Wired;	lambda$new$0	method_1_7406
+METHOD	net/minecraft/world/level/levelgen/RandomState	()Ljava/util/List;	spawnTarget	method_1_7407
+FIELD	com/mojang/blaze3d/systems/RenderPassDescriptor	Ljava/util/List;	colorAttachments	field_1_8128
+FIELD	com/mojang/blaze3d/systems/RenderPassDescriptor	Lcom/mojang/blaze3d/systems/RenderPassDescriptor$Attachment;	depthAttachment	field_1_8129
+FIELD	com/mojang/blaze3d/systems/RenderPassDescriptor	Lcom/mojang/blaze3d/systems/RenderPass$RenderArea;	renderArea	field_1_8130
+METHOD	com/mojang/blaze3d/systems/RenderPassDescriptor	(Ljava/util/function/Supplier;)Lcom/mojang/blaze3d/systems/RenderPassDescriptor$Builder;	builder	method_1_7408
+METHOD	com/mojang/blaze3d/systems/RenderPassDescriptor	()Lcom/mojang/blaze3d/systems/RenderPass$RenderArea;	renderArea	method_1_7409
+CLASS	com/mojang/blaze3d/systems/RenderPassDescriptor$Builder	class_1_1164
+FIELD	com/mojang/blaze3d/systems/RenderPassDescriptor$Builder	Ljava/util/List;	colorAttachments	field_1_8131
+FIELD	com/mojang/blaze3d/systems/RenderPassDescriptor$Builder	Lcom/mojang/blaze3d/systems/RenderPassDescriptor$Attachment;	depthAttachment	field_1_8132
+FIELD	com/mojang/blaze3d/systems/RenderPassDescriptor$Builder	Ljava/util/function/Supplier;	label	field_1_8133
+FIELD	com/mojang/blaze3d/systems/RenderPassDescriptor$Builder	Lcom/mojang/blaze3d/systems/RenderPass$RenderArea;	renderArea	field_1_8134
+METHOD	com/mojang/blaze3d/systems/RenderPassDescriptor$Builder	()Lcom/mojang/blaze3d/systems/RenderPassDescriptor;	build	method_1_7410
+METHOD	com/mojang/blaze3d/systems/RenderPassDescriptor$Builder	(Ljava/util/List;Lcom/mojang/blaze3d/systems/RenderPassDescriptor$Attachment;)Lcom/mojang/blaze3d/systems/RenderPass$RenderArea;	defaultRenderArea	method_1_7411
+METHOD	com/mojang/blaze3d/systems/RenderPassDescriptor$Builder	(Lcom/mojang/blaze3d/textures/GpuTextureView;)Lcom/mojang/blaze3d/systems/RenderPassDescriptor$Builder;	withColorAttachment	method_1_7412
+METHOD	com/mojang/blaze3d/systems/RenderPassDescriptor$Builder	(Lcom/mojang/blaze3d/textures/GpuTextureView;Ljava/util/Optional;)Lcom/mojang/blaze3d/systems/RenderPassDescriptor$Builder;	withColorAttachment	method_1_7413
+METHOD	com/mojang/blaze3d/systems/RenderPassDescriptor$Builder	(Lcom/mojang/blaze3d/textures/GpuTextureView;)Lcom/mojang/blaze3d/systems/RenderPassDescriptor$Builder;	withDepthAttachment	method_1_7414
+METHOD	com/mojang/blaze3d/systems/RenderPassDescriptor$Builder	(Lcom/mojang/blaze3d/textures/GpuTextureView;Ljava/util/OptionalDouble;)Lcom/mojang/blaze3d/systems/RenderPassDescriptor$Builder;	withDepthAttachment	method_1_7415
+METHOD	com/mojang/blaze3d/systems/RenderPassDescriptor$Builder	(Lcom/mojang/blaze3d/systems/RenderPass$RenderArea;)Lcom/mojang/blaze3d/systems/RenderPassDescriptor$Builder;	withRenderArea	method_1_7416
+METHOD	com/mojang/blaze3d/systems/RenderPassDescriptor$Builder	()Lcom/mojang/blaze3d/systems/RenderPassDescriptor$Builder;	withUnusedColorAttachment	method_1_7417
+FIELD	net/minecraft/client/renderer/LevelTargetBundle	Lcom/mojang/blaze3d/resource/ResourceHandle;	accumulate	field_1_8135
+FIELD	net/minecraft/client/renderer/LevelTargetBundle	Lcom/mojang/blaze3d/resource/ResourceHandle;	depthBounds	field_1_8136
+FIELD	net/minecraft/client/renderer/LevelTargetBundle	Lcom/mojang/blaze3d/resource/ResourceHandle;	oitCloudDepth	field_1_8137
+FIELD	net/minecraft/client/renderer/LevelTargetBundle	Lcom/mojang/blaze3d/resource/ResourceHandle;	oitTerrainWithWaterPatchDepth	field_1_8138
+FIELD	net/minecraft/client/renderer/LevelTargetBundle	Ljava/util/List;	transmittance	field_1_8139
+FIELD	net/minecraft/client/renderer/SubmitNodeStorage	Z	useImprovedTransparency	field_1_8140
+METHOD	net/minecraft/client/renderer/SubmitNodeStorage	(Z)V	setUseImprovedTransparency	method_1_7418
+METHOD	net/minecraft/core/registries/BuiltInRegistries	(Lnet/minecraft/core/Registry;)Ljava/lang/Object;	lambda$static$23	method_1_7419
+FIELD	net/minecraft/world/item/trading/VillagerTrades	Lnet/minecraft/resources/ResourceKey;	WANDERING_TRADER_EMERALD_POPLAR_LOG	field_1_8141
+FIELD	net/minecraft/client/particle/SingleQuadParticle$Layer	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	oitPipelineSet	comp_1_1166
+METHOD	net/minecraft/client/renderer/StagedVertexBuffer	(Lnet/minecraft/client/renderer/StagedVertexBuffer$Draw;)V	requestIndexCount	method_1_7420
+FIELD	net/minecraft/client/renderer/StagedVertexBuffer$ExecuteInfo	Lcom/mojang/blaze3d/PrimitiveTopology;	topology	comp_1_1167
+METHOD	net/minecraft/client/renderer/StagedVertexBuffer$ExecuteInfo	()Lcom/mojang/blaze3d/buffers/GpuBuffer;	indexBuffer	method_1_7421
+CLASS	net/minecraft/client/renderer/oit/OitPipelineSet	class_1_1165
+FIELD	net/minecraft/client/renderer/oit/OitPipelineSet	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	accumulatePipeline	comp_1_1168
+FIELD	net/minecraft/client/renderer/oit/OitPipelineSet	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	depthBoundsPipeline	comp_1_1169
+FIELD	net/minecraft/client/renderer/oit/OitPipelineSet	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	transmittancePipeline	comp_1_1170
+METHOD	net/minecraft/client/renderer/oit/OitPipelineSet	(Ljava/lang/String;Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;)Lnet/minecraft/client/renderer/oit/OitPipelineSet$Builder;	builder	method_1_7422
+METHOD	net/minecraft/client/renderer/oit/OitPipelineSet	(Lnet/minecraft/client/renderer/oit/OitStage;)Lcom/mojang/blaze3d/pipeline/RenderPipeline;	getPipeline	method_1_7423
+FIELD	net/minecraft/client/renderer/oit/OitPipelineSet$1	[I	$SwitchMap$net$minecraft$client$renderer$oit$OitStage	field_1_8142
+CLASS	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	class_1_1166
+FIELD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	Ljava/util/function/Consumer;	DISABLE_DEPTH_TEST	field_1_8143
+FIELD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	Ljava/util/Optional;	accumulateModifier	field_1_8144
+FIELD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	baseSnippet	field_1_8145
+FIELD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	Ljava/util/Optional;	depthBoundsModifier	field_1_8146
+FIELD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	Ljava/lang/String;	locationSuffix	field_1_8147
+FIELD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	Ljava/util/Optional;	transmittanceModifier	field_1_8148
+METHOD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	()Lnet/minecraft/client/renderer/oit/OitPipelineSet;	build	method_1_7424
+METHOD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	(Ljava/util/Optional;Ljava/util/function/Consumer;)Ljava/util/Optional;	composeModifiers	method_1_7425
+METHOD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;Ljava/util/function/Consumer;)V	lambda$build$0	method_1_7426
+METHOD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;Ljava/util/function/Consumer;)V	lambda$build$1	method_1_7427
+METHOD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;Ljava/util/function/Consumer;)V	lambda$build$2	method_1_7428
+METHOD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	(Ljava/util/Optional;Ljava/util/function/Consumer;Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;)V	lambda$composeModifiers$0	method_1_7429
+METHOD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;)V	lambda$static$0	method_1_7430
+METHOD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	(Ljava/util/function/Consumer;)Lnet/minecraft/client/renderer/oit/OitPipelineSet$Builder;	withAccumulateModifier	method_1_7431
+METHOD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	(Ljava/util/function/Consumer;)Lnet/minecraft/client/renderer/oit/OitPipelineSet$Builder;	withDepthBoundsModifier	method_1_7432
+METHOD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	(Ljava/util/function/Consumer;)Lnet/minecraft/client/renderer/oit/OitPipelineSet$Builder;	withTransmittanceModifier	method_1_7433
+METHOD	net/minecraft/client/renderer/oit/OitPipelineSet$Builder	()Lnet/minecraft/client/renderer/oit/OitPipelineSet$Builder;	withoutDepthTest	method_1_7434
+FIELD	net/minecraft/client/resources/model/ModelBakery	Ljava/util/List;	BREAKING_LOCATIONS_OIT	field_1_8149
+FIELD	net/minecraft/client/resources/model/ModelBakery	Ljava/util/List;	DESTROY_STAGES_OIT	field_1_8150
+FIELD	net/minecraft/client/resources/model/ModelBakery	Ljava/util/List;	DESTROY_TYPES_OIT	field_1_8151
+METHOD	net/minecraft/client/resources/model/ModelBakery	(I)Lnet/minecraft/resources/Identifier;	lambda$static$1	method_1_7435
+METHOD	net/minecraft/client/resources/model/ModelBakery	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/resources/Identifier;	lambda$static$4	method_1_7436
+METHOD	net/minecraft/client/resources/model/ModelBakery	(Ljava/lang/String;)Ljava/lang/String;	lambda$static$5	method_1_7437
+FIELD	net/minecraft/world/entity/monster/zombie/Zombie	F	RANGED_MODE_DISTANCE_SQR	field_1_8152
+METHOD	net/minecraft/world/entity/monster/zombie/Zombie	()Z	hasTargetInRangedDistance	method_1_7438
+FIELD	net/minecraft/world/entity/projectile/Projectile	Lnet/minecraft/world/item/AdventureModePredicate;	canBreak	field_1_8153
+METHOD	net/minecraft/world/entity/projectile/Projectile	(Lnet/minecraft/world/level/block/state/pattern/BlockInWorld;)Z	canBreakBlockInAdventureMode	method_1_7439
+FIELD	net/minecraft/client/renderer/WorldBorderRenderer	Lnet/minecraft/client/renderer/texture/AbstractTexture;	texture	field_1_8154
+FIELD	net/minecraft/client/renderer/WorldBorderRenderer	Lnet/minecraft/client/renderer/texture/TextureManager;	textureManager	field_1_8155
+METHOD	net/minecraft/client/renderer/WorldBorderRenderer	(Ljava/util/List;DDDLcom/mojang/blaze3d/buffers/GpuBuffer;Lcom/mojang/blaze3d/systems/RenderPass;)V	draw	method_1_7440
+METHOD	net/minecraft/client/renderer/WorldBorderRenderer	(Lnet/minecraft/client/renderer/state/level/WorldBorderRenderState;Lnet/minecraft/world/phys/Vec3;DD)V	prepare	method_1_7441
+METHOD	net/minecraft/client/renderer/WorldBorderRenderer	(Lnet/minecraft/client/renderer/state/level/WorldBorderRenderState;Lnet/minecraft/world/phys/Vec3;)Lcom/mojang/blaze3d/buffers/GpuBufferSlice;	prepareDynamicTransforms	method_1_7442
+METHOD	net/minecraft/client/renderer/WorldBorderRenderer	(Lcom/mojang/blaze3d/systems/RenderPass;Lcom/mojang/blaze3d/buffers/GpuBufferSlice;Lcom/mojang/blaze3d/buffers/GpuBuffer;Lnet/minecraft/client/renderer/texture/AbstractTexture;)V	prepareRenderPass	method_1_7443
+METHOD	net/minecraft/client/renderer/WorldBorderRenderer	(Lnet/minecraft/client/renderer/state/level/WorldBorderRenderState;Lcom/mojang/blaze3d/systems/RenderPass;Lnet/minecraft/world/phys/Vec3;D)V	render	method_1_7444
+METHOD	net/minecraft/client/renderer/WorldBorderRenderer	(Lnet/minecraft/client/renderer/state/level/WorldBorderRenderState;Lnet/minecraft/world/phys/Vec3;DLnet/minecraft/client/renderer/oit/OitStage;Lcom/mojang/blaze3d/systems/RenderPass;)V	renderOit	method_1_7445
+CLASS	net/minecraft/world/entity/animal/dolphin/Dolphin$ItemGoal	class_1_1167
+FIELD	net/minecraft/world/entity/animal/dolphin/Dolphin$ItemGoal	Lnet/minecraft/world/entity/animal/dolphin/Dolphin;	this$0	field_1_8156
+METHOD	net/minecraft/world/entity/animal/dolphin/Dolphin$ItemGoal	(Lnet/minecraft/world/item/ItemStack;)V	drop	method_1_7446
+METHOD	net/minecraft/world/entity/animal/dolphin/Dolphin$ItemGoal	()Z	dropItem	method_1_7447
+CLASS	net/minecraft/world/entity/animal/dolphin/Dolphin$MoveToItemGoal	class_1_1168
+FIELD	net/minecraft/world/entity/animal/dolphin/Dolphin$MoveToItemGoal	I	cooldown	field_1_8157
+FIELD	net/minecraft/world/entity/animal/dolphin/Dolphin$MoveToItemGoal	Lnet/minecraft/world/entity/animal/dolphin/Dolphin;	this$0	field_1_8158
+FIELD	net/minecraft/world/entity/monster/zombie/Drowned	F	rangedAttackUncertainty	field_1_8159
+METHOD	net/minecraft/world/entity/monster/zombie/Drowned	(F)V	setRangedAttackUncertainty	method_1_7448
+METHOD	net/minecraft/world/level/levelgen/VerticalAnchor	(Lcom/mojang/datafixers/util/Either;)Ljava/lang/Record;	lambda$merge$0	method_1_7449
+METHOD	net/minecraft/world/level/levelgen/VerticalAnchor	(I)Lnet/minecraft/world/level/levelgen/VerticalAnchor;	relativeToSeaLevel	method_1_7450
+METHOD	net/minecraft/world/level/levelgen/VerticalAnchor	()Lnet/minecraft/world/level/levelgen/VerticalAnchor;	seaLevel	method_1_7451
+CLASS	net/minecraft/world/level/levelgen/VerticalAnchor$RelativeToSeaLevel	class_1_1169
+FIELD	net/minecraft/world/level/levelgen/VerticalAnchor$RelativeToSeaLevel	Lcom/mojang/serialization/Codec;	CODEC	field_1_8160
+FIELD	net/minecraft/world/level/levelgen/VerticalAnchor$RelativeToSeaLevel	I	offset	comp_1_1171
+FIELD	com/mojang/blaze3d/resource/RenderTargetDescriptor	Lcom/mojang/blaze3d/resource/RenderTargetDescriptor$TextureProperties;	color	comp_1_1172
+FIELD	com/mojang/blaze3d/resource/RenderTargetDescriptor	Lcom/mojang/blaze3d/resource/RenderTargetDescriptor$TextureProperties;	depth	comp_1_1173
+CLASS	com/mojang/blaze3d/resource/RenderTargetDescriptor$TextureProperties	class_1_1170
+FIELD	com/mojang/blaze3d/resource/RenderTargetDescriptor$TextureProperties	Lcom/mojang/blaze3d/resource/RenderTargetDescriptor$TextureProperties;	DEFAULT_DEPTH	field_1_8161
+FIELD	com/mojang/blaze3d/resource/RenderTargetDescriptor$TextureProperties	Lorg/joml/Vector4fc;	clearColor	comp_1_1174
+FIELD	com/mojang/blaze3d/resource/RenderTargetDescriptor$TextureProperties	Lcom/mojang/blaze3d/GpuFormat;	format	comp_1_1175
+FIELD	net/minecraft/client/renderer/SubmitNodeCollection	Lnet/minecraft/client/renderer/feature/phase/SimpleFeatureRenderPhase;	alwaysOnTopGizmos	field_1_8162
+FIELD	net/minecraft/client/renderer/SubmitNodeCollection	Lnet/minecraft/client/renderer/feature/phase/SimpleFeatureRenderPhase;	oitTranslucent	field_1_8163
+FIELD	net/minecraft/client/renderer/SubmitNodeCollection	Lnet/minecraft/client/renderer/feature/phase/SimpleFeatureRenderPhase;	translucentGizmos	field_1_8164
+METHOD	net/minecraft/client/renderer/SubmitNodeCollection	(Lnet/minecraft/client/renderer/feature/ItemFeatureRenderer$Submit;)Z	shouldRenderAsSolid	method_1_7452
+METHOD	net/minecraft/client/renderer/SubmitNodeCollection	(II)Z	shouldRenderTextAsSolid	method_1_7453
+METHOD	net/minecraft/client/renderer/SubmitNodeCollection	(Lnet/minecraft/client/renderer/feature/NameTagFeatureRenderer$Submit;)V	submitNameTagPart	method_1_7454
+FIELD	net/minecraft/client/renderer/SubmitNodeCollection$1	[I	$SwitchMap$net$minecraft$client$renderer$item$ItemStackRenderState$FoilType	field_1_8165
+METHOD	net/minecraft/world/entity/monster/RangedAttackMob	(Lnet/minecraft/world/level/Level;)F	rangedAttackUncertainty	method_1_7455
+FIELD	net/minecraft/world/level/levelgen/DensityFunction	Lcom/mojang/serialization/Codec;	REFERENCE_CODEC	field_1_8166
+METHOD	net/minecraft/world/level/levelgen/DensityFunction	()Lnet/minecraft/util/Interval;	range	method_1_7456
+FIELD	net/minecraft/world/level/levelgen/NoiseRouterData	Lnet/minecraft/resources/ResourceKey;	TEMPERATURE	field_1_8167
+FIELD	net/minecraft/world/level/levelgen/NoiseRouterData	Lnet/minecraft/resources/ResourceKey;	TEMPERATURE_LARGE	field_1_8168
+FIELD	net/minecraft/world/level/levelgen/NoiseRouterData	Lnet/minecraft/resources/ResourceKey;	VEGETATION	field_1_8169
+FIELD	net/minecraft/world/level/levelgen/NoiseRouterData	Lnet/minecraft/resources/ResourceKey;	VEGETATION_LARGE	field_1_8170
+CLASS	net/minecraft/client/gui/narration/NarrationTrigger	class_1_1171
+FIELD	net/minecraft/client/gui/narration/NarrationTrigger	[Lnet/minecraft/client/gui/narration/NarrationTrigger;	$VALUES	field_1_8171
+FIELD	net/minecraft/client/gui/narration/NarrationTrigger	Lnet/minecraft/client/gui/narration/NarrationTrigger;	KEYBOARD	field_1_8172
+FIELD	net/minecraft/client/gui/narration/NarrationTrigger	Lnet/minecraft/client/gui/narration/NarrationTrigger;	MOUSE	field_1_8173
+FIELD	net/minecraft/client/gui/narration/NarrationTrigger	Lnet/minecraft/client/gui/narration/NarrationTrigger;	SYSTEM	field_1_8174
+METHOD	net/minecraft/client/gui/narration/NarrationTrigger	()[Lnet/minecraft/client/gui/narration/NarrationTrigger;	$values	method_1_7457
+FIELD	net/minecraft/client/renderer/WeatherEffectRenderer	Lnet/minecraft/client/renderer/GameRenderer;	gameRenderer	field_1_8175
+FIELD	net/minecraft/client/renderer/WeatherEffectRenderer	I	indexCount	field_1_8176
+FIELD	net/minecraft/client/renderer/WeatherEffectRenderer	Lcom/mojang/blaze3d/PrimitiveTopology;	primitiveTopology	field_1_8177
+FIELD	net/minecraft/client/renderer/WeatherEffectRenderer	Lnet/minecraft/client/renderer/texture/AbstractTexture;	rainTexture	field_1_8178
+FIELD	net/minecraft/client/renderer/WeatherEffectRenderer	Lnet/minecraft/client/renderer/texture/AbstractTexture;	snowTexture	field_1_8179
+FIELD	net/minecraft/client/renderer/WeatherEffectRenderer	Lnet/minecraft/client/renderer/texture/TextureManager;	textureManager	field_1_8180
+METHOD	net/minecraft/client/renderer/WeatherEffectRenderer	(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/client/renderer/state/level/WeatherRenderState;)V	prepare	method_1_7458
+METHOD	net/minecraft/client/renderer/WeatherEffectRenderer	(Lnet/minecraft/client/renderer/state/level/WeatherRenderState;Lcom/mojang/blaze3d/systems/RenderPass;)V	render	method_1_7459
+METHOD	net/minecraft/client/renderer/WeatherEffectRenderer	(Lnet/minecraft/client/renderer/state/level/WeatherRenderState;Lcom/mojang/blaze3d/systems/RenderPass;Lcom/mojang/blaze3d/pipeline/RenderPipeline;)V	render	method_1_7460
+METHOD	net/minecraft/client/renderer/WeatherEffectRenderer	(Lnet/minecraft/client/renderer/oit/OitStage;Lnet/minecraft/client/renderer/state/level/WeatherRenderState;Lcom/mojang/blaze3d/systems/RenderPass;)V	renderOit	method_1_7461
+METHOD	net/minecraft/client/renderer/rendertype/RenderType	()Z	affectsCrumbling	method_1_7462
+METHOD	net/minecraft/client/renderer/rendertype/RenderType	()Z	bothSolidAndTranslucent	method_1_7463
+METHOD	net/minecraft/world/level/levelgen/DensityFunctions$Clamp	(Lnet/minecraft/world/level/levelgen/DensityFunctions$Clamp;)Ljava/lang/String;	lambda$validate$0	method_1_7464
+METHOD	net/minecraft/world/level/levelgen/DensityFunctions$Clamp	(Lnet/minecraft/world/level/levelgen/DensityFunctions$Clamp;)Lcom/mojang/serialization/DataResult;	validate	method_1_7465
+METHOD	net/minecraft/world/level/levelgen/DensityFunctions$Mapped	(D)D	lambda$range$0	method_1_7466
+METHOD	net/minecraft/world/level/levelgen/NoiseSpawnFinder	(Ljava/util/List;)Lnet/minecraft/core/BlockPos;	findSpawnPosition	method_1_7467
+CLASS	net/minecraft/world/level/levelgen/SpawnTargetPoint	class_1_1172
+FIELD	net/minecraft/world/level/levelgen/SpawnTargetPoint	Lcom/mojang/serialization/Codec;	CODEC	field_1_8181
+FIELD	net/minecraft/world/level/levelgen/SpawnTargetPoint	Ljava/util/Map;	parameters	comp_1_1176
+METHOD	net/minecraft/world/level/levelgen/SpawnTargetPoint	(Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;Ljava/util/Map$Entry;)Lcom/mojang/datafixers/util/Pair;	lambda$wire$0	method_1_7468
+METHOD	net/minecraft/world/level/levelgen/SpawnTargetPoint	(Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;Lnet/minecraft/world/level/levelgen/DensityFunction$Visitor;)Lnet/minecraft/world/level/levelgen/SpawnTargetPoint$Wired;	wire	method_1_7469
+CLASS	net/minecraft/world/level/levelgen/SpawnTargetPoint$Wired	class_1_1173
+FIELD	net/minecraft/world/level/levelgen/SpawnTargetPoint$Wired	Ljava/util/List;	parameters	comp_1_1177
+METHOD	net/minecraft/world/level/levelgen/SpawnTargetPoint$Wired	(Lnet/minecraft/world/level/levelgen/DensityFunction$SinglePointContext;)J	sampleFitness	method_1_7470
+FIELD	net/minecraft/client/renderer/rendertype/RenderSetup	Z	affectsCrumbling	field_1_8182
+FIELD	net/minecraft/client/renderer/rendertype/RenderSetup	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	opaquePartsPipeline	field_1_8183
+FIELD	net/minecraft/client/renderer/rendertype/RenderSetup$RenderSetupBuilder	Z	forceSolidModelPhase	field_1_8184
+FIELD	net/minecraft/client/renderer/rendertype/RenderSetup$RenderSetupBuilder	Lnet/minecraft/client/renderer/rendertype/OutputTarget;	oitOutputTarget	field_1_8185
+FIELD	net/minecraft/client/renderer/rendertype/RenderSetup$RenderSetupBuilder	Lnet/minecraft/client/renderer/oit/OitPipelineSet;	oitPipelineSet	field_1_8186
+FIELD	net/minecraft/client/renderer/rendertype/RenderSetup$RenderSetupBuilder	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	opaquePartsPipeline	field_1_8187
+METHOD	net/minecraft/client/renderer/rendertype/RenderSetup$RenderSetupBuilder	(Lcom/mojang/blaze3d/pipeline/RenderPipeline;)Lnet/minecraft/client/renderer/rendertype/RenderSetup$RenderSetupBuilder;	setOpaquePartsPipeline	method_1_7471
+METHOD	net/minecraft/client/renderer/rendertype/RenderSetup$RenderSetupBuilder	()Lnet/minecraft/client/renderer/rendertype/RenderSetup$RenderSetupBuilder;	withForcedSolidModelPhase	method_1_7472
+FIELD	net/minecraft/client/renderer/rendertype/RenderTypes	Ljava/util/function/Function;	ARMOR_CUTOUT_NO_CULL_GLINT	field_1_8188
+FIELD	net/minecraft/client/renderer/rendertype/RenderTypes	Ljava/util/function/Function;	ENTITY_SOLID_GLINT	field_1_8189
+FIELD	net/minecraft/client/renderer/rendertype/RenderTypes	Ljava/util/function/Function;	ITEM_CUTOUT_GLINT	field_1_8190
+FIELD	net/minecraft/client/renderer/rendertype/RenderTypes	Ljava/util/function/Function;	ITEM_CUTOUT_GLINT_SPECIAL	field_1_8191
+FIELD	net/minecraft/client/renderer/rendertype/RenderTypes	Ljava/util/function/Function;	ITEM_TRANSLUCENT_GLINT	field_1_8192
+FIELD	net/minecraft/client/renderer/rendertype/RenderTypes	Ljava/util/function/Function;	ITEM_TRANSLUCENT_GLINT_SPECIAL	field_1_8193
+FIELD	net/minecraft/client/renderer/rendertype/RenderTypes	Lnet/minecraft/client/renderer/rendertype/RenderType;	LINES_DEPTH_BIAS	field_1_8194
+FIELD	net/minecraft/client/renderer/rendertype/RenderTypes	Lnet/minecraft/client/renderer/rendertype/RenderType;	OIT_WATER_MASK	field_1_8195
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	armorCutoutNoCullGlint	method_1_7473
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	entitySolidGlint	method_1_7474
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	itemCutoutGlint	method_1_7475
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	itemCutoutGlintSpecial	method_1_7476
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	itemTranslucentGlint	method_1_7477
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	itemTranslucentGlintSpecial	method_1_7478
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	lambda$static$15	method_1_7479
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	lambda$static$16	method_1_7480
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	lambda$static$18	method_1_7481
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	lambda$static$19	method_1_7482
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	lambda$static$2	method_1_7483
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	lambda$static$7	method_1_7484
+METHOD	net/minecraft/client/renderer/rendertype/RenderTypes	()Lnet/minecraft/client/renderer/rendertype/RenderType;	linesDepthBias	method_1_7485
+METHOD	net/minecraft/world/entity/vehicle/boat/AbstractBoat	(Lnet/minecraft/world/entity/Entity;)F	calculatePassengerBodyYRot	method_1_7486
+METHOD	net/minecraft/world/level/block/state/BlockBehaviour$BlockStateBase	(Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/block/state/properties/Property;)Lnet/minecraft/world/level/block/state/BlockState;	copyProperty	method_1_7487
+METHOD	net/minecraft/world/level/block/state/BlockBehaviour$BlockStateBase	(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/world/level/block/state/BlockState;	withPropertiesOf	method_1_7488
+FIELD	net/minecraft/client/multiplayer/ClientPacketListener	Lnet/minecraft/world/entity/EntitySpawnRequest;	ENTITY_SPAWN_REQUEST	field_1_8196
+FIELD	net/minecraft/client/renderer/rendertype/OutputTarget	Lnet/minecraft/client/renderer/rendertype/OutputTarget;	ACCUMULATE_TARGET	field_1_8197
+FIELD	net/minecraft/client/renderer/rendertype/OutputTarget	Lnet/minecraft/client/renderer/rendertype/OutputTarget;	DEPTH_BOUNDS_TARGET	field_1_8198
+FIELD	net/minecraft/client/renderer/rendertype/OutputTarget	Lnet/minecraft/client/renderer/rendertype/OutputTarget;	TERRAIN_DEPTH_TARGET	field_1_8199
+FIELD	net/minecraft/client/renderer/rendertype/OutputTarget	[Lnet/minecraft/client/renderer/rendertype/OutputTarget;	TRANSMITTANCE_TARGETS	field_1_8200
+METHOD	net/minecraft/client/renderer/rendertype/OutputTarget	()Lcom/mojang/blaze3d/pipeline/RenderTarget;	lambda$static$4	method_1_7489
+METHOD	net/minecraft/client/renderer/rendertype/OutputTarget	(I)Lcom/mojang/blaze3d/pipeline/RenderTarget;	lambda$static$5	method_1_7490
+FIELD	net/minecraft/world/level/levelgen/carver/WorldCarver	Lcom/mojang/serialization/Codec;	CODEC	field_1_8201
+FIELD	net/minecraft/world/level/levelgen/carver/WorldCarver	Lcom/mojang/serialization/Codec;	DIRECT_CODEC	field_1_8202
+FIELD	net/minecraft/world/level/levelgen/carver/WorldCarver	Lcom/mojang/serialization/Codec;	LIST_CODEC	field_1_8203
+METHOD	net/minecraft/world/level/levelgen/carver/WorldCarver	()Lcom/mojang/serialization/MapCodec;	codec	method_1_7491
+METHOD	com/mojang/blaze3d/vertex/SheetedDecalTextureGenerator	(Lorg/joml/Vector3f;Lorg/joml/Vector3f;Lorg/joml/Matrix4fc;Lorg/joml/Matrix3fc;FLcom/mojang/blaze3d/vertex/VertexConsumer;)V	setSheetedDecalUv	method_1_7492
+CLASS	net/minecraft/client/renderer/oit/OitRenderPassProvider	class_1_1174
+METHOD	net/minecraft/client/renderer/oit/OitRenderPassProvider	(Ljava/util/function/Supplier;Lnet/minecraft/client/renderer/oit/OitRenderPassProvider$Parameters;)Lcom/mojang/blaze3d/systems/RenderPass;	createAccumulatePass	method_1_7493
+METHOD	net/minecraft/client/renderer/oit/OitRenderPassProvider	(Ljava/util/function/Supplier;Lnet/minecraft/client/renderer/oit/OitRenderPassProvider$Parameters;)Lcom/mojang/blaze3d/systems/RenderPass;	createDepthBoundsPass	method_1_7494
+METHOD	net/minecraft/client/renderer/oit/OitRenderPassProvider	(Lnet/minecraft/client/renderer/oit/OitStage;Ljava/util/function/Supplier;Lnet/minecraft/client/renderer/oit/OitRenderPassProvider$Parameters;)Lcom/mojang/blaze3d/systems/RenderPass;	createRenderPass	method_1_7495
+METHOD	net/minecraft/client/renderer/oit/OitRenderPassProvider	(Ljava/util/function/Supplier;Lnet/minecraft/client/renderer/oit/OitRenderPassProvider$Parameters;)Lcom/mojang/blaze3d/systems/RenderPass;	createTransmittancePass	method_1_7496
+METHOD	net/minecraft/client/renderer/oit/OitRenderPassProvider	(Ljava/util/function/Supplier;)Ljava/lang/String;	lambda$createAccumulatePass$0	method_1_7497
+METHOD	net/minecraft/client/renderer/oit/OitRenderPassProvider	(Ljava/util/function/Supplier;)Ljava/lang/String;	lambda$createDepthBoundsPass$0	method_1_7498
+METHOD	net/minecraft/client/renderer/oit/OitRenderPassProvider	(Ljava/util/function/Supplier;)Ljava/lang/String;	lambda$createTransmittancePass$0	method_1_7499
+FIELD	net/minecraft/client/renderer/oit/OitRenderPassProvider$1	[I	$SwitchMap$net$minecraft$client$renderer$oit$OitStage	field_1_8204
+CLASS	net/minecraft/client/renderer/oit/OitRenderPassProvider$Parameters	class_1_1175
+FIELD	net/minecraft/client/renderer/oit/OitRenderPassProvider$Parameters	Lcom/mojang/blaze3d/textures/GpuTextureView;	accumulateTargetView	comp_1_1178
+FIELD	net/minecraft/client/renderer/oit/OitRenderPassProvider$Parameters	Lcom/mojang/blaze3d/textures/GpuTextureView;	depthBoundsTargetView	comp_1_1179
+FIELD	net/minecraft/client/renderer/oit/OitRenderPassProvider$Parameters	Lcom/mojang/blaze3d/textures/GpuTextureView;	depthTextureView	comp_1_1180
+FIELD	net/minecraft/client/resources/model/geometry/BakedQuad$MaterialInfo	Lnet/minecraft/client/renderer/rendertype/RenderType;	itemGlintRenderType	comp_1_1181
+FIELD	net/minecraft/client/resources/model/geometry/BakedQuad$MaterialInfo	Lnet/minecraft/client/renderer/rendertype/RenderType;	itemGlintSpecialRenderType	comp_1_1182
+CLASS	net/minecraft/util/valueproviders/VeryBiasedToBottomInt	class_1_1176
+FIELD	net/minecraft/util/valueproviders/VeryBiasedToBottomInt	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_8205
+FIELD	net/minecraft/util/valueproviders/VeryBiasedToBottomInt	I	maxInclusive	comp_1_1183
+FIELD	net/minecraft/util/valueproviders/VeryBiasedToBottomInt	I	minInclusive	comp_1_1184
+METHOD	net/minecraft/util/valueproviders/VeryBiasedToBottomInt	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_7500
+METHOD	net/minecraft/util/valueproviders/VeryBiasedToBottomInt	(Lnet/minecraft/util/valueproviders/VeryBiasedToBottomInt;)Lcom/mojang/serialization/DataResult;	lambda$static$1	method_1_7501
+METHOD	net/minecraft/util/valueproviders/VeryBiasedToBottomInt	(Lnet/minecraft/util/valueproviders/VeryBiasedToBottomInt;)Ljava/lang/String;	lambda$static$2	method_1_7502
+METHOD	net/minecraft/util/valueproviders/VeryBiasedToBottomInt	(II)Lnet/minecraft/util/valueproviders/VeryBiasedToBottomInt;	of	method_1_7503
+METHOD	net/minecraft/client/renderer/OrderedSubmitNodeCollector	(Lnet/minecraft/client/renderer/rendertype/RenderType;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/rendertype/RenderType;	lambda$submitCrumblingOverlay$0	method_1_7504
+METHOD	net/minecraft/client/renderer/OrderedSubmitNodeCollector	(Lnet/minecraft/client/model/Model;Ljava/lang/Object;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/rendertype/RenderType;IIILnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V	submitCrumblingOverlay	method_1_7505
+METHOD	net/minecraft/client/renderer/OrderedSubmitNodeCollector	(Lnet/minecraft/client/model/geom/ModelPart;Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/rendertype/RenderType;IIILnet/minecraft/client/renderer/feature/ModelFeatureRenderer$CrumblingOverlay;)V	submitCrumblingOverlay	method_1_7506
+FIELD	net/minecraft/world/level/storage/loot/BuiltInLootTables	Lnet/minecraft/resources/ResourceKey;	TILL_ROOTED_DIRT	field_1_8206
+METHOD	net/minecraft/client/gui/narration/NarrationElementOutput	()Lnet/minecraft/client/gui/narration/NarrationTrigger;	narrationTrigger	method_1_7507
+METHOD	net/minecraft/client/renderer/chunk/ChunkSectionsToRender	(Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Ljava/lang/String;	lambda$renderLayers$0	method_1_7508
+METHOD	net/minecraft/client/renderer/chunk/ChunkSectionsToRender	()Ljava/lang/String;	lambda$renderOit$0	method_1_7509
+METHOD	net/minecraft/client/renderer/chunk/ChunkSectionsToRender	(Lnet/minecraft/client/renderer/chunk/ChunkSectionLayerGroup;Lcom/mojang/blaze3d/systems/RenderPass;Lcom/mojang/blaze3d/textures/GpuSampler;Z)V	renderGroup	method_1_7510
+METHOD	net/minecraft/client/renderer/chunk/ChunkSectionsToRender	([Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;Lcom/mojang/blaze3d/textures/GpuSampler;Lcom/mojang/blaze3d/systems/RenderPass;Lcom/mojang/blaze3d/textures/GpuTextureView;Lcom/mojang/blaze3d/pipeline/RenderPipeline;Z)V	renderLayers	method_1_7511
+METHOD	net/minecraft/client/renderer/chunk/ChunkSectionsToRender	(Lcom/mojang/blaze3d/textures/GpuSampler;Lnet/minecraft/client/renderer/oit/OitStage;Lnet/minecraft/client/renderer/oit/OitRenderPassProvider$Parameters;Lcom/mojang/blaze3d/textures/GpuTextureView;)V	renderOit	method_1_7512
+FIELD	net/minecraft/client/renderer/feature/ItemFeatureRenderer$1	[I	$SwitchMap$net$minecraft$client$renderer$item$ItemStackRenderState$FoilType	field_1_8207
+FIELD	net/minecraft/world/level/levelgen/WorldGenerationContext	I	seaLevel	field_1_8208
+METHOD	net/minecraft/world/level/levelgen/WorldGenerationContext	(Lnet/minecraft/world/level/LevelAccessor;)Lnet/minecraft/world/level/levelgen/WorldGenerationContext;	of	method_1_7513
+METHOD	net/minecraft/world/level/levelgen/WorldGenerationContext	()I	seaLevel	method_1_7514
+FIELD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_8209
+FIELD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	Lnet/minecraft/util/valueproviders/IntProvider;	count	comp_1_1185
+FIELD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	Lnet/minecraft/util/valueproviders/FloatProvider;	floorLevel	comp_1_1186
+FIELD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	Lnet/minecraft/util/valueproviders/FloatProvider;	horizontalRadiusMultiplier	comp_1_1187
+FIELD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	F	probability	comp_1_1188
+FIELD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	Lnet/minecraft/util/valueproviders/FloatProvider;	roomVerticalRadiusMultiplier	comp_1_1189
+FIELD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	Lnet/minecraft/util/valueproviders/FloatProvider;	startVerticalRadiusMultiplier	comp_1_1190
+FIELD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	Lnet/minecraft/util/valueproviders/FloatProvider;	thickness	comp_1_1191
+FIELD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	Lnet/minecraft/util/valueproviders/FloatProvider;	verticalRadiusMultiplier	comp_1_1192
+FIELD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	Z	weirdThicknessBias	comp_1_1193
+FIELD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	Lnet/minecraft/world/level/levelgen/heightproviders/HeightProvider;	y	comp_1_1194
+METHOD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_7515
+METHOD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	(Lnet/minecraft/world/level/levelgen/carver/CaveWorldCarver;)Ljava/lang/Float;	lambda$static$1	method_1_7516
+METHOD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	(Lnet/minecraft/world/level/levelgen/carver/CaveWorldCarver;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$10	method_1_7517
+METHOD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	(Lnet/minecraft/world/level/levelgen/carver/CaveWorldCarver;)Lnet/minecraft/world/level/levelgen/heightproviders/HeightProvider;	lambda$static$2	method_1_7518
+METHOD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	(Lnet/minecraft/world/level/levelgen/carver/CaveWorldCarver;)Lnet/minecraft/util/valueproviders/IntProvider;	lambda$static$3	method_1_7519
+METHOD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	(Lnet/minecraft/world/level/levelgen/carver/CaveWorldCarver;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$4	method_1_7520
+METHOD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	(Lnet/minecraft/world/level/levelgen/carver/CaveWorldCarver;)Ljava/lang/Boolean;	lambda$static$5	method_1_7521
+METHOD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	(Lnet/minecraft/world/level/levelgen/carver/CaveWorldCarver;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$6	method_1_7522
+METHOD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	(Lnet/minecraft/world/level/levelgen/carver/CaveWorldCarver;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$7	method_1_7523
+METHOD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	(Lnet/minecraft/world/level/levelgen/carver/CaveWorldCarver;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$8	method_1_7524
+METHOD	net/minecraft/world/level/levelgen/carver/CaveWorldCarver	(Lnet/minecraft/world/level/levelgen/carver/CaveWorldCarver;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$9	method_1_7525
+CLASS	net/minecraft/world/level/levelgen/feature/OverlayFeature	class_1_1177
+FIELD	net/minecraft/world/level/levelgen/feature/OverlayFeature	Lcom/mojang/serialization/MapCodec;	CODEC	field_1_8210
+FIELD	net/minecraft/world/level/levelgen/feature/OverlayFeature	Lnet/minecraft/core/HolderSet;	features	comp_1_1195
+METHOD	net/minecraft/world/level/levelgen/feature/OverlayFeature	(Lnet/minecraft/core/Holder;)Ljava/util/stream/Stream;	lambda$getSubFeatures$0	method_1_7526
+METHOD	net/minecraft/world/level/levelgen/feature/OverlayFeature	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_7527
+field_35753 is now comp_1_1196
+FIELD	net/minecraft/client/renderer/entity/LightningBoltRenderer	F	BOLT_BLUE	field_1_8211
+FIELD	net/minecraft/client/renderer/entity/LightningBoltRenderer	F	BOLT_GREEN	field_1_8212
+FIELD	net/minecraft/client/renderer/entity/LightningBoltRenderer	F	BOLT_RED	field_1_8213
+FIELD	net/minecraft/client/renderer/entity/LightningBoltRenderer	I	BRANCH_COUNT	field_1_8214
+FIELD	net/minecraft/client/renderer/entity/LightningBoltRenderer	I	BRANCH_SEGMENT_COUNT	field_1_8215
+FIELD	net/minecraft/client/renderer/entity/LightningBoltRenderer	I	LAYER_COUNT	field_1_8216
+FIELD	net/minecraft/client/renderer/entity/LightningBoltRenderer	I	SEGMENT_COUNT	field_1_8217
+FIELD	net/minecraft/client/renderer/state/level/LevelRenderState	Z	renderWireframeTerrain	field_1_8218
+CLASS	net/minecraft/world/level/levelgen/carver/WorldCarverTypes	class_1_1178
+METHOD	net/minecraft/world/level/levelgen/carver/WorldCarverTypes	(Lnet/minecraft/core/Registry;)Lcom/mojang/serialization/MapCodec;	bootstrap	method_1_7528
+CLASS	net/minecraft/world/level/levelgen/placement/FeaturePlacer	class_1_1179
+FIELD	net/minecraft/world/level/levelgen/placement/FeaturePlacer	Lnet/minecraft/world/level/chunk/ChunkGenerator;	generator	field_1_8219
+FIELD	net/minecraft/world/level/levelgen/placement/FeaturePlacer	Lnet/minecraft/world/level/WorldGenLevel;	level	field_1_8220
+FIELD	net/minecraft/world/level/levelgen/placement/FeaturePlacer	Ljava/util/List;	modifiedPositions	field_1_8221
+FIELD	net/minecraft/world/level/levelgen/placement/FeaturePlacer	Lit/unimi/dsi/fastutil/ints/IntList;	modifierIndices	field_1_8222
+FIELD	net/minecraft/world/level/levelgen/placement/FeaturePlacer	Ljava/util/List;	positions	field_1_8223
+METHOD	net/minecraft/world/level/levelgen/placement/FeaturePlacer	(Lnet/minecraft/world/level/levelgen/placement/PlacedFeature;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Z	place	method_1_7529
+METHOD	net/minecraft/world/level/levelgen/placement/FeaturePlacer	(Lnet/minecraft/world/level/levelgen/placement/PlacedFeature;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Z)Z	place	method_1_7530
+METHOD	net/minecraft/world/level/levelgen/placement/FeaturePlacer	(Lnet/minecraft/world/level/levelgen/placement/PlacedFeature;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;)Z	placeWithBiomeCheck	method_1_7531
+METHOD	net/minecraft/client/gui/components/events/GuiEventListener	()Z	capturesInput	method_1_7532
+FIELD	net/minecraft/client/gui/narration/ScreenNarrationCollector$Output	Lnet/minecraft/client/gui/narration/NarrationTrigger;	narrationTrigger	field_1_8224
+FIELD	net/minecraft/client/renderer/rendertype/PreparedRenderType	Ljava/lang/String;	name	comp_1_1197
+FIELD	net/minecraft/client/renderer/rendertype/PreparedRenderType	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	opaquePartsPipeline	comp_1_1198
+METHOD	net/minecraft/client/renderer/rendertype/PreparedRenderType	(Lnet/minecraft/client/renderer/StagedVertexBuffer$ExecuteInfo;Lcom/mojang/blaze3d/systems/RenderPass;Lcom/mojang/blaze3d/pipeline/RenderPipeline;)V	draw	method_1_7533
+METHOD	net/minecraft/client/renderer/rendertype/PreparedRenderType	(Lnet/minecraft/client/renderer/StagedVertexBuffer$ExecuteInfo;Lcom/mojang/blaze3d/systems/RenderPass;)V	drawFromBuffer	method_1_7534
+METHOD	net/minecraft/client/renderer/rendertype/PreparedRenderType	(Lnet/minecraft/client/renderer/StagedVertexBuffer$ExecuteInfo;Lnet/minecraft/client/renderer/oit/OitStage;Lcom/mojang/blaze3d/systems/RenderPass;)V	drawFromBufferOit	method_1_7535
+CLASS	net/minecraft/world/item/component/BlockTransformerMappings	class_1_1180
+FIELD	net/minecraft/world/item/component/BlockTransformerMappings	Lnet/minecraft/core/component/BlockTransformer;	AXE	field_1_8225
+FIELD	net/minecraft/world/item/component/BlockTransformerMappings	Ljava/util/List;	AXE_STRIPPABLES	field_1_8226
+FIELD	net/minecraft/world/item/component/BlockTransformerMappings	Lnet/minecraft/core/component/BlockTransformer$BlockTransformData;	FARMLAND	field_1_8227
+FIELD	net/minecraft/world/item/component/BlockTransformerMappings	Lnet/minecraft/core/component/BlockTransformer;	HOE	field_1_8228
+FIELD	net/minecraft/world/item/component/BlockTransformerMappings	Lnet/minecraft/core/component/BlockTransformer$BlockTransformData;	HOE_COARSE_DIRT	field_1_8229
+FIELD	net/minecraft/world/item/component/BlockTransformerMappings	Lnet/minecraft/core/component/BlockTransformer$BlockTransformData;	HOE_ROOTED_DIRT	field_1_8230
+FIELD	net/minecraft/world/item/component/BlockTransformerMappings	Lnet/minecraft/core/component/BlockTransformer;	SHOVEL	field_1_8231
+METHOD	net/minecraft/world/item/component/BlockTransformerMappings	(Ljava/util/Set;Lnet/minecraft/core/Holder;Lnet/minecraft/core/component/BlockTransformer$TransformParticle;)Ljava/util/List;	axe	method_1_7536
+METHOD	net/minecraft/world/item/component/BlockTransformerMappings	(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/core/component/BlockTransformer$BlockTransformData;	getStrippableBlockData	method_1_7537
+METHOD	net/minecraft/world/level/levelgen/NoiseBasedChunkGenerator	(Lnet/minecraft/world/level/chunk/ChunkAccess;Lnet/minecraft/world/level/chunk/CarvingMask;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/levelgen/WorldGenerationContext;Lnet/minecraft/world/level/levelgen/NoiseChunk;Ljava/util/function/Function;Lnet/minecraft/world/level/chunk/CarvingMask$Filter;)V	applyCarvingMask	method_1_7538
+METHOD	net/minecraft/world/level/levelgen/NoiseBasedChunkGenerator	(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/world/level/chunk/CarvingMask$Filter;Lnet/minecraft/core/BlockPos$MutableBlockPos;Lnet/minecraft/world/level/chunk/ChunkAccess;Lnet/minecraft/world/level/levelgen/Aquifer;Lnet/minecraft/core/BlockPos$MutableBlockPos;Lnet/minecraft/world/level/levelgen/RandomState;Lnet/minecraft/world/level/levelgen/SurfaceRules$RuleSource;Lnet/minecraft/world/level/levelgen/WorldGenerationContext;Ljava/util/function/Function;Lnet/minecraft/world/level/levelgen/NoiseChunk;IIII)V	lambda$applyCarvingMask$0	method_1_7539
+METHOD	net/minecraft/world/level/levelgen/NoiseBasedChunkGenerator	(Lnet/minecraft/world/level/chunk/ChunkAccess;Lnet/minecraft/core/BlockPos$MutableBlockPos;Lnet/minecraft/world/level/block/state/BlockState;)V	lambda$applyCarvingMask$1	method_1_7540
+FIELD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_8232
+FIELD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver	F	probability	comp_1_1199
+FIELD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver	Lnet/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape;	shape	comp_1_1200
+FIELD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver	Lnet/minecraft/util/valueproviders/FloatProvider;	verticalRotation	comp_1_1201
+FIELD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver	Lnet/minecraft/world/level/levelgen/heightproviders/HeightProvider;	y	comp_1_1202
+METHOD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_7541
+METHOD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver	(Lnet/minecraft/world/level/levelgen/carver/CanyonWorldCarver;)Ljava/lang/Float;	lambda$static$1	method_1_7542
+METHOD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver	(Lnet/minecraft/world/level/levelgen/carver/CanyonWorldCarver;)Lnet/minecraft/world/level/levelgen/heightproviders/HeightProvider;	lambda$static$2	method_1_7543
+METHOD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver	(Lnet/minecraft/world/level/levelgen/carver/CanyonWorldCarver;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$3	method_1_7544
+METHOD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver	(Lnet/minecraft/world/level/levelgen/carver/CanyonWorldCarver;)Lnet/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape;	lambda$static$4	method_1_7545
+CLASS	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	class_1_1181
+FIELD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	Lcom/mojang/serialization/Codec;	CODEC	field_1_8233
+FIELD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	Lnet/minecraft/util/valueproviders/FloatProvider;	distanceFactor	comp_1_1203
+FIELD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	Lnet/minecraft/util/valueproviders/FloatProvider;	horizontalRadiusFactor	comp_1_1204
+FIELD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	Lnet/minecraft/util/valueproviders/FloatProvider;	thickness	comp_1_1205
+FIELD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	F	verticalRadiusCenterFactor	comp_1_1206
+FIELD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	F	verticalRadiusDefaultFactor	comp_1_1207
+FIELD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	I	widthSmoothness	comp_1_1208
+FIELD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	Lnet/minecraft/util/valueproviders/FloatProvider;	yScale	comp_1_1209
+METHOD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_7546
+METHOD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	(Lnet/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$1	method_1_7547
+METHOD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	(Lnet/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$2	method_1_7548
+METHOD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	(Lnet/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape;)Ljava/lang/Integer;	lambda$static$3	method_1_7549
+METHOD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	(Lnet/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$4	method_1_7550
+METHOD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	(Lnet/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape;)Ljava/lang/Float;	lambda$static$5	method_1_7551
+METHOD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	(Lnet/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape;)Ljava/lang/Float;	lambda$static$6	method_1_7552
+METHOD	net/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape	(Lnet/minecraft/world/level/levelgen/carver/CanyonWorldCarver$Shape;)Lnet/minecraft/util/valueproviders/FloatProvider;	lambda$static$7	method_1_7553
+field_35719 is now comp_1_1210
+field_52291 is now comp_1_1211
+METHOD	net/minecraft/client/gui/render/pip/PictureInPictureRenderer	()Ljava/lang/String;	lambda$prepare$0	method_1_7554
+METHOD	net/minecraft/client/renderer/gizmos/DrawableGizmoPrimitives	()Z	isEmpty	method_1_7555
+FIELD	net/minecraft/world/level/levelgen/placement/OffsetPlacement	Lnet/minecraft/util/valueproviders/IntProvider;	x	comp_1_1212
+field_35421 is now comp_1_1213
+FIELD	net/minecraft/world/level/levelgen/placement/OffsetPlacement	Lnet/minecraft/util/valueproviders/IntProvider;	z	comp_1_1214
+METHOD	net/minecraft/world/level/levelgen/placement/OffsetPlacement	(III)Lnet/minecraft/world/level/levelgen/placement/OffsetPlacement;	of	method_1_7556
+METHOD	net/minecraft/client/renderer/feature/FeatureRenderDispatcher$PreparedFrame	(Lnet/minecraft/client/renderer/oit/OitStage;Lcom/mojang/blaze3d/systems/RenderPass;)V	executeOit	method_1_7557
+METHOD	net/minecraft/client/renderer/feature/FeatureRenderDispatcher$PreparedFrame	(Lnet/minecraft/client/renderer/feature/phase/FeatureRenderPhase;Lnet/minecraft/client/renderer/feature/FeatureFrameContext;Lcom/mojang/blaze3d/systems/RenderPass;)V	executePhase	method_1_7558
+METHOD	net/minecraft/client/renderer/feature/FeatureRenderDispatcher$PreparedFrame	(Lcom/mojang/blaze3d/systems/RenderPass;)V	executeWaterMask	method_1_7559
+METHOD	net/minecraft/client/renderer/feature/FeatureRenderDispatcher$PreparedFrame	()Z	hasAnyWaterMask	method_1_7560
+METHOD	net/minecraft/client/renderer/feature/FeatureRenderDispatcher$PreparedFrame	(Ljava/lang/String;)Ljava/lang/String;	lambda$executePhase$0	method_1_7561
+METHOD	net/minecraft/world/level/levelgen/placement/PlacementModifier	()Lcom/mojang/serialization/MapCodec;	codec	method_1_7562
+METHOD	net/minecraft/world/level/levelgen/placement/PlacementModifier	(Lnet/minecraft/world/level/levelgen/placement/PlacementContext;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos;Ljava/util/function/Consumer;)V	modify	method_1_7563
+field_29266 is now comp_1_1215
+METHOD	net/minecraft/client/renderer/feature/QuadParticleFeatureRenderer	(Lnet/minecraft/client/renderer/oit/OitStage;Lnet/minecraft/client/particle/SingleQuadParticle$Layer;)Lcom/mojang/blaze3d/pipeline/RenderPipeline;	getOitPipeline	method_1_7564
+METHOD	net/minecraft/world/level/levelgen/blockpredicates/BlockPredicate	(Lnet/minecraft/world/level/levelgen/VerticalAnchor;Lnet/minecraft/world/level/levelgen/VerticalAnchor;)Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;	heightRange	method_1_7565
+field_35076 is now comp_1_1216
+field_35726 is now comp_1_1217
+METHOD	com/mojang/realmsclient/gui/screens/RealmsSelectWorldTemplateScreen	(Lcom/mojang/realmsclient/dto/WorldTemplatePaginatedList;)V	lambda$fetchTemplatesAsync$0	method_1_7566
+METHOD	com/mojang/realmsclient/gui/screens/RealmsSelectWorldTemplateScreen	(Lcom/mojang/datafixers/util/Either;)Lcom/mojang/realmsclient/dto/WorldTemplatePaginatedList;	lambda$fetchTemplatesAsync$1	method_1_7567
+CLASS	net/minecraft/world/level/levelgen/feature/SingleBlockPillarFeature	class_1_1182
+FIELD	net/minecraft/world/level/levelgen/feature/SingleBlockPillarFeature	Lcom/mojang/serialization/MapCodec;	CODEC	field_1_8234
+FIELD	net/minecraft/world/level/levelgen/feature/SingleBlockPillarFeature	Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;	block	comp_1_1218
+FIELD	net/minecraft/world/level/levelgen/feature/SingleBlockPillarFeature	Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;	canReplace	comp_1_1219
+FIELD	net/minecraft/world/level/levelgen/feature/SingleBlockPillarFeature	Ljava/util/Optional;	capFeature	comp_1_1220
+FIELD	net/minecraft/world/level/levelgen/feature/SingleBlockPillarFeature	F	chanceToContinue	comp_1_1221
+FIELD	net/minecraft/world/level/levelgen/feature/SingleBlockPillarFeature	Lnet/minecraft/core/Direction;	direction	comp_1_1222
+METHOD	net/minecraft/world/level/levelgen/feature/SingleBlockPillarFeature	(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/chunk/ChunkGenerator;Lnet/minecraft/util/RandomSource;Lnet/minecraft/core/BlockPos$MutableBlockPos;Lnet/minecraft/core/Holder;)V	lambda$place$0	method_1_7568
+METHOD	net/minecraft/world/level/levelgen/feature/SingleBlockPillarFeature	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_7569
+CLASS	net/minecraft/world/level/levelgen/placement/PlacementModifierTypes	class_1_1183
+METHOD	net/minecraft/world/level/levelgen/placement/PlacementModifierTypes	(Lnet/minecraft/core/Registry;)Lcom/mojang/serialization/MapCodec;	bootstrap	method_1_7570
+field_29324 is now comp_1_1223
+FIELD	net/minecraft/world/level/levelgen/blockpredicates/BlockPredicateType	Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicateType;	HEIGHT_RANGE	field_1_8235
+field_35723 is now comp_1_1224
+field_35721 is now comp_1_1225
+field_35724 is now comp_1_1226
+field_35722 is now comp_1_1227
+field_14206 is now comp_1_1228
+field_14205 is now comp_1_1229
+field_14208 is now comp_1_1230
+CLASS	net/minecraft/world/level/levelgen/feature/ProjectedRandomPatchySquare	class_1_1184
+FIELD	net/minecraft/world/level/levelgen/feature/ProjectedRandomPatchySquare	Lcom/mojang/serialization/MapCodec;	CODEC	field_1_8236
+FIELD	net/minecraft/world/level/levelgen/feature/ProjectedRandomPatchySquare	Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;	block	comp_1_1231
+FIELD	net/minecraft/world/level/levelgen/feature/ProjectedRandomPatchySquare	I	maxProjectionHeight	comp_1_1232
+FIELD	net/minecraft/world/level/levelgen/feature/ProjectedRandomPatchySquare	Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;	projectThrough	comp_1_1233
+FIELD	net/minecraft/world/level/levelgen/feature/ProjectedRandomPatchySquare	Lnet/minecraft/util/valueproviders/IntProvider;	size	comp_1_1234
+METHOD	net/minecraft/world/level/levelgen/feature/ProjectedRandomPatchySquare	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_7571
+CLASS	net/minecraft/world/level/levelgen/feature/RandomNeighborSpreadFeature	class_1_1185
+FIELD	net/minecraft/world/level/levelgen/feature/RandomNeighborSpreadFeature	Lcom/mojang/serialization/MapCodec;	CODEC	field_1_8237
+FIELD	net/minecraft/world/level/levelgen/feature/RandomNeighborSpreadFeature	Lnet/minecraft/core/HolderSet;	acceptedNeighbors	comp_1_1235
+FIELD	net/minecraft/world/level/levelgen/feature/RandomNeighborSpreadFeature	Lnet/minecraft/util/valueproviders/IntProvider;	attempts	comp_1_1236
+FIELD	net/minecraft/world/level/levelgen/feature/RandomNeighborSpreadFeature	Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;	block	comp_1_1237
+FIELD	net/minecraft/world/level/levelgen/feature/RandomNeighborSpreadFeature	Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;	canReplace	comp_1_1238
+FIELD	net/minecraft/world/level/levelgen/feature/RandomNeighborSpreadFeature	Lnet/minecraft/util/valueproviders/IntProvider;	xzOffset	comp_1_1239
+FIELD	net/minecraft/world/level/levelgen/feature/RandomNeighborSpreadFeature	Lnet/minecraft/util/valueproviders/IntProvider;	yOffset	comp_1_1240
+METHOD	net/minecraft/world/level/levelgen/feature/RandomNeighborSpreadFeature	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_7572
+CLASS	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	class_1_1186
+FIELD	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	Lcom/mojang/serialization/MapCodec;	CODEC	field_1_8238
+FIELD	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;	block	comp_1_1241
+FIELD	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;	canReplace	comp_1_1242
+FIELD	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	Lnet/minecraft/core/HolderSet;	cannotPlaceOn	comp_1_1243
+FIELD	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	Lnet/minecraft/util/valueproviders/IntProvider;	clusterReach	comp_1_1244
+FIELD	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	Lnet/minecraft/util/valueproviders/IntProvider;	columnCount	comp_1_1245
+FIELD	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	Lnet/minecraft/util/valueproviders/IntProvider;	columnReach	comp_1_1246
+FIELD	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;	continueThrough	comp_1_1247
+FIELD	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	Lnet/minecraft/util/valueproviders/IntProvider;	height	comp_1_1248
+METHOD	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/core/BlockPos$MutableBlockPos;)Z	canPlaceAt	method_1_7573
+METHOD	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos$MutableBlockPos;I)Lnet/minecraft/core/BlockPos;	findAir	method_1_7574
+METHOD	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	(Lnet/minecraft/world/level/WorldGenLevel;ILnet/minecraft/core/BlockPos$MutableBlockPos;I)Lnet/minecraft/core/BlockPos;	findSurface	method_1_7575
+METHOD	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_7576
+METHOD	net/minecraft/world/level/levelgen/feature/SteppedColumnClusterFeature	(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/util/RandomSource;ILnet/minecraft/core/BlockPos;II)Z	placeColumn	method_1_7577
+CLASS	net/minecraft/world/level/levelgen/blockpredicates/HeightRangePredicate	class_1_1187
+FIELD	net/minecraft/world/level/levelgen/blockpredicates/HeightRangePredicate	Lcom/mojang/serialization/MapCodec;	CODEC	field_1_8239
+FIELD	net/minecraft/world/level/levelgen/blockpredicates/HeightRangePredicate	Lnet/minecraft/world/level/levelgen/VerticalAnchor;	maxInclusive	comp_1_1249
+FIELD	net/minecraft/world/level/levelgen/blockpredicates/HeightRangePredicate	Lnet/minecraft/world/level/levelgen/VerticalAnchor;	minInclusive	comp_1_1250
+METHOD	net/minecraft/world/level/levelgen/blockpredicates/HeightRangePredicate	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_7578
+METHOD	net/minecraft/world/level/levelgen/blockpredicates/HeightRangePredicate	(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;)Z	test	method_1_7579
+field_35717 is now comp_1_1251
+field_13445 is now comp_1_1252
+field_13446 is now comp_1_1253
+field_13444 is now comp_1_1254
+field_34722 is now comp_1_1255
+field_34724 is now comp_1_1256
+field_34723 is now comp_1_1257
+METHOD	net/minecraft/world/level/levelgen/feature/foliageplacers/PoplarFoliagePlacer	(Lnet/minecraft/world/level/WorldGenLevel;Lnet/minecraft/world/level/levelgen/feature/foliageplacers/FoliagePlacer$FoliageSetter;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/level/levelgen/feature/TreeFeature;Lnet/minecraft/core/BlockPos;IIZIZ)V	placeLeavesRow	method_1_7580
+METHOD	net/minecraft/world/level/levelgen/feature/foliageplacers/PoplarFoliagePlacer	(Lnet/minecraft/util/RandomSource;IIIIZIZ)Z	shouldSkipLocation	method_1_7581
+FIELD	net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProviderType	Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProviderType;	COPY_PROPERTIES_PROVIDER	field_1_8240
+CLASS	net/minecraft/world/level/levelgen/feature/stateproviders/CopyPropertiesProvider	class_1_1188
+FIELD	net/minecraft/world/level/levelgen/feature/stateproviders/CopyPropertiesProvider	Lcom/mojang/serialization/MapCodec;	CODEC	field_1_8241
+FIELD	net/minecraft/world/level/levelgen/feature/stateproviders/CopyPropertiesProvider	Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;	sourceBlockStateProvider	field_1_8242
+METHOD	net/minecraft/world/level/levelgen/feature/stateproviders/CopyPropertiesProvider	()Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;	getBaseBlockState	method_1_7582
+METHOD	net/minecraft/world/level/levelgen/feature/stateproviders/CopyPropertiesProvider	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_7583
+Done!
