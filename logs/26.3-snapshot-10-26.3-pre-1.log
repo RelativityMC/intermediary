@@ -1,0 +1,623 @@
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/predicates/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/predicates/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/ComponentPath$Leaf;leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView; as record getter for textureViewLcom/mojang/renderpearl/api/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/KeyEvent;shortcutKey()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/client/renderer/feature/CustomFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/client/renderer/feature/FeatureRendererType;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/client/renderer/feature/ModelFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/core/CompositeDirection;getStep()Lnet/minecraft/core/Vec3i;
+Demoting record getter net/minecraft/core/particles/GeyserBaseParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/core/particles/GeyserParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Read 11306 (7243) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 20052 MethodEntries (0 unique, 11549 classes).
+Joined 128 record fields.
+Collecting additional information...
+- Done. -
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/predicates/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/predicates/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/ComponentPath$Leaf;leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView; as record getter for textureViewLcom/mojang/renderpearl/api/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/KeyEvent;shortcutKey()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/client/renderer/feature/CustomFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/client/renderer/feature/FeatureRendererType;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/client/renderer/feature/ModelFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/core/CompositeDirection;getStep()Lnet/minecraft/core/Vec3i;
+Demoting record getter net/minecraft/core/particles/GeyserBaseParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/core/particles/GeyserParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Read 11379 (7298) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 20190 MethodEntries (0 unique, 11616 classes).
+Joined 160 record fields.
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+FIELD	net/minecraft/nbt/NbtUtils	Ljava/lang/String;	LEGACY_BLOCKSTATE_PROPERTY_TAG	field_1_10350
+FIELD	net/minecraft/nbt/NbtUtils	Ljava/lang/String;	LEGACY_BLOCK_STATE_ID_TAG	field_1_10351
+METHOD	net/minecraft/nbt/NbtUtils	(ILnet/minecraft/nbt/CompoundTag;)Ljava/lang/String;	lambda$packStructureTemplate$0	method_1_10220
+METHOD	net/minecraft/nbt/NbtUtils	(ILjava/lang/String;)Lnet/minecraft/nbt/Tag;	lambda$unpackStructureTemplate$1	method_1_10221
+METHOD	net/minecraft/nbt/NbtUtils	(ILjava/lang/String;)Lnet/minecraft/nbt/CompoundTag;	lambda$unpackStructureTemplate$4	method_1_10222
+FIELD	net/minecraft/tags/ItemTags	Lnet/minecraft/tags/TagKey;	FURNACE_FUEL_BOTTOM_TAKEABLE	field_1_10352
+FIELD	net/minecraft/client/Options	Lnet/minecraft/network/chat/Component;	MAC_FULLSCREEN_MENU_VISIBILITY_TOOLTIP	field_1_10353
+FIELD	net/minecraft/client/Options	Lnet/minecraft/client/OptionInstance;	macFullscreenMenuVisibility	field_1_10354
+METHOD	net/minecraft/client/Options	(Ljava/lang/Boolean;)V	lambda$new$77	method_1_10223
+METHOD	net/minecraft/client/Options	()Lnet/minecraft/client/OptionInstance;	macFullscreenMenuVisibility	method_1_10224
+FIELD	net/minecraft/SharedConstants	Z	DEBUG_ENABLE_FARLANDS	field_1_10355
+METHOD	net/minecraft/client/MouseHandler	()V	resyncMousePosition	method_1_10225
+METHOD	net/minecraft/world/entity/Entity	(Z)Z	projectileReceivesSideEffectsOnHit	method_1_10226
+METHOD	com/mojang/blaze3d/platform/Window	()V	show	method_1_10227
+METHOD	com/mojang/blaze3d/platform/Window	()V	updateWindowMouseGrab	method_1_10228
+FIELD	com/mojang/blaze3d/platform/Monitor	I	h	comp_1_1825
+FIELD	com/mojang/blaze3d/platform/Monitor	I	w	comp_1_1826
+FIELD	com/mojang/blaze3d/platform/MacosUtil	Z	IS_MACOS	field_1_10356
+METHOD	com/mojang/blaze3d/platform/MacosUtil	(Z)V	setCtrlClickEmulatesRightClick	method_1_10229
+METHOD	com/mojang/blaze3d/platform/MacosUtil	(Z)V	setFullscreenMenuVisibility	method_1_10230
+CLASS	com/mojang/blaze3d/platform/MacosUtil$DisabledActions	class_1_1595
+FIELD	com/mojang/blaze3d/platform/MacosUtil$DisabledActions	Ljava/util/Set;	SELECTORS	field_1_10357
+METHOD	com/mojang/blaze3d/platform/NativeImage	(Ljava/lang/String;I)V	checkSpngError	method_1_10231
+FIELD	com/mojang/blaze3d/platform/NativeImage$Format	I	pngColorType	field_1_10358
+FIELD	com/mojang/blaze3d/platform/NativeImage$WriteCallback	Ljava/lang/foreign/FunctionDescriptor;	CALLBACK_DESC	field_1_10359
+FIELD	com/mojang/blaze3d/platform/NativeImage$WriteCallback	Ljava/lang/invoke/MethodHandle;	CALLBACK_FN	field_1_10360
+FIELD	com/mojang/blaze3d/platform/NativeImage$WriteCallback	Ljava/lang/foreign/Linker;	LINKER	field_1_10361
+METHOD	com/mojang/blaze3d/platform/NativeImage$WriteCallback	(Ljava/lang/foreign/Arena;)Ljava/lang/foreign/MemorySegment;	createUpcall	method_1_10232
+METHOD	com/mojang/blaze3d/platform/NativeImage$WriteCallback	()Ljava/lang/invoke/MethodHandle;	findCallbackFn	method_1_10233
+METHOD	com/mojang/blaze3d/platform/NativeImage$WriteCallback	(Ljava/lang/foreign/MemorySegment;Ljava/lang/foreign/MemorySegment;Ljava/lang/foreign/MemorySegment;J)I	invoke	method_1_10234
+METHOD	net/minecraft/client/renderer/PostChain	()V	closePersistentTargets	method_1_10235
+METHOD	com/mojang/realmsclient/RealmsMainScreen	()V	lambda$openJoinRealmScreen$0	method_1_10236
+FIELD	net/minecraft/core/registries/Registries	Lnet/minecraft/resources/ResourceKey;	BLOCK_STATE_PROVIDER	field_1_10362
+FIELD	net/minecraft/core/registries/Registries	Lnet/minecraft/resources/ResourceKey;	CONTEXT_FLOAT_PROVIDER	field_1_10363
+FIELD	net/minecraft/core/registries/Registries	Lnet/minecraft/resources/ResourceKey;	CONTEXT_FLOAT_PROVIDER_TYPE	field_1_10364
+FIELD	net/minecraft/core/registries/Registries	Lnet/minecraft/resources/ResourceKey;	CONTEXT_INT_PROVIDER	field_1_10365
+FIELD	net/minecraft/core/registries/Registries	Lnet/minecraft/resources/ResourceKey;	CONTEXT_INT_PROVIDER_TYPE	field_1_10366
+METHOD	net/minecraft/resources/FileToIdConverter	(Lnet/minecraft/resources/Identifier;)Z	matches	method_1_10237
+METHOD	net/minecraft/resources/FileToIdConverter	(Lnet/minecraft/resources/Identifier;)Z	prefixMatches	method_1_10238
+METHOD	com/mojang/blaze3d/platform/MonitorManager	(I)V	onDisplayModeChanged	method_1_10239
+FIELD	net/minecraft/client/renderer/GameRenderer$1	Ljava/util/Map;	val$includes	field_1_10367
+FIELD	net/minecraft/client/renderer/GameRenderer$1	Lnet/minecraft/server/packs/resources/ResourceManager;	val$resourceManager	field_1_10368
+METHOD	net/minecraft/world/level/StructureManager	(Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/level/levelgen/structure/StructureStart;	getStructureAt	method_1_10240
+METHOD	net/minecraft/world/level/StructureManager	(Ljava/util/function/Predicate;)Ljava/util/function/Predicate;	matching	method_1_10241
+METHOD	com/mojang/blaze3d/platform/SDLEventHandler	()V	pumpEvents	method_1_10242
+FIELD	net/minecraft/client/renderer/ShaderManager	Lnet/minecraft/resources/FileToIdConverter;	SHADER_INCLUDE_CONVERTER	field_1_10369
+FIELD	net/minecraft/client/renderer/ShaderManager	Ljava/lang/String;	SHADER_INCLUDE_EXTENSION	field_1_10370
+METHOD	net/minecraft/client/renderer/ShaderManager	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/resources/Identifier;	includeShaderLocationToId	method_1_10243
+METHOD	net/minecraft/client/renderer/ShaderManager	(Ljava/util/Map;Lnet/minecraft/resources/Identifier;Lnet/minecraft/server/packs/resources/Resource;)V	lambda$listAllIncludes$0	method_1_10244
+METHOD	net/minecraft/client/renderer/ShaderManager	(Lnet/minecraft/resources/Identifier;)Z	lambda$loadConfigs$0	method_1_10245
+METHOD	net/minecraft/client/renderer/ShaderManager	(Lnet/minecraft/server/packs/resources/ResourceManager;)Ljava/util/Map;	listAllIncludes	method_1_10246
+METHOD	net/minecraft/client/renderer/ShaderManager	(Lnet/minecraft/resources/Identifier;Lnet/minecraft/server/packs/resources/Resource;Lcom/google/common/collect/ImmutableMap$Builder;)V	loadInclude	method_1_10247
+FIELD	net/minecraft/client/renderer/ShaderManager$Configs	Ljava/util/Map;	includeSources	comp_1_1827
+FIELD	net/minecraft/world/attribute/AttributeType	Ljava/util/function/ToIntFunction;	toInt	comp_1_1828
+METHOD	net/minecraft/world/attribute/AttributeType	(Ljava/lang/Object;)I	toInt	method_1_10248
+FIELD	net/minecraft/server/commands/ComputeCommand	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	INVALID_NAMED_VALUE	field_1_10371
+FIELD	net/minecraft/server/commands/ComputeCommand	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	INVALID_UNNAMED_VALUE	field_1_10372
+METHOD	net/minecraft/server/commands/ComputeCommand	(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	lambda$static$0	method_1_10249
+METHOD	net/minecraft/server/commands/ComputeCommand	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	lambda$static$1	method_1_10250
+METHOD	net/minecraft/server/commands/ComputeCommand	(Ljava/lang/String;Lnet/minecraft/resources/ResourceKey;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	lambda$throwInvalidValue$0	method_1_10251
+METHOD	net/minecraft/server/commands/ComputeCommand	(Ljava/lang/String;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	lambda$throwInvalidValue$1	method_1_10252
+METHOD	net/minecraft/server/commands/ComputeCommand	(Lnet/minecraft/core/Holder;Ljava/lang/String;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	throwInvalidValue	method_1_10253
+METHOD	net/minecraft/world/attribute/AttributeTypes	(Ljava/lang/Integer;)I	lambda$static$3	method_1_10254
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/renderpearl/api/pipeline/RenderPipeline;	BLIT_DEPTH	field_1_10373
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/renderpearl/api/pipeline/RenderPipeline;	BLIT_DEPTH_BOUNDS	field_1_10374
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/renderpearl/api/pipeline/RenderPipeline;	BLIT_DEPTH_DURING_DEPTH_BOUNDS	field_1_10375
+METHOD	net/minecraft/core/component/BlockTransformer$BlockTransformData	(Lnet/minecraft/core/Holder;)Lnet/minecraft/core/component/BlockTransformer$BlockTransformData$Builder;	builder	method_1_10255
+METHOD	net/minecraft/server/packs/resources/Resource	()Ljava/lang/String;	readAllAsString	method_1_10256
+FIELD	net/minecraft/core/registries/BuiltInRegistries	Lnet/minecraft/core/Registry;	CONTEXT_INT_PROVIDER_TYPE	field_1_10376
+METHOD	net/minecraft/data/info/DatapackStructureReport	(Ljava/util/Map;Lnet/minecraft/resources/RegistryDataLoader$RegistryData;)V	lambda$listRegistries$3	method_1_10257
+CLASS	net/minecraft/data/worldgen/BlockStateProviders	class_1_1596
+FIELD	net/minecraft/data/worldgen/BlockStateProviders	Lnet/minecraft/resources/ResourceKey;	CAVE_VINES_BODY	field_1_10377
+FIELD	net/minecraft/data/worldgen/BlockStateProviders	Lnet/minecraft/resources/ResourceKey;	CAVE_VINES_HEAD	field_1_10378
+FIELD	net/minecraft/data/worldgen/BlockStateProviders	Lnet/minecraft/resources/ResourceKey;	FLOWER_FLOWER_FOREST	field_1_10379
+FIELD	net/minecraft/data/worldgen/BlockStateProviders	Lnet/minecraft/resources/ResourceKey;	FLOWER_MEADOW	field_1_10380
+FIELD	net/minecraft/data/worldgen/BlockStateProviders	Lnet/minecraft/resources/ResourceKey;	FLOWER_PLAIN	field_1_10381
+FIELD	net/minecraft/data/worldgen/BlockStateProviders	Lnet/minecraft/resources/ResourceKey;	MANGROVE_PROPAGULE	field_1_10382
+FIELD	net/minecraft/data/worldgen/BlockStateProviders	Lnet/minecraft/resources/ResourceKey;	PODZOL_BENEATH_TREE	field_1_10383
+FIELD	net/minecraft/data/worldgen/BlockStateProviders	Lnet/minecraft/resources/ResourceKey;	SOIL_BENEATH_TREE	field_1_10384
+METHOD	net/minecraft/data/worldgen/BlockStateProviders	(Lnet/minecraft/data/worldgen/BootstrapContext;)V	bootstrap	method_1_10258
+METHOD	net/minecraft/data/worldgen/BlockStateProviders	(Ljava/lang/String;)Lnet/minecraft/resources/ResourceKey;	key	method_1_10259
+METHOD	net/minecraft/server/level/ServerPlayerGameMode	(Lnet/minecraft/server/level/ServerPlayer;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;	lambda$useItemOn$0	method_1_10260
+METHOD	net/minecraft/server/packs/VanillaPackResources	()Lnet/minecraft/server/packs/resources/ResourceManager;	asResourceManager	method_1_10261
+CLASS	net/minecraft/world/level/storage/loot/IntLimit	class_1_1597
+FIELD	net/minecraft/world/level/storage/loot/IntLimit	Lcom/mojang/serialization/Codec;	CODEC	field_1_10385
+FIELD	net/minecraft/world/level/storage/loot/IntLimit	Lnet/minecraft/world/level/storage/loot/IntLimit$IntLimiter;	limiter	field_1_10386
+FIELD	net/minecraft/world/level/storage/loot/IntLimit	Ljava/util/Optional;	max	field_1_10387
+FIELD	net/minecraft/world/level/storage/loot/IntLimit	Ljava/util/Optional;	min	field_1_10388
+METHOD	net/minecraft/world/level/storage/loot/IntLimit	(Lnet/minecraft/world/level/storage/loot/LootContext;I)I	clamp	method_1_10262
+METHOD	net/minecraft/world/level/storage/loot/IntLimit	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/IntLimit$IntLimiter;	createLimiter	method_1_10263
+METHOD	net/minecraft/world/level/storage/loot/IntLimit	(Lnet/minecraft/world/level/storage/loot/LootContext;I)I	lambda$createLimiter$0	method_1_10264
+METHOD	net/minecraft/world/level/storage/loot/IntLimit	(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/LootContext;I)I	lambda$createLimiter$1	method_1_10265
+METHOD	net/minecraft/world/level/storage/loot/IntLimit	(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/LootContext;I)I	lambda$createLimiter$2	method_1_10266
+METHOD	net/minecraft/world/level/storage/loot/IntLimit	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/LootContext;I)I	lambda$createLimiter$3	method_1_10267
+METHOD	net/minecraft/world/level/storage/loot/IntLimit	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_10268
+METHOD	net/minecraft/world/level/storage/loot/IntLimit	(Lnet/minecraft/world/level/storage/loot/IntLimit;)Ljava/util/Optional;	lambda$static$1	method_1_10269
+METHOD	net/minecraft/world/level/storage/loot/IntLimit	(Lnet/minecraft/world/level/storage/loot/IntLimit;)Ljava/util/Optional;	lambda$static$2	method_1_10270
+METHOD	net/minecraft/world/level/storage/loot/IntLimit	(I)Lnet/minecraft/world/level/storage/loot/IntLimit;	lowerBound	method_1_10271
+METHOD	net/minecraft/world/level/storage/loot/IntLimit	(II)Lnet/minecraft/world/level/storage/loot/IntLimit;	range	method_1_10272
+METHOD	net/minecraft/world/level/storage/loot/IntLimit	(I)Lnet/minecraft/world/level/storage/loot/IntLimit;	upperBound	method_1_10273
+METHOD	com/mojang/renderpearl/api/pipeline/ShaderSource	(Lnet/minecraft/resources/Identifier;)Lcom/mojang/renderpearl/api/pipeline/ShaderSource$CachedIncludeSource;	getInclude	method_1_10274
+CLASS	com/mojang/renderpearl/api/pipeline/ShaderSource$CachedIncludeSource	class_1_1598
+FIELD	com/mojang/renderpearl/api/pipeline/ShaderSource$CachedIncludeSource	J	includeResultPtr	comp_1_1829
+METHOD	com/mojang/renderpearl/api/pipeline/ShaderSource$CachedIncludeSource	(Lnet/minecraft/resources/Identifier;Ljava/lang/String;)Lcom/mojang/renderpearl/api/pipeline/ShaderSource$CachedIncludeSource;	create	method_1_10275
+METHOD	com/mojang/renderpearl/api/pipeline/ShaderSource$CachedIncludeSource	(Ljava/lang/String;)Lcom/mojang/renderpearl/api/pipeline/ShaderSource$CachedIncludeSource;	createError	method_1_10276
+METHOD	net/minecraft/server/commands/LootContextSources	(Lcom/mojang/brigadier/builder/ArgumentBuilder;Lnet/minecraft/server/commands/LootContextSources$NodeVisitor;Lnet/minecraft/server/commands/LootContextSources$ContextDecorator;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	decorate	method_1_10277
+CLASS	net/minecraft/server/commands/LootContextSources$NodeVisitor	class_1_1599
+METHOD	net/minecraft/server/commands/LootContextSources$NodeVisitor	(Lnet/minecraft/server/commands/LootContextSources$ContextDecorator;Ljava/util/function/Consumer;)V	visit	method_1_10278
+FIELD	net/minecraft/world/level/block/state/BlockState	Lcom/mojang/serialization/Codec;	FULL_CODEC	field_1_10389
+FIELD	net/minecraft/client/gui/screens/WorldOptionsScreen	Lnet/minecraft/network/chat/Component;	DIFFICULTY_LOCK_TITLE	field_1_10390
+METHOD	net/minecraft/client/gui/screens/WorldOptionsScreen	(Lnet/minecraft/client/server/IntegratedServer;Lnet/minecraft/client/gui/components/PopupScreen;)V	lambda$init$1	method_1_10279
+METHOD	net/minecraft/client/gui/screens/WorldOptionsScreen	(Lnet/minecraft/client/gui/components/PopupScreen;)V	lambda$init$2	method_1_10280
+METHOD	net/minecraft/client/gui/screens/WorldOptionsScreen$DifficultyButtons	(Lnet/minecraft/client/gui/screens/WorldOptionsScreen;Lnet/minecraft/client/gui/components/Button;)V	lambda$create$1	method_1_10281
+FIELD	net/minecraft/world/level/storage/loot/LootDataType	Lnet/minecraft/world/level/storage/loot/LootDataType;	INT_PROVIDER	field_1_10391
+METHOD	com/mojang/blaze3d/platform/NativeLibrariesBootstrap	()V	loadSPNG	method_1_10282
+FIELD	com/mojang/renderpearl/frontend/shaders/GlslCompiler	Lcom/mojang/renderpearl/api/pipeline/ShaderSource$CachedIncludeSource;	malformedIdResult	field_1_10392
+FIELD	com/mojang/renderpearl/frontend/shaders/GlslCompiler	Lcom/mojang/renderpearl/api/pipeline/ShaderSource$CachedIncludeSource;	missingIncludeResult	field_1_10393
+METHOD	com/mojang/renderpearl/frontend/shaders/GlslCompiler	(Lcom/mojang/renderpearl/api/pipeline/ShaderSource;)Lorg/lwjgl/util/shaderc/ShadercIncludeResolve;	createIncludeResolver	method_1_10283
+METHOD	com/mojang/renderpearl/frontend/shaders/GlslCompiler	(Lcom/mojang/renderpearl/api/pipeline/ShaderSource;JJIJJ)J	lambda$createIncludeResolver$0	method_1_10284
+METHOD	net/minecraft/client/multiplayer/MultiPlayerGameMode	(Lnet/minecraft/client/player/LocalPlayer;Z)V	dropItem	method_1_10285
+METHOD	net/minecraft/client/multiplayer/MultiPlayerGameMode	(Lnet/minecraft/client/player/LocalPlayer;Lnet/minecraft/world/InteractionHand;)Lnet/minecraft/world/item/ItemStack;	lambda$performUseItemOn$0	method_1_10286
+METHOD	net/minecraft/commands/arguments/ResourceOrIdArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder;	getIntProvider	method_1_10287
+METHOD	net/minecraft/commands/arguments/ResourceOrIdArgument	(Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/arguments/ResourceOrIdArgument$ContextIntProviderArgument;	intProvider	method_1_10288
+CLASS	net/minecraft/commands/arguments/ResourceOrIdArgument$ContextIntProviderArgument	class_1_1600
+METHOD	net/minecraft/client/model/monster/zombie/DrownedModel	(Lnet/minecraft/client/renderer/entity/state/ZombieRenderState;FF)V	setupSwimAnimation	method_1_10289
+FIELD	net/minecraft/world/level/levelgen/synth/GradientNoise	D	HALF_ROUND_OFF	field_1_10394
+comp_1_1178 is now field_1_10395
+comp_1_1179 is now field_1_10396
+comp_1_1180 is now field_1_10397
+FIELD	net/minecraft/client/renderer/oit/OitRenderPassProvider$Parameters	[Lcom/mojang/renderpearl/api/textures/GpuTextureView;	transmittanceTargetViews	field_1_10398
+METHOD	net/minecraft/client/renderer/oit/OitRenderPassProvider$Parameters	(Lcom/mojang/renderpearl/api/textures/GpuTextureView;)V	setDepthBoundsTargetView	method_1_10290
+CLASS	net/minecraft/world/level/storage/loot/IntRangePredicate	class_1_1601
+FIELD	net/minecraft/world/level/storage/loot/IntRangePredicate	Lcom/mojang/serialization/Codec;	CODEC	field_1_10399
+FIELD	net/minecraft/world/level/storage/loot/IntRangePredicate	Lcom/mojang/serialization/Codec;	LINE_CODEC	field_1_10400
+FIELD	net/minecraft/world/level/storage/loot/IntRangePredicate	Lcom/mojang/serialization/Codec;	POINT_CODEC	field_1_10401
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate	(I)Lnet/minecraft/world/level/storage/loot/IntRangePredicate;	exact	method_1_10291
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_10292
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate	(Lnet/minecraft/world/level/storage/loot/IntRangePredicate$Line;)Ljava/util/Optional;	lambda$static$1	method_1_10293
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate	(Lnet/minecraft/world/level/storage/loot/IntRangePredicate$Line;)Ljava/util/Optional;	lambda$static$2	method_1_10294
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate	(Lnet/minecraft/world/level/storage/loot/IntRangePredicate;)Lcom/mojang/datafixers/util/Either;	lambda$static$3	method_1_10295
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate	(I)Lnet/minecraft/world/level/storage/loot/IntRangePredicate;	lowerBound	method_1_10296
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate	(II)Lnet/minecraft/world/level/storage/loot/IntRangePredicate;	range	method_1_10297
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate	(Lnet/minecraft/world/level/storage/loot/LootContext;I)Z	test	method_1_10298
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate	(Lnet/minecraft/world/level/storage/loot/LootContext;Lnet/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProvider;)Z	test	method_1_10299
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate	(I)Lnet/minecraft/world/level/storage/loot/IntRangePredicate;	upperBound	method_1_10300
+CLASS	net/minecraft/world/level/storage/loot/IntRangePredicate$Line	class_1_1602
+FIELD	net/minecraft/world/level/storage/loot/IntRangePredicate$Line	Ljava/util/Optional;	max	field_1_10402
+FIELD	net/minecraft/world/level/storage/loot/IntRangePredicate$Line	Ljava/util/Optional;	min	field_1_10403
+FIELD	net/minecraft/world/level/storage/loot/IntRangePredicate$Line	Lnet/minecraft/world/level/storage/loot/IntRangePredicate$Line$IntChecker;	predicate	field_1_10404
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate$Line	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/IntRangePredicate$Line$IntChecker;	createPredicate	method_1_10301
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate$Line	(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/LootContext;I)Z	lambda$createPredicate$0	method_1_10302
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate$Line	(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/LootContext;I)Z	lambda$createPredicate$1	method_1_10303
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate$Line	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/LootContext;I)Z	lambda$createPredicate$2	method_1_10304
+CLASS	net/minecraft/world/level/storage/loot/IntRangePredicate$Point	class_1_1603
+FIELD	net/minecraft/world/level/storage/loot/IntRangePredicate$Point	Lnet/minecraft/core/Holder;	value	comp_1_1830
+METHOD	net/minecraft/world/level/storage/loot/IntRangePredicate$Point	(Lnet/minecraft/world/level/storage/loot/LootContext;)I	computeValue	method_1_10305
+FIELD	net/minecraft/client/gui/screens/debug/DebugOptionsScreen$CategoryEntry	Lnet/minecraft/client/gui/components/FocusableTextWidget;	widget	field_1_10405
+FIELD	net/minecraft/server/network/ServerGamePacketListenerImpl	I	INVALID_POSITION_CORRECTION_MAX_INTERVAL_TICKS	field_1_10406
+FIELD	net/minecraft/server/network/ServerGamePacketListenerImpl	I	MAX_DISTANCE_TO_VALID_POSITION	field_1_10407
+FIELD	net/minecraft/server/network/ServerGamePacketListenerImpl	I	vehiclePositionLastResetAt	field_1_10408
+CLASS	net/minecraft/world/level/storage/loot/FloatRangePredicate	class_1_1604
+FIELD	net/minecraft/world/level/storage/loot/FloatRangePredicate	Lcom/mojang/serialization/Codec;	CODEC	field_1_10409
+FIELD	net/minecraft/world/level/storage/loot/FloatRangePredicate	Lcom/mojang/serialization/Codec;	LINE_CODEC	field_1_10410
+FIELD	net/minecraft/world/level/storage/loot/FloatRangePredicate	Lcom/mojang/serialization/Codec;	POINT_CODEC	field_1_10411
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate	(F)Lnet/minecraft/world/level/storage/loot/FloatRangePredicate;	exact	method_1_10306
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_10307
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate	(Lnet/minecraft/world/level/storage/loot/FloatRangePredicate$Line;)Ljava/util/Optional;	lambda$static$1	method_1_10308
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate	(Lnet/minecraft/world/level/storage/loot/FloatRangePredicate$Line;)Ljava/util/Optional;	lambda$static$2	method_1_10309
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate	(Lnet/minecraft/world/level/storage/loot/FloatRangePredicate;)Lcom/mojang/datafixers/util/Either;	lambda$static$3	method_1_10310
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate	(F)Lnet/minecraft/world/level/storage/loot/FloatRangePredicate;	lowerBound	method_1_10311
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate	(FF)Lnet/minecraft/world/level/storage/loot/FloatRangePredicate;	range	method_1_10312
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate	(Lnet/minecraft/world/level/storage/loot/LootContext;F)Z	test	method_1_10313
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate	(Lnet/minecraft/world/level/storage/loot/LootContext;Lnet/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProvider;)Z	test	method_1_10314
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate	(F)Lnet/minecraft/world/level/storage/loot/FloatRangePredicate;	upperBound	method_1_10315
+CLASS	net/minecraft/world/level/storage/loot/FloatRangePredicate$Line	class_1_1605
+FIELD	net/minecraft/world/level/storage/loot/FloatRangePredicate$Line	Ljava/util/Optional;	max	field_1_10412
+FIELD	net/minecraft/world/level/storage/loot/FloatRangePredicate$Line	Ljava/util/Optional;	min	field_1_10413
+FIELD	net/minecraft/world/level/storage/loot/FloatRangePredicate$Line	Lnet/minecraft/world/level/storage/loot/FloatRangePredicate$Line$FloatChecker;	predicate	field_1_10414
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate$Line	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/FloatRangePredicate$Line$FloatChecker;	createPredicate	method_1_10316
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate$Line	(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/LootContext;F)Z	lambda$createPredicate$0	method_1_10317
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate$Line	(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/LootContext;F)Z	lambda$createPredicate$1	method_1_10318
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate$Line	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/LootContext;F)Z	lambda$createPredicate$2	method_1_10319
+CLASS	net/minecraft/world/level/storage/loot/FloatRangePredicate$Line$FloatChecker	class_1_1606
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate$Line$FloatChecker	(Lnet/minecraft/world/level/storage/loot/LootContext;F)Z	test	method_1_10320
+CLASS	net/minecraft/world/level/storage/loot/FloatRangePredicate$Point	class_1_1607
+FIELD	net/minecraft/world/level/storage/loot/FloatRangePredicate$Point	Lnet/minecraft/core/Holder;	value	comp_1_1831
+METHOD	net/minecraft/world/level/storage/loot/FloatRangePredicate$Point	(Lnet/minecraft/world/level/storage/loot/LootContext;)F	computeValue	method_1_10321
+FIELD	net/minecraft/client/gui/screens/options/VideoSettingsScreen	Lcom/mojang/blaze3d/platform/Monitor;	fullscreenModeMonitor	field_1_10415
+METHOD	net/minecraft/client/gui/screens/options/VideoSettingsScreen	(Lnet/minecraft/network/chat/Component;Ljava/lang/Integer;)Lnet/minecraft/network/chat/Component;	lambda$addOptions$0	method_1_10322
+METHOD	net/minecraft/client/gui/screens/options/VideoSettingsScreen	(Lcom/mojang/blaze3d/platform/Window;Ljava/lang/Integer;)V	lambda$addOptions$1	method_1_10323
+CLASS	net/minecraft/util/datafix/fixes/UnfilledBuriedTreasureMapFix	class_1_1608
+FIELD	net/minecraft/util/datafix/fixes/UnfilledBuriedTreasureMapFix	Ljava/lang/String;	NEW_TRANSLATION	field_1_10416
+FIELD	net/minecraft/util/datafix/fixes/UnfilledBuriedTreasureMapFix	Ljava/lang/String;	OLD_TRANSLATION	field_1_10417
+METHOD	net/minecraft/util/datafix/fixes/UnfilledBuriedTreasureMapFix	(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	fix	method_1_10324
+METHOD	net/minecraft/util/datafix/fixes/UnfilledBuriedTreasureMapFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$fix$0	method_1_10325
+METHOD	net/minecraft/util/datafix/fixes/UnfilledBuriedTreasureMapFix	(Ljava/lang/String;)Z	lambda$fix$1	method_1_10326
+METHOD	net/minecraft/util/datafix/fixes/UnfilledBuriedTreasureMapFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$fix$2	method_1_10327
+METHOD	net/minecraft/util/datafix/fixes/UnfilledBuriedTreasureMapFix	(Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/OpticFinder;Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	lambda$makeRule$0	method_1_10328
+METHOD	net/minecraft/util/datafix/fixes/UnfilledBuriedTreasureMapFix	(Ljava/lang/String;)Z	lambda$makeRule$1	method_1_10329
+METHOD	net/minecraft/world/level/levelgen/feature/BlockColumnFeature	(Lnet/minecraft/util/valueproviders/IntProvider;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/levelgen/feature/BlockColumnFeature$Layer;	layer	method_1_10330
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/Sum	class_1_1609
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Sum	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10418
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Sum	Lnet/minecraft/core/HolderSet;	inputs	comp_1_1832
+FIELD	com/mojang/realmsclient/gui/screens/RealmsJoinRealmWithCodeScreen	Ljava/lang/Runnable;	onJoin	field_1_10419
+CLASS	net/minecraft/world/level/storage/loot/predicates/FloatValueCheck	class_1_1610
+FIELD	net/minecraft/world/level/storage/loot/predicates/FloatValueCheck	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10420
+FIELD	net/minecraft/world/level/storage/loot/predicates/FloatValueCheck	Lnet/minecraft/world/level/storage/loot/FloatRangePredicate;	range	comp_1_1833
+FIELD	net/minecraft/world/level/storage/loot/predicates/FloatValueCheck	Lnet/minecraft/core/Holder;	value	comp_1_1834
+METHOD	net/minecraft/world/level/storage/loot/predicates/FloatValueCheck	(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/FloatRangePredicate;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$Builder;	hasValue	method_1_10331
+METHOD	net/minecraft/world/level/storage/loot/predicates/FloatValueCheck	(Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/FloatRangePredicate;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition;	lambda$hasValue$0	method_1_10332
+METHOD	net/minecraft/world/level/storage/loot/predicates/FloatValueCheck	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_10333
+METHOD	net/minecraft/world/level/storage/loot/predicates/FloatValueCheck	(Lnet/minecraft/world/level/storage/loot/LootContext;)Z	test	method_1_10334
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/Power	class_1_1611
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Power	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10421
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Power	Lnet/minecraft/core/Holder;	base	comp_1_1835
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Power	Lnet/minecraft/core/Holder;	exponent	comp_1_1836
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/Sine	class_1_1612
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/Sine	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10422
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/Sine	Lnet/minecraft/core/Holder;	input	comp_1_1837
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/Negate	class_1_1613
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Negate	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10423
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/Floor	class_1_1614
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/Floor	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10424
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/Power	class_1_1615
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/Power	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10425
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/Round	class_1_1616
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/Round	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10426
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/Average	class_1_1617
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Average	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10427
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/Maximum	class_1_1618
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Maximum	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10428
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/Minimum	class_1_1619
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Minimum	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10429
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/Modulus	class_1_1620
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Modulus	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10430
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Modulus	Lnet/minecraft/core/Holder;	left	comp_1_1838
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Modulus	Lnet/minecraft/core/Holder;	right	comp_1_1839
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/Product	class_1_1621
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Product	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10431
+CLASS	net/minecraft/world/level/storage/loot/providers/number/PowerProvider	class_1_1622
+METHOD	net/minecraft/world/level/storage/loot/providers/number/PowerProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/storage/loot/providers/number/PowerProvider$Factory;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$mapCodec$0	method_1_10335
+METHOD	net/minecraft/world/level/storage/loot/providers/number/PowerProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/storage/loot/providers/number/PowerProvider$Factory;)Lcom/mojang/serialization/MapCodec;	mapCodec	method_1_10336
+CLASS	net/minecraft/world/level/storage/loot/providers/number/PowerProvider$Factory	class_1_1623
+METHOD	net/minecraft/world/level/storage/loot/providers/number/PowerProvider$Factory	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/providers/number/PowerProvider;	create	method_1_10337
+CLASS	net/minecraft/world/level/storage/loot/providers/number/RangeProvider	class_1_1624
+METHOD	net/minecraft/world/level/storage/loot/providers/number/RangeProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/storage/loot/providers/number/RangeProvider$Factory;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$mapCodec$0	method_1_10338
+METHOD	net/minecraft/world/level/storage/loot/providers/number/RangeProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/storage/loot/providers/number/RangeProvider$Factory;)Lcom/mojang/serialization/MapCodec;	mapCodec	method_1_10339
+CLASS	net/minecraft/world/level/storage/loot/providers/number/RangeProvider$Factory	class_1_1625
+METHOD	net/minecraft/world/level/storage/loot/providers/number/RangeProvider$Factory	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/providers/number/RangeProvider;	create	method_1_10340
+CLASS	net/minecraft/world/level/storage/loot/providers/number/UnaryProvider	class_1_1626
+METHOD	net/minecraft/world/level/storage/loot/providers/number/UnaryProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/storage/loot/providers/number/UnaryProvider$Factory;)Lcom/mojang/serialization/MapCodec;	codec	method_1_10341
+METHOD	net/minecraft/world/level/storage/loot/providers/number/UnaryProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/storage/loot/providers/number/UnaryProvider$Factory;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$codec$0	method_1_10342
+CLASS	net/minecraft/world/level/storage/loot/providers/number/UnaryProvider$Factory	class_1_1627
+METHOD	net/minecraft/world/level/storage/loot/providers/number/UnaryProvider$Factory	(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/providers/number/UnaryProvider;	create	method_1_10343
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/Cosine	class_1_1628
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/Cosine	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10432
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/Length	class_1_1629
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/Length	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10433
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/Negate	class_1_1630
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/Negate	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10434
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/Absolute	class_1_1631
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Absolute	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10435
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/Quotient	class_1_1632
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Quotient	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10436
+METHOD	net/minecraft/world/level/storage/loot/functions/SetStewEffectFunction$Builder	(Lnet/minecraft/core/Holder;I)Lnet/minecraft/world/level/storage/loot/functions/SetStewEffectFunction$Builder;	withEffect	method_1_10344
+CLASS	net/minecraft/world/level/storage/loot/providers/number/BinaryProvider	class_1_1633
+METHOD	net/minecraft/world/level/storage/loot/providers/number/BinaryProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/storage/loot/providers/number/BinaryProvider$Factory;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$mapCodec$0	method_1_10345
+METHOD	net/minecraft/world/level/storage/loot/providers/number/BinaryProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/storage/loot/providers/number/BinaryProvider$Factory;)Lcom/mojang/serialization/MapCodec;	mapCodec	method_1_10346
+CLASS	net/minecraft/world/level/storage/loot/providers/number/BinaryProvider$Factory	class_1_1634
+METHOD	net/minecraft/world/level/storage/loot/providers/number/BinaryProvider$Factory	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/providers/number/BinaryProvider;	create	method_1_10347
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/Ceiling	class_1_1635
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/Ceiling	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10437
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/FromInt	class_1_1636
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/FromInt	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10438
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/Modulus	class_1_1637
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/Modulus	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10439
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/FromFloat	class_1_1638
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/FromFloat	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10440
+FIELD	net/minecraft/client/gui/screens/worldselection/AbstractGameRulesScreen$CategoryRuleEntry	Lnet/minecraft/client/gui/components/FocusableTextWidget;	widget	field_1_10441
+METHOD	net/minecraft/world/level/storage/loot/functions/ExplorationMapFunction	(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)V	claimStructureAt	method_1_10348
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/Absolute	class_1_1639
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/Absolute	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10442
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/Quotient	class_1_1640
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/Quotient	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10443
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/Truncate	class_1_1641
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/Truncate	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10444
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/Difference	class_1_1642
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/Difference	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10445
+METHOD	net/minecraft/world/level/storage/loot/providers/number/AggregateProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/storage/loot/providers/number/AggregateProvider$Factory;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$mapCodec$0	method_1_10349
+METHOD	net/minecraft/world/level/storage/loot/providers/number/AggregateProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/storage/loot/providers/number/AggregateProvider$Factory;)Lcom/mojang/serialization/MapCodec;	mapCodec	method_1_10350
+CLASS	net/minecraft/world/level/storage/loot/providers/number/AggregateProvider$Factory	class_1_1643
+METHOD	net/minecraft/world/level/storage/loot/providers/number/AggregateProvider$Factory	(Lnet/minecraft/core/HolderSet;)Lnet/minecraft/world/level/storage/loot/providers/number/AggregateProvider;	create	method_1_10351
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/Difference	class_1_1644
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/Difference	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10446
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/SquareRoot	class_1_1645
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/SquareRoot	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10447
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/FloorModulus	class_1_1646
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/FloorModulus	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10448
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/StorageValue	class_1_1647
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/StorageValue	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10449
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/StorageValue	Lnet/minecraft/world/level/storage/loot/providers/number/StoredNumberAccess;	access	comp_1_1840
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/StorageValue	Lnet/minecraft/core/Holder;	fallback	comp_1_1841
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/StorageValue	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_10352
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/package-info	class_1_1648
+CLASS	net/minecraft/world/level/storage/loot/providers/number/DispatcherProvider	class_1_1649
+METHOD	net/minecraft/world/level/storage/loot/providers/number/DispatcherProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/providers/number/DispatcherProvider$Factory;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$mapCodec$0	method_1_10353
+METHOD	net/minecraft/world/level/storage/loot/providers/number/DispatcherProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/providers/number/DispatcherProvider$Factory;)Lcom/mojang/serialization/MapCodec;	mapCodec	method_1_10354
+METHOD	net/minecraft/world/level/storage/loot/providers/number/DispatcherProvider	(Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/core/Holder;	selectValue	method_1_10355
+FIELD	net/minecraft/world/level/storage/loot/providers/number/DispatcherProvider$Case	Lnet/minecraft/core/Holder;	value	comp_1_1842
+METHOD	net/minecraft/world/level/storage/loot/providers/number/DispatcherProvider$Case	(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/Codec;	codec	method_1_10356
+METHOD	net/minecraft/world/level/storage/loot/providers/number/DispatcherProvider$Case	(Lcom/mojang/serialization/Codec;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$codec$0	method_1_10357
+CLASS	net/minecraft/world/level/storage/loot/providers/number/DispatcherProvider$Factory	class_1_1650
+METHOD	net/minecraft/world/level/storage/loot/providers/number/DispatcherProvider$Factory	(Ljava/util/List;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/providers/number/DispatcherProvider;	create	method_1_10358
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/ConstantValue	class_1_1651
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ConstantValue	Lcom/mojang/serialization/Codec;	INLINE_CODEC	field_1_10450
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ConstantValue	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10451
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ConstantValue	I	value	comp_1_1843
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ConstantValue	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_10359
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/FloorQuotient	class_1_1652
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/FloorQuotient	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10452
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt	class_1_1653
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt	Lcom/mojang/serialization/Codec;	CODEC	field_1_10453
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_10454
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt	(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt;	fromKey	method_1_10360
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt	(Lnet/minecraft/world/level/storage/loot/LootContext;I)I	get	method_1_10361
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt	(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/core/component/DataComponentType;Ljava/util/function/Function;Lnet/minecraft/world/level/storage/loot/LootContext;I)I	getFromItem	method_1_10362
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt	(Lnet/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt;)Lcom/mojang/datafixers/util/Either;	wrap	method_1_10363
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt$Constant	class_1_1654
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt$Constant	Lcom/mojang/serialization/Codec;	CODEC	field_1_10455
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt$Constant	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_10456
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt$Constant	I	value	comp_1_1844
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt$Reference	class_1_1655
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt$Reference	Lcom/mojang/serialization/Codec;	CODEC	field_1_10457
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt$Reference	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_10458
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt$Reference	Lnet/minecraft/resources/ResourceKey;	key	comp_1_1845
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt$Reference	(Lnet/minecraft/world/level/storage/loot/LootContext;)Ljava/util/Optional;	getProvider	method_1_10364
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ResolvableInt$Reference	(Lnet/minecraft/world/level/storage/loot/LootContext;Lnet/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProvider;)Ljava/lang/Integer;	lambda$get$0	method_1_10365
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ConditionalProvider	class_1_1656
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ConditionalProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/providers/number/ConditionalProvider$Factory;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$mapCodec$0	method_1_10366
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ConditionalProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/core/Holder;Lnet/minecraft/world/level/storage/loot/providers/number/ConditionalProvider$Factory;)Lcom/mojang/serialization/MapCodec;	mapCodec	method_1_10367
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ConditionalProvider	(Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/core/Holder;	selectValue	method_1_10368
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ConditionalProvider$Factory	class_1_1657
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ConditionalProvider$Factory	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/world/level/storage/loot/providers/number/ConditionalProvider;	create	method_1_10369
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/StorageValue	class_1_1658
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/StorageValue	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10459
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/StorageValue	Lnet/minecraft/world/level/storage/loot/providers/number/StoredNumberAccess;	access	comp_1_1846
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/StorageValue	Lnet/minecraft/core/Holder;	fallback	comp_1_1847
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/StorageValue	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_10370
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/package-info	class_1_1659
+FIELD	net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider	Lcom/mojang/serialization/Codec;	DIRECT_CODEC	field_1_10460
+FIELD	net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider	Lcom/mojang/serialization/Codec;	STATE_OR_PROVIDER_CODEC	field_1_10461
+FIELD	net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider	Lcom/mojang/serialization/Codec;	TYPED_CODEC	field_1_10462
+METHOD	net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider	(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/core/Holder;	holderOf	method_1_10371
+METHOD	net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider	(Lnet/minecraft/world/level/block/state/BlockState;)Lnet/minecraft/core/Holder;	holderOf	method_1_10372
+METHOD	net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider	(Lcom/mojang/datafixers/util/Either;)Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;	lambda$static$1	method_1_10373
+METHOD	net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider	(Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;	lambda$static$2	method_1_10374
+METHOD	net/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider	(Lnet/minecraft/world/level/levelgen/feature/stateproviders/BlockStateProvider;)Lcom/mojang/datafixers/util/Either;	lambda$static$3	method_1_10375
+CLASS	net/minecraft/world/level/storage/loot/providers/number/DistributionProvider	class_1_1660
+METHOD	net/minecraft/world/level/storage/loot/providers/number/DistributionProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/storage/loot/providers/number/DistributionProvider$Factory;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$mapCodec$0	method_1_10376
+METHOD	net/minecraft/world/level/storage/loot/providers/number/DistributionProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/storage/loot/providers/number/DistributionProvider$Factory;)Lcom/mojang/serialization/MapCodec;	mapCodec	method_1_10377
+CLASS	net/minecraft/world/level/storage/loot/providers/number/DistributionProvider$Factory	class_1_1661
+METHOD	net/minecraft/world/level/storage/loot/providers/number/DistributionProvider$Factory	(Lnet/minecraft/util/random/WeightedList;)Lnet/minecraft/world/level/storage/loot/providers/number/DistributionProvider;	create	method_1_10378
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ScoreboardValue	Lnet/minecraft/core/Holder;	fallback	comp_1_1848
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ScoreboardValue	(Lnet/minecraft/world/level/storage/loot/LootContext;)Lnet/minecraft/world/scores/ReadOnlyScoreInfo;	getScoreInfo	method_1_10379
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/ConditionalValue	class_1_1662
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ConditionalValue	Lcom/mojang/serialization/Codec;	CODEC	field_1_10463
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ConditionalValue	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10464
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/NumberDispatcher	class_1_1663
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/NumberDispatcher	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10465
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/UniformGenerator	class_1_1664
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/UniformGenerator	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10466
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/WeightedListValue	class_1_1665
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/WeightedListValue	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10467
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProvider	class_1_1666
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProvider	()Lcom/mojang/serialization/MapCodec;	codec	method_1_10380
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProvider	(F)I	floatToIntSafe	method_1_10381
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProvider	(Lnet/minecraft/world/level/storage/loot/LootContext;)I	getInt	method_1_10382
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProvider	(Lnet/minecraft/world/level/storage/loot/LootContext;)I	getIntUnsafe	method_1_10383
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProvider	(J)I	longToIntSafe	method_1_10384
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProvider	(F)F	throwIfInvalid	method_1_10385
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	class_1_1667
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	BREWING_DEFAULT_USES	field_1_10468
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lcom/mojang/serialization/Codec;	CODEC	field_1_10469
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COMPOSTABLE_ALWAYS_ADD_ONE	field_1_10470
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COMPOSTABLE_LOW	field_1_10471
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COMPOSTABLE_LOW_MEDIUM	field_1_10472
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COMPOSTABLE_MEDIUM	field_1_10473
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COMPOSTABLE_MEDIUM_HIGH	field_1_10474
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_FAST_BURN_TIME_REDUCTION_FACTOR	field_1_10475
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_NORMAL_BURN_TIME_REDUCTION_FACTOR	field_1_10476
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_BAMBOO	field_1_10477
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_BLAZE_ROD	field_1_10478
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_BOATS	field_1_10479
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_COAL	field_1_10480
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_COAL_BLOCK	field_1_10481
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_DRIED_KELP_BLOCK	field_1_10482
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_DRY_PLANTS	field_1_10483
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_HANGING_SIGNS	field_1_10484
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_LAVA_BUCKET	field_1_10485
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_ROOTS	field_1_10486
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_WOOD_BLOCKS	field_1_10487
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_WOOD_ITEMS_EXTRA_SMALL	field_1_10488
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_WOOD_ITEMS_LARGE	field_1_10489
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_WOOD_ITEMS_SMALL	field_1_10490
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_WOOD_SLABS	field_1_10491
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_WOOL	field_1_10492
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_WOOL_CARPETS	field_1_10493
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_TIME_WOOL_SLABS	field_1_10494
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lcom/mojang/serialization/Codec;	DIRECT_CODEC	field_1_10495
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	Lcom/mojang/serialization/Codec;	LIST_CODEC	field_1_10496
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	([Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	add	method_1_10386
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	([Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	avg	method_1_10387
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(II)Lnet/minecraft/core/Holder;	between	method_1_10388
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(IF)Lnet/minecraft/core/Holder;	binomial	method_1_10389
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Lnet/minecraft/data/worldgen/BootstrapContext;)V	bootstrap	method_1_10390
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Lnet/minecraft/core/HolderGetter;I)Lnet/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProvider;	compostable	method_1_10391
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/core/Holder$Reference;Lnet/minecraft/core/Holder$Reference;I)Lnet/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProvider;	cooking	method_1_10392
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Ljava/lang/String;)Lnet/minecraft/resources/ResourceKey;	createKey	method_1_10393
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	div	method_1_10394
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(I)Lnet/minecraft/core/Holder;	exactly	method_1_10395
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	floorDiv	method_1_10396
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	floorMod	method_1_10397
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	fromFloat	method_1_10398
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Lnet/minecraft/world/level/storage/loot/LootContext$EntityTarget;Ljava/lang/String;)Lnet/minecraft/core/Holder;	fromScoreboard	method_1_10399
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	()Lcom/mojang/serialization/Codec;	lambda$static$0	method_1_10400
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Lcom/mojang/serialization/MapCodec;)Lcom/mojang/serialization/MapCodec;	lambda$static$1	method_1_10401
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Lnet/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProvider;)Lcom/mojang/datafixers/util/Either;	lambda$static$2	method_1_10402
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	([Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	max	method_1_10403
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	([Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	min	method_1_10404
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	mod	method_1_10405
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	([Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	mul	method_1_10406
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	negate	method_1_10407
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	sub	method_1_10408
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviders	(Lnet/minecraft/util/random/WeightedList;)Lnet/minecraft/core/Holder;	weighted	method_1_10409
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProvider	(Lnet/minecraft/world/level/storage/loot/LootContext;)F	getFloat	method_1_10410
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProvider	(I)F	intToFloatSafe	method_1_10411
+CLASS	net/minecraft/world/level/storage/loot/providers/number/EnvironmentAttributeProvider	class_1_1668
+METHOD	net/minecraft/world/level/storage/loot/providers/number/EnvironmentAttributeProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/storage/loot/providers/number/EnvironmentAttributeProvider$Factory;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$mapCodec$0	method_1_10412
+METHOD	net/minecraft/world/level/storage/loot/providers/number/EnvironmentAttributeProvider	(Lcom/mojang/serialization/Codec;Lnet/minecraft/world/level/storage/loot/providers/number/EnvironmentAttributeProvider$Factory;)Lcom/mojang/serialization/MapCodec;	mapCodec	method_1_10413
+CLASS	net/minecraft/world/level/storage/loot/providers/number/EnvironmentAttributeProvider$Factory	class_1_1669
+METHOD	net/minecraft/world/level/storage/loot/providers/number/EnvironmentAttributeProvider$Factory	(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lnet/minecraft/world/level/storage/loot/providers/number/EnvironmentAttributeProvider;	create	method_1_10414
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	class_1_1670
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	Lnet/minecraft/resources/ResourceKey;	BREWING_DEFAULT_SPEED_MULTIPLIER	field_1_10497
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	Lcom/mojang/serialization/Codec;	CODEC	field_1_10498
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_DEFAULT_SPEED_MULTIPLIER	field_1_10499
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_FAST_SPEED_MULTIPLIER	field_1_10500
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	Lnet/minecraft/resources/ResourceKey;	COOKING_NORMAL_SPEED_MULTIPLIER	field_1_10501
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	Lcom/mojang/serialization/Codec;	DIRECT_CODEC	field_1_10502
+FIELD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	Lcom/mojang/serialization/Codec;	LIST_CODEC	field_1_10503
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	abs	method_1_10415
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	([Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	add	method_1_10416
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	([Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	avg	method_1_10417
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(FF)Lnet/minecraft/core/Holder;	between	method_1_10418
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/data/worldgen/BootstrapContext;)V	bootstrap	method_1_10419
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	ceiling	method_1_10420
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	cos	method_1_10421
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Ljava/lang/String;)Lnet/minecraft/resources/ResourceKey;	createKey	method_1_10422
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	div	method_1_10423
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(F)Lnet/minecraft/core/Holder;	exactly	method_1_10424
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/world/item/enchantment/LevelBasedValue;)Lnet/minecraft/core/Holder;	forEnchantmentLevel	method_1_10425
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lnet/minecraft/core/Holder;	forEnvironmentAttribute	method_1_10426
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	()Lcom/mojang/serialization/Codec;	lambda$static$0	method_1_10427
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lcom/mojang/serialization/MapCodec;)Lcom/mojang/serialization/MapCodec;	lambda$static$1	method_1_10428
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProvider;)Lcom/mojang/datafixers/util/Either;	lambda$static$2	method_1_10429
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	([Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	length	method_1_10430
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	([Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	max	method_1_10431
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	([Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	min	method_1_10432
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	mod	method_1_10433
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	([Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	mul	method_1_10434
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	negate	method_1_10435
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	pow	method_1_10436
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	round	method_1_10437
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	sin	method_1_10438
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	sqrt	method_1_10439
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/core/Holder;Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	sub	method_1_10440
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviders	(Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	trunc	method_1_10441
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviderTypes	class_1_1671
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/ContextIntProviderTypes	(Lnet/minecraft/core/Registry;)Lcom/mojang/serialization/MapCodec;	bootstrap	method_1_10442
+CLASS	net/minecraft/world/level/storage/loot/providers/number/ints/EnvironmentAttributeValue	class_1_1672
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/EnvironmentAttributeValue	Lcom/mojang/serialization/Codec;	ATTRIBUTE_CODEC	field_1_10504
+FIELD	net/minecraft/world/level/storage/loot/providers/number/ints/EnvironmentAttributeValue	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_10505
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/EnvironmentAttributeValue	(Lnet/minecraft/world/level/storage/loot/LootContext;Lnet/minecraft/world/attribute/EnvironmentAttribute;)I	getAsInt	method_1_10443
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/EnvironmentAttributeValue	(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Lcom/mojang/serialization/DataResult;	lambda$static$0	method_1_10444
+METHOD	net/minecraft/world/level/storage/loot/providers/number/ints/EnvironmentAttributeValue	(Lnet/minecraft/world/attribute/EnvironmentAttribute;)Ljava/lang/String;	lambda$static$1	method_1_10445
+CLASS	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviderTypes	class_1_1673
+METHOD	net/minecraft/world/level/storage/loot/providers/number/floats/ContextFloatProviderTypes	(Lnet/minecraft/core/Registry;)Lcom/mojang/serialization/MapCodec;	bootstrap	method_1_10446
+Done!
