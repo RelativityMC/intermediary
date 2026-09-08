@@ -1,0 +1,191 @@
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/predicates/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/predicates/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/ComponentPath$Leaf;leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView; as record getter for textureViewLcom/mojang/renderpearl/api/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/KeyEvent;shortcutKey()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/client/renderer/feature/CustomFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/client/renderer/feature/FeatureRendererType;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/client/renderer/feature/ModelFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/core/CompositeDirection;getStep()Lnet/minecraft/core/Vec3i;
+Demoting record getter net/minecraft/core/particles/GeyserBaseParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/core/particles/GeyserParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Read 11379 (7297) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 20189 MethodEntries (0 unique, 11622 classes).
+Joined 165 record fields.
+Collecting additional information...
+- Done. -
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/predicates/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/predicates/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/ComponentPath$Leaf;leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView; as record getter for textureViewLcom/mojang/renderpearl/api/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/KeyEvent;shortcutKey()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/client/renderer/feature/CustomFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/client/renderer/feature/FeatureRendererType;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/client/renderer/feature/ModelFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/core/CompositeDirection;getStep()Lnet/minecraft/core/Vec3i;
+Demoting record getter net/minecraft/core/particles/GeyserBaseParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/core/particles/GeyserParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Read 11383 (7301) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 20192 MethodEntries (0 unique, 11626 classes).
+Joined 155 record fields.
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+FIELD	com/mojang/blaze3d/Blaze3D	Lorg/slf4j/Logger;	LOGGER	field_1_10532
+METHOD	com/mojang/blaze3d/Blaze3D	(Ljava/nio/file/Path;)V	openPath	method_1_10482
+METHOD	com/mojang/blaze3d/Blaze3D	(Ljava/net/URI;)V	openUri	method_1_10483
+CLASS	net/minecraft/util/CommonLinks$ExtensionReference	class_1_1675
+FIELD	net/minecraft/util/CommonLinks$ExtensionReference	Lnet/minecraft/util/CommonLinks$ExtensionReference;	EXPIRED_REALM	field_1_10533
+FIELD	net/minecraft/util/CommonLinks$ExtensionReference	Lnet/minecraft/util/CommonLinks$ExtensionReference;	EXPIRED_TRIAL	field_1_10534
+FIELD	net/minecraft/util/CommonLinks$ExtensionReference	Lnet/minecraft/util/CommonLinks$ExtensionReference;	NONE	field_1_10535
+METHOD	net/minecraft/util/CommonLinks$ExtensionReference	()[Lnet/minecraft/util/CommonLinks$ExtensionReference;	$values	method_1_10484
+METHOD	com/mojang/blaze3d/platform/Window	()V	restoreWindow	method_1_10485
+METHOD	com/mojang/blaze3d/platform/Window	()V	syncWindow	method_1_10486
+METHOD	com/mojang/realmsclient/util/JsonUtils	(Ljava/lang/String;Lcom/google/gson/JsonObject;)Ljava/net/URI;	getRequiredUri	method_1_10487
+METHOD	com/mojang/realmsclient/util/JsonUtils	(Ljava/lang/String;Lcom/google/gson/JsonObject;)Ljava/net/URI;	getUriNullable	method_1_10488
+FIELD	net/minecraft/client/renderer/LevelRenderer	Ljava/util/concurrent/BlockingQueue;	transientBlockRemovalQueue	field_1_10536
+FIELD	net/minecraft/client/renderer/LevelRenderer	Lit/unimi/dsi/fastutil/longs/Long2ObjectLinkedOpenHashMap;	transientBlocks	field_1_10537
+METHOD	net/minecraft/client/renderer/LevelRenderer	(JLnet/minecraft/client/renderer/state/level/TransientBlockRenderState;)V	addTransientBlock	method_1_10489
+METHOD	net/minecraft/client/renderer/LevelRenderer	()V	performTransientBlockRemovals	method_1_10490
+METHOD	net/minecraft/client/renderer/LevelRenderer	(JJ)V	removeTransientBlocksInSection	method_1_10491
+METHOD	net/minecraft/client/renderer/LevelRenderer	(Lcom/mojang/blaze3d/vertex/PoseStack;Lnet/minecraft/client/renderer/SubmitNodeCollector;Lnet/minecraft/client/renderer/state/level/LevelRenderState;)V	submitTransientBlocks	method_1_10492
+METHOD	net/minecraft/client/renderer/chunk/SectionMesh	()J	getCompileTaskStartTime	method_1_10493
+METHOD	net/minecraft/server/level/ServerPlayerGameMode	(Lnet/minecraft/core/BlockPos;I)V	abortDestroyBlock	method_1_10494
+FIELD	net/minecraft/network/protocol/game/GamePacketTypes	Lnet/minecraft/network/protocol/PacketType;	CLIENTBOUND_ADD_TRANSIENT_BLOCK	field_1_10538
+FIELD	net/minecraft/client/renderer/extract/LevelExtractor	Ljava/util/Deque;	transientBlockQueue	field_1_10539
+METHOD	net/minecraft/client/renderer/extract/LevelExtractor	()V	drainTransientBlockQueue	method_1_10495
+METHOD	net/minecraft/client/renderer/extract/LevelExtractor	(Lnet/minecraft/client/renderer/extract/TransientBlock;)V	queueTransientBlock	method_1_10496
+CLASS	net/minecraft/client/renderer/extract/TransientBlock	class_1_1676
+FIELD	net/minecraft/client/renderer/extract/TransientBlock	D	DEFAULT_TIME_TO_LIVE	field_1_10540
+FIELD	net/minecraft/client/renderer/extract/TransientBlock	J	createTimeNs	comp_1_1866
+FIELD	net/minecraft/client/renderer/extract/TransientBlock	Lnet/minecraft/core/BlockPos;	pos	comp_1_1867
+FIELD	net/minecraft/client/renderer/extract/TransientBlock	Lnet/minecraft/world/level/block/state/BlockState;	state	comp_1_1868
+FIELD	net/minecraft/client/renderer/extract/TransientBlock	D	timeToLive	comp_1_1869
+FIELD	net/minecraft/client/renderer/chunk/CompiledSectionMesh	J	compileTaskStartTimeNs	field_1_10541
+FIELD	net/minecraft/client/renderer/chunk/SectionRenderDispatcher$RenderSection$CompileTask	J	startTimeNs	field_1_10542
+CLASS	net/minecraft/util/datafix/fixes/DebugProfileRenameEntryFix	class_1_1677
+FIELD	net/minecraft/util/datafix/fixes/DebugProfileRenameEntryFix	Ljava/lang/String;	newName	field_1_10543
+FIELD	net/minecraft/util/datafix/fixes/DebugProfileRenameEntryFix	Ljava/lang/String;	oldName	field_1_10544
+METHOD	net/minecraft/util/datafix/fixes/DebugProfileRenameEntryFix	(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	lambda$makeRule$0	method_1_10497
+METHOD	net/minecraft/util/datafix/fixes/DebugProfileRenameEntryFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$makeRule$1	method_1_10498
+METHOD	net/minecraft/util/datafix/fixes/DebugProfileRenameEntryFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$makeRule$2	method_1_10499
+METHOD	net/minecraft/network/protocol/game/ClientGamePacketListener	(Lnet/minecraft/network/protocol/game/ClientboundAddTransientBlockPacket;)V	handleAddTransientBlockPacket	method_1_10500
+CLASS	net/minecraft/client/renderer/state/level/TransientBlockRenderState	class_1_1678
+FIELD	net/minecraft/client/renderer/state/level/TransientBlockRenderState	J	createTimeNs	field_1_10545
+FIELD	net/minecraft/client/renderer/state/level/TransientBlockRenderState	J	liveUntilMs	field_1_10546
+FIELD	net/minecraft/client/renderer/state/level/TransientBlockRenderState	Lnet/minecraft/client/renderer/block/MovingBlockRenderState;	movingBlockRenderState	field_1_10547
+CLASS	net/minecraft/client/renderer/state/level/TransientBlockRenderState$Removal	class_1_1679
+FIELD	net/minecraft/client/renderer/state/level/TransientBlockRenderState$Removal	J	compileTaskStartTimeNs	comp_1_1870
+FIELD	net/minecraft/client/renderer/state/level/TransientBlockRenderState$Removal	J	sectionNode	comp_1_1871
+CLASS	net/minecraft/network/protocol/game/ClientboundAddTransientBlockPacket	class_1_1680
+FIELD	net/minecraft/network/protocol/game/ClientboundAddTransientBlockPacket	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_10548
+FIELD	net/minecraft/network/protocol/game/ClientboundAddTransientBlockPacket	Lnet/minecraft/world/level/block/state/BlockState;	blockState	field_1_10549
+FIELD	net/minecraft/network/protocol/game/ClientboundAddTransientBlockPacket	Lnet/minecraft/core/BlockPos;	pos	field_1_10550
+METHOD	net/minecraft/network/protocol/game/ClientboundAddTransientBlockPacket	()Lnet/minecraft/world/level/block/state/BlockState;	getBlockState	method_1_10501
+METHOD	net/minecraft/network/protocol/game/ClientboundAddTransientBlockPacket	()Lnet/minecraft/core/BlockPos;	getPos	method_1_10502
+METHOD	net/minecraft/network/protocol/game/ClientboundAddTransientBlockPacket	(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V	handle	method_1_10503
+METHOD	net/minecraft/network/protocol/game/ClientboundAddTransientBlockPacket	(Lnet/minecraft/network/RegistryFriendlyByteBuf;)V	write	method_1_10504
+Done!
