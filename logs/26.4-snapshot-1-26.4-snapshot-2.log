@@ -1,0 +1,486 @@
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/predicates/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/predicates/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/ComponentPath$Leaf;leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView; as record getter for textureViewLcom/mojang/renderpearl/api/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/KeyEvent;shortcutKey()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/client/renderer/feature/CustomFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/client/renderer/feature/FeatureRendererType;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/client/renderer/feature/ModelFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/core/CompositeDirection;getStep()Lnet/minecraft/core/Vec3i;
+Demoting record getter net/minecraft/core/particles/GeyserBaseParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/core/particles/GeyserParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Read 11411 (7318) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 20222 MethodEntries (0 unique, 11654 classes).
+Joined 160 record fields.
+Collecting additional information...
+- Done. -
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/predicates/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/predicates/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/ComponentPath$Leaf;leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView; as record getter for textureViewLcom/mojang/renderpearl/api/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/KeyEvent;shortcutKey()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/client/renderer/feature/CustomFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/client/renderer/feature/FeatureRendererType;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/client/renderer/feature/ModelFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/core/CompositeDirection;getStep()Lnet/minecraft/core/Vec3i;
+Demoting record getter net/minecraft/core/particles/GeyserBaseParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/core/particles/GeyserParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Read 11423 (7327) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 20212 MethodEntries (0 unique, 11666 classes).
+Joined 164 record fields.
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+FIELD	net/minecraft/util/Mth	D	COS_OFFSET	field_1_10777
+FIELD	net/minecraft/client/Camera	Lnet/minecraft/world/level/material/FogType;	fogType	field_1_10778
+METHOD	net/minecraft/client/Camera	()Lnet/minecraft/world/level/material/FogType;	getFogType	method_1_10823
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	ZOMBIE_NAUTILUS_RIDING	field_1_10779
+METHOD	net/minecraft/client/MouseHandler	()V	refreshMouseState	method_1_10824
+FIELD	com/mojang/blaze3d/platform/Window	Z	wayland	field_1_10780
+METHOD	com/mojang/blaze3d/platform/Window	()Z	isWayland	method_1_10825
+METHOD	com/mojang/blaze3d/platform/Window	()V	onWindowDisplayChanged	method_1_10826
+METHOD	com/mojang/blaze3d/platform/Window	()V	refreshMouseState	method_1_10827
+METHOD	com/mojang/blaze3d/platform/Window	(II)V	setWindowedSize	method_1_10828
+METHOD	net/minecraft/world/level/LevelReader	(Lnet/minecraft/world/level/levelgen/Heightmap$Types;IIIIII)Z	anyHeightMatches	method_1_10829
+METHOD	net/minecraft/server/level/ServerLevel	()Lnet/minecraft/world/level/entity/PersistentEntitySectionManager;	getEntityManager	method_1_10830
+METHOD	com/mojang/blaze3d/platform/NativeImage	(Lcom/mojang/renderpearl/api/commands/CommandEncoder;Lcom/mojang/renderpearl/api/textures/GpuTexture;)V	writeToGpuTexture	method_1_10831
+METHOD	com/mojang/blaze3d/platform/NativeImage	(Lcom/mojang/renderpearl/api/commands/CommandEncoder;Lcom/mojang/renderpearl/api/textures/GpuTexture;IIII)V	writeToGpuTexture	method_1_10832
+CLASS	com/mojang/renderpearl/util/PlatformUtil	class_1_1713
+FIELD	com/mojang/renderpearl/util/PlatformUtil	Z	IS_AARCH64	field_1_10781
+FIELD	com/mojang/renderpearl/util/PlatformUtil	Z	IS_MACOS	field_1_10782
+FIELD	com/mojang/renderpearl/util/PlatformUtil	Z	IS_WINDOWS	field_1_10783
+METHOD	com/mojang/renderpearl/util/PlatformUtil	(Ljava/lang/String;)Z	isAppleSiliconMac	method_1_10833
+FIELD	net/minecraft/core/registries/Registries	Lnet/minecraft/resources/ResourceKey;	RULE_TEST_TYPE	field_1_10784
+FIELD	net/minecraft/client/renderer/SkyRenderer	F	DEFAULT_OCCLUSION_END_ANGLE	field_1_10785
+FIELD	net/minecraft/client/renderer/SkyRenderer	F	DEFAULT_OCCLUSION_START_ANGLE	field_1_10786
+FIELD	net/minecraft/client/renderer/SkyRenderer	I	SKY_OCCLUDER_UBO_SIZE	field_1_10787
+FIELD	net/minecraft/client/renderer/SkyRenderer	F	UNDERWATER_OCCLUSION_END_ANGLE	field_1_10788
+FIELD	net/minecraft/client/renderer/SkyRenderer	F	UNDERWATER_OCCLUSION_START_ANGLE	field_1_10789
+FIELD	net/minecraft/client/renderer/SkyRenderer	F	UNDER_MIN_Y_OCCLUSION_END_ANGLE	field_1_10790
+FIELD	net/minecraft/client/renderer/SkyRenderer	F	UNDER_MIN_Y_OCCLUSION_START_ANGLE	field_1_10791
+FIELD	net/minecraft/client/renderer/SkyRenderer	F	lastOccluderEndAngle	field_1_10792
+FIELD	net/minecraft/client/renderer/SkyRenderer	F	lastOccluderStartAngle	field_1_10793
+FIELD	net/minecraft/client/renderer/SkyRenderer	Lnet/minecraft/client/renderer/MappableRingBuffer;	skyOccluderUbo	field_1_10794
+METHOD	net/minecraft/client/renderer/SkyRenderer	(Lnet/minecraft/client/Camera;)Z	isUnderwater	method_1_10834
+METHOD	net/minecraft/client/renderer/SkyRenderer	(Lnet/minecraft/client/renderer/state/level/SkyRenderState;)V	prepare	method_1_10835
+METHOD	net/minecraft/client/renderer/SkyRenderer	(Lcom/mojang/renderpearl/api/commands/RenderPass;Lorg/joml/Vector4f;Z)V	renderSkyOccluder	method_1_10836
+FIELD	net/minecraft/client/renderer/fog/FogData	Z	shouldCreateBossFog	field_1_10795
+METHOD	com/mojang/blaze3d/pipeline/RenderPipeline	(Ljava/lang/String;[Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;)Lcom/mojang/blaze3d/pipeline/RenderPipeline;	fromSnippets	method_1_10837
+FIELD	net/minecraft/server/level/DistanceManager$PlayerTicketTracker	Lit/unimi/dsi/fastutil/longs/Long2IntMap;	toUpdateFromLevel	field_1_10796
+METHOD	net/minecraft/server/level/DistanceManager$PlayerTicketTracker	(J)I	lambda$onLevelChange$3	method_1_10838
+METHOD	com/mojang/blaze3d/platform/SDLEventHandler	(JLorg/lwjgl/sdl/SDL_MouseWheelEvent;)V	lambda$handleMouseWheelEvent$0	method_1_10839
+METHOD	net/minecraft/client/renderer/LevelRenderer	(Lcom/mojang/blaze3d/framegraph/FrameGraphBuilder;Lcom/mojang/renderpearl/api/buffers/GpuBufferSlice;)V	addCloudsPass	method_1_10840
+METHOD	net/minecraft/client/renderer/LevelRenderer	(Lnet/minecraft/client/renderer/oit/OitStage;Lcom/mojang/renderpearl/api/commands/RenderPass;)V	blitClouds	method_1_10841
+METHOD	net/minecraft/client/renderer/LevelRenderer	(Lcom/mojang/renderpearl/api/commands/RenderPass;Lcom/mojang/renderpearl/api/textures/GpuSampler;)V	blitSky	method_1_10842
+METHOD	net/minecraft/client/renderer/LevelRenderer	(Lcom/mojang/renderpearl/api/buffers/GpuBufferSlice;)V	lambda$addCloudsPass$0	method_1_10843
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Ljava/lang/String;	lambda$addCloudsPass$1	method_1_10844
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Ljava/lang/String;	lambda$addSkyPass$1	method_1_10845
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Ljava/lang/String;	lambda$blitClouds$0	method_1_10846
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Ljava/lang/String;	lambda$blitSky$0	method_1_10847
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Ljava/lang/String;	lambda$executeOit$0	method_1_10848
+METHOD	net/minecraft/client/renderer/LevelRenderer	(Z)Ljava/lang/String;	lambda$executeOit$1	method_1_10849
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Ljava/lang/String;	lambda$executeOit$2	method_1_10850
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Z	shouldRenderClouds	method_1_10851
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Z	shouldRenderSky	method_1_10852
+FIELD	net/minecraft/client/renderer/ShaderManager	[Lcom/mojang/renderpearl/api/pipeline/ShaderType;	SHADER_TYPES	field_1_10797
+METHOD	net/minecraft/client/renderer/ShaderManager	(Lnet/minecraft/resources/Identifier;)Lcom/mojang/renderpearl/api/pipeline/ShaderType;	shaderTypeByLocation	method_1_10853
+METHOD	net/minecraft/world/level/chunk/ChunkAccess	(Lnet/minecraft/world/level/levelgen/Heightmap$Types;)Lnet/minecraft/world/level/levelgen/Heightmap;	getHeightmap	method_1_10854
+METHOD	net/minecraft/client/multiplayer/ClientLevel	()Lnet/minecraft/world/level/entity/TransientEntitySectionManager;	getEntityStorage	method_1_10855
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	BLIT_SKY	field_1_10798
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	CELESTIAL_SNIPPET	field_1_10799
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	CELESTIAL_WITH_DEPTH_ATTACHMENT	field_1_10800
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	CUTOUT_SNIPPET	field_1_10801
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	CUTOUT_TERRAIN_IMPROVED_FOG	field_1_10802
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	CUTOUT_TERRAIN_IMPROVED_FOG_MULTIDRAW	field_1_10803
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	END_PORTAL_GUI	field_1_10804
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	END_SKY_SNIPPET	field_1_10805
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	END_SKY_WITH_DEPTH_ATTACHMENT	field_1_10806
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	IMPROVED_FOG_SNIPPET	field_1_10807
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	OIT_BLIT_CLOUDS_SNIPPET	field_1_10808
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	SINGLEDRAW_TERRAIN_SNIPPET	field_1_10809
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	SKY_OCCLUDER	field_1_10810
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	SKY_OCCLUDER_SNIPPET	field_1_10811
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	SKY_OCCLUDER_WITH_DEPTH_ATTACHMENT	field_1_10812
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	SKY_SNIPPET	field_1_10813
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	SKY_WITH_DEPTH_ATTACHMENT	field_1_10814
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	SOLID_SNIPPET	field_1_10815
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	SOLID_TERRAIN_IMPROVED_FOG	field_1_10816
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	SOLID_TERRAIN_IMPROVED_FOG_MULTIDRAW	field_1_10817
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	STARS_SNIPPET	field_1_10818
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	STARS_WITH_DEPTH_ATTACHMENT	field_1_10819
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	SUNRISE_SUNSET_SNIPPET	field_1_10820
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	SUNRISE_SUNSET_WITH_DEPTH_ATTACHMENT	field_1_10821
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	TRANSLUCENT_SNIPPET	field_1_10822
+FIELD	net/minecraft/client/renderer/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	WIREFRAME_SNIPPET	field_1_10823
+METHOD	net/minecraft/client/renderer/RenderPipelines	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;)V	lambda$static$1	method_1_10856
+METHOD	net/minecraft/client/renderer/RenderPipelines	(Lcom/mojang/blaze3d/pipeline/RenderPipeline$Builder;)V	lambda$static$2	method_1_10857
+METHOD	com/mojang/renderpearl/api/pipeline/ShaderType	()Ljava/lang/String;	getExtension	method_1_10858
+FIELD	net/minecraft/client/renderer/BindGroupLayouts	Lcom/mojang/renderpearl/api/pipeline/BindGroupLayout;	IN_SAMPLER_IN_DEPTH_SAMPLER	field_1_10824
+FIELD	net/minecraft/client/renderer/BindGroupLayouts	Lcom/mojang/renderpearl/api/pipeline/BindGroupLayout;	SKY_CLOUDS_SAMPLER	field_1_10825
+FIELD	net/minecraft/client/renderer/BindGroupLayouts	Lcom/mojang/renderpearl/api/pipeline/BindGroupLayout;	SKY_OCCLUDER_INFO	field_1_10826
+FIELD	net/minecraft/client/renderer/BindGroupLayouts	Lcom/mojang/renderpearl/api/pipeline/BindGroupLayout;	SKY_SAMPLER	field_1_10827
+METHOD	net/minecraft/world/level/chunk/ChunkGenerator	(Ljava/util/List;Lnet/minecraft/core/RegistryAccess;Lnet/minecraft/world/level/chunk/ChunkGeneratorStructureState;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkAccess;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/chunk/ChunkAccess;	createStructuresForSets	method_1_10859
+METHOD	net/minecraft/world/level/chunk/ChunkGenerator	(Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkAccess;Lnet/minecraft/world/level/chunk/ChunkGeneratorStructureState;Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/Holder;)Z	lambda$createStructures$0	method_1_10860
+METHOD	net/minecraft/world/level/chunk/ChunkGenerator	(Ljava/util/List;Lnet/minecraft/core/RegistryAccess;Lnet/minecraft/world/level/chunk/ChunkGeneratorStructureState;Lnet/minecraft/world/level/StructureManager;Lnet/minecraft/world/level/chunk/ChunkAccess;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/level/chunk/ChunkAccess;	lambda$createStructures$1	method_1_10861
+FIELD	net/minecraft/client/renderer/LevelTargetBundle	Lcom/mojang/blaze3d/resource/ResourceHandle;	clouds	field_1_10828
+FIELD	net/minecraft/client/renderer/LevelTargetBundle	Lcom/mojang/blaze3d/resource/ResourceHandle;	sky	field_1_10829
+FIELD	net/minecraft/core/registries/BuiltInRegistries	Lnet/minecraft/core/Registry;	RULE_TEST_TYPE	field_1_10830
+FIELD	com/mojang/renderpearl/api/device/GpuDebugOptions	Z	shaderDebug	comp_1_1915
+FIELD	com/mojang/renderpearl/api/device/GpuDebugOptions	Z	strictValidation	comp_1_1916
+FIELD	com/mojang/renderpearl/frontend/FrontendGpuDevice	Z	strictValidation	field_1_10831
+METHOD	net/minecraft/client/multiplayer/ClientChunkCache	()I	getMaxChunksCount	method_1_10862
+METHOD	com/mojang/renderpearl/backend/opengl/GlDebugLabel	(Ljava/lang/String;IZ)Ljava/lang/String;	truncateStringIfNecessary	method_1_10863
+FIELD	com/mojang/renderpearl/backend/opengl/GlHeuristics	I	MINIMUM_SUPPORTED_MAX_TEXTURE_SIZE	field_1_10832
+METHOD	net/minecraft/client/gui/components/AbstractWidget	()Z	isVisible	method_1_10864
+METHOD	net/minecraft/client/gui/components/AbstractWidget	(Z)V	setVisible	method_1_10865
+METHOD	com/mojang/renderpearl/backend/vulkan/VulkanBackend	()Z	isVulkanLoaderAvailable	method_1_10866
+CLASS	net/minecraft/client/gui/components/debug/DebugFact	class_1_1714
+FIELD	net/minecraft/client/gui/components/debug/DebugFact	Lnet/minecraft/network/chat/Style;	VALUE_STYLE	field_1_10833
+FIELD	net/minecraft/client/gui/components/debug/DebugFact	Lnet/minecraft/network/chat/MutableComponent;	component	field_1_10834
+METHOD	net/minecraft/client/gui/components/debug/DebugFact	(Ljava/lang/String;[Ljava/lang/Object;)Lnet/minecraft/client/gui/components/debug/DebugFact;	formattedValue	method_1_10867
+METHOD	net/minecraft/client/gui/components/debug/DebugFact	()Lnet/minecraft/network/chat/Component;	result	method_1_10868
+METHOD	net/minecraft/client/gui/components/debug/DebugFact	(Ljava/lang/String;)Lnet/minecraft/client/gui/components/debug/DebugFact;	text	method_1_10869
+METHOD	net/minecraft/client/gui/components/debug/DebugFact	(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/components/debug/DebugFact;	text	method_1_10870
+METHOD	net/minecraft/client/gui/components/debug/DebugFact	(I)Lnet/minecraft/client/gui/components/debug/DebugFact;	value	method_1_10871
+METHOD	net/minecraft/client/gui/components/debug/DebugFact	(J)Lnet/minecraft/client/gui/components/debug/DebugFact;	value	method_1_10872
+METHOD	net/minecraft/client/gui/components/debug/DebugFact	(Ljava/lang/String;)Lnet/minecraft/client/gui/components/debug/DebugFact;	value	method_1_10873
+FIELD	net/minecraft/world/attribute/EnvironmentAttributes	Lnet/minecraft/world/attribute/EnvironmentAttribute;	HAS_SKY_OCCLUDER	field_1_10835
+CLASS	net/minecraft/client/gui/components/debug/DebugFacts	class_1_1715
+FIELD	net/minecraft/client/gui/components/debug/DebugFacts	Lnet/minecraft/network/chat/Style;	VALUE_STYLE	field_1_10836
+METHOD	net/minecraft/client/gui/components/debug/DebugFacts	(Ljava/lang/String;)Lnet/minecraft/network/chat/Component;	filler	method_1_10874
+METHOD	net/minecraft/client/gui/components/debug/DebugFacts	(I)Lnet/minecraft/network/chat/Component;	value	method_1_10875
+METHOD	net/minecraft/client/gui/components/debug/DebugFacts	(Ljava/lang/String;)Lnet/minecraft/network/chat/Component;	value	method_1_10876
+CLASS	net/minecraft/client/gui/components/debug/DebugGroup	class_1_1716
+FIELD	net/minecraft/client/gui/components/debug/DebugGroup	Ljava/util/OptionalInt;	accentColor	field_1_10837
+FIELD	net/minecraft/client/gui/components/debug/DebugGroup	Ljava/util/Optional;	preferredColumn	field_1_10838
+FIELD	net/minecraft/client/gui/components/debug/DebugGroup	Lnet/minecraft/network/chat/Component;	title	field_1_10839
+METHOD	net/minecraft/client/gui/components/debug/DebugGroup	()Ljava/util/OptionalInt;	accentColor	method_1_10877
+METHOD	net/minecraft/client/gui/components/debug/DebugGroup	()Ljava/util/Optional;	preferredColumn	method_1_10878
+METHOD	net/minecraft/client/gui/components/debug/DebugGroup	()Lnet/minecraft/network/chat/Component;	title	method_1_10879
+CLASS	net/minecraft/client/gui/components/debug/DebugGroup$Builder	class_1_1717
+FIELD	net/minecraft/client/gui/components/debug/DebugGroup$Builder	Ljava/util/OptionalInt;	accentColor	field_1_10840
+FIELD	net/minecraft/client/gui/components/debug/DebugGroup$Builder	Ljava/util/Optional;	preferredColumn	field_1_10841
+FIELD	net/minecraft/client/gui/components/debug/DebugGroup$Builder	Lnet/minecraft/network/chat/Component;	title	field_1_10842
+METHOD	net/minecraft/client/gui/components/debug/DebugGroup$Builder	()Lnet/minecraft/client/gui/components/debug/DebugGroup;	build	method_1_10880
+METHOD	net/minecraft/client/gui/components/debug/DebugGroup$Builder	(Ljava/lang/String;)Lnet/minecraft/client/gui/components/debug/DebugGroup$Builder;	titled	method_1_10881
+METHOD	net/minecraft/client/gui/components/debug/DebugGroup$Builder	(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/components/debug/DebugGroup$Builder;	titled	method_1_10882
+METHOD	net/minecraft/client/gui/components/debug/DebugGroup$Builder	()Lnet/minecraft/client/gui/components/debug/DebugGroup$Builder;	titleless	method_1_10883
+METHOD	net/minecraft/client/gui/components/debug/DebugGroup$Builder	(I)Lnet/minecraft/client/gui/components/debug/DebugGroup$Builder;	withAccentColor	method_1_10884
+METHOD	net/minecraft/client/gui/components/debug/DebugGroup$Builder	(Lnet/minecraft/client/gui/components/debug/DebugColumn$Side;)Lnet/minecraft/client/gui/components/debug/DebugGroup$Builder;	withPreferredColumn	method_1_10885
+METHOD	net/minecraft/client/renderer/extract/LevelExtractor	()I	getRenderedEntityCount	method_1_10886
+METHOD	net/minecraft/client/renderer/extract/LevelExtractor	(IILnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$sectionStatistics$0	method_1_10887
+METHOD	net/minecraft/client/renderer/extract/LevelExtractor	(Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$sectionStatistics$1	method_1_10888
+METHOD	net/minecraft/client/renderer/extract/LevelExtractor	(Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$sectionStatistics$2	method_1_10889
+METHOD	net/minecraft/client/renderer/extract/LevelExtractor	(Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$sectionStatistics$3	method_1_10890
+METHOD	net/minecraft/client/renderer/extract/LevelExtractor	(Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$sectionStatistics$4	method_1_10891
+FIELD	com/mojang/renderpearl/api/pipeline/DepthStencilState	Lcom/mojang/renderpearl/api/pipeline/DepthStencilState;	OFF	field_1_10843
+CLASS	net/minecraft/client/gui/components/debug/DebugColumn	class_1_1718
+FIELD	net/minecraft/client/gui/components/debug/DebugColumn	I	MARGIN_TOP	field_1_10844
+FIELD	net/minecraft/client/gui/components/debug/DebugColumn	Ljava/util/List;	currentGroups	field_1_10845
+FIELD	net/minecraft/client/gui/components/debug/DebugColumn	I	heightSoFar	field_1_10846
+FIELD	net/minecraft/client/gui/components/debug/DebugColumn	Ljava/util/List;	previousGroups	field_1_10847
+FIELD	net/minecraft/client/gui/components/debug/DebugColumn	Lnet/minecraft/client/gui/components/debug/DebugColumn$Side;	side	field_1_10848
+METHOD	net/minecraft/client/gui/components/debug/DebugColumn	(Lnet/minecraft/client/gui/components/debug/DebugGroupContents;Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/Font;I)V	add	method_1_10892
+METHOD	net/minecraft/client/gui/components/debug/DebugColumn	()V	clear	method_1_10893
+METHOD	net/minecraft/client/gui/components/debug/DebugColumn	(Lnet/minecraft/client/gui/components/debug/DebugGroup;)Z	containsGroup	method_1_10894
+METHOD	net/minecraft/client/gui/components/debug/DebugColumn	()I	getHeightSoFar	method_1_10895
+METHOD	net/minecraft/client/gui/components/debug/DebugColumn	()Ljava/util/List;	getPreviousGroups	method_1_10896
+METHOD	net/minecraft/client/gui/components/debug/DebugColumn	(I)Z	isFull	method_1_10897
+METHOD	net/minecraft/client/gui/components/debug/DebugColumn	()V	newFrame	method_1_10898
+CLASS	net/minecraft/client/gui/components/debug/DebugColumn$Side	class_1_1719
+FIELD	net/minecraft/client/gui/components/debug/DebugColumn$Side	Lnet/minecraft/client/gui/components/debug/DebugColumn$Side;	LEFT	field_1_10849
+FIELD	net/minecraft/client/gui/components/debug/DebugColumn$Side	Lnet/minecraft/client/gui/components/debug/DebugColumn$Side;	RIGHT	field_1_10850
+METHOD	net/minecraft/client/gui/components/debug/DebugColumn$Side	()[Lnet/minecraft/client/gui/components/debug/DebugColumn$Side;	$values	method_1_10899
+CLASS	net/minecraft/client/gui/components/debug/DebugGroups	class_1_1720
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	CHUNK_GENERATION	field_1_10851
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	CHUNK_RENDERING	field_1_10852
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	HEIGHTMAP	field_1_10853
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	HELP	field_1_10854
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	LIGHT	field_1_10855
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	LOOKING_AT_BLOCK	field_1_10856
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	LOOKING_AT_ENTITY	field_1_10857
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	LOOKING_AT_FLUID	field_1_10858
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	MEMORY	field_1_10859
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	MISC	field_1_10860
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	PERFORMANCE_IMPACTORS	field_1_10861
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	POSITION	field_1_10862
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	PRIORITY	field_1_10863
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	SPAWN_COUNTS	field_1_10864
+FIELD	net/minecraft/client/gui/components/debug/DebugGroups	Lnet/minecraft/client/gui/components/debug/DebugGroup;	SYSTEM_SPECS	field_1_10865
+CLASS	net/minecraft/client/model/ArmorStandModelTransformer	class_1_1721
+FIELD	net/minecraft/client/model/ArmorStandModelTransformer	Lnet/minecraft/client/model/geom/builders/MeshTransformer;	ARMOR_STAND_SMALL	field_1_10866
+FIELD	net/minecraft/client/model/ArmorStandModelTransformer	Lnet/minecraft/client/model/geom/builders/MeshTransformer;	ARMOR_STAND_SMALL_ARMOR	field_1_10867
+FIELD	net/minecraft/client/model/ArmorStandModelTransformer	F	BODY_OFFSET_Y	field_1_10868
+FIELD	net/minecraft/client/model/ArmorStandModelTransformer	F	BODY_SCALE_BASE	field_1_10869
+FIELD	net/minecraft/client/model/ArmorStandModelTransformer	F	HEAD_OFFSET_Y	field_1_10870
+FIELD	net/minecraft/client/model/ArmorStandModelTransformer	F	HEAD_SCALE	field_1_10871
+FIELD	net/minecraft/client/model/ArmorStandModelTransformer	F	HEAD_SCALE_BASE	field_1_10872
+FIELD	net/minecraft/client/model/ArmorStandModelTransformer	F	SMALL_BODY_SCALE	field_1_10873
+FIELD	net/minecraft/client/model/ArmorStandModelTransformer	Z	armor	field_1_10874
+METHOD	net/minecraft/client/model/ArmorStandModelTransformer	(FLnet/minecraft/client/model/geom/PartPose;)Lnet/minecraft/client/model/geom/PartPose;	lambda$apply$0	method_1_10900
+METHOD	net/minecraft/client/model/ArmorStandModelTransformer	(Lnet/minecraft/client/model/geom/PartPose;)Lnet/minecraft/client/model/geom/PartPose;	lambda$apply$1	method_1_10901
+FIELD	net/minecraft/client/renderer/chunk/ChunkSectionLayer	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	improvedFogMultiDrawPipeline	field_1_10875
+FIELD	net/minecraft/client/renderer/chunk/ChunkSectionLayer	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	improvedFogPipeline	field_1_10876
+FIELD	net/minecraft/world/level/levelgen/feature/OreFeature	I	RADIUS_INDEX	field_1_10877
+FIELD	net/minecraft/world/level/levelgen/feature/OreFeature	I	STRIDE	field_1_10878
+FIELD	net/minecraft/world/level/levelgen/feature/OreFeature	I	X_INDEX	field_1_10879
+FIELD	net/minecraft/world/level/levelgen/feature/OreFeature	I	Y_INDEX	field_1_10880
+FIELD	net/minecraft/world/level/levelgen/feature/OreFeature	I	Z_INDEX	field_1_10881
+FIELD	net/minecraft/client/gui/components/DebugScreenOverlay	J	lastDebugEntriesVersion	field_1_10882
+FIELD	net/minecraft/client/gui/components/DebugScreenOverlay	Lnet/minecraft/client/gui/components/debug/DebugColumn;	leftColumn	field_1_10883
+FIELD	net/minecraft/client/gui/components/DebugScreenOverlay	Lnet/minecraft/client/gui/components/debug/DebugColumn;	rightColumn	field_1_10884
+METHOD	net/minecraft/client/gui/components/DebugScreenOverlay	()V	clearColumnCache	method_1_10902
+METHOD	net/minecraft/client/gui/components/DebugScreenOverlay	(Lnet/minecraft/client/gui/components/debug/DebugGroupContents;)Z	lambda$extractRenderState$0	method_1_10903
+FIELD	net/minecraft/client/gui/components/DebugScreenOverlay$1	Lnet/minecraft/client/gui/components/debug/DebugGroupContents;	val$leftPriority	field_1_10885
+FIELD	net/minecraft/client/gui/components/DebugScreenOverlay$1	Lnet/minecraft/client/gui/components/debug/DebugGroupContents;	val$rightPriority	field_1_10886
+METHOD	net/minecraft/client/gui/components/DebugScreenOverlay$1	(Lnet/minecraft/client/gui/components/debug/DebugGroup;Lnet/minecraft/client/gui/components/debug/DebugGroup;)Lnet/minecraft/client/gui/components/debug/DebugGroupContents;	lambda$addFactToGroup$0	method_1_10904
+METHOD	net/minecraft/client/gui/components/DebugScreenOverlay$1	(Lnet/minecraft/client/gui/components/debug/DebugGroup;Lnet/minecraft/client/gui/components/debug/DebugGroup;)Lnet/minecraft/client/gui/components/debug/DebugGroupContents;	lambda$addToGroup$0	method_1_10905
+METHOD	net/minecraft/client/gui/components/DebugScreenOverlay$1	(Lnet/minecraft/client/gui/components/debug/DebugGroup;Lnet/minecraft/client/gui/components/debug/DebugGroup;)Lnet/minecraft/client/gui/components/debug/DebugGroupContents;	lambda$addToGroup$1	method_1_10906
+METHOD	net/minecraft/client/gui/components/DebugScreenOverlay$1	(Lnet/minecraft/client/gui/components/debug/DebugGroup;Lnet/minecraft/client/gui/components/debug/DebugGroup;)Lnet/minecraft/client/gui/components/debug/DebugGroupContents;	lambda$addToGroup$2	method_1_10907
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryTps	(Lnet/minecraft/world/level/Level;Lnet/minecraft/client/server/IntegratedServer;Lnet/minecraft/client/multiplayer/ClientPacketListener;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10908
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryTps	(FFLnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$1	method_1_10909
+FIELD	net/minecraft/client/model/object/projectile/ArrowModel	Lnet/minecraft/client/model/geom/builders/MeshTransformer;	ARROW_SCALE	field_1_10887
+METHOD	net/minecraft/world/level/chunk/status/ChunkStatusTasks	(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/level/chunk/ChunkAccess;)Lnet/minecraft/world/level/chunk/ChunkAccess;	lambda$generateStructureStarts$0	method_1_10910
+FIELD	net/minecraft/client/model/animal/golem/CopperGolemModel	Lnet/minecraft/client/model/geom/builders/MeshTransformer;	BODY_TRANSLATION	field_1_10888
+METHOD	net/minecraft/client/model/geom/builders/MeshTransformer	(FLnet/minecraft/client/model/geom/builders/MeshDefinition;)Lnet/minecraft/client/model/geom/builders/MeshDefinition;	lambda$scaled$0	method_1_10911
+METHOD	net/minecraft/client/model/geom/builders/MeshTransformer	(FLnet/minecraft/client/model/geom/PartPose;)Lnet/minecraft/client/model/geom/PartPose;	lambda$scaled$1	method_1_10912
+METHOD	net/minecraft/client/model/geom/builders/MeshTransformer	(FFFLnet/minecraft/client/model/geom/builders/MeshDefinition;)Lnet/minecraft/client/model/geom/builders/MeshDefinition;	lambda$translating$0	method_1_10913
+METHOD	net/minecraft/client/model/geom/builders/MeshTransformer	(FFFLnet/minecraft/client/model/geom/PartPose;)Lnet/minecraft/client/model/geom/PartPose;	lambda$translating$1	method_1_10914
+METHOD	net/minecraft/client/model/geom/builders/MeshTransformer	(F)Lnet/minecraft/client/model/geom/builders/MeshTransformer;	scaled	method_1_10915
+METHOD	net/minecraft/client/model/geom/builders/MeshTransformer	(FFF)Lnet/minecraft/client/model/geom/builders/MeshTransformer;	translating	method_1_10916
+FIELD	net/minecraft/client/renderer/state/level/SkyRenderState	F	occluderEndAngle	field_1_10889
+FIELD	net/minecraft/client/renderer/state/level/SkyRenderState	F	occluderStartAngle	field_1_10890
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryBiome	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10917
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryBiome	(Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$1	method_1_10918
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryBiome	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$2	method_1_10919
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryLight	(Lnet/minecraft/world/level/lighting/LevelLightEngine;Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10920
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryLight	(Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$1	method_1_10921
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryLight	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$2	method_1_10922
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryLight	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$3	method_1_10923
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryLight	(Lnet/minecraft/client/gui/components/debug/DebugFact;Lnet/minecraft/client/Minecraft;Lnet/minecraft/core/BlockPos;)Lnet/minecraft/client/gui/components/debug/DebugFact;	populateClientLightFact	method_1_10924
+CLASS	net/minecraft/client/renderer/chunk/ChunkSectionsToRender$ImprovedFogTextures	class_1_1722
+FIELD	net/minecraft/client/renderer/chunk/ChunkSectionsToRender$ImprovedFogTextures	Lcom/mojang/renderpearl/api/textures/GpuTextureView;	cloudsDepthView	comp_1_1917
+FIELD	net/minecraft/client/renderer/chunk/ChunkSectionsToRender$ImprovedFogTextures	Lcom/mojang/renderpearl/api/textures/GpuTextureView;	cloudsView	comp_1_1918
+FIELD	net/minecraft/client/renderer/chunk/ChunkSectionsToRender$ImprovedFogTextures	Lcom/mojang/renderpearl/api/textures/GpuTextureView;	skyView	comp_1_1919
+FIELD	net/minecraft/world/entity/decoration/BlockAttachedEntity	Lnet/minecraft/world/damagesource/DamageSource;	lastDamageSource	field_1_10891
+METHOD	net/minecraft/world/entity/decoration/BlockAttachedEntity	()Lnet/minecraft/world/damagesource/DamageSource;	getLastDamageSource	method_1_10925
+METHOD	net/minecraft/world/entity/decoration/BlockAttachedEntity	(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/damagesource/DamageSource;)V	kill	method_1_10926
+FIELD	com/mojang/renderpearl/backend/opengl/GlPipelineRecompiler	Z	debugMode	field_1_10892
+FIELD	com/mojang/renderpearl/backend/vulkan/VulkanRenderPipeline	J	pipeline	field_1_10893
+METHOD	com/mojang/renderpearl/backend/vulkan/VulkanRenderPipeline	()J	vkPipeline	method_1_10927
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryMemory	(JJLnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10928
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryMemory	(JLnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$1	method_1_10929
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryMemory	(JJLnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$2	method_1_10930
+METHOD	net/minecraft/world/entity/animal/nautilus/AbstractNautilus	()Lnet/minecraft/sounds/SoundEvent;	getRidingSound	method_1_10931
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryDayCount	(Lnet/minecraft/core/Holder$Reference;Lnet/minecraft/world/clock/ClockManager;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$1	method_1_10932
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryPosition	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10933
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryPosition	(Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$1	method_1_10934
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryPosition	(Lnet/minecraft/world/level/ChunkPos;Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$2	method_1_10935
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryPosition	(Lnet/minecraft/core/Direction;Ljava/lang/String;Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$3	method_1_10936
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryPosition	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$4	method_1_10937
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryPosition	(Lit/unimi/dsi/fastutil/longs/LongSet;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$5	method_1_10938
+CLASS	net/minecraft/client/gui/components/debug/DebugGroupContents	class_1_1723
+FIELD	net/minecraft/client/gui/components/debug/DebugGroupContents	I	FACT_NAME_VALUE_PADDING	field_1_10894
+FIELD	net/minecraft/client/gui/components/debug/DebugGroupContents	I	MARGIN_LEFT	field_1_10895
+FIELD	net/minecraft/client/gui/components/debug/DebugGroupContents	I	MARGIN_RIGHT	field_1_10896
+FIELD	net/minecraft/client/gui/components/debug/DebugGroupContents	I	TITLE_LEFT_PADDING	field_1_10897
+FIELD	net/minecraft/client/gui/components/debug/DebugGroupContents	Ljava/util/List;	customRenderers	comp_1_1920
+FIELD	net/minecraft/client/gui/components/debug/DebugGroupContents	Ljava/util/List;	facts	comp_1_1921
+FIELD	net/minecraft/client/gui/components/debug/DebugGroupContents	Lnet/minecraft/client/gui/components/debug/DebugGroup;	group	comp_1_1922
+FIELD	net/minecraft/client/gui/components/debug/DebugGroupContents	Ljava/util/List;	lines	comp_1_1923
+METHOD	net/minecraft/client/gui/components/debug/DebugGroupContents	(Lnet/minecraft/client/gui/components/debug/DebugCustomRenderer;)V	addCustomRenderer	method_1_10939
+METHOD	net/minecraft/client/gui/components/debug/DebugGroupContents	(Ljava/lang/String;Lnet/minecraft/network/chat/Component;)V	addFact	method_1_10940
+METHOD	net/minecraft/client/gui/components/debug/DebugGroupContents	(Lnet/minecraft/client/gui/GuiGraphicsExtractor;ILnet/minecraft/client/gui/Font;Lnet/minecraft/client/gui/components/debug/DebugColumn$Side;I)Lnet/minecraft/client/renderer/Rect2i;	extract	method_1_10941
+METHOD	net/minecraft/client/gui/components/debug/DebugGroupContents	(Lnet/minecraft/client/gui/Font;Lcom/mojang/datafixers/util/Pair;)I	lambda$extract$0	method_1_10942
+CLASS	net/minecraft/client/gui/components/debug/DebugCustomRenderer	class_1_1724
+METHOD	net/minecraft/client/gui/components/debug/DebugCustomRenderer	(Lnet/minecraft/client/gui/GuiGraphicsExtractor;IILnet/minecraft/client/gui/components/debug/DebugColumn$Side;)V	extract	method_1_10943
+METHOD	net/minecraft/client/gui/components/debug/DebugCustomRenderer	()I	height	method_1_10944
+METHOD	net/minecraft/client/gui/components/debug/DebugCustomRenderer	(I)I	width	method_1_10945
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryHeightmap	(Lnet/minecraft/world/level/chunk/LevelChunk;Lnet/minecraft/world/level/levelgen/Heightmap$Types;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/chunk/LevelChunk;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10946
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryLookingAt$DebugEntryLookingAtState	(Lnet/minecraft/client/gui/components/debug/DebugScreenDisplayer;Lnet/minecraft/world/level/block/state/properties/Property$Value;)V	lambda$addStateProperties$0	method_1_10947
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryLookingAt$DebugEntryLookingAtState	(Lnet/minecraft/world/level/block/state/properties/Property$Value;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$addStateProperties$1	method_1_10948
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryLookingAt$DebugEntryLookingAtState	(Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$extractInfo$0	method_1_10949
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryLookingAt$DebugEntryLookingAtState	(Lnet/minecraft/world/level/block/state/StateHolder;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$extractInfo$1	method_1_10950
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySoundMood	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10951
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySoundMood	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$1	method_1_10952
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySoundCache	(Lnet/minecraft/client/sounds/SoundBufferLibrary$DebugOutput$Counter;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10953
+METHOD	net/minecraft/client/gui/components/debug/DebugScreenDisplayer	(Lnet/minecraft/client/gui/components/debug/DebugGroup;Ljava/lang/String;Ljava/util/function/Consumer;)V	addFactToGroup	method_1_10954
+METHOD	net/minecraft/client/gui/components/debug/DebugScreenDisplayer	(Lnet/minecraft/client/gui/components/debug/DebugGroup;Lnet/minecraft/client/gui/components/debug/DebugCustomRenderer;)V	addToGroup	method_1_10955
+METHOD	net/minecraft/world/level/entity/TransientEntitySectionManager	()I	sectionCount	method_1_10956
+METHOD	net/minecraft/world/level/entity/TransientEntitySectionManager	()I	tickingCount	method_1_10957
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryPlayerSpeed	(Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10958
+CLASS	net/minecraft/client/gui/components/debug/DebugEntryPostEffects	class_1_1725
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryPostEffects	(Ljava/util/List;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10959
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySpawnCounts	(ILnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10960
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySpawnCounts	(Lit/unimi/dsi/fastutil/objects/Object2IntMap;Lnet/minecraft/world/entity/MobCategory;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$1	method_1_10961
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySystemSpecs	(Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10962
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySystemSpecs	(Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$1	method_1_10963
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySystemSpecs	(Lcom/mojang/blaze3d/platform/Window;Lcom/mojang/renderpearl/api/device/DeviceInfo;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$2	method_1_10964
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySystemSpecs	(Lcom/mojang/blaze3d/platform/Window;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$3	method_1_10965
+METHOD	net/minecraft/world/level/levelgen/blockpredicates/BlockPredicate	(Lnet/minecraft/world/level/levelgen/Heightmap$Types;)Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicate;	belowHeightmap	method_1_10966
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryDetailedMemory	(Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10967
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryDetailedMemory	(Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$1	method_1_10968
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryGpuUtilization	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10969
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Ljava/util/function/Predicate;)Z	checkHotbarSwap	method_1_10970
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Lnet/minecraft/world/inventory/Slot;IZZZI)Z	handleDoublePress	method_1_10971
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	()Z	isQuickCrafting	method_1_10972
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Lnet/minecraft/client/input/KeyEvent;Lnet/minecraft/client/KeyMapping;)Z	lambda$checkHotbarKeyPressed$0	method_1_10973
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Lnet/minecraft/client/input/MouseButtonEvent;Lnet/minecraft/client/KeyMapping;)Z	lambda$mouseClicked$0	method_1_10974
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Lnet/minecraft/world/inventory/Slot;IIZZ)V	releaseCarriedItem	method_1_10975
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Z)V	setQuickCrafting	method_1_10976
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(ZZZI)V	setupQuickCrafting	method_1_10977
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Lnet/minecraft/world/inventory/Slot;IIZZ)V	tryPickUpItem	method_1_10978
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Lnet/minecraft/world/inventory/Slot;)V	updateLastQuickMoved	method_1_10979
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryChunkGeneration	(Lnet/minecraft/client/gui/components/debug/DebugScreenDisplayer;Ljava/lang/String;Ljava/lang/String;)V	lambda$update$0	method_1_10980
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryChunkGeneration	(Ljava/lang/String;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$update$1	method_1_10981
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryLocalDifficulty	(Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10982
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryLookingAtEntity	(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10983
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryLookingAtEntity	(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$1	method_1_10984
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySectionPosition	(Lnet/minecraft/core/BlockPos;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10985
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryChunkRenderStats	(Lnet/minecraft/client/gui/components/debug/DebugScreenDisplayer;Ljava/lang/String;Ljava/util/function/Consumer;)V	lambda$display$0	method_1_10986
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryChunkSourceStats	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10987
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryChunkSourceStats	(Lnet/minecraft/world/level/entity/TransientEntitySectionManager;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$1	method_1_10988
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryChunkSourceStats	(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$2	method_1_10989
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryChunkSourceStats	(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$3	method_1_10990
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/RuleTest	()Lcom/mojang/serialization/MapCodec;	codec	method_1_10991
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/RuleTest	(Lcom/mojang/serialization/MapCodec;)Lcom/mojang/serialization/MapCodec;	lambda$static$0	method_1_10992
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryEntityRenderStats	(Lnet/minecraft/client/renderer/extract/LevelExtractor;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10993
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryEntityRenderStats	(Lnet/minecraft/client/multiplayer/ClientLevel;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$1	method_1_10994
+FIELD	net/minecraft/world/level/levelgen/blockpredicates/BlockPredicateType	Lnet/minecraft/world/level/levelgen/blockpredicates/BlockPredicateType;	BELOW_HEIGHTMAP	field_1_10898
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryParticleRenderStats	(Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_10995
+field_1_8760 is now comp_1_1924
+field_16747 is now comp_1_1925
+field_1_7919 is now comp_1_1926
+field_1_8775 is now comp_1_1927
+CLASS	net/minecraft/world/level/levelgen/structure/templatesystem/RuleTestTypes	class_1_1726
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/RuleTestTypes	(Lnet/minecraft/core/Registry;)Lcom/mojang/serialization/MapCodec;	bootstrap	method_1_10996
+CLASS	net/minecraft/world/level/levelgen/blockpredicates/BelowHeightmapPredicate	class_1_1727
+FIELD	net/minecraft/world/level/levelgen/blockpredicates/BelowHeightmapPredicate	Lcom/mojang/serialization/MapCodec;	CODEC	field_1_10899
+FIELD	net/minecraft/world/level/levelgen/blockpredicates/BelowHeightmapPredicate	Lnet/minecraft/world/level/levelgen/Heightmap$Types;	heightmap	comp_1_1928
+METHOD	net/minecraft/world/level/levelgen/blockpredicates/BelowHeightmapPredicate	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_10997
+METHOD	net/minecraft/world/level/levelgen/blockpredicates/BelowHeightmapPredicate	(Lnet/minecraft/world/level/LevelAccessor;Lnet/minecraft/core/BlockPos;)Z	test	method_1_10998
+field_16869 is now comp_1_1929
+field_1_7923 is now comp_1_1930
+field_1_7924 is now comp_1_1931
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate	Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;	EMPTY	field_1_10900
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate	(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Vec3i;Ljava/lang/String;ZLjava/util/List;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;	createFromWorld	method_1_10999
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate	(Lnet/minecraft/core/HolderGetter;Lnet/minecraft/nbt/CompoundTag;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;	load	method_1_11000
+FIELD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$Palette	Lcom/google/common/base/Supplier;	jigsaws	field_1_10901
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate$Palette	()Ljava/util/List;	lambda$new$0	method_1_11001
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySimplePerformanceImpactors	(Lnet/minecraft/client/Options;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_11002
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySimplePerformanceImpactors	(Lnet/minecraft/client/Options;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$1	method_1_11003
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySimplePerformanceImpactors	(Lnet/minecraft/client/Options;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$2	method_1_11004
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySimplePerformanceImpactors	(Lnet/minecraft/client/TextureFilteringMethod;Lnet/minecraft/client/Options;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$3	method_1_11005
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySimplePerformanceImpactors	(Lnet/minecraft/client/TextureFilteringMethod;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$4	method_1_11006
+METHOD	net/minecraft/client/gui/components/debug/DebugEntrySimplePerformanceImpactors	(ZLnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$5	method_1_11007
+field_16870 is now comp_1_1932
+field_16880 is now comp_1_1933
+field_16879 is now comp_1_1934
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;	getOrEmpty	method_1_11008
+METHOD	net/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplateManager	(Lnet/minecraft/resources/Identifier;Lnet/minecraft/world/level/levelgen/structure/templatesystem/StructureTemplate;)V	store	method_1_11009
+field_16878 is now comp_1_1935
+field_16877 is now comp_1_1936
+Done!
