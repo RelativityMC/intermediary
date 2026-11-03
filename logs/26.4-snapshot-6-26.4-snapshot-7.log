@@ -1,0 +1,843 @@
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/predicates/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/predicates/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/ComponentPath$Leaf;leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView; as record getter for textureViewLcom/mojang/renderpearl/api/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/KeyEvent;shortcutKey()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/client/renderer/feature/CustomFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/client/renderer/feature/FeatureRendererType;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/client/renderer/feature/ModelFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/core/CompositeDirection;getStep()Lnet/minecraft/core/Vec3i;
+Demoting record getter net/minecraft/core/particles/GeyserBaseParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/core/particles/GeyserParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Demoting record getter net/minecraft/world/level/levelgen/densityfunction/DensityVolume;strideX()I
+Read 11613 (7451) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 20438 MethodEntries (0 unique, 11858 classes).
+Joined 184 record fields.
+Collecting additional information...
+- Done. -
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/predicates/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/predicates/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/ComponentPath$Leaf;leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView; as record getter for textureViewLcom/mojang/renderpearl/api/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/KeyEvent;shortcutKey()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/client/renderer/feature/CustomFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/client/renderer/feature/FeatureRendererType;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/client/renderer/feature/ModelFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/core/CompositeDirection;getStep()Lnet/minecraft/core/Vec3i;
+Demoting record getter net/minecraft/core/particles/GeyserBaseParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/core/particles/GeyserParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Demoting record getter net/minecraft/world/level/levelgen/densityfunction/DensityVolume;strideX()I
+Read 11653 (7469) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 20488 MethodEntries (0 unique, 11901 classes).
+Joined 177 record fields.
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+FIELD	net/minecraft/client/InputType	Lnet/minecraft/client/InputType;	KEYBOARD_SELECTION	field_1_12364
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	CALCITE_PILLAR	field_1_12365
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	CALCITE_SLAB	field_1_12366
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	CALCITE_STAIRS	field_1_12367
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	CALCITE_WALL	field_1_12368
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	CHISELED_SOULSHALE	field_1_12369
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	MUSIC_DISC_FLURRY	field_1_12370
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	POLISHED_CALCITE	field_1_12371
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	POLISHED_CALCITE_BRICKS	field_1_12372
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	POLISHED_CALCITE_BRICK_SLAB	field_1_12373
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	POLISHED_CALCITE_BRICK_STAIRS	field_1_12374
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	POLISHED_CALCITE_BRICK_WALL	field_1_12375
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	POLISHED_CALCITE_SLAB	field_1_12376
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	POLISHED_CALCITE_STAIRS	field_1_12377
+FIELD	net/minecraft/world/item/Items	Lnet/minecraft/world/item/Item;	POLISHED_CALCITE_WALL	field_1_12378
+FIELD	net/minecraft/data/BlockFamilies	Lnet/minecraft/data/BlockFamily;	CALCITE	field_1_12379
+FIELD	net/minecraft/data/BlockFamilies	Lnet/minecraft/data/BlockFamily;	POLISHED_CALCITE	field_1_12380
+FIELD	net/minecraft/data/BlockFamilies	Lnet/minecraft/data/BlockFamily;	POLISHED_CALCITE_BRICKS	field_1_12381
+FIELD	net/minecraft/references/ItemIds	Lnet/minecraft/resources/ResourceKey;	MUSIC_DISC_FLURRY	field_1_12382
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/world/level/block/sounds/BlockSoundCollection;	CHISELED_SOULSHALE	field_1_12383
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/core/Holder;	MUSIC_DISC_FLURRY	field_1_12384
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	PARROT_IMITATE_FROSTBITE	field_1_12385
+FIELD	net/minecraft/client/MouseHandler	D	MOUSE_INPUT_SWITCH_DISTANCE	field_1_12386
+FIELD	net/minecraft/client/MouseHandler	Z	cursorHidden	field_1_12387
+FIELD	net/minecraft/client/MouseHandler	D	inputTypeAnchorX	field_1_12388
+FIELD	net/minecraft/client/MouseHandler	D	inputTypeAnchorY	field_1_12389
+METHOD	net/minecraft/client/MouseHandler	()Z	hasMovedAwayFromInputTypeAnchor	method_1_12197
+METHOD	net/minecraft/client/MouseHandler	(Lnet/minecraft/client/InputType;)V	onInputTypeChanged	method_1_12198
+METHOD	net/minecraft/client/MouseHandler	()V	resetInputTypeAnchor	method_1_12199
+METHOD	net/minecraft/world/entity/Entity	(Lnet/minecraft/util/RandomSource;)V	setSynchronizedRandomSeed	method_1_12200
+FIELD	net/minecraft/world/inventory/Slot	Lnet/minecraft/world/inventory/Slot$Section;	section	field_1_12390
+METHOD	net/minecraft/world/inventory/Slot	()Lnet/minecraft/network/chat/Component;	getNarrationName	method_1_12201
+METHOD	net/minecraft/world/inventory/Slot	()Lnet/minecraft/world/inventory/Slot$Section;	getSection	method_1_12202
+CLASS	net/minecraft/world/inventory/Slot$Section	class_1_1946
+FIELD	net/minecraft/world/inventory/Slot$Section	Lnet/minecraft/world/inventory/Slot$Section;	CONTAINER	field_1_12391
+FIELD	net/minecraft/world/inventory/Slot$Section	Lnet/minecraft/world/inventory/Slot$Section;	EQUIPMENT	field_1_12392
+FIELD	net/minecraft/world/inventory/Slot$Section	Lnet/minecraft/world/inventory/Slot$Section;	FUEL	field_1_12393
+FIELD	net/minecraft/world/inventory/Slot$Section	Lnet/minecraft/world/inventory/Slot$Section;	HOTBAR	field_1_12394
+FIELD	net/minecraft/world/inventory/Slot$Section	Lnet/minecraft/world/inventory/Slot$Section;	INPUT	field_1_12395
+FIELD	net/minecraft/world/inventory/Slot$Section	Lnet/minecraft/world/inventory/Slot$Section;	INVENTORY	field_1_12396
+FIELD	net/minecraft/world/inventory/Slot$Section	Lnet/minecraft/world/inventory/Slot$Section;	RESULT	field_1_12397
+FIELD	net/minecraft/world/inventory/Slot$Section	Lnet/minecraft/world/inventory/Slot$Section;	SECOND_INPUT	field_1_12398
+METHOD	net/minecraft/world/inventory/Slot$Section	()[Lnet/minecraft/world/inventory/Slot$Section;	$values	method_1_12203
+FIELD	net/minecraft/client/input/KeyEvent	Z	repeat	comp_1_2185
+FIELD	net/minecraft/references/BlockItemIds	Lnet/minecraft/references/BlockItemId;	CALCITE_PILLAR	field_1_12399
+FIELD	net/minecraft/references/BlockItemIds	Lnet/minecraft/references/BlockItemId;	CALCITE_SLAB	field_1_12400
+FIELD	net/minecraft/references/BlockItemIds	Lnet/minecraft/references/BlockItemId;	CALCITE_STAIRS	field_1_12401
+FIELD	net/minecraft/references/BlockItemIds	Lnet/minecraft/references/BlockItemId;	CALCITE_WALL	field_1_12402
+FIELD	net/minecraft/references/BlockItemIds	Lnet/minecraft/references/BlockItemId;	CHISELED_SOULSHALE	field_1_12403
+FIELD	net/minecraft/references/BlockItemIds	Lnet/minecraft/references/BlockItemId;	POLISHED_CALCITE	field_1_12404
+FIELD	net/minecraft/references/BlockItemIds	Lnet/minecraft/references/BlockItemId;	POLISHED_CALCITE_BRICKS	field_1_12405
+FIELD	net/minecraft/references/BlockItemIds	Lnet/minecraft/references/BlockItemId;	POLISHED_CALCITE_BRICK_SLAB	field_1_12406
+FIELD	net/minecraft/references/BlockItemIds	Lnet/minecraft/references/BlockItemId;	POLISHED_CALCITE_BRICK_STAIRS	field_1_12407
+FIELD	net/minecraft/references/BlockItemIds	Lnet/minecraft/references/BlockItemId;	POLISHED_CALCITE_BRICK_WALL	field_1_12408
+FIELD	net/minecraft/references/BlockItemIds	Lnet/minecraft/references/BlockItemId;	POLISHED_CALCITE_SLAB	field_1_12409
+FIELD	net/minecraft/references/BlockItemIds	Lnet/minecraft/references/BlockItemId;	POLISHED_CALCITE_STAIRS	field_1_12410
+FIELD	net/minecraft/references/BlockItemIds	Lnet/minecraft/references/BlockItemId;	POLISHED_CALCITE_WALL	field_1_12411
+FIELD	net/minecraft/world/item/JukeboxSongs	Lnet/minecraft/resources/ResourceKey;	FLURRY	field_1_12412
+CLASS	net/minecraft/world/level/block/Group	class_1_1947
+METHOD	net/minecraft/world/level/block/Group	(Ljava/util/function/Function;)Lnet/minecraft/world/level/block/Group;	map	method_1_12204
+FIELD	com/mojang/realmsclient/client/Request	Ljava/util/concurrent/atomic/AtomicBoolean;	cancelled	field_1_12413
+METHOD	com/mojang/realmsclient/client/Request	()V	cancel	method_1_12205
+METHOD	com/mojang/realmsclient/client/Request	()V	checkCancelled	method_1_12206
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	CALCITE_PILLAR	field_1_12414
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	CALCITE_SLAB	field_1_12415
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	CALCITE_STAIRS	field_1_12416
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	CALCITE_WALL	field_1_12417
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	CHISELED_SOULSHALE	field_1_12418
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	POLISHED_CALCITE	field_1_12419
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	POLISHED_CALCITE_BRICKS	field_1_12420
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	POLISHED_CALCITE_BRICK_SLAB	field_1_12421
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	POLISHED_CALCITE_BRICK_STAIRS	field_1_12422
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	POLISHED_CALCITE_BRICK_WALL	field_1_12423
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	POLISHED_CALCITE_SLAB	field_1_12424
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	POLISHED_CALCITE_STAIRS	field_1_12425
+FIELD	net/minecraft/world/level/block/Blocks	Lnet/minecraft/world/level/block/Block;	POLISHED_CALCITE_WALL	field_1_12426
+METHOD	net/minecraft/world/entity/LivingEntity	()Z	canHealNaturally	method_1_12207
+METHOD	net/minecraft/world/entity/LivingEntity	(F)V	healNaturally	method_1_12208
+METHOD	net/minecraft/world/entity/LivingEntity	()Z	isWearingFreezeImmuneWearables	method_1_12209
+FIELD	net/minecraft/world/entity/PositionPath$Stepped	Z	startImmediately	comp_1_2186
+METHOD	com/mojang/realmsclient/RealmsMainScreen	(Lcom/mojang/realmsclient/RealmsMainScreen;)Lnet/minecraft/client/Minecraft;	access$1800	method_1_12210
+METHOD	com/mojang/realmsclient/RealmsMainScreen	()Lnet/minecraft/client/gui/components/Button;	createPlayButton	method_1_12211
+METHOD	com/mojang/realmsclient/RealmsMainScreen	(Lnet/minecraft/client/gui/components/Button;)V	lambda$createPlayButton$0	method_1_12212
+METHOD	com/mojang/realmsclient/RealmsMainScreen$NotificationMessageEntry	(Lcom/mojang/realmsclient/RealmsMainScreen;)Ljava/lang/Boolean;	lambda$new$1	method_1_12213
+FIELD	net/minecraft/world/entity/ExperienceOrb	Lnet/minecraft/util/RandomSource;	synchronizedRandom	field_1_12427
+FIELD	net/minecraft/world/entity/player/Player	I	INTERPOLATION_TICKS	field_1_12428
+METHOD	net/minecraft/data/recipes/RecipeProvider	(Lnet/minecraft/core/Holder;)Lnet/minecraft/advancements/triggers/Criterion;	has	method_1_12214
+METHOD	net/minecraft/world/inventory/CrafterSlot	()Z	isDisabled	method_1_12215
+comp_4820 is now field_1_12429
+METHOD	net/minecraft/core/particles/ParticleLimit	()[Lnet/minecraft/core/particles/ParticleLimit;	$values	method_1_12216
+comp_4820 is now method_1_12217
+FIELD	net/minecraft/world/inventory/MerchantMenu	Ljava/lang/Runnable;	onTradesChanged	field_1_12430
+METHOD	net/minecraft/world/inventory/MerchantMenu	()V	lambda$new$0	method_1_12218
+METHOD	net/minecraft/world/inventory/MerchantMenu	(Ljava/lang/Runnable;)V	registerUpdateListener	method_1_12219
+FIELD	com/mojang/realmsclient/client/RealmsClient	Ljava/lang/String;	CLIENT_VERSION_HEADER	field_1_12431
+FIELD	com/mojang/realmsclient/client/RealmsClient	Ljava/lang/String;	CONTENT_UPLOAD_RESOURCE	field_1_12432
+FIELD	com/mojang/realmsclient/client/RealmsClient	Ljava/lang/String;	CONTENT_V2_UPLOAD_FLAG	field_1_12433
+METHOD	com/mojang/realmsclient/client/RealmsClient	(JILjava/lang/String;)Ljava/util/concurrent/CompletableFuture;	createContentV2UploadSession	method_1_12220
+METHOD	com/mojang/realmsclient/client/RealmsClient	(Lcom/mojang/realmsclient/client/Request;)Ljava/lang/String;	execute	method_1_12221
+METHOD	com/mojang/realmsclient/client/RealmsClient	()Z	isContentV2UploadEnabled	method_1_12222
+METHOD	com/mojang/realmsclient/client/RealmsClient	(Lcom/mojang/realmsclient/client/Request;)Ljava/lang/String;	lambda$createContentV2UploadSession$0	method_1_12223
+METHOD	com/mojang/realmsclient/client/RealmsClient	(Lcom/mojang/realmsclient/client/Request;Ljava/lang/String;Ljava/lang/Throwable;)V	lambda$createContentV2UploadSession$1	method_1_12224
+FIELD	com/mojang/realmsclient/client/UploadStatus	J	bytesTransferred	field_1_12434
+METHOD	com/mojang/realmsclient/client/UploadStatus	(J)V	onProgress	method_1_12225
+FIELD	net/minecraft/client/gui/components/EditBox	Z	canChangeValue	field_1_12435
+METHOD	net/minecraft/client/gui/components/EditBox	()Z	isInEditMode	method_1_12226
+METHOD	net/minecraft/client/gui/components/EditBox	(Z)V	setCanChangeValue	method_1_12227
+METHOD	net/minecraft/client/gui/components/EditBox	()V	updateTextInput	method_1_12228
+FIELD	net/minecraft/client/gui/components/Tooltip	Z	extraSpaceAfterFirstLine	field_1_12436
+METHOD	net/minecraft/client/gui/components/Tooltip	(Ljava/util/List;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/client/gui/components/Tooltip;	createForItem	method_1_12229
+METHOD	net/minecraft/client/gui/components/Tooltip	()Z	extraSpaceAfterFirstLine	method_1_12230
+FIELD	net/minecraft/client/gui/components/Checkbox	Lnet/minecraft/client/gui/components/WidgetSprites;	SPRITES	field_1_12437
+METHOD	net/minecraft/data/tags/BlockItemTagAppender	(Lnet/minecraft/world/level/block/Group;)Lnet/minecraft/data/tags/BlockItemTagAppender;	addAllBlockItems	method_1_12231
+METHOD	net/minecraft/data/tags/BlockItemTagAppender	(Lnet/minecraft/data/tags/BlockItemTagAppender;Lnet/minecraft/references/BlockItemId;)V	lambda$addAllBlockItems$0	method_1_12232
+FIELD	net/minecraft/network/protocol/game/VecDelta$Stepped	Z	startImmediately	comp_1_2187
+FIELD	net/minecraft/server/commands/EffectCommands	Lcom/mojang/brigadier/exceptions/DynamicCommandExceptionType;	ERROR_CLEAR_SPECIFIC_FAILED_MULTIPLE	field_1_12438
+FIELD	net/minecraft/server/commands/EffectCommands	Lnet/minecraft/server/commands/CommandResponseTracker$Dispatch;	ERROR_DISPATCH_CLEAR	field_1_12439
+FIELD	net/minecraft/server/commands/EffectCommands	Lnet/minecraft/server/commands/CommandResponseTracker$Dispatch;	ERROR_DISPATCH_GIVE	field_1_12440
+FIELD	net/minecraft/server/commands/EffectCommands	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	ERROR_GIVE_FAILED_MULTIPLE	field_1_12441
+METHOD	net/minecraft/server/commands/EffectCommands	(Ljava/lang/Iterable;Lnet/minecraft/world/entity/LivingEntity;Lnet/minecraft/world/entity/Entity;Ljava/lang/Integer;IZ)I	addEffects	method_1_12233
+METHOD	net/minecraft/server/commands/EffectCommands	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/commands/arguments/ResourceOrTagArgument$Result;	getMobEffect	method_1_12234
+METHOD	net/minecraft/server/commands/EffectCommands	(Lnet/minecraft/commands/arguments/ResourceOrTagArgument$Result;)Ljava/lang/Iterable;	iterableResult	method_1_12235
+METHOD	net/minecraft/server/commands/EffectCommands	(Lnet/minecraft/core/HolderSet$Named;)Ljava/lang/Iterable;	lambda$iterableResult$0	method_1_12236
+METHOD	net/minecraft/server/commands/EffectCommands	(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	lambda$static$0	method_1_12237
+METHOD	net/minecraft/server/commands/EffectCommands	(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	lambda$static$1	method_1_12238
+METHOD	net/minecraft/server/commands/EffectCommands	(Lnet/minecraft/world/entity/LivingEntity;I)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	lambda$static$10	method_1_12239
+METHOD	net/minecraft/server/commands/EffectCommands	(II)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	lambda$static$11	method_1_12240
+METHOD	net/minecraft/server/commands/EffectCommands	(Lnet/minecraft/world/entity/Entity;I)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	lambda$static$12	method_1_12241
+METHOD	net/minecraft/server/commands/EffectCommands	(II)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	lambda$static$13	method_1_12242
+METHOD	net/minecraft/server/commands/EffectCommands	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	lambda$static$2	method_1_12243
+METHOD	net/minecraft/server/commands/EffectCommands	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	lambda$static$3	method_1_12244
+METHOD	net/minecraft/server/commands/EffectCommands	(Ljava/lang/Iterable;Lnet/minecraft/world/entity/LivingEntity;)I	removeEffects	method_1_12245
+METHOD	net/minecraft/world/item/crafting/Ingredient	(Lnet/minecraft/core/Holder;)Lnet/minecraft/world/item/crafting/Ingredient;	of	method_1_12246
+METHOD	net/minecraft/world/item/crafting/Ingredient	([Lnet/minecraft/core/Holder;)Lnet/minecraft/world/item/crafting/Ingredient;	of	method_1_12247
+METHOD	com/mojang/renderpearl/backend/opengl/GlConst	(Lcom/mojang/renderpearl/api/pipeline/StencilTest$Op;)I	toGl	method_1_12248
+FIELD	com/mojang/renderpearl/backend/opengl/GlConst$1	[I	$SwitchMap$com$mojang$renderpearl$api$pipeline$StencilTest$Op	field_1_12442
+METHOD	net/minecraft/client/gui/GuiGraphicsExtractor	(Ljava/util/List;Ljava/util/Optional;)Ljava/util/List;	createTooltipComponents	method_1_12249
+METHOD	net/minecraft/client/gui/GuiGraphicsExtractor	(Ljava/util/List;Lnet/minecraft/world/inventory/tooltip/TooltipComponent;)V	lambda$createTooltipComponents$0	method_1_12250
+METHOD	net/minecraft/client/gui/GuiGraphicsExtractor	(Lnet/minecraft/client/gui/Font;Ljava/util/List;Ljava/util/Optional;Lnet/minecraft/client/gui/screens/inventory/tooltip/ClientTooltipPositioner;IIZLnet/minecraft/resources/Identifier;)V	setTooltipForNextFrame	method_1_12251
+METHOD	net/minecraft/client/gui/GuiGraphicsExtractor	(Lnet/minecraft/client/gui/Font;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/client/gui/screens/inventory/tooltip/ClientTooltipPositioner;II)V	setTooltipForNextFrame	method_1_12252
+FIELD	net/minecraft/commands/arguments/TimeArgument	Lcom/mojang/brigadier/exceptions/Dynamic2CommandExceptionType;	ERROR_TICK_COUNT_TOO_HIGH	field_1_12443
+FIELD	net/minecraft/commands/arguments/TimeArgument	I	maximum	field_1_12444
+METHOD	net/minecraft/commands/arguments/TimeArgument	(Ljava/lang/Object;Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	lambda$static$1	method_1_12253
+METHOD	net/minecraft/commands/arguments/TimeArgument	(II)Lnet/minecraft/commands/arguments/TimeArgument;	time	method_1_12254
+METHOD	com/mojang/renderpearl/api/commands/RenderPass	(IIII)V	setViewport	method_1_12255
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$100	method_1_12256
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$107	method_1_12257
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$108	method_1_12258
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$109	method_1_12259
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$121	method_1_12260
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$122	method_1_12261
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$123	method_1_12262
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$15	method_1_12263
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$154	method_1_12264
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$155	method_1_12265
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$156	method_1_12266
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$16	method_1_12267
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$17	method_1_12268
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$175	method_1_12269
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$176	method_1_12270
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$31	method_1_12271
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$32	method_1_12272
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$33	method_1_12273
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$44	method_1_12274
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$48	method_1_12275
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$49	method_1_12276
+METHOD	net/minecraft/data/loot/packs/VanillaBlockLoot	(Lnet/minecraft/data/loot/packs/VanillaBlockLoot;Lnet/minecraft/world/level/block/Block;)Lnet/minecraft/world/level/storage/loot/LootTable$Builder;	lambda$generate$99	method_1_12277
+CLASS	com/mojang/renderpearl/api/pipeline/StencilTest	class_1_1948
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest	Lcom/mojang/renderpearl/api/pipeline/StencilTest$PerFace;	back	comp_1_2188
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest	Lcom/mojang/renderpearl/api/pipeline/StencilTest$PerFace;	front	comp_1_2189
+CLASS	com/mojang/renderpearl/api/pipeline/StencilTest$Op	class_1_1949
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$Op	Lcom/mojang/renderpearl/api/pipeline/StencilTest$Op;	DECREEMENT_CLAMP	field_1_12445
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$Op	Lcom/mojang/renderpearl/api/pipeline/StencilTest$Op;	DECREMENT_WRAP	field_1_12446
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$Op	Lcom/mojang/renderpearl/api/pipeline/StencilTest$Op;	INCREMENT_CLAMP	field_1_12447
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$Op	Lcom/mojang/renderpearl/api/pipeline/StencilTest$Op;	INCREMENT_WRAP	field_1_12448
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$Op	Lcom/mojang/renderpearl/api/pipeline/StencilTest$Op;	INVERT	field_1_12449
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$Op	Lcom/mojang/renderpearl/api/pipeline/StencilTest$Op;	KEEP	field_1_12450
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$Op	Lcom/mojang/renderpearl/api/pipeline/StencilTest$Op;	REPLACE	field_1_12451
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$Op	Lcom/mojang/renderpearl/api/pipeline/StencilTest$Op;	ZERO	field_1_12452
+METHOD	com/mojang/renderpearl/api/pipeline/StencilTest$Op	()[Lcom/mojang/renderpearl/api/pipeline/StencilTest$Op;	$values	method_1_12278
+CLASS	com/mojang/renderpearl/api/pipeline/StencilTest$PerFace	class_1_1950
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$PerFace	Lcom/mojang/renderpearl/api/pipeline/CompareOp;	compare	comp_1_2190
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$PerFace	B	compareMask	comp_1_2191
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$PerFace	Lcom/mojang/renderpearl/api/pipeline/StencilTest$Op;	depthFail	comp_1_2192
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$PerFace	Lcom/mojang/renderpearl/api/pipeline/StencilTest$Op;	fail	comp_1_2193
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$PerFace	Lcom/mojang/renderpearl/api/pipeline/StencilTest$Op;	pass	comp_1_2194
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$PerFace	B	reference	comp_1_2195
+FIELD	com/mojang/renderpearl/api/pipeline/StencilTest$PerFace	B	writeMask	comp_1_2196
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/Block;I)V	setBlock	method_1_12279
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/level/block/state/BlockState;I)V	setBlock	method_1_12280
+METHOD	net/minecraft/world/entity/projectile/Projectile	(Lnet/minecraft/world/phys/Vec3;)V	addBubbleParticles	method_1_12281
+METHOD	com/mojang/renderpearl/backend/vulkan/VulkanConst	(Lcom/mojang/renderpearl/api/pipeline/StencilTest$Op;)I	toVk	method_1_12282
+FIELD	com/mojang/renderpearl/backend/vulkan/VulkanConst$1	[I	$SwitchMap$com$mojang$renderpearl$api$pipeline$StencilTest$Op	field_1_12453
+CLASS	net/minecraft/client/gui/narration/GroupNarration	class_1_1951
+FIELD	net/minecraft/client/gui/narration/GroupNarration	Lnet/minecraft/client/gui/narration/GroupNarration;	LIST	field_1_12454
+FIELD	net/minecraft/client/gui/narration/GroupNarration	Ljava/lang/String;	LIST_POSITION_KEY	field_1_12455
+METHOD	net/minecraft/client/gui/narration/GroupNarration	(Ljava/util/List;Ljava/lang/Object;)Lnet/minecraft/network/chat/Component;	createPositionNarration	method_1_12283
+METHOD	net/minecraft/client/gui/narration/GroupNarration	(Ljava/lang/String;Lnet/minecraft/client/gui/navigation/ScreenAxis;)Lnet/minecraft/network/chat/Component;	createUsageNarration	method_1_12284
+METHOD	net/minecraft/client/gui/narration/GroupNarration	(ILjava/lang/String;)Lnet/minecraft/client/gui/narration/GroupNarration;	grid	method_1_12285
+METHOD	net/minecraft/client/gui/narration/GroupNarration	(Ljava/lang/String;)Lnet/minecraft/client/gui/narration/GroupNarration;	list	method_1_12286
+METHOD	net/minecraft/client/gui/narration/GroupNarration	(Ljava/lang/String;Ljava/lang/String;Lnet/minecraft/client/gui/navigation/ScreenAxis;)Lnet/minecraft/client/gui/narration/GroupNarration;	list	method_1_12287
+METHOD	net/minecraft/client/gui/narration/GroupNarration	(Lnet/minecraft/client/gui/narration/NarrationElementOutput;Ljava/util/List;Ljava/lang/Object;)V	narratePosition	method_1_12288
+METHOD	net/minecraft/client/gui/narration/GroupNarration	(Lnet/minecraft/client/gui/narration/NarrationElementOutput;Ljava/util/List;)V	narrateUsage	method_1_12289
+METHOD	net/minecraft/client/gui/narration/GroupNarration	(II)Lnet/minecraft/network/chat/Component;	position	method_1_12290
+METHOD	net/minecraft/client/gui/narration/GroupNarration	(I)Lnet/minecraft/network/chat/Component;	usage	method_1_12291
+CLASS	net/minecraft/client/gui/narration/GroupNarration$AsGrid	class_1_1952
+FIELD	net/minecraft/client/gui/narration/GroupNarration$AsGrid	I	columns	comp_1_2197
+FIELD	net/minecraft/client/gui/narration/GroupNarration$AsGrid	Ljava/lang/String;	usageKey	comp_1_2198
+CLASS	net/minecraft/client/gui/narration/GroupNarration$AsList	class_1_1953
+FIELD	net/minecraft/client/gui/narration/GroupNarration$AsList	Lnet/minecraft/client/gui/navigation/ScreenAxis;	axis	comp_1_2199
+FIELD	net/minecraft/client/gui/narration/GroupNarration$AsList	Ljava/lang/String;	positionKey	comp_1_2200
+FIELD	net/minecraft/client/gui/narration/GroupNarration$AsList	Ljava/lang/String;	usageKey	comp_1_2201
+CLASS	net/minecraft/world/entity/ai/control/LookControl	class_1_1954
+METHOD	net/minecraft/world/entity/ai/control/LookControl	()Lnet/minecraft/world/phys/Vec3;	getWantedPosition	method_1_12292
+METHOD	net/minecraft/world/entity/ai/control/LookControl	(Lnet/minecraft/world/entity/Entity;)V	setLookAt	method_1_12293
+METHOD	net/minecraft/world/entity/ai/control/LookControl	(Lnet/minecraft/world/entity/Entity;FF)V	setLookAt	method_1_12294
+METHOD	net/minecraft/world/entity/ai/control/LookControl	(Lnet/minecraft/world/phys/Vec3;)V	setLookAt	method_1_12295
+METHOD	com/mojang/renderpearl/api/commands/CommandEncoder	(Lcom/mojang/renderpearl/api/textures/GpuTexture;B)V	clearStencilTexture	method_1_12296
+METHOD	net/minecraft/client/gui/components/AbstractWidget	()V	onStopHovering	method_1_12297
+METHOD	net/minecraft/client/gui/components/AbstractWidget	(Lnet/minecraft/client/gui/narration/NarrationElementOutput;)V	updateTooltipNarration	method_1_12298
+METHOD	net/minecraft/client/gui/narration/NarratableEntry$NarrationPriority	(ZZ)Lnet/minecraft/client/gui/narration/NarratableEntry$NarrationPriority;	of	method_1_12299
+METHOD	com/mojang/renderpearl/backend/vulkan/VulkanBackend	(Lorg/lwjgl/vulkan/VkPhysicalDevice;)Z	isDeviceCpu	method_1_12300
+METHOD	net/minecraft/advancements/predicates/ItemPredicate$Builder	(Lnet/minecraft/core/HolderSet;)Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;	of	method_1_12301
+METHOD	net/minecraft/world/entity/animal/golem/CopperGolem	()Z	isWaxed	method_1_12302
+METHOD	net/minecraft/world/entity/animal/golem/CopperGolem	(Z)V	setWaxed	method_1_12303
+FIELD	net/minecraft/world/level/levelgen/DebugLevelSource	I	ENTITY_SPACING	field_1_12456
+FIELD	net/minecraft/world/level/levelgen/DebugLevelSource	I	MOB_BABY_HEIGHT	field_1_12457
+FIELD	net/minecraft/world/level/levelgen/DebugLevelSource	I	MOB_HEIGHT	field_1_12458
+FIELD	net/minecraft/world/level/levelgen/DebugLevelSource	Lnet/minecraft/world/level/block/state/BlockState;	air	field_1_12459
+FIELD	net/minecraft/world/level/levelgen/DebugLevelSource	Ljava/util/List;	allBlocks	field_1_12460
+FIELD	net/minecraft/world/level/levelgen/DebugLevelSource	Ljava/util/List;	allEntities	field_1_12461
+FIELD	net/minecraft/world/level/levelgen/DebugLevelSource	Lnet/minecraft/world/level/block/state/BlockState;	barrier	field_1_12462
+FIELD	net/minecraft/world/level/levelgen/DebugLevelSource	I	entityGridHeight	field_1_12463
+FIELD	net/minecraft/world/level/levelgen/DebugLevelSource	I	entityGridWidth	field_1_12464
+FIELD	net/minecraft/world/level/levelgen/DebugLevelSource	I	gridHeight	field_1_12465
+FIELD	net/minecraft/world/level/levelgen/DebugLevelSource	I	gridWidth	field_1_12466
+METHOD	net/minecraft/world/level/levelgen/DebugLevelSource	(Lnet/minecraft/server/level/WorldGenRegion;Lnet/minecraft/world/entity/Entity;)V	addEntity	method_1_12304
+METHOD	net/minecraft/world/level/levelgen/DebugLevelSource	(II)Ljava/util/Optional;	getEntityTypeFor	method_1_12305
+METHOD	net/minecraft/world/level/levelgen/DebugLevelSource	(Lnet/minecraft/world/level/block/Block;)Ljava/util/stream/Stream;	lambda$new$0	method_1_12306
+METHOD	net/minecraft/world/level/levelgen/DebugLevelSource	(Lnet/minecraft/server/level/WorldGenRegion;Lnet/minecraft/world/entity/EntityType;II)V	spawnEntity	method_1_12307
+CLASS	com/mojang/realmsclient/dto/UploadSessionResponseDto	class_1_1955
+FIELD	com/mojang/realmsclient/dto/UploadSessionResponseDto	Lcom/mojang/realmsclient/dto/UploadSessionResponseDto$Result;	result	comp_1_2202
+CLASS	com/mojang/realmsclient/dto/UploadSessionResponseDto$Result	class_1_1956
+FIELD	com/mojang/realmsclient/dto/UploadSessionResponseDto$Result	Ljava/util/Set;	acceptedArchiveFormats	comp_1_2203
+FIELD	com/mojang/realmsclient/dto/UploadSessionResponseDto$Result	Ljava/lang/String;	cancelUrl	comp_1_2204
+FIELD	com/mojang/realmsclient/dto/UploadSessionResponseDto$Result	Ljava/lang/String;	completeUrl	comp_1_2205
+FIELD	com/mojang/realmsclient/dto/UploadSessionResponseDto$Result	Ljava/lang/String;	expiresAtUtc	comp_1_2206
+FIELD	com/mojang/realmsclient/dto/UploadSessionResponseDto$Result	Ljava/math/BigDecimal;	maxBlockCount	comp_1_2207
+FIELD	com/mojang/realmsclient/dto/UploadSessionResponseDto$Result	Ljava/math/BigDecimal;	maxSinglePutSizeBytes	comp_1_2208
+FIELD	com/mojang/realmsclient/dto/UploadSessionResponseDto$Result	Ljava/math/BigDecimal;	maxUploadSizeBytes	comp_1_2209
+FIELD	com/mojang/realmsclient/dto/UploadSessionResponseDto$Result	Ljava/math/BigDecimal;	recommendedBlockSizeBytes	comp_1_2210
+FIELD	com/mojang/realmsclient/dto/UploadSessionResponseDto$Result	Ljava/lang/String;	renewUrl	comp_1_2211
+FIELD	com/mojang/realmsclient/dto/UploadSessionResponseDto$Result	Ljava/lang/String;	statusUrl	comp_1_2212
+FIELD	com/mojang/realmsclient/dto/UploadSessionResponseDto$Result	Ljava/lang/Boolean;	supportsBlockUpload	comp_1_2213
+FIELD	com/mojang/realmsclient/dto/UploadSessionResponseDto$Result	Ljava/lang/String;	token	comp_1_2214
+FIELD	com/mojang/realmsclient/dto/UploadSessionResponseDto$Result	Ljava/lang/String;	uploadUrl	comp_1_2215
+METHOD	com/mojang/renderpearl/backend/api/RenderPassBackend	(IIII)V	setViewport	method_1_12308
+FIELD	net/minecraft/client/gui/components/ScrollableLayout	Lnet/minecraft/client/gui/narration/GroupNarration;	groupNarration	field_1_12467
+METHOD	net/minecraft/client/gui/components/ScrollableLayout	(Z)V	allowTabNavigationInside	method_1_12309
+METHOD	net/minecraft/client/gui/components/ScrollableLayout	(ILnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$setTabGroup$0	method_1_12310
+METHOD	net/minecraft/client/gui/components/ScrollableLayout	(D)V	setScrollAmount	method_1_12311
+METHOD	net/minecraft/client/gui/components/ScrollableLayout	(I)V	setTabGroup	method_1_12312
+METHOD	net/minecraft/client/gui/components/ScrollableLayout$Container	()Lnet/minecraft/client/gui/components/AbstractWidget;	getFocusedChild	method_1_12313
+METHOD	net/minecraft/client/gui/components/ScrollableLayout$Container	()Lnet/minecraft/client/gui/components/AbstractWidget;	getHoveredChild	method_1_12314
+CLASS	com/mojang/realmsclient/client/worldupload/UploadPlan	class_1_1957
+FIELD	com/mojang/realmsclient/client/worldupload/UploadPlan	Ljava/nio/file/Path;	archive	comp_1_2216
+FIELD	com/mojang/realmsclient/client/worldupload/UploadPlan	J	blockSize	comp_1_2217
+FIELD	com/mojang/realmsclient/client/worldupload/UploadPlan	J	fileSize	comp_1_2218
+METHOD	com/mojang/realmsclient/client/worldupload/UploadPlan	(Ljava/nio/file/Path;Ljava/lang/String;Lcom/mojang/realmsclient/client/worldupload/UploadSession;)Lcom/mojang/realmsclient/client/worldupload/UploadPlan;	create	method_1_12315
+METHOD	com/mojang/realmsclient/client/worldupload/UploadPlan	()Z	usesBlocks	method_1_12316
+FIELD	com/mojang/renderpearl/api/pipeline/DepthStencilState	Lcom/mojang/renderpearl/api/pipeline/StencilTest;	stencilTest	comp_1_2219
+METHOD	net/minecraft/client/data/models/BlockModelGenerators	(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/world/level/block/Block;)V	createDoubleSlab	method_1_12317
+FIELD	net/minecraft/client/gui/screens/inventory/LoomScreen	Lnet/minecraft/client/gui/components/WidgetSprites;	PATTERN_BUTTON_SPRITES	field_1_12468
+FIELD	net/minecraft/client/gui/screens/inventory/LoomScreen	I	SCROLL_AREA_HEIGHT	field_1_12469
+FIELD	net/minecraft/client/gui/screens/inventory/LoomScreen	I	SCROLL_AREA_WIDTH	field_1_12470
+FIELD	net/minecraft/client/gui/screens/inventory/LoomScreen	D	patternScrollAmount	field_1_12471
+FIELD	net/minecraft/client/gui/screens/inventory/LoomScreen	Lnet/minecraft/client/gui/components/ScrollableLayout;	recipeArea	field_1_12472
+FIELD	net/minecraft/client/gui/screens/inventory/LoomScreen	Z	showingPatterns	field_1_12473
+METHOD	net/minecraft/client/gui/screens/inventory/LoomScreen	(Lnet/minecraft/client/gui/layouts/Layout;)Lnet/minecraft/client/gui/components/ScrollableLayout;	createScrollableLayout	method_1_12318
+METHOD	net/minecraft/client/gui/screens/inventory/LoomScreen	(Ljava/util/List;Lnet/minecraft/world/item/ItemStack;)V	initPatterns	method_1_12319
+METHOD	net/minecraft/client/gui/screens/inventory/LoomScreen	(Lnet/minecraft/client/gui/screens/inventory/LoomScreen;Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$createScrollableLayout$0	method_1_12320
+METHOD	net/minecraft/client/gui/screens/inventory/LoomScreen	(Lnet/minecraft/client/gui/screens/inventory/LoomScreen;Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$initPatterns$0	method_1_12321
+METHOD	net/minecraft/client/gui/screens/inventory/LoomScreen	(ILnet/minecraft/client/gui/components/Button;)V	lambda$initPatterns$1	method_1_12322
+METHOD	net/minecraft/client/gui/screens/inventory/LoomScreen	(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/components/Tooltip;	lambda$initPatterns$2	method_1_12323
+METHOD	net/minecraft/client/gui/screens/inventory/LoomScreen	(I)Z	lambda$initPatterns$3	method_1_12324
+FIELD	net/minecraft/client/gui/screens/inventory/PageButton	Lnet/minecraft/client/gui/components/WidgetSprites;	PAGE_BACKWARD_SPRITES	field_1_12474
+FIELD	net/minecraft/client/gui/screens/inventory/PageButton	Lnet/minecraft/client/gui/components/WidgetSprites;	PAGE_FORWARD_SPRITES	field_1_12475
+FIELD	net/minecraft/client/model/ArmorStandModelTransformer	F	SMALL_SCALE_FACTOR	field_1_12476
+METHOD	net/minecraft/client/model/ArmorStandModelTransformer	(Lnet/minecraft/client/model/geom/PartPose;)Lnet/minecraft/client/model/geom/PartPose;	lambda$apply$0	method_1_12325
+METHOD	net/minecraft/client/model/ArmorStandModelTransformer	(Lnet/minecraft/client/model/geom/builders/CubeDefinition;)Lnet/minecraft/client/model/geom/builders/CubeDefinition;	lambda$apply$2	method_1_12326
+FIELD	net/minecraft/world/level/block/sounds/BlockSoundSets	Lnet/minecraft/resources/ResourceKey;	CHISELED_SOULSHALE	field_1_12477
+CLASS	com/mojang/realmsclient/client/worldupload/UploadRetry	class_1_1958
+FIELD	com/mojang/realmsclient/client/worldupload/UploadRetry	I	MAX_ATTEMPTS	field_1_12478
+FIELD	com/mojang/realmsclient/client/worldupload/UploadRetry	Ljava/time/Duration;	SLEEP_SLICE	field_1_12479
+METHOD	com/mojang/realmsclient/client/worldupload/UploadRetry	(Ljava/net/http/HttpResponse;I)Ljava/time/Duration;	delay	method_1_12327
+METHOD	com/mojang/realmsclient/client/worldupload/UploadRetry	(Ljava/lang/String;I)Ljava/time/Duration;	delayFromHeader	method_1_12328
+METHOD	com/mojang/realmsclient/client/worldupload/UploadRetry	(I)Z	isSuccessful	method_1_12329
+METHOD	com/mojang/realmsclient/client/worldupload/UploadRetry	(I)Z	isTransient	method_1_12330
+METHOD	com/mojang/realmsclient/client/worldupload/UploadRetry	(I)Z	lambda$retryAfter$0	method_1_12331
+METHOD	com/mojang/realmsclient/client/worldupload/UploadRetry	(Ljava/lang/String;)Ljava/time/Duration;	retryAfter	method_1_12332
+METHOD	com/mojang/realmsclient/client/worldupload/UploadRetry	(Ljava/time/Duration;Lcom/mojang/realmsclient/client/worldupload/UploadCancellation;)V	sleep	method_1_12333
+FIELD	com/mojang/realmsclient/gui/screens/RealmsUploadScreen	Lnet/minecraft/network/chat/Component;	PROCESSING_TEXT	field_1_12480
+FIELD	com/mojang/realmsclient/gui/screens/RealmsUploadScreen	Z	showUploadProgress	field_1_12481
+METHOD	com/mojang/realmsclient/gui/screens/RealmsUploadScreen	(Lnet/minecraft/network/chat/Component;)V	lambda$setPostUploadStatus$0	method_1_12334
+METHOD	com/mojang/realmsclient/gui/screens/RealmsUploadScreen	()V	lambda$setUploading$0	method_1_12335
+METHOD	com/mojang/realmsclient/gui/screens/RealmsUploadScreen	(Lnet/minecraft/network/chat/Component;)V	setPostUploadStatus	method_1_12336
+FIELD	com/mojang/renderpearl/backend/opengl/GlRenderPipeline	Lcom/mojang/renderpearl/api/pipeline/StencilTest;	stencilTest	field_1_12482
+METHOD	com/mojang/renderpearl/backend/opengl/GlRenderPipeline	(ILcom/mojang/renderpearl/api/pipeline/StencilTest$PerFace;)V	setupStencilState	method_1_12337
+METHOD	com/mojang/renderpearl/frontend/FrontendCommandEncoder	(Lcom/mojang/renderpearl/api/textures/GpuTexture;)V	verifyStencilTexture	method_1_12338
+METHOD	net/minecraft/client/gui/components/AbstractScrollArea	(Lnet/minecraft/client/gui/GuiGraphicsExtractor;I)V	extractBackground	method_1_12339
+METHOD	net/minecraft/client/gui/components/AbstractScrollArea	()I	scrollbarMinHeight	method_1_12340
+FIELD	net/minecraft/data/recipes/packs/VanillaRecipeProvider$TrimTemplateIds	Lnet/minecraft/resources/ResourceKey;	templateItem	comp_1_2220
+METHOD	net/minecraft/data/recipes/packs/VanillaRecipeProvider$TrimTemplateIds	()Lnet/minecraft/resources/ResourceKey;	recipe	method_1_12341
+FIELD	net/minecraft/world/entity/SteppedInterpolationHandler	I	updateInterval	field_1_12483
+METHOD	net/minecraft/world/entity/SteppedInterpolationHandler	(Lnet/minecraft/world/entity/Entity;I)Lnet/minecraft/world/entity/InterpolationHandler;	create	method_1_12342
+FIELD	net/minecraft/world/entity/SteppedInterpolationHandler$InterpolationData	F	remainingTicks	field_1_12484
+METHOD	net/minecraft/world/entity/SteppedInterpolationHandler$InterpolationData	(F)V	advance	method_1_12343
+METHOD	net/minecraft/world/entity/SteppedInterpolationHandler$InterpolationData	(F)Z	advanceToNextStep	method_1_12344
+FIELD	net/minecraft/world/entity/SteppedInterpolationHandler$Step	F	weight	field_1_12485
+CLASS	net/minecraft/client/gui/components/inventory/SlotGroup	class_1_1959
+FIELD	net/minecraft/client/gui/components/inventory/SlotGroup	Ljava/lang/String;	USAGE_KEY	field_1_12486
+FIELD	net/minecraft/client/gui/components/inventory/SlotGroup	Ljava/util/List;	slots	field_1_12487
+METHOD	net/minecraft/client/gui/components/inventory/SlotGroup	()Ljava/util/List;	getActiveSlots	method_1_12345
+METHOD	net/minecraft/client/gui/components/inventory/SlotGroup	()Lnet/minecraft/client/gui/components/inventory/SlotWidget;	getFocusedSlot	method_1_12346
+METHOD	net/minecraft/client/gui/components/inventory/SlotGroup	(Ljava/util/List;)Lnet/minecraft/client/gui/narration/GroupNarration;	getGroupNarration	method_1_12347
+METHOD	net/minecraft/client/gui/components/inventory/SlotGroup	()Lnet/minecraft/client/gui/components/inventory/SlotWidget;	getHoveredSlot	method_1_12348
+METHOD	net/minecraft/client/gui/components/inventory/SlotGroup	(Lit/unimi/dsi/fastutil/ints/IntSortedSet;Lit/unimi/dsi/fastutil/ints/IntSortedSet;)Lnet/minecraft/client/gui/navigation/ScreenAxis;	getListAxis	method_1_12349
+METHOD	net/minecraft/client/gui/components/inventory/SlotGroup	(DDDDLnet/minecraft/client/gui/components/events/GuiEventListener;)Z	lambda$mouseScrolled$0	method_1_12350
+METHOD	net/minecraft/client/gui/components/inventory/SlotGroup	(ILnet/minecraft/client/gui/components/inventory/SlotWidget;)V	lambda$updateX$0	method_1_12351
+METHOD	net/minecraft/client/gui/components/inventory/SlotGroup	()V	updateBounds	method_1_12352
+METHOD	net/minecraft/client/gui/components/inventory/SlotGroup	(I)V	updateX	method_1_12353
+METHOD	net/minecraft/client/model/geom/builders/CubeDefinition	(FFF)Lnet/minecraft/client/model/geom/builders/CubeDefinition;	growByFactor	method_1_12354
+METHOD	net/minecraft/client/model/geom/builders/PartDefinition	(Ljava/util/function/UnaryOperator;)Lnet/minecraft/client/model/geom/builders/PartDefinition;	transformCubes	method_1_12355
+CLASS	com/mojang/realmsclient/client/worldupload/UploadSession	class_1_1960
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSession	Lcom/mojang/realmsclient/dto/GuardedSerializer;	SERIALIZER	field_1_12488
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSession	Ljava/util/Set;	acceptedArchiveFormats	comp_1_2221
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSession	Ljava/net/URI;	cancelUrl	comp_1_2222
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSession	Ljava/net/URI;	completeUrl	comp_1_2223
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSession	Ljava/time/Instant;	expiresAt	comp_1_2224
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSession	J	maxBlockCount	comp_1_2225
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSession	J	maxSinglePutSizeBytes	comp_1_2226
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSession	J	maxUploadSizeBytes	comp_1_2227
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSession	J	recommendedBlockSizeBytes	comp_1_2228
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSession	Ljava/net/URI;	renewUrl	comp_1_2229
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSession	Ljava/net/URI;	statusUrl	comp_1_2230
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSession	Z	supportsBlockUpload	comp_1_2231
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSession	Ljava/lang/String;	token	comp_1_2232
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSession	Ljava/net/URI;	uploadUrl	comp_1_2233
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSession	(Ljava/net/URI;Ljava/lang/String;)Ljava/net/URI;	appendPath	method_1_12356
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSession	(Ljava/lang/String;Z)Lcom/mojang/realmsclient/client/worldupload/UploadSession;	applyRenewalResponse	method_1_12357
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSession	(Ljava/lang/String;)Ljava/lang/IllegalArgumentException;	invalid	method_1_12358
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSession	(Ljava/lang/String;Ljava/lang/String;Ljava/net/URI;Ljava/lang/String;Z)Ljava/net/URI;	optionalActionUri	method_1_12359
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSession	(Lcom/mojang/realmsclient/dto/UploadSessionResponseDto$Result;Z)Lcom/mojang/realmsclient/client/worldupload/UploadSession;	parseCompleteSession	method_1_12360
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSession	(Ljava/lang/String;Z)Lcom/mojang/realmsclient/client/worldupload/UploadSession;	parseCreateResponse	method_1_12361
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSession	(Ljava/lang/String;)Lcom/mojang/realmsclient/dto/UploadSessionResponseDto$Result;	parseResponse	method_1_12362
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSession	(Ljava/lang/Boolean;Ljava/lang/String;)Z	requiredBoolean	method_1_12363
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSession	(Ljava/util/Set;)Ljava/util/Set;	requiredFormats	method_1_12364
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSession	(Ljava/lang/String;Ljava/lang/String;)Ljava/time/Instant;	requiredInstant	method_1_12365
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSession	(Ljava/math/BigDecimal;Ljava/lang/String;)J	requiredLong	method_1_12366
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSession	(Ljava/math/BigDecimal;Ljava/lang/String;)J	requiredPositiveLong	method_1_12367
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSession	(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;	requiredString	method_1_12368
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSession	(Ljava/lang/String;Ljava/lang/String;Z)Ljava/net/URI;	requiredUri	method_1_12369
+FIELD	com/mojang/realmsclient/exception/RealmsServiceException	Ljava/lang/String;	retryAfterHeader	field_1_12489
+METHOD	com/mojang/renderpearl/backend/api/CommandEncoderBackend	(Lcom/mojang/renderpearl/api/textures/GpuTexture;B)V	clearStencilTexture	method_1_12370
+CLASS	net/minecraft/client/gui/components/inventory/SlotWidget	class_1_1961
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	I	HEIGHT	field_1_12490
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	I	QUICK_CRAFT_TINT_COLOR	field_1_12491
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	Lnet/minecraft/resources/Identifier;	SLOT_HIGHLIGHT_BACK_SPRITE	field_1_12492
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	Lnet/minecraft/resources/Identifier;	SLOT_HIGHLIGHT_FRONT_SPRITE	field_1_12493
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	I	WIDTH	field_1_12494
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	I	containerWidth	field_1_12495
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	Ljava/util/function/Supplier;	emptySlotTooltip	field_1_12496
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	Lnet/minecraft/client/gui/Font;	font	field_1_12497
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	Lnet/minecraft/client/gui/ItemSlotMouseAction;	itemSlotMouseAction	field_1_12498
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	Lnet/minecraft/client/Minecraft;	minecraft	field_1_12499
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	Ljava/lang/String;	overrideItemCount	field_1_12500
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	Lnet/minecraft/world/item/ItemStack;	overrideItemStack	field_1_12501
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	Lnet/minecraft/world/inventory/Slot;	slot	field_1_12502
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	Ljava/util/function/Function;	tooltipSupplier	field_1_12503
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	(Lnet/minecraft/world/inventory/ContainerInput;)V	clickSlot	method_1_12371
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	()Lnet/minecraft/network/chat/Component;	createNarrationContents	method_1_12372
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)Lnet/minecraft/network/chat/Component;	createNarrationTitle	method_1_12373
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	()Lnet/minecraft/network/chat/Component;	createNarrationUsage	method_1_12374
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	(Lnet/minecraft/client/Minecraft;)Ljava/util/function/Function;	defaultTooltipSupplier	method_1_12375
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/resources/Identifier;)V	extractSlotHighlight	method_1_12376
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/network/chat/Component;	getItemNarration	method_1_12377
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/world/inventory/Slot;)Lnet/minecraft/client/gui/components/Tooltip;	lambda$defaultTooltipSupplier$0	method_1_12378
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	()Lnet/minecraft/client/gui/components/Tooltip;	lambda$new$0	method_1_12379
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	(Lnet/minecraft/world/item/ItemStack;Ljava/lang/String;)V	overrideItemToRender	method_1_12380
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	()Z	showTooltipWithItemInHand	method_1_12381
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	()Lnet/minecraft/world/inventory/Slot;	slot	method_1_12382
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	(Lnet/minecraft/client/gui/narration/NarrationElementOutput;Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)V	updateNarration	method_1_12383
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	(Lnet/minecraft/client/gui/narration/NarrationElementOutput;Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/Component;)V	updateSlotNarration	method_1_12384
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	()V	updateTooltip	method_1_12385
+METHOD	net/minecraft/client/gui/components/inventory/SlotWidget	(I)V	updateX	method_1_12386
+METHOD	net/minecraft/client/gui/screens/inventory/JukeboxScreen	(Lnet/minecraft/world/inventory/Slot;)Lnet/minecraft/client/gui/components/Tooltip;	createSlotTooltip	method_1_12387
+METHOD	net/minecraft/client/gui/screens/inventory/JukeboxScreen	()Lnet/minecraft/client/gui/components/Tooltip;	lambda$updateSlotWidgets$0	method_1_12388
+FIELD	net/minecraft/client/gui/components/tabs/TabNavigationBar	Lnet/minecraft/client/gui/narration/GroupNarration;	GROUP_NARRATION	field_1_12504
+METHOD	net/minecraft/client/gui/components/tabs/TabNavigationBar	()Lnet/minecraft/client/gui/components/TabButton;	getHoveredTabButton	method_1_12389
+FIELD	net/minecraft/client/gui/screens/inventory/MerchantScreen	Lnet/minecraft/client/gui/components/ScrollableLayout;	tradeArea	field_1_12505
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen	(Lnet/minecraft/client/gui/screens/inventory/MerchantScreen;)Lnet/minecraft/client/gui/Font;	access$000	method_1_12390
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen	(Lnet/minecraft/client/gui/screens/inventory/MerchantScreen;)Lnet/minecraft/client/gui/Font;	access$100	method_1_12391
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen	(Lnet/minecraft/client/gui/screens/inventory/MerchantScreen;)Lnet/minecraft/client/gui/Font;	access$300	method_1_12392
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen	(Lnet/minecraft/client/gui/screens/inventory/MerchantScreen;)Lnet/minecraft/client/gui/Font;	access$400	method_1_12393
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen	(Lnet/minecraft/client/gui/screens/inventory/MerchantScreen;)Lnet/minecraft/client/gui/Font;	access$500	method_1_12394
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen	(Lnet/minecraft/client/gui/screens/inventory/MerchantScreen;)Lnet/minecraft/client/gui/Font;	access$600	method_1_12395
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen	(Lnet/minecraft/client/gui/screens/inventory/MerchantScreen;)Lnet/minecraft/client/gui/Font;	access$700	method_1_12396
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen	(Lnet/minecraft/client/gui/screens/inventory/MerchantScreen;)Lnet/minecraft/client/Minecraft;	access$800	method_1_12397
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen	(Lnet/minecraft/client/gui/layouts/Layout;)Lnet/minecraft/client/gui/components/ScrollableLayout;	createScrollableLayout	method_1_12398
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen	(Lnet/minecraft/client/gui/screens/inventory/MerchantScreen;Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$createScrollableLayout$0	method_1_12399
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen	(Lnet/minecraft/client/gui/screens/inventory/MerchantScreen;Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$tradesChanged$0	method_1_12400
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen	(ILnet/minecraft/client/gui/components/Button;)V	lambda$tradesChanged$1	method_1_12401
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen	(I)V	selectTrade	method_1_12402
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen	()V	tradesChanged	method_1_12403
+FIELD	net/minecraft/client/gui/screens/inventory/MerchantScreen$TradeOfferButton	Lnet/minecraft/world/item/trading/MerchantOffer;	offer	field_1_12506
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen$TradeOfferButton	(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/network/chat/Component;	countAndItem	method_1_12404
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen$TradeOfferButton	(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;II)V	extractAndDecorateCostA	method_1_12405
+METHOD	net/minecraft/client/gui/screens/inventory/MerchantScreen$TradeOfferButton	(Lnet/minecraft/client/gui/GuiGraphicsExtractor;I)V	extractButtonArrows	method_1_12406
+METHOD	net/minecraft/client/gui/screens/inventory/SmithingScreen	(Lnet/minecraft/world/inventory/Slot;)Lnet/minecraft/client/gui/components/Tooltip;	createEmptySlotTooltip	method_1_12407
+METHOD	net/minecraft/client/gui/screens/inventory/SmithingScreen	(Lnet/minecraft/world/inventory/Slot;)Lnet/minecraft/client/gui/components/Tooltip;	lambda$updateSlotWidgets$0	method_1_12408
+METHOD	net/minecraft/client/resources/sounds/SimpleSoundInstance	(Lnet/minecraft/core/Holder;Lnet/minecraft/sounds/SoundSource;F)Lnet/minecraft/client/resources/sounds/SimpleSoundInstance;	forPreview	method_1_12409
+METHOD	net/minecraft/client/resources/sounds/SimpleSoundInstance	(Lnet/minecraft/sounds/SoundEvent;Lnet/minecraft/sounds/SoundSource;F)Lnet/minecraft/client/resources/sounds/SimpleSoundInstance;	forPreview	method_1_12410
+METHOD	com/mojang/renderpearl/backend/vulkan/VulkanRenderPipeline	(Lcom/mojang/renderpearl/api/pipeline/StencilTest$PerFace;Lorg/lwjgl/vulkan/VkStencilOpState;)V	setupStencilState	method_1_12411
+CLASS	net/minecraft/client/gui/components/inventory/package-info	class_1_1962
+CLASS	com/mojang/realmsclient/client/worldupload/UploadHttpClient	class_1_1963
+METHOD	com/mojang/realmsclient/client/worldupload/UploadHttpClient	(Ljava/net/Proxy;)Lcom/mojang/realmsclient/client/worldupload/UploadHttpClient;	create	method_1_12412
+METHOD	com/mojang/realmsclient/client/worldupload/UploadHttpClient	(Ljava/net/http/HttpRequest;Ljava/net/http/HttpResponse$BodyHandler;)Ljava/util/concurrent/CompletableFuture;	sendAsync	method_1_12413
+FIELD	com/mojang/realmsclient/client/worldupload/UploadHttpClient$1	Ljava/net/http/HttpClient;	val$client	field_1_12507
+FIELD	net/minecraft/client/gui/components/AbstractContainerWidget	Z	allowTabNavigationInside	field_1_12508
+METHOD	net/minecraft/client/gui/components/AbstractContainerWidget	(Z)V	allowTabNavigationInside	method_1_12414
+METHOD	net/minecraft/client/gui/components/AbstractContainerWidget	(Lnet/minecraft/client/gui/narration/NarrationTrigger;Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;	getNarratedChild	method_1_12415
+CLASS	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	class_1_1964
+FIELD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	Ljava/lang/String;	OCTET_STREAM	field_1_12509
+FIELD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	Lcom/google/common/escape/Escaper;	QUERY_ESCAPER	field_1_12510
+FIELD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	Ljava/time/Duration;	REQUEST_TIMEOUT	field_1_12511
+FIELD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	Lcom/mojang/realmsclient/client/worldupload/UploadHttpClient;	client	field_1_12512
+FIELD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	Lcom/mojang/realmsclient/client/worldupload/UploadRetry;	retry	field_1_12513
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Ljava/net/URI;Ljava/util/Map;)Ljava/net/URI;	appendQuery	method_1_12416
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Ljava/net/URI;Ljava/net/http/HttpRequest$BodyPublisher;)Ljava/net/http/HttpRequest$Builder;	blobRequest	method_1_12417
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(J)Ljava/lang/String;	blockId	method_1_12418
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Ljava/util/List;)Ljava/lang/String;	blockListXml	method_1_12419
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(JJ)Ljava/util/List;	blocks	method_1_12420
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Ljava/lang/Throwable;)Z	isTransientFailure	method_1_12421
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Ljava/util/StringJoiner;Ljava/lang/String;Ljava/lang/String;)V	lambda$appendQuery$0	method_1_12422
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Ljava/util/concurrent/atomic/AtomicReference;)Ljava/io/InputStream;	lambda$singleUseBody$0	method_1_12423
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Lcom/mojang/realmsclient/client/worldupload/UploadPlan;Lcom/mojang/realmsclient/client/worldupload/AzureBlobUploader$Block;Lcom/mojang/realmsclient/client/UploadStatus;)Ljava/io/InputStream;	lambda$uploadBlocks$0	method_1_12424
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Ljava/util/function/Supplier;Lcom/mojang/realmsclient/client/worldupload/AzureBlobUploader$Block;Ljava/net/http/HttpRequest$BodyPublisher;)Ljava/net/http/HttpRequest;	lambda$uploadBlocks$1	method_1_12425
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	([B)Ljava/io/InputStream;	lambda$uploadBlocks$2	method_1_12426
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Ljava/util/function/Supplier;Ljava/net/http/HttpRequest$BodyPublisher;)Ljava/net/http/HttpRequest;	lambda$uploadBlocks$3	method_1_12427
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Lcom/mojang/realmsclient/client/worldupload/UploadPlan;Lcom/mojang/realmsclient/client/UploadStatus;)Ljava/io/InputStream;	lambda$uploadSingle$0	method_1_12428
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Ljava/util/function/Supplier;Ljava/net/http/HttpRequest$BodyPublisher;)Ljava/net/http/HttpRequest;	lambda$uploadSingle$1	method_1_12429
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Ljava/nio/file/Path;JJJLcom/mojang/realmsclient/client/UploadStatus;)Ljava/io/InputStream;	openSegment	method_1_12430
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Lorg/apache/commons/io/function/IOSupplier;JLjava/util/function/Function;Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;Lcom/mojang/realmsclient/client/worldupload/UploadCancellation;)V	sendWithRetry	method_1_12431
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Ljava/io/InputStream;J)Ljava/net/http/HttpRequest$BodyPublisher;	singleUseBody	method_1_12432
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Lcom/mojang/realmsclient/client/worldupload/UploadPlan;Ljava/util/function/Supplier;Lcom/mojang/realmsclient/client/UploadStatus;Lcom/mojang/realmsclient/client/worldupload/UploadCancellation;Ljava/lang/Runnable;)V	upload	method_1_12433
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Lcom/mojang/realmsclient/client/worldupload/UploadPlan;Ljava/util/function/Supplier;Lcom/mojang/realmsclient/client/UploadStatus;Lcom/mojang/realmsclient/client/worldupload/UploadCancellation;Ljava/lang/Runnable;)V	uploadBlocks	method_1_12434
+METHOD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader	(Lcom/mojang/realmsclient/client/worldupload/UploadPlan;Ljava/util/function/Supplier;Lcom/mojang/realmsclient/client/UploadStatus;Lcom/mojang/realmsclient/client/worldupload/UploadCancellation;)V	uploadSingle	method_1_12435
+FIELD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader$1	J	val$offset	field_1_12514
+FIELD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader$1	Lcom/mojang/realmsclient/client/UploadStatus;	val$progress	field_1_12515
+CLASS	com/mojang/realmsclient/client/worldupload/AzureBlobUploader$Block	class_1_1965
+FIELD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader$Block	Ljava/lang/String;	id	comp_1_2234
+FIELD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader$Block	J	length	comp_1_2235
+FIELD	com/mojang/realmsclient/client/worldupload/AzureBlobUploader$Block	J	offset	comp_1_2236
+FIELD	com/mojang/realmsclient/client/worldupload/RealmsWorldUpload	Lcom/mojang/realmsclient/client/worldupload/UploadCancellation;	cancellation	field_1_12516
+FIELD	com/mojang/realmsclient/client/worldupload/RealmsWorldUpload	Lcom/mojang/realmsclient/client/worldupload/ContentV2WorldUploader;	contentV2Uploader	field_1_12517
+METHOD	com/mojang/realmsclient/client/worldupload/RealmsWorldUpload	()V	lambda$packAndUpload$0	method_1_12436
+METHOD	com/mojang/realmsclient/client/worldupload/RealmsWorldUpload	(Ljava/io/File;)V	uploadContentV2	method_1_12437
+METHOD	com/mojang/realmsclient/client/worldupload/RealmsWorldUpload	(Ljava/io/File;Lcom/mojang/realmsclient/dto/UploadInfo;)V	uploadLegacy	method_1_12438
+FIELD	net/minecraft/client/gui/screens/inventory/EnchantmentScreen	[Lnet/minecraft/client/gui/components/inventory/EnchantmentOptionButton;	enchantmentOptions	field_1_12518
+METHOD	net/minecraft/client/gui/screens/inventory/EnchantmentScreen	(I)Lnet/minecraft/network/chat/Component;	getClue	method_1_12439
+METHOD	net/minecraft/client/gui/screens/inventory/EnchantmentScreen	(ILnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/components/Tooltip;	getTooltip	method_1_12440
+METHOD	net/minecraft/client/gui/screens/inventory/EnchantmentScreen	(ILnet/minecraft/client/gui/components/Button;)V	lambda$init$0	method_1_12441
+METHOD	net/minecraft/client/gui/screens/inventory/EnchantmentScreen	(Lnet/minecraft/client/gui/screens/inventory/EnchantmentScreen;Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$init$1	method_1_12442
+METHOD	net/minecraft/client/gui/screens/inventory/EnchantmentScreen	()V	tickTooltipAndActiveState	method_1_12443
+FIELD	net/minecraft/client/gui/screens/inventory/StonecutterScreen	I	RECIPES_START_Y	field_1_12519
+FIELD	net/minecraft/client/gui/screens/inventory/StonecutterScreen	Lnet/minecraft/client/gui/components/WidgetSprites;	RECIPE_BUTTON_SPRITES	field_1_12520
+FIELD	net/minecraft/client/gui/screens/inventory/StonecutterScreen	I	SCROLL_AREA_WIDTH	field_1_12521
+FIELD	net/minecraft/client/gui/screens/inventory/StonecutterScreen	Lnet/minecraft/world/item/ItemStack;	inputStack	field_1_12522
+FIELD	net/minecraft/client/gui/screens/inventory/StonecutterScreen	Lnet/minecraft/client/gui/components/ScrollableLayout;	recipeArea	field_1_12523
+METHOD	net/minecraft/client/gui/screens/inventory/StonecutterScreen	(Lnet/minecraft/client/gui/layouts/Layout;)Lnet/minecraft/client/gui/components/ScrollableLayout;	createScrollableLayout	method_1_12444
+METHOD	net/minecraft/client/gui/screens/inventory/StonecutterScreen	()V	initButtons	method_1_12445
+METHOD	net/minecraft/client/gui/screens/inventory/StonecutterScreen	(Lnet/minecraft/client/gui/screens/inventory/StonecutterScreen;Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$createScrollableLayout$0	method_1_12446
+METHOD	net/minecraft/client/gui/screens/inventory/StonecutterScreen	(Lnet/minecraft/client/gui/screens/inventory/StonecutterScreen;Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$initButtons$0	method_1_12447
+METHOD	net/minecraft/client/gui/screens/inventory/StonecutterScreen	(ILnet/minecraft/client/gui/components/Button;)V	lambda$initButtons$1	method_1_12448
+METHOD	net/minecraft/client/gui/screens/inventory/StonecutterScreen	(Ljava/util/function/Supplier;)Lnet/minecraft/network/chat/MutableComponent;	lambda$initButtons$2	method_1_12449
+METHOD	net/minecraft/client/gui/screens/inventory/StonecutterScreen	(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/client/gui/components/Tooltip;	lambda$initButtons$3	method_1_12450
+METHOD	net/minecraft/client/gui/screens/inventory/StonecutterScreen	(I)Z	lambda$initButtons$4	method_1_12451
+METHOD	net/minecraft/world/inventory/ItemCombinerMenuSlotDefinition$Builder	(IIILjava/util/function/Predicate;Lnet/minecraft/world/inventory/Slot$Section;)Lnet/minecraft/world/inventory/ItemCombinerMenuSlotDefinition$Builder;	withSlot	method_1_12452
+FIELD	net/minecraft/world/inventory/ItemCombinerMenuSlotDefinition$SlotDefinition	Lnet/minecraft/world/inventory/Slot$Section;	section	comp_1_2237
+CLASS	com/mojang/realmsclient/client/worldupload/UploadCancellation	class_1_1966
+FIELD	com/mojang/realmsclient/client/worldupload/UploadCancellation	Ljava/util/concurrent/atomic/AtomicReference;	activeRequest	field_1_12524
+FIELD	com/mojang/realmsclient/client/worldupload/UploadCancellation	Ljava/util/concurrent/atomic/AtomicBoolean;	cancelled	field_1_12525
+METHOD	com/mojang/realmsclient/client/worldupload/UploadCancellation	(Ljava/util/concurrent/CompletableFuture;Ljava/time/Duration;)Ljava/lang/Object;	await	method_1_12453
+METHOD	com/mojang/realmsclient/client/worldupload/UploadCancellation	()V	cancel	method_1_12454
+METHOD	com/mojang/realmsclient/client/worldupload/UploadCancellation	()Z	isCancelled	method_1_12455
+METHOD	com/mojang/realmsclient/client/worldupload/UploadCancellation	(Ljava/util/concurrent/CompletableFuture;)Ljava/lang/Object;	join	method_1_12456
+METHOD	com/mojang/realmsclient/client/worldupload/UploadCancellation	(Ljava/util/concurrent/CompletableFuture;Ljava/time/Duration;)Ljava/lang/Object;	join	method_1_12457
+METHOD	com/mojang/realmsclient/client/worldupload/UploadCancellation	()V	throwIfCancelled	method_1_12458
+CLASS	com/mojang/realmsclient/dto/UploadProcessingStatusResponseDto	class_1_1967
+FIELD	com/mojang/realmsclient/dto/UploadProcessingStatusResponseDto	Lcom/mojang/realmsclient/dto/UploadProcessingStatusResponseDto$Result;	result	comp_1_2238
+CLASS	com/mojang/realmsclient/dto/UploadProcessingStatusResponseDto$Result	class_1_1968
+FIELD	com/mojang/realmsclient/dto/UploadProcessingStatusResponseDto$Result	Ljava/lang/String;	status	comp_1_2239
+CLASS	net/minecraft/client/gui/components/inventory/IconRadioButton	class_1_1969
+FIELD	net/minecraft/client/gui/components/inventory/IconRadioButton	Lnet/minecraft/client/gui/components/inventory/IconRadioButton$Icon;	icon	field_1_12526
+FIELD	net/minecraft/client/gui/components/inventory/IconRadioButton	Lnet/minecraft/sounds/SoundEvent;	selectSound	field_1_12527
+FIELD	net/minecraft/client/gui/components/inventory/IconRadioButton	Ljava/util/function/BooleanSupplier;	selected	field_1_12528
+FIELD	net/minecraft/client/gui/components/inventory/IconRadioButton	Lnet/minecraft/client/gui/components/WidgetSprites;	sprites	field_1_12529
+FIELD	net/minecraft/client/gui/components/inventory/IconRadioButton	Ljava/util/function/Supplier;	tooltip	field_1_12530
+CLASS	net/minecraft/client/gui/components/inventory/IconRadioButton$BannerPatternIcon	class_1_1970
+FIELD	net/minecraft/client/gui/components/inventory/IconRadioButton$BannerPatternIcon	F	PATTERN_HEIGHT	field_1_12531
+FIELD	net/minecraft/client/gui/components/inventory/IconRadioButton$BannerPatternIcon	F	PATTERN_WIDTH	field_1_12532
+FIELD	net/minecraft/client/gui/components/inventory/IconRadioButton$BannerPatternIcon	F	TEXTURE_SIZE	field_1_12533
+FIELD	net/minecraft/client/gui/components/inventory/IconRadioButton$BannerPatternIcon	Lnet/minecraft/client/resources/model/sprite/SpriteId;	sprite	comp_1_2240
+METHOD	net/minecraft/client/gui/components/inventory/IconRadioButton$BannerPatternIcon	(Lnet/minecraft/client/gui/GuiGraphicsExtractor;II)V	extractContents	method_1_12459
+CLASS	net/minecraft/client/gui/components/inventory/IconRadioButton$Icon	class_1_1971
+CLASS	net/minecraft/client/gui/components/inventory/IconRadioButton$ItemIcon	class_1_1972
+FIELD	net/minecraft/client/gui/components/inventory/IconRadioButton$ItemIcon	Lnet/minecraft/world/item/ItemStack;	stack	comp_1_2241
+METHOD	net/minecraft/client/gui/screens/debug/GameModeSwitcherScreen$GameModeSlot	(DD)Z	isMouseWithinSlot	method_1_12460
+FIELD	net/minecraft/world/level/block/state/properties/BlockSetType	Lnet/minecraft/world/level/block/state/properties/BlockSetType;	DEFAULT_WOOD	field_1_12534
+CLASS	com/mojang/realmsclient/client/worldupload/UploadSessionClient	class_1_1973
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	Ljava/time/Duration;	CANCEL_TIMEOUT	field_1_12535
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	Lorg/slf4j/Logger;	LOGGER	field_1_12536
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	Ljava/time/Duration;	POLL_INTERVAL	field_1_12537
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	Ljava/time/Duration;	PROCESSING_TIMEOUT	field_1_12538
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	Ljava/time/Duration;	RENEWAL_WINDOW	field_1_12539
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	Ljava/time/Duration;	REQUEST_TIMEOUT	field_1_12540
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	Lcom/mojang/realmsclient/dto/GuardedSerializer;	SERIALIZER	field_1_12541
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	Z	allowInsecureUrls	field_1_12542
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	Lcom/mojang/realmsclient/client/worldupload/UploadHttpClient;	client	field_1_12543
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	Lcom/mojang/realmsclient/client/RealmsClient;	realmsClient	field_1_12544
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	Lcom/mojang/realmsclient/client/worldupload/UploadRetry;	retry	field_1_12545
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	(Ljava/net/URI;Ljava/lang/String;Ljava/lang/String;Ljava/time/Duration;)Ljava/net/http/HttpRequest;	actionRequest	method_1_12461
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	(Lcom/mojang/realmsclient/client/worldupload/UploadSession;)V	cancelBestEffort	method_1_12462
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	(Lcom/mojang/realmsclient/client/worldupload/UploadSession;Lcom/mojang/realmsclient/client/worldupload/UploadCancellation;)Lcom/mojang/realmsclient/client/worldupload/UploadSessionClient$ProcessingStatus;	complete	method_1_12463
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	(JILjava/lang/String;Lcom/mojang/realmsclient/client/worldupload/UploadCancellation;)Lcom/mojang/realmsclient/client/worldupload/UploadSession;	createSession	method_1_12464
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	(Ljava/lang/Throwable;)Z	isTransient	method_1_12465
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	(Ljava/util/concurrent/CompletableFuture;Ljava/net/http/HttpResponse;Ljava/lang/Throwable;)V	lambda$cancelBestEffort$0	method_1_12466
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	(Ljava/lang/String;)Lcom/mojang/realmsclient/client/worldupload/UploadSessionClient$ProcessingStatus;	parseStatus	method_1_12467
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	(Lcom/mojang/realmsclient/client/worldupload/UploadSession;Lcom/mojang/realmsclient/client/worldupload/UploadCancellation;)V	pollUntilCompleted	method_1_12468
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	(Ljava/time/Instant;)Ljava/time/Duration;	remaining	method_1_12469
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	(Lcom/mojang/realmsclient/client/worldupload/UploadSession;Lcom/mojang/realmsclient/client/worldupload/UploadCancellation;)Lcom/mojang/realmsclient/client/worldupload/UploadSession;	renewIfRequired	method_1_12470
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	(Lcom/mojang/realmsclient/client/worldupload/UploadSession;Lcom/mojang/realmsclient/client/worldupload/UploadCancellation;)Lcom/mojang/realmsclient/client/worldupload/UploadSessionClient$ProcessingStatus;	requestStatus	method_1_12471
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	(Ljava/net/URI;Ljava/lang/String;Ljava/lang/String;Ljava/time/Duration;Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;Lcom/mojang/realmsclient/client/worldupload/UploadCancellation;)Ljava/net/http/HttpResponse;	send	method_1_12472
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSessionClient	(Ljava/net/URI;Ljava/lang/String;Ljava/lang/String;Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;Lcom/mojang/realmsclient/client/worldupload/UploadCancellation;)Ljava/lang/String;	sendWithRetries	method_1_12473
+CLASS	com/mojang/realmsclient/client/worldupload/UploadSessionClient$ProcessingStatus	class_1_1974
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient$ProcessingStatus	Lcom/mojang/realmsclient/client/worldupload/UploadSessionClient$ProcessingStatus;	COMPLETED	field_1_12546
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient$ProcessingStatus	Lcom/mojang/realmsclient/client/worldupload/UploadSessionClient$ProcessingStatus;	FAILED	field_1_12547
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient$ProcessingStatus	Lcom/mojang/realmsclient/client/worldupload/UploadSessionClient$ProcessingStatus;	PROCESSING	field_1_12548
+FIELD	com/mojang/realmsclient/client/worldupload/UploadSessionClient$ProcessingStatus	Lcom/mojang/realmsclient/client/worldupload/UploadSessionClient$ProcessingStatus;	QUEUED	field_1_12549
+METHOD	com/mojang/realmsclient/client/worldupload/UploadSessionClient$ProcessingStatus	()[Lcom/mojang/realmsclient/client/worldupload/UploadSessionClient$ProcessingStatus;	$values	method_1_12474
+CLASS	net/minecraft/client/gui/components/inventory/CrafterSlotWidget	class_1_1975
+FIELD	net/minecraft/client/gui/components/inventory/CrafterSlotWidget	Lnet/minecraft/resources/Identifier;	SLOT_DISABLED_SPRITE	field_1_12550
+FIELD	net/minecraft/client/gui/components/inventory/CrafterSlotWidget	Lnet/minecraft/client/gui/components/Tooltip;	TOGGLABLE_SLOT_TOOLTIP	field_1_12551
+FIELD	net/minecraft/client/gui/components/inventory/CrafterSlotWidget	Lnet/minecraft/world/inventory/CrafterSlot;	slot	field_1_12552
+METHOD	net/minecraft/client/gui/components/inventory/CrafterSlotWidget	()Lnet/minecraft/client/gui/components/Tooltip;	lambda$new$0	method_1_12475
+CLASS	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient	class_1_1976
+FIELD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient	Ljava/net/Authenticator;	NO_HTTP_AUTHENTICATION	field_1_12553
+FIELD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient	Ljava/time/Duration;	connectTimeout	field_1_12554
+FIELD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient	Ljava/net/Proxy;	proxy	field_1_12555
+METHOD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient	(Ljava/net/HttpURLConnection;Ljava/net/http/HttpRequest;Ljava/net/http/HttpResponse$BodyHandler;Ljava/util/concurrent/CompletableFuture;)Ljava/net/http/HttpResponse;	execute	method_1_12476
+METHOD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient	(Ljava/net/HttpURLConnection;Ljava/lang/String;Ljava/util/List;)V	lambda$execute$0	method_1_12477
+METHOD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient	(Ljava/net/HttpURLConnection;Ljava/lang/String;Ljava/lang/String;)V	lambda$execute$1	method_1_12478
+METHOD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient	(Ljava/util/Map;Ljava/lang/String;Ljava/util/List;)V	lambda$execute$2	method_1_12479
+METHOD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient	(Ljava/lang/String;Ljava/lang/String;)Z	lambda$execute$3	method_1_12480
+METHOD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient	(Ljava/io/InputStream;)Ljava/io/InputStream;	lambda$execute$4	method_1_12481
+METHOD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient	(Ljava/util/concurrent/CompletableFuture;Ljava/net/HttpURLConnection;Ljava/net/http/HttpResponse;Ljava/lang/Throwable;)V	lambda$sendAsync$0	method_1_12482
+METHOD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient	(Ljava/util/concurrent/CompletableFuture;Ljava/net/HttpURLConnection;Ljava/net/http/HttpRequest;Ljava/net/http/HttpResponse$BodyHandler;)V	lambda$sendAsync$1	method_1_12483
+METHOD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient	(Ljava/time/Duration;)I	timeoutMillis	method_1_12484
+CLASS	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient$ByteSubscriber	class_1_1977
+FIELD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient$ByteSubscriber	Ljava/net/http/HttpResponse$BodySubscriber;	subscriber	comp_1_2242
+METHOD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient$ByteSubscriber	(Ljava/nio/ByteBuffer;)V	onNext	method_1_12485
+CLASS	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient$Response	class_1_1978
+FIELD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient$Response	Ljava/lang/Object;	body	comp_1_2243
+FIELD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient$Response	Ljava/net/http/HttpHeaders;	headers	comp_1_2244
+FIELD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient$Response	Ljava/net/http/HttpRequest;	request	comp_1_2245
+FIELD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient$Response	Ljava/util/Optional;	sslSession	comp_1_2246
+FIELD	com/mojang/realmsclient/client/worldupload/SocksUploadHttpClient$Response	I	statusCode	comp_1_2247
+CLASS	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	class_1_1979
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	Lcom/mojang/realmsclient/client/worldupload/AzureBlobUploader;	blobUploader	field_1_12556
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	Lcom/mojang/realmsclient/client/worldupload/UploadCancellation;	cancellation	field_1_12557
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	Lcom/mojang/realmsclient/client/worldupload/UploadHttpClient;	httpClient	field_1_12558
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	Ljava/util/concurrent/atomic/AtomicBoolean;	serverCancellationSent	field_1_12559
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	Lcom/mojang/realmsclient/client/worldupload/UploadSessionClient;	sessionClient	field_1_12560
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	Lcom/mojang/realmsclient/client/worldupload/UploadSession;	session	field_1_12561
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	Ljava/util/concurrent/atomic/AtomicReference;	state	field_1_12562
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	Lcom/mojang/realmsclient/client/worldupload/RealmsWorldUploadStatusTracker;	statusTracker	field_1_12563
+METHOD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	()V	cancel	method_1_12486
+METHOD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	()V	cancelServerBestEffort	method_1_12487
+METHOD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	()V	checkActive	method_1_12488
+METHOD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	()V	lambda$upload$0	method_1_12489
+METHOD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	()Lcom/mojang/realmsclient/client/worldupload/UploadSession;	renewSessionIfRequired	method_1_12490
+METHOD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	(Lcom/mojang/realmsclient/client/worldupload/ContentV2WorldUploader$State;)Z	setTerminal	method_1_12491
+METHOD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader	(Ljava/nio/file/Path;JILjava/lang/String;)V	upload	method_1_12492
+CLASS	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader$State	class_1_1980
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader$State	Lcom/mojang/realmsclient/client/worldupload/ContentV2WorldUploader$State;	CANCELED	field_1_12564
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader$State	Lcom/mojang/realmsclient/client/worldupload/ContentV2WorldUploader$State;	FAILED	field_1_12565
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader$State	Lcom/mojang/realmsclient/client/worldupload/ContentV2WorldUploader$State;	RUNNING	field_1_12566
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader$State	Lcom/mojang/realmsclient/client/worldupload/ContentV2WorldUploader$State;	SUCCEEDED	field_1_12567
+METHOD	com/mojang/realmsclient/client/worldupload/ContentV2WorldUploader$State	()[Lcom/mojang/realmsclient/client/worldupload/ContentV2WorldUploader$State;	$values	method_1_12493
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	I	BEFORE_INPUT_TAB_GROUP	field_1_12568
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	I	BETWEEN_INPUT_OUTPUT_TAB_GROUP	field_1_12569
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	I	CONTAINER_TAB_GROUP	field_1_12570
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	J	DOUBLE_KEY_PRESS_THRESHOLD_MS	field_1_12571
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	Lnet/minecraft/network/chat/Component;	EQUIPMENT_GROUP_NAME	field_1_12572
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	I	EQUIPMENT_TAB_GROUP	field_1_12573
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	Lnet/minecraft/network/chat/Component;	FUEL_GROUP_NAME	field_1_12574
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	I	FUEL_TAB_GROUP	field_1_12575
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	Lnet/minecraft/network/chat/Component;	HOTBAR_GROUP_NAME	field_1_12576
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	I	HOTBAR_TAB_GROUP	field_1_12577
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	Lnet/minecraft/network/chat/Component;	INPUT_GROUP_NAME	field_1_12578
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	I	INPUT_TAB_GROUP	field_1_12579
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	Lnet/minecraft/network/chat/Component;	INVENTORY_GROUP_NAME	field_1_12580
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	I	INVENTORY_TAB_GROUP	field_1_12581
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	I	KEYBOARD_CARRIED_ITEM_OFFSET	field_1_12582
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	F	KEYBOARD_CARRIED_ITEM_SMOOTHING_MS	field_1_12583
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	Lnet/minecraft/network/chat/Component;	RESULT_GROUP_NAME	field_1_12584
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	I	RESULT_TAB_GROUP	field_1_12585
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	Lnet/minecraft/network/chat/Component;	SECOND_INPUT_GROUP_NAME	field_1_12586
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	I	SECOND_INPUT_TAB_GROUP	field_1_12587
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	Z	carriedItemAnimStarted	field_1_12588
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	J	carriedItemAnimTime	field_1_12589
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	F	carriedItemAnimX	field_1_12590
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	F	carriedItemAnimY	field_1_12591
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	Z	doubleKeyPress	field_1_12592
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	Lnet/minecraft/client/gui/components/inventory/SlotWidget;	lastClickSlotWidget	field_1_12593
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	J	lastKeyPressTime	field_1_12594
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	I	lastKeyPressed	field_1_12595
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	Lnet/minecraft/client/gui/components/inventory/SlotWidget;	lastKeyPressedSlotWidget	field_1_12596
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	Ljava/util/List;	slotGroups	field_1_12597
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Lnet/minecraft/client/input/KeyEvent;)I	getContainerClickButton	method_1_12494
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	()Lnet/minecraft/client/gui/components/inventory/SlotWidget;	getFocusedSlotWidget	method_1_12495
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Lnet/minecraft/world/inventory/Slot$Section;)Lnet/minecraft/network/chat/Component;	getSlotGroupName	method_1_12496
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	()Lnet/minecraft/client/gui/components/inventory/SlotWidget;	getSlotWidgetToMove	method_1_12497
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Lnet/minecraft/world/inventory/Slot$Section;)I	getTabOrderGroup	method_1_12498
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Lnet/minecraft/client/gui/screens/inventory/AbstractContainerScreen;Lnet/minecraft/client/gui/components/inventory/SlotGroup;)V	lambda$setSlotWidgets$0	method_1_12499
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Lnet/minecraft/world/inventory/Slot$Section;)Ljava/util/List;	lambda$setSlotWidgets$1	method_1_12500
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Lnet/minecraft/client/gui/components/inventory/SlotGroup;)V	lambda$updateScreenPositions$0	method_1_12501
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Ljava/util/List;)V	setSlotWidgets	method_1_12502
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	(Lnet/minecraft/client/gui/components/inventory/SlotWidget;)V	updateQuickCrafting	method_1_12503
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	()V	updateScreenPositions	method_1_12504
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	()V	updateSlotWidgets	method_1_12505
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen$1	[I	$SwitchMap$net$minecraft$world$inventory$Slot$Section	field_1_12598
+FIELD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent$OverlayCraftingRecipeButton	Lnet/minecraft/client/gui/components/WidgetSprites;	CRAFTING_OVERLAY_SPRITES	field_1_12599
+FIELD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent$OverlayRecipeButton	Lnet/minecraft/client/gui/screens/recipebook/SlotSelectTime;	slotSelectTime	field_1_12600
+FIELD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent$OverlaySmeltingRecipeButton	Lnet/minecraft/client/gui/components/WidgetSprites;	FURNACE_OVERLAY_SPRITES	field_1_12601
+CLASS	com/mojang/realmsclient/client/worldupload/ContentV2UploadException	class_1_1981
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException	Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	error	field_1_12602
+CLASS	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	class_1_1982
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	BLOCK_LIST_FAILED	field_1_12603
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	BLOCK_UPLOAD_FAILED	field_1_12604
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	BLOCK_UPLOAD_UNSUPPORTED	field_1_12605
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	COMPLETE_FAILED	field_1_12606
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	FILE_TOO_LARGE	field_1_12607
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	INVALID_ARCHIVE	field_1_12608
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	INVALID_SESSION_RESPONSE	field_1_12609
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	PROCESSING_FAILED	field_1_12610
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	RENEW_FAILED	field_1_12611
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	SESSION_CREATE_FAILED	field_1_12612
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	SINGLE_UPLOAD_FAILED	field_1_12613
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	UNEXPECTED_PROCESSING_STATUS	field_1_12614
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	UNSUPPORTED_ARCHIVE_FORMAT	field_1_12615
+FIELD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	Ljava/lang/String;	translationKey	field_1_12616
+METHOD	com/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error	()[Lcom/mojang/realmsclient/client/worldupload/ContentV2UploadException$Error;	$values	method_1_12506
+CLASS	net/minecraft/client/gui/screens/inventory/AbstractRecipeBookScreen$RecipeBookToggleButton	class_1_1983
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractRecipeBookScreen$RecipeBookToggleButton	Lnet/minecraft/network/chat/Component;	NARRATION	field_1_12617
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractRecipeBookScreen$RecipeBookToggleButton	Lnet/minecraft/network/chat/Component;	NARRATION_STATE_CLOSED	field_1_12618
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractRecipeBookScreen$RecipeBookToggleButton	Lnet/minecraft/network/chat/Component;	NARRATION_STATE_OPEN	field_1_12619
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractRecipeBookScreen$RecipeBookToggleButton	Lnet/minecraft/network/chat/Component;	NARRATION_USAGE_FOCUSED_CLOSE	field_1_12620
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractRecipeBookScreen$RecipeBookToggleButton	Lnet/minecraft/network/chat/Component;	NARRATION_USAGE_FOCUSED_OPEN	field_1_12621
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractRecipeBookScreen$RecipeBookToggleButton	Lnet/minecraft/network/chat/Component;	NARRATION_USAGE_HOVERED_CLOSE	field_1_12622
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractRecipeBookScreen$RecipeBookToggleButton	Lnet/minecraft/network/chat/Component;	NARRATION_USAGE_HOVERED_OPEN	field_1_12623
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractRecipeBookScreen$RecipeBookToggleButton	Lnet/minecraft/client/gui/components/Tooltip;	TOOLTIP	field_1_12624
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractRecipeBookScreen$RecipeBookToggleButton	Lnet/minecraft/client/gui/screens/inventory/AbstractRecipeBookScreen;	this$0	field_1_12625
+FIELD	net/minecraft/advancements/predicates/entity/EntityEquipmentPredicate	Ljava/util/Optional;	saddle	comp_1_2248
+FIELD	net/minecraft/advancements/predicates/entity/EntityEquipmentPredicate$Builder	Ljava/util/Optional;	saddle	field_1_12626
+METHOD	net/minecraft/advancements/predicates/entity/EntityEquipmentPredicate$Builder	(Lnet/minecraft/advancements/predicates/ItemPredicate$Builder;)Lnet/minecraft/advancements/predicates/entity/EntityEquipmentPredicate$Builder;	saddle	method_1_12507
+CLASS	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	class_1_1984
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	I	ACTIVE_HOVERED_TEXT_COLOR	field_1_12627
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	I	ACTIVE_TEXT_COLOR	field_1_12628
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	I	ACTIVE_XP_TEXT_COLOR	field_1_12629
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	I	COST_OFFSET	field_1_12630
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	[Lnet/minecraft/resources/Identifier;	DISABLED_LEVEL_SPRITES	field_1_12631
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	[Lnet/minecraft/resources/Identifier;	ENABLED_LEVEL_SPRITES	field_1_12632
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	Lnet/minecraft/resources/Identifier;	ENCHANTMENT_SLOT_DISABLED_SPRITE	field_1_12633
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	Lnet/minecraft/resources/Identifier;	ENCHANTMENT_SLOT_HIGHLIGHTED_SPRITE	field_1_12634
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	Lnet/minecraft/resources/Identifier;	ENCHANTMENT_SLOT_SPRITE	field_1_12635
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	I	HEIGHT	field_1_12636
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	I	LEVEL_IMAGE_SIZE	field_1_12637
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	I	NOT_ACTIVE_TEXT_COLOR	field_1_12638
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	I	NOT_ACTIVE_XP_TEXT_COLOR	field_1_12639
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	Lnet/minecraft/client/gui/components/WidgetSprites;	SPRITES	field_1_12640
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	I	TEXT_WIDTH	field_1_12641
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	I	TEXT_X_OFFSET	field_1_12642
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	I	TEXT_Y_OFFSET	field_1_12643
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	I	WIDTH	field_1_12644
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	I	index	field_1_12645
+FIELD	net/minecraft/client/gui/components/inventory/EnchantmentOptionButton	Lnet/minecraft/world/inventory/EnchantmentMenu;	menu	field_1_12646
+FIELD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	Ljava/util/function/Function;	tooltipSupplier	field_1_12647
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	(Lnet/minecraft/world/inventory/Slot;)Lnet/minecraft/client/gui/components/Tooltip;	lambda$new$0	method_1_12508
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	(Lnet/minecraft/client/gui/components/Tooltip;)Lnet/minecraft/client/gui/components/Tooltip;	lambda$updateSlotWidgets$0	method_1_12509
+METHOD	net/minecraft/world/entity/ai/behavior/TransportItemsBetweenContainers$TransportItemTarget	(Lnet/minecraft/world/level/Level;)Lnet/minecraft/world/Container;	getBlockEntityContainer	method_1_12510
+METHOD	net/minecraft/world/entity/ai/behavior/TransportItemsBetweenContainers$TransportItemTarget	(Lnet/minecraft/world/level/block/entity/BlockEntity;Lnet/minecraft/world/level/block/state/BlockState;Lnet/minecraft/world/level/Level;Lnet/minecraft/core/BlockPos;)Z	isPossibleTarget	method_1_12511
+METHOD	com/mojang/realmsclient/client/worldupload/RealmsWorldUploadStatusTracker	()V	setCommitting	method_1_12512
+METHOD	com/mojang/realmsclient/client/worldupload/RealmsWorldUploadStatusTracker	()V	setProcessing	method_1_12513
+Done!
