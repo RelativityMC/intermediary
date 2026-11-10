@@ -1,0 +1,1297 @@
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/predicates/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/predicates/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/ComponentPath$Leaf;leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView; as record getter for textureViewLcom/mojang/renderpearl/api/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/KeyEvent;shortcutKey()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/client/renderer/feature/CustomFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/client/renderer/feature/FeatureRendererType;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/client/renderer/feature/ModelFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/core/CompositeDirection;getStep()Lnet/minecraft/core/Vec3i;
+Demoting record getter net/minecraft/core/particles/GeyserBaseParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/core/particles/GeyserParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Demoting record getter net/minecraft/world/level/levelgen/densityfunction/DensityVolume;strideX()I
+Read 11653 (7469) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 20488 MethodEntries (0 unique, 11901 classes).
+Joined 171 record fields.
+Collecting additional information...
+- Done. -
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/predicates/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/predicates/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/ComponentPath$Leaf;leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView; as record getter for textureViewLcom/mojang/renderpearl/api/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/KeyEvent;shortcutKey()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/client/renderer/feature/CustomFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/client/renderer/feature/FeatureRendererType;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/client/renderer/feature/ModelFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/core/CompositeDirection;getStep()Lnet/minecraft/core/Vec3i;
+Demoting record getter net/minecraft/core/particles/GeyserBaseParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/core/particles/GeyserParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Demoting record getter net/minecraft/world/level/levelgen/densityfunction/DensityVolume;strideX()I
+Read 11722 (7511) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 20769 MethodEntries (0 unique, 11970 classes).
+Joined 173 record fields.
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+CLASS	net/minecraft/util/TriBool	class_1_1985
+METHOD	net/minecraft/util/TriBool	(Ljava/lang/Boolean;Ljava/lang/Boolean;)Ljava/lang/Boolean;	and	method_1_12514
+METHOD	net/minecraft/util/TriBool	(Ljava/lang/Boolean;)Ljava/lang/Boolean;	not	method_1_12515
+METHOD	net/minecraft/util/TriBool	(Ljava/lang/Boolean;Ljava/lang/Boolean;)Ljava/lang/Boolean;	or	method_1_12516
+METHOD	net/minecraft/core/Registry	(Lnet/minecraft/core/Registry;Lnet/minecraft/resources/ResourceKey;Ljava/lang/Object;)Ljava/lang/Object;	register	method_1_12517
+METHOD	net/minecraft/core/Registry	(Lnet/minecraft/core/WritableRegistry;Ljava/lang/String;Ljava/lang/Object;)Ljava/lang/Object;	register	method_1_12518
+METHOD	net/minecraft/core/Registry	(Lnet/minecraft/core/WritableRegistry;Lnet/minecraft/resources/Identifier;Ljava/lang/Object;)Ljava/lang/Object;	register	method_1_12519
+FIELD	net/minecraft/client/Options	Lnet/minecraft/client/KeyMapping;	keyDebugEnvironmentAttributeOptions	field_1_12648
+METHOD	net/minecraft/client/Options	(I)[Lnet/minecraft/client/KeyMapping;	lambda$debugKeys$0	method_1_12520
+METHOD	net/minecraft/client/Options	(Lnet/minecraft/client/KeyMapping;)Z	lambda$new$87	method_1_12521
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	TRIGGERS_AMBIENT_ICE_BLOCK_SOUNDS	field_1_12649
+FIELD	net/minecraft/tags/BlockTags	Lnet/minecraft/tags/TagKey;	TRIGGERS_AMBIENT_ICE_CRYSTAL_SOUNDS	field_1_12650
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/world/item/equipment/ArmorMaterial;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/equipment/Equippable;	lambda$horseArmor$0	method_1_12522
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/world/item/equipment/ArmorMaterial;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/equipment/Equippable;	lambda$nautilusArmor$0	method_1_12523
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/tags/TagKey;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/enchantment/Repairable;	lambda$repairable$0	method_1_12524
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/world/item/equipment/ArmorMaterial;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/equipment/Equippable;	lambda$wolfArmor$0	method_1_12525
+METHOD	net/minecraft/world/phys/AABB	(Lnet/minecraft/world/phys/Vec3;DDD)Lnet/minecraft/world/phys/AABB;	ofRadius	method_1_12526
+METHOD	net/minecraft/client/Minecraft	()Z	canUseRestrictedDebugFeatures	method_1_12527
+METHOD	net/minecraft/util/ExtraCodecs	(Lcom/mojang/serialization/Codec;Lcom/google/common/collect/Range;)Lcom/mojang/serialization/Codec;	inRange	method_1_12528
+METHOD	net/minecraft/util/ExtraCodecs	(Lcom/google/common/collect/Range;Ljava/lang/Comparable;)Lcom/mojang/serialization/DataResult;	lambda$inRange$0	method_1_12529
+METHOD	net/minecraft/util/ExtraCodecs	(Lcom/google/common/collect/Range;Ljava/lang/Comparable;)Ljava/lang/String;	lambda$inRange$1	method_1_12530
+METHOD	net/minecraft/world/item/Items	(Lnet/minecraft/world/item/DyeColor;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/equipment/Equippable;	lambda$static$211	method_1_12531
+FIELD	net/minecraft/commands/Commands	Lnet/minecraft/commands/ParseBox;	parseBox	field_1_12651
+FIELD	net/minecraft/commands/Commands	Lnet/minecraft/commands/SuggestionBox;	suggestionBox	field_1_12652
+METHOD	net/minecraft/commands/Commands	(Lnet/minecraft/commands/Commands$CommandSelection;Lnet/minecraft/commands/CommandBuildContext;)Lnet/minecraft/commands/Commands;	createVanilla	method_1_12532
+METHOD	net/minecraft/commands/Commands	(Lnet/minecraft/commands/Commands$CommandSelection;Lnet/minecraft/commands/CommandBuildContext;Lcom/mojang/brigadier/CommandDispatcher;)V	lambda$createVanilla$0	method_1_12533
+METHOD	net/minecraft/commands/Commands	()Lnet/minecraft/commands/ParseBox;	parseBox	method_1_12534
+METHOD	net/minecraft/commands/Commands	(Lcom/mojang/brigadier/CommandDispatcher;Lnet/minecraft/commands/Commands$CommandSelection;Lnet/minecraft/commands/CommandBuildContext;)V	registerVanillaCommands	method_1_12535
+METHOD	net/minecraft/commands/Commands	()Lnet/minecraft/commands/SuggestionBox;	suggestionBox	method_1_12536
+CLASS	net/minecraft/commands/ParseBox	class_1_1986
+FIELD	net/minecraft/commands/ParseBox	Lorg/slf4j/Logger;	LOGGER	field_1_12653
+METHOD	net/minecraft/commands/ParseBox	(Lnet/minecraft/commands/ParseContext;)V	findAmbiguities	method_1_12537
+METHOD	net/minecraft/commands/ParseBox	(Lcom/mojang/brigadier/CommandDispatcher;)Lnet/minecraft/commands/ParseBox;	fromFullTree	method_1_12538
+METHOD	net/minecraft/commands/ParseBox	(Lnet/minecraft/commands/ParseBox$Result;Lnet/minecraft/commands/ParseContext;)Ljava/util/Map;	getSmartUsage	method_1_12539
+METHOD	net/minecraft/commands/ParseBox	()V	lambda$findAmbiguities$0	method_1_12540
+METHOD	net/minecraft/commands/ParseBox	(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;Ljava/util/Collection;)V	lambda$findAmbiguities$1	method_1_12541
+METHOD	net/minecraft/commands/ParseBox	(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/commands/ParseContext;)Lnet/minecraft/commands/ParseBox$Result;	parse	method_1_12542
+METHOD	net/minecraft/commands/ParseBox	(Ljava/lang/String;Lnet/minecraft/commands/ParseContext;)Lnet/minecraft/commands/ParseBox$Result;	parse	method_1_12543
+CLASS	net/minecraft/commands/ParseBox$ParseNodeConverter	class_1_1987
+CLASS	net/minecraft/commands/ParseBox$Result	class_1_1988
+FIELD	net/minecraft/commands/ParseBox$Result	Ljava/lang/String;	commandString	field_1_12654
+FIELD	net/minecraft/commands/ParseBox$Result	Lcom/mojang/brigadier/ParseResults;	parseResults	field_1_12655
+METHOD	net/minecraft/commands/ParseBox$Result	()Ljava/lang/String;	commandString	method_1_12544
+METHOD	net/minecraft/commands/ParseBox$Result	()Z	isEmpty	method_1_12545
+METHOD	net/minecraft/commands/ParseBox$Result	()Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	lambda$unpack$0	method_1_12546
+METHOD	net/minecraft/commands/ParseBox$Result	()Lnet/minecraft/network/chat/SignableCommand;	signables	method_1_12547
+METHOD	net/minecraft/commands/ParseBox$Result	()Lcom/mojang/brigadier/context/ContextChain;	unpack	method_1_12548
+METHOD	net/minecraft/core/HolderGetter	(Lnet/minecraft/tags/TagKey;)Ljava/lang/Iterable;	getTagOrEmpty	method_1_12549
+METHOD	net/minecraft/core/HolderGetter$Provider	(Lnet/minecraft/core/HolderGetter$Provider;)Lnet/minecraft/core/HolderGetter$Provider;	withFallback	method_1_12550
+FIELD	net/minecraft/core/HolderGetter$Provider$1	Lnet/minecraft/core/HolderGetter$Provider;	this$0	field_1_12656
+FIELD	net/minecraft/core/HolderGetter$Provider$1	Lnet/minecraft/core/HolderGetter$Provider;	val$fallback	field_1_12657
+METHOD	net/minecraft/core/HolderLookup$Provider	(Lnet/minecraft/world/flag/FeatureFlagSet;)Lnet/minecraft/core/HolderLookup$Provider;	filterFeatures	method_1_12551
+METHOD	net/minecraft/core/HolderLookup$Provider	(Lnet/minecraft/world/flag/FeatureFlagSet;Lnet/minecraft/core/HolderLookup$RegistryLookup;)Lnet/minecraft/core/HolderLookup$RegistryLookup;	lambda$filterFeatures$0	method_1_12552
+FIELD	net/minecraft/sounds/SoundEvents	Lnet/minecraft/sounds/SoundEvent;	FROSTBITE_THROW	field_1_12658
+CLASS	net/minecraft/commands/CommandBox	class_1_1989
+FIELD	net/minecraft/commands/CommandBox	Ljava/lang/ScopedValue;	CONTEXT	field_1_12659
+FIELD	net/minecraft/commands/CommandBox	Ljava/util/function/Predicate;	DEFAULT_ARGUMENT_PREDICATE	field_1_12660
+FIELD	net/minecraft/commands/CommandBox	Lcom/mojang/brigadier/CommandDispatcher;	dispatcher	field_1_12661
+METHOD	net/minecraft/commands/CommandBox	(Lcom/mojang/brigadier/tree/CommandNode;Lnet/minecraft/server/permissions/PermissionSetSupplier;)Z	canNodeRun	method_1_12553
+METHOD	net/minecraft/commands/CommandBox	(Ljava/util/function/Predicate;)Ljava/util/function/Predicate;	convertNodePermissionCheck	method_1_12554
+METHOD	net/minecraft/commands/CommandBox	(Lcom/mojang/brigadier/tree/CommandNode;Lnet/minecraft/commands/ParseContext;)Ljava/util/Map;	getSmartUsage	method_1_12555
+METHOD	net/minecraft/commands/CommandBox	()Lnet/minecraft/commands/ParseContext;	grabParseContext	method_1_12556
+METHOD	net/minecraft/commands/CommandBox	(Ljava/lang/String;Lnet/minecraft/commands/ParseContext;)Lcom/mojang/brigadier/ParseResults;	lambda$parseWithContext$0	method_1_12557
+METHOD	net/minecraft/commands/CommandBox	(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/commands/ParseContext;)Lcom/mojang/brigadier/ParseResults;	lambda$parseWithContext$1	method_1_12558
+METHOD	net/minecraft/commands/CommandBox	(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/commands/ParseContext;)Lcom/mojang/brigadier/ParseResults;	parseWithContext	method_1_12559
+METHOD	net/minecraft/commands/CommandBox	(Ljava/lang/String;Lnet/minecraft/commands/ParseContext;)Lcom/mojang/brigadier/ParseResults;	parseWithContext	method_1_12560
+METHOD	net/minecraft/commands/CommandBox	(Ljava/lang/Runnable;Lnet/minecraft/commands/ParseContext;)V	runWithParseContext	method_1_12561
+METHOD	net/minecraft/commands/CommandBox	(Ljava/lang/ScopedValue$CallableOp;Lnet/minecraft/commands/ParseContext;)Ljava/lang/Object;	runWithParseContext	method_1_12562
+CLASS	net/minecraft/commands/CommandBox$NodeConverter	class_1_1990
+FIELD	net/minecraft/commands/CommandBox$NodeConverter	Ljava/util/Map;	clonedNodes	field_1_12662
+FIELD	net/minecraft/commands/CommandBox$NodeConverter	Ljava/util/List;	postponedNodes	field_1_12663
+METHOD	net/minecraft/commands/CommandBox$NodeConverter	(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;)V	cloneNode	method_1_12563
+METHOD	net/minecraft/commands/CommandBox$NodeConverter	(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/Command;	convert	method_1_12564
+METHOD	net/minecraft/commands/CommandBox$NodeConverter	(Lcom/mojang/brigadier/CommandDispatcher;)Lcom/mojang/brigadier/CommandDispatcher;	convert	method_1_12565
+METHOD	net/minecraft/commands/CommandBox$NodeConverter	(Lcom/mojang/brigadier/RedirectModifier;)Lcom/mojang/brigadier/RedirectModifier;	convert	method_1_12566
+METHOD	net/minecraft/commands/CommandBox$NodeConverter	(Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/arguments/ArgumentType;	convert	method_1_12567
+METHOD	net/minecraft/commands/CommandBox$NodeConverter	(Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;	convert	method_1_12568
+METHOD	net/minecraft/commands/CommandBox$NodeConverter	(Lcom/mojang/brigadier/tree/RootCommandNode;)Lcom/mojang/brigadier/tree/RootCommandNode;	convert	method_1_12569
+METHOD	net/minecraft/commands/CommandBox$NodeConverter	(Ljava/util/function/Predicate;)Ljava/util/function/Predicate;	convert	method_1_12570
+METHOD	net/minecraft/commands/CommandBox$NodeConverter	(Lcom/mojang/brigadier/tree/CommandNode;)Lcom/mojang/brigadier/builder/ArgumentBuilder;	convertTypeSpecific	method_1_12571
+METHOD	net/minecraft/commands/CommandBox$NodeConverter	(Lcom/mojang/brigadier/tree/CommandNode;)V	discoverNodes	method_1_12572
+METHOD	net/minecraft/commands/CommandBox$NodeConverter	(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;)V	linkNodes	method_1_12573
+METHOD	net/minecraft/commands/CommandBox$NodeConverter	(Lcom/mojang/brigadier/Command;)Lcom/mojang/brigadier/Command;	loosen	method_1_12574
+METHOD	net/minecraft/commands/CommandBox$NodeConverter	(Lcom/mojang/brigadier/RedirectModifier;)Lcom/mojang/brigadier/RedirectModifier;	loosen	method_1_12575
+METHOD	net/minecraft/commands/CommandBox$NodeConverter	(Lcom/mojang/brigadier/tree/CommandNode;)V	resolvePostponedNodes	method_1_12576
+METHOD	net/minecraft/world/entity/Entity	()Lnet/minecraft/world/entity/Entity;	getControllingPassengerOrSelf	method_1_12577
+METHOD	net/minecraft/world/entity/Entity	()Z	isPushedByExplosions	method_1_12578
+METHOD	com/mojang/blaze3d/vertex/MeshData	(Ljava/nio/ByteBuffer;ILnet/minecraft/client/renderer/chunk/ChunkSectionLayer;Lcom/mojang/blaze3d/vertex/CompactVectorArray;I)V	decodeQuadCentroidsFromPerFaceData	method_1_12579
+METHOD	net/minecraft/util/ProblemReporter	(Lnet/minecraft/util/ProblemReporter$Error;)V	reportError	method_1_12580
+METHOD	net/minecraft/util/ProblemReporter	(Lnet/minecraft/util/ProblemReporter$Warning;)V	reportWarning	method_1_12581
+FIELD	net/minecraft/util/ProblemReporter$Collector	Z	onlyErrors	field_1_12664
+CLASS	net/minecraft/util/ProblemReporter$Error	class_1_1991
+CLASS	net/minecraft/util/ProblemReporter$Problem	class_1_1992
+FIELD	net/minecraft/util/ProblemReporter$Problem	Ljava/util/Comparator;	ERROR_FIRST	field_1_12665
+METHOD	net/minecraft/util/ProblemReporter$Problem	()Ljava/lang/String;	descriptionWithLevel	method_1_12582
+METHOD	net/minecraft/util/ProblemReporter$Problem	()Z	isError	method_1_12583
+METHOD	net/minecraft/util/ProblemReporter$Problem	(Lnet/minecraft/util/ProblemReporter$Problem;)I	lambda$static$0	method_1_12584
+CLASS	net/minecraft/util/ProblemReporter$Warning	class_1_1993
+CLASS	net/minecraft/commands/ParseContext	class_1_1994
+METHOD	net/minecraft/commands/ParseContext	()Z	allowsSelectors	method_1_12585
+method_45549 is now comp_1_2249
+METHOD	net/minecraft/commands/ParseContext	(Lnet/minecraft/core/Holder;Lnet/minecraft/util/context/ContextKeySet;)Lnet/minecraft/commands/arguments/ValidationWrapper;	getOrCreateValidationWrapper	method_1_12586
+METHOD	net/minecraft/commands/ParseContext	()Lnet/minecraft/core/HolderGetter$Provider;	holderGetters	comp_1_2250
+METHOD	net/minecraft/commands/ParseContext	(Lnet/minecraft/commands/CommandSourceStack;)Lnet/minecraft/commands/ParseContext;	of	method_1_12587
+METHOD	net/minecraft/commands/ParseContext	(Lnet/minecraft/server/level/ServerPlayer;)Lnet/minecraft/commands/ParseContext;	of	method_1_12588
+CLASS	net/minecraft/commands/ParseContext$Simple	class_1_1995
+FIELD	net/minecraft/commands/ParseContext$Simple	Lnet/minecraft/server/permissions/PermissionSet;	permissions	comp_1_2251
+FIELD	net/minecraft/commands/ParseContext$Simple	Lnet/minecraft/commands/arguments/ValidationWrapper$Provider;	validationWrapperProvider	comp_1_2252
+METHOD	net/minecraft/resources/RegistryOps	(Lnet/minecraft/resources/RegistryOps;)Lcom/mojang/serialization/DataResult;	lambda$retrieveGetterProvider$0	method_1_12589
+METHOD	net/minecraft/resources/RegistryOps	(Ljava/util/function/Function;Lcom/mojang/serialization/DynamicOps;)Lcom/mojang/serialization/DataResult;	lambda$retrieveRegistryContext$0	method_1_12590
+METHOD	net/minecraft/resources/RegistryOps	()Ljava/lang/String;	lambda$retrieveRegistryContext$1	method_1_12591
+METHOD	net/minecraft/resources/RegistryOps	(Ljava/lang/Object;)Ljava/lang/Object;	lambda$retrieveRegistryContext$2	method_1_12592
+METHOD	net/minecraft/resources/RegistryOps	()Lcom/mojang/serialization/codecs/RecordCodecBuilder;	retrieveGetterProvider	method_1_12593
+METHOD	net/minecraft/resources/RegistryOps	(Ljava/util/function/Function;)Lcom/mojang/serialization/codecs/RecordCodecBuilder;	retrieveRegistryContext	method_1_12594
+FIELD	net/minecraft/resources/ResourceKey	Lcom/mojang/serialization/Codec;	REGISTRY_CODEC	field_1_12666
+FIELD	net/minecraft/commands/ArgumentUtils	Lcom/mojang/serialization/Codec;	REPORT_CODEC	field_1_12667
+METHOD	net/minecraft/commands/ArgumentUtils	(Lcom/google/gson/JsonObject;Lnet/minecraft/commands/suggestions/SerializableCustomSuggestion;)V	serializeSuggestionToJson	method_1_12595
+CLASS	net/minecraft/commands/SuggestionBox	class_1_1996
+FIELD	net/minecraft/commands/SuggestionBox	Lnet/minecraft/server/permissions/PermissionSet;	ALLOW_RESTRICTED_COMMANDS	field_1_12668
+FIELD	net/minecraft/commands/SuggestionBox	Lnet/minecraft/network/protocol/game/ClientboundCommandsPacket$NodeBuilder;	COMMAND_NODE_BUILDER	field_1_12669
+FIELD	net/minecraft/commands/SuggestionBox	Lnet/minecraft/network/protocol/game/ClientboundCommandsPacket$NodeInspector;	COMMAND_NODE_INSPECTOR	field_1_12670
+FIELD	net/minecraft/commands/SuggestionBox	Lnet/minecraft/commands/SuggestionBox;	EMPTY	field_1_12671
+FIELD	net/minecraft/commands/SuggestionBox	Lnet/minecraft/server/permissions/Permission;	RESTRICTED_COMMAND	field_1_12672
+FIELD	net/minecraft/commands/SuggestionBox	Lnet/minecraft/server/permissions/PermissionCheck;	RESTRICTED_COMMAND_CHECK	field_1_12673
+METHOD	net/minecraft/commands/SuggestionBox	()Lcom/google/gson/JsonElement;	dumpReport	method_1_12596
+METHOD	net/minecraft/commands/SuggestionBox	(Lcom/mojang/brigadier/tree/CommandNode;Lcom/mojang/brigadier/tree/CommandNode;Ljava/lang/Object;Ljava/util/Map;)V	fillUsableCommands	method_1_12597
+METHOD	net/minecraft/commands/SuggestionBox	(Lcom/mojang/brigadier/CommandDispatcher;)Lnet/minecraft/commands/SuggestionBox;	fromFullTree	method_1_12598
+METHOD	net/minecraft/commands/SuggestionBox	(Lnet/minecraft/network/protocol/game/ClientboundCommandsPacket;)Lnet/minecraft/commands/SuggestionBox;	fromPacket	method_1_12599
+METHOD	net/minecraft/commands/SuggestionBox	(Lcom/mojang/brigadier/ParseResults;)Z	isValidCommand	method_1_12600
+METHOD	net/minecraft/commands/SuggestionBox	(Lnet/minecraft/server/permissions/Permission;)Z	lambda$static$0	method_1_12601
+METHOD	net/minecraft/commands/SuggestionBox	(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/commands/suggestions/SuggestionContext;)Lnet/minecraft/commands/SuggestionBox$Result;	parse	method_1_12602
+METHOD	net/minecraft/commands/SuggestionBox	(Ljava/lang/String;Lnet/minecraft/commands/suggestions/SuggestionContext;)Lnet/minecraft/commands/SuggestionBox$Result;	parse	method_1_12603
+METHOD	net/minecraft/commands/SuggestionBox	(Lnet/minecraft/server/level/ServerPlayer;)Lnet/minecraft/network/protocol/game/ClientboundCommandsPacket;	toPacket	method_1_12604
+METHOD	net/minecraft/commands/SuggestionBox	(Ljava/lang/String;Lnet/minecraft/commands/suggestions/SuggestionContext;Lnet/minecraft/commands/suggestions/SuggestionContext;)Lnet/minecraft/commands/SuggestionBox$CommandCheckResult;	verifyCommand	method_1_12605
+METHOD	net/minecraft/commands/SuggestionBox$1	()Lnet/minecraft/server/permissions/PermissionSet;	lambda$new$0	method_1_12606
+METHOD	net/minecraft/commands/SuggestionBox$2	(Lcom/mojang/brigadier/context/CommandContext;)I	lambda$configure$0	method_1_12607
+CLASS	net/minecraft/commands/SuggestionBox$Result	class_1_1997
+FIELD	net/minecraft/commands/SuggestionBox$Result	Lcom/mojang/brigadier/ParseResults;	parseResults	field_1_12674
+FIELD	net/minecraft/commands/SuggestionBox$Result	Lnet/minecraft/commands/SuggestionBox;	this$0	field_1_12675
+METHOD	net/minecraft/commands/SuggestionBox$Result	()Ljava/util/concurrent/CompletableFuture;	computeSuggestions	method_1_12608
+METHOD	net/minecraft/commands/SuggestionBox$Result	(I)Ljava/util/concurrent/CompletableFuture;	computeSuggestions	method_1_12609
+METHOD	net/minecraft/commands/SuggestionBox$Result	()Z	hasMessageArguments	method_1_12610
+METHOD	net/minecraft/commands/SuggestionBox$Result	()Lcom/mojang/brigadier/ParseResults;	parseResults	method_1_12611
+METHOD	net/minecraft/commands/SuggestionBox$Result	()Lnet/minecraft/network/chat/SignableCommand;	signables	method_1_12612
+CLASS	net/minecraft/commands/SuggestionBox$Result$1Visitor	class_1_1998
+FIELD	net/minecraft/commands/SuggestionBox$Result$1Visitor	Z	foundMessageArgument	field_1_12676
+CLASS	net/minecraft/commands/SuggestionBox$SuggestionNodeConverter	class_1_1999
+FIELD	net/minecraft/commands/SuggestionBox$SuggestionNodeConverter	Lcom/mojang/brigadier/Command;	commandPlaceholder	field_1_12677
+FIELD	net/minecraft/commands/SuggestionBox$SuggestionNodeConverter	Lcom/mojang/brigadier/RedirectModifier;	redirectPlaceholder	field_1_12678
+METHOD	net/minecraft/commands/SuggestionBox$SuggestionNodeConverter	(Lcom/mojang/brigadier/context/CommandContext;)I	lambda$new$0	method_1_12613
+METHOD	net/minecraft/commands/SuggestionBox$SuggestionNodeConverter	(Lcom/mojang/brigadier/context/CommandContext;)Ljava/util/Collection;	lambda$new$1	method_1_12614
+METHOD	net/minecraft/world/item/ToolMaterial	(Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/component/Tool;	lambda$applySwordProperties$0	method_1_12615
+METHOD	net/minecraft/world/item/ToolMaterial	(Lnet/minecraft/tags/TagKey;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/world/item/component/Tool;	lambda$applyToolProperties$0	method_1_12616
+FIELD	com/mojang/blaze3d/vertex/QuadInstance	I	color	field_1_12679
+METHOD	com/mojang/blaze3d/vertex/QuadInstance	()I	getColor	method_1_12617
+METHOD	com/mojang/blaze3d/vertex/QuadInstance	(S)V	setBrightness	method_1_12618
+FIELD	net/minecraft/server/commands/OpCommand	Lcom/mojang/brigadier/suggestion/SuggestionProvider;	SUGGEST_NON_OP_PLAYERS	field_1_12680
+METHOD	net/minecraft/server/commands/OpCommand	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$static$0	method_1_12619
+METHOD	net/minecraft/server/commands/OpCommand	(Lnet/minecraft/server/players/PlayerList;Lnet/minecraft/server/level/ServerPlayer;)Z	lambda$static$1	method_1_12620
+METHOD	net/minecraft/server/commands/OpCommand	(Lnet/minecraft/server/level/ServerPlayer;)Ljava/lang/String;	lambda$static$2	method_1_12621
+CLASS	net/minecraft/util/parsing/packrat/Rule$SimpleRuleActionWithContext	class_1_2000
+METHOD	net/minecraft/util/parsing/packrat/Rule$SimpleRuleActionWithContext	(Lnet/minecraft/util/parsing/packrat/Scope;Ljava/lang/Object;)Ljava/lang/Object;	run	method_1_12622
+FIELD	net/minecraft/world/entity/LivingEntity	I	HEAD_LERP_STEPS	field_1_12681
+FIELD	net/minecraft/core/registries/Registries	Lnet/minecraft/resources/ResourceKey;	COMMAND_SUGGESTION_TYPE	field_1_12682
+METHOD	net/minecraft/server/commands/TagCommand	(Lnet/minecraft/world/entity/Entity;)Ljava/util/stream/Stream;	lambda$getTags$0	method_1_12623
+METHOD	net/minecraft/server/commands/TagCommand	()Lcom/mojang/brigadier/suggestion/SuggestionProvider;	suggestEntityTags	method_1_12624
+METHOD	net/minecraft/commands/CommandSourceStack	()Lnet/minecraft/world/flag/FeatureFlagSet;	enabledFeatures	method_1_12625
+METHOD	net/minecraft/commands/CommandSourceStack	()Lnet/minecraft/core/HolderGetter$Provider;	holderGetters	method_1_12626
+METHOD	net/minecraft/commands/CommandSourceStack	()Lnet/minecraft/core/HolderLookup$Provider;	holderLookups	method_1_12627
+METHOD	net/minecraft/commands/CommandSourceStack	()Ljava/util/Set;	levels	method_1_12628
+CLASS	net/minecraft/data/info/LootContextReport	class_1_2001
+FIELD	net/minecraft/data/info/LootContextReport	Lnet/minecraft/data/PackOutput;	output	field_1_12683
+FIELD	net/minecraft/data/info/LootContextReport	Ljava/util/concurrent/CompletableFuture;	registries	field_1_12684
+METHOD	net/minecraft/data/info/LootContextReport	(Lnet/minecraft/core/HolderLookup$RegistryLookup;)Lcom/google/gson/JsonElement;	dumpLootContexts	method_1_12629
+METHOD	net/minecraft/data/info/LootContextReport	(Lcom/google/gson/JsonObject;Lnet/minecraft/core/Holder$Reference;)V	lambda$dumpLootContexts$0	method_1_12630
+METHOD	net/minecraft/data/info/LootContextReport	(Lnet/minecraft/data/CachedOutput;Lnet/minecraft/core/HolderLookup$Provider;)Ljava/util/concurrent/CompletionStage;	lambda$run$0	method_1_12631
+METHOD	net/minecraft/data/info/LootContextReport	(Ljava/util/Set;)Lcom/google/gson/JsonElement;	serializeList	method_1_12632
+FIELD	net/minecraft/network/codec/ByteBufCodecs	Lnet/minecraft/network/codec/StreamCodec;	PATTERN	field_1_12685
+METHOD	net/minecraft/network/codec/ByteBufCodecs	(Ljava/lang/String;)Ljava/util/regex/Pattern;	lambda$static$3	method_1_12633
+FIELD	net/minecraft/network/codec/ByteBufCodecs$32	Lnet/minecraft/resources/ResourceKey;	val$registryKey	field_1_12686
+FIELD	net/minecraft/network/codec/ByteBufCodecs$33	Lnet/minecraft/resources/ResourceKey;	val$registryKey	field_1_12687
+CLASS	net/minecraft/network/codec/ByteBufCodecs$RegistryEntryStreamCodec	class_1_2002
+METHOD	net/minecraft/network/codec/ByteBufCodecs$RegistryEntryStreamCodec	(Lnet/minecraft/network/RegistryFriendlyByteBuf;)Ljava/lang/Object;	decode	method_1_12634
+METHOD	net/minecraft/network/codec/ByteBufCodecs$RegistryEntryStreamCodec	(Lnet/minecraft/network/RegistryFriendlyByteBuf;Ljava/lang/Object;)V	encode	method_1_12635
+METHOD	net/minecraft/network/codec/ByteBufCodecs$RegistryEntryStreamCodec	(Lnet/minecraft/core/registries/IdMapProvider;)Lnet/minecraft/core/IdMap;	getRegistryOrThrow	method_1_12636
+METHOD	net/minecraft/server/commands/TickCommand	(Lcom/mojang/brigadier/context/CommandContext;)I	lambda$register$7	method_1_12637
+METHOD	net/minecraft/server/commands/TickCommand	(Lcom/mojang/brigadier/context/CommandContext;)I	lambda$register$8	method_1_12638
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/server/commands/TimeCommand$ClockGetter;Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$suggestTimeMarker$0	method_1_12639
+METHOD	net/minecraft/server/commands/TimeCommand	(Lnet/minecraft/server/commands/TimeCommand$ClockGetter;Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$suggestTimelines$0	method_1_12640
+FIELD	net/minecraft/server/commands/TimeCommand$ClockGetter	Lnet/minecraft/server/commands/TimeCommand$ClockGetter;	FOR_LEVEL_DEFAULT	field_1_12688
+METHOD	net/minecraft/server/commands/TimeCommand$ClockGetter	(Ljava/lang/String;)Lnet/minecraft/server/commands/TimeCommand$ClockGetter;	fromContext	method_1_12641
+METHOD	net/minecraft/server/commands/TimeCommand$ClockGetter	(Lcom/mojang/brigadier/context/CommandContext;)Lnet/minecraft/core/Holder;	getClockForSuggestions	method_1_12642
+METHOD	net/minecraft/server/commands/TimeCommand$ClockGetter$1	(Ljava/util/Optional;)Lnet/minecraft/core/Holder;	getDefaultClock	method_1_12643
+METHOD	net/minecraft/server/commands/TimeCommand$ClockGetter$1	(Lnet/minecraft/core/Holder;)Ljava/util/Optional;	lambda$getDefaultClock$0	method_1_12644
+METHOD	net/minecraft/server/commands/TimeCommand$ClockGetter$1	(Ljava/util/Optional;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	lambda$getDefaultClock$1	method_1_12645
+FIELD	net/minecraft/server/commands/TimeCommand$ClockGetter$2	Ljava/lang/String;	val$name	field_1_12689
+METHOD	net/minecraft/server/commands/TimeCommand$ClockGetter$2	(Lcom/mojang/brigadier/context/CommandContext;)Lnet/minecraft/core/Holder$Reference;	getClockFromContext	method_1_12646
+METHOD	com/mojang/realmsclient/client/RealmsError$CustomError	()Lcom/mojang/realmsclient/client/RealmsError$CustomError;	downloadFailed	method_1_12647
+FIELD	net/minecraft/commands/CommandBuildContext$1	Lnet/minecraft/world/flag/FeatureFlagSet;	val$enabledFeatures	field_1_12690
+CLASS	net/minecraft/core/particles/ParticleLimit	class_1_2003
+FIELD	net/minecraft/core/particles/ParticleLimit	Lnet/minecraft/core/particles/ParticleLimit;	SPORE_BLOSSOM	field_1_12691
+FIELD	net/minecraft/core/particles/ParticleLimit	I	limit	field_1_12692
+METHOD	net/minecraft/core/particles/ParticleLimit	()I	limit	method_1_12648
+METHOD	net/minecraft/network/chat/SignableCommand	()Z	requiresSignature	method_1_12649
+METHOD	net/minecraft/resources/RegistryDataLoader	()Ljava/util/stream/Stream;	allKnownRegistries	method_1_12650
+METHOD	net/minecraft/resources/RegistryDataLoader	()Ljava/util/stream/Stream;	allLoadableRegistries	method_1_12651
+FIELD	net/minecraft/server/ServerFunctionLibrary	Lnet/minecraft/commands/functions/CommandParser$Provider;	parserProvider	field_1_12693
+METHOD	net/minecraft/server/ServerFunctionLibrary	(Lnet/minecraft/server/permissions/PermissionSet;Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/world/flag/FeatureFlagSet;Lnet/minecraft/commands/ParseBox;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/commands/functions/CommandParser;	lambda$new$1	method_1_12652
+FIELD	net/minecraft/server/ServerFunctionLibrary$1	Lnet/minecraft/commands/arguments/ValidationWrapper$Provider$Collecting;	val$collectingProvider	field_1_12694
+FIELD	net/minecraft/server/ServerFunctionLibrary$1	Lnet/minecraft/commands/ParseBox;	val$commandParseBox	field_1_12695
+FIELD	net/minecraft/server/ServerFunctionLibrary$1	Lnet/minecraft/commands/ParseContext;	val$compilationContext	field_1_12696
+FIELD	net/minecraft/server/ServerFunctionLibrary$1	Lnet/minecraft/resources/Identifier;	val$id	field_1_12697
+FIELD	net/minecraft/server/commands/DeOpCommands	Lcom/mojang/brigadier/suggestion/SuggestionProvider;	SUGGEST_OP_PLAYER_NAMES	field_1_12698
+METHOD	net/minecraft/server/commands/DeOpCommands	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$static$0	method_1_12653
+FIELD	com/mojang/realmsclient/client/RealmsClient	Ljava/lang/String;	CONTENT_DOWNLOAD_RESOURCE	field_1_12699
+FIELD	com/mojang/realmsclient/client/RealmsClient	Ljava/lang/String;	CONTENT_V2_DOWNLOAD_FLAG	field_1_12700
+METHOD	com/mojang/realmsclient/client/RealmsClient	(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lcom/mojang/realmsclient/client/Request;	contentV2Request	method_1_12654
+METHOD	com/mojang/realmsclient/client/RealmsClient	()Z	isContentV2DownloadEnabled	method_1_12655
+METHOD	com/mojang/realmsclient/client/RealmsClient	(JI)Lcom/mojang/realmsclient/dto/WorldDownload;	requestContentV2DownloadInfo	method_1_12656
+FIELD	net/minecraft/client/gui/components/Tooltip	Z	besideCursor	field_1_12701
+METHOD	net/minecraft/client/gui/components/Tooltip	()Z	besideCursor	method_1_12657
+METHOD	net/minecraft/client/renderer/LevelRenderer	(Lnet/minecraft/client/renderer/feature/FeatureRenderDispatcher$PreparedFrame;)V	executeWaterMask	method_1_12658
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Ljava/lang/String;	lambda$executeOit$0	method_1_12659
+CLASS	net/minecraft/core/registries/IdMapProvider	class_1_2004
+METHOD	net/minecraft/core/registries/IdMapProvider	(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/core/IdMap;	idHolderMapOrThrow	method_1_12660
+METHOD	net/minecraft/core/registries/IdMapProvider	(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/core/IdMap;	idMapOrThrow	method_1_12661
+FIELD	net/minecraft/server/commands/PardonCommand	Lcom/mojang/brigadier/suggestion/SuggestionProvider;	SUGGEST_BANNED_PLAYER	field_1_12702
+METHOD	net/minecraft/server/commands/PardonCommand	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$static$0	method_1_12662
+FIELD	net/minecraft/server/commands/RandomCommand	Lcom/mojang/brigadier/suggestion/SuggestionProvider;	SUGGEST_RANDOM_SEQUENCE	field_1_12703
+METHOD	net/minecraft/server/commands/RandomCommand	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$static$0	method_1_12663
+FIELD	net/minecraft/server/commands/RecipeCommand	Lcom/mojang/brigadier/suggestion/SuggestionProvider;	SUGGEST_LEARNABLE_RECIPE	field_1_12704
+METHOD	net/minecraft/server/commands/RecipeCommand	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$static$0	method_1_12664
+METHOD	net/minecraft/server/commands/RecipeCommand	(Lnet/minecraft/world/item/crafting/Recipe;)Z	lambda$static$1	method_1_12665
+METHOD	net/minecraft/server/commands/ReturnCommand	(Lcom/mojang/brigadier/CommandDispatcher;Lcom/mojang/brigadier/arguments/ArgumentType;)Lcom/mojang/brigadier/builder/LiteralArgumentBuilder;	createCommandNode	method_1_12666
+METHOD	net/minecraft/advancements/AdvancementHolder	(Lnet/minecraft/core/Holder$Reference;)Lnet/minecraft/advancements/AdvancementHolder;	wrap	method_1_12667
+METHOD	net/minecraft/client/player/inventory/Hotbar	(Lnet/minecraft/core/HolderGetter$Provider;)Ljava/util/List;	load	method_1_12668
+FIELD	net/minecraft/client/renderer/DynamicGpuData$ChunkSectionInfo	I	bakedBufferOffset	comp_1_2253
+FIELD	net/minecraft/client/renderer/DynamicGpuData$ChunkSectionInfo	I	bufferStartOffset	comp_1_2254
+CLASS	net/minecraft/commands/PlaceholderRegistries	class_1_2005
+FIELD	net/minecraft/commands/PlaceholderRegistries	Ljava/util/Map;	registries	field_1_12705
+METHOD	net/minecraft/commands/PlaceholderRegistries	(Ljava/util/stream/Stream;Lnet/minecraft/commands/PlaceholderRegistries$PlaceholderBehavior;)Lnet/minecraft/core/HolderGetter$Provider;	create	method_1_12669
+METHOD	net/minecraft/commands/PlaceholderRegistries	(Lnet/minecraft/commands/PlaceholderRegistries$PlaceholderBehavior;)Lnet/minecraft/core/HolderGetter;	createPlaceholder	method_1_12670
+METHOD	net/minecraft/commands/PlaceholderRegistries	(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/resources/ResourceKey;	lambda$create$0	method_1_12671
+METHOD	net/minecraft/commands/PlaceholderRegistries	(Lnet/minecraft/commands/PlaceholderRegistries$PlaceholderBehavior;Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/core/HolderGetter;	lambda$create$1	method_1_12672
+CLASS	net/minecraft/commands/PlaceholderRegistries$EmptyRegistry	class_1_2006
+CLASS	net/minecraft/commands/PlaceholderRegistries$PlaceholderBehavior	class_1_2007
+FIELD	net/minecraft/commands/PlaceholderRegistries$PlaceholderBehavior	Lnet/minecraft/commands/PlaceholderRegistries$PlaceholderBehavior;	ACCEPT_ALL	field_1_12706
+FIELD	net/minecraft/commands/PlaceholderRegistries$PlaceholderBehavior	Lnet/minecraft/commands/PlaceholderRegistries$PlaceholderBehavior;	REJECT_ALL	field_1_12707
+METHOD	net/minecraft/commands/PlaceholderRegistries$PlaceholderBehavior	()[Lnet/minecraft/commands/PlaceholderRegistries$PlaceholderBehavior;	$values	method_1_12673
+CLASS	net/minecraft/commands/PlaceholderRegistries$PlaceholderElement	class_1_2008
+CLASS	net/minecraft/commands/PlaceholderRegistries$PlaceholderRegistry	class_1_2009
+FIELD	net/minecraft/commands/PlaceholderRegistries$PlaceholderRegistry	Ljava/util/Map;	holderSets	field_1_12708
+FIELD	net/minecraft/commands/PlaceholderRegistries$PlaceholderRegistry	Ljava/util/Map;	holders	field_1_12709
+METHOD	net/minecraft/commands/PlaceholderRegistries$PlaceholderRegistry	(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/core/Holder$Reference;	lambda$getOrThrow$0	method_1_12674
+METHOD	net/minecraft/commands/PlaceholderRegistries$PlaceholderRegistry	(Lnet/minecraft/tags/TagKey;)Lnet/minecraft/core/HolderSet$Named;	lambda$getOrThrow$1	method_1_12675
+CLASS	net/minecraft/commands/PlaceholderRegistries$PlaceholderTag	class_1_2010
+CLASS	net/minecraft/commands/suggestions/AskServer	class_1_2011
+FIELD	net/minecraft/commands/suggestions/AskServer	Lnet/minecraft/commands/suggestions/AskServer;	INSTANCE	field_1_12710
+FIELD	net/minecraft/commands/suggestions/AskServer	Lnet/minecraft/commands/suggestions/SerializableCustomSuggestion$Type;	TYPE	field_1_12711
+FIELD	net/minecraft/gametest/framework/TestCommand	Lcom/mojang/brigadier/suggestion/SuggestionProvider;	SUGGEST_TEST_INSTANCE_IDS	field_1_12712
+METHOD	net/minecraft/gametest/framework/TestCommand	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$static$2	method_1_12676
+FIELD	net/minecraft/server/commands/EffectCommands	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_NO_EFFECTS	field_1_12713
+FIELD	net/minecraft/server/commands/TriggerCommand	Lcom/mojang/brigadier/suggestion/SuggestionProvider;	SUGGEST_TRIGGERS	field_1_12714
+METHOD	net/minecraft/server/commands/TriggerCommand	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$static$0	method_1_12677
+METHOD	net/minecraft/server/commands/TriggerCommand	(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/commands/suggestions/SuggestionContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	suggestTriggers	method_1_12678
+METHOD	net/minecraft/server/level/ChunkTrackingView	(IIIIII)Z	containsChunkAround	method_1_12679
+METHOD	net/minecraft/util/PlaceholderLookupProvider	(Lnet/minecraft/core/HolderLookup$RegistryLookup;)Lnet/minecraft/core/HolderGetter;	lambda$lookup$0	method_1_12680
+METHOD	net/minecraft/util/PlaceholderLookupProvider	()Ljava/util/Optional;	lambda$lookup$1	method_1_12681
+FIELD	com/mojang/blaze3d/vertex/DefaultVertexFormat	Lcom/mojang/renderpearl/api/GpuFormat;	CHUNK_BUFFER_OFFSETS_FORMAT	field_1_12715
+FIELD	com/mojang/blaze3d/vertex/DefaultVertexFormat	Ljava/lang/String;	CHUNK_BUFFER_OFFSETS_SEMANTIC_NAME	field_1_12716
+CLASS	net/minecraft/commands/arguments/LongArgument	class_1_2012
+FIELD	net/minecraft/commands/arguments/LongArgument	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12717
+FIELD	net/minecraft/commands/arguments/LongArgument	Ljava/lang/Long;	MAX	field_1_12718
+FIELD	net/minecraft/commands/arguments/LongArgument	Ljava/lang/Long;	MIN	field_1_12719
+FIELD	net/minecraft/commands/arguments/LongArgument	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12720
+FIELD	net/minecraft/commands/arguments/LongArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12721
+FIELD	net/minecraft/commands/arguments/LongArgument	Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	bounds	field_1_12722
+METHOD	net/minecraft/commands/arguments/LongArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)J	getLong	method_1_12682
+METHOD	net/minecraft/commands/arguments/LongArgument	(Lnet/minecraft/commands/arguments/LongArgument;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	lambda$static$0	method_1_12683
+METHOD	net/minecraft/commands/arguments/LongArgument	(Lnet/minecraft/commands/arguments/LongArgument;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	lambda$static$1	method_1_12684
+METHOD	net/minecraft/commands/arguments/LongArgument	()Lcom/mojang/brigadier/arguments/ArgumentType;	longArg	method_1_12685
+METHOD	net/minecraft/commands/arguments/LongArgument	(J)Lcom/mojang/brigadier/arguments/ArgumentType;	longArg	method_1_12686
+METHOD	net/minecraft/commands/arguments/LongArgument	(JJ)Lcom/mojang/brigadier/arguments/ArgumentType;	longArg	method_1_12687
+METHOD	net/minecraft/commands/arguments/LongArgument	(Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;)Lcom/mojang/brigadier/arguments/ArgumentType;	longArg	method_1_12688
+FIELD	net/minecraft/commands/arguments/SlotArgument	Lnet/minecraft/commands/arguments/SlotArgument;	INSTANCE	field_1_12723
+FIELD	net/minecraft/commands/arguments/SlotArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12724
+FIELD	net/minecraft/commands/arguments/TeamArgument	Lnet/minecraft/commands/arguments/TeamArgument;	INSTANCE	field_1_12725
+FIELD	net/minecraft/commands/arguments/TeamArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12726
+FIELD	net/minecraft/commands/arguments/TimeArgument	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12727
+FIELD	net/minecraft/commands/arguments/TimeArgument	Ljava/lang/Integer;	MAX	field_1_12728
+FIELD	net/minecraft/commands/arguments/TimeArgument	Ljava/lang/Integer;	MIN	field_1_12729
+FIELD	net/minecraft/commands/arguments/TimeArgument	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12730
+FIELD	net/minecraft/commands/arguments/TimeArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12731
+FIELD	net/minecraft/commands/arguments/TimeArgument	Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	bounds	field_1_12732
+METHOD	net/minecraft/commands/arguments/TimeArgument	(Lnet/minecraft/commands/arguments/TimeArgument;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	lambda$static$0	method_1_12689
+METHOD	net/minecraft/commands/arguments/TimeArgument	(Lnet/minecraft/commands/arguments/TimeArgument;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	lambda$static$1	method_1_12690
+FIELD	net/minecraft/commands/arguments/UuidArgument	Lnet/minecraft/commands/arguments/UuidArgument;	INSTANCE	field_1_12733
+FIELD	net/minecraft/commands/arguments/UuidArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12734
+FIELD	net/minecraft/network/RegistryFriendlyByteBuf	Lnet/minecraft/core/registries/IdMapProvider;	ids	field_1_12735
+FIELD	net/minecraft/network/RegistryFriendlyByteBuf	Lnet/minecraft/core/HolderGetter$Provider;	registries	field_1_12736
+METHOD	net/minecraft/network/RegistryFriendlyByteBuf	()Lnet/minecraft/core/registries/IdMapProvider;	ids	method_1_12691
+METHOD	net/minecraft/network/RegistryFriendlyByteBuf	()Lnet/minecraft/core/HolderGetter$Provider;	registries	method_1_12692
+FIELD	net/minecraft/server/commands/PardonIpCommand	Lcom/mojang/brigadier/suggestion/SuggestionProvider;	SUGGEST_BANNED_PLAYER	field_1_12737
+METHOD	net/minecraft/server/commands/PardonIpCommand	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$static$0	method_1_12693
+METHOD	net/minecraft/util/parsing/packrat/Dictionary	(Lnet/minecraft/util/parsing/packrat/Atom;Lnet/minecraft/util/parsing/packrat/Term;Lnet/minecraft/util/parsing/packrat/Rule$SimpleRuleActionWithContext;)Lnet/minecraft/util/parsing/packrat/NamedRule;	putStateful	method_1_12694
+CLASS	net/minecraft/util/parsing/packrat/Suggestion	class_1_2013
+FIELD	net/minecraft/util/parsing/packrat/Suggestion	Lnet/minecraft/util/parsing/packrat/Suggestion;	EMPTY	field_1_12738
+METHOD	net/minecraft/util/parsing/packrat/Suggestion	()Lnet/minecraft/commands/suggestions/SuggestionContext$Provider;	asCommandSuggestions	method_1_12695
+CLASS	net/minecraft/util/parsing/packrat/Suggestion$Composite	class_1_2014
+FIELD	net/minecraft/util/parsing/packrat/Suggestion$Composite	Lnet/minecraft/util/parsing/packrat/Suggestion;	first	comp_1_2255
+FIELD	net/minecraft/util/parsing/packrat/Suggestion$Composite	Lnet/minecraft/util/parsing/packrat/Suggestion;	second	comp_1_2256
+METHOD	net/minecraft/util/parsing/packrat/Suggestion$Composite	(Lnet/minecraft/commands/suggestions/SuggestionContext$Provider;Lnet/minecraft/commands/suggestions/SuggestionContext$Provider;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$asCommandSuggestions$0	method_1_12696
+CLASS	net/minecraft/util/parsing/packrat/Suggestion$Identifiers	class_1_2015
+FIELD	net/minecraft/util/parsing/packrat/Suggestion$Identifiers	Ljava/util/Set;	values	comp_1_2257
+METHOD	net/minecraft/util/parsing/packrat/Suggestion$Identifiers	(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$asCommandSuggestions$0	method_1_12697
+CLASS	net/minecraft/util/parsing/packrat/Suggestion$Literals	class_1_2016
+FIELD	net/minecraft/util/parsing/packrat/Suggestion$Literals	Ljava/util/Set;	values	comp_1_2258
+METHOD	net/minecraft/util/parsing/packrat/Suggestion$Literals	(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$asCommandSuggestions$0	method_1_12698
+CLASS	net/minecraft/util/parsing/packrat/Suggestion$RegistryElements	class_1_2017
+FIELD	net/minecraft/util/parsing/packrat/Suggestion$RegistryElements	Ljava/util/function/Predicate;	predicate	comp_1_2259
+FIELD	net/minecraft/util/parsing/packrat/Suggestion$RegistryElements	Lnet/minecraft/resources/ResourceKey;	registry	comp_1_2260
+METHOD	net/minecraft/util/parsing/packrat/Suggestion$RegistryElements	(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$asCommandSuggestions$0	method_1_12699
+METHOD	net/minecraft/util/parsing/packrat/Suggestion$RegistryElements	(Ljava/lang/Object;)Z	lambda$new$0	method_1_12700
+CLASS	net/minecraft/util/parsing/packrat/Suggestion$RegistryTags	class_1_2018
+FIELD	net/minecraft/util/parsing/packrat/Suggestion$RegistryTags	Lnet/minecraft/resources/ResourceKey;	registry	comp_1_2261
+METHOD	net/minecraft/util/parsing/packrat/Suggestion$RegistryTags	(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$asCommandSuggestions$0	method_1_12701
+METHOD	net/minecraft/world/level/gamerules/GameRules	(Ljava/lang/String;Lnet/minecraft/world/level/gamerules/GameRuleCategory;IIILnet/minecraft/world/flag/FeatureFlagSet;)Lnet/minecraft/world/level/gamerules/GameRule;	registerInteger	method_1_12702
+CLASS	com/mojang/blaze3d/vertex/SectionBufferBuilder	class_1_2019
+FIELD	com/mojang/blaze3d/vertex/SectionBufferBuilder	I	MAX_VERTEX_COUNT	field_1_12739
+FIELD	com/mojang/blaze3d/vertex/SectionBufferBuilder	I	NO_QUAD	field_1_12740
+FIELD	com/mojang/blaze3d/vertex/SectionBufferBuilder	Lit/unimi/dsi/fastutil/objects/Object2IntMap;	bakedQuadCache	field_1_12741
+FIELD	com/mojang/blaze3d/vertex/SectionBufferBuilder	Ljava/util/ArrayList;	bakedQuads	field_1_12742
+FIELD	com/mojang/blaze3d/vertex/SectionBufferBuilder	Lcom/mojang/blaze3d/vertex/ByteBufferBuilder;	buffer	field_1_12743
+FIELD	com/mojang/blaze3d/vertex/SectionBufferBuilder	Z	building	field_1_12744
+FIELD	com/mojang/blaze3d/vertex/SectionBufferBuilder	Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;	layer	field_1_12745
+FIELD	com/mojang/blaze3d/vertex/SectionBufferBuilder	Lcom/mojang/renderpearl/api/pipeline/PrimitiveTopology;	primitiveTopology	field_1_12746
+FIELD	com/mojang/blaze3d/vertex/SectionBufferBuilder	I	vertices	field_1_12747
+METHOD	com/mojang/blaze3d/vertex/SectionBufferBuilder	(FFFLnet/minecraft/client/resources/model/geometry/BakedQuad;III)V	addFluidQuad	method_1_12703
+METHOD	com/mojang/blaze3d/vertex/SectionBufferBuilder	(FFFLnet/minecraft/client/resources/model/geometry/BakedQuad;Lcom/mojang/blaze3d/vertex/QuadInstance;)V	addQuad	method_1_12704
+METHOD	com/mojang/blaze3d/vertex/SectionBufferBuilder	(Lnet/minecraft/client/resources/model/geometry/BakedQuad;FFFIIJ)V	addQuad	method_1_12705
+METHOD	com/mojang/blaze3d/vertex/SectionBufferBuilder	()Lcom/mojang/blaze3d/vertex/MeshData;	build	method_1_12706
+METHOD	com/mojang/blaze3d/vertex/SectionBufferBuilder	()V	ensureBuilding	method_1_12707
+METHOD	com/mojang/blaze3d/vertex/SectionBufferBuilder	(Lnet/minecraft/client/resources/model/geometry/BakedQuad;)I	getOrRegisterBakedQuad	method_1_12708
+METHOD	com/mojang/blaze3d/vertex/SectionBufferBuilder	(F)I	packPositionChannel	method_1_12709
+METHOD	com/mojang/blaze3d/vertex/SectionBufferBuilder	()Lcom/mojang/blaze3d/vertex/MeshData;	storeMesh	method_1_12710
+METHOD	com/mojang/blaze3d/vertex/SectionBufferBuilder	(Lnet/minecraft/client/resources/model/geometry/BakedQuad;)V	writeBakedQuad	method_1_12711
+FIELD	com/mojang/renderpearl/api/device/DeviceLimits	I	maxTexelBufferElements	comp_1_2262
+FIELD	net/minecraft/client/renderer/BindGroupLayouts	Lcom/mojang/renderpearl/api/pipeline/BindGroupLayout;	ACCUMULATE_OIT_COEFFS_DEPTH_BOUNDS_SAMPLER	field_1_12748
+FIELD	net/minecraft/client/renderer/BindGroupLayouts	Lcom/mojang/renderpearl/api/GpuFormat;	TERRAIN_VERTEX_TEXEL_FORMAT	field_1_12749
+FIELD	net/minecraft/client/renderer/BindGroupLayouts	Lcom/mojang/renderpearl/api/pipeline/BindGroupLayout;	WATER_MASK_SAMPLER	field_1_12750
+CLASS	net/minecraft/commands/CommandPermissionLevels	class_1_2020
+FIELD	net/minecraft/commands/CommandPermissionLevels	Lnet/minecraft/server/permissions/PermissionCheck;	LEVEL_ADMINS	field_1_12751
+FIELD	net/minecraft/commands/CommandPermissionLevels	Lnet/minecraft/server/permissions/PermissionCheck;	LEVEL_ALL	field_1_12752
+FIELD	net/minecraft/commands/CommandPermissionLevels	Lnet/minecraft/server/permissions/PermissionCheck;	LEVEL_GAMEMASTERS	field_1_12753
+FIELD	net/minecraft/commands/CommandPermissionLevels	Lnet/minecraft/server/permissions/PermissionCheck;	LEVEL_MODERATORS	field_1_12754
+FIELD	net/minecraft/commands/CommandPermissionLevels	Lnet/minecraft/server/permissions/PermissionCheck;	LEVEL_OWNERS	field_1_12755
+FIELD	net/minecraft/commands/arguments/AngleArgument	Lnet/minecraft/commands/arguments/AngleArgument;	INSTANCE	field_1_12756
+FIELD	net/minecraft/commands/arguments/AngleArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12757
+CLASS	net/minecraft/commands/arguments/FloatArgument	class_1_2021
+FIELD	net/minecraft/commands/arguments/FloatArgument	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12758
+FIELD	net/minecraft/commands/arguments/FloatArgument	Ljava/lang/Float;	MAX	field_1_12759
+FIELD	net/minecraft/commands/arguments/FloatArgument	Ljava/lang/Float;	MIN	field_1_12760
+FIELD	net/minecraft/commands/arguments/FloatArgument	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12761
+FIELD	net/minecraft/commands/arguments/FloatArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12762
+FIELD	net/minecraft/commands/arguments/FloatArgument	Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	bounds	field_1_12763
+METHOD	net/minecraft/commands/arguments/FloatArgument	()Lcom/mojang/brigadier/arguments/ArgumentType;	floatArg	method_1_12712
+METHOD	net/minecraft/commands/arguments/FloatArgument	(F)Lcom/mojang/brigadier/arguments/ArgumentType;	floatArg	method_1_12713
+METHOD	net/minecraft/commands/arguments/FloatArgument	(FF)Lcom/mojang/brigadier/arguments/ArgumentType;	floatArg	method_1_12714
+METHOD	net/minecraft/commands/arguments/FloatArgument	(Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;)Lcom/mojang/brigadier/arguments/ArgumentType;	floatArg	method_1_12715
+METHOD	net/minecraft/commands/arguments/FloatArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)F	getFloat	method_1_12716
+METHOD	net/minecraft/commands/arguments/FloatArgument	(Lnet/minecraft/commands/arguments/FloatArgument;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	lambda$static$0	method_1_12717
+METHOD	net/minecraft/commands/arguments/FloatArgument	(Lnet/minecraft/commands/arguments/FloatArgument;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	lambda$static$1	method_1_12718
+FIELD	net/minecraft/commands/arguments/RangeArgument$Floats	Lnet/minecraft/commands/arguments/RangeArgument$Floats;	INSTANCE	field_1_12764
+FIELD	net/minecraft/commands/arguments/RangeArgument$Floats	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12765
+FIELD	net/minecraft/commands/arguments/RangeArgument$Ints	Lnet/minecraft/commands/arguments/RangeArgument$Ints;	INSTANCE	field_1_12766
+FIELD	net/minecraft/commands/arguments/RangeArgument$Ints	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12767
+FIELD	net/minecraft/commands/arguments/SlotsArgument	Lnet/minecraft/commands/arguments/SlotsArgument;	INSTANCE	field_1_12768
+FIELD	net/minecraft/commands/arguments/SlotsArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12769
+FIELD	net/minecraft/commands/arguments/StyleArgument	Lnet/minecraft/commands/arguments/StyleArgument;	INSTANCE	field_1_12770
+FIELD	net/minecraft/commands/arguments/StyleArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12771
+CLASS	net/minecraft/commands/functions/CommandParser	class_1_2022
+METHOD	net/minecraft/commands/functions/CommandParser	(Lcom/mojang/brigadier/StringReader;)Lcom/mojang/brigadier/context/ContextChain;	parse	method_1_12719
+CLASS	net/minecraft/commands/functions/CommandParser$Provider	class_1_2023
+METHOD	net/minecraft/commands/functions/CommandParser$Provider	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/commands/functions/CommandParser;	create	method_1_12720
+FIELD	net/minecraft/commands/functions/MacroFunction	Lnet/minecraft/commands/functions/CommandParser$Provider;	parserProvider	field_1_12772
+METHOD	net/minecraft/server/commands/AttributeCommand	(Lnet/minecraft/core/Holder;Lnet/minecraft/world/entity/Entity;)Ljava/util/stream/Stream;	lambda$getAttributeModifierSuggestions$0	method_1_12721
+METHOD	net/minecraft/server/commands/AttributeCommand	(Lnet/minecraft/world/entity/ai/attributes/AttributeInstance;)Ljava/util/stream/Stream;	lambda$getAttributeModifierSuggestions$1	method_1_12722
+METHOD	net/minecraft/server/commands/AttributeCommand	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$suggestEntityAttributeModifiers$0	method_1_12723
+METHOD	net/minecraft/server/commands/AttributeCommand	()Lcom/mojang/brigadier/suggestion/SuggestionProvider;	suggestEntityAttributeModifiers	method_1_12724
+FIELD	net/minecraft/server/commands/PlaySoundCommand	F	DEFAULT_MIN_VOLUME	field_1_12773
+FIELD	net/minecraft/server/commands/PlaySoundCommand	F	DEFAULT_PITCH	field_1_12774
+FIELD	net/minecraft/server/commands/PlaySoundCommand	F	DEFAULT_VOLUME	field_1_12775
+FIELD	net/minecraft/server/commands/WhitelistCommand	Lcom/mojang/brigadier/suggestion/SuggestionProvider;	SUGGEST_NOT_WHITELISTED_PLAYERS	field_1_12776
+FIELD	net/minecraft/server/commands/WhitelistCommand	Lcom/mojang/brigadier/suggestion/SuggestionProvider;	SUGGEST_WHITELISTED_PLAYERS	field_1_12777
+METHOD	net/minecraft/server/commands/WhitelistCommand	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$static$0	method_1_12725
+METHOD	net/minecraft/server/commands/WhitelistCommand	(Lnet/minecraft/server/players/PlayerList;Lnet/minecraft/server/players/NameAndId;)Z	lambda$static$1	method_1_12726
+METHOD	net/minecraft/server/commands/WhitelistCommand	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$static$2	method_1_12727
+METHOD	net/minecraft/world/item/crafting/RecipeHolder	(Lnet/minecraft/core/Holder$Reference;)Lnet/minecraft/world/item/crafting/RecipeHolder;	wrap	method_1_12728
+FIELD	net/minecraft/client/gui/screens/FaviconTexture	Lnet/minecraft/client/renderer/texture/TextureResources;	texture	field_1_12778
+FIELD	net/minecraft/client/renderer/RenderPassLayouts	Lcom/mojang/renderpearl/api/pipeline/RenderPassLayout;	OIT	field_1_12779
+FIELD	net/minecraft/client/renderer/RenderPassLayouts	Lcom/mojang/renderpearl/api/pipeline/RenderPassLayout$Subpass;	OIT_ACCUMULATE_SUBPASS	field_1_12780
+FIELD	net/minecraft/client/renderer/RenderPassLayouts	Lcom/mojang/renderpearl/api/pipeline/RenderPassLayout$Subpass;	OIT_COMPOSITE_SUBPASS	field_1_12781
+FIELD	net/minecraft/client/renderer/RenderPassLayouts	Lcom/mojang/renderpearl/api/pipeline/RenderPassLayout$Subpass;	OIT_DEPTH_BOUNDS_CULL_SUBPASS	field_1_12782
+FIELD	net/minecraft/client/renderer/RenderPassLayouts	Lcom/mojang/renderpearl/api/pipeline/RenderPassLayout$Subpass;	OIT_DEPTH_BOUNDS_SUBPASS	field_1_12783
+FIELD	net/minecraft/client/renderer/RenderPassLayouts	Lcom/mojang/renderpearl/api/pipeline/RenderPassLayout$Subpass;	OIT_TRANSMITTANCE_SUBPASS	field_1_12784
+FIELD	net/minecraft/client/renderer/RenderPassLayouts	Lcom/mojang/renderpearl/api/pipeline/RenderPassLayout;	WATER_MASK	field_1_12785
+CLASS	net/minecraft/commands/arguments/DialogArgument	class_1_2024
+FIELD	net/minecraft/commands/arguments/DialogArgument	Lnet/minecraft/commands/arguments/DialogArgument;	INSTANCE	field_1_12786
+FIELD	net/minecraft/commands/arguments/DialogArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12787
+METHOD	net/minecraft/commands/arguments/DialogArgument	()Lcom/mojang/brigadier/arguments/ArgumentType;	dialog	method_1_12729
+METHOD	net/minecraft/commands/arguments/DialogArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder;	getDialog	method_1_12730
+CLASS	net/minecraft/commands/arguments/DoubleArgument	class_1_2025
+FIELD	net/minecraft/commands/arguments/DoubleArgument	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12788
+FIELD	net/minecraft/commands/arguments/DoubleArgument	Ljava/lang/Double;	MAX	field_1_12789
+FIELD	net/minecraft/commands/arguments/DoubleArgument	Ljava/lang/Double;	MIN	field_1_12790
+FIELD	net/minecraft/commands/arguments/DoubleArgument	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12791
+FIELD	net/minecraft/commands/arguments/DoubleArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12792
+FIELD	net/minecraft/commands/arguments/DoubleArgument	Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	bounds	field_1_12793
+METHOD	net/minecraft/commands/arguments/DoubleArgument	()Lcom/mojang/brigadier/arguments/ArgumentType;	doubleArg	method_1_12731
+METHOD	net/minecraft/commands/arguments/DoubleArgument	(D)Lcom/mojang/brigadier/arguments/ArgumentType;	doubleArg	method_1_12732
+METHOD	net/minecraft/commands/arguments/DoubleArgument	(DD)Lcom/mojang/brigadier/arguments/ArgumentType;	doubleArg	method_1_12733
+METHOD	net/minecraft/commands/arguments/DoubleArgument	(Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;)Lcom/mojang/brigadier/arguments/ArgumentType;	doubleArg	method_1_12734
+METHOD	net/minecraft/commands/arguments/DoubleArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)D	getDouble	method_1_12735
+METHOD	net/minecraft/commands/arguments/DoubleArgument	(Lnet/minecraft/commands/arguments/DoubleArgument;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	lambda$static$0	method_1_12736
+METHOD	net/minecraft/commands/arguments/DoubleArgument	(Lnet/minecraft/commands/arguments/DoubleArgument;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	lambda$static$1	method_1_12737
+FIELD	net/minecraft/commands/arguments/EntityArgument	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12794
+FIELD	net/minecraft/commands/arguments/EntityArgument	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12795
+FIELD	net/minecraft/commands/arguments/EntityArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12796
+METHOD	net/minecraft/commands/arguments/EntityArgument	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/stream/Stream;	getSuggestedEntities	method_1_12738
+METHOD	net/minecraft/commands/arguments/EntityArgument	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_12739
+METHOD	net/minecraft/commands/arguments/EntityArgument	(Lnet/minecraft/commands/arguments/EntityArgument;)Ljava/lang/Boolean;	lambda$static$1	method_1_12740
+METHOD	net/minecraft/commands/arguments/EntityArgument	(Lnet/minecraft/commands/arguments/EntityArgument;)Ljava/lang/Boolean;	lambda$static$2	method_1_12741
+FIELD	net/minecraft/commands/arguments/EntityArgument$1	B	FLAG_PLAYERS_ONLY	field_1_12797
+FIELD	net/minecraft/commands/arguments/EntityArgument$1	B	FLAG_SINGLE_RESULT	field_1_12798
+METHOD	net/minecraft/commands/arguments/EntityArgument$1	(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/commands/arguments/EntityArgument;	decode	method_1_12742
+METHOD	net/minecraft/commands/arguments/EntityArgument$1	(Lio/netty/buffer/ByteBuf;Lnet/minecraft/commands/arguments/EntityArgument;)V	encode	method_1_12743
+FIELD	net/minecraft/commands/arguments/NbtTagArgument	Lnet/minecraft/commands/arguments/NbtTagArgument;	INSTANCE	field_1_12799
+FIELD	net/minecraft/commands/arguments/NbtTagArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12800
+CLASS	net/minecraft/commands/arguments/SignedArgument	class_1_2026
+CLASS	net/minecraft/commands/arguments/StringArgument	class_1_2027
+FIELD	net/minecraft/commands/arguments/StringArgument	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12801
+FIELD	net/minecraft/commands/arguments/StringArgument	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12802
+FIELD	net/minecraft/commands/arguments/StringArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12803
+FIELD	net/minecraft/commands/arguments/StringArgument	Lnet/minecraft/commands/arguments/StringArgument$StringType;	stringType	field_1_12804
+METHOD	net/minecraft/commands/arguments/StringArgument	(Lnet/minecraft/commands/arguments/StringArgument$StringType;)Lcom/mojang/brigadier/arguments/StringArgumentType;	createBrigadierType	method_1_12744
+METHOD	net/minecraft/commands/arguments/StringArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/lang/String;	getString	method_1_12745
+METHOD	net/minecraft/commands/arguments/StringArgument	()Lcom/mojang/brigadier/arguments/ArgumentType;	greedyString	method_1_12746
+METHOD	net/minecraft/commands/arguments/StringArgument	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_12747
+METHOD	net/minecraft/commands/arguments/StringArgument	(Lnet/minecraft/commands/arguments/StringArgument;)Lnet/minecraft/commands/arguments/StringArgument$StringType;	lambda$static$1	method_1_12748
+METHOD	net/minecraft/commands/arguments/StringArgument	(Lnet/minecraft/commands/arguments/StringArgument;)Lnet/minecraft/commands/arguments/StringArgument$StringType;	lambda$static$2	method_1_12749
+METHOD	net/minecraft/commands/arguments/StringArgument	()Lcom/mojang/brigadier/arguments/ArgumentType;	string	method_1_12750
+METHOD	net/minecraft/commands/arguments/StringArgument	()Lcom/mojang/brigadier/arguments/ArgumentType;	word	method_1_12751
+CLASS	net/minecraft/commands/arguments/StringArgument$StringType	class_1_2028
+FIELD	net/minecraft/commands/arguments/StringArgument$StringType	Lcom/mojang/serialization/Codec;	CODEC	field_1_12805
+FIELD	net/minecraft/commands/arguments/StringArgument$StringType	Lnet/minecraft/commands/arguments/StringArgument$StringType;	GREEDY	field_1_12806
+FIELD	net/minecraft/commands/arguments/StringArgument$StringType	Lnet/minecraft/commands/arguments/StringArgument$StringType;	QUOTED	field_1_12807
+FIELD	net/minecraft/commands/arguments/StringArgument$StringType	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12808
+FIELD	net/minecraft/commands/arguments/StringArgument$StringType	Lnet/minecraft/commands/arguments/StringArgument$StringType;	WORD	field_1_12809
+FIELD	net/minecraft/commands/arguments/StringArgument$StringType	I	id	field_1_12810
+FIELD	net/minecraft/commands/arguments/StringArgument$StringType	Ljava/lang/String;	name	field_1_12811
+METHOD	net/minecraft/commands/arguments/StringArgument$StringType	()[Lnet/minecraft/commands/arguments/StringArgument$StringType;	$values	method_1_12752
+METHOD	net/minecraft/commands/arguments/StringArgument$StringType	(Lnet/minecraft/commands/arguments/StringArgument$StringType;)I	lambda$static$0	method_1_12753
+CLASS	net/minecraft/commands/suggestions/package-info	class_1_2029
+FIELD	net/minecraft/core/registries/BuiltInRegistries	Lnet/minecraft/core/Registry;	COMMAND_SUGGESTION_TYPE	field_1_12812
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$0	method_1_12754
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$17	method_1_12755
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$20	method_1_12756
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$3	method_1_12757
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$34	method_1_12758
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$35	method_1_12759
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$36	method_1_12760
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$37	method_1_12761
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$38	method_1_12762
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$39	method_1_12763
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$41	method_1_12764
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$44	method_1_12765
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$45	method_1_12766
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$46	method_1_12767
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$5	method_1_12768
+METHOD	net/minecraft/core/registries/BuiltInRegistries	()Ljava/lang/Object;	lambda$static$8	method_1_12769
+METHOD	net/minecraft/server/commands/ScoreboardCommand	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$suggestTargetTriggers$0	method_1_12770
+METHOD	net/minecraft/server/commands/ScoreboardCommand	()Lcom/mojang/brigadier/suggestion/SuggestionProvider;	suggestTargetTriggers	method_1_12771
+FIELD	net/minecraft/server/commands/item/ItemCommands	Lnet/minecraft/util/context/ContextKeySet;	SLOT_SOURCE_CONTEXT	field_1_12813
+FIELD	net/minecraft/client/resources/MapTextureManager$MapInstance	Lnet/minecraft/client/resources/MapTextureManager;	this$0	field_1_12814
+METHOD	net/minecraft/client/resources/MapTextureManager$MapInstance	()V	close	method_1_12772
+CLASS	net/minecraft/commands/arguments/BooleanArgument	class_1_2030
+FIELD	net/minecraft/commands/arguments/BooleanArgument	Lnet/minecraft/commands/arguments/BooleanArgument;	INSTANCE	field_1_12815
+FIELD	net/minecraft/commands/arguments/BooleanArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12816
+METHOD	net/minecraft/commands/arguments/BooleanArgument	()Lcom/mojang/brigadier/arguments/ArgumentType;	bool	method_1_12773
+METHOD	net/minecraft/commands/arguments/BooleanArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Z	getBool	method_1_12774
+CLASS	net/minecraft/commands/arguments/FeatureArgument	class_1_2031
+FIELD	net/minecraft/commands/arguments/FeatureArgument	Lnet/minecraft/commands/arguments/FeatureArgument;	INSTANCE	field_1_12817
+FIELD	net/minecraft/commands/arguments/FeatureArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12818
+METHOD	net/minecraft/commands/arguments/FeatureArgument	()Lcom/mojang/brigadier/arguments/ArgumentType;	feature	method_1_12775
+METHOD	net/minecraft/commands/arguments/FeatureArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder;	getFeature	method_1_12776
+CLASS	net/minecraft/commands/arguments/IntegerArgument	class_1_2032
+FIELD	net/minecraft/commands/arguments/IntegerArgument	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12819
+FIELD	net/minecraft/commands/arguments/IntegerArgument	Ljava/lang/Integer;	MAX	field_1_12820
+FIELD	net/minecraft/commands/arguments/IntegerArgument	Ljava/lang/Integer;	MIN	field_1_12821
+FIELD	net/minecraft/commands/arguments/IntegerArgument	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12822
+FIELD	net/minecraft/commands/arguments/IntegerArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12823
+FIELD	net/minecraft/commands/arguments/IntegerArgument	Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	bounds	field_1_12824
+METHOD	net/minecraft/commands/arguments/IntegerArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)I	getInteger	method_1_12777
+METHOD	net/minecraft/commands/arguments/IntegerArgument	()Lcom/mojang/brigadier/arguments/ArgumentType;	integer	method_1_12778
+METHOD	net/minecraft/commands/arguments/IntegerArgument	(I)Lcom/mojang/brigadier/arguments/ArgumentType;	integer	method_1_12779
+METHOD	net/minecraft/commands/arguments/IntegerArgument	(II)Lcom/mojang/brigadier/arguments/ArgumentType;	integer	method_1_12780
+METHOD	net/minecraft/commands/arguments/IntegerArgument	(Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;)Lcom/mojang/brigadier/arguments/ArgumentType;	integer	method_1_12781
+METHOD	net/minecraft/commands/arguments/IntegerArgument	(Lnet/minecraft/commands/arguments/IntegerArgument;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	lambda$static$0	method_1_12782
+METHOD	net/minecraft/commands/arguments/IntegerArgument	(Lnet/minecraft/commands/arguments/IntegerArgument;)Lnet/minecraft/advancements/predicates/MinMaxBounds$Bounds;	lambda$static$1	method_1_12783
+FIELD	net/minecraft/commands/arguments/MessageArgument	Lnet/minecraft/commands/arguments/MessageArgument;	INSTANCE	field_1_12825
+FIELD	net/minecraft/commands/arguments/MessageArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12826
+FIELD	net/minecraft/commands/arguments/NbtPathArgument	Lnet/minecraft/commands/arguments/NbtPathArgument;	INSTANCE	field_1_12827
+FIELD	net/minecraft/commands/arguments/NbtPathArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12828
+FIELD	net/minecraft/commands/arguments/item/ItemParser	Lnet/minecraft/nbt/TagParser;	TAG_PARSER	field_1_12829
+FIELD	net/minecraft/server/commands/DebugConfigCommand	Lcom/mojang/brigadier/suggestion/SuggestionProvider;	SUGGEST_PLAYERS_IN_CONFIG_PHASE	field_1_12830
+METHOD	net/minecraft/server/commands/DebugConfigCommand	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$static$0	method_1_12784
+METHOD	net/minecraft/client/renderer/block/FluidRenderer$Output	(Lnet/minecraft/client/renderer/chunk/ChunkSectionLayer;FFFLnet/minecraft/client/resources/model/geometry/BakedQuad;III)V	put	method_1_12785
+FIELD	net/minecraft/commands/arguments/GameModeArgument	Lnet/minecraft/commands/arguments/GameModeArgument;	INSTANCE	field_1_12831
+FIELD	net/minecraft/commands/arguments/GameModeArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12832
+FIELD	net/minecraft/commands/arguments/HexColorArgument	Lnet/minecraft/commands/arguments/HexColorArgument;	INSTANCE	field_1_12833
+FIELD	net/minecraft/commands/arguments/HexColorArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12834
+FIELD	net/minecraft/commands/arguments/ParticleArgument	Lnet/minecraft/commands/arguments/ParticleArgument;	INSTANCE	field_1_12835
+FIELD	net/minecraft/commands/arguments/ParticleArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12836
+FIELD	net/minecraft/commands/arguments/ResourceArgument	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12837
+FIELD	net/minecraft/commands/arguments/ResourceArgument	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12838
+FIELD	net/minecraft/commands/arguments/ResourceArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12839
+METHOD	net/minecraft/commands/arguments/ResourceArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;	getAdvancement	method_1_12786
+METHOD	net/minecraft/commands/arguments/ResourceArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/world/item/crafting/RecipeHolder;	getLearnableRecipe	method_1_12787
+METHOD	net/minecraft/commands/arguments/ResourceArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;	getStructure	method_1_12788
+METHOD	net/minecraft/commands/arguments/ResourceArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder$Reference;	getStructureTemplatePool	method_1_12789
+METHOD	net/minecraft/commands/arguments/ResourceArgument	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_12790
+METHOD	net/minecraft/commands/arguments/ResourceArgument	(Lnet/minecraft/commands/arguments/ResourceArgument;)Lnet/minecraft/resources/ResourceKey;	lambda$static$1	method_1_12791
+METHOD	net/minecraft/commands/arguments/ResourceArgument	(Lnet/minecraft/commands/arguments/ResourceArgument;)Lnet/minecraft/resources/ResourceKey;	lambda$static$2	method_1_12792
+METHOD	net/minecraft/server/commands/AdvancementCommands	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$suggestAdvancementCriteria$0	method_1_12793
+METHOD	net/minecraft/server/commands/AdvancementCommands	()Lcom/mojang/brigadier/suggestion/SuggestionProvider;	suggestAdvancementCriteria	method_1_12794
+FIELD	net/minecraft/util/parsing/packrat/ErrorCollector	Lnet/minecraft/util/parsing/packrat/ErrorCollector;	NOP	field_1_12840
+METHOD	net/minecraft/advancements/predicates/MinMaxBounds$Bounds	(Lcom/mojang/serialization/Codec;)Lcom/mojang/serialization/MapCodec;	createMapCodec	method_1_12795
+FIELD	net/minecraft/commands/arguments/ComponentArgument	Lnet/minecraft/commands/arguments/ComponentArgument;	INSTANCE	field_1_12841
+FIELD	net/minecraft/commands/arguments/ComponentArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12842
+FIELD	net/minecraft/commands/arguments/DimensionArgument	Lnet/minecraft/commands/arguments/DimensionArgument;	INSTANCE	field_1_12843
+FIELD	net/minecraft/commands/arguments/DimensionArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12844
+CLASS	net/minecraft/commands/arguments/LootTableArgument	class_1_2033
+FIELD	net/minecraft/commands/arguments/LootTableArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12845
+METHOD	net/minecraft/commands/arguments/LootTableArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/commands/arguments/ValidationWrapper;	getLootTable	method_1_12796
+METHOD	net/minecraft/commands/arguments/LootTableArgument	(Lnet/minecraft/util/context/ContextKeySet;)Lcom/mojang/brigadier/arguments/ArgumentType;	lootTable	method_1_12797
+FIELD	net/minecraft/commands/arguments/ObjectiveArgument	Lnet/minecraft/commands/arguments/ObjectiveArgument;	INSTANCE	field_1_12846
+FIELD	net/minecraft/commands/arguments/ObjectiveArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12847
+FIELD	net/minecraft/commands/arguments/OperationArgument	Lnet/minecraft/commands/arguments/OperationArgument;	INSTANCE	field_1_12848
+FIELD	net/minecraft/commands/arguments/OperationArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12849
+FIELD	net/minecraft/commands/arguments/OperationArgument	Ljava/util/List;	VALUES	field_1_12850
+FIELD	net/minecraft/commands/arguments/TeamColorArgument	Lnet/minecraft/commands/arguments/TeamColorArgument;	INSTANCE	field_1_12851
+FIELD	net/minecraft/commands/arguments/TeamColorArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12852
+CLASS	net/minecraft/commands/arguments/ValidationWrapper	class_1_2034
+FIELD	net/minecraft/commands/arguments/ValidationWrapper	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_VALIDATION_FAILED	field_1_12853
+FIELD	net/minecraft/commands/arguments/ValidationWrapper	Lorg/slf4j/Logger;	LOGGER	field_1_12854
+FIELD	net/minecraft/commands/arguments/ValidationWrapper	Lnet/minecraft/util/context/ContextKeySet;	contextKeySet	field_1_12855
+FIELD	net/minecraft/commands/arguments/ValidationWrapper	Z	isValidated	field_1_12856
+FIELD	net/minecraft/commands/arguments/ValidationWrapper	Lnet/minecraft/core/Holder;	result	field_1_12857
+METHOD	net/minecraft/commands/arguments/ValidationWrapper	()Ljava/util/Optional;	getRegisteredNameIfPresent	method_1_12798
+METHOD	net/minecraft/commands/arguments/ValidationWrapper	(Lnet/minecraft/util/ProblemReporter;)V	validate	method_1_12799
+METHOD	net/minecraft/commands/arguments/ValidationWrapper	(Lnet/minecraft/util/context/ContextKeySet;)Lnet/minecraft/core/Holder;	validateAndGet	method_1_12800
+METHOD	net/minecraft/commands/arguments/ValidationWrapper	()V	validateStandAlone	method_1_12801
+CLASS	net/minecraft/commands/arguments/ValidationWrapper$Provider	class_1_2035
+FIELD	net/minecraft/commands/arguments/ValidationWrapper$Provider	Lnet/minecraft/commands/arguments/ValidationWrapper$Provider;	IMMEDIATE	field_1_12858
+FIELD	net/minecraft/commands/arguments/ValidationWrapper$Provider	Lnet/minecraft/commands/arguments/ValidationWrapper$Provider;	LAZY	field_1_12859
+METHOD	net/minecraft/commands/arguments/ValidationWrapper$Provider	(Lnet/minecraft/core/Holder;Lnet/minecraft/util/context/ContextKeySet;)Lnet/minecraft/commands/arguments/ValidationWrapper;	getOrCreate	method_1_12802
+CLASS	net/minecraft/commands/arguments/ValidationWrapper$Provider$Collecting	class_1_2036
+FIELD	net/minecraft/commands/arguments/ValidationWrapper$Provider$Collecting	Ljava/util/Map;	values	field_1_12860
+METHOD	net/minecraft/commands/arguments/ValidationWrapper$Provider$Collecting	(Lnet/minecraft/util/ProblemReporter$Collector;)V	validateAll	method_1_12803
+CLASS	net/minecraft/commands/arguments/ValidationWrapper$Provider$Collecting$HolderValidators	class_1_2037
+FIELD	net/minecraft/commands/arguments/ValidationWrapper$Provider$Collecting$HolderValidators	Lnet/minecraft/core/Holder;	holder	field_1_12861
+FIELD	net/minecraft/commands/arguments/ValidationWrapper$Provider$Collecting$HolderValidators	Ljava/util/Map;	wrappers	field_1_12862
+METHOD	net/minecraft/commands/arguments/ValidationWrapper$Provider$Collecting$HolderValidators	(Lnet/minecraft/util/context/ContextKeySet;)Lnet/minecraft/commands/arguments/ValidationWrapper;	createWrapper	method_1_12804
+METHOD	net/minecraft/commands/arguments/ValidationWrapper$Provider$Collecting$HolderValidators	(Lnet/minecraft/util/context/ContextKeySet;)Lnet/minecraft/commands/arguments/ValidationWrapper;	getOrCreateWrapper	method_1_12805
+METHOD	net/minecraft/commands/arguments/ValidationWrapper$Provider$Collecting$HolderValidators	()V	markAllAsValidated	method_1_12806
+METHOD	net/minecraft/commands/arguments/ValidationWrapper$Provider$Collecting$HolderValidators	(Lnet/minecraft/util/ProblemReporter;)V	validateAll	method_1_12807
+FIELD	net/minecraft/commands/arguments/item/ItemArgument	Lnet/minecraft/commands/arguments/item/ItemArgument;	INSTANCE	field_1_12863
+FIELD	net/minecraft/commands/arguments/item/ItemArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12864
+METHOD	net/minecraft/commands/arguments/item/ItemArgument	(Lnet/minecraft/commands/ParseContext;)Lnet/minecraft/commands/arguments/item/ItemParser;	getParser	method_1_12808
+METHOD	net/minecraft/world/level/storage/loot/Validatable	(Lnet/minecraft/world/level/storage/loot/ValidationContext;Ljava/lang/String;Lnet/minecraft/core/Holder;)V	lambda$validateConditionHolder$0	method_1_12809
+METHOD	net/minecraft/world/level/storage/loot/Validatable	(Lnet/minecraft/world/level/storage/loot/ValidationContext;Ljava/lang/String;Ljava/util/Optional;)V	validateConditionHolder	method_1_12810
+METHOD	net/minecraft/world/level/storage/loot/Validatable	(Lnet/minecraft/world/level/storage/loot/ValidationContext;Ljava/lang/String;Lnet/minecraft/core/Holder;)V	validateConditionHolder	method_1_12811
+METHOD	net/minecraft/world/level/storage/loot/Validatable	(Lnet/minecraft/world/level/storage/loot/ValidationContext;Ljava/lang/String;Ljava/util/Optional;)Z	validateIfConditionCanPass	method_1_12812
+METHOD	net/minecraft/world/level/storage/loot/Validatable	(Lnet/minecraft/world/level/storage/loot/ValidationContext;Ljava/lang/String;Lnet/minecraft/core/Holder;)Z	validateIfConditionCanPass	method_1_12813
+METHOD	net/minecraft/world/timeline/AttributeTrackSampler	()Lnet/minecraft/world/attribute/modifier/AttributeModifier;	modifier	method_1_12814
+METHOD	net/minecraft/world/timeline/AttributeTrackSampler	()Ljava/lang/Object;	sampleArgument	method_1_12815
+FIELD	net/minecraft/commands/arguments/IdentifierArgument	Lnet/minecraft/commands/arguments/IdentifierArgument;	INSTANCE	field_1_12865
+FIELD	net/minecraft/commands/arguments/IdentifierArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12866
+FIELD	net/minecraft/commands/arguments/SlotSourceArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12867
+METHOD	net/minecraft/commands/arguments/SlotSourceArgument	(Lnet/minecraft/commands/ParseContext;Lnet/minecraft/world/inventory/SlotRange;)Lnet/minecraft/commands/arguments/SlotSourceArgument$SlotResult;	wrapRawSlotRange	method_1_12816
+CLASS	net/minecraft/commands/arguments/SlotSourceArgument$RawArgument	class_1_2038
+FIELD	net/minecraft/commands/arguments/SlotSourceArgument$RawArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12868
+CLASS	net/minecraft/commands/arguments/SlotSourceArgument$SlotResult	class_1_2039
+FIELD	net/minecraft/commands/arguments/SlotSourceArgument$SlotResult	Ljava/util/Optional;	originalSlotRange	comp_1_2263
+FIELD	net/minecraft/commands/arguments/SlotSourceArgument$SlotResult	Lnet/minecraft/commands/arguments/ValidationWrapper;	value	comp_1_2264
+METHOD	net/minecraft/commands/arguments/SlotSourceArgument$SlotResult	()Ljava/util/Optional;	name	method_1_12817
+CLASS	net/minecraft/commands/suggestions/CustomSuggestion	class_1_2040
+METHOD	net/minecraft/commands/suggestions/CustomSuggestion	(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	generate	method_1_12818
+METHOD	net/minecraft/commands/suggestions/CustomSuggestion	()Lnet/minecraft/commands/suggestions/SerializableCustomSuggestion;	serializable	method_1_12819
+METHOD	net/minecraft/commands/suggestions/CustomSuggestion	()Lcom/mojang/brigadier/suggestion/SuggestionProvider;	toBrigadier	method_1_12820
+METHOD	net/minecraft/commands/suggestions/CustomSuggestion	(Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lnet/minecraft/commands/suggestions/CustomSuggestion$BrigadierWrapper;	unwrapOrThrow	method_1_12821
+CLASS	net/minecraft/commands/suggestions/CustomSuggestion$BrigadierWrapper	class_1_2041
+FIELD	net/minecraft/commands/suggestions/CustomSuggestion$BrigadierWrapper	Lnet/minecraft/commands/suggestions/CustomSuggestion;	suggestion	comp_1_2265
+METHOD	net/minecraft/commands/suggestions/CustomSuggestion$BrigadierWrapper	()Lnet/minecraft/commands/suggestions/CustomSuggestion$BrigadierWrapper;	cast	method_1_12822
+FIELD	net/minecraft/network/protocol/game/GamePacketTypes	Lnet/minecraft/network/protocol/PacketType;	CLIENTBOUND_ADD_ENTITY_MOTION	field_1_12869
+METHOD	net/minecraft/util/datafix/schemas/NamespacedSchema	(Lcom/mojang/serialization/DynamicLike;Ljava/lang/String;)Z	namespacedIdMatches	method_1_12823
+METHOD	net/minecraft/util/datafix/schemas/NamespacedSchema	(Lcom/mojang/serialization/DynamicLike;Ljava/util/function/Predicate;)Z	namespacedIdMatches	method_1_12824
+FIELD	net/minecraft/client/renderer/texture/TextureManager	Lnet/minecraft/client/renderer/texture/TextureResources;	missingTexture	field_1_12870
+METHOD	net/minecraft/client/renderer/texture/TextureManager	(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/renderer/texture/TextureManager$Entry;)V	lambda$close$0	method_1_12825
+METHOD	net/minecraft/client/renderer/texture/TextureManager	(Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/TextureManager$Entry;	lambda$getTexture$0	method_1_12826
+METHOD	net/minecraft/client/renderer/texture/TextureManager	(Ljava/lang/Void;)V	lambda$reload$2	method_1_12827
+METHOD	net/minecraft/client/renderer/texture/TextureManager	(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/renderer/texture/TextureManager$Entry;)V	lambda$reload$3	method_1_12828
+CLASS	net/minecraft/client/renderer/texture/TextureManager$Entry	class_1_2042
+FIELD	net/minecraft/client/renderer/texture/TextureManager$Entry	Lnet/minecraft/client/renderer/texture/TextureHandle;	current	field_1_12871
+FIELD	net/minecraft/client/renderer/texture/TextureManager$Entry	Lnet/minecraft/resources/Identifier;	identifier	field_1_12872
+FIELD	net/minecraft/client/renderer/texture/TextureManager$Entry	Ljava/util/concurrent/CompletableFuture;	pendingReload	field_1_12873
+FIELD	net/minecraft/client/renderer/texture/TextureManager$Entry	Lnet/minecraft/client/renderer/texture/TextureProvider;	provider	field_1_12874
+METHOD	net/minecraft/client/renderer/texture/TextureManager$Entry	(Ljava/nio/file/Path;)V	dumpContents	method_1_12829
+METHOD	net/minecraft/client/renderer/texture/TextureManager$Entry	()V	finishReload	method_1_12830
+METHOD	net/minecraft/client/renderer/texture/TextureManager$Entry	(Lnet/minecraft/server/packs/resources/ResourceManager;)Lnet/minecraft/client/renderer/texture/TextureProvider$IntermediaryResources;	lambda$scheduleLoad$0	method_1_12831
+METHOD	net/minecraft/client/renderer/texture/TextureManager$Entry	(Lnet/minecraft/server/packs/resources/ResourceManager;)Lnet/minecraft/client/renderer/texture/TextureProvider$IntermediaryResources;	loadContents	method_1_12832
+METHOD	net/minecraft/client/renderer/texture/TextureManager$Entry	(Lnet/minecraft/server/packs/resources/ResourceManager;)Lnet/minecraft/client/renderer/texture/TextureProvider$IntermediaryResources;	loadContentsSafe	method_1_12833
+METHOD	net/minecraft/client/renderer/texture/TextureManager$Entry	(Lnet/minecraft/server/packs/resources/ResourceManager;)V	loadCurrentTexture	method_1_12834
+METHOD	net/minecraft/client/renderer/texture/TextureManager$Entry	(Lnet/minecraft/server/packs/resources/ResourceManager;Ljava/util/concurrent/Executor;)Ljava/util/concurrent/CompletableFuture;	scheduleLoad	method_1_12835
+CLASS	net/minecraft/commands/ServerPlayerSuggestionContext	class_1_2043
+FIELD	net/minecraft/commands/ServerPlayerSuggestionContext	Lnet/minecraft/core/HolderLookup$Provider;	filteredProvider	field_1_12875
+FIELD	net/minecraft/commands/ServerPlayerSuggestionContext	Lnet/minecraft/server/MinecraftServer;	server	field_1_12876
+FIELD	net/minecraft/commands/ServerPlayerSuggestionContext	Lnet/minecraft/server/level/ServerPlayer;	serverPlayer	field_1_12877
+METHOD	net/minecraft/commands/ServerPlayerSuggestionContext	(Lnet/minecraft/commands/suggestions/SuggestionContext$ElementSuggestionType;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;Ljava/util/function/Predicate;Lnet/minecraft/core/HolderLookup$RegistryLookup;)Ljava/util/concurrent/CompletableFuture;	lambda$suggestRegistryElements$0	method_1_12836
+METHOD	net/minecraft/commands/ServerPlayerSuggestionContext	()Lnet/minecraft/server/level/ServerLevel;	level	method_1_12837
+FIELD	net/minecraft/commands/arguments/CompoundTagArgument	Lnet/minecraft/commands/arguments/CompoundTagArgument;	INSTANCE	field_1_12878
+FIELD	net/minecraft/commands/arguments/CompoundTagArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12879
+FIELD	net/minecraft/commands/arguments/GameProfileArgument	Lnet/minecraft/commands/arguments/GameProfileArgument;	INSTANCE	field_1_12880
+FIELD	net/minecraft/commands/arguments/GameProfileArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12881
+FIELD	net/minecraft/commands/arguments/ScoreHolderArgument	Lnet/minecraft/commands/arguments/ScoreHolderArgument$WildcardSupplier;	EMPTY_WILDCARD	field_1_12882
+FIELD	net/minecraft/commands/arguments/ScoreHolderArgument	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12883
+FIELD	net/minecraft/commands/arguments/ScoreHolderArgument	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12884
+FIELD	net/minecraft/commands/arguments/ScoreHolderArgument	Lnet/minecraft/commands/arguments/ScoreHolderArgument$WildcardSupplier;	TRACKED_PLAYERS_WILDCARD	field_1_12885
+FIELD	net/minecraft/commands/arguments/ScoreHolderArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12886
+METHOD	net/minecraft/commands/arguments/ScoreHolderArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;Lnet/minecraft/commands/arguments/ScoreHolderArgument$WildcardSupplier;)Lnet/minecraft/world/scores/ScoreHolder;	getName	method_1_12838
+METHOD	net/minecraft/commands/arguments/ScoreHolderArgument	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;Lnet/minecraft/commands/arguments/ScoreHolderArgument$WildcardSupplier;)Ljava/util/stream/Stream;	getSuggestedNames	method_1_12839
+METHOD	net/minecraft/commands/arguments/ScoreHolderArgument	(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/commands/arguments/ScoreHolderArgument$WildcardSupplier;)Ljava/util/Collection;	lambda$parse$0	method_1_12840
+METHOD	net/minecraft/commands/arguments/ScoreHolderArgument	(Lnet/minecraft/server/MinecraftServer;)Ljava/util/Collection;	lambda$static$0	method_1_12841
+METHOD	net/minecraft/commands/arguments/ScoreHolderArgument	(Lnet/minecraft/server/MinecraftServer;)Ljava/util/Collection;	lambda$static$1	method_1_12842
+METHOD	net/minecraft/commands/arguments/ScoreHolderArgument	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$2	method_1_12843
+METHOD	net/minecraft/commands/arguments/ScoreHolderArgument	(Lnet/minecraft/commands/arguments/ScoreHolderArgument;)Ljava/lang/Boolean;	lambda$static$3	method_1_12844
+METHOD	net/minecraft/commands/arguments/ScoreHolderArgument	(Lnet/minecraft/commands/arguments/ScoreHolderArgument;)Ljava/lang/Boolean;	lambda$static$4	method_1_12845
+CLASS	net/minecraft/commands/arguments/ScoreHolderArgument$ContextFreeResult	class_1_2044
+METHOD	net/minecraft/commands/arguments/ScoreHolderArgument$ContextFreeResult	(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/commands/arguments/ScoreHolderArgument$WildcardSupplier;)Ljava/util/Collection;	getNames	method_1_12846
+CLASS	net/minecraft/commands/arguments/ScoreHolderArgument$Result	class_1_2045
+METHOD	net/minecraft/commands/arguments/ScoreHolderArgument$Result	(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/commands/suggestions/SuggestionContext;Lnet/minecraft/commands/arguments/ScoreHolderArgument$WildcardSupplier;)Ljava/util/stream/Stream;	getSuggestedNames	method_1_12847
+CLASS	net/minecraft/commands/arguments/ScoreHolderArgument$WildcardSupplier	class_1_2046
+METHOD	net/minecraft/commands/arguments/ScoreHolderArgument$WildcardSupplier	(Lnet/minecraft/server/MinecraftServer;)Ljava/util/Collection;	get	method_1_12848
+CLASS	net/minecraft/commands/arguments/ValidatableArgument	class_1_2047
+METHOD	net/minecraft/commands/arguments/ValidatableArgument	(Ljava/util/function/Function;)Lnet/minecraft/commands/arguments/SerializableArgument$Type;	codecWithValidation	method_1_12849
+METHOD	net/minecraft/commands/arguments/ValidatableArgument	()Lnet/minecraft/util/context/ContextKeySet;	contextKeySet	method_1_12850
+METHOD	net/minecraft/commands/arguments/ValidatableArgument	(Ljava/util/function/Function;Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$codecWithValidation$0	method_1_12851
+METHOD	net/minecraft/commands/arguments/ValidatableArgument	(Lnet/minecraft/commands/arguments/ValidatableArgument;)Lnet/minecraft/util/context/ContextKeySet;	lambda$codecWithValidation$1	method_1_12852
+METHOD	net/minecraft/commands/arguments/ValidatableArgument	(Lnet/minecraft/commands/arguments/ValidatableArgument;)Lnet/minecraft/util/context/ContextKeySet;	lambda$codecWithValidation$2	method_1_12853
+METHOD	net/minecraft/commands/suggestions/SuggestionContext	()Lnet/minecraft/world/entity/Entity;	entity	method_1_12854
+METHOD	net/minecraft/commands/suggestions/SuggestionContext	()Lnet/minecraft/core/HolderLookup$Provider;	holderLookups	method_1_12855
+METHOD	net/minecraft/commands/suggestions/SuggestionContext	()Lnet/minecraft/world/level/Level;	level	method_1_12856
+METHOD	net/minecraft/commands/suggestions/SuggestionContext	()Lnet/minecraft/world/phys/Vec3;	position	method_1_12857
+METHOD	net/minecraft/commands/suggestions/SuggestionContext	()Lnet/minecraft/server/MinecraftServer;	server	method_1_12858
+METHOD	net/minecraft/commands/suggestions/SuggestionContext	(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	suggestObjectiveNames	method_1_12859
+METHOD	net/minecraft/commands/suggestions/SuggestionContext	(Lcom/mojang/brigadier/context/CommandContext;Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/commands/suggestions/SuggestionContext$ElementSuggestionType;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	suggestRegistryElements	method_1_12860
+FIELD	net/minecraft/commands/suggestions/SuggestionContext$ElementSuggestionType	Lnet/minecraft/commands/suggestions/SuggestionContext$ElementSuggestionType;	TAGS_WITHOUT_PREFIX	field_1_12887
+FIELD	net/minecraft/commands/suggestions/SuggestionContext$ElementSuggestionType	Lnet/minecraft/commands/suggestions/SuggestionContext$ElementSuggestionType;	TAGS_WITH_PREFIX	field_1_12888
+METHOD	net/minecraft/commands/suggestions/SuggestionContext$ElementSuggestionType	()Z	shouldPrefixTags	method_1_12861
+CLASS	net/minecraft/commands/suggestions/SuggestionContext$Provider	class_1_2048
+METHOD	net/minecraft/commands/suggestions/SuggestionContext$Provider	(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	getSuggestions	method_1_12862
+METHOD	net/minecraft/commands/suggestions/SuggestionContext$Provider	(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	lambda$suggestNothing$0	method_1_12863
+METHOD	net/minecraft/commands/suggestions/SuggestionContext$Provider	()Lnet/minecraft/commands/suggestions/SuggestionContext$Provider;	suggestNothing	method_1_12864
+CLASS	net/minecraft/commands/suggestions/SuggestionContext$TextCoordinates	class_1_2049
+FIELD	net/minecraft/commands/suggestions/SuggestionContext$TextCoordinates	Lnet/minecraft/commands/suggestions/SuggestionContext$TextCoordinates;	DEFAULT_GLOBAL	field_1_12889
+FIELD	net/minecraft/commands/suggestions/SuggestionContext$TextCoordinates	Lnet/minecraft/commands/suggestions/SuggestionContext$TextCoordinates;	DEFAULT_LOCAL	field_1_12890
+FIELD	net/minecraft/commands/suggestions/SuggestionContext$TextCoordinates	Ljava/lang/String;	x	comp_1_2266
+FIELD	net/minecraft/commands/suggestions/SuggestionContext$TextCoordinates	Ljava/lang/String;	y	comp_1_2267
+FIELD	net/minecraft/commands/suggestions/SuggestionContext$TextCoordinates	Ljava/lang/String;	z	comp_1_2268
+METHOD	net/minecraft/core/registries/BuiltinRegistryBuilder	(Lnet/minecraft/core/registries/BuiltinRegistryBuilder$StaticFieldRegistryBootstrap;Lnet/minecraft/core/WritableRegistry;)V	lambda$staticFieldBootstrap$0	method_1_12865
+METHOD	net/minecraft/core/registries/BuiltinRegistryBuilder	(Lnet/minecraft/core/registries/BuiltinRegistryBuilder$StaticFieldRegistryBootstrap;)Lnet/minecraft/core/registries/BuiltinRegistryBuilder$RegistryBootstrap;	staticFieldBootstrap	method_1_12866
+CLASS	net/minecraft/core/registries/BuiltinRegistryBuilder$StaticFieldRegistryBootstrap	class_1_2050
+METHOD	net/minecraft/core/registries/BuiltinRegistryBuilder$StaticFieldRegistryBootstrap	()Ljava/lang/Object;	run	method_1_12867
+FIELD	net/minecraft/client/multiplayer/ClientPacketListener$2	[I	$SwitchMap$net$minecraft$commands$SuggestionBox$CommandCheckResult	field_1_12891
+FIELD	net/minecraft/client/multiplayer/CommonListenerCookie	Lnet/minecraft/commands/SuggestionBox;	commandSuggestions	comp_1_2269
+FIELD	net/minecraft/client/renderer/chunk/ChunkSectionLayer	Lcom/mojang/blaze3d/vertex/VertexFormat;	vertexFormat	field_1_12892
+METHOD	net/minecraft/client/renderer/chunk/ChunkSectionLayer	()I	vertexBufferBakedFaceSize	method_1_12868
+METHOD	net/minecraft/client/renderer/chunk/ChunkSectionLayer	()I	vertexBufferFaceSize	method_1_12869
+METHOD	net/minecraft/client/renderer/texture/TextureProvider	(Lnet/minecraft/resources/Identifier;Ljava/nio/file/Path;Lnet/minecraft/client/renderer/texture/TextureHandle;)V	dumpContents	method_1_12870
+METHOD	net/minecraft/client/renderer/texture/TextureProvider	(Lnet/minecraft/client/renderer/texture/TextureHandle;)V	releaseTexture	method_1_12871
+CLASS	net/minecraft/client/renderer/texture/TextureProvider$IntermediaryResources	class_1_2051
+FIELD	net/minecraft/commands/arguments/EntityAnchorArgument	Lnet/minecraft/commands/arguments/EntityAnchorArgument;	INSTANCE	field_1_12893
+FIELD	net/minecraft/commands/arguments/EntityAnchorArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12894
+CLASS	net/minecraft/commands/arguments/LootModifierArgument	class_1_2052
+FIELD	net/minecraft/commands/arguments/LootModifierArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12895
+METHOD	net/minecraft/commands/arguments/LootModifierArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/commands/arguments/ValidationWrapper;	getLootModifier	method_1_12872
+METHOD	net/minecraft/commands/arguments/LootModifierArgument	(Lnet/minecraft/util/context/ContextKeySet;)Lcom/mojang/brigadier/arguments/ArgumentType;	lootModifier	method_1_12873
+METHOD	net/minecraft/commands/arguments/ResourceOrIdArgument	(Lnet/minecraft/commands/ParseContext;Lnet/minecraft/core/Holder;)Ljava/lang/Object;	convert	method_1_12874
+CLASS	net/minecraft/commands/arguments/ResourceOrIdArgument$Result	class_1_2053
+CLASS	net/minecraft/commands/arguments/ResourceOrIdArgument$Simple	class_1_2054
+METHOD	net/minecraft/commands/arguments/ResourceOrIdArgument$Simple	(Lnet/minecraft/commands/ParseContext;Lnet/minecraft/core/Holder;)Lnet/minecraft/core/Holder;	convert	method_1_12875
+METHOD	net/minecraft/commands/arguments/ResourceOrIdArgument$Simple	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/core/Holder;	getResource	method_1_12876
+CLASS	net/minecraft/commands/arguments/SerializableArgument	class_1_2055
+METHOD	net/minecraft/commands/arguments/SerializableArgument	()Ljava/util/Collection;	getExamples	method_1_12877
+METHOD	net/minecraft/commands/arguments/SerializableArgument	(Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	listSuggestions	method_1_12878
+METHOD	net/minecraft/commands/arguments/SerializableArgument	(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/commands/ParseContext;)Ljava/lang/Object;	parse	method_1_12879
+METHOD	net/minecraft/commands/arguments/SerializableArgument	(Lnet/minecraft/commands/arguments/SerializableArgument;)Lnet/minecraft/commands/arguments/SerializableArgument$Type;	singletonType	method_1_12880
+METHOD	net/minecraft/commands/arguments/SerializableArgument	()Lcom/mojang/brigadier/arguments/ArgumentType;	toBrigadier	method_1_12881
+METHOD	net/minecraft/commands/arguments/SerializableArgument	()Lnet/minecraft/commands/arguments/SerializableArgument$Type;	type	method_1_12882
+METHOD	net/minecraft/commands/arguments/SerializableArgument	(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/arguments/SerializableArgument$BrigadierWrapper;	unwrapOrThrow	method_1_12883
+CLASS	net/minecraft/commands/arguments/SerializableArgument$BrigadierWrapper	class_1_2056
+METHOD	net/minecraft/commands/arguments/SerializableArgument$BrigadierWrapper	()Lnet/minecraft/commands/arguments/SerializableArgument;	argument	comp_1_2270
+CLASS	net/minecraft/commands/arguments/SerializableArgument$ContextFree	class_1_2057
+METHOD	net/minecraft/commands/arguments/SerializableArgument$ContextFree	(Lcom/mojang/brigadier/StringReader;)Ljava/lang/Object;	parse	method_1_12884
+CLASS	net/minecraft/commands/arguments/SerializableArgument$ContextFreeBrigadierWrapper	class_1_2058
+FIELD	net/minecraft/commands/arguments/SerializableArgument$ContextFreeBrigadierWrapper	Lnet/minecraft/commands/arguments/SerializableArgument$ContextFree;	argument	comp_1_2271
+CLASS	net/minecraft/commands/arguments/SerializableArgument$ContextfulBrigadierWrapper	class_1_2059
+CLASS	net/minecraft/commands/arguments/SerializableArgument$Type	class_1_2060
+FIELD	net/minecraft/commands/arguments/SerializableArgument$Type	Lcom/mojang/serialization/MapCodec;	codec	comp_1_2272
+FIELD	net/minecraft/commands/arguments/SerializableArgument$Type	Lnet/minecraft/network/codec/StreamCodec;	streamCodec	comp_1_2273
+CLASS	net/minecraft/commands/suggestions/SuggestPostEffects	class_1_2061
+FIELD	net/minecraft/commands/suggestions/SuggestPostEffects	Lnet/minecraft/commands/suggestions/SuggestPostEffects;	INSTANCE	field_1_12896
+FIELD	net/minecraft/commands/suggestions/SuggestPostEffects	Lnet/minecraft/commands/suggestions/SerializableCustomSuggestion$Type;	TYPE	field_1_12897
+METHOD	net/minecraft/commands/suggestions/SuggestPostEffects	()Lcom/mojang/brigadier/suggestion/SuggestionProvider;	suggestPostEffects	method_1_12885
+CLASS	com/mojang/realmsclient/dto/DownloadSessionResponseDto	class_1_2062
+FIELD	com/mojang/realmsclient/dto/DownloadSessionResponseDto	Lcom/mojang/realmsclient/dto/DownloadSessionResponseDto$Result;	result	comp_1_2274
+CLASS	com/mojang/realmsclient/dto/DownloadSessionResponseDto$Result	class_1_2063
+FIELD	com/mojang/realmsclient/dto/DownloadSessionResponseDto$Result	Ljava/lang/String;	downloadUrl	comp_1_2275
+FIELD	com/mojang/realmsclient/dto/DownloadSessionResponseDto$Result	Ljava/lang/String;	status	comp_1_2276
+FIELD	net/minecraft/client/renderer/pipeline/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	BLIT_DEPTH_BOUNDS	field_1_12898
+FIELD	net/minecraft/client/renderer/pipeline/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline;	WATER_MASK	field_1_12899
+METHOD	net/minecraft/client/renderer/pipeline/RenderPipelines	(Lcom/mojang/blaze3d/pipeline/RenderPipeline;Lcom/mojang/renderpearl/api/pipeline/RenderPassLayout$Subpass;[Lcom/mojang/renderpearl/api/pipeline/RenderPassLayout$Subpass;)Lcom/mojang/blaze3d/pipeline/RenderPipeline;	precompiled	method_1_12886
+FIELD	net/minecraft/commands/arguments/HeightmapTypeArgument	Lnet/minecraft/commands/arguments/HeightmapTypeArgument;	INSTANCE	field_1_12900
+FIELD	net/minecraft/commands/arguments/HeightmapTypeArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12901
+CLASS	net/minecraft/commands/arguments/LootPredicateArgument	class_1_2064
+FIELD	net/minecraft/commands/arguments/LootPredicateArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12902
+METHOD	net/minecraft/commands/arguments/LootPredicateArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/commands/arguments/ValidationWrapper;	getLootPredicate	method_1_12887
+METHOD	net/minecraft/commands/arguments/LootPredicateArgument	(Lnet/minecraft/util/context/ContextKeySet;)Lcom/mojang/brigadier/arguments/ArgumentType;	lootPredicate	method_1_12888
+CLASS	net/minecraft/commands/arguments/PatternStringArgument	class_1_2065
+FIELD	net/minecraft/commands/arguments/PatternStringArgument	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_NOT_MATCHED	field_1_12903
+FIELD	net/minecraft/commands/arguments/PatternStringArgument	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12904
+FIELD	net/minecraft/commands/arguments/PatternStringArgument	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12905
+FIELD	net/minecraft/commands/arguments/PatternStringArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12906
+FIELD	net/minecraft/commands/arguments/PatternStringArgument	Ljava/util/Optional;	errorMessage	comp_1_2277
+FIELD	net/minecraft/commands/arguments/PatternStringArgument	Ljava/util/regex/Pattern;	pattern	comp_1_2278
+METHOD	net/minecraft/commands/arguments/PatternStringArgument	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_12889
+METHOD	net/minecraft/commands/arguments/PatternStringArgument	(Lcom/mojang/brigadier/StringReader;)Ljava/lang/String;	parse	method_1_12890
+FIELD	net/minecraft/commands/arguments/ResourceOrTagArgument	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12907
+FIELD	net/minecraft/commands/arguments/ResourceOrTagArgument	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12908
+FIELD	net/minecraft/commands/arguments/ResourceOrTagArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12909
+METHOD	net/minecraft/commands/arguments/ResourceOrTagArgument	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_12891
+METHOD	net/minecraft/commands/arguments/ResourceOrTagArgument	(Lnet/minecraft/commands/arguments/ResourceOrTagArgument;)Lnet/minecraft/resources/ResourceKey;	lambda$static$1	method_1_12892
+METHOD	net/minecraft/commands/arguments/ResourceOrTagArgument	(Lnet/minecraft/commands/arguments/ResourceOrTagArgument;)Lnet/minecraft/resources/ResourceKey;	lambda$static$2	method_1_12893
+FIELD	net/minecraft/commands/arguments/item/FunctionArgument	Lnet/minecraft/commands/arguments/item/FunctionArgument;	INSTANCE	field_1_12910
+FIELD	net/minecraft/commands/arguments/item/FunctionArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12911
+CLASS	net/minecraft/commands/suggestions/SuggestionProviders	class_1_2066
+METHOD	net/minecraft/commands/suggestions/SuggestionProviders	(Lnet/minecraft/commands/suggestions/ServerOnlyCustomSuggestion;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;	serverOnly	method_1_12894
+METHOD	net/minecraft/world/item/enchantment/EnchantmentHelper	(Lnet/minecraft/core/HolderLookup$Provider;)Ljava/util/stream/Stream;	lambda$enchantItem$0	method_1_12895
+METHOD	net/minecraft/world/item/enchantment/EnchantmentHelper	(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/util/RandomSource;Lnet/minecraft/world/DifficultyInstance;Lnet/minecraft/core/Holder;)V	lambda$enchantItemFromProvider$0	method_1_12896
+METHOD	net/minecraft/world/level/levelgen/feature/TreeFeature	(Lnet/minecraft/world/level/levelgen/structure/BoundingBox;Lnet/minecraft/world/phys/shapes/DiscreteVoxelShape;Lnet/minecraft/core/BlockPos;)V	lambda$place$5	method_1_12897
+METHOD	net/minecraft/world/level/storage/loot/LootContextUser	(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V	validateContextUsage	method_1_12898
+FIELD	net/minecraft/client/renderer/texture/TextureProvider2d	Lnet/minecraft/client/renderer/texture/TextureProvider2d;	INSTANCE	field_1_12912
+METHOD	net/minecraft/client/renderer/texture/TextureProvider2d	(Lnet/minecraft/resources/Identifier;Ljava/nio/file/Path;Lnet/minecraft/client/renderer/texture/TextureResources;)V	dumpContents	method_1_12899
+METHOD	net/minecraft/client/renderer/texture/TextureProvider2d	(Lnet/minecraft/client/renderer/texture/TextureResources;)V	releaseTexture	method_1_12900
+FIELD	net/minecraft/commands/arguments/ScoreboardSlotArgument	Lnet/minecraft/commands/arguments/ScoreboardSlotArgument;	INSTANCE	field_1_12913
+FIELD	net/minecraft/commands/arguments/ScoreboardSlotArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12914
+FIELD	net/minecraft/commands/arguments/SwingAnimationArgument	Lnet/minecraft/commands/arguments/SwingAnimationArgument;	INSTANCE	field_1_12915
+FIELD	net/minecraft/commands/arguments/SwingAnimationArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12916
+FIELD	net/minecraft/commands/arguments/TemplateMirrorArgument	Lnet/minecraft/commands/arguments/TemplateMirrorArgument;	INSTANCE	field_1_12917
+FIELD	net/minecraft/commands/arguments/TemplateMirrorArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12918
+CLASS	net/minecraft/commands/suggestions/SuggestLiteralString	class_1_2067
+FIELD	net/minecraft/commands/suggestions/SuggestLiteralString	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12919
+FIELD	net/minecraft/commands/suggestions/SuggestLiteralString	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12920
+FIELD	net/minecraft/commands/suggestions/SuggestLiteralString	Lnet/minecraft/commands/suggestions/SerializableCustomSuggestion$Type;	TYPE	field_1_12921
+FIELD	net/minecraft/commands/suggestions/SuggestLiteralString	Ljava/util/List;	values	comp_1_2279
+METHOD	net/minecraft/commands/suggestions/SuggestLiteralString	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_12901
+METHOD	net/minecraft/commands/suggestions/SuggestLiteralString	([Ljava/lang/String;)Lcom/mojang/brigadier/suggestion/SuggestionProvider;	suggestLiteral	method_1_12902
+FIELD	net/minecraft/network/protocol/common/CommonPacketTypes	Lnet/minecraft/network/protocol/PacketType;	CLIENTBOUND_COMMANDS	field_1_12922
+CLASS	net/minecraft/util/datafix/fixes/RemoveDataComponentFix	class_1_2068
+FIELD	net/minecraft/util/datafix/fixes/RemoveDataComponentFix	Ljava/lang/String;	componentId	field_1_12923
+FIELD	net/minecraft/util/datafix/fixes/RemoveDataComponentFix	Ljava/lang/String;	name	field_1_12924
+METHOD	net/minecraft/util/datafix/fixes/RemoveDataComponentFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	fixTooltipDisplay	method_1_12903
+METHOD	net/minecraft/util/datafix/fixes/RemoveDataComponentFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$fixTooltipDisplay$0	method_1_12904
+METHOD	net/minecraft/util/datafix/fixes/RemoveDataComponentFix	(Lcom/mojang/serialization/Dynamic;Ljava/util/stream/Stream;)Lcom/mojang/serialization/Dynamic;	lambda$fixTooltipDisplay$1	method_1_12905
+METHOD	net/minecraft/util/datafix/fixes/RemoveDataComponentFix	(Lcom/mojang/serialization/Dynamic;)Z	lambda$fixTooltipDisplay$2	method_1_12906
+METHOD	net/minecraft/util/datafix/fixes/RemoveDataComponentFix	(Lcom/mojang/datafixers/Typed;)Lcom/mojang/datafixers/Typed;	lambda$makeRule$0	method_1_12907
+METHOD	net/minecraft/util/datafix/fixes/RemoveDataComponentFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$makeRule$1	method_1_12908
+FIELD	net/minecraft/client/gui/components/inventory/SlotWidget	I	BORDER	field_1_12925
+FIELD	net/minecraft/client/multiplayer/ClientSuggestionContext	Lnet/minecraft/core/HolderLookup$Provider;	filteredLookups	field_1_12926
+FIELD	net/minecraft/client/multiplayer/ClientSuggestionContext	Lnet/minecraft/core/HolderGetter$Provider;	gettersWithPlaceholders	field_1_12927
+METHOD	net/minecraft/commands/arguments/selector/EntitySelector	(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/commands/suggestions/SuggestionContext;)Ljava/util/stream/Stream;	findEntitySuggestions	method_1_12909
+METHOD	net/minecraft/commands/arguments/selector/EntitySelector	(Lnet/minecraft/server/MinecraftServer;Lnet/minecraft/commands/suggestions/SuggestionContext;)Ljava/util/stream/Stream;	findSuggestions	method_1_12910
+METHOD	net/minecraft/commands/arguments/selector/EntitySelector	(Lnet/minecraft/world/entity/Entity;)Z	lambda$findSuggestions$0	method_1_12911
+FIELD	net/minecraft/server/permissions/PermissionProviderCheck	Lnet/minecraft/server/permissions/PermissionProviderCheck;	ALWAYS_PASS	field_1_12928
+METHOD	net/minecraft/server/permissions/PermissionProviderCheck	()Lnet/minecraft/server/permissions/PermissionProviderCheck;	cast	method_1_12912
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeSystem	(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/core/Holder;)Ljava/lang/String;	describeBiomeModifier	method_1_12913
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeSystem	(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/attribute/EnvironmentAttributeLayer;Lnet/minecraft/world/phys/Vec3;)Ljava/lang/String;	describeModifier	method_1_12914
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeSystem	(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/attribute/SpatialAttributeInterpolator;)Lnet/minecraft/world/attribute/EnvironmentAttributeLayerValues;	getValuePerLayer	method_1_12915
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeSystem	(Lnet/minecraft/world/attribute/EnvironmentAttributeLayer;)Ljava/lang/String;	kindName	method_1_12916
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeSystem	(Lnet/minecraft/world/attribute/EnvironmentAttribute;IZ)V	setLayerDisabled	method_1_12917
+CLASS	net/minecraft/world/attribute/EnvironmentAttributeSystem$BiomeLayer	class_1_2069
+FIELD	net/minecraft/world/attribute/EnvironmentAttributeSystem$BiomeLayer	Lnet/minecraft/world/attribute/EnvironmentAttribute;	attribute	comp_1_2280
+FIELD	net/minecraft/world/attribute/EnvironmentAttributeSystem$BiomeLayer	Lnet/minecraft/world/level/biome/BiomeResolver;	biomeResolver	comp_1_2281
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeSystem$BiomeLayer	(Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/core/Holder;	biomeAt	method_1_12918
+CLASS	net/minecraft/world/attribute/EnvironmentAttributeSystem$ConstantLayer	class_1_2070
+FIELD	net/minecraft/world/attribute/EnvironmentAttributeSystem$ConstantLayer	Lnet/minecraft/world/attribute/EnvironmentAttributeMap$Entry;	entry	comp_1_2282
+FIELD	net/minecraft/world/attribute/EnvironmentAttributeSystem$ValueSampler	Lit/unimi/dsi/fastutil/ints/IntSet;	disabledLayers	field_1_12929
+FIELD	net/minecraft/world/attribute/EnvironmentAttributeSystem$ValueSampler	Ljava/util/List;	layers	field_1_12930
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeSystem$ValueSampler	(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/attribute/SpatialAttributeInterpolator;)Lnet/minecraft/world/attribute/EnvironmentAttributeLayerValues;	getValuePerLayer	method_1_12919
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeSystem$ValueSampler	(I)Z	isDisabled	method_1_12920
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeSystem$ValueSampler	(I)Z	lambda$setLayerDisabled$0	method_1_12921
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeSystem$ValueSampler	(IZ)V	setLayerDisabled	method_1_12922
+METHOD	net/minecraft/world/level/storage/loot/ValidationContext	()Lnet/minecraft/util/context/ContextKeySet;	contextKeySet	method_1_12923
+CLASS	net/minecraft/client/renderer/chunk/ChunkSectionsToRender$DrawSeparateDrawGroup	class_1_2071
+FIELD	net/minecraft/client/renderer/chunk/ChunkSectionsToRender$DrawSeparateDrawGroup	Ljava/util/List;	draws	comp_1_2283
+FIELD	net/minecraft/client/renderer/chunk/ChunkSectionsToRender$DrawSeparateDrawGroup	Lcom/mojang/renderpearl/api/buffers/GpuBufferSlice;	indexBuffer	comp_1_2284
+FIELD	net/minecraft/client/renderer/chunk/ChunkSectionsToRender$DrawSeparateDrawGroup	Lcom/mojang/renderpearl/api/pipeline/IndexType;	indexType	comp_1_2285
+FIELD	net/minecraft/client/renderer/chunk/ChunkSectionsToRender$DrawSeparateDrawGroup	Lcom/mojang/renderpearl/api/buffers/GpuBufferSlice;	vertexBuffer	comp_1_2286
+CLASS	net/minecraft/commands/arguments/BrigadierWrapperArgument	class_1_2072
+FIELD	net/minecraft/commands/arguments/BrigadierWrapperArgument	Lcom/mojang/brigadier/arguments/ArgumentType;	original	field_1_12931
+METHOD	net/minecraft/commands/arguments/BrigadierWrapperArgument	()Lcom/mojang/brigadier/arguments/ArgumentType;	original	method_1_12924
+FIELD	net/minecraft/commands/arguments/ResourceSelectorArgument	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12932
+FIELD	net/minecraft/commands/arguments/ResourceSelectorArgument	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12933
+FIELD	net/minecraft/commands/arguments/ResourceSelectorArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12934
+METHOD	net/minecraft/commands/arguments/ResourceSelectorArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/commands/arguments/ResourceSelectorArgument$Result;	getSelectedResources	method_1_12925
+METHOD	net/minecraft/commands/arguments/ResourceSelectorArgument	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_12926
+METHOD	net/minecraft/commands/arguments/ResourceSelectorArgument	(Lnet/minecraft/commands/arguments/ResourceSelectorArgument;)Lnet/minecraft/resources/ResourceKey;	lambda$static$1	method_1_12927
+METHOD	net/minecraft/commands/arguments/ResourceSelectorArgument	(Lnet/minecraft/commands/arguments/ResourceSelectorArgument;)Lnet/minecraft/resources/ResourceKey;	lambda$static$2	method_1_12928
+CLASS	net/minecraft/commands/arguments/ResourceSelectorArgument$Result	class_1_2073
+FIELD	net/minecraft/commands/arguments/ResourceSelectorArgument$Result	Ljava/lang/String;	pattern	field_1_12935
+FIELD	net/minecraft/commands/arguments/ResourceSelectorArgument$Result	Lnet/minecraft/resources/ResourceKey;	registryKey	field_1_12936
+METHOD	net/minecraft/commands/arguments/ResourceSelectorArgument$Result	(Lnet/minecraft/core/Holder$Reference;)Z	lambda$selectFromRegistry$0	method_1_12929
+METHOD	net/minecraft/commands/arguments/ResourceSelectorArgument$Result	(Lnet/minecraft/core/HolderLookup$Provider;)Ljava/util/Collection;	selectFromRegistry	method_1_12930
+FIELD	net/minecraft/commands/arguments/TemplateRotationArgument	Lnet/minecraft/commands/arguments/TemplateRotationArgument;	INSTANCE	field_1_12937
+FIELD	net/minecraft/commands/arguments/TemplateRotationArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12938
+FIELD	net/minecraft/commands/arguments/coordinates/Vec2Argument	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12939
+FIELD	net/minecraft/commands/arguments/coordinates/Vec2Argument	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12940
+FIELD	net/minecraft/commands/arguments/coordinates/Vec2Argument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12941
+METHOD	net/minecraft/commands/arguments/coordinates/Vec2Argument	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_12931
+METHOD	net/minecraft/commands/arguments/coordinates/Vec2Argument	(Lnet/minecraft/commands/arguments/coordinates/Vec2Argument;)Ljava/lang/Boolean;	lambda$static$1	method_1_12932
+METHOD	net/minecraft/commands/arguments/coordinates/Vec2Argument	(Lnet/minecraft/commands/arguments/coordinates/Vec2Argument;)Ljava/lang/Boolean;	lambda$static$2	method_1_12933
+FIELD	net/minecraft/commands/arguments/coordinates/Vec3Argument	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_12942
+FIELD	net/minecraft/commands/arguments/coordinates/Vec3Argument	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12943
+FIELD	net/minecraft/commands/arguments/coordinates/Vec3Argument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12944
+METHOD	net/minecraft/commands/arguments/coordinates/Vec3Argument	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_12934
+METHOD	net/minecraft/commands/arguments/coordinates/Vec3Argument	(Lnet/minecraft/commands/arguments/coordinates/Vec3Argument;)Ljava/lang/Boolean;	lambda$static$1	method_1_12935
+METHOD	net/minecraft/commands/arguments/coordinates/Vec3Argument	(Lnet/minecraft/commands/arguments/coordinates/Vec3Argument;)Ljava/lang/Boolean;	lambda$static$2	method_1_12936
+CLASS	net/minecraft/commands/suggestions/SuggestAvailableSounds	class_1_2074
+FIELD	net/minecraft/commands/suggestions/SuggestAvailableSounds	Lnet/minecraft/commands/suggestions/SuggestAvailableSounds;	INSTANCE	field_1_12945
+FIELD	net/minecraft/commands/suggestions/SuggestAvailableSounds	Lnet/minecraft/commands/suggestions/SerializableCustomSuggestion$Type;	TYPE	field_1_12946
+METHOD	net/minecraft/commands/suggestions/SuggestAvailableSounds	()Lcom/mojang/brigadier/suggestion/SuggestionProvider;	suggestAvailableSounds	method_1_12937
+CLASS	net/minecraft/server/commands/EnvironmentAttributeCommand	class_1_2075
+FIELD	net/minecraft/server/commands/EnvironmentAttributeCommand	Lnet/minecraft/server/permissions/PermissionCheck;	PERMISSION_CHECK	field_1_12947
+METHOD	net/minecraft/server/commands/EnvironmentAttributeCommand	(Lcom/mojang/brigadier/context/CommandContext;)Lnet/minecraft/core/Holder$Reference;	getAttribute	method_1_12938
+METHOD	net/minecraft/server/commands/EnvironmentAttributeCommand	(Lnet/minecraft/commands/CommandSourceStack;Lnet/minecraft/core/Holder$Reference;Lnet/minecraft/world/phys/Vec3;)I	getValue	method_1_12939
+METHOD	net/minecraft/server/commands/EnvironmentAttributeCommand	(Lnet/minecraft/core/Holder$Reference;Lnet/minecraft/world/attribute/EnvironmentAttributeLayerValues;)Lnet/minecraft/network/chat/Component;	lambda$getValue$0	method_1_12940
+METHOD	net/minecraft/server/commands/EnvironmentAttributeCommand	(Ljava/lang/String;)Lnet/minecraft/network/chat/Component;	lambda$getValue$1	method_1_12941
+METHOD	net/minecraft/server/commands/EnvironmentAttributeCommand	(Lcom/mojang/brigadier/context/CommandContext;)I	lambda$register$0	method_1_12942
+METHOD	net/minecraft/server/commands/EnvironmentAttributeCommand	(Lcom/mojang/brigadier/context/CommandContext;)I	lambda$register$1	method_1_12943
+METHOD	net/minecraft/server/commands/EnvironmentAttributeCommand	(Lcom/mojang/brigadier/CommandDispatcher;)V	register	method_1_12944
+METHOD	net/minecraft/client/gui/screens/packs/PackSelectionScreen	()V	closePackIcons	method_1_12945
+METHOD	net/minecraft/client/gui/screens/packs/PackSelectionScreen	(Lnet/minecraft/client/gui/screens/packs/PackSelectionScreen$PackIcon;)V	lambda$closePackIcons$0	method_1_12946
+CLASS	net/minecraft/client/gui/screens/packs/PackSelectionScreen$PackIcon	class_1_2076
+FIELD	net/minecraft/client/gui/screens/packs/PackSelectionScreen$PackIcon	Lnet/minecraft/resources/Identifier;	location	comp_1_2287
+FIELD	net/minecraft/client/gui/screens/packs/PackSelectionScreen$PackIcon	Lnet/minecraft/client/renderer/texture/TextureResources;	texture	comp_1_2288
+METHOD	net/minecraft/client/gui/screens/packs/PackSelectionScreen$PackIcon	(Lnet/minecraft/client/renderer/texture/TextureManager;)V	close	method_1_12947
+FIELD	net/minecraft/commands/arguments/ObjectiveCriteriaArgument	Lnet/minecraft/commands/arguments/ObjectiveCriteriaArgument;	INSTANCE	field_1_12948
+FIELD	net/minecraft/commands/arguments/ObjectiveCriteriaArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12949
+FIELD	net/minecraft/commands/arguments/SerializableArgumentTypes	Lcom/mojang/serialization/Codec;	CODEC	field_1_12950
+FIELD	net/minecraft/commands/arguments/SerializableArgumentTypes	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12951
+FIELD	net/minecraft/commands/arguments/blocks/BlockStateArgument	Lnet/minecraft/commands/arguments/blocks/BlockStateArgument;	INSTANCE	field_1_12952
+FIELD	net/minecraft/commands/arguments/blocks/BlockStateArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12953
+METHOD	net/minecraft/util/datafix/fixes/DataComponentRemainderFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	fixComponentId	method_1_12948
+METHOD	net/minecraft/util/datafix/fixes/DataComponentRemainderFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	fixTooltipDisplay	method_1_12949
+METHOD	net/minecraft/util/datafix/fixes/DataComponentRemainderFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$fixTooltipDisplay$0	method_1_12950
+METHOD	net/minecraft/util/datafix/fixes/DataComponentRemainderFix	(Lcom/mojang/serialization/Dynamic;Ljava/util/stream/Stream;)Lcom/mojang/serialization/Dynamic;	lambda$fixTooltipDisplay$1	method_1_12951
+CLASS	net/minecraft/world/attribute/EnvironmentAttributeDebugger	class_1_2077
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugger	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/attribute/EnvironmentAttributeLayerValues;	getValuePerLayer	method_1_12952
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugger	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/attribute/EnvironmentAttribute;IZ)V	setLayerDisabled	method_1_12953
+METHOD	net/minecraft/world/attribute/SpatialAttributeInterpolator	(Lnet/minecraft/world/level/biome/BiomeResolver;IIID)V	lambda$sampleBiomes$0	method_1_12954
+METHOD	net/minecraft/world/attribute/SpatialAttributeInterpolator	(Lnet/minecraft/world/level/biome/BiomeResolver;Lnet/minecraft/world/phys/Vec3;)Lnet/minecraft/world/attribute/SpatialAttributeInterpolator;	sampleBiomes	method_1_12955
+METHOD	net/minecraft/client/renderer/chunk/SectionRenderDispatcher	(IILnet/minecraft/client/renderer/chunk/ChunkSectionLayer;)Lnet/minecraft/client/renderer/chunk/SectionRenderDispatcher$SectionUberBuffers;	lambda$new$0	method_1_12956
+FIELD	net/minecraft/client/renderer/texture/SkinTextureDownloader	Ljava/util/Map;	textures	field_1_12954
+METHOD	net/minecraft/client/renderer/texture/SkinTextureDownloader	(Lnet/minecraft/resources/Identifier;Lnet/minecraft/client/renderer/texture/TextureResources;)V	lambda$close$0	method_1_12957
+CLASS	net/minecraft/commands/arguments/ContextIntProviderArgument	class_1_2078
+FIELD	net/minecraft/commands/arguments/ContextIntProviderArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12955
+METHOD	net/minecraft/commands/arguments/ContextIntProviderArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/commands/arguments/ValidationWrapper;	getIntProvider	method_1_12958
+METHOD	net/minecraft/commands/arguments/ContextIntProviderArgument	(Lnet/minecraft/util/context/ContextKeySet;)Lcom/mojang/brigadier/arguments/ArgumentType;	intProvider	method_1_12959
+FIELD	net/minecraft/commands/arguments/item/ItemPredicateArgument	Lnet/minecraft/commands/arguments/item/ItemPredicateArgument;	INSTANCE	field_1_12956
+FIELD	net/minecraft/commands/arguments/item/ItemPredicateArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12957
+METHOD	net/minecraft/commands/arguments/item/ItemPredicateArgument	(Lnet/minecraft/commands/ParseContext;Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/item/ItemPredicateArgument$Context;	lambda$new$0	method_1_12960
+FIELD	net/minecraft/commands/arguments/item/ItemPredicateArgument$Context	Lnet/minecraft/util/parsing/packrat/Suggestion$Composite;	COMPONENT_ID_SUGGESTION	field_1_12958
+FIELD	net/minecraft/commands/arguments/item/ItemPredicateArgument$Context	Lnet/minecraft/util/parsing/packrat/Suggestion;	ITEM_ID_SUGGESTION	field_1_12959
+FIELD	net/minecraft/commands/arguments/item/ItemPredicateArgument$Context	Lnet/minecraft/util/parsing/packrat/Suggestion;	ITEM_TAG_SUGGESTIONS	field_1_12960
+FIELD	net/minecraft/commands/arguments/item/ItemPredicateArgument$Context	Lnet/minecraft/util/parsing/packrat/Suggestion$Composite;	PREDICATE_ID_SUGGESTION	field_1_12961
+FIELD	net/minecraft/commands/arguments/item/ItemPredicateArgument$Context	Lcom/mojang/brigadier/StringReader;	reader	field_1_12962
+METHOD	net/minecraft/commands/arguments/item/ItemPredicateArgument$Context	(Lnet/minecraft/resources/Identifier;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	lambda$forElementType$0	method_1_12961
+METHOD	net/minecraft/commands/arguments/item/ItemPredicateArgument$Context	(Lnet/minecraft/resources/Identifier;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	lambda$forTagType$0	method_1_12962
+METHOD	net/minecraft/commands/arguments/item/ItemPredicateArgument$Context	(Lnet/minecraft/resources/Identifier;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	lambda$lookupComponentType$0	method_1_12963
+METHOD	net/minecraft/commands/arguments/item/ItemPredicateArgument$Context	(Lnet/minecraft/resources/Identifier;)Lcom/mojang/brigadier/exceptions/CommandSyntaxException;	lambda$lookupPredicateType$1	method_1_12964
+METHOD	net/minecraft/commands/arguments/item/ItemPredicateArgument$Context	(Lnet/minecraft/core/component/DataComponentType;)Z	lambda$static$0	method_1_12965
+FIELD	net/minecraft/client/gui/components/debug/DebugScreenEntries	Lnet/minecraft/resources/ResourceKey;	ENVIRONMENT_ATTRIBUTE	field_1_12963
+FIELD	net/minecraft/client/gui/components/debug/DebugScreenEntries	Lnet/minecraft/resources/ResourceKey;	VISUALIZE_ENVIRONMENT_ATTRIBUTE	field_1_12964
+METHOD	net/minecraft/client/renderer/texture/CubemapTextureProvider	(Lnet/minecraft/resources/Identifier;Ljava/nio/file/Path;Lnet/minecraft/client/renderer/texture/TextureResources;)V	dumpContents	method_1_12966
+METHOD	net/minecraft/client/renderer/texture/CubemapTextureProvider	(Lnet/minecraft/client/renderer/texture/TextureResources;)V	releaseTexture	method_1_12967
+FIELD	net/minecraft/commands/arguments/coordinates/SwizzleArgument	Lnet/minecraft/commands/arguments/coordinates/SwizzleArgument;	INSTANCE	field_1_12965
+FIELD	net/minecraft/commands/arguments/coordinates/SwizzleArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12966
+CLASS	net/minecraft/commands/suggestions/SuggestSummonableEntities	class_1_2079
+FIELD	net/minecraft/commands/suggestions/SuggestSummonableEntities	Lnet/minecraft/commands/suggestions/SuggestSummonableEntities;	INSTANCE	field_1_12967
+FIELD	net/minecraft/commands/suggestions/SuggestSummonableEntities	Lnet/minecraft/commands/suggestions/SerializableCustomSuggestion$Type;	TYPE	field_1_12968
+METHOD	net/minecraft/commands/suggestions/SuggestSummonableEntities	(Lcom/mojang/brigadier/context/CommandContext;Lnet/minecraft/world/entity/EntityType;)Z	lambda$generate$0	method_1_12968
+METHOD	net/minecraft/commands/suggestions/SuggestSummonableEntities	()Lcom/mojang/brigadier/suggestion/SuggestionProvider;	suggestSummonableEntities	method_1_12969
+METHOD	net/minecraft/network/protocol/game/ClientGamePacketListener	(Lnet/minecraft/network/protocol/game/ClientboundAddEntityMotionPacket;)V	handleAddEntityMotion	method_1_12970
+METHOD	net/minecraft/client/gui/screens/options/LanguageSelectScreen$LanguageSelectionList	(Lnet/minecraft/client/gui/screens/options/LanguageSelectScreen$LanguageSelectionList$Entry;Lnet/minecraft/client/gui/screens/options/LanguageSelectScreen$LanguageSelectionList$Entry;)V	lambda$filterEntries$2	method_1_12971
+CLASS	net/minecraft/client/renderer/texture/Base64TextureProvider2d	class_1_2080
+FIELD	net/minecraft/client/renderer/texture/Base64TextureProvider2d	Ljava/lang/String;	encodedImage	field_1_12969
+METHOD	net/minecraft/client/renderer/texture/Base64TextureProvider2d	(Lnet/minecraft/client/renderer/texture/TextureContents;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/TextureResources;	createTexture	method_1_12972
+METHOD	net/minecraft/client/renderer/texture/Base64TextureProvider2d	(Lnet/minecraft/resources/Identifier;Ljava/nio/file/Path;Lnet/minecraft/client/renderer/texture/TextureResources;)V	dumpContents	method_1_12973
+METHOD	net/minecraft/client/renderer/texture/Base64TextureProvider2d	()Lnet/minecraft/client/renderer/texture/TextureContents;	missingState	method_1_12974
+METHOD	net/minecraft/client/renderer/texture/Base64TextureProvider2d	(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/TextureContents;	prepareState	method_1_12975
+METHOD	net/minecraft/client/renderer/texture/Base64TextureProvider2d	(Lnet/minecraft/client/renderer/texture/TextureResources;)V	releaseTexture	method_1_12976
+CLASS	net/minecraft/client/renderer/texture/ExternalTextureProvider	class_1_2081
+FIELD	net/minecraft/client/renderer/texture/ExternalTextureProvider	Lnet/minecraft/client/renderer/texture/ExternalTextureProvider$Dumper;	dumper	field_1_12970
+FIELD	net/minecraft/client/renderer/texture/ExternalTextureProvider	Lnet/minecraft/client/renderer/texture/TextureHandle;	handle	field_1_12971
+METHOD	net/minecraft/client/renderer/texture/ExternalTextureProvider	(Lnet/minecraft/client/renderer/texture/ExternalTextureProvider$ExternalTexture;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/TextureHandle;	createTexture	method_1_12977
+METHOD	net/minecraft/client/renderer/texture/ExternalTextureProvider	()Lnet/minecraft/client/renderer/texture/ExternalTextureProvider$ExternalTexture;	missingState	method_1_12978
+METHOD	net/minecraft/client/renderer/texture/ExternalTextureProvider	(Lnet/minecraft/server/packs/resources/ResourceManager;Lnet/minecraft/resources/Identifier;)Lnet/minecraft/client/renderer/texture/ExternalTextureProvider$ExternalTexture;	prepareState	method_1_12979
+CLASS	net/minecraft/client/renderer/texture/ExternalTextureProvider$Dumper	class_1_2082
+METHOD	net/minecraft/client/renderer/texture/ExternalTextureProvider$Dumper	(Lnet/minecraft/resources/Identifier;Ljava/nio/file/Path;)V	dumpContents	method_1_12980
+CLASS	net/minecraft/client/renderer/texture/ExternalTextureProvider$ExternalTexture	class_1_2083
+FIELD	net/minecraft/client/renderer/texture/ExternalTextureProvider$ExternalTexture	Lnet/minecraft/client/renderer/texture/TextureHandle;	handle	comp_1_2289
+METHOD	net/minecraft/client/renderer/texture/TextureProviderMipped2d	(Lnet/minecraft/resources/Identifier;Ljava/nio/file/Path;Lnet/minecraft/client/renderer/texture/TextureResources;)V	dumpContents	method_1_12981
+METHOD	net/minecraft/client/renderer/texture/TextureProviderMipped2d	(Lnet/minecraft/client/renderer/texture/TextureResources;)V	releaseTexture	method_1_12982
+CLASS	net/minecraft/commands/arguments/ContextFloatProviderArgument	class_1_2084
+FIELD	net/minecraft/commands/arguments/ContextFloatProviderArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12972
+METHOD	net/minecraft/commands/arguments/ContextFloatProviderArgument	(Lnet/minecraft/util/context/ContextKeySet;)Lcom/mojang/brigadier/arguments/ArgumentType;	floatProvider	method_1_12983
+METHOD	net/minecraft/commands/arguments/ContextFloatProviderArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/commands/arguments/ValidationWrapper;	getFloatProvider	method_1_12984
+FIELD	net/minecraft/commands/arguments/coordinates/BlockPosArgument	Lnet/minecraft/commands/arguments/coordinates/BlockPosArgument;	INSTANCE	field_1_12973
+FIELD	net/minecraft/commands/arguments/coordinates/BlockPosArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12974
+FIELD	net/minecraft/commands/arguments/coordinates/RotationArgument	Lnet/minecraft/commands/arguments/coordinates/RotationArgument;	INSTANCE	field_1_12975
+FIELD	net/minecraft/commands/arguments/coordinates/RotationArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12976
+CLASS	net/minecraft/commands/suggestions/ServerOnlyCustomSuggestion	class_1_2085
+METHOD	net/minecraft/commands/suggestions/ServerOnlyCustomSuggestion	(Lnet/minecraft/server/MinecraftServer;Lcom/mojang/brigadier/context/CommandContext;Lcom/mojang/brigadier/suggestion/SuggestionsBuilder;)Ljava/util/concurrent/CompletableFuture;	generate	method_1_12985
+FIELD	net/minecraft/network/protocol/game/ClientboundCommandsPacket	Lnet/minecraft/network/codec/StreamCodec;	RAW_STREAM_CODEC	field_1_12977
+METHOD	net/minecraft/network/protocol/game/ClientboundCommandsPacket	(Lio/netty/buffer/ByteBuf;)Lnet/minecraft/network/RegistryFriendlyByteBuf;	lambda$static$3	method_1_12986
+CLASS	net/minecraft/network/protocol/game/ClientboundCommandsPacket$ArgumentNodeStubWithSuggestion	class_1_2086
+FIELD	net/minecraft/network/protocol/game/ClientboundCommandsPacket$ArgumentNodeStubWithSuggestion	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12978
+FIELD	net/minecraft/network/protocol/game/ClientboundCommandsPacket$ArgumentNodeStubWithSuggestion	Lnet/minecraft/commands/arguments/SerializableArgument;	argument	comp_1_2290
+FIELD	net/minecraft/network/protocol/game/ClientboundCommandsPacket$ArgumentNodeStubWithSuggestion	Lnet/minecraft/commands/suggestions/SerializableCustomSuggestion;	customSuggestion	comp_1_2291
+FIELD	net/minecraft/network/protocol/game/ClientboundCommandsPacket$ArgumentNodeStubWithSuggestion	Ljava/lang/String;	id	comp_1_2292
+CLASS	net/minecraft/network/protocol/game/ClientboundCommandsPacket$ArgumentNodeStubWithoutSuggestion	class_1_2087
+FIELD	net/minecraft/network/protocol/game/ClientboundCommandsPacket$ArgumentNodeStubWithoutSuggestion	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12979
+FIELD	net/minecraft/network/protocol/game/ClientboundCommandsPacket$ArgumentNodeStubWithoutSuggestion	Lnet/minecraft/commands/arguments/SerializableArgument;	argument	comp_1_2293
+FIELD	net/minecraft/network/protocol/game/ClientboundCommandsPacket$ArgumentNodeStubWithoutSuggestion	Ljava/lang/String;	id	comp_1_2294
+FIELD	net/minecraft/network/protocol/game/ClientboundCommandsPacket$LiteralNodeStub	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12980
+CLASS	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	class_1_2088
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Lnet/minecraft/world/attribute/AmbientParticle;)Ljava/lang/String;	describeAmbientParticle	method_1_12987
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Lnet/minecraft/world/attribute/AmbientSounds;)Ljava/lang/String;	describeAmbientSounds	method_1_12988
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Lnet/minecraft/world/attribute/BackgroundMusic;)Ljava/lang/String;	describeBackgroundMusic	method_1_12989
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Lnet/minecraft/world/attribute/BedRule;)Ljava/lang/String;	describeBedRule	method_1_12990
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Lnet/minecraft/world/level/biome/MobSpawnSettings;)Ljava/lang/String;	describeMobSpawnSettings	method_1_12991
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Lnet/minecraft/world/attribute/AttributeType;Lnet/minecraft/world/attribute/modifier/AttributeModifier;Ljava/lang/Object;)Ljava/lang/String;	describeModifier	method_1_12992
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Ljava/lang/String;Lnet/minecraft/sounds/Music;)Ljava/lang/String;	describeMusic	method_1_12993
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Ljava/lang/Object;)Ljava/lang/String;	describeValue	method_1_12994
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(D)Ljava/lang/String;	formatFixed	method_1_12995
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Ljava/util/List;Lnet/minecraft/core/Holder;)V	lambda$describeAmbientSounds$0	method_1_12996
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Ljava/util/List;Lnet/minecraft/world/attribute/AmbientMoodSettings;)V	lambda$describeAmbientSounds$1	method_1_12997
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Ljava/util/List;Lnet/minecraft/sounds/Music;)V	lambda$describeBackgroundMusic$0	method_1_12998
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Ljava/util/List;Lnet/minecraft/sounds/Music;)V	lambda$describeBackgroundMusic$1	method_1_12999
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Ljava/util/List;Lnet/minecraft/sounds/Music;)V	lambda$describeBackgroundMusic$2	method_1_13000
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Ljava/lang/StringBuilder;Lnet/minecraft/network/chat/Component;)V	lambda$describeBedRule$0	method_1_13001
+METHOD	net/minecraft/world/attribute/EnvironmentAttributeDebugFormat	(Ljava/lang/StringBuilder;Lnet/minecraft/world/entity/EntityType;Lnet/minecraft/world/level/biome/MobSpawnSettings$MobSpawnCost;)V	lambda$describeMobSpawnSettings$0	method_1_13002
+CLASS	net/minecraft/world/attribute/EnvironmentAttributeLayerValues	class_1_2089
+FIELD	net/minecraft/world/attribute/EnvironmentAttributeLayerValues	Ljava/lang/Object;	finalValue	comp_1_2295
+FIELD	net/minecraft/world/attribute/EnvironmentAttributeLayerValues	Ljava/util/List;	layers	comp_1_2296
+CLASS	net/minecraft/world/attribute/EnvironmentAttributeLayerValues$LayerValue	class_1_2090
+FIELD	net/minecraft/world/attribute/EnvironmentAttributeLayerValues$LayerValue	Z	disabled	comp_1_2297
+FIELD	net/minecraft/world/attribute/EnvironmentAttributeLayerValues$LayerValue	Ljava/lang/String;	kind	comp_1_2298
+FIELD	net/minecraft/world/attribute/EnvironmentAttributeLayerValues$LayerValue	I	layerIndex	comp_1_2299
+FIELD	net/minecraft/world/attribute/EnvironmentAttributeLayerValues$LayerValue	Ljava/lang/String;	modifier	comp_1_2300
+FIELD	net/minecraft/world/attribute/EnvironmentAttributeLayerValues$LayerValue	Ljava/lang/Object;	value	comp_1_2301
+CLASS	net/minecraft/client/renderer/texture/VanillaTextureProvider2d	class_1_2091
+FIELD	net/minecraft/commands/arguments/blocks/BlockPredicateArgument	Lnet/minecraft/commands/arguments/blocks/BlockPredicateArgument;	INSTANCE	field_1_12981
+FIELD	net/minecraft/commands/arguments/blocks/BlockPredicateArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12982
+field_10675 is now comp_1_2302
+field_10673 is now comp_1_2303
+field_10674 is now comp_1_2304
+CLASS	net/minecraft/commands/arguments/blocks/BlockPredicateArgument$Result	class_1_2092
+field_10677 is now comp_1_2305
+field_10676 is now comp_1_2306
+field_10678 is now comp_1_2307
+FIELD	net/minecraft/commands/arguments/coordinates/ColumnPosArgument	Lnet/minecraft/commands/arguments/coordinates/ColumnPosArgument;	INSTANCE	field_1_12983
+FIELD	net/minecraft/commands/arguments/coordinates/ColumnPosArgument	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_12984
+METHOD	net/minecraft/commands/arguments/item/ComponentPredicateParser$ComponentLookupRule	(Lnet/minecraft/commands/arguments/item/ComponentPredicateParser$Context;)Lnet/minecraft/util/parsing/packrat/Suggestion;	suggestion	method_1_13003
+METHOD	net/minecraft/commands/arguments/item/ComponentPredicateParser$ComponentLookupRule	(Lnet/minecraft/commands/arguments/item/ComponentPredicateParser$Context;Lnet/minecraft/resources/Identifier;)Ljava/lang/Object;	validateElement	method_1_13004
+METHOD	net/minecraft/commands/arguments/item/ComponentPredicateParser$ElementLookupRule	(Lnet/minecraft/commands/arguments/item/ComponentPredicateParser$Context;)Lnet/minecraft/util/parsing/packrat/Suggestion;	suggestion	method_1_13005
+METHOD	net/minecraft/commands/arguments/item/ComponentPredicateParser$ElementLookupRule	(Lnet/minecraft/commands/arguments/item/ComponentPredicateParser$Context;Lnet/minecraft/resources/Identifier;)Ljava/lang/Object;	validateElement	method_1_13006
+METHOD	net/minecraft/commands/arguments/item/ComponentPredicateParser$PredicateLookupRule	(Lnet/minecraft/commands/arguments/item/ComponentPredicateParser$Context;)Lnet/minecraft/util/parsing/packrat/Suggestion;	suggestion	method_1_13007
+METHOD	net/minecraft/commands/arguments/item/ComponentPredicateParser$PredicateLookupRule	(Lnet/minecraft/commands/arguments/item/ComponentPredicateParser$Context;Lnet/minecraft/resources/Identifier;)Ljava/lang/Object;	validateElement	method_1_13008
+METHOD	net/minecraft/commands/arguments/item/ComponentPredicateParser$TagLookupRule	(Lnet/minecraft/commands/arguments/item/ComponentPredicateParser$Context;)Lnet/minecraft/util/parsing/packrat/Suggestion;	suggestion	method_1_13009
+METHOD	net/minecraft/commands/arguments/item/ComponentPredicateParser$TagLookupRule	(Lnet/minecraft/commands/arguments/item/ComponentPredicateParser$Context;Lnet/minecraft/resources/Identifier;)Ljava/lang/Object;	validateElement	method_1_13010
+CLASS	net/minecraft/commands/suggestions/SerializableSuggestionTypes	class_1_2093
+FIELD	net/minecraft/commands/suggestions/SerializableSuggestionTypes	Lcom/mojang/serialization/Codec;	CODEC	field_1_12985
+FIELD	net/minecraft/commands/suggestions/SerializableSuggestionTypes	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12986
+METHOD	net/minecraft/commands/suggestions/SerializableSuggestionTypes	(Lnet/minecraft/core/WritableRegistry;)V	bootstrap	method_1_13011
+CLASS	net/minecraft/util/parsing/packrat/commands/CommandParserState	class_1_2094
+METHOD	net/minecraft/util/parsing/packrat/commands/CommandParserState	()Lcom/mojang/brigadier/StringReader;	reader	comp_1_2308
+METHOD	net/minecraft/util/parsing/packrat/commands/CommandParserState	(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/util/parsing/packrat/commands/CommandParserState;	simple	method_1_13012
+METHOD	net/minecraft/util/parsing/packrat/commands/CommandParserState	(Ljava/lang/String;)Lnet/minecraft/util/parsing/packrat/commands/CommandParserState;	simple	method_1_13013
+CLASS	net/minecraft/util/parsing/packrat/commands/CommandParserState$Factory	class_1_2095
+METHOD	net/minecraft/util/parsing/packrat/commands/CommandParserState$Factory	(Lnet/minecraft/commands/ParseContext;Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/util/parsing/packrat/commands/CommandParserState;	create	method_1_13014
+METHOD	net/minecraft/util/parsing/packrat/commands/CommandParserState$Factory	(Lnet/minecraft/commands/ParseContext;Ljava/lang/String;)Lnet/minecraft/util/parsing/packrat/commands/CommandParserState;	create	method_1_13015
+CLASS	net/minecraft/util/parsing/packrat/commands/CommandParserState$Simple	class_1_2096
+FIELD	net/minecraft/util/parsing/packrat/commands/CommandParserState$Simple	Lnet/minecraft/util/parsing/packrat/commands/CommandParserState$Factory;	FACTORY	field_1_12987
+METHOD	net/minecraft/util/parsing/packrat/commands/CommandParserState$Simple	(Lnet/minecraft/commands/ParseContext;Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/util/parsing/packrat/commands/CommandParserState$Simple;	lambda$static$0	method_1_13016
+METHOD	net/minecraft/util/parsing/packrat/commands/ResourceLookupRule	(Lnet/minecraft/util/parsing/packrat/commands/CommandParserState;)Lnet/minecraft/util/parsing/packrat/Suggestion;	suggestion	method_1_13017
+FIELD	net/minecraft/client/multiplayer/ClientCommonPacketListenerImpl	Lnet/minecraft/commands/SuggestionBox;	commandSuggestions	field_1_12988
+METHOD	net/minecraft/client/multiplayer/ClientCommonPacketListenerImpl	()Lnet/minecraft/commands/SuggestionBox;	commandSuggestions	method_1_13018
+CLASS	net/minecraft/commands/suggestions/SerializableCustomSuggestion	class_1_2097
+METHOD	net/minecraft/commands/suggestions/SerializableCustomSuggestion	(Lnet/minecraft/commands/suggestions/SerializableCustomSuggestion;)Lnet/minecraft/commands/suggestions/SerializableCustomSuggestion$Type;	singletonType	method_1_13019
+METHOD	net/minecraft/commands/suggestions/SerializableCustomSuggestion	()Lnet/minecraft/commands/suggestions/SerializableCustomSuggestion$Type;	type	method_1_13020
+CLASS	net/minecraft/commands/suggestions/SerializableCustomSuggestion$Type	class_1_2098
+FIELD	net/minecraft/commands/suggestions/SerializableCustomSuggestion$Type	Lcom/mojang/serialization/MapCodec;	codec	comp_1_2309
+FIELD	net/minecraft/commands/suggestions/SerializableCustomSuggestion$Type	Lnet/minecraft/network/codec/StreamCodec;	streamCodec	comp_1_2310
+METHOD	net/minecraft/util/parsing/packrat/commands/IdentifierParseRule	()Lnet/minecraft/util/parsing/packrat/Rule;	instance	method_1_13021
+FIELD	net/minecraft/util/parsing/packrat/commands/ParserBasedArgument	Lnet/minecraft/util/parsing/packrat/commands/CommandParserState$Factory;	factory	field_1_12989
+CLASS	net/minecraft/commands/arguments/ValidatableResourceOrIdArgument	class_1_2099
+FIELD	net/minecraft/commands/arguments/ValidatableResourceOrIdArgument	Lnet/minecraft/util/context/ContextKeySet;	contextKeySet	field_1_12990
+METHOD	net/minecraft/commands/arguments/ValidatableResourceOrIdArgument	(Lnet/minecraft/commands/ParseContext;Lnet/minecraft/core/Holder;)Lnet/minecraft/commands/arguments/ValidationWrapper;	convert	method_1_13022
+METHOD	net/minecraft/commands/arguments/ValidatableResourceOrIdArgument	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Lnet/minecraft/commands/arguments/ValidationWrapper;	getResource	method_1_13023
+METHOD	net/minecraft/network/protocol/common/ClientCommonPacketListener	(Lnet/minecraft/network/protocol/game/ClientboundCommandsPacket;)V	handleCommands	method_1_13024
+METHOD	net/minecraft/util/datafix/fixes/SwingAnimationComponentSplitFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	fixTooltipDisplay	method_1_13025
+METHOD	net/minecraft/util/datafix/fixes/SwingAnimationComponentSplitFix	(Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$fixTooltipDisplay$0	method_1_13026
+METHOD	net/minecraft/util/datafix/fixes/SwingAnimationComponentSplitFix	(Lcom/mojang/serialization/Dynamic;Ljava/util/stream/Stream;)Lcom/mojang/serialization/Dynamic;	lambda$fixTooltipDisplay$1	method_1_13027
+METHOD	net/minecraft/util/datafix/fixes/SwingAnimationComponentSplitFix	(Lcom/mojang/serialization/Dynamic;Ljava/util/function/Consumer;)V	lambda$fixTooltipDisplay$2	method_1_13028
+METHOD	net/minecraft/util/parsing/packrat/commands/CommandArgumentParser$2	(Lnet/minecraft/util/parsing/packrat/commands/CommandArgumentParser$RegistryAwareState;)Ljava/lang/Object;	parseForCommands	method_1_13029
+CLASS	net/minecraft/util/parsing/packrat/commands/CommandArgumentParser$RegistryAwareState	class_1_2100
+FIELD	net/minecraft/util/parsing/packrat/commands/CommandArgumentParser$RegistryAwareState	Lnet/minecraft/util/parsing/packrat/commands/CommandParserState$Factory;	FACTORY	field_1_12991
+METHOD	net/minecraft/util/parsing/packrat/commands/CommandArgumentParser$RegistryAwareState	(Lnet/minecraft/commands/ParseContext;Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/util/parsing/packrat/commands/CommandArgumentParser$RegistryAwareState;	lambda$static$0	method_1_13030
+METHOD	net/minecraft/util/parsing/packrat/commands/CommandArgumentParser$RegistryAwareState	()Lnet/minecraft/core/HolderGetter$Provider;	registries	comp_1_2311
+CLASS	net/minecraft/util/parsing/packrat/commands/CommandArgumentParser$RegistryAwareState$Simple	class_1_2101
+METHOD	net/minecraft/world/level/storage/loot/predicates/LootItemCondition	(Lnet/minecraft/world/level/storage/loot/ValidationContext;)Z	canPass	method_1_13031
+METHOD	net/minecraft/world/level/storage/loot/predicates/LootItemCondition	(Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$ConstantConditionEvaluationContext;)Ljava/lang/Boolean;	constantValue	method_1_13032
+METHOD	net/minecraft/world/level/storage/loot/predicates/LootItemCondition	(Lnet/minecraft/world/level/storage/loot/ValidationContext;)Ljava/lang/Boolean;	validateConstantConditions	method_1_13033
+CLASS	net/minecraft/world/level/storage/loot/predicates/LootItemCondition$AlwaysFalseWarning	class_1_2102
+FIELD	net/minecraft/world/level/storage/loot/predicates/LootItemCondition$AlwaysFalseWarning	Lnet/minecraft/util/context/ContextKeySet;	contextKeySet	field_1_12992
+CLASS	net/minecraft/world/level/storage/loot/predicates/LootItemCondition$AlwaysTrueWarning	class_1_2103
+FIELD	net/minecraft/world/level/storage/loot/predicates/LootItemCondition$AlwaysTrueWarning	Lnet/minecraft/util/context/ContextKeySet;	contextKeySet	field_1_12993
+CLASS	net/minecraft/world/level/storage/loot/predicates/LootItemCondition$ConstantConditionEvaluationContext	class_1_2104
+FIELD	net/minecraft/world/level/storage/loot/predicates/LootItemCondition$ConstantConditionEvaluationContext	Lnet/minecraft/util/context/ContextKeySet;	contextKeySet	comp_1_2312
+FIELD	net/minecraft/world/level/storage/loot/predicates/LootItemCondition$ConstantConditionEvaluationContext	Ljava/util/Set;	visitedObjects	comp_1_2313
+METHOD	net/minecraft/world/level/storage/loot/predicates/LootItemCondition$ConstantConditionEvaluationContext	(Lnet/minecraft/world/level/storage/loot/ValidationContext;)Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition$ConstantConditionEvaluationContext;	create	method_1_13034
+METHOD	net/minecraft/world/level/storage/loot/predicates/LootItemCondition$ConstantConditionEvaluationContext	(Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition;)V	pop	method_1_13035
+METHOD	net/minecraft/world/level/storage/loot/predicates/LootItemCondition$ConstantConditionEvaluationContext	(Lnet/minecraft/world/level/storage/loot/predicates/LootItemCondition;)Z	push	method_1_13036
+CLASS	net/minecraft/world/level/storage/loot/predicates/LootItemCondition$ContextUser	class_1_2105
+METHOD	net/minecraft/world/level/storage/loot/predicates/LootItemCondition$ContextUser	()Ljava/util/Set;	requiredContextParams	method_1_13037
+CLASS	net/minecraft/network/protocol/game/ClientboundAddEntityMotionPacket	class_1_2106
+FIELD	net/minecraft/network/protocol/game/ClientboundAddEntityMotionPacket	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_12994
+FIELD	net/minecraft/network/protocol/game/ClientboundAddEntityMotionPacket	I	id	comp_1_2314
+FIELD	net/minecraft/network/protocol/game/ClientboundAddEntityMotionPacket	Lnet/minecraft/world/phys/Vec3;	impulse	comp_1_2315
+METHOD	net/minecraft/network/protocol/game/ClientboundAddEntityMotionPacket	(Lnet/minecraft/network/protocol/game/ClientGamePacketListener;)V	handle	method_1_13038
+CLASS	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	class_1_2107
+FIELD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	F	HEATMAP_CELL_HEIGHT	field_1_12995
+FIELD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	F	HEATMAP_OPACITY	field_1_12996
+FIELD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	I	HEATMAP_RADIUS	field_1_12997
+FIELD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	Lnet/minecraft/world/attribute/EnvironmentAttribute;	cachedAttribute	field_1_12998
+FIELD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	Lnet/minecraft/core/BlockPos;	cachedCenter	field_1_12999
+FIELD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	J	cachedGameTime	field_1_13000
+FIELD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	Lnet/minecraft/world/level/Level;	cachedLevel	field_1_13001
+FIELD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	Ljava/util/List;	cachedSamples	field_1_13002
+FIELD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	Lnet/minecraft/client/Minecraft;	minecraft	field_1_13003
+METHOD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	(Ljava/lang/Object;)I	colorFromValue	method_1_13039
+METHOD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	()V	forgetCaches	method_1_13040
+METHOD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/core/BlockPos;)Ljava/util/List;	heatmapSamples	method_1_13041
+METHOD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/core/BlockPos;)V	renderGizmoHeatmap	method_1_13042
+METHOD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/core/BlockPos;Lnet/minecraft/world/attribute/SpatialAttributeInterpolator;)Ljava/lang/Object;	sampleValue	method_1_13043
+CLASS	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer$HeatmapSample	class_1_2108
+FIELD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer$HeatmapSample	I	color	comp_1_2316
+FIELD	net/minecraft/client/renderer/debug/EnvironmentAttributeDebugRenderer$HeatmapSample	Lnet/minecraft/core/BlockPos;	pos	comp_1_2317
+FIELD	net/minecraft/world/level/storage/loot/parameters/LootContextParamSets	Lnet/minecraft/util/context/ContextKeySet;	COMMAND_MODIFIER	field_1_13004
+FIELD	net/minecraft/world/level/storage/loot/parameters/LootContextParamSets	Lnet/minecraft/util/context/ContextKeySet;	COMMAND_PREDICATE	field_1_13005
+FIELD	net/minecraft/world/level/storage/loot/parameters/LootContextParamSets	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_13006
+METHOD	net/minecraft/world/level/storage/loot/parameters/LootContextParamSets	(Lnet/minecraft/util/context/ContextKeySet$Builder;)V	lambda$static$4	method_1_13044
+METHOD	net/minecraft/world/level/storage/loot/parameters/LootContextParamSets	(Lnet/minecraft/util/context/ContextKeySet$Builder;)V	lambda$static$5	method_1_13045
+FIELD	net/minecraft/network/protocol/game/ClientboundEntityPositionSyncPacket	F	yHeadRot	comp_1_2318
+CLASS	net/minecraft/client/gui/components/debug/DebugEntryEnvironmentAttribute	class_1_2109
+FIELD	net/minecraft/client/gui/components/debug/DebugEntryEnvironmentAttribute	Lnet/minecraft/client/gui/components/debug/DebugGroup;	GROUP	field_1_13007
+FIELD	net/minecraft/client/gui/components/debug/DebugEntryEnvironmentAttribute	I	MAX_LENGTH	field_1_13008
+FIELD	net/minecraft/client/gui/components/debug/DebugEntryEnvironmentAttribute	Lnet/minecraft/world/attribute/EnvironmentAttribute;	attribute	field_1_13009
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryEnvironmentAttribute	(Lnet/minecraft/client/gui/components/debug/DebugScreenDisplayer;Lnet/minecraft/client/gui/Font;Ljava/lang/String;Ljava/lang/String;)V	addTextToGroup	method_1_13046
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryEnvironmentAttribute	(Lnet/minecraft/client/gui/components/debug/DebugScreenDisplayer;Lnet/minecraft/client/gui/Font;Ljava/lang/String;Ljava/lang/Object;I)V	addToGroup	method_1_13047
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryEnvironmentAttribute	(Ljava/lang/String;Ljava/lang/String;I)Lnet/minecraft/client/gui/components/debug/DebugFact;	formatLine	method_1_13048
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryEnvironmentAttribute	()Lnet/minecraft/world/attribute/EnvironmentAttribute;	getAttribute	method_1_13049
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryEnvironmentAttribute	(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/client/gui/components/debug/DebugFact;)V	lambda$display$0	method_1_13050
+METHOD	net/minecraft/client/gui/components/debug/DebugEntryEnvironmentAttribute	(Lnet/minecraft/world/attribute/EnvironmentAttribute;)V	setAttribute	method_1_13051
+CLASS	net/minecraft/client/gui/components/debug/DebugLineWithColorSwatchRenderer	class_1_2110
+FIELD	net/minecraft/client/gui/components/debug/DebugLineWithColorSwatchRenderer	I	SWATCH_GAP	field_1_13010
+FIELD	net/minecraft/client/gui/components/debug/DebugLineWithColorSwatchRenderer	Ljava/lang/Integer;	color	comp_1_2319
+FIELD	net/minecraft/client/gui/components/debug/DebugLineWithColorSwatchRenderer	Lnet/minecraft/client/gui/Font;	font	comp_1_2320
+FIELD	net/minecraft/client/gui/components/debug/DebugLineWithColorSwatchRenderer	Lnet/minecraft/network/chat/Component;	text	comp_1_2321
+FIELD	net/minecraft/client/renderer/pipeline/variant/TerrainRenderPipelineVariant	I	vertexBakedFaceSize	comp_1_2322
+FIELD	net/minecraft/client/renderer/pipeline/variant/TerrainRenderPipelineVariant	I	vertexFaceSize	comp_1_2323
+METHOD	net/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction	(Lnet/minecraft/world/level/storage/loot/ValidationContext;)V	validateCustom	method_1_13052
+CLASS	net/minecraft/world/level/storage/loot/functions/LootItemConditionalFunction$ContextUser	class_1_2111
+CLASS	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	class_1_2112
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	Lnet/minecraft/network/chat/Component;	ATTRIBUTES_TAB	field_1_13011
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	I	ITEM_HEIGHT	field_1_13012
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	Lnet/minecraft/network/chat/Component;	LAYERS_TAB	field_1_13013
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	I	LAYER_ITEM_HEIGHT	field_1_13014
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	Lnet/minecraft/network/chat/Component;	NONE	field_1_13015
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	I	ROW_PADDING	field_1_13016
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	I	ROW_WIDTH	field_1_13017
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	I	SCROLLBAR_MARGIN	field_1_13018
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	I	SEARCH_BOX_HEIGHT	field_1_13019
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	Lnet/minecraft/network/chat/Component;	SEARCH_HINT	field_1_13020
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	I	SPACING	field_1_13021
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	Lnet/minecraft/network/chat/Component;	TITLE	field_1_13022
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	Lnet/minecraft/client/gui/layouts/HeaderAndFooterLayout;	layout	field_1_13023
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	Lnet/minecraft/client/gui/screens/Screen;	parent	field_1_13024
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	Lnet/minecraft/client/gui/components/tabs/MenuTabBar;	tabBar	field_1_13025
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	Lnet/minecraft/client/gui/components/tabs/TabManager;	tabManager	field_1_13026
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	(Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen;)Lnet/minecraft/client/gui/Font;	access$000	method_1_13053
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	(Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen;)Lnet/minecraft/client/Minecraft;	access$100	method_1_13054
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	(Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen;)Lnet/minecraft/client/gui/Font;	access$200	method_1_13055
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	(Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen;)Lnet/minecraft/client/Minecraft;	access$300	method_1_13056
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	(Ljava/lang/String;I)Lnet/minecraft/network/chat/Component;	clip	method_1_13057
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	(Lnet/minecraft/client/gui/components/Button;)V	lambda$init$0	method_1_13058
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	(Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen;Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$init$1	method_1_13059
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	(Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen;Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$tabManager$0	method_1_13060
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	(Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen;Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$tabManager$1	method_1_13061
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	(Ljava/lang/String;Ljava/lang/String;)Z	matches	method_1_13062
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen	()I	rowWidth	method_1_13063
+CLASS	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList	class_1_2113
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList	Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen;	this$0	field_1_13027
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList	(Ljava/lang/String;)V	filterEntries	method_1_13064
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList	(Lnet/minecraft/core/Holder$Reference;)Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList$Entry;	lambda$filterEntries$0	method_1_13065
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList	(Ljava/lang/String;Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList$Entry;)Z	lambda$filterEntries$1	method_1_13066
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList	(Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList$Entry;)Ljava/lang/String;	lambda$filterEntries$2	method_1_13067
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList	(Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList$Entry;)Z	lambda$new$0	method_1_13068
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList	(Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList$Entry;)V	setSelected	method_1_13069
+CLASS	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList$Entry	class_1_2114
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList$Entry	Lnet/minecraft/world/attribute/EnvironmentAttribute;	attribute	field_1_13028
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList$Entry	Lnet/minecraft/network/chat/Component;	name	field_1_13029
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList$Entry	Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList;	this$1	field_1_13030
+CLASS	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributesTab	class_1_2115
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributesTab	Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributeList;	list	field_1_13031
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributesTab	Lnet/minecraft/client/gui/components/EditBox;	search	field_1_13032
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$AttributesTab	Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen;	this$0	field_1_13033
+CLASS	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$LayerList	class_1_2116
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$LayerList	Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen;	this$0	field_1_13034
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$LayerList	(Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$LayerList;)Lnet/minecraft/client/Minecraft;	access$400	method_1_13070
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$LayerList	()V	refreshEntries	method_1_13071
+CLASS	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$LayerList$Entry	class_1_2117
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$LayerList$Entry	Lnet/minecraft/client/gui/components/CycleButton;	toggle	field_1_13035
+METHOD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$LayerList$Entry	(Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$LayerList;Lnet/minecraft/world/attribute/EnvironmentAttribute;Lnet/minecraft/world/attribute/EnvironmentAttributeLayerValues$LayerValue;Lnet/minecraft/client/gui/components/AbstractCycleButton;Ljava/lang/Boolean;)V	lambda$new$0	method_1_13072
+CLASS	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$LayersTab	class_1_2118
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$LayersTab	Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$LayerList;	list	field_1_13036
+FIELD	net/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen$LayersTab	Lnet/minecraft/client/gui/screens/debug/DebugEnvironmentAttributeOptionsScreen;	this$0	field_1_13037
+Done!
