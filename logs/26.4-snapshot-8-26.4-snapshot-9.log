@@ -1,0 +1,859 @@
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/predicates/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/predicates/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/ComponentPath$Leaf;leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView; as record getter for textureViewLcom/mojang/renderpearl/api/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/KeyEvent;shortcutKey()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/client/renderer/feature/CustomFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/client/renderer/feature/FeatureRendererType;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/client/renderer/feature/ModelFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/core/CompositeDirection;getStep()Lnet/minecraft/core/Vec3i;
+Demoting record getter net/minecraft/core/particles/GeyserBaseParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/core/particles/GeyserParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Demoting record getter net/minecraft/world/level/levelgen/densityfunction/DensityVolume;strideX()I
+Read 11722 (7511) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 20769 MethodEntries (0 unique, 11970 classes).
+Joined 167 record fields.
+Collecting additional information...
+- Done. -
+Demoting record getter com/mojang/realmsclient/client/RealmsError$CustomError;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithJsonPayload;errorCode()I
+Demoting record getter com/mojang/realmsclient/client/RealmsError$ErrorWithRawPayload;errorCode()I
+Demoting record getter net/minecraft/advancements/predicates/CollectionContentsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/advancements/predicates/CollectionCountsPredicate$Multiple;unpack()Ljava/util/List;
+Demoting record getter net/minecraft/client/gui/ComponentPath$Leaf;leafComponent()Lnet/minecraft/client/gui/components/events/GuiEventListener;
+Demoting record getter net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView;
+Promoting net/minecraft/client/gui/font/AtlasGlyphProvider$Instance;textureView()Lcom/mojang/renderpearl/api/textures/GpuTextureView; as record getter for textureViewLcom/mojang/renderpearl/api/textures/GpuTextureView;
+Demoting record getter net/minecraft/client/gui/font/EmptyArea;activeLeft()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;left()F
+Demoting record getter net/minecraft/client/gui/font/glyphs/BakedSheetGlyph$EffectInstance;top()F
+Demoting record getter net/minecraft/client/input/KeyEvent;input()I
+Demoting record getter net/minecraft/client/input/KeyEvent;shortcutKey()I
+Demoting record getter net/minecraft/client/input/MouseButtonInfo;input()I
+Demoting record getter net/minecraft/client/multiplayer/chat/LoggedChatMessage$System;toContentComponent()Lnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z
+Promoting net/minecraft/client/renderer/PostPass$TextureInput;bilinear()Z as record getter for bilinearZ
+Demoting record getter net/minecraft/client/renderer/feature/CustomFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/client/renderer/feature/FeatureRendererType;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/client/renderer/feature/ModelFeatureRenderer$Submit;batchKey()Ljava/lang/Object;
+Demoting record getter net/minecraft/commands/arguments/coordinates/WorldCoordinate;isRelative()Z
+Demoting record getter net/minecraft/core/ClientAsset$DownloadedTexture;id()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/core/CompositeDirection;getStep()Lnet/minecraft/core/Vec3i;
+Demoting record getter net/minecraft/core/particles/GeyserBaseParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/core/particles/GeyserParticleOptions;getType()Lnet/minecraft/core/particles/ParticleType;
+Demoting record getter net/minecraft/nbt/ByteTag;intValue()I
+Demoting record getter net/minecraft/nbt/ByteTag;byteValue()B
+Demoting record getter net/minecraft/nbt/DoubleTag;doubleValue()D
+Demoting record getter net/minecraft/nbt/FloatTag;floatValue()F
+Demoting record getter net/minecraft/nbt/IntTag;intValue()I
+Demoting record getter net/minecraft/nbt/LongTag;longValue()J
+Demoting record getter net/minecraft/nbt/ShortTag;intValue()I
+Demoting record getter net/minecraft/nbt/ShortTag;shortValue()S
+Demoting record getter net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component;
+Promoting net/minecraft/network/chat/OutgoingChatMessage$Disguised;content()Lnet/minecraft/network/chat/Component; as record getter for contentLnet/minecraft/network/chat/Component;
+Demoting record getter net/minecraft/network/syncher/EntityDataAccessor;hashCode()I
+Demoting record getter net/minecraft/server/network/ConfigurationTask$Type;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/server/packs/OverlayMetadataSection$OverlayEntry$IntermediateEntry;toString()Ljava/lang/String;
+Demoting record getter net/minecraft/util/ProblemReporter$RootFieldPathElement;get()Ljava/lang/String;
+Promoting net/minecraft/util/valueproviders/ClampedInt;minInclusive()I as record getter for minInclusiveI
+Promoting net/minecraft/util/valueproviders/ClampedInt;maxInclusive()I as record getter for maxInclusiveI
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;min()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantFloat;max()F
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;minInclusive()I
+Demoting record getter net/minecraft/util/valueproviders/ConstantInt;maxInclusive()I
+Demoting record getter net/minecraft/world/item/ItemStackTemplate;typeHolder()Lnet/minecraft/core/Holder;
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isAdvanced()Z
+Demoting record getter net/minecraft/world/item/TooltipFlag$Default;isCreative()Z
+Promoting net/minecraft/world/item/alchemy/PotionContents;customEffects()Ljava/util/List; as record getter for customEffectsLjava/util/List;
+Demoting record getter net/minecraft/world/level/SpawnData;getEntityToSpawn()Lnet/minecraft/nbt/CompoundTag;
+Demoting record getter net/minecraft/world/level/SpawnData;getCustomSpawnRules()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/SpawnData;getEquipment()Ljava/util/Optional;
+Demoting record getter net/minecraft/world/level/block/PointedDripstoneBlock$FluidInfo;canFillCauldron()Z
+Promoting net/minecraft/world/level/block/entity/vault/VaultConfig;playerDetector()Lnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector; as record getter for playerDetectorLnet/minecraft/world/level/block/entity/trialspawner/PlayerDetector;
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInMemory()I
+Demoting record getter net/minecraft/world/level/chunk/Configuration$Simple;bitsInStorage()I
+Demoting record getter net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I
+Promoting net/minecraft/world/level/gameevent/GameEvent;notificationRadius()I as record getter for notificationRadiusI
+Demoting record getter net/minecraft/world/level/gamerules/GameRuleCategory;getDescriptionId()Lnet/minecraft/resources/Identifier;
+Demoting record getter net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z
+Promoting net/minecraft/world/level/levelgen/NoiseGeneratorSettings;disableMobGeneration()Z as record getter for disableMobGenerationZ
+Demoting record getter net/minecraft/world/level/levelgen/densityfunction/DensityVolume;strideX()I
+Read 11760 (7541) classes.
+Populated subclass entries.
+Joining MethodEntries...
+Joined 20828 MethodEntries (0 unique, 12009 classes).
+Joined 162 record fields.
+Collecting additional information...
+- Done. -
+Loading remapping files...
+Generating new mappings...
+FIELD	net/minecraft/client/Options	Lnet/minecraft/network/chat/Component;	GRAPHICS_TOOLTIP_IMPROVED_FOG	field_1_13038
+FIELD	net/minecraft/client/Options	Lnet/minecraft/client/OptionInstance;	improvedFog	field_1_13039
+FIELD	net/minecraft/client/Options	Lnet/minecraft/client/KeyMapping;	keyRepeatRecipeOrTrade	field_1_13040
+METHOD	net/minecraft/client/Options	()Lnet/minecraft/client/OptionInstance;	improvedFog	method_1_13073
+METHOD	net/minecraft/client/Options	(Ljava/lang/Boolean;)V	lambda$new$22	method_1_13074
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/resources/ResourceKey;)Lnet/minecraft/world/item/Item$Properties;	dispensed	method_1_13075
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/core/component/DataComponentMap$Builder;Lnet/minecraft/core/HolderLookup$Provider;)V	initDefault	method_1_13076
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/core/HolderLookup$Provider;)Lnet/minecraft/core/Holder;	lambda$dispensed$0	method_1_13077
+METHOD	net/minecraft/world/item/Item$Properties	(Lnet/minecraft/core/component/DataComponentMap$Builder;Lnet/minecraft/core/HolderLookup$Provider;Lnet/minecraft/resources/ResourceKey;)V	lambda$new$0	method_1_13078
+FIELD	net/minecraft/client/Minecraft	Lnet/minecraft/client/multiplayer/signaling/SignalingClient;	signalingClient	field_1_13041
+FIELD	net/minecraft/world/entity/Mob	Z	overrideLookControl	field_1_13042
+METHOD	net/minecraft/world/entity/Mob	()V	disableLookControlThisTick	method_1_13079
+METHOD	net/minecraft/world/entity/Mob	()Z	isLookControlActive	method_1_13080
+METHOD	net/minecraft/world/item/Items	(Lnet/minecraft/world/item/Item$Properties;)Lnet/minecraft/world/item/Item$Properties;	lambda$registerMinecart$0	method_1_13081
+METHOD	net/minecraft/world/item/Items	(Lnet/minecraft/world/item/Item$Properties;)Lnet/minecraft/world/item/Item$Properties;	lambda$static$269	method_1_13082
+METHOD	net/minecraft/world/item/Items	(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/item/Item;	registerBoat	method_1_13083
+METHOD	net/minecraft/world/item/Items	(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/entity/EntityType;)Lnet/minecraft/world/item/Item;	registerMinecart	method_1_13084
+METHOD	net/minecraft/world/item/Items	(Lnet/minecraft/resources/ResourceKey;Lnet/minecraft/world/entity/EntityType;Ljava/util/function/UnaryOperator;)Lnet/minecraft/world/item/Item;	registerMinecart	method_1_13085
+METHOD	net/minecraft/network/Connection	()Lio/netty/channel/ChannelId;	channelId	method_1_13086
+FIELD	net/minecraft/tags/DamageTypeTags	Lnet/minecraft/tags/TagKey;	CANNOT_HURT_PERCHING_ENDER_DRAGON	field_1_13043
+METHOD	net/minecraft/world/entity/Entity	()Lnet/minecraft/world/entity/Entity;	getGraphRoot	method_1_13087
+METHOD	net/minecraft/world/entity/Entity	(Lnet/minecraft/world/entity/Entity;)Z	isPartOfSameEntityGraph	method_1_13088
+METHOD	net/minecraft/world/entity/Entity	(Lnet/minecraft/world/entity/Entity;Lnet/minecraft/world/entity/Entity;)Z	lambda$startRiding$0	method_1_13089
+FIELD	net/minecraft/world/inventory/Slot$Section	Lnet/minecraft/world/inventory/Slot$Section;	DESTROY_ITEM	field_1_13044
+CLASS	net/minecraft/data/DispenseBehaviors	class_1_2119
+METHOD	net/minecraft/data/DispenseBehaviors	(Lnet/minecraft/data/worldgen/BootstrapContext;)V	bootstrap	method_1_13090
+FIELD	net/minecraft/server/MinecraftServer	J	DEFAULT_MIN_REKEY_TIME_MS	field_1_13045
+FIELD	net/minecraft/server/MinecraftServer	Lnet/minecraft/util/crypto/SessionKeyExchange$ServerSideFactory;	connectionPeerFactory	field_1_13046
+METHOD	net/minecraft/server/MinecraftServer	()Lnet/minecraft/util/crypto/SessionKeyExchange$ServerSideFactory;	connectionPeerFactory	method_1_13091
+METHOD	net/minecraft/network/FriendlyByteBuf	(Lio/netty/buffer/ByteBuf;I)[B	readFixedSizeByteArray	method_1_13092
+CLASS	net/minecraft/util/crypto/SessionKeys	class_1_2120
+FIELD	net/minecraft/util/crypto/SessionKeys	Lorg/apache/commons/codec/binary/Base32;	BASE_32_HEX	field_1_13047
+FIELD	net/minecraft/util/crypto/SessionKeys	B	DIGEST_SEPARATOR	field_1_13048
+FIELD	net/minecraft/util/crypto/SessionKeys	Ljavax/crypto/SecretKey;	authSignature	comp_1_2324
+FIELD	net/minecraft/util/crypto/SessionKeys	Ljavax/crypto/SecretKey;	integritySignature	comp_1_2325
+FIELD	net/minecraft/util/crypto/SessionKeys	Lnet/minecraft/util/crypto/PublicPeerInfo;	peerInfoA	comp_1_2326
+FIELD	net/minecraft/util/crypto/SessionKeys	Lnet/minecraft/util/crypto/PublicPeerInfo;	peerInfoB	comp_1_2327
+FIELD	net/minecraft/util/crypto/SessionKeys	Lnet/minecraft/util/crypto/SessionCommonInfo;	sessionCommonInfo	comp_1_2328
+FIELD	net/minecraft/util/crypto/SessionKeys	Ljavax/crypto/SecretKey;	streamAToB	comp_1_2329
+FIELD	net/minecraft/util/crypto/SessionKeys	Ljavax/crypto/SecretKey;	streamBToA	comp_1_2330
+METHOD	net/minecraft/util/crypto/SessionKeys	()[B	computeIntegrityDigest	method_1_13093
+METHOD	net/minecraft/util/crypto/SessionKeys	()Ljava/lang/String;	computeKeysAuthenticationDigest	method_1_13094
+METHOD	net/minecraft/util/crypto/SessionKeys	(Lnet/minecraft/util/crypto/SessionKeyExchange$Side;)Ljavax/crypto/SecretKey;	inboundStreamKey	method_1_13095
+METHOD	net/minecraft/util/crypto/SessionKeys	(Lnet/minecraft/util/crypto/SessionKeyExchange$Side;)Ljavax/crypto/SecretKey;	outboundStreamKey	method_1_13096
+METHOD	net/minecraft/util/crypto/SessionKeys	(Lnet/minecraft/util/crypto/SessionKeyExchange$Side;)Lnet/minecraft/util/crypto/PublicPeerInfo;	peerInfo	method_1_13097
+FIELD	net/minecraft/util/crypto/SessionKeys$1	[I	$SwitchMap$net$minecraft$util$crypto$SessionKeyExchange$Side	field_1_13049
+CLASS	net/minecraft/util/crypto/package-info	class_1_2121
+CLASS	com/mojang/blaze3d/vertex/PulledFormats	class_1_2122
+FIELD	com/mojang/blaze3d/vertex/PulledFormats	I	TERRAIN_BAKED_QUAD_SIZE	field_1_13050
+FIELD	com/mojang/blaze3d/vertex/PulledFormats	I	TERRAIN_BAKED_QUAD_VERTEX_SIZE	field_1_13051
+FIELD	com/mojang/blaze3d/vertex/PulledFormats	I	TERRAIN_BAKED_QUAD_VERTEX_UV_OFFSET	field_1_13052
+FIELD	com/mojang/blaze3d/vertex/PulledFormats	I	TERRAIN_BAKED_QUAD_VERTEX_X_OFFSET	field_1_13053
+FIELD	com/mojang/blaze3d/vertex/PulledFormats	I	TERRAIN_BAKED_QUAD_VERTEX_Y_OFFSET	field_1_13054
+FIELD	com/mojang/blaze3d/vertex/PulledFormats	I	TERRAIN_BAKED_QUAD_VERTEX_Z_OFFSET	field_1_13055
+FIELD	com/mojang/blaze3d/vertex/PulledFormats	I	TERRAIN_FACE_BAKED_QUAD_INDEX_OFFSET	field_1_13056
+FIELD	com/mojang/blaze3d/vertex/PulledFormats	I	TERRAIN_FACE_BRIGHTNESS_OFFSET	field_1_13057
+FIELD	com/mojang/blaze3d/vertex/PulledFormats	I	TERRAIN_FACE_COLOR_OFFSET	field_1_13058
+FIELD	com/mojang/blaze3d/vertex/PulledFormats	I	TERRAIN_FACE_LIGHTING_OFFSET	field_1_13059
+FIELD	com/mojang/blaze3d/vertex/PulledFormats	I	TERRAIN_FACE_POSITION_OFFSET	field_1_13060
+FIELD	com/mojang/blaze3d/vertex/PulledFormats	I	TERRAIN_FACE_SIZE	field_1_13061
+METHOD	net/minecraft/world/entity/LivingEntity	(Ljava/lang/Float;)Ljava/lang/Float;	lambda$applyItemBlocking$1	method_1_13098
+FIELD	net/minecraft/core/registries/Registries	Lnet/minecraft/resources/ResourceKey;	DISPENSE_BEHAVIOR	field_1_13062
+FIELD	net/minecraft/core/registries/Registries	Lnet/minecraft/resources/ResourceKey;	DISPENSE_BEHAVIOR_TYPE	field_1_13063
+CLASS	net/minecraft/util/crypto/PublicPeerInfo	class_1_2123
+FIELD	net/minecraft/util/crypto/PublicPeerInfo	Ljava/lang/String;	name	comp_1_2331
+FIELD	net/minecraft/util/crypto/PublicPeerInfo	Ljava/security/PublicKey;	publicKey	comp_1_2332
+METHOD	net/minecraft/util/crypto/PublicPeerInfo	(Ljavax/crypto/Mac;)V	addToDigest	method_1_13099
+FIELD	net/minecraft/world/level/material/Fluid	Ljava/util/OptionalDouble;	dripstoneTransferProbability	field_1_13064
+FIELD	net/minecraft/world/level/material/Fluid	Z	pathfindable	field_1_13065
+FIELD	net/minecraft/world/level/material/Fluid	Z	useCameraPositionForFogDetection	field_1_13066
+METHOD	net/minecraft/world/level/material/Fluid	()Ljava/util/OptionalDouble;	dripstoneTransferProbability	method_1_13100
+METHOD	net/minecraft/world/level/material/Fluid	()Z	getUseCameraPositionForFogDetection	method_1_13101
+METHOD	net/minecraft/world/level/material/Fluid	()Z	isPathfindable	method_1_13102
+FIELD	net/minecraft/world/level/material/Fluid$Properties	Ljava/util/OptionalDouble;	dripstoneTransferProbability	field_1_13067
+FIELD	net/minecraft/world/level/material/Fluid$Properties	Z	pathfindable	field_1_13068
+FIELD	net/minecraft/world/level/material/Fluid$Properties	Z	useCameraPositionForFogDetection	field_1_13069
+METHOD	net/minecraft/world/level/material/Fluid$Properties	(D)Lnet/minecraft/world/level/material/Fluid$Properties;	dripstoneTransferProbability	method_1_13103
+METHOD	net/minecraft/world/level/material/Fluid$Properties	()Lnet/minecraft/world/level/material/Fluid$Properties;	pathfindable	method_1_13104
+METHOD	net/minecraft/world/level/material/Fluid$Properties	()Lnet/minecraft/world/level/material/Fluid$Properties;	useCameraPositionForFogDetection	method_1_13105
+FIELD	net/minecraft/network/codec/ByteBufCodecs	Lnet/minecraft/network/codec/StreamCodec;	X509_RSA_PUBLIC_KEY	field_1_13070
+FIELD	net/minecraft/network/codec/ByteBufCodecs	Lnet/minecraft/network/codec/StreamCodec;	X509_XDH_PUBLIC_KEY	field_1_13071
+METHOD	net/minecraft/network/codec/ByteBufCodecs	(I)Lnet/minecraft/network/codec/StreamCodec;	fixedSizeByteArray	method_1_13106
+METHOD	net/minecraft/network/codec/ByteBufCodecs	(Ljava/security/KeyFactory;[B)Ljava/security/PublicKey;	lambda$x590PublicKeyCodec$0	method_1_13107
+METHOD	net/minecraft/network/codec/ByteBufCodecs	(Ljava/security/KeyFactory;Ljava/security/PublicKey;)[B	lambda$x590PublicKeyCodec$1	method_1_13108
+METHOD	net/minecraft/network/codec/ByteBufCodecs	(Ljava/lang/String;I)Lnet/minecraft/network/codec/StreamCodec;	x590PublicKeyCodec	method_1_13109
+FIELD	net/minecraft/network/codec/ByteBufCodecs$28	I	val$size	field_1_13072
+METHOD	net/minecraft/network/codec/ByteBufCodecs$28	(Lio/netty/buffer/ByteBuf;)[B	decode	method_1_13110
+METHOD	net/minecraft/network/codec/ByteBufCodecs$28	(Lio/netty/buffer/ByteBuf;[B)V	encode	method_1_13111
+METHOD	net/minecraft/core/particles/ParticleTypes	(Lnet/minecraft/core/particles/ParticleType;)Lcom/mojang/serialization/MapCodec;	lambda$static$10	method_1_13112
+METHOD	net/minecraft/core/particles/ParticleTypes	(Lnet/minecraft/core/particles/ParticleType;)Lnet/minecraft/network/codec/StreamCodec;	lambda$static$11	method_1_13113
+METHOD	net/minecraft/core/particles/ParticleTypes	(Lnet/minecraft/core/particles/ParticleType;)Lcom/mojang/serialization/MapCodec;	lambda$static$12	method_1_13114
+METHOD	net/minecraft/core/particles/ParticleTypes	(Lnet/minecraft/core/particles/ParticleType;)Lnet/minecraft/network/codec/StreamCodec;	lambda$static$13	method_1_13115
+FIELD	net/minecraft/world/item/slot/SlotSelector$FilteringSelector	Lnet/minecraft/world/item/slot/SlotSelector;	slotSelector	comp_1_2333
+FIELD	net/minecraft/world/item/slot/SlotSelector$LimitingSelector	I	encountered	field_1_13073
+comp_1_909 is now field_1_13074
+comp_1_911 is now field_1_13075
+METHOD	net/minecraft/client/gui/components/Tooltip	(Ljava/util/List;Lnet/minecraft/network/chat/Component;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/client/gui/components/Tooltip;	createForItem	method_1_13116
+METHOD	net/minecraft/client/renderer/LevelRenderer	()Lnet/minecraft/client/renderer/chunk/ChunkSectionsToRender$ImprovedFogTextures;	getImprovedFogTextures	method_1_13117
+FIELD	net/minecraft/core/component/DataComponents	Lnet/minecraft/core/component/DataComponentType;	DISPENSE_BEHAVIOR	field_1_13076
+METHOD	net/minecraft/core/component/DataComponents	(Lnet/minecraft/core/component/DataComponentType$Builder;)Lnet/minecraft/core/component/DataComponentType$Builder;	lambda$static$45	method_1_13118
+CLASS	net/minecraft/util/crypto/SessionCommonInfo	class_1_2124
+FIELD	net/minecraft/util/crypto/SessionCommonInfo	Z	authenticationRequested	comp_1_2334
+FIELD	net/minecraft/util/crypto/SessionCommonInfo	I	protocolVersion	comp_1_2335
+FIELD	net/minecraft/util/crypto/SessionCommonInfo	J	salt	comp_1_2336
+METHOD	net/minecraft/util/crypto/SessionCommonInfo	(Ljavax/crypto/Mac;)V	addToDigest	method_1_13119
+CLASS	net/minecraft/util/crypto/StreamCryptoUtils	class_1_2125
+FIELD	net/minecraft/util/crypto/StreamCryptoUtils	Ljava/lang/String;	STREAM_ALGORITHM	field_1_13077
+FIELD	net/minecraft/util/crypto/StreamCryptoUtils	I	STREAM_ALGORITHM_KEY_SIZE	field_1_13078
+FIELD	net/minecraft/util/crypto/StreamCryptoUtils	Ljava/lang/String;	STREAM_ALGORITHM_KEY_TYPE	field_1_13079
+METHOD	net/minecraft/util/crypto/StreamCryptoUtils	(ILjava/security/Key;Ljavax/crypto/spec/IvParameterSpec;)Ljavax/crypto/Cipher;	getCipher	method_1_13120
+CLASS	net/minecraft/util/crypto/StreamCryptoUtils$IVGenerator	class_1_2126
+FIELD	net/minecraft/util/crypto/StreamCryptoUtils$IVGenerator	Ljava/util/Random;	random	field_1_13080
+METHOD	net/minecraft/util/crypto/StreamCryptoUtils$IVGenerator	()Ljavax/crypto/spec/IvParameterSpec;	generate	method_1_13121
+METHOD	net/minecraft/util/crypto/StreamCryptoUtils$IVGenerator	()Lnet/minecraft/util/crypto/StreamCryptoUtils$IVPair;	generatePair	method_1_13122
+CLASS	net/minecraft/util/crypto/StreamCryptoUtils$IVPair	class_1_2127
+FIELD	net/minecraft/util/crypto/StreamCryptoUtils$IVPair	Ljavax/crypto/spec/IvParameterSpec;	clientToServer	comp_1_2337
+FIELD	net/minecraft/util/crypto/StreamCryptoUtils$IVPair	Ljavax/crypto/spec/IvParameterSpec;	serverToClient	comp_1_2338
+FIELD	net/minecraft/client/gui/screens/DeathScreen$TitleConfirmScreen	Lnet/minecraft/client/gui/screens/Screen;	previousScreen	field_1_13081
+CLASS	net/minecraft/util/crypto/SessionKeyExchange	class_1_2128
+FIELD	net/minecraft/util/crypto/SessionKeyExchange	Lnet/minecraft/util/crypto/SessionKeyExchange$Side;	DEFAULT_CLIENT_SIDE	field_1_13082
+FIELD	net/minecraft/util/crypto/SessionKeyExchange	Lnet/minecraft/util/crypto/SessionKeyExchange$Side;	DEFAULT_SERVER_SIDE	field_1_13083
+FIELD	net/minecraft/util/crypto/SessionKeyExchange	Ljava/security/spec/NamedParameterSpec;	EC_CURVE	field_1_13084
+FIELD	net/minecraft/util/crypto/SessionKeyExchange	Ljava/lang/String;	INTEGRITY_SIGNATURE_ALGORITHM	field_1_13085
+FIELD	net/minecraft/util/crypto/SessionKeyExchange	I	INTEGRITY_SIGNATURE_KEY_SIZE	field_1_13086
+FIELD	net/minecraft/util/crypto/SessionKeyExchange	Ljava/lang/String;	KEY_ALGORITHM	field_1_13087
+FIELD	net/minecraft/util/crypto/SessionKeyExchange	Ljava/lang/String;	KEY_ENCHANGE_ALGORITHM	field_1_13088
+FIELD	net/minecraft/util/crypto/SessionKeyExchange	[B	SALT	field_1_13089
+FIELD	net/minecraft/util/crypto/SessionKeyExchange	Lnet/minecraft/util/crypto/SessionCommonInfo;	commonInfo	field_1_13090
+FIELD	net/minecraft/util/crypto/SessionKeyExchange	Ljava/security/KeyPair;	ownKeyPair	field_1_13091
+FIELD	net/minecraft/util/crypto/SessionKeyExchange	Ljava/lang/String;	ownName	field_1_13092
+FIELD	net/minecraft/util/crypto/SessionKeyExchange	Lnet/minecraft/util/crypto/SessionKeyExchange$Side;	ownSide	field_1_13093
+METHOD	net/minecraft/util/crypto/SessionKeyExchange	(Lnet/minecraft/util/crypto/PublicPeerInfo;Lnet/minecraft/util/crypto/PublicPeerInfo;)Ljava/lang/String;	authParams	method_1_13123
+METHOD	net/minecraft/util/crypto/SessionKeyExchange	()Lnet/minecraft/util/crypto/SessionCommonInfo;	commonInfo	method_1_13124
+METHOD	net/minecraft/util/crypto/SessionKeyExchange	(Lnet/minecraft/util/crypto/PublicPeerInfo;Lnet/minecraft/util/crypto/PublicPeerInfo;)Ljava/lang/String;	connectionParams	method_1_13125
+METHOD	net/minecraft/util/crypto/SessionKeyExchange	(Ljava/lang/String;IJZ)Lnet/minecraft/util/crypto/SessionKeyExchange;	createClientSide	method_1_13126
+METHOD	net/minecraft/util/crypto/SessionKeyExchange	(Ljava/security/SecureRandom;)Ljava/security/KeyPair;	createKeyPair	method_1_13127
+METHOD	net/minecraft/util/crypto/SessionKeyExchange	(Lnet/minecraft/util/crypto/PublicPeerInfo;)Lnet/minecraft/util/crypto/SessionKeys;	createSessionKeys	method_1_13128
+METHOD	net/minecraft/util/crypto/SessionKeyExchange	(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;	pickA	method_1_13129
+METHOD	net/minecraft/util/crypto/SessionKeyExchange	(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;	pickB	method_1_13130
+METHOD	net/minecraft/util/crypto/SessionKeyExchange	()Ljava/security/PublicKey;	publicKey	method_1_13131
+CLASS	net/minecraft/util/crypto/SessionKeyExchange$ServerSideFactory	class_1_2129
+FIELD	net/minecraft/util/crypto/SessionKeyExchange$ServerSideFactory	Ljava/security/KeyPair;	keyPair	field_1_13094
+FIELD	net/minecraft/util/crypto/SessionKeyExchange$ServerSideFactory	J	lastRekeyTimeMs	field_1_13095
+FIELD	net/minecraft/util/crypto/SessionKeyExchange$ServerSideFactory	J	minRekeyTimeMs	field_1_13096
+FIELD	net/minecraft/util/crypto/SessionKeyExchange$ServerSideFactory	Lnet/minecraft/util/RandomSource;	random	field_1_13097
+FIELD	net/minecraft/util/crypto/SessionKeyExchange$ServerSideFactory	Ljava/security/SecureRandom;	secureRandom	field_1_13098
+METHOD	net/minecraft/util/crypto/SessionKeyExchange$ServerSideFactory	(Lnet/minecraft/util/crypto/SessionCommonInfo;Ljava/lang/String;)Lnet/minecraft/util/crypto/SessionKeyExchange;	createExchange	method_1_13132
+METHOD	net/minecraft/util/crypto/SessionKeyExchange$ServerSideFactory	(Lio/netty/channel/ChannelId;Ljava/lang/String;IZ)Lnet/minecraft/util/crypto/SessionKeyExchange;	createServerSide	method_1_13133
+METHOD	net/minecraft/util/crypto/SessionKeyExchange$ServerSideFactory	(Lio/netty/channel/ChannelId;)J	nextNonce	method_1_13134
+METHOD	net/minecraft/util/crypto/SessionKeyExchange$ServerSideFactory	()V	rekey	method_1_13135
+METHOD	net/minecraft/util/crypto/SessionKeyExchange$ServerSideFactory	()V	rekeyIfNeeded	method_1_13136
+CLASS	net/minecraft/util/crypto/SessionKeyExchange$Side	class_1_2130
+FIELD	net/minecraft/util/crypto/SessionKeyExchange$Side	Lnet/minecraft/util/crypto/SessionKeyExchange$Side;	A	field_1_13099
+FIELD	net/minecraft/util/crypto/SessionKeyExchange$Side	Lnet/minecraft/util/crypto/SessionKeyExchange$Side;	B	field_1_13100
+METHOD	net/minecraft/util/crypto/SessionKeyExchange$Side	()[Lnet/minecraft/util/crypto/SessionKeyExchange$Side;	$values	method_1_13137
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils	(Lcom/mojang/serialization/Dynamic;Lnet/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator;)Lcom/mojang/serialization/Dynamic;	fixComponentIdsInTooltipDisplay	method_1_13138
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils	(Lcom/mojang/serialization/Dynamic;Lnet/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator;Z)Lcom/mojang/serialization/Dynamic;	fixComponentsIds	method_1_13139
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils	(Lcom/mojang/serialization/Dynamic;Lnet/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator;Z)Lcom/mojang/serialization/Dynamic;	fixRemovedComponentIds	method_1_13140
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils	(Lnet/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$fixComponentIdsInTooltipDisplay$0	method_1_13141
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils	(Lcom/mojang/serialization/Dynamic;Lnet/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator;Ljava/util/stream/Stream;)Lcom/mojang/serialization/Dynamic;	lambda$fixComponentIdsInTooltipDisplay$1	method_1_13142
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils	(Lnet/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator;Lcom/mojang/serialization/Dynamic;)Ljava/util/stream/Stream;	lambda$fixComponentIdsInTooltipDisplay$2	method_1_13143
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils	(Lnet/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$fixComponentsIds$0	method_1_13144
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils	(Lnet/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator;Ljava/util/Map;ZLcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;)V	lambda$fixRemovedComponentIds$0	method_1_13145
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils	(Ljava/util/Map;Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;Ljava/lang/String;)V	lambda$fixRemovedComponentIds$1	method_1_13146
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils	(Ljava/util/Map;Lcom/mojang/serialization/Dynamic;Lcom/mojang/serialization/Dynamic;Ljava/lang/String;)V	lambda$fixRemovedComponentIds$2	method_1_13147
+CLASS	net/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator	class_1_2131
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator	(Ljava/lang/String;)Ljava/util/stream/Stream;	apply	method_1_13148
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator	(Ljava/lang/String;Ljava/lang/String;)Ljava/util/stream/Stream;	lambda$remove$0	method_1_13149
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator	(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/util/stream/Stream;	lambda$rename$0	method_1_13150
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator	(Ljava/lang/String;)Lnet/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator;	remove	method_1_13151
+METHOD	net/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator	(Ljava/lang/String;Ljava/lang/String;)Lnet/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator;	rename	method_1_13152
+FIELD	net/minecraft/world/entity/ItemBasedSteering	Ljava/lang/String;	BOOSTING_TAG	field_1_13101
+FIELD	net/minecraft/world/entity/ItemBasedSteering	Ljava/lang/String;	BOOST_TIME_TAG	field_1_13102
+FIELD	net/minecraft/world/entity/ItemBasedSteering	Ljava/lang/String;	BOOST_TIME_TOTAL_TAG	field_1_13103
+FIELD	net/minecraft/world/entity/ItemBasedSteering	Ljava/lang/String;	ITEM_BASED_STEERING_TAG	field_1_13104
+METHOD	net/minecraft/world/entity/ItemBasedSteering	(Lnet/minecraft/world/level/storage/ValueInput;)V	load	method_1_13153
+METHOD	net/minecraft/world/entity/ItemBasedSteering	(Lnet/minecraft/world/level/storage/ValueOutput;)V	save	method_1_13154
+METHOD	net/minecraft/world/entity/ItemBasedSteering	(I)V	setBoostTimeTotal	method_1_13155
+FIELD	net/minecraft/core/dispenser/DispenseBehavior	Lcom/mojang/serialization/Codec;	CODEC	field_1_13105
+FIELD	net/minecraft/core/dispenser/DispenseBehavior	Lcom/mojang/serialization/Codec;	DIRECT_CODEC	field_1_13106
+FIELD	net/minecraft/core/dispenser/DispenseBehavior	Lcom/mojang/serialization/Codec;	LIST_CODEC	field_1_13107
+METHOD	net/minecraft/core/dispenser/DispenseBehavior	(Lnet/minecraft/core/dispenser/BlockSource;Lnet/minecraft/world/item/ItemStack;)V	addToInventoryOrDispense	method_1_13156
+METHOD	net/minecraft/core/dispenser/DispenseBehavior	()Lcom/mojang/serialization/MapCodec;	codec	method_1_13157
+METHOD	net/minecraft/core/dispenser/DispenseBehavior	(Lnet/minecraft/core/dispenser/BlockSource;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/core/dispenser/DispenseBehavior$DispenseResult;	consumeWithRemainder	method_1_13158
+METHOD	net/minecraft/core/dispenser/DispenseBehavior	(Ljava/lang/Iterable;Lnet/minecraft/core/dispenser/BlockSource;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/item/ItemStack;	dispense	method_1_13159
+METHOD	net/minecraft/core/dispenser/DispenseBehavior	(Lcom/mojang/serialization/MapCodec;)Lcom/mojang/serialization/MapCodec;	lambda$static$0	method_1_13160
+METHOD	net/minecraft/core/dispenser/DispenseBehavior	(Lnet/minecraft/core/dispenser/BlockSource;Lnet/minecraft/core/Direction;)V	playAnimation	method_1_13161
+METHOD	net/minecraft/core/dispenser/DispenseBehavior	(Lnet/minecraft/core/dispenser/BlockSource;Lnet/minecraft/core/Direction;)V	playDefaultAnimation	method_1_13162
+METHOD	net/minecraft/core/dispenser/DispenseBehavior	(Lnet/minecraft/core/dispenser/BlockSource;)V	playDefaultFailureSound	method_1_13163
+METHOD	net/minecraft/core/dispenser/DispenseBehavior	(Lnet/minecraft/core/dispenser/BlockSource;)V	playDefaultSuccessSound	method_1_13164
+METHOD	net/minecraft/core/dispenser/DispenseBehavior	(Lnet/minecraft/core/dispenser/BlockSource;)V	playFailureSound	method_1_13165
+METHOD	net/minecraft/core/dispenser/DispenseBehavior	(Lnet/minecraft/core/dispenser/BlockSource;)V	playSuccessSound	method_1_13166
+CLASS	net/minecraft/core/dispenser/DispenseBehavior$DispenseResult	class_1_2132
+METHOD	net/minecraft/core/dispenser/DispenseBehavior$DispenseResult	()Lnet/minecraft/core/dispenser/DispenseBehavior$DispenseResult$Failure;	failure	method_1_13167
+METHOD	net/minecraft/core/dispenser/DispenseBehavior$DispenseResult	()Z	shouldStop	method_1_13168
+METHOD	net/minecraft/core/dispenser/DispenseBehavior$DispenseResult	()Lnet/minecraft/core/dispenser/DispenseBehavior$DispenseResult$StoppingFailure;	stoppingFailure	method_1_13169
+METHOD	net/minecraft/core/dispenser/DispenseBehavior$DispenseResult	(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/core/dispenser/DispenseBehavior$DispenseResult$Success;	success	method_1_13170
+CLASS	net/minecraft/core/dispenser/DispenseBehavior$DispenseResult$Failure	class_1_2133
+FIELD	net/minecraft/core/dispenser/DispenseBehavior$DispenseResult$Failure	Lnet/minecraft/core/dispenser/DispenseBehavior$DispenseResult$Failure;	INSTANCE	field_1_13108
+CLASS	net/minecraft/core/dispenser/DispenseBehavior$DispenseResult$StoppingFailure	class_1_2134
+FIELD	net/minecraft/core/dispenser/DispenseBehavior$DispenseResult$StoppingFailure	Lnet/minecraft/core/dispenser/DispenseBehavior$DispenseResult$StoppingFailure;	INSTANCE	field_1_13109
+CLASS	net/minecraft/core/dispenser/DispenseBehavior$DispenseResult$Success	class_1_2135
+FIELD	net/minecraft/core/dispenser/DispenseBehavior$DispenseResult$Success	Lnet/minecraft/world/item/ItemStack;	remaining	comp_1_2339
+METHOD	net/minecraft/world/item/context/UseOnContext	(Lnet/minecraft/world/level/Level;Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/phys/BlockHitResult;)Lnet/minecraft/world/item/context/UseOnContext;	nonPlayer	method_1_13171
+FIELD	net/minecraft/world/level/block/SculkSpreader	Z	canPlaceShriekers	field_1_13110
+METHOD	net/minecraft/world/level/block/SculkSpreader	()Z	canPlaceShriekers	method_1_13172
+METHOD	net/minecraft/world/level/block/SculkSpreader	(Z)Lnet/minecraft/world/level/block/SculkSpreader;	createLevelSpreader	method_1_13173
+METHOD	com/mojang/blaze3d/vertex/SectionBufferBuilder	(I)F	unpackPositionChannel	method_1_13174
+METHOD	net/minecraft/client/gui/screens/ConfirmScreen	(Lnet/minecraft/client/input/KeyEvent;)Z	hasPressedEscape	method_1_13175
+METHOD	net/minecraft/client/particle/WhiteAshParticle$Provider	(Lnet/minecraft/util/RandomSource;)F	randomDirection	method_1_13176
+METHOD	net/minecraft/commands/arguments/StyleArgument	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	lambda$new$0	method_1_13177
+METHOD	net/minecraft/world/level/block/DispenserBlock	()Lnet/minecraft/world/level/block/entity/BlockEntityType;	getBlockEntityType	method_1_13178
+METHOD	net/minecraft/world/level/block/DispenserBlock	(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/world/item/ItemStack;)Ljava/util/List;	getDispenseMethods	method_1_13179
+METHOD	com/mojang/renderpearl/frontend/shaders/SpvUtil	(I)Ljava/lang/String;	validationErrorString	method_1_13180
+CLASS	net/minecraft/commands/arguments/StringArgument$Greedy	class_1_2136
+FIELD	net/minecraft/commands/arguments/StringArgument$Greedy	Lnet/minecraft/commands/arguments/StringArgument$Greedy;	INSTANCE	field_1_13111
+FIELD	net/minecraft/commands/arguments/StringArgument$Greedy	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_13112
+CLASS	net/minecraft/commands/arguments/StringArgument$Quoted	class_1_2137
+FIELD	net/minecraft/commands/arguments/StringArgument$Quoted	Lnet/minecraft/commands/arguments/StringArgument$Quoted;	INSTANCE	field_1_13113
+FIELD	net/minecraft/commands/arguments/StringArgument$Quoted	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_13114
+CLASS	net/minecraft/commands/arguments/StringArgument$Word	class_1_2138
+FIELD	net/minecraft/commands/arguments/StringArgument$Word	Lnet/minecraft/commands/arguments/StringArgument$Word;	INSTANCE	field_1_13115
+FIELD	net/minecraft/commands/arguments/StringArgument$Word	Lnet/minecraft/commands/arguments/SerializableArgument$Type;	TYPE	field_1_13116
+2 is now class_1_2139
+FIELD	net/minecraft/core/dispenser/EquipChestBehavior	Lnet/minecraft/core/dispenser/EquipChestBehavior;	INSTANCE	field_1_13117
+FIELD	net/minecraft/core/dispenser/EquipChestBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13118
+FIELD	net/minecraft/core/registries/BuiltInRegistries	Lnet/minecraft/core/Registry;	DISPENSE_BEHAVIOR_TYPE	field_1_13119
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)V	assertBlockNotPresent	method_1_13181
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/BlockPos;)V	assertBlockPresent	method_1_13182
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/world/entity/Entity;)Z	isNonPlayerEntity	method_1_13183
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;)Z	lambda$assertBlockNotPresent$0	method_1_13184
+METHOD	net/minecraft/gametest/framework/GameTestHelper	(Lnet/minecraft/world/level/block/Block;Lnet/minecraft/core/BlockPos;)Z	lambda$assertBlockPresent$2	method_1_13185
+CLASS	net/minecraft/core/dispenser/DispenseBehaviorIds	class_1_2140
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	ARMOR_STAND	field_1_13120
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	BOAT	field_1_13121
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	BONE_MEAL	field_1_13122
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	BRUSH	field_1_13123
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	CARVED_PUMPKIN	field_1_13124
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	CHEST	field_1_13125
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	DEFAULT	field_1_13126
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	DEFAULT_PROJECTILE	field_1_13127
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	DROPPER	field_1_13128
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	EMPTY_BUCKET	field_1_13129
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	EQUIPMENT	field_1_13130
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	FILLED_BUCKET	field_1_13131
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	FIREWORK_ROCKET	field_1_13132
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	FIRE_CHARGE	field_1_13133
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	FLINT_AND_STEEL	field_1_13134
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	GLASS_BOTTLE	field_1_13135
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	GLOWSTONE	field_1_13136
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	HONEYCOMB	field_1_13137
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	MINECART	field_1_13138
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	POTION	field_1_13139
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	SHEARS	field_1_13140
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	SHULKER_BOX	field_1_13141
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	SPAWN_EGG	field_1_13142
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	THROWN_POTION	field_1_13143
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	TNT	field_1_13144
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	WIND_CHARGE	field_1_13145
+FIELD	net/minecraft/core/dispenser/DispenseBehaviorIds	Lnet/minecraft/resources/ResourceKey;	WITHER_SKELETON_SKULL	field_1_13146
+METHOD	net/minecraft/core/dispenser/DispenseBehaviorIds	(Ljava/lang/String;)Lnet/minecraft/resources/ResourceKey;	key	method_1_13186
+CLASS	net/minecraft/client/gui/components/ItemTabButton	class_1_2141
+FIELD	net/minecraft/client/gui/components/ItemTabButton	F	ANIMATION_SCALE	field_1_13147
+FIELD	net/minecraft/client/gui/components/ItemTabButton	F	ANIMATION_TIME	field_1_13148
+FIELD	net/minecraft/client/gui/components/ItemTabButton	I	ITEM_SIZE	field_1_13149
+FIELD	net/minecraft/client/gui/components/ItemTabButton	F	animationTime	field_1_13150
+FIELD	net/minecraft/client/gui/components/ItemTabButton	Lnet/minecraft/world/item/ItemStack;	icon	field_1_13151
+FIELD	net/minecraft/client/gui/components/ItemTabButton	I	iconXOffset	field_1_13152
+FIELD	net/minecraft/client/gui/components/ItemTabButton	I	iconYOffset	field_1_13153
+FIELD	net/minecraft/client/gui/components/ItemTabButton	Lnet/minecraft/world/item/ItemStack;	secondaryIcon	field_1_13154
+FIELD	net/minecraft/client/gui/components/ItemTabButton	I	secondaryIconSpacing	field_1_13155
+FIELD	net/minecraft/client/gui/components/ItemTabButton	Lnet/minecraft/client/gui/components/WidgetSprites;	sprites	field_1_13156
+FIELD	net/minecraft/client/gui/components/ItemTabButton	I	xOffsetWhenSelected	field_1_13157
+METHOD	net/minecraft/client/gui/components/ItemTabButton	(Lnet/minecraft/client/gui/components/tabs/TabManager;Lnet/minecraft/client/gui/components/tabs/Tab;Lnet/minecraft/client/gui/components/WidgetSprites;)Lnet/minecraft/client/gui/components/ItemTabButton$Builder;	builder	method_1_13187
+METHOD	net/minecraft/client/gui/components/ItemTabButton	()V	startAnimation	method_1_13188
+CLASS	net/minecraft/client/gui/components/ItemTabButton$Builder	class_1_2142
+FIELD	net/minecraft/client/gui/components/ItemTabButton$Builder	I	height	field_1_13158
+FIELD	net/minecraft/client/gui/components/ItemTabButton$Builder	Lnet/minecraft/world/item/ItemStack;	icon	field_1_13159
+FIELD	net/minecraft/client/gui/components/ItemTabButton$Builder	I	iconXOffset	field_1_13160
+FIELD	net/minecraft/client/gui/components/ItemTabButton$Builder	I	iconYOffset	field_1_13161
+FIELD	net/minecraft/client/gui/components/ItemTabButton$Builder	Lnet/minecraft/network/chat/Component;	message	field_1_13162
+FIELD	net/minecraft/client/gui/components/ItemTabButton$Builder	Lnet/minecraft/world/item/ItemStack;	secondaryIcon	field_1_13163
+FIELD	net/minecraft/client/gui/components/ItemTabButton$Builder	I	secondaryIconSpacing	field_1_13164
+FIELD	net/minecraft/client/gui/components/ItemTabButton$Builder	Lnet/minecraft/client/gui/components/WidgetSprites;	sprites	field_1_13165
+FIELD	net/minecraft/client/gui/components/ItemTabButton$Builder	Lnet/minecraft/client/gui/components/tabs/Tab;	tab	field_1_13166
+FIELD	net/minecraft/client/gui/components/ItemTabButton$Builder	Lnet/minecraft/client/gui/components/tabs/TabManager;	tabManager	field_1_13167
+FIELD	net/minecraft/client/gui/components/ItemTabButton$Builder	I	width	field_1_13168
+FIELD	net/minecraft/client/gui/components/ItemTabButton$Builder	I	xOffsetWhenSelected	field_1_13169
+METHOD	net/minecraft/client/gui/components/ItemTabButton$Builder	()Lnet/minecraft/client/gui/components/ItemTabButton;	build	method_1_13189
+METHOD	net/minecraft/client/gui/components/ItemTabButton$Builder	(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/client/gui/components/ItemTabButton$Builder;	icon	method_1_13190
+METHOD	net/minecraft/client/gui/components/ItemTabButton$Builder	(I)Lnet/minecraft/client/gui/components/ItemTabButton$Builder;	iconXOffset	method_1_13191
+METHOD	net/minecraft/client/gui/components/ItemTabButton$Builder	(I)Lnet/minecraft/client/gui/components/ItemTabButton$Builder;	iconYOffset	method_1_13192
+METHOD	net/minecraft/client/gui/components/ItemTabButton$Builder	(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/world/item/ItemStack;I)Lnet/minecraft/client/gui/components/ItemTabButton$Builder;	icons	method_1_13193
+METHOD	net/minecraft/client/gui/components/ItemTabButton$Builder	(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/components/ItemTabButton$Builder;	message	method_1_13194
+METHOD	net/minecraft/client/gui/components/ItemTabButton$Builder	(II)Lnet/minecraft/client/gui/components/ItemTabButton$Builder;	size	method_1_13195
+METHOD	net/minecraft/client/gui/components/ItemTabButton$Builder	(I)Lnet/minecraft/client/gui/components/ItemTabButton$Builder;	xOffsetWhenSelected	method_1_13196
+METHOD	net/minecraft/commands/arguments/ComponentArgument	(Ljava/lang/Object;)Lcom/mojang/brigadier/Message;	lambda$new$0	method_1_13197
+CLASS	net/minecraft/core/dispenser/DispenseBehaviorTypes	class_1_2143
+METHOD	net/minecraft/core/dispenser/DispenseBehaviorTypes	(Lnet/minecraft/core/WritableRegistry;)V	bootstrap	method_1_13198
+FIELD	net/minecraft/core/dispenser/EquipDispenseBehavior	Lnet/minecraft/core/dispenser/EquipDispenseBehavior;	INSTANCE	field_1_13170
+FIELD	net/minecraft/core/dispenser/EquipDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13171
+FIELD	net/minecraft/core/dispenser/ShearDispenseBehavior	Lnet/minecraft/core/dispenser/ShearDispenseBehavior;	INSTANCE	field_1_13172
+FIELD	net/minecraft/core/dispenser/ShearDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13173
+METHOD	net/minecraft/world/item/component/TypedEntityData	(Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/world/entity/EntityType;	getType	method_1_13199
+CLASS	net/minecraft/world/item/slot/TrackingSlotSelector	class_1_2144
+FIELD	net/minecraft/world/item/slot/TrackingSlotSelector	I	selectedCount	field_1_13174
+METHOD	net/minecraft/world/item/slot/TrackingSlotSelector	()I	selectedCount	method_1_13200
+METHOD	net/minecraft/commands/suggestions/CustomSuggestion	(Lcom/mojang/brigadier/suggestion/SuggestionProvider;)Lnet/minecraft/commands/suggestions/CustomSuggestion;	unwrapOrThrow	method_1_13201
+CLASS	net/minecraft/core/dispenser/IgniteDispenseBehavior	class_1_2145
+FIELD	net/minecraft/core/dispenser/IgniteDispenseBehavior	Lnet/minecraft/core/dispenser/IgniteDispenseBehavior;	INSTANCE	field_1_13175
+FIELD	net/minecraft/core/dispenser/IgniteDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13176
+METHOD	net/minecraft/core/dispenser/IgniteDispenseBehavior	(Lnet/minecraft/world/item/ItemStack;)V	lambda$execute$0	method_1_13202
+METHOD	net/minecraft/core/dispenser/IgniteDispenseBehavior	(Lnet/minecraft/world/item/ItemStack;Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;Lnet/minecraft/core/Direction;Lnet/minecraft/world/level/block/state/BlockState;)Z	tryIgnite	method_1_13203
+METHOD	net/minecraft/core/dispenser/IgniteDispenseBehavior	(Lnet/minecraft/server/level/ServerLevel;Lnet/minecraft/core/BlockPos;)Z	tryIgniteExplosiveEntities	method_1_13204
+METHOD	net/minecraft/client/gui/components/MultiLineEditBox	(I)V	setTextColor	method_1_13205
+FIELD	net/minecraft/client/particle/BubbleColumnUpParticle	F	popChance	field_1_13177
+METHOD	net/minecraft/client/renderer/texture/TextureManager	(Ljava/util/Map;Ljava/lang/Void;)V	lambda$reload$2	method_1_13206
+METHOD	net/minecraft/client/renderer/texture/TextureManager	(Lnet/minecraft/client/renderer/texture/TextureManager$Entry;Ljava/util/concurrent/CompletableFuture;)V	lambda$reload$3	method_1_13207
+METHOD	net/minecraft/client/renderer/texture/TextureManager	(Ljava/util/Map;Ljava/lang/Void;Ljava/lang/Throwable;)V	lambda$reload$4	method_1_13208
+METHOD	net/minecraft/client/renderer/texture/TextureManager$Entry	(Ljava/util/concurrent/CompletableFuture;)V	discardPendingReload	method_1_13209
+FIELD	net/minecraft/world/item/component/BlockTransformers	Lnet/minecraft/resources/ResourceKey;	HONEYCOMB	field_1_13178
+METHOD	net/minecraft/commands/arguments/SerializableArgument	(Lcom/mojang/brigadier/arguments/ArgumentType;)Lnet/minecraft/commands/arguments/SerializableArgument;	unwrapOrThrow	method_1_13210
+FIELD	net/minecraft/core/dispenser/DropItemDispenseBehavior	Lnet/minecraft/core/dispenser/DropItemDispenseBehavior;	INSTANCE	field_1_13179
+FIELD	net/minecraft/core/dispenser/DropItemDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13180
+METHOD	net/minecraft/core/dispenser/DropItemDispenseBehavior	(Lnet/minecraft/core/dispenser/BlockSource;Lnet/minecraft/world/item/ItemStack;)Lnet/minecraft/core/Direction;	spawnItem	method_1_13211
+FIELD	net/minecraft/core/dispenser/SpawnMobDispenseBehavior	Lorg/slf4j/Logger;	LOGGER	field_1_13181
+FIELD	net/minecraft/core/dispenser/SpawnMobDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13182
+6 is now class_1_2146
+FIELD	net/minecraft/core/dispenser/SpawnTNTDispenseBehavior	Lnet/minecraft/core/dispenser/SpawnTNTDispenseBehavior;	INSTANCE	field_1_13183
+FIELD	net/minecraft/core/dispenser/SpawnTNTDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13184
+FIELD	net/minecraft/world/level/block/sounds/BlockSoundSets	Lnet/minecraft/resources/ResourceKey;	FIRE	field_1_13185
+FIELD	com/mojang/realmsclient/dto/DownloadSessionResponseDto$Result	Ljava/lang/String;	resourcePackHash	comp_1_2340
+FIELD	com/mojang/realmsclient/dto/DownloadSessionResponseDto$Result	Ljava/lang/String;	resourcePackUrl	comp_1_2341
+METHOD	net/minecraft/client/gui/screens/recipebook/GhostSlots	(Lnet/minecraft/client/Minecraft;Lnet/minecraft/world/inventory/Slot;)Lnet/minecraft/client/gui/components/Tooltip;	getTooltip	method_1_13212
+FIELD	net/minecraft/client/particle/WaterCurrentDownParticle	F	radius	field_1_13186
+FIELD	net/minecraft/client/renderer/pipeline/RenderPipelines	Lcom/mojang/blaze3d/pipeline/RenderPipeline$Snippet;	CLOUDS_IN_FOG_SNIPPET	field_1_13187
+METHOD	net/minecraft/client/renderer/pipeline/RenderPipelines	(Lnet/minecraft/client/renderer/pipeline/variant/TerrainRenderPipelineVariant;Lnet/minecraft/client/renderer/ShaderManager$PipelineCompilationContext;ZLnet/minecraft/client/renderer/oit/OitStage;)Lcom/mojang/blaze3d/pipeline/RenderPipeline;	lambda$dynamicPipelinesToPrecompile$0	method_1_13213
+METHOD	net/minecraft/client/renderer/pipeline/RenderPipelines	(Lnet/minecraft/client/renderer/pipeline/variant/TerrainRenderPipelineVariant;Lnet/minecraft/client/renderer/ShaderManager$PipelineCompilationContext;ZLnet/minecraft/client/renderer/oit/OitStage;)Lcom/mojang/blaze3d/pipeline/RenderPipeline;	lambda$dynamicPipelinesToPrecompile$1	method_1_13214
+FIELD	net/minecraft/client/renderer/pipeline/RenderPipelines$TerrainParameters	Z	checkWaterMask	comp_1_2342
+FIELD	net/minecraft/client/renderer/pipeline/RenderPipelines$TerrainParameters	Z	cloudsInFog	comp_1_2343
+FIELD	net/minecraft/client/renderer/state/OptionsRenderState	Z	improvedFog	field_1_13188
+FIELD	net/minecraft/client/resources/language/ClientLanguage	Ljava/util/Set;	NON_REPLACEABLE_PREFIXES	field_1_13189
+METHOD	net/minecraft/client/resources/language/ClientLanguage	(ZLjava/util/Map;Lnet/minecraft/server/packs/resources/Resource;Ljava/lang/String;Ljava/lang/String;)V	lambda$appendFrom$0	method_1_13215
+METHOD	net/minecraft/commands/arguments/HeightmapTypeArgument	(Ljava/lang/String;)Ljava/lang/String;	lambda$new$0	method_1_13216
+5 is now class_1_2147
+FIELD	net/minecraft/core/dispenser/GrowPlantDispenseBehavior	Lnet/minecraft/core/dispenser/GrowPlantDispenseBehavior;	INSTANCE	field_1_13190
+FIELD	net/minecraft/core/dispenser/GrowPlantDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13191
+FIELD	net/minecraft/core/dispenser/PlaceBoatDispenseBehavior	Lnet/minecraft/core/dispenser/PlaceBoatDispenseBehavior;	INSTANCE	field_1_13192
+FIELD	net/minecraft/core/dispenser/PlaceBoatDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13193
+METHOD	net/minecraft/client/gui/screens/social/PresenceHandler	(Lcom/mojang/authlib/services/response/PresenceResponse;)V	lambda$updatePresence$1	method_1_13217
+METHOD	net/minecraft/client/gui/screens/social/PresenceHandler	(Lcom/mojang/authlib/services/response/PresenceStatusDto;)V	lambda$updatePresenceWith$0	method_1_13218
+METHOD	net/minecraft/client/gui/screens/social/PresenceHandler	(Lcom/mojang/authlib/services/response/PresenceStatusDto;)V	updatePresenceWith	method_1_13219
+CLASS	net/minecraft/client/multiplayer/signaling/package-info	class_1_2148
+9 is now class_1_2149
+FIELD	net/minecraft/core/dispenser/FillBottleDispenseBehavior	Lnet/minecraft/core/dispenser/FillBottleDispenseBehavior;	INSTANCE	field_1_13194
+FIELD	net/minecraft/core/dispenser/FillBottleDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13195
+4 is now class_1_2150
+FIELD	net/minecraft/core/dispenser/FillBucketDispenseBehavior	Lnet/minecraft/core/dispenser/FillBucketDispenseBehavior;	INSTANCE	field_1_13196
+FIELD	net/minecraft/core/dispenser/FillBucketDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13197
+FIELD	net/minecraft/core/dispenser/PlaceBlockDispenseBehavior	Lnet/minecraft/core/dispenser/PlaceBlockDispenseBehavior;	INSTANCE	field_1_13198
+FIELD	net/minecraft/core/dispenser/PlaceBlockDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13199
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeButton	Lnet/minecraft/network/chat/Component;	MORE_RECIPES_TOOLTIP_KEYBOARD	field_1_13200
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeButton	Lnet/minecraft/resources/Identifier;	SLOT_HIGHLIGHT_BACK_SPRITE	field_1_13201
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeButton	Lnet/minecraft/resources/Identifier;	SLOT_HIGHLIGHT_FRONT_SPRITE	field_1_13202
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeButton	Lnet/minecraft/client/gui/screens/recipebook/RecipeBookComponent$RecipePlacer;	recipePlacer	field_1_13203
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeButton	Ljava/util/function/Predicate;	tryOpenOverlay	field_1_13204
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeButton	(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/resources/Identifier;)V	extractHighlight	method_1_13220
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeButton	()Z	openOverlay	method_1_13221
+CLASS	net/minecraft/client/multiplayer/signaling/JsonRpcClient	class_1_2151
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	Lorg/slf4j/Logger;	LOGGER	field_1_13205
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	Ljava/time/Duration;	TIMEOUT	field_1_13206
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	Z	closed	field_1_13207
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	Ljava/util/concurrent/ScheduledExecutorService;	executor	field_1_13208
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	Ljava/lang/StringBuilder;	messageBuffer	field_1_13209
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	Lnet/minecraft/client/multiplayer/signaling/JsonRpcClient$MethodHandler;	methodHandler	field_1_13210
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	I	nextRequestId	field_1_13211
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	Ljava/lang/Runnable;	onConnect	field_1_13212
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	Ljava/lang/Runnable;	onDisconnect	field_1_13213
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	Ljava/util/Map;	pendingRequests	field_1_13214
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	Ljava/util/Set;	pendingSends	field_1_13215
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	Ljava/util/concurrent/CompletableFuture;	sendChain	field_1_13216
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	Ljava/net/http/WebSocket;	webSocket	field_1_13217
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/lang/Throwable;)V	close	method_1_13222
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/lang/String;Ljava/lang/Throwable;)V	fail	method_1_13223
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Lcom/google/gson/JsonObject;)V	handleMessage	method_1_13224
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Lcom/google/gson/JsonElement;Lcom/google/gson/JsonObject;)V	handleResponse	method_1_13225
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/lang/Throwable;Ljava/util/concurrent/CompletableFuture;)V	lambda$close$0	method_1_13226
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/lang/Throwable;Ljava/util/concurrent/CompletableFuture;)V	lambda$close$1	method_1_13227
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(ILjava/lang/String;)Ljava/lang/Object;	lambda$onClose$0	method_1_13228
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/lang/Throwable;)V	lambda$onError$0	method_1_13229
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/net/http/WebSocket;)Ljava/lang/Object;	lambda$onOpen$0	method_1_13230
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/net/http/WebSocket;Ljava/lang/Throwable;)Ljava/lang/Object;	lambda$onOpen$1	method_1_13231
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/net/http/WebSocket;Ljava/lang/String;Z)Ljava/lang/Object;	lambda$onText$0	method_1_13232
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/util/concurrent/CompletableFuture;Ljava/lang/Void;Ljava/lang/Throwable;)V	lambda$send$0	method_1_13233
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/util/concurrent/CompletableFuture;Ljava/lang/String;Ljava/lang/Void;Ljava/lang/Throwable;)V	lambda$send$1	method_1_13234
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(ILcom/google/gson/JsonElement;Ljava/lang/Throwable;)V	lambda$sendRequest$0	method_1_13235
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/util/concurrent/CompletableFuture;Ljava/lang/Void;Ljava/lang/Throwable;)V	lambda$sendRequest$1	method_1_13236
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/util/concurrent/CompletableFuture;Ljava/net/http/WebSocket;Ljava/lang/Throwable;)V	lambda$sendText$0	method_1_13237
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/util/concurrent/CompletableFuture;)V	lambda$withTimeout$0	method_1_13238
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/util/concurrent/ScheduledFuture;Ljava/lang/Object;Ljava/lang/Throwable;)V	lambda$withTimeout$1	method_1_13239
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/net/http/WebSocket;)V	open	method_1_13240
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/net/http/WebSocket;Ljava/lang/String;Z)V	receiveText	method_1_13241
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/lang/String;)Ljava/util/concurrent/CompletableFuture;	send	method_1_13242
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Lcom/google/gson/JsonElement;Lnet/minecraft/server/jsonrpc/JsonRPCErrors;)V	sendError	method_1_13243
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/lang/String;Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;	sendNotification	method_1_13244
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/lang/String;Ljava/util/List;)Ljava/util/concurrent/CompletableFuture;	sendRequest	method_1_13245
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Lcom/google/gson/JsonElement;Lcom/google/gson/JsonElement;)V	sendResponse	method_1_13246
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/lang/String;Ljava/util/concurrent/CompletableFuture;)V	sendText	method_1_13247
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/util/function/Supplier;)Ljava/util/concurrent/CompletableFuture;	submit	method_1_13248
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient	(Ljava/util/concurrent/CompletableFuture;)V	withTimeout	method_1_13249
+CLASS	net/minecraft/client/multiplayer/signaling/JsonRpcClient$MethodHandler	class_1_2152
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcClient$MethodHandler	(Lcom/google/gson/JsonElement;Ljava/lang/String;Lcom/google/gson/JsonElement;)V	onMethod	method_1_13250
+METHOD	net/minecraft/commands/arguments/coordinates/Coordinates	(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate$Parser;)Lnet/minecraft/commands/arguments/coordinates/Coordinates;	parseXYZ	method_1_13251
+METHOD	net/minecraft/commands/arguments/coordinates/Coordinates	(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate$Parser;)Lnet/minecraft/commands/arguments/coordinates/Coordinates;	parseXZ	method_1_13252
+METHOD	net/minecraft/commands/arguments/coordinates/Coordinates	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;	suggestAbsoluteCoordinates	method_1_13253
+METHOD	net/minecraft/commands/arguments/coordinates/Coordinates	(Lcom/mojang/brigadier/context/CommandContext;Ljava/lang/String;)Ljava/util/Collection;	suggestRelevantCoordinates	method_1_13254
+3 is now class_1_2153
+FIELD	net/minecraft/core/dispenser/EmptyBucketDispenseBehavior	Lnet/minecraft/core/dispenser/EmptyBucketDispenseBehavior;	INSTANCE	field_1_13218
+FIELD	net/minecraft/core/dispenser/EmptyBucketDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13219
+FIELD	net/minecraft/server/dedicated/DedicatedServerProperties	I	keyRotationPeriodSeconds	field_1_13220
+METHOD	com/mojang/renderpearl/frontend/shaders/PipelineValidator	(Ljava/lang/String;Ljava/nio/ByteBuffer;Lcom/mojang/renderpearl/api/pipeline/ShaderType;)V	validateSPIRV	method_1_13255
+FIELD	net/minecraft/client/gui/components/tabs/TabNavigationBar	Lnet/minecraft/client/gui/narration/GroupNarration;	NAMED_GROUP_NARRATION	field_1_13221
+METHOD	net/minecraft/client/gui/components/tabs/TabNavigationBar	(Lnet/minecraft/client/gui/components/tabs/TabManager;IIII)Lnet/minecraft/client/gui/components/tabs/TabNavigationBar$Builder;	builder	method_1_13256
+CLASS	net/minecraft/client/gui/components/tabs/TabNavigationBar$Align	class_1_2154
+FIELD	net/minecraft/client/gui/components/tabs/TabNavigationBar$Align	Lnet/minecraft/client/gui/components/tabs/TabNavigationBar$Align;	CENTER	field_1_13222
+FIELD	net/minecraft/client/gui/components/tabs/TabNavigationBar$Align	Lnet/minecraft/client/gui/components/tabs/TabNavigationBar$Align;	LEFT_OR_TOP	field_1_13223
+FIELD	net/minecraft/client/gui/components/tabs/TabNavigationBar$Align	Lnet/minecraft/client/gui/components/tabs/TabNavigationBar$Align;	RIGHT_OR_BOTTOM	field_1_13224
+FIELD	net/minecraft/client/gui/components/tabs/TabNavigationBar$Align	F	value	field_1_13225
+METHOD	net/minecraft/client/gui/components/tabs/TabNavigationBar$Align	()[Lnet/minecraft/client/gui/components/tabs/TabNavigationBar$Align;	$values	method_1_13257
+FIELD	net/minecraft/client/gui/components/tabs/TabNavigationBar$Builder	Ljava/util/Map;	groups	field_1_13226
+FIELD	net/minecraft/client/gui/components/tabs/TabNavigationBar$Builder	Lnet/minecraft/network/chat/Component;	name	field_1_13227
+FIELD	net/minecraft/client/gui/components/tabs/TabNavigationBar$Builder	Lnet/minecraft/client/gui/layouts/LinearLayout$Orientation;	orientation	field_1_13228
+FIELD	net/minecraft/client/gui/components/tabs/TabNavigationBar$Builder	I	spacing	field_1_13229
+METHOD	net/minecraft/client/gui/components/tabs/TabNavigationBar$Builder	(Lnet/minecraft/client/gui/components/tabs/TabNavigationBar$Align;Lnet/minecraft/client/gui/components/TabButton;Lnet/minecraft/client/gui/components/tabs/Tab;)Lnet/minecraft/client/gui/components/tabs/TabNavigationBar$Builder;	addTabToGroup	method_1_13258
+METHOD	net/minecraft/client/gui/components/tabs/TabNavigationBar$Builder	(Lnet/minecraft/client/gui/components/tabs/TabNavigationBar$Align;)Lnet/minecraft/client/gui/components/tabs/TabNavigationBar$TabGroup;	group	method_1_13259
+METHOD	net/minecraft/client/gui/components/tabs/TabNavigationBar$Builder	(Lnet/minecraft/client/gui/components/tabs/TabNavigationBar$Align;)Lnet/minecraft/client/gui/components/tabs/TabNavigationBar$TabGroup;	lambda$group$0	method_1_13260
+METHOD	net/minecraft/client/gui/components/tabs/TabNavigationBar$Builder	(Lnet/minecraft/network/chat/Component;)Lnet/minecraft/client/gui/components/tabs/TabNavigationBar$Builder;	name	method_1_13261
+METHOD	net/minecraft/client/gui/components/tabs/TabNavigationBar$Builder	(I)Lnet/minecraft/client/gui/components/tabs/TabNavigationBar$Builder;	spacing	method_1_13262
+CLASS	net/minecraft/client/gui/components/tabs/TabNavigationBar$TabGroup	class_1_2155
+FIELD	net/minecraft/client/gui/components/tabs/TabNavigationBar$TabGroup	Ljava/util/List;	tabButtons	field_1_13230
+FIELD	net/minecraft/client/gui/components/tabs/TabNavigationBar$TabGroup	Ljava/util/List;	tabs	field_1_13231
+METHOD	net/minecraft/client/gui/components/tabs/TabNavigationBar$TabGroup	(Lnet/minecraft/client/gui/components/TabButton;Lnet/minecraft/client/gui/components/tabs/Tab;)V	add	method_1_13263
+METHOD	net/minecraft/client/gui/components/tabs/TabNavigationBar$TabGroup	()Ljava/util/List;	tabButtons	method_1_13264
+METHOD	net/minecraft/client/gui/components/tabs/TabNavigationBar$TabGroup	()Ljava/util/List;	tabs	method_1_13265
+FIELD	net/minecraft/client/gui/screens/inventory/MerchantScreen	Z	hasSelectedTrade	field_1_13232
+13 is now class_1_2156
+FIELD	net/minecraft/core/dispenser/ConvertToMudDispenseBehavior	Lnet/minecraft/core/dispenser/ConvertToMudDispenseBehavior;	INSTANCE	field_1_13233
+FIELD	net/minecraft/core/dispenser/ConvertToMudDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13234
+FIELD	net/minecraft/network/protocol/login/ClientboundKeyPacket	J	salt	comp_1_2344
+FIELD	net/minecraft/network/protocol/login/ClientboundKeyPacket	Ljava/security/PublicKey;	serverKey	comp_1_2345
+FIELD	net/minecraft/network/protocol/login/ServerboundKeyPacket	Ljava/security/PublicKey;	clientKey	comp_1_2346
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookPage	I	LEFT_PADDING	field_1_13235
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookPage	I	PAGE_CONTROLS_HEIGHT	field_1_13236
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookPage	I	RECIPE_COLUMNS	field_1_13237
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookPage	I	RECIPE_ROWS	field_1_13238
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookPage	I	TOP_PADDING	field_1_13239
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookPage	Ljava/util/List;	children	field_1_13240
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookPage	Lnet/minecraft/client/gui/components/AbstractWidget;	recipeGridWidget	field_1_13241
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookPage	(Lnet/minecraft/client/gui/screens/recipebook/RecipeButton;)V	focusRecipeButton	method_1_13266
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookPage	(Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$init$0	method_1_13267
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookPage	(Lnet/minecraft/client/gui/components/Button;)V	lambda$init$1	method_1_13268
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookPage	(Lnet/minecraft/client/gui/components/Button;)V	lambda$init$2	method_1_13269
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookPage	(Z)V	setRecipeGridActive	method_1_13270
+CLASS	net/minecraft/client/gui/screens/recipebook/RecipeBookPage$TurnPageButton	class_1_2157
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookPage$TurnPageButton	Lnet/minecraft/client/gui/screens/recipebook/RecipeBookPage;	this$0	field_1_13242
+CLASS	net/minecraft/client/multiplayer/signaling/SignalingClient	class_1_2158
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	J	INITIAL_RECONNECT_DELAY_MS	field_1_13243
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Lorg/slf4j/Logger;	LOGGER	field_1_13244
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	J	MAX_RECONNECT_DELAY_MS	field_1_13245
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Ljava/lang/String;	PING	field_1_13246
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Ljava/lang/String;	PONG	field_1_13247
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Lcom/mojang/serialization/Codec;	PRESENCE_CODEC	field_1_13248
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Lcom/mojang/serialization/Codec;	PRESENCE_STATUS_CODEC	field_1_13249
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Ljava/lang/String;	PRESENCE_UPDATED	field_1_13250
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Ljava/time/Duration;	TIMEOUT	field_1_13251
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Z	closed	field_1_13252
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Ljava/util/concurrent/ScheduledThreadPoolExecutor;	executor	field_1_13253
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Ljava/time/Duration;	pingInterval	field_1_13254
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Ljava/util/concurrent/ScheduledFuture;	pingTask	field_1_13255
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Ljava/util/concurrent/ScheduledFuture;	pongTimeout	field_1_13256
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Ljava/util/concurrent/CopyOnWriteArrayList;	presenceListeners	field_1_13257
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	J	reconnectDelayMs	field_1_13258
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Ljava/util/concurrent/ScheduledFuture;	reconnectTask	field_1_13259
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Lnet/minecraft/client/multiplayer/signaling/JsonRpcClient;	rpc	field_1_13260
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Lcom/mojang/authlib/services/MinecraftServicesSignalingService;	signalingService	field_1_13261
+FIELD	net/minecraft/client/multiplayer/signaling/SignalingClient	Z	started	field_1_13262
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	(Lcom/google/gson/JsonElement;)V	acknowledge	method_1_13271
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	(Ljava/util/function/Consumer;)V	addPresenceListener	method_1_13272
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	()V	cancelPongTimeout	method_1_13273
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	()V	connect	method_1_13274
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	(Lnet/minecraft/client/multiplayer/signaling/JsonRpcClient;)V	connect	method_1_13275
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	()Lnet/minecraft/client/multiplayer/signaling/JsonRpcClient;	createConnection	method_1_13276
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	(Ljava/lang/Runnable;)V	execute	method_1_13277
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	(Lcom/google/gson/JsonElement;Ljava/lang/String;Lcom/google/gson/JsonElement;)V	handleMethod	method_1_13278
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	(Lcom/google/gson/JsonElement;Lcom/google/gson/JsonElement;)V	handlePresenceUpdated	method_1_13279
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	()V	lambda$close$0	method_1_13280
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	()V	lambda$connect$0	method_1_13281
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	(Lnet/minecraft/client/multiplayer/signaling/JsonRpcClient;Lcom/mojang/authlib/services/MinecraftServicesSignalingService$PreparedConnection;)Ljava/util/concurrent/CompletionStage;	lambda$connect$1	method_1_13282
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	(Lnet/minecraft/client/multiplayer/signaling/JsonRpcClient;Ljava/net/http/WebSocket;Ljava/lang/Throwable;)V	lambda$connect$2	method_1_13283
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	(Ljava/lang/Throwable;Lnet/minecraft/client/multiplayer/signaling/JsonRpcClient;)V	lambda$connect$3	method_1_13284
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	()V	lambda$sendPing$0	method_1_13285
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	(Ljava/lang/String;)Lcom/mojang/serialization/DataResult;	lambda$static$0	method_1_13286
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	(Ljava/lang/String;)Ljava/lang/String;	lambda$static$1	method_1_13287
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$2	method_1_13288
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	()V	onConnected	method_1_13289
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	()V	onDisconnected	method_1_13290
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	()V	onPongTimeout	method_1_13291
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	(Lcom/google/gson/JsonElement;Ljava/lang/String;)Lcom/google/gson/JsonObject;	paramsObject	method_1_13292
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	()V	reconnect	method_1_13293
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	()V	sendPing	method_1_13294
+METHOD	net/minecraft/client/multiplayer/signaling/SignalingClient	()V	stopHeartbeat	method_1_13295
+FIELD	net/minecraft/core/dispenser/PlaceMinecartDispenseBehavior	Lnet/minecraft/core/dispenser/PlaceMinecartDispenseBehavior;	INSTANCE	field_1_13263
+FIELD	net/minecraft/core/dispenser/PlaceMinecartDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13264
+CLASS	net/minecraft/core/particles/BubbleColumnUpParticleOptions	class_1_2159
+FIELD	net/minecraft/core/particles/BubbleColumnUpParticleOptions	Lcom/mojang/serialization/MapCodec;	CODEC	field_1_13265
+FIELD	net/minecraft/core/particles/BubbleColumnUpParticleOptions	Lnet/minecraft/core/particles/BubbleColumnUpParticleOptions;	HALF_POP	field_1_13266
+FIELD	net/minecraft/core/particles/BubbleColumnUpParticleOptions	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_13267
+FIELD	net/minecraft/core/particles/BubbleColumnUpParticleOptions	F	popChance	comp_1_2347
+METHOD	net/minecraft/core/particles/BubbleColumnUpParticleOptions	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_13296
+FIELD	net/minecraft/server/network/ServerLoginPacketListenerImpl	Ljava/lang/String;	SERVER_NAME	field_1_13268
+FIELD	net/minecraft/server/network/ServerLoginPacketListenerImpl	Z	SHOULD_AUTHENTICATE	field_1_13269
+FIELD	net/minecraft/server/network/ServerLoginPacketListenerImpl	Lnet/minecraft/util/crypto/StreamCryptoUtils$IVPair;	pendingIvSeeds	field_1_13270
+FIELD	net/minecraft/server/network/ServerLoginPacketListenerImpl	Lnet/minecraft/util/crypto/SessionKeys;	pendingSessionKeys	field_1_13271
+FIELD	net/minecraft/server/network/ServerLoginPacketListenerImpl	Lnet/minecraft/util/crypto/SessionKeyExchange;	sessionKeyExchange	field_1_13272
+FIELD	net/minecraft/server/network/ServerLoginPacketListenerImpl$1	Lnet/minecraft/util/crypto/SessionKeys;	val$sessionKeys	field_1_13273
+METHOD	net/minecraft/util/datafix/fixes/DataComponentRemainderFix	(Lnet/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$makeRule$1	method_1_13297
+CLASS	net/minecraft/client/multiplayer/signaling/JsonRpcException	class_1_2160
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcException	I	code	field_1_13274
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcException	Lcom/google/gson/JsonElement;	data	field_1_13275
+FIELD	net/minecraft/client/multiplayer/signaling/JsonRpcException	Ljava/lang/String;	serverMessage	field_1_13276
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcException	()I	code	method_1_13298
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcException	()Lcom/google/gson/JsonElement;	data	method_1_13299
+METHOD	net/minecraft/client/multiplayer/signaling/JsonRpcException	()Ljava/lang/String;	serverMessage	method_1_13300
+11 is now class_1_2161
+FIELD	net/minecraft/core/dispenser/BrushArmadilloDispenseBehavior	Lnet/minecraft/core/dispenser/BrushArmadilloDispenseBehavior;	INSTANCE	field_1_13277
+FIELD	net/minecraft/core/dispenser/BrushArmadilloDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13278
+CLASS	net/minecraft/core/dispenser/TransformBlockDispenseBehavior	class_1_2162
+FIELD	net/minecraft/core/dispenser/TransformBlockDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13279
+FIELD	net/minecraft/core/dispenser/TransformBlockDispenseBehavior	Lnet/minecraft/core/Holder;	transformer	comp_1_2348
+METHOD	net/minecraft/core/dispenser/TransformBlockDispenseBehavior	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_13301
+FIELD	net/minecraft/client/gui/components/debug/DebugScreenEntries	Lnet/minecraft/resources/ResourceKey;	CHUNK_SOURCE_STATS	field_1_13280
+FIELD	net/minecraft/commands/arguments/coordinates/WorldCoordinate	Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate$Parser;	DOUBLE_PARSER_CENTER	field_1_13281
+FIELD	net/minecraft/commands/arguments/coordinates/WorldCoordinate	Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate$Parser;	DOUBLE_PARSER_CORNER	field_1_13282
+FIELD	net/minecraft/commands/arguments/coordinates/WorldCoordinate	Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate$Parser;	INT_PARSER	field_1_13283
+METHOD	net/minecraft/commands/arguments/coordinates/WorldCoordinate	(Z)Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate$Parser;	doubleParser	method_1_13302
+METHOD	net/minecraft/commands/arguments/coordinates/WorldCoordinate	(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate;	lambda$static$0	method_1_13303
+METHOD	net/minecraft/commands/arguments/coordinates/WorldCoordinate	(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate;	lambda$static$1	method_1_13304
+CLASS	net/minecraft/commands/arguments/coordinates/WorldCoordinate$Parser	class_1_2163
+METHOD	net/minecraft/commands/arguments/coordinates/WorldCoordinate$Parser	(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate;	parse	method_1_13305
+FIELD	net/minecraft/core/dispenser/EquipSulfurCubeDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13284
+1 is now class_1_2164
+FIELD	net/minecraft/core/dispenser/PlaceArmorStandDispenseBehavior	Lnet/minecraft/core/dispenser/PlaceArmorStandDispenseBehavior;	INSTANCE	field_1_13285
+FIELD	net/minecraft/core/dispenser/PlaceArmorStandDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13286
+CLASS	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior	class_1_2165
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior	Lnet/minecraft/core/dispenser/ShootProjectileDispenseBehavior;	DEFAULT	field_1_13287
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior	F	DEFAULT_POWER	field_1_13288
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior	Lnet/minecraft/core/dispenser/ShootProjectileDispenseBehavior$DispenseSound;	DEFAULT_SOUND	field_1_13289
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior	F	DEFAULT_UNCERTAINTY	field_1_13290
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13291
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior	Lnet/minecraft/world/phys/Vec3;	offset	comp_1_2349
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior	F	power	comp_1_2350
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior	D	scale	comp_1_2351
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior	Ljava/util/Optional;	sound	comp_1_2352
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior	F	uncertainty	comp_1_2353
+METHOD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior	()Lnet/minecraft/core/dispenser/ShootProjectileDispenseBehavior$Builder;	builder	method_1_13306
+METHOD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_13307
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior$Builder	Lnet/minecraft/world/phys/Vec3;	offset	field_1_13292
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior$Builder	D	scale	field_1_13293
+METHOD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior$Builder	(Lnet/minecraft/world/phys/Vec3;D)Lnet/minecraft/core/dispenser/ShootProjectileDispenseBehavior$Builder;	position	method_1_13308
+METHOD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior$Builder	()Lnet/minecraft/core/dispenser/ShootProjectileDispenseBehavior$Builder;	positionJustOutside	method_1_13309
+METHOD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior$Builder	(Lnet/minecraft/core/dispenser/ShootProjectileDispenseBehavior$DispenseSound;)Lnet/minecraft/core/dispenser/ShootProjectileDispenseBehavior$Builder;	sound	method_1_13310
+CLASS	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior$DispenseSound	class_1_2166
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior$DispenseSound	Lcom/mojang/serialization/Codec;	CODEC	field_1_13294
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior$DispenseSound	Lnet/minecraft/util/valueproviders/FloatProvider;	pitch	comp_1_2354
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior$DispenseSound	Lnet/minecraft/core/Holder;	sound	comp_1_2355
+FIELD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior$DispenseSound	Lnet/minecraft/util/valueproviders/FloatProvider;	volume	comp_1_2356
+METHOD	net/minecraft/core/dispenser/ShootProjectileDispenseBehavior$DispenseSound	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_13311
+CLASS	net/minecraft/core/particles/WaterCurrentDownParticleOptions	class_1_2167
+FIELD	net/minecraft/core/particles/WaterCurrentDownParticleOptions	Lcom/mojang/serialization/MapCodec;	CODEC	field_1_13295
+FIELD	net/minecraft/core/particles/WaterCurrentDownParticleOptions	Lnet/minecraft/core/particles/WaterCurrentDownParticleOptions;	DEFAULT	field_1_13296
+FIELD	net/minecraft/core/particles/WaterCurrentDownParticleOptions	Lnet/minecraft/network/codec/StreamCodec;	STREAM_CODEC	field_1_13297
+FIELD	net/minecraft/core/particles/WaterCurrentDownParticleOptions	F	radius	comp_1_2357
+METHOD	net/minecraft/core/particles/WaterCurrentDownParticleOptions	(Lcom/mojang/serialization/codecs/RecordCodecBuilder$Instance;)Lcom/mojang/datafixers/kinds/App;	lambda$static$0	method_1_13312
+CLASS	net/minecraft/commands/arguments/coordinates/LocalCoordinates	class_1_2168
+FIELD	net/minecraft/commands/arguments/coordinates/LocalCoordinates	C	PREFIX_LOCAL_COORDINATE	field_1_13298
+METHOD	net/minecraft/commands/arguments/coordinates/LocalCoordinates	(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/coordinates/LocalCoordinates;	parseXYZ	method_1_13313
+METHOD	net/minecraft/commands/arguments/coordinates/LocalCoordinates	(Lcom/mojang/brigadier/StringReader;)Lnet/minecraft/commands/arguments/coordinates/LocalCoordinates;	parseXZ	method_1_13314
+METHOD	net/minecraft/commands/arguments/coordinates/LocalCoordinates	(Lcom/mojang/brigadier/StringReader;I)D	readDouble	method_1_13315
+CLASS	net/minecraft/commands/arguments/coordinates/LocalCoordinates$XZ	class_1_2169
+FIELD	net/minecraft/commands/arguments/coordinates/LocalCoordinates$XZ	Lnet/minecraft/world/phys/Vec3;	UP	field_1_13299
+FIELD	net/minecraft/commands/arguments/coordinates/LocalCoordinates$XZ	D	forwards	comp_1_2358
+FIELD	net/minecraft/commands/arguments/coordinates/LocalCoordinates$XZ	D	left	comp_1_2359
+METHOD	net/minecraft/commands/arguments/coordinates/LocalCoordinates$XZ	(Lnet/minecraft/world/phys/Vec3;Lnet/minecraft/world/phys/Vec2;)Lnet/minecraft/world/phys/Vec3;	apply	method_1_13316
+FIELD	net/minecraft/commands/arguments/coordinates/WorldCoordinates	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_MIXED_TYPE	field_1_13300
+FIELD	net/minecraft/commands/arguments/coordinates/WorldCoordinates	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_NOT_COMPLETE_2D	field_1_13301
+FIELD	net/minecraft/commands/arguments/coordinates/WorldCoordinates	Lcom/mojang/brigadier/exceptions/SimpleCommandExceptionType;	ERROR_NOT_COMPLETE_3D	field_1_13302
+FIELD	net/minecraft/commands/arguments/coordinates/WorldCoordinates	Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate;	UNUSED	field_1_13303
+METHOD	net/minecraft/commands/arguments/coordinates/WorldCoordinates	(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate$Parser;)Lnet/minecraft/commands/arguments/coordinates/WorldCoordinates;	parseXYZ	method_1_13317
+METHOD	net/minecraft/commands/arguments/coordinates/WorldCoordinates	(Lcom/mojang/brigadier/StringReader;Lnet/minecraft/commands/arguments/coordinates/WorldCoordinate$Parser;)Lnet/minecraft/commands/arguments/coordinates/WorldCoordinates;	parseXZ	method_1_13318
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	Lnet/minecraft/network/chat/Component;	FILTER_BUTTON_NAME	field_1_13304
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	I	MIN_WIDTH	field_1_13305
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	Lnet/minecraft/network/chat/Component;	SEARCH_BOX_NAME	field_1_13306
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	I	TAB_HEIGHT	field_1_13307
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	I	TAB_ICON_SPACING	field_1_13308
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	Lnet/minecraft/client/gui/components/WidgetSprites;	TAB_SPRITES	field_1_13309
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	I	TAB_TWO_ICONS_X_OFFSET	field_1_13310
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	I	TAB_WIDTH	field_1_13311
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	I	TAB_X_OFFSET_WHEN_SELECTED	field_1_13312
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	Ljava/util/List;	children	field_1_13313
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	Lnet/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent;	overlay	field_1_13314
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	I	screenHeight	field_1_13315
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	I	screenWidth	field_1_13316
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	Lnet/minecraft/client/gui/components/tabs/TabNavigationBar;	tabBar	field_1_13317
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	Lnet/minecraft/client/gui/components/tabs/TabManager;	tabManager	field_1_13318
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	()Z	closeOverlay	method_1_13319
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	()V	focusOverlay	method_1_13320
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	()Z	focusSearchBox	method_1_13321
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	()Ljava/util/List;	getActiveChildren	method_1_13322
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Lnet/minecraft/world/inventory/Slot;)Lnet/minecraft/client/gui/components/Tooltip;	getGhostSlotTooltip	method_1_13323
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Lnet/minecraft/world/item/crafting/ExtendedRecipeBookCategory;Z)Z	hasNewRecipes	method_1_13324
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Lnet/minecraft/world/item/crafting/ExtendedRecipeBookCategory;)Z	hasSelectedRecipes	method_1_13325
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	()V	hideOverlay	method_1_13326
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Lnet/minecraft/client/gui/GuiGraphicsExtractor;)V	lambda$extractWidgetRenderState$0	method_1_13327
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$extractWidgetRenderState$1	method_1_13328
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Lnet/minecraft/client/gui/GuiGraphicsExtractor;Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$extractWidgetRenderState$2	method_1_13329
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Lnet/minecraft/client/gui/components/AbstractWidget;)Ljava/util/stream/Stream;	lambda$getNarratables$0	method_1_13330
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$new$0	method_1_13331
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$new$1	method_1_13332
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Lnet/minecraft/client/gui/components/tabs/Tab;)V	lambda$new$2	method_1_13333
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Lnet/minecraft/client/gui/components/tabs/Tab;)V	lambda$new$3	method_1_13334
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Lnet/minecraft/client/gui/components/ItemTabButton$Builder;Lnet/minecraft/client/gui/screens/recipebook/RecipeBookComponent$TabInfo;Lnet/minecraft/world/item/ItemStack;)V	lambda$updateTabs$0	method_1_13335
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Lnet/minecraft/client/gui/components/ItemTabButton$Builder;Lnet/minecraft/client/gui/screens/recipebook/RecipeBookComponent$TabInfo;)V	lambda$updateTabs$1	method_1_13336
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Z)Z	repeatLastRecipe	method_1_13337
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent	(Lnet/minecraft/client/gui/screens/recipebook/RecipeButton;)Z	tryOpenOverlay	method_1_13338
+CLASS	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent$RecipePlacer	class_1_2170
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent$RecipePlacer	(Lnet/minecraft/client/gui/screens/recipebook/RecipeCollection;Lnet/minecraft/world/item/crafting/display/RecipeDisplayId;Z)V	placeRecipe	method_1_13339
+FIELD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent$TabInfo	Lnet/minecraft/network/chat/Component;	name	comp_1_2360
+METHOD	net/minecraft/client/gui/screens/recipebook/RecipeBookComponent$TabInfo	(Lnet/minecraft/world/item/crafting/RecipeBookCategory;)Lnet/minecraft/network/chat/Component;	categoryName	method_1_13340
+METHOD	net/minecraft/client/gui/screens/multiplayer/ServerSelectionList	()V	added	method_1_13341
+METHOD	net/minecraft/client/gui/screens/multiplayer/ServerSelectionList	()V	pingVisibleServers	method_1_13342
+METHOD	net/minecraft/client/gui/screens/multiplayer/ServerSelectionList$OnlineServerEntry	()V	onPersistentDataChanged	method_1_13343
+METHOD	net/minecraft/client/gui/screens/multiplayer/ServerSelectionList$OnlineServerEntry	()V	pingIfNeeded	method_1_13344
+METHOD	net/minecraft/client/gui/screens/multiplayer/ServerSelectionList$OnlineServerEntry	()V	refreshIcon	method_1_13345
+METHOD	net/minecraft/client/gui/screens/multiplayer/ServerSelectionList$OnlineServerEntry	()V	reopen	method_1_13346
+10 is now class_1_2171
+FIELD	net/minecraft/core/dispenser/ChargeRespawnAnchorDispenseBehavior	Lnet/minecraft/core/dispenser/ChargeRespawnAnchorDispenseBehavior;	INSTANCE	field_1_13319
+FIELD	net/minecraft/core/dispenser/ChargeRespawnAnchorDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13320
+CLASS	net/minecraft/core/dispenser/InsertIntoContainerDispenseBehavior	class_1_2172
+FIELD	net/minecraft/core/dispenser/InsertIntoContainerDispenseBehavior	Lnet/minecraft/core/dispenser/InsertIntoContainerDispenseBehavior;	INSTANCE	field_1_13321
+FIELD	net/minecraft/core/dispenser/InsertIntoContainerDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13322
+METHOD	net/minecraft/util/datafix/fixes/SwingAnimationComponentSplitFix	(Ljava/lang/String;)Ljava/util/stream/Stream;	lambda$makeRule$0	method_1_13347
+METHOD	net/minecraft/util/datafix/fixes/SwingAnimationComponentSplitFix	(Lnet/minecraft/util/datafix/ExtraDataFixUtils$ComponentIdManipulator;Lcom/mojang/serialization/Dynamic;)Lcom/mojang/serialization/Dynamic;	lambda$makeRule$2	method_1_13348
+FIELD	net/minecraft/client/gui/screens/dialog/input/InputControlHandlers	Ljava/util/function/Predicate;	EMAIL_PREDICATE	field_1_13323
+METHOD	net/minecraft/client/gui/screens/dialog/input/InputControlHandlers	(Lnet/minecraft/client/gui/components/AbstractWidget;Ljava/lang/String;)V	checkForSignsOfPII	method_1_13349
+METHOD	net/minecraft/client/gui/screens/dialog/input/InputControlHandlers$TextInputHandler	(Lnet/minecraft/client/gui/components/MultiLineEditBox;Ljava/lang/String;)V	lambda$addControl$1	method_1_13350
+METHOD	net/minecraft/client/gui/screens/dialog/input/InputControlHandlers$TextInputHandler	(Lnet/minecraft/client/gui/components/EditBox;Ljava/lang/String;)V	lambda$addControl$2	method_1_13351
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	Lnet/minecraft/network/chat/Component;	DESTROY_ITEM_GROUP_NAME	field_1_13324
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	I	HOTBAR_TAB_GROUP	field_1_13325
+FIELD	net/minecraft/client/gui/screens/inventory/AbstractContainerScreen	I	RECIPE_BOOK_TAB_GROUP	field_1_13326
+FIELD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	I	BORDER_PADDING	field_1_13327
+FIELD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	I	CRAFTING_GRID_HEIGHT	field_1_13328
+FIELD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	I	CRAFTING_GRID_WIDTH	field_1_13329
+FIELD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	Lnet/minecraft/client/gui/components/WidgetSprites;	CRAFTING_SPRITES	field_1_13330
+FIELD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	Lnet/minecraft/client/gui/components/WidgetSprites;	FURNACE_SPRITES	field_1_13331
+FIELD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	I	columns	field_1_13332
+FIELD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	Lnet/minecraft/client/gui/screens/recipebook/RecipeButton;	opener	field_1_13333
+FIELD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	Lnet/minecraft/client/gui/screens/recipebook/RecipeBookComponent$RecipePlacer;	recipePlacer	field_1_13334
+METHOD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	(Lnet/minecraft/world/item/crafting/display/RecipeDisplay;Lnet/minecraft/util/context/ContextMap;)Ljava/util/List;	calculateCraftingIngredientPositions	method_1_13352
+METHOD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	(Lnet/minecraft/world/item/crafting/display/RecipeDisplay;Lnet/minecraft/util/context/ContextMap;)Ljava/util/List;	calculateSmeltingIngredientPositions	method_1_13353
+METHOD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	(IILjava/util/List;)Lnet/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent$Pos;	createGridPos	method_1_13354
+METHOD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	()V	focusFirstButton	method_1_13355
+METHOD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	()Lnet/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent$OverlayRecipeButton;	getFocusedButton	method_1_13356
+METHOD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	()Lnet/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent$OverlayRecipeButton;	getHoveredButton	method_1_13357
+METHOD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	()Lnet/minecraft/client/gui/screens/recipebook/RecipeButton;	getOpener	method_1_13358
+METHOD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent	(Lnet/minecraft/util/context/ContextMap;Ljava/util/List;Lnet/minecraft/world/item/crafting/display/SlotDisplay;III)V	lambda$calculateCraftingIngredientPositions$0	method_1_13359
+FIELD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent$OverlayRecipeButton	Lnet/minecraft/world/item/ItemStack;	result	field_1_13335
+FIELD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent$OverlayRecipeButton	Lnet/minecraft/client/gui/components/WidgetSprites;	sprites	field_1_13336
+FIELD	net/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent$OverlayRecipeButton	Lnet/minecraft/client/gui/screens/recipebook/OverlayRecipeComponent;	this$0	field_1_13337
+METHOD	net/minecraft/client/gui/screens/worldselection/WorldSelectionList	(Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList;Lnet/minecraft/client/gui/screens/worldselection/WorldSelectionList$Entry;)V	lambda$fillLevels$1	method_1_13360
+METHOD	net/minecraft/client/gui/screens/worldselection/WorldSelectionList$Entry	()V	reopen	method_1_13361
+FIELD	net/minecraft/client/multiplayer/ClientHandshakePacketListenerImpl	Lnet/minecraft/util/crypto/StreamCryptoUtils$IVPair;	pendingIvSeeds	field_1_13338
+FIELD	net/minecraft/client/multiplayer/ClientHandshakePacketListenerImpl	Lnet/minecraft/util/crypto/SessionKeys;	pendingSessionKeys	field_1_13339
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractRecipeBookScreen	()I	getRecipeBookButtonTabOrderGroup	method_1_13362
+METHOD	net/minecraft/client/gui/screens/inventory/AbstractRecipeBookScreen	(Lnet/minecraft/world/inventory/Slot;)Lnet/minecraft/client/gui/components/Tooltip;	lambda$updateSlotWidgets$0	method_1_13363
+FIELD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	Lnet/minecraft/network/chat/Component;	BOTTOM_TAB_BAR_NAME	field_1_13340
+FIELD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	I	SCROLL_MARGIN_ROWS	field_1_13341
+FIELD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	I	TAB_SPACING	field_1_13342
+FIELD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	Lnet/minecraft/network/chat/Component;	TITLE	field_1_13343
+FIELD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	Lnet/minecraft/network/chat/Component;	TOP_TAB_BAR_NAME	field_1_13344
+FIELD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	Lnet/minecraft/client/gui/components/tabs/TabNavigationBar;	tabBarBottom	field_1_13345
+FIELD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	Lnet/minecraft/client/gui/components/tabs/TabNavigationBar;	tabBarTop	field_1_13346
+FIELD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	Lnet/minecraft/client/gui/components/tabs/TabManager;	tabManager	field_1_13347
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	(Lnet/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen;)Lnet/minecraft/client/Minecraft;	access$000	method_1_13364
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	(Lnet/minecraft/client/gui/GuiGraphicsExtractor;)V	extractUnselectedTabButtons	method_1_13365
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	(Ljava/lang/String;)V	lambda$init$0	method_1_13366
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	(Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$new$0	method_1_13367
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	(Lnet/minecraft/client/gui/components/AbstractWidget;)V	lambda$new$1	method_1_13368
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	(Lnet/minecraft/client/gui/components/tabs/Tab;)V	lambda$new$2	method_1_13369
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	(Lnet/minecraft/client/gui/components/tabs/Tab;)V	lambda$new$3	method_1_13370
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	()Lnet/minecraft/client/gui/components/Tooltip;	lambda$updateSlotWidgets$0	method_1_13371
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	(Lnet/minecraft/world/item/CreativeModeTab;)V	selectTab	method_1_13372
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen	(Lnet/minecraft/client/input/KeyEvent;)Z	tryScrollGrid	method_1_13373
+CLASS	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen$CreativeItemSlotWidget	class_1_2173
+FIELD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen$CreativeItemSlotWidget	Lnet/minecraft/client/gui/narration/GroupNarration;	GRID_NARRATION	field_1_13348
+FIELD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen$CreativeItemSlotWidget	Lnet/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen;	this$0	field_1_13349
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen$CreativeItemSlotWidget	()Lnet/minecraft/client/gui/components/Tooltip;	lambda$new$0	method_1_13374
+CLASS	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen$CreativeModeTabAdapter	class_1_2174
+FIELD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen$CreativeModeTabAdapter	Lnet/minecraft/world/item/CreativeModeTab;	tab	field_1_13350
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen$CreativeModeTabAdapter	()Lnet/minecraft/world/item/CreativeModeTab;	tab	method_1_13375
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen$CustomCreativeSlot	()I	row	method_1_13376
+CLASS	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen$DestroyItemSlotWidget	class_1_2175
+FIELD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen$DestroyItemSlotWidget	Lnet/minecraft/client/gui/components/Tooltip;	TOOLTIP	field_1_13351
+METHOD	net/minecraft/client/gui/screens/inventory/CreativeModeInventoryScreen$DestroyItemSlotWidget	()Lnet/minecraft/client/gui/components/Tooltip;	lambda$new$0	method_1_13377
+8 is now class_1_2176
+FIELD	net/minecraft/core/dispenser/SpawnGolemFromCarvedPumpkinDispenseBehavior	Lnet/minecraft/core/dispenser/SpawnGolemFromCarvedPumpkinDispenseBehavior;	INSTANCE	field_1_13352
+FIELD	net/minecraft/core/dispenser/SpawnGolemFromCarvedPumpkinDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13353
+7 is now class_1_2177
+FIELD	net/minecraft/core/dispenser/SpawnWitherFromWitherSkeletonSkullDispenseBehavior	Lnet/minecraft/core/dispenser/SpawnWitherFromWitherSkeletonSkullDispenseBehavior;	INSTANCE	field_1_13354
+FIELD	net/minecraft/core/dispenser/SpawnWitherFromWitherSkeletonSkullDispenseBehavior	Lcom/mojang/serialization/MapCodec;	MAP_CODEC	field_1_13355
+Done!
